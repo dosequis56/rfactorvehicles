@@ -1,0 +1,288 @@
+// ASMG Formula Hybrid-21 Ingame car generation file
+//----------------------------------------
+
+SearchPath=<VEHDIR>
+SearchPath=<VEHDIR>\ASMG_F1_2021
+SearchPath=<VEHDIR>\ASMG_F1_2021\GMT
+SearchPath=<VEHDIR>\ASMG_F1_2021\MAPS
+SearchPath=<VEHDIR>\ASMG_F1_2021\MATERIALS
+SearchPath=<VEHDIR>\ASMG_F1_2021\RIMS
+SearchPath=<VEHDIR>\ASMG_F1_2021\TIRES
+SearchPath=<VEHDIR>\ASMG_F1_2021\TEAMS
+
+SearchPath=.
+SearchPath=ASMG_F1_2021
+SearchPath=ASMG_F1_2021\GMT
+SearchPath=ASMG_F1_2021\MAPS
+SearchPath=ASMG_F1_2021\MATERIALS
+SearchPath=ASMG_F1_2021\RIMS
+SearchPath=ASMG_F1_2021\TIRES
+SearchPath=ASMG_F1_2021\TEAMS
+
+MaterialPath=<VEHDIR>\ASMG_F1_2021\MATERIALS
+MaterialPath=ASMG_F1_2021\MATERIALS
+
+MASFile=cmaps.mas
+
+//----------------------------------------
+
+Instance=SLOT<ID>
+{
+  Moveable=True
+  MeshFile=ASMG_F1_2021_BODY.GMT         CollTarget=False HATTarget=False LODIn=(0)  LODOut=(10)  ShadowCaster=(True, Solid) Reflect=NoLOD
+  MeshFile=ASMG_F1_2021_BODY_LOD1.GMT    CollTarget=False HATTarget=False LODIn=(10) LODOut=(20)  ShadowCaster=(True, Solid) Reflect=NoLOD
+  MeshFile=ASMG_F1_2021_BODY_LOD2.GMT    CollTarget=False HATTarget=False LODIn=(20) LODOut=(60)  ShadowCaster=False Reflect=NoLOD
+  MeshFile=ASMG_F1_2021_BODY_LOD3.GMT    CollTarget=False HATTarget=False LODIn=(60) LODOut=(500) ShadowCaster=False Reflect=NoLOD
+
+  MeshFile=ASMG_F1_2021_COLL.GMT         CollTarget=True  HATTarget=False Render=False                 LODIn=(0) LODOut=(200)
+  MeshFile=ASMG_F1_2021_UNDERSHADOWS.GMT CollTarget=False HATTarget=False AmbientObject=(True,Texture) LODIn=(0) LODOut=(200)
+
+  Actor=VEHICLE
+
+/////////////////////////////////////////////////// COCKPIT ///////////////////////////////////////////////////
+
+<STARTUPGRADES>
+
+  Instance=COCKPIT<UPNUMBER>
+  {
+    Moveable=True
+    MeshFile=<HALO>.GMT                    CollTarget=False HATTarget=False LODIn=(0) LODOut=(4) ShadowCaster=(True, Solid) Reflect=NoLOD
+    MeshFile=ASMG_F1_2021_COCKPIT_INT.GMT  CollTarget=False HATTarget=False LODIn=(0) LODOut=(4) ShadowCaster=(True, Solid) Reflect=NoLOD
+    MeshFile=ASMG_F1_2021_LMIRROR_IN.GMT   CollTarget=False HATTarget=False LODIn=(0) LODOut=(4) ShadowCaster=(True, Solid) Reflect=NoLOD
+    MeshFile=ASMG_F1_2021_RMIRROR_IN.GMT   CollTarget=False HATTarget=False LODIn=(0) LODOut=(4) ShadowCaster=(True, Solid) Reflect=NoLOD
+    MeshFile=ASMG_F1_2021_MIRROR_L.GMT     CollTarget=False HATTarget=False LODIn=(0) LODOut=(4) ShadowCaster=(True, Solid) Reflect=NoLOD
+    MeshFile=ASMG_F1_2021_MIRROR_R.GMT     CollTarget=False HATTarget=False LODIn=(0) LODOut=(4) ShadowCaster=(True, Solid) Reflect=NoLOD
+    MeshFile=ASMG_F1_2021_WINDSCREEN.GMT   CollTarget=False HATTarget=False LODIn=(0) LODOut=(4) ShadowCaster=(True, Solid) Reflect=NoLOD
+  }
+
+<STOPUPGRADES>
+
+  Instance=BODYIN
+  {
+    Moveable=True
+    MeshFile=ASMG_F1_2021_COCKPIT_EXT.GMT  CollTarget=False HATTarget=False LODIn=(0) LODOut=(60) ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_HALO.GMT         CollTarget=False HATTarget=False LODIn=(0) LODOut=(200) ShadowCaster=(True, Solid) Reflect=True
+  }
+
+/////////////////////////////////////////////////// STEERING WHEEL ///////////////////////////////////////////////////
+
+  Instance=WHEEL
+  {
+    Moveable=True
+    MeshFile=ASMG_F1_2021_SWHEEL_IN.GMT    CollTarget=False HATTarget=False LODIn=(0) LODOut=(4)  ShadowCaster=(True, Solid) Reflect=NoLOD
+    MeshFile=ASMG_F1_2021_SWHEEL_EX.GMT    CollTarget=False HATTarget=False LODIn=(4) LODOut=(60) ShadowCaster=False Reflect=NoLOD
+  }
+
+/////////////////////////////////////////////////// DRIVER BODY ///////////////////////////////////////////////////
+
+  Instance=DRIVER
+  {
+    Moveable=True
+    MeshFile=ASMG_F1_2021_DRIVER.GMT       CollTarget=False HATTarget=False LODIn=(0)  LODOut=(40) ShadowCaster=False Reflect=NoLOD
+    AnimFile=ASMG_F1_2021_STEER.ANM
+  }
+
+///////////////////////////////////////////////// HELMET ///////////////////////////////////////////////////
+
+  Instance=HELMET<UPNUMBER>
+  {
+    Moveable=True
+    MeshFile=ASMG_F1_2021_HELMET_<6789>.GMT       CollTarget=False HATTarget=False LODIn=(0)  LODOut=(4)   ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_HELMET_<6789>_LOD1.GMT  CollTarget=False HATTarget=False LODIn=(4)  LODOut=(20)  ShadowCaster=False Reflect=True
+    MeshFile=ASMG_F1_2021_HELMET_<6789>_LOD2.GMT  CollTarget=False HATTarget=False LODIn=(20) LODOut=(500) ShadowCaster=False Reflect=NoLOD
+  }
+
+/////////////////////////////////////////////////// FRONT WING ///////////////////////////////////////////////////
+
+  Instance=FWING
+  {
+    Moveable=True
+    MeshFile=ASMG_F1_2021_WING_F.GMT            CollTarget=False HATTarget=False LODIn=(0)  LODOut=(10)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_WING_F_LOD1.GMT       CollTarget=False HATTarget=False LODIn=(10) LODOut=(20)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_WING_F_LOD2.GMT       CollTarget=False HATTarget=False LODIn=(20) LODOut=(60)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_WING_F_LOD3.GMT       CollTarget=False HATTarget=False LODIn=(60) LODOut=(500) ShadowCaster=False Reflect=True
+  }
+
+  Instance=DEBRIS1
+  {
+    Moveable=True
+    MeshFile=ASMG_F1_2021_BBOARD_L.GMT  CollTarget=False HATTarget=False LODIn=(0) LODOut=(200) ShadowCaster=(True, Solid) Reflect=True
+  }
+
+  Instance=DEBRIS2
+  {
+    Moveable=True
+    MeshFile=ASMG_F1_2021_BBOARD_R.GMT  CollTarget=False HATTarget=False LODIn=(0) LODOut=(200) ShadowCaster=(True, Solid) Reflect=True
+  }
+
+/////////////////////////////////////////////////// REAR WING ///////////////////////////////////////////////////
+
+  Instance=RWING
+  {
+    Moveable=True
+    MeshFile=ASMG_F1_2021_WING_R.GMT            CollTarget=False HATTarget=False LODIn=(0)  LODOut=(10)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_WING_R_LOD1.GMT       CollTarget=False HATTarget=False LODIn=(10) LODOut=(20)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_WING_R_LOD2.GMT       CollTarget=False HATTarget=False LODIn=(20) LODOut=(60)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_WING_R_LOD3.GMT       CollTarget=False HATTarget=False LODIn=(60) LODOut=(500) ShadowCaster=False Reflect=True
+  }
+
+  Instance=REARFLAP
+  {
+    Moveable=True
+    MeshFile=ASMG_F1_2021_WING_R_DRS.GMT   CollTarget=False HATTarget=False LODIn=(0) LODOut=(500) ShadowCaster=(True, Solid) Reflect=True
+  }
+
+/////////////////////////////////////////////////// CHASSIS PARTS ///////////////////////////////////////////////////
+
+  Instance=CHASSIS
+  {
+    Moveable=True
+    MeshFile=ASMG_F1_2021_ANTENNA.GMT           CollTarget=False HATTarget=False LODIn=(0)  LODOut=(60)  ShadowCaster=False Reflect=True
+    MeshFile=ASMG_F1_2021_CAM_FRONT.GMT         CollTarget=False HATTarget=False LODIn=(0)  LODOut=(60)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_CAM_TOP.GMT           CollTarget=False HATTarget=False LODIn=(0)  LODOut=(200) ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_CAM_TV.GMT            CollTarget=False HATTarget=False LODIn=(0)  LODOut=(200) ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_CAM360.GMT            CollTarget=False HATTarget=False LODIn=(0)  LODOut=(60)  ShadowCaster=False Reflect=True
+    MeshFile=ASMG_F1_2021_CARBON_FLOOR<12>.GMT  CollTarget=False HATTarget=False LODIn=(0)  LODOut=(120) ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_DETAILS.GMT           CollTarget=False HATTarget=False LODIn=(0)  LODOut=(60)  ShadowCaster=False Reflect=True
+    MeshFile=ASMG_F1_2021_EXHAUST.GMT           CollTarget=False HATTarget=False LODIn=(0)  LODOut=(60)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_RADIATORS.GMT         CollTarget=False HATTarget=False LODIn=(0)  LODOut=(60)  ShadowCaster=False Reflect=True
+    MeshFile=ASMG_F1_2021_RLIGHTS.GMT           CollTarget=False HATTarget=False LODIn=(0)  LODOut=(60)  ShadowCaster=False Reflect=True
+    MeshFile=ASMG_F1_2021_WINDSCREEN.GMT        CollTarget=False HATTarget=False LODIn=(0)  LODOut=(60)  ShadowCaster=False Reflect=True
+    MeshFile=ASMG_F1_2021_WING_MSEAT.GMT        CollTarget=False HATTarget=False LODIn=(0)  LODOut=(60)  ShadowCaster=(True, Solid) Reflect=True
+  }
+
+  Instance=DEBRIS5
+  {
+    Moveable=True
+    MeshFile=ASMG_F1_2021_SUSP_LF.GMT      CollTarget=False HATTarget=False LODIn=(0) LODOut=(200) ShadowCaster=(True, Solid) Reflect=True
+  }
+
+  Instance=DEBRIS6
+  {
+    Moveable=True
+    MeshFile=ASMG_F1_2021_SUSP_LR.GMT      CollTarget=False HATTarget=False LODIn=(0) LODOut=(200) ShadowCaster=(True, Solid) Reflect=True
+  }
+
+  Instance=DEBRIS7
+  {
+    Moveable=True
+    MeshFile=ASMG_F1_2021_SUSP_RF.GMT      CollTarget=False HATTarget=False LODIn=(0) LODOut=(200) ShadowCaster=(True, Solid) Reflect=True
+  }
+
+  Instance=DEBRIS8
+  {
+    Moveable=True
+    MeshFile=ASMG_F1_2021_SUSP_RR.GMT      CollTarget=False HATTarget=False LODIn=(0) LODOut=(200) ShadowCaster=(True, Solid) Reflect=True
+  }
+
+  Instance=MIRRORS
+  {
+    Moveable=True
+    MeshFile=ASMG_F1_2021_MIRROR_L.GMT     CollTarget=False HATTarget=False LODIn=(0) LODOut=(200) ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_MIRROR_R.GMT     CollTarget=False HATTarget=False LODIn=(0) LODOut=(200) ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_LMIRROR_EX.GMT   CollTarget=False HATTarget=False LODIn=(0) LODOut=(200) ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_RMIRROR_EX.GMT   CollTarget=False HATTarget=False LODIn=(0) LODOut=(200) ShadowCaster=(True, Solid) Reflect=True
+  }
+
+/////////////////////////////////////////////////// TYRES AND SPINDLE ///////////////////////////////////////////////////
+
+  Instance=LFTIRE
+  {
+    Moveable=True
+    MeshFile=ASMG_F1_2021_RIM_<345>_LF.GMT         CollTarget=False HATTarget=False LODIn=(0)  LODOut=(10)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_RIM_<345>_LF_LOD1.GMT    CollTarget=False HATTarget=False LODIn=(10) LODOut=(20)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_RIM_<345>_LF_LOD2.GMT    CollTarget=False HATTarget=False LODIn=(20) LODOut=(60)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_RIM_<345>_LF_LOD3.GMT    CollTarget=False HATTarget=False LODIn=(60) LODOut=(500) ShadowCaster=False Reflect=True
+
+    MeshFile=ASMG_F1_2021_RIM_<345>_BLUR_LF.GMT    CollTarget=False HATTarget=False LODIn=(0)  LODOut=(500) ShadowCaster=False Reflect=True
+    
+    MeshFile=ASMG_F1_2021_TIRE_LF.GMT              CollTarget=False HATTarget=False LODIn=(0)  LODOut=(10)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_TIRE_LF_LOD1.GMT         CollTarget=False HATTarget=False LODIn=(10) LODOut=(20)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_TIRE_LF_LOD2.GMT         CollTarget=False HATTarget=False LODIn=(20) LODOut=(60)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_TIRE_LF_LOD3.GMT         CollTarget=False HATTarget=False LODIn=(60) LODOut=(500) ShadowCaster=False Reflect=True
+  }
+
+  Instance=LFSpindle
+  {
+    Moveable=True
+    MeshFile=ASMG_F1_2021_BDUCT_LF.GMT CollTarget=False HATTarget=False LODIn=(0) LODOut=(60) ShadowCaster=False Reflect=True
+    MeshFile=ASMG_F1_2021_ROTOR_LF.GMT CollTarget=False HATTarget=False LODIn=(0) LODOut=(60) ShadowCaster=False Reflect=True
+  }
+
+  Instance=RFTIRE
+  {
+    Moveable=True
+    MeshFile=ASMG_F1_2021_RIM_<345>_RF.GMT         CollTarget=False HATTarget=False LODIn=(0)  LODOut=(10)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_RIM_<345>_RF_LOD1.GMT    CollTarget=False HATTarget=False LODIn=(10) LODOut=(20)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_RIM_<345>_RF_LOD2.GMT    CollTarget=False HATTarget=False LODIn=(20) LODOut=(60)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_RIM_<345>_RF_LOD3.GMT    CollTarget=False HATTarget=False LODIn=(60) LODOut=(500) ShadowCaster=False Reflect=True
+
+    MeshFile=ASMG_F1_2021_RIM_<345>_BLUR_RF.GMT    CollTarget=False HATTarget=False LODIn=(0)  LODOut=(500) ShadowCaster=False Reflect=True
+    
+    MeshFile=ASMG_F1_2021_TIRE_RF.GMT              CollTarget=False HATTarget=False LODIn=(0)  LODOut=(10)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_TIRE_RF_LOD1.GMT         CollTarget=False HATTarget=False LODIn=(10) LODOut=(20)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_TIRE_RF_LOD2.GMT         CollTarget=False HATTarget=False LODIn=(20) LODOut=(60)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_TIRE_RF_LOD3.GMT         CollTarget=False HATTarget=False LODIn=(60) LODOut=(500) ShadowCaster=False Reflect=True
+  }
+
+  Instance=RFSpindle
+  {
+    Moveable=True
+    MeshFile=ASMG_F1_2021_BDUCT_RF.GMT CollTarget=False HATTarget=False LODIn=(0) LODOut=(60) ShadowCaster=False Reflect=True
+    MeshFile=ASMG_F1_2021_ROTOR_RF.GMT CollTarget=False HATTarget=False LODIn=(0) LODOut=(60) ShadowCaster=False Reflect=True
+  }
+
+  Instance=LRTIRE
+  {
+    Moveable=True
+    MeshFile=ASMG_F1_2021_RIM_<345>_LR.GMT         CollTarget=False HATTarget=False LODIn=(0)  LODOut=(10)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_RIM_<345>_LR_LOD1.GMT    CollTarget=False HATTarget=False LODIn=(10) LODOut=(20)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_RIM_<345>_LR_LOD2.GMT    CollTarget=False HATTarget=False LODIn=(20) LODOut=(60)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_RIM_<345>_LR_LOD3.GMT    CollTarget=False HATTarget=False LODIn=(60) LODOut=(500) ShadowCaster=False Reflect=True
+
+    MeshFile=ASMG_F1_2021_RIM_<345>_BLUR_LR.GMT    CollTarget=False HATTarget=False LODIn=(0)  LODOut=(500) ShadowCaster=False Reflect=True
+    
+    MeshFile=ASMG_F1_2021_TIRE_LR.GMT              CollTarget=False HATTarget=False LODIn=(0)  LODOut=(10)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_TIRE_LR_LOD1.GMT         CollTarget=False HATTarget=False LODIn=(10) LODOut=(20)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_TIRE_LR_LOD2.GMT         CollTarget=False HATTarget=False LODIn=(20) LODOut=(60)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_TIRE_LR_LOD3.GMT         CollTarget=False HATTarget=False LODIn=(60) LODOut=(500) ShadowCaster=False Reflect=True
+  }
+
+  Instance=LRSpindle
+  {
+    Moveable=True
+    MeshFile=ASMG_F1_2021_BDUCT<12>_LR.GMT CollTarget=False HATTarget=False LODIn=(0) LODOut=(60) ShadowCaster=False Reflect=True
+    MeshFile=ASMG_F1_2021_ROTOR_LR.GMT     CollTarget=False HATTarget=False LODIn=(0) LODOut=(60) ShadowCaster=False Reflect=True
+  }
+
+  Instance=RRTIRE
+  {
+    Moveable=True
+    MeshFile=ASMG_F1_2021_RIM_<345>_RR.GMT         CollTarget=False HATTarget=False LODIn=(0)  LODOut=(10)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_RIM_<345>_RR_LOD1.GMT    CollTarget=False HATTarget=False LODIn=(10) LODOut=(20)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_RIM_<345>_RR_LOD2.GMT    CollTarget=False HATTarget=False LODIn=(20) LODOut=(60)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_RIM_<345>_RR_LOD3.GMT    CollTarget=False HATTarget=False LODIn=(60) LODOut=(500) ShadowCaster=False Reflect=True
+
+    MeshFile=ASMG_F1_2021_RIM_<345>_BLUR_RR.GMT    CollTarget=False HATTarget=False LODIn=(0)  LODOut=(500) ShadowCaster=False Reflect=True
+    
+    MeshFile=ASMG_F1_2021_TIRE_RR.GMT              CollTarget=False HATTarget=False LODIn=(0)  LODOut=(10)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_TIRE_RR_LOD1.GMT         CollTarget=False HATTarget=False LODIn=(10) LODOut=(20)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_TIRE_RR_LOD2.GMT         CollTarget=False HATTarget=False LODIn=(20) LODOut=(60)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=ASMG_F1_2021_TIRE_RR_LOD3.GMT         CollTarget=False HATTarget=False LODIn=(60) LODOut=(500) ShadowCaster=False Reflect=True
+  }
+
+  Instance=RRSpindle
+  {
+    Moveable=True
+    MeshFile=ASMG_F1_2021_BDUCT<12>_RR.GMT CollTarget=False HATTarget=False LODIn=(0) LODOut=(60) ShadowCaster=False Reflect=True
+    MeshFile=ASMG_F1_2021_ROTOR_RR.GMT     CollTarget=False HATTarget=False LODIn=(0) LODOut=(60) ShadowCaster=False Reflect=True
+  }
+
+/////////////////////////////////////////////////// EFFECTS ///////////////////////////////////////////////////
+
+  Instance=RAINLIGHT
+  {
+    Moveable=True
+    MeshFile=ASMG_F1_2021_RAINLIGHT.GMT CollTarget=False HATTarget=False ShadowReceiver=False LODIn=(0) LODOut=(200) Reflect=True
+  }
+}

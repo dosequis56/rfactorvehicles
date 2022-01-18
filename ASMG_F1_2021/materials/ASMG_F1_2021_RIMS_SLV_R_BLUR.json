@@ -1,0 +1,134 @@
+{
+  "dstBlend" : "CUBEAB_INVSRCALPHA",
+  "flags" : [ "CUBEMAT_SPECULAR", "CUBEMAT_FRESNELREFLECT", "CUBEMAT_TWOSIDED", "CUBEMAT_FRESNELSPECULAR", "CUBEMAT_SORTEDALPHA", "CUBEMAT_AMBIENTMAT", "CUBEMAT_DIFFUSEMAT", "CUBEMAT_SPECLARDIR", "CUBEMAT_EMISSIVMAT", "CUBEMAT_EMISSIVDIR" ],
+  "name" : "ASMG_F1_2021_RIMS_SLV_R_BLUR",
+  "parameters" : {
+    "StandardInfo" : {
+      "ambientColour" : [ 1, 1, 1, 1 ],
+      "blendPercent" : 2,
+      "bumpScale" : 1,
+      "cubeMapFresnel" : {
+        "Exp" : 4,
+        "Max" : 1,
+        "Min" : 0
+      },
+      "diffuseColour" : [ 1, 1, 1, 1 ],
+      "emissiveColour" : [ 0, 0, 0, 1 ],
+      "refEnhance" : 0,
+      "specFresnel" : {
+        "Exp" : 4,
+        "Max" : 1,
+        "Min" : 0
+      },
+      "specPower" : 1,
+      "specularColour" : [ 1, 1, 1, 1 ]
+    },
+    "cbParameters" : {
+      "Base_Material" : null,
+      "Material_Adjust" : {
+        "AlbedoTint" : [ 1, 1, 1, 1 ],
+        "Metallic" : 1,
+        "NormalIntensity" : 1,
+        "NormalShadowInfluence" : 1,
+        "Roughness" : 0.69,
+        "Specular" : 1
+      },
+      "Translucency" : {
+        "Power" : 1,
+        "Scale" : 0
+      },
+      "UV_Scale" : {
+        "Albedo" : [ 1, 1 ],
+        "MetalRough" : [ 1, 1 ],
+        "aoSpec" : [ 1, 1 ]
+      }
+    }
+  },
+  "preprocessorFlags" : {
+    "ALBEDOMAP" : "@Null",
+    "ALBEDOUV" : "UV_A",
+    "AOSPECALTMAP" : "@Undef",
+    "AOSPECALTUV" : "UV_A",
+    "AOSPECMAP" : "@Null",
+    "AOSPECUV" : "UV_C",
+    "BILLBOARD" : "@Undef",
+    "DETAILALBEDO" : "@Null",
+    "DETAILALBEDOBLEND" : "@Undef",
+    "DETAILAO" : "@Undef",
+    "DETAILMAP" : "@Undef",
+    "DETAILMETALLIC" : "@Undef",
+    "DETAILNORMAL" : "@Undef",
+    "DETAILROUGHNESS" : "@Undef",
+    "DETAILSPEC" : "@Undef",
+    "DETAILUV" : "UV_B",
+    "EMISSIVEMAP" : "@Undef",
+    "EMISSIVEMODE" : "@Undef",
+    "EMISSIVEUV" : "UV_C",
+    "METALLICROUGHNESSMAP" : "@Null",
+    "METALROUGHUV" : "UV_A",
+    "NORMALMAP" : "@Undef",
+    "NORMALUV" : "UV_A",
+    "RETROREFLECTOR" : "@Undef",
+    "TRANSLUCENCY" : "@Null",
+    "TRANSLUCENCYALBEDO" : "@Undef",
+    "VERTEXALPHA" : "@Undef",
+    "VERTEXCOLOR" : "@Undef"
+  },
+  "refName" : "REFMAP0",
+  "shader" : "L2IBLSTANDARD",
+  "sortOffset" : 6,
+  "srcBlend" : "CUBEAB_SRCALPHA",
+  "textures" : [ {
+    "AnisoLevel" : 0,
+    "ChromaColor" : 0,
+    "Flags" : [ "CUBETF_OWNEDBYMATERIAL", "CUBETF_CHROMAKEY" ],
+    "FrameCount" : 4,
+    "Method" : "CUBETAM_RANDOM",
+    "MipBias" : 0,
+    "MipLevels" : 1,
+    "Name" : "albedoMap",
+    "Rate" : 1,
+    "Sequence" : [ 0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3 ],
+    "ShaderPass" : 0,
+    "ShadowMipBias" : 0,
+    "SkipFrame0" : false,
+    "StageType" : "CUBETST_SRGB",
+    "TexChannel" : 0,
+    "Texture" : "asmg_f1_2021_rims_slv_r_blur",
+    "hasDefault" : true,
+    "inactive" : false,
+    "runtime" : false
+  }, {
+    "AnisoLevel" : 0,
+    "ChromaColor" : 0,
+    "Flags" : [ "CUBETF_RENDERTARGET", "CUBETF_AUTOMIPMAP", "CUBETF_TRILINEAR", "CUBETF_CHROMAKEY", "CUBETF_OWNEDBYMATERIAL", "CUBETF_NOZBUFFERREQUIRED" ],
+    "FrameCount" : 1,
+    "MipBias" : 0,
+    "MipLevels" : -1,
+    "Name" : "aoSpecularMap",
+    "ShaderPass" : 0,
+    "ShadowMipBias" : 0,
+    "StageType" : "CUBETST_LINEAR",
+    "TexChannel" : 2,
+    "Texture" : "spec",
+    "hasDefault" : true,
+    "inactive" : false,
+    "runtime" : false
+  }, {
+    "AnisoLevel" : 0,
+    "ChromaColor" : 0,
+    "Flags" : [ "CUBETF_OWNEDBYMATERIAL" ],
+    "FrameCount" : 1,
+    "MipBias" : 0,
+    "MipLevels" : 1,
+    "Name" : "metalRoughMap",
+    "ShaderPass" : 0,
+    "ShadowMipBias" : 0,
+    "StageType" : "CUBETST_LINEAR",
+    "TexChannel" : 0,
+    "Texture" : "metal_roughness_light",
+    "hasDefault" : true,
+    "inactive" : false,
+    "runtime" : false
+  } ]
+}
