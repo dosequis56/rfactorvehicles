@@ -586,14 +586,14 @@ Rear3rdFastReboundSetting=12
 
 [CONTROLS]
 NominalMaxSteeringTorque=19.4
-TurnsLockToLock=1.5
+TurnsLockToLock=1.8
 SteeringShaftBaseLeft=(0,0.445313,-1.175)
 SteeringShaftBaseRight=(0,0.445313,-1.175)
 SteeringShaftAxis=(0,0,-1)
 SteeringInnerTable=(0.17935,0.44115,-1.175):(-0.14665,0.44115,-1.175)
 SteeringInnerTable=(0.14665,0.44115,-1.175):(-0.17935,0.44115,-1.175)
 SteerLockCaption="WHEEL RANGE (LOCK)"
-SteerLockRange=(23,0,8)
+SteerLockRange=(28,0,12)
 SteerLockSetting=4
 SteerLockSpecial=(0,"180 ","(7.7) deg","TurnsLockToLock=0.5;SteeringFraction=0.333333")
 SteerLockSpecial=(1,"240 ","(10.2) deg","TurnsLockToLock=0.66667;SteeringFraction=0.444444")
@@ -602,7 +602,11 @@ SteerLockSpecial=(3,"310 ","(13.2) deg","TurnsLockToLock=0.86111;SteeringFractio
 SteerLockSpecial=(4,"360 ","(15.3) deg","TurnsLockToLock=1;SteeringFraction=0.666667")
 SteerLockSpecial=(5,"380 ","(16.2) deg","TurnsLockToLock=1.05556;SteeringFraction=0.703704")
 SteerLockSpecial=(6,"450 ","(19.2) deg","TurnsLockToLock=1.25;SteeringFraction=0.833333")
-SteerLockSpecial=(7,"450 ","(23) deg","TurnsLockToLock=1.25;SteeringFraction=1")
+SteerLockSpecial=(7,"504 ","(21) deg","TurnsLockToLock=1.4;SteeringFraction=1")
+SteerLockSpecial=(8,"540 ","(23) deg","TurnsLockToLock=1.5;SteeringFraction=1")
+SteerLockSpecial=(9,"576 ","(24.5) deg","TurnsLockToLock=1.6;SteeringFraction=1")
+SteerLockSpecial=(10,"612 ","(26) deg","TurnsLockToLock=1.7;SteeringFraction=1")
+SteerLockSpecial=(11,"648 ","(28) deg","TurnsLockToLock=1.8;SteeringFraction=1")
 OnboardBrakeBias=1
 RearBrakeRange=(0.4, 0.005,23)
 RearBrakeSetting=8 // 56-44 // 10-55/45  4-58/42 

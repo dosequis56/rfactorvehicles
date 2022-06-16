@@ -1,0 +1,442 @@
+ASMG_F1_2022
+{
+  default
+  {
+    StepDistance = 3.5
+    StepSpeed1 = 18.9
+    StepSpeed2 = 33.0
+    StepSpeed3 = 45.6
+    StepSpeed4 = 57.4
+    StepSpeed5 = 68.7
+    StepSpeed6 = 79.4
+    StepSpeed7 = 89.9
+    StepSpeed8 = 100.0
+    DrivingLine = FASTEST,FAST_OW1 
+    CorneringCaution = 25.0
+    OverSteerThrottleReaction = -85.0
+    UnderSteerEffectOnThrottleMulti = 130.0
+    UnderSteerEffectOnLineMulti = 100.0
+    FearOfWalls = 95.0
+ 
+  }
+  
+  Max Verstappen
+  {
+    Nationality = Dutch
+    DateofBirth = 30-9-1997
+    Starts = 148 
+    Poles = 14
+    Wins = 24
+    DriversChampionships = 1
+    Aggression = 100.0
+    Composure = 100.0
+    Speed = 100.0
+    QualifySpeed = 100.0
+    WetSpeed = 95.0
+    StartSkill = 100.0
+    Crash = 0.0
+    Recovery = 100.0
+    CompletedLaps = 100.0
+    MinRacingSkill = 100.0
+  }
+
+  Sergio Perez
+  {
+    Nationality = Mexican
+    DateofBirth = 26 January 1990
+    Starts = 222 
+    Poles = 1
+    Wins = 3
+    DriversChampionships = 0
+    Aggression = 95.0
+    Composure = 100.0
+    Speed = 95.0
+    QualifySpeed = 95.0
+    WetSpeed = 85.0
+    StartSkill = 100.0
+    Crash = 0.0
+    Recovery = 100.0
+    CompletedLaps = 100.0
+    MinRacingSkill = 100.0
+  }
+
+  Lewis Hamilton
+  {
+    Nationality = British
+    DateofBirth = 07-1-1985
+    Starts = 294
+    Poles = 103
+    Wins = 103
+    DriversChampionships = 7
+    Aggression = 98.0
+    Composure = 100.0
+    Speed = 98.00
+    QualifySpeed = 100.0
+    WetSpeed = 90.0
+    StartSkill = 100.0
+    Crash = 0.0
+    Recovery = 100.0
+    CompletedLaps = 100.0
+    MinRacingSkill = 100.0
+  }
+
+  George Russell
+  {
+    Nationality = British
+    DateofBirth = 15 February 1998
+    Starts = 66 
+    Poles = 1
+    Wins = 0
+    DriversChampionships
+    Aggression = 98.0
+    Composure = 100.0
+    Speed = 98.0
+    QualifySpeed = 100.0
+    WetSpeed = 95.0
+    StartSkill = 100.0
+    Crash = 0.0
+    Recovery = 100.0
+    CompletedLaps = 100.0
+    MinRacingSkill = 100.0
+  }
+
+  Charles Leclerc
+  {
+    Nationality = Monaco
+    DateofBirth = 16 October 1997
+    Starts = 88 
+    Poles = 14
+    Wins = 4
+    DriversChampionships = 0
+    Aggression = 100.0
+    Composure = 100.0
+    Speed = 100.0
+    QualifySpeed = 100.0
+    WetSpeed = 90.0
+    StartSkill = 100.0
+    Crash = 0.0
+    Recovery = 100.0
+    CompletedLaps = 100.0
+    MinRacingSkill = 100.0
+  }
+
+  Carlos Sainz Jr
+  {
+    Nationality = Spanish
+    DateofBirth = 1 September 1994
+    Starts = 148 
+    Poles = 0
+    Wins = 0
+    DriversChampionships = 0
+    Aggression = 95.0
+    Composure = 100.0
+    Speed = 95.0
+    QualifySpeed = 95.0
+    WetSpeed = 90.0
+    StartSkill = 100.0
+    Crash = 0.0
+    Recovery = 100.0
+    CompletedLaps = 100.0
+    MinRacingSkill = 100.0
+  }
+
+  Lando Norris
+  {
+    Nationality = British
+    DateofBirth = 13 November 1999
+    Starts = 67 
+    Poles = 1
+    Wins = 0
+    DriversChampionships = 0
+    Aggression = 95.0
+    Composure = 100.0
+    Speed = 95.0
+    QualifySpeed = 95.0
+    WetSpeed = 95.0
+    StartSkill = 100.0
+    Crash = 0.0
+    Recovery = 100.0
+    CompletedLaps = 100.0
+    MinRacingSkill = 100.0
+  }
+
+  Daniel Ricciardo
+  {
+    Nationality = Australian
+    DateofBirth = 1 July 1989
+    Starts = 217 
+    Poles = 3
+    Wins = 8
+    DriversChampionships = 0
+    Aggression = 90.0
+    Composure = 100.0
+    Speed = 85.0
+    QualifySpeed = 90.0
+    WetSpeed = 80.0
+    StartSkill = 100.0
+    Crash = 0.0
+    Recovery = 100.0
+    CompletedLaps = 100.0
+    MinRacingSkill = 100.0
+  }
+
+  Pierre Gasly
+  {
+    Nationality = French
+    DateofBirth = 7 February 1996
+    Starts = 93 
+    Poles = 0
+    Wins = 1
+    DriversChampionships = 0
+    Aggression = 90.0
+    Composure = 100.0
+    Speed = 90.0
+    QualifySpeed = 90.0
+    WetSpeed = 85.0
+    StartSkill = 100.0
+    Crash = 0.0
+    Recovery = 100.0
+    CompletedLaps = 100.0
+    MinRacingSkill = 100.0
+  }
+
+  Yuki Tsunoda
+  {
+    Nationality = Japan
+    DateofBirth = 11 May 2000
+    Starts = 29 
+    Poles = 0
+    Wins = 0
+    DriversChampionships = 0
+    Aggression = 85.0
+    Composure = 100.0
+    Speed = 80.0
+    QualifySpeed = 85.0
+    WetSpeed = 75.0
+    StartSkill = 100.0
+    Crash = 0.0
+    Recovery = 100.0
+    CompletedLaps = 100.0
+    MinRacingSkill = 100.0
+  }
+
+  Valtteri Bottas
+  {
+    Nationality = Finnish
+    DateofBirth = 28 August 1989
+    Starts = 186
+    Poles = 20
+    Wins = 10
+    DriversChampionships = 0
+    Aggression = 90.0
+    Composure = 100.0
+    Speed = 90.0
+    QualifySpeed = 90.0
+    WetSpeed = 85.0
+    StartSkill = 100.0
+    Crash = 0.0
+    Recovery = 100.0
+    CompletedLaps = 100.0
+    MinRacingSkill = 100.0
+  }
+
+  Zhou Guanyu
+  {
+    Nationality = China
+    DateofBirth = 30 May 1999
+    Starts = 7 
+    Poles = 0
+    Wins = 0
+    DriversChampionships = 0
+    Aggression = 85.0
+    Composure = 100.0
+    Speed = 80.0
+    QualifySpeed = 80.0
+    WetSpeed = 70.0
+    StartSkill = 100.0
+    Crash = 0.0
+    Recovery = 100.0
+    CompletedLaps = 100.0
+    MinRacingSkill = 100.00
+  }
+
+  Esteban Ocon
+  {
+    Nationality = French
+    DateofBirth = 17 September 1996
+    Starts = 96 
+    Poles = 0
+    Wins = 1
+    DriversChampionships = 0
+    Aggression = 90.0
+    Composure = 100.0
+    Speed = 90.0
+    QualifySpeed = 90.0
+    WetSpeed = 80.0
+    StartSkill = 90.0
+    Crash = 0.0
+    Recovery = 100.0
+    CompletedLaps = 100.0
+    MinRacingSkill = 100.0
+  }
+
+  Fernando Alonso
+  {
+    Nationality = Spanish
+    DateofBirth = 29 July 1981
+    Starts = 343 
+    Poles = 22
+    Wins = 32
+    DriversChampionships = 2
+    Aggression = 90.0
+    Composure = 100.0
+    Speed = 90.0
+    QualifySpeed = 90.0
+    WetSpeed = 80.0
+    StartSkill = 100.0
+    Crash = 0.0
+    Recovery = 100.0
+    CompletedLaps = 100.0
+    MinRacingSkill = 100.0
+  }
+  
+  Sebastian Vettel 
+  {
+    Nationality = German
+    DateofBirth = 3 July 1987
+    Starts = 285 
+    Poles = 57
+    Wins = 53
+    DriversChampionships = 4
+    Aggression = 90.0
+    Composure = 100.0
+    Speed = 85.0
+    QualifySpeed = 85.0
+    WetSpeed = 80.0
+    StartSkill = 100.0
+    Crash = 0.0
+    Recovery = 100.0
+    CompletedLaps = 100.0
+    MinRacingSkill = 100.0
+  }
+
+  Lance Stroll
+  {
+    Nationality = Canadian
+    DateofBirth = 29 October 1998
+    Starts = 107 
+    Poles = 1
+    Wins = 0
+    DriversChampionships = 0
+    Aggression = 90.0
+    Composure = 100.0
+    Speed = 85.0
+    QualifySpeed = 85.0
+    WetSpeed = 75.0
+    StartSkill = 100.0
+    Crash = 0.00
+    Recovery = 100.0
+    CompletedLaps = 100.0
+    MinRacingSkill = 100.0
+  }
+
+  Nico Hulkenberg 
+  {
+    Nationality = German
+    DateofBirth = 19 August 1987
+    Starts = 184 
+    Poles = 1
+    Wins = 0
+    DriversChampionships = 0
+    Aggression = 85.0
+    Composure = 100.0
+    Speed = 80.0
+    QualifySpeed = 84.0
+    WetSpeed = 80.0
+    StartSkill = 100.0
+    Crash = 0.0
+    Recovery = 100.0
+    CompletedLaps = 100.0
+    MinRacingSkill = 100.0
+  }
+
+  Mick Schumacher
+  {
+    Nationality = German
+    DateofBirth = 22 March 1999
+    Starts = 28 
+    Poles = 0
+    Wins = 0
+    DriversChampionships = 0
+    Aggression = 85.0
+    Composure = 100.0
+    Speed = 80.0
+    QualifySpeed = 80.0
+    WetSpeed = 75.0
+    StartSkill = 100.0
+    Crash = 0.0
+    Recovery = 100.0
+    CompletedLaps = 100.0
+    MinRacingSkill = 100.0
+  }
+
+  Kevin Magnussen
+  {
+    Nationality = Danish
+    DateofBirth = 5 October 1992
+    Starts = 127
+    Poles = 0
+    Wins = 0
+    DriversChampionships = 0
+    Aggression = 90.0
+    Composure = 98.0
+    Speed = 85.0
+    QualifySpeed = 85.0
+    WetSpeed = 75.0
+    StartSkill = 100.0
+    Crash = 0.0
+    Recovery = 100.0
+    CompletedLaps = 100.0
+    MinRacingSkill = 100.0
+  }
+ 
+  Nicholas Latifi
+  {
+    Nationality = Canadian
+    DateofBirth = 29 June 1995
+    Starts = 45 
+    Poles = 0
+    Wins = 0
+    DriversChampionships
+    Aggression = 80.0
+    Composure = 100.0
+    Speed = 75.0
+    QualifySpeed = 80.0
+    WetSpeed = 70.0
+    StartSkill = 100.0
+    Crash = 0.00
+    Recovery = 100.0
+    CompletedLaps = 100.0
+    MinRacingSkill = 100.0
+  }
+
+  Alexander Albon
+  {
+    Nationality = British
+    DateofBirth = 23 March 1996
+    Starts = 45 
+    Poles = 0
+    Wins = 0
+    DriversChampionships = 0
+    Aggression = 85.0
+    Composure = 100.0
+    Speed = 85.0
+    QualifySpeed = 85.0
+    WetSpeed = 75.0
+    StartSkill = 100.0
+    Crash = 0.0
+    Recovery = 100.0
+    CompletedLaps = 100.0
+    MinRacingSkill = 100.0
+  }
+}
