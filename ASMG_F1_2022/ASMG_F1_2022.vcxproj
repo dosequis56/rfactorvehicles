@@ -74,7 +74,10 @@
     <NMakeReBuildCommandLine>rebuild.bat</NMakeReBuildCommandLine>
     <NMakePreprocessorDefinitions>WIN32;NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
   </PropertyGroup>
-  <ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <PostBuildEvent>
+      <Command>cmd /c build.bat</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <Image Include="brand_ASMG_FH22.png" />
@@ -559,6 +562,19 @@
     <Image Include="teams\F122_WI\F122_WI_23Rims.dds" />
     <Image Include="teams\F122_WI\F122_WI_23Stickers.dds" />
     <Image Include="teams\F122_WI\F122_WI_23_region.dds" />
+    <Image Include="teams\F22_CORONA\F122_Corona_91-icon-1024x576.png" />
+    <Image Include="teams\F22_CORONA\F122_Corona_91-icon-128x72.png" />
+    <Image Include="teams\F22_CORONA\F122_Corona_91-icon-2048x1152.png" />
+    <Image Include="teams\F22_CORONA\F122_Corona_91-icon-256x144.png" />
+    <Image Include="teams\F22_CORONA\F122_Corona_91-icon-512x288.png" />
+    <Image Include="teams\F22_CORONA\F122_Corona_91.dds" />
+    <Image Include="teams\F22_CORONA\F122_Corona_91Driver.dds" />
+    <Image Include="teams\F22_CORONA\F122_Corona_91Gloves.dds" />
+    <Image Include="teams\F22_CORONA\F122_Corona_91HelmetNew.dds" />
+    <Image Include="teams\F22_CORONA\F122_Corona_91icon.png" />
+    <Image Include="teams\F22_CORONA\F122_Corona_91Rims.dds" />
+    <Image Include="teams\F22_CORONA\F122_Corona_91Stickers.dds" />
+    <Image Include="teams\F22_CORONA\F122_Corona_91_region.dds" />
     <Image Include="upgrades\brand_ASMG_FH22.png" />
     <Image Include="upgrades\brand_logo.png" />
     <Image Include="upgrades\F122_AL_14-icon-1024x576.png" />
@@ -809,6 +825,7 @@
     <Image Include="veh_ripple_map_video.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="ASMG_F1_2022.rfbuild" />
     <None Include="ASMG_FH22.cam" />
     <None Include="ASMG_FH22.gen" />
     <None Include="ASMG_FH22.hdv" />
@@ -819,8 +836,10 @@
     <None Include="ASMG_FH22_Damage.ini" />
     <None Include="ASMG_FH22_Engine.ini" />
     <None Include="ASMG_FH22_Gears.ini" />
+    <None Include="ASMG_FH22_HONDA1.hdv" />
     <None Include="ASMG_FH22_Spinner.gen" />
     <None Include="ASMG_FH22_Upgrades.ini" />
+    <None Include="build.bat" />
     <None Include="maps\asmg_fh22_bduct_lf.gmt" />
     <None Include="maps\asmg_fh22_bduct_lr.gmt" />
     <None Include="maps\asmg_fh22_bduct_rf.gmt" />
@@ -989,6 +1008,12 @@
     <None Include="teams\F122_WI\F122_WI_06.veh" />
     <None Include="teams\F122_WI\F122_WI_23.veh" />
     <None Include="teams\F122_WI\F122_WI_BaseMat.json" />
+    <None Include="teams\F22_CORONA\F122_Corona_91-icon-2048x1152.pdn" />
+    <None Include="teams\F22_CORONA\F122_Corona_91.pdn" />
+    <None Include="teams\F22_CORONA\F122_Corona_91.veh" />
+    <None Include="teams\F22_CORONA\F122_Corona_91HelmetNew.pdn" />
+    <None Include="teams\F22_CORONA\F122_Corona_91_Layers.pdn" />
+    <None Include="teams\F22_CORONA\F122_Corona_BaseMats.json" />
     <None Include="tires\F12022_FRONT_C1.TGM" />
     <None Include="tires\F12022_FRONT_C2.TGM" />
     <None Include="tires\F12022_FRONT_C3.TGM" />
@@ -1047,6 +1072,7 @@
   <ItemGroup>
     <Text Include="teams\F122_AM\F122_AM_05.txt" />
     <Text Include="teams\F122_AM\F122_AM_18.txt" />
+    <Text Include="teams\F22_CORONA\F122_Corona_91.txt" />
     <Text Include="upgrades\F122_AM_05.txt" />
     <Text Include="upgrades\F122_AM_18.txt" />
   </ItemGroup>

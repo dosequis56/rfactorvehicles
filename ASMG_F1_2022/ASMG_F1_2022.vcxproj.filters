@@ -1251,6 +1251,31 @@
     </Image>
     <Image Include="teams\F122_WI\F122_WI_23Rims.dds" />
     <Image Include="teams\F122_WI\F122_WI_23Stickers.dds" />
+    <Image Include="teams\F22_CORONA\F122_Corona_91.dds" />
+    <Image Include="teams\F22_CORONA\F122_Corona_91_region.dds" />
+    <Image Include="teams\F22_CORONA\F122_Corona_91Driver.dds" />
+    <Image Include="teams\F22_CORONA\F122_Corona_91Gloves.dds" />
+    <Image Include="teams\F22_CORONA\F122_Corona_91HelmetNew.dds" />
+    <Image Include="teams\F22_CORONA\F122_Corona_91icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="teams\F22_CORONA\F122_Corona_91-icon-128x72.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="teams\F22_CORONA\F122_Corona_91-icon-256x144.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="teams\F22_CORONA\F122_Corona_91-icon-512x288.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="teams\F22_CORONA\F122_Corona_91-icon-1024x576.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="teams\F22_CORONA\F122_Corona_91-icon-2048x1152.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="teams\F22_CORONA\F122_Corona_91Stickers.dds" />
+    <Image Include="teams\F22_CORONA\F122_Corona_91Rims.dds" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ASMG_FH22.cam" />
@@ -1487,12 +1512,24 @@
     <None Include="teams\F122_WI\F122_WI_06.veh" />
     <None Include="teams\F122_WI\F122_WI_23.veh" />
     <None Include="teams\F122_WI\F122_WI_BaseMat.json" />
+    <None Include="build.bat">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ASMG_F1_2022.rfbuild" />
+    <None Include="ASMG_FH22_HONDA1.hdv" />
+    <None Include="teams\F22_CORONA\F122_Corona_91.pdn" />
+    <None Include="teams\F22_CORONA\F122_Corona_91.veh" />
+    <None Include="teams\F22_CORONA\F122_Corona_91_Layers.pdn" />
+    <None Include="teams\F22_CORONA\F122_Corona_91-icon-2048x1152.pdn" />
+    <None Include="teams\F22_CORONA\F122_Corona_BaseMats.json" />
+    <None Include="teams\F22_CORONA\F122_Corona_91HelmetNew.pdn" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="upgrades\F122_AM_05.txt" />
     <Text Include="upgrades\F122_AM_18.txt" />
     <Text Include="teams\F122_AM\F122_AM_05.txt" />
     <Text Include="teams\F122_AM\F122_AM_18.txt" />
+    <Text Include="teams\F22_CORONA\F122_Corona_91.txt" />
   </ItemGroup>
   <ItemGroup>
     <Media Include="sounds\Formula_Hybrid_22_backfire01_ex.wav">
