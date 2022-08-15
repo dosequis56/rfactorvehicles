@@ -1251,31 +1251,56 @@
     </Image>
     <Image Include="teams\F122_WI\F122_WI_23Rims.dds" />
     <Image Include="teams\F122_WI\F122_WI_23Stickers.dds" />
-    <Image Include="teams\F22_CORONA\F122_Corona_91.dds" />
-    <Image Include="teams\F22_CORONA\F122_Corona_91_region.dds" />
-    <Image Include="teams\F22_CORONA\F122_Corona_91Driver.dds" />
-    <Image Include="teams\F22_CORONA\F122_Corona_91Gloves.dds" />
-    <Image Include="teams\F22_CORONA\F122_Corona_91HelmetNew.dds" />
-    <Image Include="teams\F22_CORONA\F122_Corona_91icon.png">
+    <Image Include="teams\F122_CORONA\F122_Corona_91.dds" />
+    <Image Include="teams\F122_CORONA\F122_Corona_91_region.dds" />
+    <Image Include="teams\F122_CORONA\F122_Corona_91Driver.dds" />
+    <Image Include="teams\F122_CORONA\F122_Corona_91Gloves.dds" />
+    <Image Include="teams\F122_CORONA\F122_Corona_91HelmetNew.dds" />
+    <Image Include="teams\F122_CORONA\F122_Corona_91icon.png">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="teams\F22_CORONA\F122_Corona_91-icon-128x72.png">
+    <Image Include="teams\F122_CORONA\F122_Corona_91-icon-128x72.png">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="teams\F22_CORONA\F122_Corona_91-icon-256x144.png">
+    <Image Include="teams\F122_CORONA\F122_Corona_91-icon-256x144.png">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="teams\F22_CORONA\F122_Corona_91-icon-512x288.png">
+    <Image Include="teams\F122_CORONA\F122_Corona_91-icon-512x288.png">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="teams\F22_CORONA\F122_Corona_91-icon-1024x576.png">
+    <Image Include="teams\F122_CORONA\F122_Corona_91-icon-1024x576.png">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="teams\F22_CORONA\F122_Corona_91-icon-2048x1152.png">
+    <Image Include="teams\F122_CORONA\F122_Corona_91-icon-2048x1152.png">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="teams\F22_CORONA\F122_Corona_91Stickers.dds" />
-    <Image Include="teams\F22_CORONA\F122_Corona_91Rims.dds" />
+    <Image Include="teams\F122_CORONA\F122_Corona_91Stickers.dds" />
+    <Image Include="teams\F122_CORONA\F122_Corona_91Rims.dds" />
+    <Image Include="teams\F122_CORONA\F122_Corona_56.dds" />
+    <Image Include="teams\F122_CORONA\F122_Corona_56_region.dds" />
+    <Image Include="teams\F122_CORONA\F122_Corona_56Driver.dds" />
+    <Image Include="teams\F122_CORONA\F122_Corona_56Gloves.dds" />
+    <Image Include="teams\F122_CORONA\F122_Corona_56HelmetNew.dds" />
+    <Image Include="teams\F122_CORONA\F122_Corona_56icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="teams\F122_CORONA\F122_Corona_56-icon-128x72.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="teams\F122_CORONA\F122_Corona_56-icon-256x144.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="teams\F122_CORONA\F122_Corona_56-icon-512x288.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="teams\F122_CORONA\F122_Corona_56-icon-1024x576.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="teams\F122_CORONA\F122_Corona_56-icon-2048x1152.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="teams\F122_CORONA\F122_Corona_56Rims.dds" />
+    <Image Include="teams\F122_CORONA\F122_Corona_56Stickers.dds" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ASMG_FH22.cam" />
@@ -1516,20 +1541,66 @@
       <Filter>Source Files</Filter>
     </None>
     <None Include="ASMG_F1_2022.rfbuild" />
-    <None Include="ASMG_FH22_HONDA1.hdv" />
-    <None Include="teams\F22_CORONA\F122_Corona_91.pdn" />
-    <None Include="teams\F22_CORONA\F122_Corona_91.veh" />
-    <None Include="teams\F22_CORONA\F122_Corona_91_Layers.pdn" />
-    <None Include="teams\F22_CORONA\F122_Corona_91-icon-2048x1152.pdn" />
-    <None Include="teams\F22_CORONA\F122_Corona_BaseMats.json" />
-    <None Include="teams\F22_CORONA\F122_Corona_91HelmetNew.pdn" />
+    <None Include="teams\F122_CORONA\F122_Corona_91.pdn" />
+    <None Include="teams\F122_CORONA\F122_Corona_91.veh" />
+    <None Include="teams\F122_CORONA\F122_Corona_91_Layers.pdn" />
+    <None Include="teams\F122_CORONA\F122_Corona_91-icon-2048x1152.pdn" />
+    <None Include="teams\F122_CORONA\F122_Corona_BaseMats.json" />
+    <None Include="teams\F122_CORONA\F122_Corona_91HelmetNew.pdn" />
+    <None Include="teams\F122_CORONA\F122_Corona_56.pdn" />
+    <None Include="teams\F122_CORONA\F122_Corona_56.veh" />
+    <None Include="teams\F122_CORONA\F122_Corona_56_Layers.pdn" />
+    <None Include="teams\F122_CORONA\F122_Corona_56HelmetNew.pdn" />
+    <None Include="teams\F122_CORONA\F122_Corona_56-icon-2048x1152.pdn" />
+    <None Include="teams\F122_CORONA\F122_Corona_56Rims_Layers.pdn" />
+    <None Include="teams\F122_CORONA\F122_Corona_91Rims_Layers.pdn" />
+    <None Include="ASMG_FH22_EngineME.ini" />
+    <None Include="ASMG_FH22_ME.hdv" />
+    <None Include="ASMG_FH22_ME2.hdv" />
+    <None Include="ASMG_FH22_FE.hdv" />
+    <None Include="ASMG_FH22_EngineFE.ini" />
+    <None Include="ASMG_FH22_FE2.hdv" />
+    <None Include="ASMG_FH22_RE.hdv" />
+    <None Include="ASMG_FH22_EngineRE.ini" />
+    <None Include="ASMG_FH22_HO2.hdv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="teams\F122_CORONA\LochDrummond_Short.svm" />
+    <None Include="teams\F122_CORONA\LochDrummond_Short.race.svm" />
+    <None Include="teams\F122_AL\GPVWC_Monaco.race.svm" />
+    <None Include="teams\F122_AL\GPVWC_Monaco.svm" />
+    <None Include="teams\F122_AM\GPVWC_Monaco.race.svm" />
+    <None Include="teams\F122_AM\GPVWC_Monaco.svm" />
+    <None Include="teams\F122_AR\GPVWC_Monaco.race.svm" />
+    <None Include="teams\F122_AR\GPVWC_Monaco.svm" />
+    <None Include="teams\F122_AT\GPVWC_Monaco.race.svm" />
+    <None Include="teams\F122_AT\GPVWC_Monaco.svm" />
+    <None Include="teams\F122_CORONA\GPVWC_Monaco.race.svm" />
+    <None Include="teams\F122_CORONA\GPVWC_Monaco.svm" />
+    <None Include="teams\F122_FE\GPVWC_Monaco.race.svm" />
+    <None Include="teams\F122_FE\GPVWC_Monaco.svm" />
+    <None Include="teams\F122_HA\GPVWC_Monaco.race.svm" />
+    <None Include="teams\F122_HA\GPVWC_Monaco.svm" />
+    <None Include="teams\F122_MC\GPVWC_Monaco.race.svm" />
+    <None Include="teams\F122_MC\GPVWC_Monaco.svm" />
+    <None Include="teams\F122_ME\GPVWC_Monaco.race.svm" />
+    <None Include="teams\F122_ME\GPVWC_Monaco.svm" />
+    <None Include="teams\F122_RB\GPVWC_Monaco.race.svm" />
+    <None Include="teams\F122_RB\GPVWC_Monaco.svm" />
+    <None Include="teams\F122_WI\GPVWC_Monaco.race.svm" />
+    <None Include="teams\F122_WI\GPVWC_Monaco.svm" />
+    <None Include="ASMG_FH22_HO.hdv" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="upgrades\F122_AM_05.txt" />
     <Text Include="upgrades\F122_AM_18.txt" />
     <Text Include="teams\F122_AM\F122_AM_05.txt" />
     <Text Include="teams\F122_AM\F122_AM_18.txt" />
-    <Text Include="teams\F22_CORONA\F122_Corona_91.txt" />
+    <Text Include="teams\F122_CORONA\F122_Corona_91.txt" />
+    <Text Include="teams\F122_CORONA\F122_Corona_56.txt" />
+    <Text Include="MERCEDES_TORQUE_TABLE.txt" />
+    <Text Include="RENAULT_TORQUE_TABLE.txt" />
+    <Text Include="FERRARI_TORQUE_TABLE.txt" />
   </ItemGroup>
   <ItemGroup>
     <Media Include="sounds\Formula_Hybrid_22_backfire01_ex.wav">

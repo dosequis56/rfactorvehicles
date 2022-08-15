@@ -92,8 +92,8 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RFM|x64'">
     <TargetExt>.rfcmp</TargetExt>
     <ExtensionsToDeleteOnClean>*.mas;*.rfcmp;*.zip</ExtensionsToDeleteOnClean>
-    <OutDir>$(SolutionDir)\$(ProjectName)\bin\</OutDir>
-    <IntDir>$(SolutionDir)\$(ProjectName)\bin\</IntDir>
+    <OutDir>$(SolutionDir)\bin\$(ProjectName)</OutDir>
+    <IntDir>$(SolutionDir)\bin\$(ProjectName)</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <CustomBuildStep>

@@ -1,7 +1,6 @@
 // ASMG Formula Hybrid-22 Ingame car generation file
 //----------------------------------------
 
-SearchPath=<VEHDIR>
 
 MASFile=cmaps.mas
 

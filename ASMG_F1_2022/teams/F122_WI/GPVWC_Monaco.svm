@@ -1,0 +1,196 @@
+VehicleClassSetting="Formula_1_2022 Formula_1_2022_Corona"
+UpgradeSetting=(288,0,0,0)
+//VEH=C:\PROGRAM FILES (X86)\STEAM\STEAMAPPS\COMMON\RFACTOR 2\MODDEV\VEHICLES\ASMG_F1_2022\TEAMS\F122_CORONA\F122_CORONA_56.VEH
+//UpgradeClass=
+//Tyres Sets=0
+//Track Conditions=0
+//Cockpit halo=1
+//Rear Flap Deactivation=0
+//Steering Rake=1
+//Note: settings commented out if using the default
+
+[GENERAL]
+Notes="F1 2022 Honda Power"
+Symmetric=1
+//CGHeightSetting=0//7.09 in
+//CGRightSetting=0//50.0:50.0
+CGRearSetting=0//46.7:53.3
+//WedgeSetting=0//0.00 turns
+FrontTireCompoundSetting=1//Medium C2
+RearTireCompoundSetting=1//Medium C2
+FuelSetting=76//20.3gal (18laps)
+//NumPitstopsSetting=0//0
+//Pitstop1Setting=0//N/A
+//Pitstop2Setting=0//N/A
+//Pitstop3Setting=0//N/A
+
+[LEFTFENDER]
+//FenderFlareSetting=0//1
+
+[RIGHTFENDER]
+//FenderFlareSetting=0//1
+
+[FRONTWING]
+FWSetting=24//25.0 °
+
+[REARWING]
+RWSetting=45//75.0 °
+
+[BODYAERO]
+//WaterRadiatorSetting=5//6
+//OilRadiatorSetting=0//
+//BrakeDuctSetting=5//50% open
+//BrakeDuctRearSetting=0//1
+
+[SUSPENSION]
+//FrontWheelTrackSetting=0//63.58 in
+//RearWheelTrackSetting=0//60.24 in
+FrontAntiSwaySetting=32//400 lbs/in
+RearAntiSwaySetting=40//397 lbs/in
+FrontToeInSetting=10//-0.5 °
+//FrontToeOffsetSetting=0//0.00 deg
+RearToeInSetting=27//0.7 °
+//RearToeOffsetSetting=0//0.00 deg
+//LeftCasterSetting=4//7.00 °
+//RightCasterSetting=4//7.00 °
+//LeftTrackBarSetting=0// 
+//RightTrackBarSetting=0// 
+//Front3rdPackerSetting=20//15.0 mm
+//Front3rdSpringSetting=40//571 lbs/in
+//Front3rdTenderSpringSetting=0//Detached
+//Front3rdTenderTravelSetting=0//Detached
+//Front3rdSlowBumpSetting=5//6
+//Front3rdFastBumpSetting=2//3
+//Front3rdSlowReboundSetting=3//4
+//Front3rdFastReboundSetting=2//3
+//Rear3rdPackerSetting=20//18.0 mm
+//Rear3rdSpringSetting=75//1428 lbs/in
+//Rear3rdTenderSpringSetting=0//Detached
+//Rear3rdTenderTravelSetting=0//Detached
+//Rear3rdSlowBumpSetting=12//13
+//Rear3rdFastBumpSetting=8//9
+//Rear3rdSlowReboundSetting=15//16
+//Rear3rdFastReboundSetting=12//13
+//ChassisAdj00Setting=0//1
+//ChassisAdj01Setting=0//1
+//ChassisAdj02Setting=0//1
+//ChassisAdj03Setting=0//1
+//ChassisAdj04Setting=0//1
+//ChassisAdj05Setting=0//1
+//ChassisAdj06Setting=0//1
+//ChassisAdj07Setting=0//1
+//ChassisAdj08Setting=0//1
+//ChassisAdj09Setting=0//1
+//ChassisAdj10Setting=0//1
+//ChassisAdj11Setting=0//1
+
+[CONTROLS]
+SteerLockSetting=11//720 (33) deg
+RearBrakeSetting=20//50.0:50.0
+//BrakePressureSetting=40//120 kgf (75%)
+//HandfrontbrakePressSetting=0// 
+//HandbrakePressSetting=0//0%
+//TCSetting=0//Aid (Weight Penalty)
+//ABSSetting=0//Aid (Weight Penalty)
+//TractionControlMapSetting=0//0
+//TCPowerCutMapSetting=0//0
+//TCSlipAngleMapSetting=0//0
+//AntilockBrakeSystemMapSetting=0//0
+
+[ENGINE]
+//RevLimitSetting=0//N/A
+//EngineBoostSetting=0//1
+//EngineMixtureSetting=1//RACE
+EngineBrakingMapSetting=8//8 (Min Braking)
+
+[DRIVELINE]
+//FinalDriveSetting=0//14/53 (bevel 16/24)
+//ReverseSetting=2//12/43 (20.348)
+Gear1Setting=18//14/40 (16.224)
+Gear2Setting=42//13/29 (12.668)
+Gear3Setting=62//17/30 (10.021)
+Gear4Setting=78//18/26 (8.202)
+Gear5Setting=95//18/22 (6.940)
+Gear6Setting=111//19/20 (5.977)
+Gear7Setting=118//25/23 (5.224)
+Gear8Setting=126//25/20 (4.543)
+//RatioSetSetting=0//N/A
+//DiffPumpSetting=30//30%
+//DiffPowerSetting=15//16%
+//DiffCoastSetting=20//20%
+//DiffPreloadSetting=5//35 Nm
+//RearSplitSetting=0// 0.0:100.0
+//GearAutoUpShiftSetting=0//Off
+//GearAutoDownShiftSetting=0//Off
+
+[FRONTLEFT]
+//CamberSetting=20//-3.50 deg
+PressureSetting=10//22.5 psi
+//PackerSetting=38//24.0 mm
+SpringSetting=8//754 lbs/in
+//TenderSpringSetting=0//Detached
+//TenderTravelSetting=0//Detached
+//SpringRubberSetting=0//Detached
+RideHeightSetting=8//27.0 mm
+//SlowBumpSetting=12//13
+//FastBumpSetting=8//9
+//SlowReboundSetting=15//16
+//FastReboundSetting=12//13
+//BrakeDiscSetting=0//1.260 in
+//BrakePadSetting=0//1
+
+[FRONTRIGHT]
+//CamberSetting=20//-3.50 deg
+PressureSetting=10//22.5 psi
+//PackerSetting=38//24.0 mm
+SpringSetting=8//754 lbs/in
+//TenderSpringSetting=0//Detached
+//TenderTravelSetting=0//Detached
+//SpringRubberSetting=0//Detached
+RideHeightSetting=8//27.0 mm
+//SlowBumpSetting=12//13
+//FastBumpSetting=8//9
+//SlowReboundSetting=15//16
+//FastReboundSetting=12//13
+//BrakeDiscSetting=0//1.260 in
+//BrakePadSetting=0//1
+
+[REARLEFT]
+//CamberSetting=18//-1.10 deg
+PressureSetting=23//22.2 psi
+//PackerSetting=5//10.0 mm
+//SpringSetting=35//200 lbs/in
+//TenderSpringSetting=0//Detached
+//TenderTravelSetting=0//Detached
+//SpringRubberSetting=0//Detached
+//RideHeightSetting=14//55.0 mm
+//SlowBumpSetting=12//13
+//FastBumpSetting=8//9
+//SlowReboundSetting=15//16
+//FastReboundSetting=12//13
+//BrakeDiscSetting=0//1.260 in
+//BrakePadSetting=0//1
+
+[REARRIGHT]
+//CamberSetting=18//-1.10 deg
+PressureSetting=23//22.2 psi
+//PackerSetting=5//10.0 mm
+//SpringSetting=35//200 lbs/in
+//TenderSpringSetting=0//Detached
+//TenderTravelSetting=0//Detached
+//SpringRubberSetting=0//Detached
+//RideHeightSetting=14//55.0 mm
+//SlowBumpSetting=12//13
+//FastBumpSetting=8//9
+//SlowReboundSetting=15//16
+//FastReboundSetting=12//13
+//BrakeDiscSetting=0//1.260 in
+//BrakePadSetting=0//1
+
+[BASIC]
+Downforce=0.500000
+Balance=0.500000
+Ride=0.500000
+Gearing=0.500000
+Custom=1
+

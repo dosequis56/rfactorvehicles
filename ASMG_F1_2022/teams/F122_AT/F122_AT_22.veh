@@ -19,7 +19,7 @@ Extra7="HelmetNew"
 Extra8="Gloves"
 Extra9="Gloves"
 
-HDVehicle=ASMG_FH22.hdv
+HDVehicle=ASMG_FH22_HO2.hdv
 Graphics=ASMG_FH22.gen
 Spinner=ASMG_FH22_Spinner.gen
 GenString=ARAI                                             // Used to generate GMT names in *.gen file
@@ -37,8 +37,8 @@ Description="#22 Yuki Tsunoda"
 Engine="V6 Turbo"
 Manufacturer="Advanced Simulation"
 
-Classes="ASMG_F1_2022,ASMG_F1_2022_AlphaTauri"
+Classes="Formula_1_2022,Formula_1_2022_AlphaTauri"
 
 FullTeamName="F1 2022 Alpha Tauri"
 
-Category="Formula 1,F1 2022 Season,Scuderia AlphaTauri"
+Category="Formula 1,F1 2022 Cars,Scuderia AlphaTauri"

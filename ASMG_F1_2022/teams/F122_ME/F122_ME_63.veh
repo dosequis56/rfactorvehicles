@@ -19,7 +19,7 @@ Extra7="HelmetNew"
 Extra8="Gloves"
 Extra9="Gloves"
 
-HDVehicle=ASMG_FH22.hdv
+HDVehicle=ASMG_FH22_ME.hdv
 Graphics=ASMG_FH22.gen
 Spinner=ASMG_FH22_Spinner.gen
 GenString=BELL                                             // Used to generate GMT names in *.gen file
@@ -37,8 +37,8 @@ Description="#63 George Russell"
 Engine="V6 Turbo"
 Manufacturer="Advanced Simulation"
 
-Classes="ASMG_F1_2022,ASMG_F1_2022_Mercedes"
+Classes="Formula_1_2022,Formula_1_2022_Mercedes"
 
 FullTeamName="F1 2022 Mercedes-AMG Petronas F1 Team"
 
-Category="Formula 1,F1 2022 Season,Mercedes-AMG Petronas F1 Team"
+Category="Formula 1,F1 2022 Cars,Mercedes-AMG Petronas F1 Team"

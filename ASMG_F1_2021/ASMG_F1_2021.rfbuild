@@ -1,4 +1,4 @@
-buildpath=/bin/
+buildpath=../bin/ASMG_F1_2021/
 
 rfcmp
 {

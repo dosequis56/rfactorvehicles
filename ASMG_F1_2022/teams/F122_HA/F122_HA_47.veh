@@ -19,7 +19,7 @@ Extra7="HelmetNew"
 Extra8="Gloves"
 Extra9="Gloves"
 
-HDVehicle=ASMG_FH22.hdv
+HDVehicle=ASMG_FH22_FE2.hdv
 Graphics=ASMG_FH22.gen
 Spinner=ASMG_FH22_Spinner.gen
 GenString=SCHU                                             // Used to generate GMT names in *.gen file
@@ -37,8 +37,8 @@ Description="#47 Mick Schumacher"
 Engine="V6 Turbo"
 Manufacturer="Advanced Simulation"
 
-Classes="ASMG_F1_2022,ASMG_F1_2022_Haas"
+Classes="Formula_1_2022,Formula_1_2022_Haas"
 
 FullTeamName="F1 2022 Haas F1 Team"
 
-Category="Formula 1,F1 2022 Season,Haas F1 Team"
+Category="Formula 1,F1 2022 Cars,Haas F1 Team"

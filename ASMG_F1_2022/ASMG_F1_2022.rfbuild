@@ -1,33 +1,42 @@
-buildpath=/bin/
+buildpath=../bin/ASMG_F1_2022/
 
 rfcmp
 {
 [Component]
-Name=ASMG_F1_2022
+Name=Formula_1_2022
 Type=2
-Version=2.00
+Version=2.02
 Author=tomh
 URL=
-Desc=F1 modified car set
+Desc=Foemula 1 2022 Custom Car Set
 Category=6
 Origin=0
 }
 
-ASMG_F1_2021.mas
+ASMG_F1_2022.mas
 {
 /ASMG_FH22.gen
 /ASMG_FH22_Spinner.gen
 /ASMG_FH22.hdv
-/ASMG_FH22_HONDA1.hdv
-/ASMG_FH22.sfx
-/ASMG_FH22.rcd
-/ASMG_FH22.cam
+/ASMG_FH22_HO.hdv
+/ASMG_FH22_HO2.hdv
+/ASMG_FH22_FE.hdv
+/ASMG_FH22_FE2.hdv
+/ASMG_FH22_ME.hdv
+/ASMG_FH22_ME2.hdv
+/ASMG_FH22_RE.hdv
 /ASMG_FH22_Engine.ini
+/ASMG_FH22_EngineFE.ini
+/ASMG_FH22_EngineME.ini
+/ASMG_FH22_EngineRE.ini
 /ASMG_FH22_Chassis.ini
 /ASMG_FH22_CockpitInfo.ini
 /ASMG_FH22_Damage.ini
 /ASMG_FH22_Gears.ini
 /ASMG_FH22_Upgrades.ini
+/ASMG_FH22.sfx
+/ASMG_FH22.rcd
+/ASMG_FH22.cam
 /brand_ASMG_FH22.png
 /brand_logo.png
 /veh_ripple_map.png

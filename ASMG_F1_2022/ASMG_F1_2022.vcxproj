@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -15,6 +15,14 @@
     </ProjectConfiguration>
     <ProjectConfiguration Include="Release|x64">
       <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RFM|Win32">
+      <Configuration>RFM</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RFM|x64">
+      <Configuration>RFM</Configuration>
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
@@ -34,6 +42,11 @@
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RFM|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
@@ -41,6 +54,11 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RFM|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
@@ -55,10 +73,16 @@
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='RFM|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='RFM|x64'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
@@ -74,9 +98,26 @@
     <NMakeReBuildCommandLine>rebuild.bat</NMakeReBuildCommandLine>
     <NMakePreprocessorDefinitions>WIN32;NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RFM|Win32'">
+    <NMakeBuildCommandLine>build.bat</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>clean.bat</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>rebuild.bat</NMakeReBuildCommandLine>
+    <NMakePreprocessorDefinitions>WIN32;NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RFM|x64'">
+    <TargetExt>.rfcmp</TargetExt>
+    <ExtensionsToDeleteOnClean>*.mas;*.rfcmp;*.zip</ExtensionsToDeleteOnClean>
+    <OutDir>$(SolutionDir)\bin\$(ProjectName)</OutDir>
+    <IntDir>$(SolutionDir)\bin\$(ProjectName)</IntDir>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <PostBuildEvent>
       <Command>cmd /c build.bat</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RFM|x64'">
+    <PostBuildEvent>
+      <Command>cmd.exe /c build.bat</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -562,19 +603,32 @@
     <Image Include="teams\F122_WI\F122_WI_23Rims.dds" />
     <Image Include="teams\F122_WI\F122_WI_23Stickers.dds" />
     <Image Include="teams\F122_WI\F122_WI_23_region.dds" />
-    <Image Include="teams\F22_CORONA\F122_Corona_91-icon-1024x576.png" />
-    <Image Include="teams\F22_CORONA\F122_Corona_91-icon-128x72.png" />
-    <Image Include="teams\F22_CORONA\F122_Corona_91-icon-2048x1152.png" />
-    <Image Include="teams\F22_CORONA\F122_Corona_91-icon-256x144.png" />
-    <Image Include="teams\F22_CORONA\F122_Corona_91-icon-512x288.png" />
-    <Image Include="teams\F22_CORONA\F122_Corona_91.dds" />
-    <Image Include="teams\F22_CORONA\F122_Corona_91Driver.dds" />
-    <Image Include="teams\F22_CORONA\F122_Corona_91Gloves.dds" />
-    <Image Include="teams\F22_CORONA\F122_Corona_91HelmetNew.dds" />
-    <Image Include="teams\F22_CORONA\F122_Corona_91icon.png" />
-    <Image Include="teams\F22_CORONA\F122_Corona_91Rims.dds" />
-    <Image Include="teams\F22_CORONA\F122_Corona_91Stickers.dds" />
-    <Image Include="teams\F22_CORONA\F122_Corona_91_region.dds" />
+    <Image Include="teams\F122_CORONA\F122_Corona_56-icon-1024x576.png" />
+    <Image Include="teams\F122_CORONA\F122_Corona_56-icon-128x72.png" />
+    <Image Include="teams\F122_CORONA\F122_Corona_56-icon-2048x1152.png" />
+    <Image Include="teams\F122_CORONA\F122_Corona_56-icon-256x144.png" />
+    <Image Include="teams\F122_CORONA\F122_Corona_56-icon-512x288.png" />
+    <Image Include="teams\F122_CORONA\F122_Corona_56.dds" />
+    <Image Include="teams\F122_CORONA\F122_Corona_56Driver.dds" />
+    <Image Include="teams\F122_CORONA\F122_Corona_56Gloves.dds" />
+    <Image Include="teams\F122_CORONA\F122_Corona_56HelmetNew.dds" />
+    <Image Include="teams\F122_CORONA\F122_Corona_56icon.png" />
+    <Image Include="teams\F122_CORONA\F122_Corona_56Rims.dds" />
+    <Image Include="teams\F122_CORONA\F122_Corona_56Stickers.dds" />
+    <Image Include="teams\F122_CORONA\F122_Corona_56_region.dds" />
+    <Image Include="teams\F122_CORONA\F122_Corona_91-icon-1024x576.png" />
+    <Image Include="teams\F122_CORONA\F122_Corona_91-icon-128x72.png" />
+    <Image Include="teams\F122_CORONA\F122_Corona_91-icon-2048x1152.png" />
+    <Image Include="teams\F122_CORONA\F122_Corona_91-icon-256x144.png" />
+    <Image Include="teams\F122_CORONA\F122_Corona_91-icon-512x288.png" />
+    <Image Include="teams\F122_CORONA\F122_Corona_91.dds" />
+    <Image Include="teams\F122_CORONA\F122_Corona_91Driver.dds" />
+    <Image Include="teams\F122_CORONA\F122_Corona_91Gloves.dds" />
+    <Image Include="teams\F122_CORONA\F122_Corona_91HelmetNew.dds" />
+    <Image Include="teams\F122_CORONA\F122_Corona_91icon.png" />
+    <Image Include="teams\F122_CORONA\F122_Corona_91Rims.dds" />
+    <Image Include="teams\F122_CORONA\F122_Corona_91Stickers.dds" />
+    <Image Include="teams\F122_CORONA\F122_Corona_91_region.dds" />
     <Image Include="upgrades\brand_ASMG_FH22.png" />
     <Image Include="upgrades\brand_logo.png" />
     <Image Include="upgrades\F122_AL_14-icon-1024x576.png" />
@@ -831,12 +885,14 @@
     <None Include="ASMG_FH22.hdv" />
     <None Include="ASMG_FH22.rcd" />
     <None Include="ASMG_FH22.sfx" />
+    <None Include="ASMG_FH22_HO.hdv" />
     <None Include="ASMG_FH22_Chassis.ini" />
     <None Include="ASMG_FH22_CockpitInfo.ini" />
     <None Include="ASMG_FH22_Damage.ini" />
     <None Include="ASMG_FH22_Engine.ini" />
     <None Include="ASMG_FH22_Gears.ini" />
-    <None Include="ASMG_FH22_HONDA1.hdv" />
+    <None Include="ASMG_FH22_EngineME.ini" />
+    <None Include="ASMG_FH22_RE.hdv" />
     <None Include="ASMG_FH22_Spinner.gen" />
     <None Include="ASMG_FH22_Upgrades.ini" />
     <None Include="build.bat" />
@@ -978,42 +1034,80 @@
     <None Include="materials\WCEXTRA8.json" />
     <None Include="materials\WCEXTRA9.json" />
     <None Include="materials\WCSWHEEL.json" />
+    <None Include="ASMG_FH22_ME.hdv" />
+    <None Include="ASMG_FH22_ME2.hdv" />
+    <None Include="ASMG_FH22_FE.hdv" />
+    <None Include="ASMG_FH22_EngineFE.ini" />
+    <None Include="ASMG_FH22_FE2.hdv" />
+    <None Include="ASMG_FH22_EngineRE.ini" />
+    <None Include="ASMG_FH22_HO2.hdv" />
     <None Include="teams\F122_AL\F122_AL_14.veh" />
     <None Include="teams\F122_AL\F122_AL_31.veh" />
     <None Include="teams\F122_AL\F122_AL_BaseMat.json" />
+    <None Include="teams\F122_AL\GPVWC_Monaco.race.svm" />
+    <None Include="teams\F122_AL\GPVWC_Monaco.svm" />
     <None Include="teams\F122_AM\F122_AM_05.veh" />
     <None Include="teams\F122_AM\F122_AM_18.veh" />
     <None Include="teams\F122_AM\F122_AM_BaseMat.json" />
+    <None Include="teams\F122_AM\GPVWC_Monaco.race.svm" />
+    <None Include="teams\F122_AM\GPVWC_Monaco.svm" />
     <None Include="teams\F122_AR\F122_AR_24.veh" />
     <None Include="teams\F122_AR\F122_AR_77.veh" />
     <None Include="teams\F122_AR\F122_AR_BaseMat.json" />
+    <None Include="teams\F122_AR\GPVWC_Monaco.race.svm" />
+    <None Include="teams\F122_AR\GPVWC_Monaco.svm" />
     <None Include="teams\F122_AT\F122_AT_10.veh" />
     <None Include="teams\F122_AT\F122_AT_22.veh" />
     <None Include="teams\F122_AT\F122_AT_BaseMat.json" />
+    <None Include="teams\F122_AT\GPVWC_Monaco.race.svm" />
+    <None Include="teams\F122_AT\GPVWC_Monaco.svm" />
+    <None Include="teams\F122_CORONA\GPVWC_Monaco.race.svm" />
+    <None Include="teams\F122_CORONA\GPVWC_Monaco.svm" />
+    <None Include="teams\F122_CORONA\LochDrummond_Short.race.svm" />
+    <None Include="teams\F122_CORONA\LochDrummond_Short.svm" />
     <None Include="teams\F122_FE\F122_FE_16.veh" />
     <None Include="teams\F122_FE\F122_FE_55.veh" />
     <None Include="teams\F122_FE\F122_FE_BaseMat.json" />
+    <None Include="teams\F122_FE\GPVWC_Monaco.race.svm" />
+    <None Include="teams\F122_FE\GPVWC_Monaco.svm" />
     <None Include="teams\F122_HA\F122_HA_20.veh" />
     <None Include="teams\F122_HA\F122_HA_47.veh" />
     <None Include="teams\F122_HA\F122_HA_BaseMat.json" />
+    <None Include="teams\F122_HA\GPVWC_Monaco.race.svm" />
+    <None Include="teams\F122_HA\GPVWC_Monaco.svm" />
     <None Include="teams\F122_MC\F122_MC_03.veh" />
     <None Include="teams\F122_MC\F122_MC_04.veh" />
     <None Include="teams\F122_MC\F122_MC_BaseMat.json" />
+    <None Include="teams\F122_MC\GPVWC_Monaco.race.svm" />
+    <None Include="teams\F122_MC\GPVWC_Monaco.svm" />
     <None Include="teams\F122_ME\F122_ME_44.veh" />
     <None Include="teams\F122_ME\F122_ME_63.veh" />
     <None Include="teams\F122_ME\F122_ME_BaseMat.json" />
+    <None Include="teams\F122_ME\GPVWC_Monaco.race.svm" />
+    <None Include="teams\F122_ME\GPVWC_Monaco.svm" />
     <None Include="teams\F122_RB\F122_RB_01.veh" />
     <None Include="teams\F122_RB\F122_RB_11.veh" />
     <None Include="teams\F122_RB\F122_RB_BaseMat.json" />
+    <None Include="teams\F122_RB\GPVWC_Monaco.race.svm" />
+    <None Include="teams\F122_RB\GPVWC_Monaco.svm" />
     <None Include="teams\F122_WI\F122_WI_06.veh" />
     <None Include="teams\F122_WI\F122_WI_23.veh" />
     <None Include="teams\F122_WI\F122_WI_BaseMat.json" />
-    <None Include="teams\F22_CORONA\F122_Corona_91-icon-2048x1152.pdn" />
-    <None Include="teams\F22_CORONA\F122_Corona_91.pdn" />
-    <None Include="teams\F22_CORONA\F122_Corona_91.veh" />
-    <None Include="teams\F22_CORONA\F122_Corona_91HelmetNew.pdn" />
-    <None Include="teams\F22_CORONA\F122_Corona_91_Layers.pdn" />
-    <None Include="teams\F22_CORONA\F122_Corona_BaseMats.json" />
+    <None Include="teams\F122_CORONA\F122_Corona_56-icon-2048x1152.pdn" />
+    <None Include="teams\F122_CORONA\F122_Corona_56.pdn" />
+    <None Include="teams\F122_CORONA\F122_Corona_56.veh" />
+    <None Include="teams\F122_CORONA\F122_Corona_56HelmetNew.pdn" />
+    <None Include="teams\F122_CORONA\F122_Corona_56Rims_Layers.pdn" />
+    <None Include="teams\F122_CORONA\F122_Corona_56_Layers.pdn" />
+    <None Include="teams\F122_CORONA\F122_Corona_91-icon-2048x1152.pdn" />
+    <None Include="teams\F122_CORONA\F122_Corona_91.pdn" />
+    <None Include="teams\F122_CORONA\F122_Corona_91.veh" />
+    <None Include="teams\F122_CORONA\F122_Corona_91HelmetNew.pdn" />
+    <None Include="teams\F122_CORONA\F122_Corona_91Rims_Layers.pdn" />
+    <None Include="teams\F122_CORONA\F122_Corona_91_Layers.pdn" />
+    <None Include="teams\F122_CORONA\F122_Corona_BaseMats.json" />
+    <None Include="teams\F122_WI\GPVWC_Monaco.race.svm" />
+    <None Include="teams\F122_WI\GPVWC_Monaco.svm" />
     <None Include="tires\F12022_FRONT_C1.TGM" />
     <None Include="tires\F12022_FRONT_C2.TGM" />
     <None Include="tires\F12022_FRONT_C3.TGM" />
@@ -1070,9 +1164,13 @@
     <None Include="WCDRIVER.json" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="FERRARI_TORQUE_TABLE.txt" />
+    <Text Include="MERCEDES_TORQUE_TABLE.txt" />
+    <Text Include="RENAULT_TORQUE_TABLE.txt" />
     <Text Include="teams\F122_AM\F122_AM_05.txt" />
     <Text Include="teams\F122_AM\F122_AM_18.txt" />
-    <Text Include="teams\F22_CORONA\F122_Corona_91.txt" />
+    <Text Include="teams\F122_CORONA\F122_Corona_56.txt" />
+    <Text Include="teams\F122_CORONA\F122_Corona_91.txt" />
     <Text Include="upgrades\F122_AM_05.txt" />
     <Text Include="upgrades\F122_AM_18.txt" />
   </ItemGroup>

@@ -1,25 +1,65 @@
-ASMG_F1_2022
+Formula_1_2022
 {
   default
   {
-    StepDistance = 3.5
-    StepSpeed1 = 18.9
-    StepSpeed2 = 33.0
-    StepSpeed3 = 45.6
-    StepSpeed4 = 57.4
-    StepSpeed5 = 68.7
-    StepSpeed6 = 79.4
-    StepSpeed7 = 89.9
-    StepSpeed8 = 100.0
-    DrivingLine = FASTEST,FAST_OW1 
-    CorneringCaution = 25.0
-    OverSteerThrottleReaction = -85.0
+    StepDistance = 2.5
+    StepSpeed1 = 10.0 //8.0
+    StepSpeed2 = 15.0 //12.0
+    StepSpeed3 = 20.0
+    StepSpeed4 = 33.0
+    StepSpeed5 = 45.0
+    StepSpeed6 = 60.4
+    StepSpeed7 = 70.9
+    StepSpeed8 = 80.0
+    DrivingLine = FASTEST,FAST_ALT1, FAST_ALT2 
+    CorneringCaution = 50.0
+    OverSteerThrottleReaction = 55.0 //-85.0
     UnderSteerEffectOnThrottleMulti = 130.0
     UnderSteerEffectOnLineMulti = 100.0
-    FearOfWalls = 95.0
+    FearOfWalls = 99.0
  
   }
   
+  Tom Hansen
+  {
+    Nationality = Danish
+    DateofBirth = 26-9-1962
+    Starts = 0
+    Poles = 0
+    Wins = 0
+    DriversChampionships = 0
+    Aggression = 100.0
+    Composure = 100.0
+    Speed = 100.0
+    QualifySpeed = 100.0
+    WetSpeed = 95.0
+    StartSkill = 100.0
+    Crash = 0.0
+    Recovery = 100.0
+    CompletedLaps = 100.0
+    MinRacingSkill = 100.0
+  }
+
+  Travis Hansen
+  {
+    Nationality = USA
+    DateofBirth = 16-10-1995
+    Starts = 0
+    Poles = 0
+    Wins = 0
+    DriversChampionships = 0
+    Aggression = 100.0
+    Composure = 100.0
+    Speed = 100.0
+    QualifySpeed = 100.0
+    WetSpeed = 95.0
+    StartSkill = 100.0
+    Crash = 0.0
+    Recovery = 100.0
+    CompletedLaps = 100.0
+    MinRacingSkill = 100.0
+  }
+
   Max Verstappen
   {
     Nationality = Dutch
@@ -37,7 +77,7 @@ ASMG_F1_2022
     Crash = 0.0
     Recovery = 100.0
     CompletedLaps = 100.0
-    MinRacingSkill = 100.0
+    MinRacingSkill = 90.0
   }
 
   Sergio Perez
@@ -48,16 +88,16 @@ ASMG_F1_2022
     Poles = 1
     Wins = 3
     DriversChampionships = 0
-    Aggression = 95.0
-    Composure = 100.0
-    Speed = 95.0
-    QualifySpeed = 95.0
-    WetSpeed = 85.0
-    StartSkill = 100.0
+    Aggression = 70.0
+    Composure = 80.0
+    Speed = 80.0
+    QualifySpeed = 90.0
+    WetSpeed = 75.0
+    StartSkill = 80.0
     Crash = 0.0
-    Recovery = 100.0
+    Recovery = 95.0
     CompletedLaps = 100.0
-    MinRacingSkill = 100.0
+    MinRacingSkill = 80.0
   }
 
   Lewis Hamilton
@@ -70,14 +110,14 @@ ASMG_F1_2022
     DriversChampionships = 7
     Aggression = 98.0
     Composure = 100.0
-    Speed = 98.00
-    QualifySpeed = 100.0
+    Speed = 90.00
+    QualifySpeed = 90.0
     WetSpeed = 90.0
     StartSkill = 100.0
     Crash = 0.0
     Recovery = 100.0
     CompletedLaps = 100.0
-    MinRacingSkill = 100.0
+    MinRacingSkill = 90.0
   }
 
   George Russell
@@ -89,15 +129,15 @@ ASMG_F1_2022
     Wins = 0
     DriversChampionships
     Aggression = 98.0
-    Composure = 100.0
-    Speed = 98.0
-    QualifySpeed = 100.0
+    Composure = 99.0
+    Speed = 85.0
+    QualifySpeed = 92.0
     WetSpeed = 95.0
-    StartSkill = 100.0
+    StartSkill = 80.0
     Crash = 0.0
-    Recovery = 100.0
+    Recovery = 99.0
     CompletedLaps = 100.0
-    MinRacingSkill = 100.0
+    MinRacingSkill = 80.0
   }
 
   Charles Leclerc
@@ -117,7 +157,7 @@ ASMG_F1_2022
     Crash = 0.0
     Recovery = 100.0
     CompletedLaps = 100.0
-    MinRacingSkill = 100.0
+    MinRacingSkill = 90.0
   }
 
   Carlos Sainz Jr
@@ -129,15 +169,15 @@ ASMG_F1_2022
     Wins = 0
     DriversChampionships = 0
     Aggression = 95.0
-    Composure = 100.0
-    Speed = 95.0
+    Composure = 99.0
+    Speed = 92.0
     QualifySpeed = 95.0
     WetSpeed = 90.0
-    StartSkill = 100.0
-    Crash = 0.0
-    Recovery = 100.0
+    StartSkill = 90.0
+    Crash = 2.5
+    Recovery = 99.0
     CompletedLaps = 100.0
-    MinRacingSkill = 100.0
+    MinRacingSkill = 80.0
   }
 
   Lando Norris
@@ -148,16 +188,16 @@ ASMG_F1_2022
     Poles = 1
     Wins = 0
     DriversChampionships = 0
-    Aggression = 95.0
-    Composure = 100.0
-    Speed = 95.0
+    Aggression = 85.0
+    Composure = 85.0
+    Speed = 75.0
     QualifySpeed = 95.0
     WetSpeed = 95.0
-    StartSkill = 100.0
+    StartSkill = 85.0
     Crash = 0.0
     Recovery = 100.0
     CompletedLaps = 100.0
-    MinRacingSkill = 100.0
+    MinRacingSkill = 80.0
   }
 
   Daniel Ricciardo
@@ -168,16 +208,16 @@ ASMG_F1_2022
     Poles = 3
     Wins = 8
     DriversChampionships = 0
-    Aggression = 90.0
-    Composure = 100.0
-    Speed = 85.0
+    Aggression = 80.0
+    Composure = 80.0
+    Speed = 75.0
     QualifySpeed = 90.0
-    WetSpeed = 80.0
-    StartSkill = 100.0
+    WetSpeed = 70.0
+    StartSkill = 80.0
     Crash = 0.0
-    Recovery = 100.0
+    Recovery = 99.0
     CompletedLaps = 100.0
-    MinRacingSkill = 100.0
+    MinRacingSkill = 70.0
   }
 
   Pierre Gasly
@@ -189,15 +229,15 @@ ASMG_F1_2022
     Wins = 1
     DriversChampionships = 0
     Aggression = 90.0
-    Composure = 100.0
-    Speed = 90.0
+    Composure = 90.0
+    Speed = 80.0
     QualifySpeed = 90.0
     WetSpeed = 85.0
-    StartSkill = 100.0
+    StartSkill = 90.0
     Crash = 0.0
-    Recovery = 100.0
+    Recovery = 99.0
     CompletedLaps = 100.0
-    MinRacingSkill = 100.0
+    MinRacingSkill = 80.0
   }
 
   Yuki Tsunoda
@@ -208,16 +248,16 @@ ASMG_F1_2022
     Poles = 0
     Wins = 0
     DriversChampionships = 0
-    Aggression = 85.0
-    Composure = 100.0
-    Speed = 80.0
+    Aggression = 75.0
+    Composure = 90.0
+    Speed = 75.0
     QualifySpeed = 85.0
-    WetSpeed = 75.0
-    StartSkill = 100.0
-    Crash = 0.0
-    Recovery = 100.0
+    WetSpeed = 65.0
+    StartSkill = 80.0
+    Crash = 2.5
+    Recovery = 98.0
     CompletedLaps = 100.0
-    MinRacingSkill = 100.0
+    MinRacingSkill = 70.0
   }
 
   Valtteri Bottas
@@ -229,15 +269,15 @@ ASMG_F1_2022
     Wins = 10
     DriversChampionships = 0
     Aggression = 90.0
-    Composure = 100.0
+    Composure = 97.0
     Speed = 90.0
     QualifySpeed = 90.0
     WetSpeed = 85.0
-    StartSkill = 100.0
+    StartSkill = 90.0
     Crash = 0.0
-    Recovery = 100.0
+    Recovery = 99.0
     CompletedLaps = 100.0
-    MinRacingSkill = 100.0
+    MinRacingSkill = 80.0
   }
 
   Zhou Guanyu
@@ -249,15 +289,15 @@ ASMG_F1_2022
     Wins = 0
     DriversChampionships = 0
     Aggression = 85.0
-    Composure = 100.0
-    Speed = 80.0
+    Composure = 90.0
+    Speed = 75.0
     QualifySpeed = 80.0
     WetSpeed = 70.0
-    StartSkill = 100.0
-    Crash = 0.0
-    Recovery = 100.0
-    CompletedLaps = 100.0
-    MinRacingSkill = 100.00
+    StartSkill = 90.0
+    Crash = 1.5
+    Recovery = 99.0
+    CompletedLaps = 99.0
+    MinRacingSkill = 75.00
   }
 
   Esteban Ocon
@@ -269,15 +309,15 @@ ASMG_F1_2022
     Wins = 1
     DriversChampionships = 0
     Aggression = 90.0
-    Composure = 100.0
-    Speed = 90.0
+    Composure = 90.0
+    Speed = 70.0
     QualifySpeed = 90.0
     WetSpeed = 80.0
-    StartSkill = 90.0
-    Crash = 0.0
-    Recovery = 100.0
+    StartSkill = 80.0
+    Crash = 1.0
+    Recovery = 98.0
     CompletedLaps = 100.0
-    MinRacingSkill = 100.0
+    MinRacingSkill = 70.0
   }
 
   Fernando Alonso
@@ -288,16 +328,16 @@ ASMG_F1_2022
     Poles = 22
     Wins = 32
     DriversChampionships = 2
-    Aggression = 90.0
-    Composure = 100.0
-    Speed = 90.0
+    Aggression = 75.0
+    Composure = 95.0
+    Speed = 85.0
     QualifySpeed = 90.0
-    WetSpeed = 80.0
-    StartSkill = 100.0
+    WetSpeed = 70.0
+    StartSkill = 90.0
     Crash = 0.0
-    Recovery = 100.0
-    CompletedLaps = 100.0
-    MinRacingSkill = 100.0
+    Recovery = 97.0
+    CompletedLaps = 99.0
+    MinRacingSkill = 80.0
   }
   
   Sebastian Vettel 
@@ -310,14 +350,14 @@ ASMG_F1_2022
     DriversChampionships = 4
     Aggression = 90.0
     Composure = 100.0
-    Speed = 85.0
+    Speed = 75.0
     QualifySpeed = 85.0
     WetSpeed = 80.0
-    StartSkill = 100.0
+    StartSkill = 90.0
     Crash = 0.0
     Recovery = 100.0
     CompletedLaps = 100.0
-    MinRacingSkill = 100.0
+    MinRacingSkill = 80.0
   }
 
   Lance Stroll
@@ -329,15 +369,15 @@ ASMG_F1_2022
     Wins = 0
     DriversChampionships = 0
     Aggression = 90.0
-    Composure = 100.0
-    Speed = 85.0
+    Composure = 92.0
+    Speed = 75.0
     QualifySpeed = 85.0
     WetSpeed = 75.0
-    StartSkill = 100.0
-    Crash = 0.00
+    StartSkill = 80.0
+    Crash = 1.50
     Recovery = 100.0
-    CompletedLaps = 100.0
-    MinRacingSkill = 100.0
+    CompletedLaps = 99.0
+    MinRacingSkill = 75.0
   }
 
   Nico Hulkenberg 
@@ -368,16 +408,16 @@ ASMG_F1_2022
     Poles = 0
     Wins = 0
     DriversChampionships = 0
-    Aggression = 85.0
-    Composure = 100.0
-    Speed = 80.0
+    Aggression = 75.0
+    Composure = 93.0
+    Speed = 75.0
     QualifySpeed = 80.0
-    WetSpeed = 75.0
-    StartSkill = 100.0
-    Crash = 0.0
-    Recovery = 100.0
-    CompletedLaps = 100.0
-    MinRacingSkill = 100.0
+    WetSpeed = 65.0
+    StartSkill = 75.0
+    Crash = 1.5
+    Recovery = 95.0
+    CompletedLaps = 98.0
+    MinRacingSkill = 65.0
   }
 
   Kevin Magnussen
@@ -390,14 +430,14 @@ ASMG_F1_2022
     DriversChampionships = 0
     Aggression = 90.0
     Composure = 98.0
-    Speed = 85.0
+    Speed = 80.0
     QualifySpeed = 85.0
     WetSpeed = 75.0
-    StartSkill = 100.0
+    StartSkill = 90.0
     Crash = 0.0
-    Recovery = 100.0
+    Recovery = 95.0
     CompletedLaps = 100.0
-    MinRacingSkill = 100.0
+    MinRacingSkill = 80.0
   }
  
   Nicholas Latifi
@@ -409,15 +449,15 @@ ASMG_F1_2022
     Wins = 0
     DriversChampionships
     Aggression = 80.0
-    Composure = 100.0
-    Speed = 75.0
-    QualifySpeed = 80.0
-    WetSpeed = 70.0
-    StartSkill = 100.0
-    Crash = 0.00
-    Recovery = 100.0
-    CompletedLaps = 100.0
-    MinRacingSkill = 100.0
+    Composure = 50.0
+    Speed = 65.0
+    QualifySpeed = 70.0
+    WetSpeed = 60.0
+    StartSkill = 75.0
+    Crash = 12.00
+    Recovery = 80.0
+    CompletedLaps = 97.0
+    MinRacingSkill = 55.0
   }
 
   Alexander Albon
@@ -429,14 +469,14 @@ ASMG_F1_2022
     Wins = 0
     DriversChampionships = 0
     Aggression = 85.0
-    Composure = 100.0
-    Speed = 85.0
-    QualifySpeed = 85.0
-    WetSpeed = 75.0
-    StartSkill = 100.0
-    Crash = 0.0
-    Recovery = 100.0
-    CompletedLaps = 100.0
-    MinRacingSkill = 100.0
+    Composure = 65.0
+    Speed = 70.0
+    QualifySpeed = 75.0
+    WetSpeed = 65.0
+    StartSkill = 80.0
+    Crash = 4.50
+    Recovery = 85.0
+    CompletedLaps = 98.0
+    MinRacingSkill = 75.0
   }
 }
