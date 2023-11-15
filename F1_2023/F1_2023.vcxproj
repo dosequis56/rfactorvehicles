@@ -1,0 +1,862 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RFM|Win32">
+      <Configuration>RFM</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RFM|x64">
+      <Configuration>RFM</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{3E289774-F8A1-42E0-8341-563185EA8556}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RFM|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RFM|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='RFM|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='RFM|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <NMakeBuildCommandLine>build.bat</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>clean.bat</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>rebuild.bat</NMakeReBuildCommandLine>
+    <NMakePreprocessorDefinitions>WIN32;_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <NMakeBuildCommandLine>build.bat</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>clean.bat</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>rebuild.bat</NMakeReBuildCommandLine>
+    <NMakePreprocessorDefinitions>WIN32;NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RFM|Win32'">
+    <NMakeBuildCommandLine>build.bat</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>clean.bat</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>rebuild.bat</NMakeReBuildCommandLine>
+    <NMakePreprocessorDefinitions>WIN32;NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RFM|x64'">
+    <TargetExt>.rfcmp</TargetExt>
+    <ExtensionsToDeleteOnClean>*.mas;*.rfcmp;*.zip</ExtensionsToDeleteOnClean>
+    <OutDir>$(BUILD_TARGET_PATH)\RFACTOR\$(ProjectName)\</OutDir>
+    <IntDir>$(BUILD_TARGET_PATH)\RFACTOR\\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <PostBuildEvent>
+      <Command>cmd /c build.bat</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RFM|x64'">
+    <PostBuildEvent>
+      <Command>cmd.exe /c build.bat</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ASMG_FH22.cam" />
+    <None Include="ASMG_FH22.gen" />
+    <None Include="ASMG_FH22.hdv" />
+    <None Include="ASMG_FH22.rcd" />
+    <None Include="ASMG_FH22.sfx" />
+    <None Include="ASMG_FH22_Chassis.ini" />
+    <None Include="ASMG_FH22_CockpitInfo.ini" />
+    <None Include="ASMG_FH22_Damage.ini" />
+    <None Include="ASMG_FH22_Engine.ini" />
+    <None Include="ASMG_FH22_Gears.ini" />
+    <None Include="ASMG_FH22_Spinner.gen" />
+    <None Include="ASMG_FH22_Upgrades_2023.ini" />
+    <None Include="ASMG_FH22_Upgrades_AI.ini" />
+    <None Include="build.bat" />
+    <None Include="Engine915.ini" />
+    <None Include="Maps\asmg_fh22_bduct_lf.gmt" />
+    <None Include="Maps\asmg_fh22_bduct_lr.gmt" />
+    <None Include="Maps\asmg_fh22_bduct_rf.gmt" />
+    <None Include="Maps\asmg_fh22_bduct_rr.gmt" />
+    <None Include="Maps\asmg_fh22_body.gmt" />
+    <None Include="Maps\asmg_fh22_body_lod1.gmt" />
+    <None Include="Maps\asmg_fh22_body_lod2.gmt" />
+    <None Include="Maps\asmg_fh22_body_lod3.gmt" />
+    <None Include="Maps\asmg_fh22_chassis.gmt" />
+    <None Include="Maps\asmg_fh22_chassis_antenna.gmt" />
+    <None Include="Maps\asmg_fh22_chassis_cams.gmt" />
+    <None Include="Maps\asmg_fh22_chassis_tvcam.gmt" />
+    <None Include="Maps\asmg_fh22_cockpit_int.gmt" />
+    <None Include="Maps\asmg_fh22_coll.gmt" />
+    <None Include="Maps\asmg_fh22_driver.gmt" />
+    <None Include="Maps\asmg_fh22_exhaust.gmt" />
+    <None Include="Maps\asmg_fh22_halo.gmt" />
+    <None Include="Maps\asmg_fh22_halo_t.gmt" />
+    <None Include="Maps\asmg_fh22_helmet_arai.gmt" />
+    <None Include="Maps\asmg_fh22_helmet_arai_lod1.gmt" />
+    <None Include="Maps\asmg_fh22_helmet_arai_lod2.gmt" />
+    <None Include="Maps\asmg_fh22_helmet_arai_menu.gmt" />
+    <None Include="Maps\asmg_fh22_helmet_bell.gmt" />
+    <None Include="Maps\asmg_fh22_helmet_bell_lod1.gmt" />
+    <None Include="Maps\asmg_fh22_helmet_bell_lod2.gmt" />
+    <None Include="Maps\asmg_fh22_helmet_bell_menu.gmt" />
+    <None Include="Maps\asmg_fh22_helmet_rf2s.gmt" />
+    <None Include="Maps\asmg_fh22_helmet_rf2s_lod1.gmt" />
+    <None Include="Maps\asmg_fh22_helmet_rf2s_lod2.gmt" />
+    <None Include="Maps\asmg_fh22_helmet_rf2s_menu.gmt" />
+    <None Include="Maps\asmg_fh22_helmet_schu.gmt" />
+    <None Include="Maps\asmg_fh22_helmet_schu_lod1.gmt" />
+    <None Include="Maps\asmg_fh22_helmet_schu_lod2.gmt" />
+    <None Include="Maps\asmg_fh22_helmet_schu_menu.gmt" />
+    <None Include="Maps\asmg_fh22_helmet_stil.gmt" />
+    <None Include="Maps\asmg_fh22_helmet_stil_lod1.gmt" />
+    <None Include="Maps\asmg_fh22_helmet_stil_lod2.gmt" />
+    <None Include="Maps\asmg_fh22_helmet_stil_menu.gmt" />
+    <None Include="Maps\asmg_fh22_lmirror_ex.gmt" />
+    <None Include="Maps\asmg_fh22_lmirror_in.gmt" />
+    <None Include="Maps\asmg_fh22_mirror_l.gmt" />
+    <None Include="Maps\asmg_fh22_mirror_r.gmt" />
+    <None Include="Maps\asmg_fh22_rim_cover_in_lf.gmt" />
+    <None Include="Maps\asmg_fh22_rim_cover_in_rf.gmt" />
+    <None Include="Maps\asmg_fh22_rim_cover_out_lf.gmt" />
+    <None Include="Maps\asmg_fh22_rim_cover_out_lr.gmt" />
+    <None Include="Maps\asmg_fh22_rim_cover_out_rf.gmt" />
+    <None Include="Maps\asmg_fh22_rim_cover_out_rr.gmt" />
+    <None Include="Maps\asmg_fh22_rim_lf.gmt" />
+    <None Include="Maps\asmg_fh22_rim_lf_lod1.gmt" />
+    <None Include="Maps\asmg_fh22_rim_lf_lod2.gmt" />
+    <None Include="Maps\asmg_fh22_rim_lf_lod3.gmt" />
+    <None Include="Maps\asmg_fh22_rim_lr.gmt" />
+    <None Include="Maps\asmg_fh22_rim_lr_lod1.gmt" />
+    <None Include="Maps\asmg_fh22_rim_lr_lod2.gmt" />
+    <None Include="Maps\asmg_fh22_rim_lr_lod3.gmt" />
+    <None Include="Maps\asmg_fh22_rim_rf.gmt" />
+    <None Include="Maps\asmg_fh22_rim_rf_lod1.gmt" />
+    <None Include="Maps\asmg_fh22_rim_rf_lod2.gmt" />
+    <None Include="Maps\asmg_fh22_rim_rf_lod3.gmt" />
+    <None Include="Maps\asmg_fh22_rim_rr.gmt" />
+    <None Include="Maps\asmg_fh22_rim_rr_lod1.gmt" />
+    <None Include="Maps\asmg_fh22_rim_rr_lod2.gmt" />
+    <None Include="Maps\asmg_fh22_rim_rr_lod3.gmt" />
+    <None Include="Maps\asmg_fh22_rlight.gmt" />
+    <None Include="Maps\asmg_fh22_rmirror_ex.gmt" />
+    <None Include="Maps\asmg_fh22_rmirror_in.gmt" />
+    <None Include="Maps\asmg_fh22_screws.gmt" />
+    <None Include="Maps\asmg_fh22_sidepods.gmt" />
+    <None Include="Maps\asmg_fh22_sidepods_lod1.gmt" />
+    <None Include="Maps\asmg_fh22_sidepods_lod2.gmt" />
+    <None Include="Maps\asmg_fh22_sidepods_lod3.gmt" />
+    <None Include="Maps\asmg_fh22_steer.anm" />
+    <None Include="Maps\asmg_fh22_susp_lf.gmt" />
+    <None Include="Maps\asmg_fh22_susp_lr.gmt" />
+    <None Include="Maps\asmg_fh22_susp_rf.gmt" />
+    <None Include="Maps\asmg_fh22_susp_rr.gmt" />
+    <None Include="Maps\asmg_fh22_swheel_ex.gmt" />
+    <None Include="Maps\asmg_fh22_swheel_in.gmt" />
+    <None Include="Maps\asmg_fh22_swheel_in_lcd.gmt" />
+    <None Include="Maps\asmg_fh22_tire_lf.gmt" />
+    <None Include="Maps\asmg_fh22_tire_lf_lod1.gmt" />
+    <None Include="Maps\asmg_fh22_tire_lf_lod2.gmt" />
+    <None Include="Maps\asmg_fh22_tire_lf_lod3.gmt" />
+    <None Include="Maps\asmg_fh22_tire_lr.gmt" />
+    <None Include="Maps\asmg_fh22_tire_lr_lod1.gmt" />
+    <None Include="Maps\asmg_fh22_tire_lr_lod2.gmt" />
+    <None Include="Maps\asmg_fh22_tire_lr_lod3.gmt" />
+    <None Include="Maps\asmg_fh22_tire_rf.gmt" />
+    <None Include="Maps\asmg_fh22_tire_rf_lod1.gmt" />
+    <None Include="Maps\asmg_fh22_tire_rf_lod2.gmt" />
+    <None Include="Maps\asmg_fh22_tire_rf_lod3.gmt" />
+    <None Include="Maps\asmg_fh22_tire_rr.gmt" />
+    <None Include="Maps\asmg_fh22_tire_rr_lod1.gmt" />
+    <None Include="Maps\asmg_fh22_tire_rr_lod2.gmt" />
+    <None Include="Maps\asmg_fh22_tire_rr_lod3.gmt" />
+    <None Include="Maps\asmg_fh22_undershadows.gmt" />
+    <None Include="Maps\asmg_fh22_wing_f.gmt" />
+    <None Include="Maps\asmg_fh22_wing_f_lod1.gmt" />
+    <None Include="Maps\asmg_fh22_wing_f_lod2.gmt" />
+    <None Include="Maps\asmg_fh22_wing_f_lod3.gmt" />
+    <None Include="Maps\asmg_fh22_wing_r.gmt" />
+    <None Include="Maps\asmg_fh22_wing_r_drs.gmt" />
+    <None Include="Maps\asmg_fh22_wing_r_lod1.gmt" />
+    <None Include="Maps\asmg_fh22_wing_r_lod2.gmt" />
+    <None Include="Maps\asmg_fh22_wing_r_lod3.gmt" />
+    <None Include="MERCEDES2_F1_2023.hdv" />
+    <None Include="MERCEDES_F1_2023.hdv" />
+    <None Include="NonTurboEngine.ini" />
+    <None Include="RENAULT_F1_2023.hdv" />
+    <None Include="teams_2023\AlphaRomeo\F123_AR_24.json" />
+    <None Include="teams_2023\AlphaRomeo\F123_AR_24.veh" />
+    <None Include="teams_2023\AlphaRomeo\F123_AR_77.json" />
+    <None Include="teams_2023\AlphaRomeo\F123_AR_77.veh" />
+    <None Include="teams_2023\AlphaTauri\F123_AT_21.json" />
+    <None Include="teams_2023\AlphaTauri\F123_AT_21.veh" />
+    <None Include="teams_2023\AlphaTauri\F123_AT_22.json" />
+    <None Include="teams_2023\AlphaTauri\F123_AT_22.veh" />
+    <None Include="teams_2023\Alpine\F123_AL_10.json" />
+    <None Include="teams_2023\Alpine\F123_AL_10.veh" />
+    <None Include="teams_2023\Alpine\F123_AL_31.json" />
+    <None Include="teams_2023\Alpine\F123_AL_31.veh" />
+    <None Include="teams_2023\AstonMartin\F123_AM_14.json" />
+    <None Include="teams_2023\AstonMartin\F123_AM_14.veh" />
+    <None Include="teams_2023\AstonMartin\F123_AM_18.json" />
+    <None Include="teams_2023\AstonMartin\F123_AM_18.veh" />
+    <None Include="teams_2023\Corona\F123_Corona_56.json" />
+    <None Include="teams_2023\Corona\F123_Corona_56.veh" />
+    <None Include="teams_2023\Corona\F123_Corona_91.json" />
+    <None Include="F1_2023.rfbuild" />
+    <None Include="FERRARI2_F1_2023.hdv" />
+    <None Include="FERRARI_F1_2023.hdv" />
+    <None Include="teams_2023\Corona\F123_Corona_91.veh" />
+    <None Include="teams_2023\Corona\GPVWC_Monaco.race.svm" />
+    <None Include="teams_2023\Corona\GPVWC_Monaco.svm" />
+    <None Include="HONDA_F1_2023.hdv" />
+    <None Include="HONDA2_F1_2023.hdv" />
+    <None Include="teams_2023\Corona\LochDrummond_Short.race.svm" />
+    <None Include="teams_2023\Corona\LochDrummond_Short.svm" />
+    <None Include="teams_2023\Corona\Source\F123_Corona_56-icon-2048x1152.pdn" />
+    <None Include="teams_2023\Corona\Source\F123_Corona_56.pdn" />
+    <None Include="teams_2023\Corona\Source\F123_Corona_56HelmetNew.pdn" />
+    <None Include="teams_2023\Corona\Source\F123_Corona_56Rims_Layers.pdn" />
+    <None Include="teams_2023\Corona\Source\F123_Corona_56_Layers.pdn" />
+    <None Include="teams_2023\Corona\Source\F123_Corona_91-icon-2048x1152.pdn" />
+    <None Include="teams_2023\Corona\Source\F123_Corona_91.pdn" />
+    <None Include="teams_2023\Corona\Source\F123_Corona_91HelmetNew.pdn" />
+    <None Include="teams_2023\Corona\Source\F123_Corona_91Rims_Layers.pdn" />
+    <None Include="teams_2023\Corona\Source\F123_Corona_91_Layers.pdn" />
+    <None Include="teams_2023\Ferrari\F123_FE_16.json" />
+    <None Include="teams_2023\Ferrari\F123_FE_16.veh" />
+    <None Include="teams_2023\Ferrari\F123_FE_55.json" />
+    <None Include="teams_2023\Ferrari\F123_FE_55.veh" />
+    <None Include="teams_2023\Haas\F123_HA_20.json" />
+    <None Include="teams_2023\Haas\F123_HA_20.veh" />
+    <None Include="teams_2023\Haas\F123_HA_27.json" />
+    <None Include="teams_2023\Haas\F123_HA_27.veh" />
+    <None Include="teams_2023\McLaren\F123_MC_04.json" />
+    <None Include="teams_2023\McLaren\F123_MC_04.veh" />
+    <None Include="teams_2023\McLaren\F123_MC_81.json" />
+    <None Include="teams_2023\McLaren\F123_MC_81.veh" />
+    <None Include="teams_2023\Mercedes\F123_ME_44.json" />
+    <None Include="teams_2023\Mercedes\F123_ME_44.veh" />
+    <None Include="teams_2023\Mercedes\F123_ME_63.json" />
+    <None Include="teams_2023\Mercedes\F123_ME_63.veh" />
+    <None Include="teams_2023\RedBull\F123_RB_01.json" />
+    <None Include="teams_2023\RedBull\F123_RB_01.veh" />
+    <None Include="teams_2023\RedBull\F123_RB_11.json" />
+    <None Include="teams_2023\RedBull\F123_RB_11.veh" />
+    <None Include="teams_2023\Williams\F123_WI_02.json" />
+    <None Include="teams_2023\Williams\F123_WI_02.veh" />
+    <None Include="teams_2023\Williams\F123_WI_23.json" />
+    <None Include="teams_2023\Williams\F123_WI_23.veh" />
+    <None Include="Tires\F12023_FRONT_C1.TGM" />
+    <None Include="Tires\F12023_FRONT_C2.TGM" />
+    <None Include="Tires\F12023_FRONT_C3.TGM" />
+    <None Include="Tires\F12023_FRONT_C4.TGM" />
+    <None Include="Tires\F12023_FRONT_C5.TGM" />
+    <None Include="Tires\F12023_FRONT_INTERMEDIATE.TGM" />
+    <None Include="Tires\F12023_FRONT_WET.TGM" />
+    <None Include="Tires\F12023_REAR_C1.TGM" />
+    <None Include="Tires\F12023_REAR_C2.TGM" />
+    <None Include="Tires\F12023_REAR_C3.TGM" />
+    <None Include="Tires\F12023_REAR_C4.TGM" />
+    <None Include="Tires\F12023_REAR_C5.TGM" />
+    <None Include="Tires\F12023_REAR_INTERMEDIATE.TGM" />
+    <None Include="Tires\F12023_REAR_WET.TGM" />
+    <None Include="Tires\Pirelli_F1-2023_TIRES_C1_C2_C3.TBC" />
+    <None Include="Tires\Pirelli_F1-2023_TIRES_C2_C3_C4.TBC" />
+    <None Include="Tires\Pirelli_F1-2023_TIRES_C2_C3_C5.TBC" />
+    <None Include="Tires\Pirelli_F1-2023_TIRES_C3_C4_C5.TBC" />
+    <None Include="Tires\Pirelli_F1-2023_TIRES_C2.TBC" />
+    <None Include="TrackConfigsBase.ini" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="brand_ASMG_FH22.png" />
+    <Image Include="brand_logo.png" />
+    <Image Include="Maps\asmg_fh22_body_s.dds" />
+    <Image Include="Maps\asmg_fh22_cam_lens.dds" />
+    <Image Include="Maps\asmg_fh22_cockpit_sticker.dds" />
+    <Image Include="Maps\asmg_fh22_damage.dds" />
+    <Image Include="Maps\asmg_fh22_damage_b.dds" />
+    <Image Include="Maps\asmg_fh22_exhaust.dds" />
+    <Image Include="Maps\asmg_fh22_generics.dds" />
+    <Image Include="Maps\asmg_fh22_lights.dds" />
+    <Image Include="Maps\asmg_fh22_lights00.dds" />
+    <Image Include="Maps\asmg_fh22_lights01.dds" />
+    <Image Include="Maps\asmg_fh22_region.dds" />
+    <Image Include="Maps\asmg_fh22_rims.dds" />
+    <Image Include="Maps\asmg_fh22_screws.dds" />
+    <Image Include="Maps\asmg_fh22_swheel_int.dds" />
+    <Image Include="Maps\asmg_fh22_swheel_lcd.dds" />
+    <Image Include="Maps\asmg_fh22_swheel_stickers.dds" />
+    <Image Include="Maps\bbiasbk.tga" />
+    <Image Include="Maps\black.dds" />
+    <Image Include="Maps\bump.dds" />
+    <Image Include="Maps\carbon.dds" />
+    <Image Include="Maps\carbon_b.dds" />
+    <Image Include="Maps\carbon_s.dds" />
+    <Image Include="Maps\cockpit_AO.dds" />
+    <Image Include="Maps\fis_undershadow.dds" />
+    <Image Include="Maps\fuelbk.tga" />
+    <Image Include="Maps\gearbk.tga" />
+    <Image Include="Maps\generic_twall_inside_b.dds" />
+    <Image Include="Maps\generic_twall_inside_b00.dds" />
+    <Image Include="Maps\generic_twall_inside_b01.dds" />
+    <Image Include="Maps\generic_twall_inside_b02.dds" />
+    <Image Include="Maps\generic_twall_inside_b03.dds" />
+    <Image Include="Maps\generic_twall_inside_d.dds" />
+    <Image Include="Maps\generic_twall_inside_d00.dds" />
+    <Image Include="Maps\generic_twall_inside_d01.dds" />
+    <Image Include="Maps\generic_twall_inside_d02.dds" />
+    <Image Include="Maps\generic_twall_inside_d03.dds" />
+    <Image Include="Maps\generic_twall_inside_s.dds" />
+    <Image Include="Maps\generic_twall_inside_s00.dds" />
+    <Image Include="Maps\generic_twall_inside_s01.dds" />
+    <Image Include="Maps\generic_twall_inside_s02.dds" />
+    <Image Include="Maps\generic_twall_inside_s03.dds" />
+    <Image Include="Maps\glove_2018.dds" />
+    <Image Include="Maps\glove_2018_b.dds" />
+    <Image Include="Maps\glove_2018_s.dds" />
+    <Image Include="Maps\helmet2014_template.dds" />
+    <Image Include="Maps\helmet2014_template_b.dds" />
+    <Image Include="Maps\helmet2014_template_s.dds" />
+    <Image Include="Maps\helmet_fabric.dds" />
+    <Image Include="Maps\helmet_template.dds" />
+    <Image Include="Maps\helmet_template_b.dds" />
+    <Image Include="Maps\helmet_template_s.dds" />
+    <Image Include="Maps\laptimebk.tga" />
+    <Image Include="Maps\lcd_fonts_c.bmp" />
+    <Image Include="Maps\lcd_fonts_r.bmp" />
+    <Image Include="Maps\lcd_fonts_w.bmp" />
+    <Image Include="Maps\lcd_fonts_y.bmp" />
+    <Image Include="Maps\ledlfbk.tga" />
+    <Image Include="Maps\ledlfbk00.tga" />
+    <Image Include="Maps\ledlfbk01.tga" />
+    <Image Include="Maps\ledrfs.tga" />
+    <Image Include="Maps\ledrfs00.tga" />
+    <Image Include="Maps\ledrfs01.tga" />
+    <Image Include="Maps\ledrfs02.tga" />
+    <Image Include="Maps\ledrfs03.tga" />
+    <Image Include="Maps\MetallicNoise.dds" />
+    <Image Include="Maps\metal_dark.dds" />
+    <Image Include="Maps\metal_gold.dds" />
+    <Image Include="Maps\metal_grey.dds" />
+    <Image Include="Maps\metal_red.dds" />
+    <Image Include="Maps\metal_roughness.dds" />
+    <Image Include="Maps\metal_roughness_light.dds" />
+    <Image Include="Maps\metal_roughness_sm.dds" />
+    <Image Include="Maps\metal_shiny.dds" />
+    <Image Include="Maps\mirror.bmp" />
+    <Image Include="Maps\mirror_ext.dds" />
+    <Image Include="Maps\mixmapbk.tga" />
+    <Image Include="Maps\oilbk.tga" />
+    <Image Include="Maps\rF2_driver2016.dds" />
+    <Image Include="Maps\rF2_driver2016_b.dds" />
+    <Image Include="Maps\rF2_driver2016_s.dds" />
+    <Image Include="Maps\rpmbk.tga" />
+    <Image Include="Maps\rpm_lights.dds" />
+    <Image Include="Maps\rpm_lights00.dds" />
+    <Image Include="Maps\rpm_lights01.dds" />
+    <Image Include="Maps\spec.dds" />
+    <Image Include="Maps\speedbk.tga" />
+    <Image Include="Maps\srpl_envmap_carbody.dds" />
+    <Image Include="Maps\srpl_envmap_generics.dds" />
+    <Image Include="Maps\srpl_envmap_glass.dds" />
+    <Image Include="Maps\suede_beige.dds" />
+    <Image Include="Maps\suede_beige_b.dds" />
+    <Image Include="Maps\suit_fabric.dds" />
+    <Image Include="Maps\texturegen.dds" />
+    <Image Include="Maps\tpresslfbk.tga" />
+    <Image Include="Maps\tpresslrbk.tga" />
+    <Image Include="Maps\tpressrfbk.tga" />
+    <Image Include="Maps\tpressrrbk.tga" />
+    <Image Include="Maps\track_map.dds" />
+    <Image Include="Maps\track_map_s.dds" />
+    <Image Include="Maps\transparent.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread00.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread01.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread02.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread03.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread04.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread05.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread06.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread07.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread08.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread09.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread10.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread11.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread12.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread13.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread14.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread15.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread16.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread17.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread18.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread19.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_b.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_b00.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_b01.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_b02.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_b03.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_b04.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_b05.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_b06.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_b07.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_b08.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_b09.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_b10.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_b11.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_b12.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_b13.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_b14.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_b15.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_b16.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_b17.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_b18.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_b19.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_s.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_s00.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_s01.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_s02.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_s03.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_s04.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_s05.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_s06.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_s07.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_s08.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_s09.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_s10.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_s11.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_s12.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_s13.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_s14.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_s15.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_s16.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_s17.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_s18.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_tread_s19.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall00.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall01.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall02.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall03.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall04.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall05.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall06.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall07.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall08.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall09.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall10.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall11.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall12.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall13.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall14.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall15.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall16.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall17.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall18.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall19.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_b.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_b00.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_b01.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_b02.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_b03.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_b04.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_b05.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_b06.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_b07.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_b08.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_b09.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_b10.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_b11.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_b12.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_b13.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_b14.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_b15.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_b16.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_b17.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_b18.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_b19.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_s.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_s00.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_s01.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_s02.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_s03.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_s04.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_s05.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_s06.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_s07.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_s08.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_s09.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_s10.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_s11.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_s12.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_s13.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_s14.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_s15.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_s16.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_s17.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_s18.dds" />
+    <Image Include="Maps\tyres_f1_pirelli_twall_s19.dds" />
+    <Image Include="Maps\tyres_tread_d.dds" />
+    <Image Include="Maps\tyres_tread_d_b.dds" />
+    <Image Include="Maps\tyres_tread_d_s.dds" />
+    <Image Include="Maps\tyres_twall_d.dds" />
+    <Image Include="Maps\tyres_twall_d_b.dds" />
+    <Image Include="Maps\tyres_twall_d_s.dds" />
+    <Image Include="Maps\undershadow.dds" />
+    <Image Include="Maps\veh_ripple_map.png" />
+    <Image Include="Maps\veh_ripple_map_video.png" />
+    <Image Include="Maps\windshield.dds" />
+    <Image Include="teams_2023\AlphaRomeo\F123_AR_24-icon-1024x576.png" />
+    <Image Include="teams_2023\AlphaRomeo\F123_AR_24-icon-128x72.png" />
+    <Image Include="teams_2023\AlphaRomeo\F123_AR_24-icon-2048x1152.png" />
+    <Image Include="teams_2023\AlphaRomeo\F123_AR_24-icon-256x144.png" />
+    <Image Include="teams_2023\AlphaRomeo\F123_AR_24-icon-512x288.png" />
+    <Image Include="teams_2023\AlphaRomeo\F123_AR_24.dds" />
+    <Image Include="teams_2023\AlphaRomeo\F123_AR_24Driver.dds" />
+    <Image Include="teams_2023\AlphaRomeo\F123_AR_24HelmetNew.dds" />
+    <Image Include="teams_2023\AlphaRomeo\F123_AR_24Rims.dds" />
+    <Image Include="teams_2023\AlphaRomeo\F123_AR_24_region.dds" />
+    <Image Include="teams_2023\AlphaRomeo\F123_AR_77-icon-1024x576.png" />
+    <Image Include="teams_2023\AlphaRomeo\F123_AR_77-icon-128x72.png" />
+    <Image Include="teams_2023\AlphaRomeo\F123_AR_77-icon-2048x1152.png" />
+    <Image Include="teams_2023\AlphaRomeo\F123_AR_77-icon-256x144.png" />
+    <Image Include="teams_2023\AlphaRomeo\F123_AR_77-icon-512x288.png" />
+    <Image Include="teams_2023\AlphaRomeo\F123_AR_77.dds" />
+    <Image Include="teams_2023\AlphaRomeo\F123_AR_77Driver.dds" />
+    <Image Include="teams_2023\AlphaRomeo\F123_AR_77HelmetNew.dds" />
+    <Image Include="teams_2023\AlphaRomeo\F123_AR_77Rims.dds" />
+    <Image Include="teams_2023\AlphaRomeo\F123_AR_77_region.dds" />
+    <Image Include="teams_2023\AlphaTauri\F123_AT_21-icon-1024x576.png" />
+    <Image Include="teams_2023\AlphaTauri\F123_AT_21-icon-128x72.png" />
+    <Image Include="teams_2023\AlphaTauri\F123_AT_21-icon-2048x1152.png" />
+    <Image Include="teams_2023\AlphaTauri\F123_AT_21-icon-256x144.png" />
+    <Image Include="teams_2023\AlphaTauri\F123_AT_21-icon-512x288.png" />
+    <Image Include="teams_2023\AlphaTauri\F123_AT_21.dds" />
+    <Image Include="teams_2023\AlphaTauri\F123_AT_21Driver.dds" />
+    <Image Include="teams_2023\AlphaTauri\F123_AT_21HelmetNew.dds" />
+    <Image Include="teams_2023\AlphaTauri\F123_AT_21Rims.dds" />
+    <Image Include="teams_2023\AlphaTauri\F123_AT_21_region.dds" />
+    <Image Include="teams_2023\AlphaTauri\F123_AT_22-icon-1024x576.png" />
+    <Image Include="teams_2023\AlphaTauri\F123_AT_22-icon-128x72.png" />
+    <Image Include="teams_2023\AlphaTauri\F123_AT_22-icon-2048x1152.png" />
+    <Image Include="teams_2023\AlphaTauri\F123_AT_22-icon-256x144.png" />
+    <Image Include="teams_2023\AlphaTauri\F123_AT_22-icon-512x288.png" />
+    <Image Include="teams_2023\AlphaTauri\F123_AT_22.dds" />
+    <Image Include="teams_2023\AlphaTauri\F123_AT_22Driver.dds" />
+    <Image Include="teams_2023\AlphaTauri\F123_AT_22HelmetNew.dds" />
+    <Image Include="teams_2023\AlphaTauri\F123_AT_22Rims.dds" />
+    <Image Include="teams_2023\AlphaTauri\F123_AT_22_region.dds" />
+    <Image Include="teams_2023\Alpine\F123_AL_10-icon-1024x576.png" />
+    <Image Include="teams_2023\Alpine\F123_AL_10-icon-128x72.png" />
+    <Image Include="teams_2023\Alpine\F123_AL_10-icon-2048x1152.png" />
+    <Image Include="teams_2023\Alpine\F123_AL_10-icon-256x144.png" />
+    <Image Include="teams_2023\Alpine\F123_AL_10-icon-512x288.png" />
+    <Image Include="teams_2023\Alpine\F123_AL_10.dds" />
+    <Image Include="teams_2023\Alpine\F123_AL_10Driver.dds" />
+    <Image Include="teams_2023\Alpine\F123_AL_10Gloves.dds" />
+    <Image Include="teams_2023\Alpine\F123_AL_10HelmetNew.dds" />
+    <Image Include="teams_2023\Alpine\F123_AL_10icon.png" />
+    <Image Include="teams_2023\Alpine\F123_AL_10Rims.dds" />
+    <Image Include="teams_2023\Alpine\F123_AL_10_region.dds" />
+    <Image Include="teams_2023\Alpine\F123_AL_31-icon-1024x576.png" />
+    <Image Include="teams_2023\Alpine\F123_AL_31-icon-128x72.png" />
+    <Image Include="teams_2023\Alpine\F123_AL_31-icon-2048x1152.png" />
+    <Image Include="teams_2023\Alpine\F123_AL_31-icon-256x144.png" />
+    <Image Include="teams_2023\Alpine\F123_AL_31-icon-512x288.png" />
+    <Image Include="teams_2023\Alpine\F123_AL_31.dds" />
+    <Image Include="teams_2023\Alpine\F123_AL_31Driver.dds" />
+    <Image Include="teams_2023\Alpine\F123_AL_31Gloves.dds" />
+    <Image Include="teams_2023\Alpine\F123_AL_31HelmetNew.dds" />
+    <Image Include="teams_2023\Alpine\F123_AL_31icon.png" />
+    <Image Include="teams_2023\Alpine\F123_AL_31Rims.dds" />
+    <Image Include="teams_2023\Alpine\F123_AL_31_region.dds" />
+    <Image Include="teams_2023\AstonMartin\F123_AM_14-icon-1024x576.png" />
+    <Image Include="teams_2023\AstonMartin\F123_AM_14-icon-128x72.png" />
+    <Image Include="teams_2023\AstonMartin\F123_AM_14-icon-2048x1152.png" />
+    <Image Include="teams_2023\AstonMartin\F123_AM_14-icon-256x144.png" />
+    <Image Include="teams_2023\AstonMartin\F123_AM_14-icon-512x288.png" />
+    <Image Include="teams_2023\AstonMartin\F123_AM_14.dds" />
+    <Image Include="teams_2023\AstonMartin\F123_AM_14Driver.dds" />
+    <Image Include="teams_2023\AstonMartin\F123_AM_14Gloves.dds" />
+    <Image Include="teams_2023\AstonMartin\F123_AM_14HelmetNew.dds" />
+    <Image Include="teams_2023\AstonMartin\F123_AM_14Rims.dds" />
+    <Image Include="teams_2023\AstonMartin\F123_AM_14_region.dds" />
+    <Image Include="teams_2023\AstonMartin\F123_AM_18-icon-1024x576.png" />
+    <Image Include="teams_2023\AstonMartin\F123_AM_18-icon-128x72.png" />
+    <Image Include="teams_2023\AstonMartin\F123_AM_18-icon-2048x1152.png" />
+    <Image Include="teams_2023\AstonMartin\F123_AM_18-icon-256x144.png" />
+    <Image Include="teams_2023\AstonMartin\F123_AM_18-icon-512x288.png" />
+    <Image Include="teams_2023\AstonMartin\F123_AM_18.dds" />
+    <Image Include="teams_2023\AstonMartin\F123_AM_18Driver.dds" />
+    <Image Include="teams_2023\AstonMartin\F123_AM_18Gloves.dds" />
+    <Image Include="teams_2023\AstonMartin\F123_AM_18HelmetNew.dds" />
+    <Image Include="teams_2023\AstonMartin\F123_AM_18Rims.dds" />
+    <Image Include="teams_2023\AstonMartin\F123_AM_18_region.dds" />
+    <Image Include="teams_2023\Corona\F123_Corona_56-icon-1024x576.png" />
+    <Image Include="teams_2023\Corona\F123_Corona_56-icon-128x72.png" />
+    <Image Include="teams_2023\Corona\F123_Corona_56-icon-2048x1152.png" />
+    <Image Include="teams_2023\Corona\F123_Corona_56-icon-256x144.png" />
+    <Image Include="teams_2023\Corona\F123_Corona_56-icon-512x288.png" />
+    <Image Include="teams_2023\Corona\F123_Corona_56.dds" />
+    <Image Include="teams_2023\Corona\F123_Corona_56Driver.dds" />
+    <Image Include="teams_2023\Corona\F123_Corona_56Gloves.dds" />
+    <Image Include="teams_2023\Corona\F123_Corona_56HelmetNew.dds" />
+    <Image Include="teams_2023\Corona\F123_Corona_56icon.png" />
+    <Image Include="teams_2023\Corona\F123_Corona_56Rims.dds" />
+    <Image Include="teams_2023\Corona\F123_Corona_56Stickers.dds" />
+    <Image Include="teams_2023\Corona\F123_Corona_56_region.dds" />
+    <Image Include="teams_2023\Corona\F123_Corona_91-icon-1024x576.png" />
+    <Image Include="teams_2023\Corona\F123_Corona_91-icon-128x72.png" />
+    <Image Include="teams_2023\Corona\F123_Corona_91-icon-2048x1152.png" />
+    <Image Include="teams_2023\Corona\F123_Corona_91-icon-256x144.png" />
+    <Image Include="teams_2023\Corona\F123_Corona_91-icon-512x288.png" />
+    <Image Include="teams_2023\Corona\F123_Corona_91.dds" />
+    <Image Include="teams_2023\Corona\F123_Corona_91Driver.dds" />
+    <Image Include="teams_2023\Corona\F123_Corona_91Gloves.dds" />
+    <Image Include="teams_2023\Corona\F123_Corona_91HelmetNew.dds" />
+    <Image Include="teams_2023\Corona\F123_Corona_91icon.png" />
+    <Image Include="teams_2023\Corona\F123_Corona_91Rims.dds" />
+    <Image Include="teams_2023\Corona\F123_Corona_91Stickers.dds" />
+    <Image Include="teams_2023\Corona\F123_Corona_91_region.dds" />
+    <Image Include="teams_2023\Ferrari\F123_FE_16-icon-1024x576.png" />
+    <Image Include="teams_2023\Ferrari\F123_FE_16-icon-128x72.png" />
+    <Image Include="teams_2023\Ferrari\F123_FE_16-icon-2048x1152.png" />
+    <Image Include="teams_2023\Ferrari\F123_FE_16-icon-256x144.png" />
+    <Image Include="teams_2023\Ferrari\F123_FE_16-icon-512x288.png" />
+    <Image Include="teams_2023\Ferrari\F123_FE_16.dds" />
+    <Image Include="teams_2023\Ferrari\F123_FE_16Driver.dds" />
+    <Image Include="teams_2023\Ferrari\F123_FE_16HelmetNew.dds" />
+    <Image Include="teams_2023\Ferrari\F123_FE_16Rims.dds" />
+    <Image Include="teams_2023\Ferrari\F123_FE_16_region.dds" />
+    <Image Include="teams_2023\Ferrari\F123_FE_55-icon-1024x576.png" />
+    <Image Include="teams_2023\Ferrari\F123_FE_55-icon-128x72.png" />
+    <Image Include="teams_2023\Ferrari\F123_FE_55-icon-2048x1152.png" />
+    <Image Include="teams_2023\Ferrari\F123_FE_55-icon-256x144.png" />
+    <Image Include="teams_2023\Ferrari\F123_FE_55-icon-512x288.png" />
+    <Image Include="teams_2023\Ferrari\F123_FE_55.dds" />
+    <Image Include="teams_2023\Ferrari\F123_FE_55Driver.dds" />
+    <Image Include="teams_2023\Ferrari\F123_FE_55HelmetNew.dds" />
+    <Image Include="teams_2023\Ferrari\F123_FE_55Rims.dds" />
+    <Image Include="teams_2023\Ferrari\F123_FE_55_region.dds" />
+    <Image Include="teams_2023\Haas\F123_HA_20-icon-1024x576.png" />
+    <Image Include="teams_2023\Haas\F123_HA_20-icon-128x72.png" />
+    <Image Include="teams_2023\Haas\F123_HA_20-icon-2048x1152.png" />
+    <Image Include="teams_2023\Haas\F123_HA_20-icon-256x144.png" />
+    <Image Include="teams_2023\Haas\F123_HA_20-icon-512x288.png" />
+    <Image Include="teams_2023\Haas\F123_HA_20.dds" />
+    <Image Include="teams_2023\Haas\F123_HA_20Driver.dds" />
+    <Image Include="teams_2023\Haas\F123_HA_20HelmetNew.dds" />
+    <Image Include="teams_2023\Haas\F123_HA_20Rims.dds" />
+    <Image Include="teams_2023\Haas\F123_HA_20_region.dds" />
+    <Image Include="teams_2023\Haas\F123_HA_27-icon-1024x576.png" />
+    <Image Include="teams_2023\Haas\F123_HA_27-icon-128x72.png" />
+    <Image Include="teams_2023\Haas\F123_HA_27-icon-2048x1152.png" />
+    <Image Include="teams_2023\Haas\F123_HA_27-icon-256x144.png" />
+    <Image Include="teams_2023\Haas\F123_HA_27-icon-512x288.png" />
+    <Image Include="teams_2023\Haas\F123_HA_27.dds" />
+    <Image Include="teams_2023\Haas\F123_HA_27Driver.dds" />
+    <Image Include="teams_2023\Haas\F123_HA_27HelmetNew.dds" />
+    <Image Include="teams_2023\Haas\F123_HA_27Rims.dds" />
+    <Image Include="teams_2023\Haas\F123_HA_27_region.dds" />
+    <Image Include="teams_2023\McLaren\F123_MC_04-icon-1024x576.png" />
+    <Image Include="teams_2023\McLaren\F123_MC_04-icon-128x72.png" />
+    <Image Include="teams_2023\McLaren\F123_MC_04-icon-2048x1152.png" />
+    <Image Include="teams_2023\McLaren\F123_MC_04-icon-256x144.png" />
+    <Image Include="teams_2023\McLaren\F123_MC_04-icon-512x288.png" />
+    <Image Include="teams_2023\McLaren\F123_MC_04.dds" />
+    <Image Include="teams_2023\McLaren\F123_MC_04Driver.dds" />
+    <Image Include="teams_2023\McLaren\F123_MC_04HelmetNew.dds" />
+    <Image Include="teams_2023\McLaren\F123_MC_04Rims.dds" />
+    <Image Include="teams_2023\McLaren\F123_MC_04_region.dds" />
+    <Image Include="teams_2023\McLaren\F123_MC_81-icon-1024x576.png" />
+    <Image Include="teams_2023\McLaren\F123_MC_81-icon-128x72.png" />
+    <Image Include="teams_2023\McLaren\F123_MC_81-icon-2048x1152.png" />
+    <Image Include="teams_2023\McLaren\F123_MC_81-icon-256x144.png" />
+    <Image Include="teams_2023\McLaren\F123_MC_81-icon-512x288.png" />
+    <Image Include="teams_2023\McLaren\F123_MC_81.dds" />
+    <Image Include="teams_2023\McLaren\F123_MC_81Driver.dds" />
+    <Image Include="teams_2023\McLaren\F123_MC_81HelmetNew.dds" />
+    <Image Include="teams_2023\McLaren\F123_MC_81Rims.dds" />
+    <Image Include="teams_2023\McLaren\F123_MC_81_region.dds" />
+    <Image Include="teams_2023\Mercedes\F123_ME_44-icon-1024x576.png" />
+    <Image Include="teams_2023\Mercedes\F123_ME_44-icon-128x72.png" />
+    <Image Include="teams_2023\Mercedes\F123_ME_44-icon-2048x1152.png" />
+    <Image Include="teams_2023\Mercedes\F123_ME_44-icon-256x144.png" />
+    <Image Include="teams_2023\Mercedes\F123_ME_44-icon-512x288.png" />
+    <Image Include="teams_2023\Mercedes\F123_ME_44.dds" />
+    <Image Include="teams_2023\Mercedes\F123_ME_44Driver.dds" />
+    <Image Include="teams_2023\Mercedes\F123_ME_44HelmetNew.dds" />
+    <Image Include="teams_2023\Mercedes\F123_ME_44Rims.dds" />
+    <Image Include="teams_2023\Mercedes\F123_ME_44_region.dds" />
+    <Image Include="teams_2023\Mercedes\F123_ME_63-icon-1024x576.png" />
+    <Image Include="teams_2023\Mercedes\F123_ME_63-icon-128x72.png" />
+    <Image Include="teams_2023\Mercedes\F123_ME_63-icon-2048x1152.png" />
+    <Image Include="teams_2023\Mercedes\F123_ME_63-icon-256x144.png" />
+    <Image Include="teams_2023\Mercedes\F123_ME_63-icon-512x288.png" />
+    <Image Include="teams_2023\Mercedes\F123_ME_63.dds" />
+    <Image Include="teams_2023\Mercedes\F123_ME_63Driver.dds" />
+    <Image Include="teams_2023\Mercedes\F123_ME_63HelmetNew.dds" />
+    <Image Include="teams_2023\Mercedes\F123_ME_63Rims.dds" />
+    <Image Include="teams_2023\Mercedes\F123_ME_63_region.dds" />
+    <Image Include="teams_2023\RedBull\F123_RB_01-icon-1024x576.png" />
+    <Image Include="teams_2023\RedBull\F123_RB_01-icon-128x72.png" />
+    <Image Include="teams_2023\RedBull\F123_RB_01-icon-2048x1152.png" />
+    <Image Include="teams_2023\RedBull\F123_RB_01-icon-256x144.png" />
+    <Image Include="teams_2023\RedBull\F123_RB_01-icon-512x288.png" />
+    <Image Include="teams_2023\RedBull\F123_RB_01.dds" />
+    <Image Include="teams_2023\RedBull\F123_RB_01Driver.dds" />
+    <Image Include="teams_2023\RedBull\F123_RB_01Gloves.dds" />
+    <Image Include="teams_2023\RedBull\F123_RB_01HelmetNew.dds" />
+    <Image Include="teams_2023\RedBull\F123_RB_01Rims.dds" />
+    <Image Include="teams_2023\RedBull\F123_RB_01_region.dds" />
+    <Image Include="teams_2023\RedBull\F123_RB_11-icon-1024x576.png" />
+    <Image Include="teams_2023\RedBull\F123_RB_11-icon-128x72.png" />
+    <Image Include="teams_2023\RedBull\F123_RB_11-icon-2048x1152.png" />
+    <Image Include="teams_2023\RedBull\F123_RB_11-icon-256x144.png" />
+    <Image Include="teams_2023\RedBull\F123_RB_11-icon-512x288.png" />
+    <Image Include="teams_2023\RedBull\F123_RB_11.dds" />
+    <Image Include="teams_2023\RedBull\F123_RB_11Driver.dds" />
+    <Image Include="teams_2023\RedBull\F123_RB_11Gloves.dds" />
+    <Image Include="teams_2023\RedBull\F123_RB_11HelmetNew.dds" />
+    <Image Include="teams_2023\RedBull\F123_RB_11Rims.dds" />
+    <Image Include="teams_2023\RedBull\F123_RB_11_region.dds" />
+    <Image Include="teams_2023\Williams\F123_WI_02-icon-1024x576.png" />
+    <Image Include="teams_2023\Williams\F123_WI_02-icon-128x72.png" />
+    <Image Include="teams_2023\Williams\F123_WI_02-icon-2048x1152.png" />
+    <Image Include="teams_2023\Williams\F123_WI_02-icon-256x144.png" />
+    <Image Include="teams_2023\Williams\F123_WI_02-icon-512x288.png" />
+    <Image Include="teams_2023\Williams\F123_WI_02.dds" />
+    <Image Include="teams_2023\Williams\F123_WI_02Driver.dds" />
+    <Image Include="teams_2023\Williams\F123_WI_02HelmetNew.dds" />
+    <Image Include="teams_2023\Williams\F123_WI_02Rims.dds" />
+    <Image Include="teams_2023\Williams\F123_WI_02_region.dds" />
+    <Image Include="teams_2023\Williams\F123_WI_23-icon-1024x576.png" />
+    <Image Include="teams_2023\Williams\F123_WI_23-icon-128x72.png" />
+    <Image Include="teams_2023\Williams\F123_WI_23-icon-2048x1152.png" />
+    <Image Include="teams_2023\Williams\F123_WI_23-icon-256x144.png" />
+    <Image Include="teams_2023\Williams\F123_WI_23-icon-512x288.png" />
+    <Image Include="teams_2023\Williams\F123_WI_23.dds" />
+    <Image Include="teams_2023\Williams\F123_WI_23Driver.dds" />
+    <Image Include="teams_2023\Williams\F123_WI_23HelmetNew.dds" />
+    <Image Include="teams_2023\Williams\F123_WI_23Rims.dds" />
+    <Image Include="teams_2023\Williams\F123_WI_23_region.dds" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Sounds\Formula_Hybrid_22_backfire01_ex.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_backfire01_in.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_backfire02_ex.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_backfire02_in.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_backfire03_ex.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_brakes_high_ex.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_brakes_high_in.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_brakes_low_ex.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_brakes_low_in.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_ex_downshift_1.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_ex_downshift_2.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_ex_downshift_3.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_ex_idle.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_ex_off_low.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_ex_off_mid.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_ex_on_high.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_ex_on_low.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_ex_on_mid.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_ex_startup.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_ex_upshift_1.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_ex_upshift_2.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_ex_upshift_3.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_in_downshift_1.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_in_downshift_2.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_in_downshift_3.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_in_idle.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_in_off_high.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_in_off_low.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_in_off_mid.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_in_on_high.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_in_on_low.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_in_on_mid.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_in_startup.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_in_upshift_1.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_in_upshift_2.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_in_upshift_3.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_limiter_on_off.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_tc_ex.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_tc_in.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_trans_in_off_low.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_trans_in_off_mid.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_trans_in_on_high.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_trans_in_on_mid_wobble.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_wind_ex.wav" />
+    <Media Include="Sounds\Formula_Hybrid_22_wind_in.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="teams_2023\Corona\F123_Corona_56.txt" />
+    <Text Include="teams_2023\Corona\F123_Corona_91.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,106 @@
+// ASMG Formula Hybrid-22 Menu car generation file
+//----------------------------------------
+
+SearchPath=<VEHDIR>
+
+MASFile=cmaps.mas
+
+SearchPath=<VEHDIR>F1_2023
+SearchPath=<VEHDIR>F1_2023\Base
+SearchPath=<VEHDIR>F1_2023\Physics
+SearchPath=<VEHDIR>F1_2023\Maps
+SearchPath=<VEHDIR>F1_2023\Sounds
+SearchPath=<VEHDIR>F1_2023\Tires
+SearchPath=<VEHDIR>F1_2023\Teams_2022
+SearchPath=<VEHDIR>F1_2023\Teams_2023
+
+MaterialPath=<VEHDIR>F1_2023\MATERIALS
+
+ReflectPlane=(0.0, -1.0, 0.0, 0)
+
+//----------------------------------------
+Instance=SLOT<ID>
+{
+  Moveable=True
+  MeshFile=ASMG_FH22_BODY.GMT                CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+  MeshFile=ASMG_FH22_UNDERSHADOWS.GMT             CollTarget=False HATTarget=False AmbientObject=(True,Texture)
+  Actor=VEHICLE
+
+  Instance=BASE
+  {
+    Moveable=True
+    MeshFile=ASMG_FH22_CHASSIS.GMT           CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=ASMG_FH22_CHASSIS_ANTENNA.GMT   CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=ASMG_FH22_CHASSIS_CAMS.GMT      CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=ASMG_FH22_CHASSIS_TVCAM.GMT     CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=ASMG_FH22_COCKPIT_INT.GMT       CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=ASMG_FH22_EXHAUST.GMT           CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=ASMG_FH22_HALO.GMT              CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=ASMG_FH22_LMIRROR_EX.GMT        CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=ASMG_FH22_RMIRROR_EX.GMT        CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=ASMG_FH22_MIRROR_L.GMT          CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=ASMG_FH22_MIRROR_R.GMT          CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=ASMG_FH22_SIDEPODS.GMT          CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=ASMG_FH22_SCREWS.GMT            CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=ASMG_FH22_SUSP_LF.GMT           CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=ASMG_FH22_SUSP_LR.GMT           CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=ASMG_FH22_SUSP_RF.GMT           CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=ASMG_FH22_SUSP_RR.GMT           CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=ASMG_FH22_WING_F.GMT            CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=ASMG_FH22_WING_R.GMT            CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+  }
+
+  /////////////////////////////////////////////////// TYRES AND SPINDLE ///////////////////////////////////////////////////
+
+  Instance=HELMET
+  {
+    Moveable=True
+    MeshFile=ASMG_FH22_HELMET_<1234>_MENU.GMT  CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+  }
+
+  Instance=REARFLAP
+  {
+    Moveable=True
+    MeshFile=ASMG_FH22_WING_R_DRS.GMT    CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+  }
+
+  Instance=SWHEEL
+  {
+    Moveable=True
+    MeshFile=ASMG_FH22_SWHEEL_IN.GMT     CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+  }
+
+  Instance=SPINTIRELF
+  {
+    Moveable=True
+    MeshFile=ASMG_FH22_TIRE_LF.GMT           CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=ASMG_FH22_RIM_LF.GMT            CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=ASMG_FH22_RIM_COVER_IN_LF.GMT   CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=ASMG_FH22_BDUCT_LF.GMT          CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+  }
+
+  Instance=SPINTIRERF
+  {
+    Moveable=True
+    MeshFile=ASMG_FH22_TIRE_RF.GMT           CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=ASMG_FH22_RIM_RF.GMT            CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=ASMG_FH22_RIM_COVER_IN_RF.GMT   CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=ASMG_FH22_BDUCT_RF.GMT          CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+  }
+
+  Instance=SPINTIRELR
+  {
+    Moveable=True
+    MeshFile=ASMG_FH22_TIRE_LR.GMT   CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=ASMG_FH22_RIM_LR.GMT    CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=ASMG_FH22_BDUCT_LR.GMT  CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+  }
+
+  Instance=SPINTIRERR
+  {
+    Moveable=True
+    MeshFile=ASMG_FH22_TIRE_RR.GMT   CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=ASMG_FH22_RIM_RR.GMT    CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=ASMG_FH22_BDUCT_RR.GMT  CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+  }
+}

@@ -1,4 +1,0 @@
-Description="2021 Formula 1 season livery"
-
-Painter="Content Creator"
-Helmet="fongu"
