@@ -51,7 +51,7 @@ AIBumpstop=(1,1,1,1)
 AIDamping=(1,1,1,1)
 AIDownforceZArm=0
 AIDownforceBias=1
-AIFuelMult=-1
+AIFuelMult=0.99
 AIPerfUsage=(-1,-1,-1)
 AITableParams=(-1,-1)
 
