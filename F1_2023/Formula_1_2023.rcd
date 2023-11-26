@@ -1,0 +1,646 @@
+FORMULA_1_2023
+{
+  default
+  {                                 
+                                    // the 'step' values control how far ahead AI looks at various speeds.  This effects braking, cornering etc.   
+                                    // Looking too far ahead makes the AI cut corners and potentially hit walls.
+                                    // Not looking far enough promotes rear ending in braking zones.
+                                    // For reference 10m/sec is just over 22 mph
+    StepDistance = 2.0              // distance in meters (i.e. 2 meters)
+    StepSpeed1 = 10.0               // speed in meters-per-second to look ahead 1x step-distance (i.e. 10 m/sec look 2 meters ahead)
+    StepSpeed2 = 15.0               // speed in meters-per-second to look ahead 2x step-distance (i.e. 15 m/sec look 4 meters ahead)
+    StepSpeed3 = 20.0               // speed in meters-per-second to look ahead 3x step-distance (i.e. 20 m/sec)
+    StepSpeed4 = 28.0               // speed in meters-per-second to look ahead 4x step-distance (i.e. 28 m/sec)
+    StepSpeed5 = 40.0               // speed in meters-per-second to look ahead 5x step-distance (i.e. 40 m/sec)
+    StepSpeed6 = 55.0               // speed in meters-per-second to look ahead 6x step-distance (i.e. 55 m/sec)
+    StepSpeed7 = 70.0               // speed in meters-per-second to look ahead 7x step-distance (i.e. 70 m/sec)
+    StepSpeed8 = 85.0               // speed in meters-per-second to look ahead 8x step-distance (i.e. 85 m/sec)
+    CorneringCaution = 50.0         // default corner caution for any driver that doesn't have it defined
+    FearOfWalls = 99.0              // default wall avoidance setting for any driver that doesn't have it defined
+    OverSteerThrottleReaction = -55.0 // 55.0 //-85.0
+    UnderSteerEffectOnThrottleMulti = 130.0
+    UnderSteerEffectOnLineMulti = 100.0
+  }
+  
+  //
+  // Definitions per driver.
+  //
+  // Nationality, DateOfBirth, Starts, Poles, Wins, DriversChampionships is not statistics and has zero effect on the AI
+  // Remaining values are driver specific overrides
+  //
+  // Aggression from 0-100 is the aggression factor for the specific driver, multiplied by aggression setting in the game.  Aggression values over 50 when
+  //    multiplied by game aggression will cause chaos in the corners
+  // Composure from 0-100 is the driver's composure when racing in traffic.  Less composure means the driver will usually concede a corner when side by side.  More
+  //    composure means the driver will race through the corner
+  // CorneringCaution from 0-100 is how careful the driver is going side-by-side into the corner.  Values too high will result in the driver crashing in the corner
+  //    as he/she makes crazy moves where the car just won't stick.
+  // FearOfWalls from 0-100 is how cautious the driver is when up against a wall.  Values too high will result in the AI ramming into the walls when going side by side
+  // Speed is the effective speed value from 0-100 for this driver
+  // QualifySpeed is the effective qualifying speed value from 0-100 for this driver
+  // WetSpeed is effective speed for this driver when the track is WET
+  // StartSkill is the skill base for the driver
+  // Crash is odds of causing a crash.  I believe this is in percent and is probably multipled by the AI crash setting in player file.  If player file has 0 crash, this
+  //    value probably has no effect
+  // Recovery is AI driver spin recovery
+  // CompletedLaps?
+  // MinRacingSkill is the minimum the driver skill will drop to when re-computed during a race
+  // DrivingLine is the LIST of driving lines the driver will use
+  // DraftStickinessMulti is the % multiplier for this driver on draft stickiness setting in AIW.  The draft stickiness tells the driver how far behind to stay for
+  //    from the car in front for maximum draft effect and generally a larger multiplier should help the driver tuck up close in the draft.  Note that the draft stickiness
+  //    value is in meters
+  //
+  Tom Hansen
+  {
+    Nationality = Danish
+    DateofBirth = 26-9-1962
+    Starts = 0
+    Poles = 0
+    Wins = 0
+    DriversChampionships = 0
+    Aggression = 75.0
+    Composure = 100.0
+    CorneringCaution = 38.0
+    FearOfWalls = 59.0
+    Speed = 100.0
+    QualifySpeed = 100.0
+    WetSpeed = 95.0
+    StartSkill = 100.0
+    Crash = 0.0
+    Recovery = 100.0
+    CompletedLaps = 100.0
+    MinRacingSkill = 100.0
+    DrivingLine = FASTEST
+    DraftStickinessMulti = 100
+  }
+
+  Travis Hansen
+  {
+    Nationality = USA
+    DateofBirth = 16-10-1995
+    Starts = 0
+    Poles = 0
+    Wins = 0
+    DriversChampionships = 0
+    Aggression = 75.0
+    Composure = 100.0
+    CorneringCaution = 42.0
+    FearOfWalls = 65.0
+    Speed = 100.0
+    QualifySpeed = 100.0
+    WetSpeed = 95.0
+    StartSkill = 100.0
+    Crash = 0.0
+    Recovery = 100.0
+    CompletedLaps = 100.0
+    MinRacingSkill = 100.0
+    DrivingLine = FASTEST
+    DraftStickinessMulti = 100
+  }
+
+  Max Verstappen
+  {
+    Nationality = Dutch
+    DateofBirth = 30-9-1997
+    Starts = 162 
+    Poles = 19
+    Wins = 34
+    DriversChampionships = 2
+    Aggression = 75.0
+    Composure = 100.0
+    CorneringCaution = 55.0
+    Speed = 92.0
+    QualifySpeed = 100.0
+    WetSpeed = 100.0
+    StartSkill = 100.0
+    Crash = 0.0
+    Recovery = 100.0
+    CompletedLaps = 100.0
+    MinRacingSkill = 100.0
+    DrivingLine = FASTEST
+    DraftStickinessMulti = 100
+  }
+
+  Sergio Perez
+  {
+    Nationality = Mexican
+    DateofBirth = 26 January 1990
+    Starts = 238 
+    Poles = 1
+    Wins = 4
+    DriversChampionships = 0
+    Aggression = 42.0
+    Composure = 50.0
+    Speed = 63.0
+    QualifySpeed = 90.0
+    WetSpeed = 65.0
+    StartSkill = 50.0
+    Crash = 5.5
+    Recovery = 95.0
+    CompletedLaps = 99.0
+    MinRacingSkill = 35.0
+    DrivingLine = FASTEST,FAST_ALT2,FAST_ALT1
+    DraftStickinessMulti = 100
+  }
+
+  Lewis Hamilton
+  {
+    Nationality = British
+    DateofBirth = 07-1-1985
+    Starts = 309
+    Poles = 103
+    Wins = 103
+    DriversChampionships = 7
+    Aggression = 45.0
+    Composure = 90.0
+    Speed = 70.00
+    QualifySpeed = 90.0
+    WetSpeed = 90.0
+    StartSkill = 90.0
+    Crash = 2.0
+    Recovery = 100.0
+    CompletedLaps = 100.0
+    MinRacingSkill = 75.0
+    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2 
+    DraftStickinessMulti = 50
+  }
+
+  George Russell
+  {
+    Nationality = British
+    DateofBirth = 15 February 1998
+    Starts = 81 
+    Poles = 2
+    Wins = 1
+    DriversChampionships = 0
+    Aggression = 35.0
+    Composure = 50.0
+    Speed = 65.0
+    QualifySpeed = 85.0
+    WetSpeed = 65.0
+    StartSkill = 70.0
+    Crash = 4.0
+    Recovery = 85.0
+    CompletedLaps = 100.0
+    MinRacingSkill = 50.0
+    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2
+    DraftStickinessMulti = 50
+  }
+
+  Charles Leclerc
+  {
+    Nationality = Monaco
+    DateofBirth = 16 October 1997
+    Starts = 102 
+    Poles = 18
+    Wins = 5
+    DriversChampionships = 0
+    Aggression = 40.0
+    Composure = 80.0
+    Speed = 70.0
+    QualifySpeed = 80.0
+    WetSpeed = 70.0
+    StartSkill = 80.0
+    Crash = 2.0
+    Recovery = 100.0
+    CompletedLaps = 100.0
+    MinRacingSkill = 70.0
+    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2
+    DraftStickinessMulti = 50
+  }
+
+  Carlos Sainz Jr.
+  {
+    Nationality = Spanish
+    DateofBirth = 1 September 1994
+    Starts = 162 
+    Poles = 3
+    Wins = 1
+    DriversChampionships = 0
+    Aggression = 50.0
+    Composure = 75.0
+    Speed = 70.0
+    QualifySpeed = 85.0
+    WetSpeed = 73.0
+    StartSkill = 80.0
+    Crash = 3.5
+    Recovery = 99.0
+    CompletedLaps = 100.0
+    MinRacingSkill = 70.0
+    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2
+    DraftStickinessMulti = 50
+  }
+
+  Lando Norris
+  {
+    Nationality = British
+    DateofBirth = 13 November 1999
+    Starts = 81 
+    Poles = 1
+    Wins = 0
+    DriversChampionships = 0
+    Aggression = 55.0
+    Composure = 75.0
+    CorneringCaution = 100
+    Speed = 80.0
+    QualifySpeed = 75.0
+    WetSpeed = 75.0
+    StartSkill = 80.0
+    Crash = 1.0
+    Recovery = 100.0
+    CompletedLaps = 100.0
+    MinRacingSkill = 70.0
+    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2 
+    DraftStickinessMulti = 50
+  }
+
+  Oscar Piastri
+  {
+    Nationality = Australian
+    DateofBirth = 1 July 1989
+    Starts = 231 
+    Poles = 3
+    Wins = 8
+    DriversChampionships = 0
+    Aggression = 45.0
+    Composure = 70.0
+    CorneringCaution = 100
+    Speed = 75.0
+    QualifySpeed = 72.0
+    WetSpeed = 70.0
+    StartSkill = 70.0
+    Crash = 2.0
+    Recovery = 100.0
+    CompletedLaps = 100.0
+    MinRacingSkill = 55.0
+    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2 
+    DraftStickinessMulti = 50
+  }
+
+  Daniel Ricciardo
+  {
+    Nationality = Australian
+    DateofBirth = 1 July 1989
+    Starts = 231 
+    Poles = 3
+    Wins = 8
+    DriversChampionships = 0
+    Aggression = 40.0
+    Composure = 80.0
+    CorneringCaution = 100
+    Speed = 55.0
+    QualifySpeed = 70.0
+    WetSpeed = 55.0
+    StartSkill = 80.0
+    Crash = 8.0
+    Recovery = 99.0
+    CompletedLaps = 100.0
+    MinRacingSkill = 70.0
+    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2 
+    DraftStickinessMulti = 0
+  }
+
+  Pierre Gasly
+  {
+    Nationality = French
+    DateofBirth = 7 February 1996
+    Starts = 107 
+    Poles = 0
+    Wins = 1
+    DriversChampionships = 0
+    Aggression = 25.0
+    Composure = 70.0
+    CorneringCaution = 100
+    Speed = 45.0
+    QualifySpeed = 55.0
+    WetSpeed = 65.0
+    StartSkill = 70.0
+    Crash = 6.5
+    Recovery = 99.0
+    CompletedLaps = 100.0
+    MinRacingSkill = 60.0
+    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2
+    DraftStickinessMulti = 0
+  }
+
+  Yuki Tsunoda
+  {
+    Nationality = Japan
+    DateofBirth = 11 May 2000
+    Starts = 43 
+    Poles = 0
+    Wins = 0
+    DriversChampionships = 0
+    Aggression = 25.0
+    Composure = 60.0
+    CorneringCaution = 100
+    Speed = 55.0
+    QualifySpeed = 65.0
+    WetSpeed = 55.0
+    StartSkill = 70.0
+    Crash = 8.5
+    Recovery = 98.0
+    CompletedLaps = 100.0
+    MinRacingSkill = 60.0
+    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2 
+    DraftStickinessMulti = 0
+  }
+
+  Valtteri Bottas
+  {
+    Nationality = Finnish
+    DateofBirth = 28 August 1989
+    Starts = 200
+    Poles = 20
+    Wins = 10
+    DriversChampionships = 0
+    Aggression = 25.0
+    Composure = 75.0
+    CorneringCaution = 100
+    Speed = 55.0
+    QualifySpeed = 55.0
+    WetSpeed = 65.0
+    StartSkill = 70.0
+    Crash = 10.0
+    Recovery = 99.0
+    CompletedLaps = 100.0
+    MinRacingSkill = 60.0
+    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2
+    DraftStickinessMulti = 0
+  }
+
+  Zhou Guanyu
+  {
+    Nationality = China
+    DateofBirth = 30 May 1999
+    Starts = 23 
+    Poles = 0
+    Wins = 0
+    DriversChampionships = 0
+    Aggression = 25.0
+    Composure = 82.0
+    CorneringCaution = 100
+    Speed = 50.0
+    QualifySpeed = 80.0
+    WetSpeed = 50.0
+    StartSkill = 70.0
+    Crash = 8.5
+    Recovery = 87.0
+    CompletedLaps = 99.0
+    MinRacingSkill = 60.00
+    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2 
+    DraftStickinessMulti = 0
+  }
+
+  Esteban Ocon
+  {
+    Nationality = French
+    DateofBirth = 17 September 1996
+    Starts = 110 
+    Poles = 0
+    Wins = 1
+    DriversChampionships = 0
+    Aggression = 25.0
+    Composure = 60.0
+    CorneringCaution = 100
+    Speed = 55.0
+    QualifySpeed = 55.0
+    WetSpeed = 40.0
+    StartSkill = 55.0
+    Crash = 10.0
+    Recovery = 80.0
+    CompletedLaps = 98.0
+    MinRacingSkill = 50.0
+    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2 
+    DraftStickinessMulti = 0
+  }
+
+  Fernando Alonso
+  {
+    Nationality = Spanish
+    DateofBirth = 29 July 1981
+    Starts = 357 
+    Poles = 22
+    Wins = 32
+    DriversChampionships = 2
+    Aggression = 70.0
+    Composure = 92.0
+    CorneringCaution = 100
+    Speed = 75.0
+    QualifySpeed = 90.0
+    WetSpeed = 70.0
+    StartSkill = 80.0
+    Crash = 2.5
+    Recovery = 97.0
+    CompletedLaps = 99.0
+    MinRacingSkill = 65.0
+    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2 
+    DraftStickinessMulti = 0
+  }
+  
+  Sebastian Vettel 
+  {
+    Nationality = German
+    DateofBirth = 3 July 1987
+    Starts = 299 
+    Poles = 57
+    Wins = 53
+    DriversChampionships = 4
+    Aggression = 90.0
+    Composure = 100.0
+    CorneringCaution = 100
+    Speed = 75.0
+    QualifySpeed = 85.0
+    WetSpeed = 80.0
+    StartSkill = 90.0
+    Crash = 0.0
+    Recovery = 100.0
+    CompletedLaps = 100.0
+    MinRacingSkill = 80.0
+    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2 
+    DraftStickinessMulti = 0
+  }
+
+  Lance Stroll
+  {
+    Nationality = Canadian
+    DateofBirth = 29 October 1998
+    Starts = 121 
+    Poles = 1
+    Wins = 0
+    DriversChampionships = 0
+    Aggression = 45.0
+    Composure = 65.0
+    Speed = 55.0
+    QualifySpeed = 55.0
+    WetSpeed = 45.0
+    StartSkill = 40.0
+    Crash = 7.75
+    Recovery = 80.0
+    CompletedLaps = 95.0
+    MinRacingSkill = 40.0
+    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2
+    DraftStickinessMulti = 0
+  }
+  
+  Mick Schumacher
+  {
+    Nationality = German
+    DateofBirth = 22 March 1999
+    Starts = 43 
+    Poles = 0
+    Wins = 0
+    DriversChampionships = 0
+    Aggression = 75.0
+    Composure = 93.0
+    CorneringCaution = 100
+    Speed = 75.0
+    QualifySpeed = 80.0
+    WetSpeed = 65.0
+    StartSkill = 75.0
+    Crash = 1.5
+    Recovery = 95.0
+    CompletedLaps = 98.0
+    MinRacingSkill = 65.0
+    DrivingLine = FAST_ALT2
+    DraftStickinessMulti = 0
+  }
+
+  Kevin Magnussen
+  {
+    Nationality = Danish
+    DateofBirth = 5 October 1992
+    Starts = 141
+    Poles = 1
+    Wins = 0
+    DriversChampionships = 0
+    Aggression = 35.0
+    Composure = 88.0
+    CorneringCaution = 100
+    Speed = 65.0
+    QualifySpeed = 65.0
+    WetSpeed = 55.0
+    StartSkill = 60.0
+    Crash = 8.0
+    Recovery = 75.0
+    CompletedLaps = 99.0
+    MinRacingSkill = 50.0
+    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2 
+    DraftStickinessMulti = 0
+  }
+ 
+  Nicholas Latifi
+  {
+    Nationality = Canadian
+    DateofBirth = 29 June 1995
+    Starts = 59 
+    Poles = 0
+    Wins = 0
+    DriversChampionships
+    Aggression = 25.0
+    Composure = 25.0
+    CorneringCaution = 100
+    Speed = 65.0
+    QualifySpeed = 35.0
+    WetSpeed = 40.0
+    StartSkill = 35.0
+    Crash = 12.00
+    Recovery = 60.0
+    CompletedLaps = 97.0
+    MinRacingSkill = 25.0
+    DrivingLine = FAST_ALT2
+    DraftStickinessMulti = 0
+  }
+
+  Alexander Albon
+  {
+    Nationality = British
+    DateofBirth = 23 March 1996
+    Starts = 58 
+    Poles = 0
+    Wins = 0
+    DriversChampionships = 0
+    Aggression = 25.0
+    Composure = 65.0
+    CorneringCaution = 100
+    Speed = 50.0
+    QualifySpeed = 45.0
+    WetSpeed = 45.0
+    StartSkill = 80.0
+    Crash = 5.50
+    Recovery = 85.0
+    CompletedLaps = 96.0
+    MinRacingSkill = 75.0
+    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2 
+    DraftStickinessMulti = 0
+  }
+ 
+  Logan Sargeant
+  {
+    Nationality = US
+    DateofBirth = 29 June 1995
+    Starts = 59 
+    Poles = 0
+    Wins = 0
+    DriversChampionships
+    Aggression = 25.0
+    Composure = 65.0
+    CorneringCaution = 100
+    Speed = 50.0
+    QualifySpeed = 45.0
+    WetSpeed = 55.0
+    StartSkill = 80.0
+    Crash = 15.50
+    Recovery = 85.0
+    CompletedLaps = 96.0
+    MinRacingSkill = 75.0
+    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2 
+    DraftStickinessMulti = 0
+  }
+
+  Nyck de Vries
+  {
+    Nationality = Dutch
+    DateofBirth = 6 February 1995
+    Starts = 1
+    Poles = 0
+    Wins = 0
+    DriversChampionships = 0
+    Aggression = 25.0
+    Composure = 55.0
+    CorneringCaution = 100
+    Speed = 70.0
+    QualifySpeed = 65.0
+    WetSpeed = 65.0
+    StartSkill = 60.0
+    Crash = 10.50
+    Recovery = 85.0
+    CompletedLaps = 98.0
+    MinRacingSkill = 50.0
+    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2 
+    DraftStickinessMulti = 0
+  }
+
+  Nico Hulkenberg
+  {
+    Nationality = German
+    DateofBirth = 19 August 1987
+    Starts = 184
+    Poles = 0
+    Wins = 0
+    DriversChampionships = 0
+    Aggression = 25.0
+    Composure = 55.0
+    CorneringCaution = 100
+    Speed = 55.0
+    QualifySpeed = 65.0
+    WetSpeed = 55.0
+    StartSkill = 65.0
+    Crash = 11.5
+    Recovery = 95.0
+    CompletedLaps = 98.0
+    MinRacingSkill = 50.0
+    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2 
+    DraftStickinessMulti = 0
+  }
+}
+
