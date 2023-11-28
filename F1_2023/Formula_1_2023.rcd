@@ -7,19 +7,34 @@ FORMULA_1_2023
                                     // Not looking far enough promotes rear ending in braking zones.
                                     // For reference 10m/sec is just over 22 mph
     StepDistance = 2.0              // distance in meters (i.e. 2 meters)
-    StepSpeed1 = 10.0               // speed in meters-per-second to look ahead 1x step-distance (i.e. 10 m/sec look 2 meters ahead)
-    StepSpeed2 = 15.0               // speed in meters-per-second to look ahead 2x step-distance (i.e. 15 m/sec look 4 meters ahead)
-    StepSpeed3 = 20.0               // speed in meters-per-second to look ahead 3x step-distance (i.e. 20 m/sec)
-    StepSpeed4 = 28.0               // speed in meters-per-second to look ahead 4x step-distance (i.e. 28 m/sec)
+    StepSpeed1 = 15.0               // speed in meters-per-second to look ahead 1x step-distance (i.e. 15 m/sec look 2 meters ahead)
+    StepSpeed2 = 25.0               // speed in meters-per-second to look ahead 2x step-distance (i.e. 25 m/sec look 4 meters ahead)
+    StepSpeed3 = 30.0               // speed in meters-per-second to look ahead 3x step-distance (i.e. 30 m/sec)
+    StepSpeed4 = 35.0               // speed in meters-per-second to look ahead 4x step-distance (i.e. 35 m/sec)
     StepSpeed5 = 40.0               // speed in meters-per-second to look ahead 5x step-distance (i.e. 40 m/sec)
-    StepSpeed6 = 55.0               // speed in meters-per-second to look ahead 6x step-distance (i.e. 55 m/sec)
-    StepSpeed7 = 70.0               // speed in meters-per-second to look ahead 7x step-distance (i.e. 70 m/sec)
-    StepSpeed8 = 85.0               // speed in meters-per-second to look ahead 8x step-distance (i.e. 85 m/sec)
-    CorneringCaution = 50.0         // default corner caution for any driver that doesn't have it defined
+    StepSpeed6 = 48.0               // speed in meters-per-second to look ahead 6x step-distance (i.e. 48 m/sec)
+    StepSpeed7 = 55.0               // speed in meters-per-second to look ahead 7x step-distance (i.e. 55 m/sec)
+    StepSpeed8 = 70.0               // speed in meters-per-second to look ahead 8x step-distance (i.e. 70 m/sec)
+    CorneringCaution = 99.0         // default corner caution for any driver that doesn't have it defined
     FearOfWalls = 99.0              // default wall avoidance setting for any driver that doesn't have it defined
     OverSteerThrottleReaction = -55.0 // 55.0 //-85.0
     UnderSteerEffectOnThrottleMulti = 130.0
     UnderSteerEffectOnLineMulti = 100.0
+
+    F1_Monaco_SAVE
+    {
+        StepDistance = 2.0              // distance in meters (i.e. 2 meters)
+        StepSpeed1 = 10.0               // speed in meters-per-second to look ahead 1x step-distance (i.e. 10 m/sec look 2 meters ahead)
+        StepSpeed2 = 15.0               // speed in meters-per-second to look ahead 2x step-distance (i.e. 15 m/sec look 4 meters ahead)
+        StepSpeed3 = 20.0               // speed in meters-per-second to look ahead 3x step-distance (i.e. 20 m/sec)
+        StepSpeed4 = 28.0               // speed in meters-per-second to look ahead 4x step-distance (i.e. 28 m/sec)
+        StepSpeed5 = 40.0               // speed in meters-per-second to look ahead 5x step-distance (i.e. 40 m/sec)
+        StepSpeed6 = 55.0               // speed in meters-per-second to look ahead 6x step-distance (i.e. 55 m/sec)
+        StepSpeed7 = 70.0               // speed in meters-per-second to look ahead 7x step-distance (i.e. 70 m/sec)
+        StepSpeed8 = 85.0               // speed in meters-per-second to look ahead 8x step-distance (i.e. 85 m/sec)
+        CorneringCaution = 99.0         // default corner caution for any driver that doesn't have it defined
+        FearOfWalls = 99.0              // default wall avoidance setting for any driver that doesn't have it defined
+    }
   }
   
   //
@@ -60,7 +75,7 @@ FORMULA_1_2023
     Aggression = 75.0
     Composure = 100.0
     CorneringCaution = 38.0
-    FearOfWalls = 59.0
+    FearOfWalls = 72.0
     Speed = 100.0
     QualifySpeed = 100.0
     WetSpeed = 95.0
@@ -84,7 +99,7 @@ FORMULA_1_2023
     Aggression = 75.0
     Composure = 100.0
     CorneringCaution = 42.0
-    FearOfWalls = 65.0
+    FearOfWalls = 73.0
     Speed = 100.0
     QualifySpeed = 100.0
     WetSpeed = 95.0
