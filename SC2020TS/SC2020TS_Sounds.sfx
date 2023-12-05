@@ -1,0 +1,265 @@
+// ENGINE SOUNDS (INSIDE)
+VS_INSIDE_POWER_ENGINE_1=2.1,HowstonGen6\howston6_in_idle.wav
+VS_INSIDE_POWER_ENGINE_2=HowstonGen6\howston6_in_onlow.wav
+VS_INSIDE_POWER_ENGINE_3=HowstonGen6\howston6_in_onmid.wav
+VS_INSIDE_POWER_ENGINE_4=HowstonGen6\howston6_in_onhigh.wav
+
+VS_INSIDE_COAST_ENGINE_1=2.1,HowstonGen6\howston6_in_idle.wav
+VS_INSIDE_COAST_ENGINE_2=HowstonGen6\howston6_in_offlow.wav
+VS_INSIDE_COAST_ENGINE_3=HowstonGen6\howston6_in_offmid.wav
+VS_INSIDE_COAST_ENGINE_4=HowstonGen6\howston6_in_offhigh.wav
+
+
+//VS_INSIDE_ENGINE_STARTER=
+VS_INSIDE_ENGINE_STARTING=HowstonGen6\howstong6_in_startup.wav
+
+// (OUTSIDE)
+
+VS_OUTSIDE_POWER_ENGINE_1=1.0,HowstonGen6\Howston_diss_idle_ex.wav
+VS_OUTSIDE_POWER_ENGINE_2=1.0,HowstonGen6\Howston_diss_onlow_ex.wav
+VS_OUTSIDE_POWER_ENGINE_3=1.0,HowstonGen6\Howston_diss_onmid_ex.wav
+VS_OUTSIDE_POWER_ENGINE_4=1.0,HowstonGen6\Howston_diss_onhigh_ex.wav
+VS_OUTSIDE_POWER_ENGINE_5=1.0,HowstonGen6\Howston_diss_onveryhigh_ex.wav
+
+
+VS_OUTSIDE_COAST_ENGINE_1=1.0,HowstonGen6\Howston_diss_idle_ex.wav
+VS_OUTSIDE_COAST_ENGINE_2=1.0,HowstonGen6\Howston_diss_offlow_ex.wav
+VS_OUTSIDE_COAST_ENGINE_3=1.0,HowstonGen6\Howston_diss_offmid_ex.wav
+VS_OUTSIDE_COAST_ENGINE_4=1.0,HowstonGen6\Howston_diss_offhigh_ex.wav
+VS_OUTSIDE_COAST_ENGINE_5=1.0,HowstonGen6\Howston_diss_offveryhigh_ex.wav
+
+//VS_OUTSIDE_ENGINE_STARTER=
+VS_OUTSIDE_ENGINE_STARTING=HowstonGen6\howstong6_in_startup.wav
+
+
+// BACKFIRE & SHIFT SOUNDS (INSIDE)
+VS_INSIDE_SHIFT_UP_1=2,HowstonGen6\howstong6_in_upshift_1.wav
+VS_INSIDE_SHIFT_UP_2=2,HowstonGen6\howstong6_in_upshift_2.wav
+VS_INSIDE_SHIFT_UP_3=2,HowstonGen6\howstong6_in_upshift_3.wav
+VS_INSIDE_SHIFT_DOWN_1=2,HowstonGen6\howstong6_in_downshift_1.wav
+VS_INSIDE_SHIFT_DOWN_2=2,HowstonGen6\howstong6_in_downshift_2.wav
+VS_INSIDE_SHIFT_DOWN_3=2,HowstonGen6\howstong6_in_downshift_3.wav
+
+VS_INSIDE_BACKFIRE_1=HowstonGen6\howstong6_in_backfire_1.wav
+VS_INSIDE_BACKFIRE_2=HowstonGen6\howstong6_in_backfire_2.wav
+VS_INSIDE_BACKFIRE_3=HowstonGen6\howstong6_in_backfire_3.wav
+
+// (OUTSIDE)
+VS_OUTSIDE_SHIFT_UP_1=HowstonGen6\howstong6_ex_upshift_1.wav
+VS_OUTSIDE_SHIFT_UP_2=HowstonGen6\howstong6_ex_upshift_2.wav
+VS_OUTSIDE_SHIFT_UP_3=HowstonGen6\howstong6_ex_upshift_3.wav
+VS_OUTSIDE_SHIFT_DOWN_1=HowstonGen6\howstong6_ex_downshift_1.wav
+VS_OUTSIDE_SHIFT_DOWN_2=HowstonGen6\howstong6_ex_downshift_2.wav
+VS_OUTSIDE_SHIFT_DOWN_3=HowstonGen6\howstong6_ex_downshift_3.wav
+
+VS_OUTSIDE_BACKFIRE_1=HowstonGen6\howstong6_ex_backfire_1.wav
+VS_OUTSIDE_BACKFIRE_2=HowstonGen6\howstong6_ex_backfire_2.wav
+VS_OUTSIDE_BACKFIRE_3=HowstonGen6\howstong6_ex_backfire_3.wav
+
+
+// ROAD SURFACE SOUNDS (INSIDE)
+VS_INSIDE_ROADNOISE_DRY=0.3,TMTires\roadroll_in.wav
+VS_INSIDE_ROADNOISE_WET=0.3,TMTires\roadroll_in.wav
+VS_INSIDE_ROADNOISE_GRASS=0.3,TMTires\grassroll_in.wav
+VS_INSIDE_ROADNOISE_DIRT=0.3,TMTires\gravelroll_in.wav
+VS_INSIDE_ROADNOISE_GRAVEL=0.3,TMTires\gravelroll_in.wav
+VS_INSIDE_ROADNOISE_RUMBLESTRIP=Secondary\rumble_in.wav
+
+// (OUTSIDE)
+VS_OUTSIDE_ROADNOISE_DRY=0.3,TMTires\roadroll_ex.wav
+VS_OUTSIDE_ROADNOISE_WET=0.3,TMTires\roadroll_ex.wav
+VS_OUTSIDE_ROADNOISE_GRASS=0.3,TMTires\grassroll_ex.wav
+VS_OUTSIDE_ROADNOISE_DIRT=0.3,TMTires\gravelroll_ex.wav
+VS_OUTSIDE_ROADNOISE_GRAVEL=0.3,TMTires\gravelroll_ex.wav
+VS_OUTSIDE_ROADNOISE_RUMBLESTRIP=Secondary\rumble_ex.wav
+
+
+// SKID SOUNDS (INSIDE)
+VS_INSIDE_TIRE_SCRUB=0.2,TMTires\tyres_asphalt_scrub_slick_in.wav
+VS_INSIDE_SKID_DRY=0.8,TMTires\tyres_asphalt_skid_slick_in.wav
+VS_INSIDE_SKID_WET=TMTires\tyres_asphalt_skid_slick_in.wav
+VS_INSIDE_SKID_GRASS=TMTires\grassskid_in.wav
+VS_INSIDE_SKID_DIRT=TMTires\gravelskid_in.wav
+VS_INSIDE_SKID_GRAVEL=TMTires\gravelskid_in.wav
+
+// (OUTSIDE)
+VS_OUTSIDE_TIRE_SCRUB=0.2,TMTires\tyres_asphalt_scrub_slick_ex.wav
+VS_OUTSIDE_SKID_DRY=0.8,TMTires\tyres_asphalt_skid_slick_ex.wav
+VS_OUTSIDE_SKID_WET=TMTires\tyres_asphalt_skid_slick_ex.wav
+VS_OUTSIDE_SKID_GRASS=TMTires\grassskid_ex.wav
+VS_OUTSIDE_SKID_DIRT=TMTires\gravelskid_ex.wav
+VS_OUTSIDE_SKID_GRAVEL=TMTires\gravelskid_ex.wav
+
+ScrubIndividually=1 // set to 1 to play individual sounds
+ScrubFreq=(0.95,-0.25,0.01,-0.00004)
+
+
+// SUSPENSION/CHASSIS
+SuspensionVolume=0.7 //(exaggerated, should probably be more like 0.15) // converts sum of (absolute value of) vertical suspension velocities to a volume
+SuspensionFreq=(2,0.40,0.80) // (max_vel, mult, base), so frequency multiplier = min( actual_susp_vel, max_vel ) * mult + base
+VS_INSIDE_SUSPENSION=1.7,Secondary\chassis_noise_2_in.wav
+VS_OUTSIDE_SUSPENSION=1.5,Secondary\chassis_noise_2_ex.wav
+
+DirtyTire=(0.001,100.0) // frequency adjustment based on speed & dirtiness, threshold speed between low & high samples
+VS_INSIDE_DIRTY_TIRE_LOW=Secondary\marbles_low_loop_int.wav
+VS_INSIDE_DIRTY_TIRE_HIGH=Secondary\marbles_high_loop_int.wav
+VS_OUTSIDE_DIRTY_TIRE_LOW=Secondary\marbles_low_loop_ext.wav
+VS_OUTSIDE_DIRTY_TIRE_HIGH=Secondary\marbles_high_loop_ext.wav
+
+
+// CONTACT SOUNDS (INSIDE)
+VS_INSIDE_SCRAPING=secondary\scrape_barrier_in.wav
+VS_INSIDE_HIT_WALL_1=secondary\hit1_wall.wav
+VS_INSIDE_HIT_WALL_2=secondary\hit2_wall.wav
+VS_INSIDE_HIT_WALL_3=secondary\hit3_wall.wav
+VS_INSIDE_HIT_WALL_4=secondary\hit4_wall.wav
+VS_INSIDE_HIT_WALL_5=secondary\hit5_wall.wav
+
+VS_INSIDE_HIT_OTHERCAR_1=secondary\hit1_vehicle.wav
+VS_INSIDE_HIT_OTHERCAR_2=secondary\hit2_vehicle.wav
+VS_INSIDE_HIT_OTHERCAR_3=secondary\hit3_vehicle.wav
+VS_INSIDE_HIT_OTHERCAR_4=secondary\hit4_vehicle.wav
+VS_INSIDE_HIT_OTHERCAR_5=secondary\hit5_vehicle.wav
+
+VS_INSIDE_HIT_CONE=secondary\conehit.wav
+
+// (OUTSIDE)
+VS_OUTSIDE_SCRAPING=secondary\scrape_barrier_ex.wav
+
+VS_OUTSIDE_HIT_WALL_1=secondary\hit1_wall.wav
+VS_OUTSIDE_HIT_WALL_2=secondary\hit2_wall.wav
+VS_OUTSIDE_HIT_WALL_3=secondary\hit3_wall.wav
+VS_OUTSIDE_HIT_WALL_4=secondary\hit4_wall.wav
+VS_OUTSIDE_HIT_WALL_5=secondary\hit5_wall.wav
+VS_outSIDE_HIT_OTHERCAR_1=secondary\hit1_vehicle.wav
+VS_outSIDE_HIT_OTHERCAR_2=secondary\hit2_vehicle.wav
+VS_outSIDE_HIT_OTHERCAR_3=secondary\hit3_vehicle.wav
+VS_outSIDE_HIT_OTHERCAR_4=secondary\hit4_vehicle.wav
+VS_outSIDE_HIT_OTHERCAR_5=secondary\hit5_vehicle.wav
+
+VS_OUTSIDE_HIT_CONE=secondary\conehit.wav
+
+
+// AMBIENT SOUNDS (INSIDE)
+VS_INSIDE_SPEED_LIMITER_TOGGLE=secondary\limiter.wav
+VS_INSIDE_LAUNCH_CONTROL_TOGGLE=secondary\launch.wav
+VS_INSIDE_WIND_NOISE=0.3,TMTires\roadwind_in.wav
+VS_INSIDE_ON_FIRE=secondary\fire_in.wav
+//VS_INSIDE_HORN=HowstonGen6\horn.wav
+VS_INSIDE_TRACTION_CONTROL=HowstonGen6\howstong6_in_pitlimiter.wav
+VS_INSIDE_SEAT=Secondary\seat.wav
+VS_INSIDE_MIRROR=Secondary\mirror.wav
+
+// (OUTSIDE)
+VS_OUTSIDE_SPEED_LIMITER_TOGGLE=secondary\limiter.wav
+VS_OUTSIDE_LAUNCH_CONTROL_TOGGLE=secondary\launch.wav
+VS_OUTSIDE_WIND_NOISE=0.3,TMTires\roadwind_ex.wav
+VS_OUTSIDE_ON_FIRE=secondary\fire_in.wav
+//VS_OUTSIDE_HORN=HowstonGen6\horn.wav
+VS_OUTSIDE_TRACTION_CONTROL=HowstonGen6\howstong6_ex_pitlimiter.wav
+VS_OUTSIDE_SEAT=Secondary\seat.wav
+VS_OUTSIDE_MIRROR=Secondary\mirror.wav
+
+
+// ATTENUTATION
+EngineAttenInside=(1.0, 0, 1.0, 0.028) //(<range>,<oldShape>,<ambient>,<expShape>)
+EngineAttenOutside=(1.0, 0, 1.0, 0.01)
+
+ShiftAttenInside=(1.0, 0, 0.5, 0.029)
+ShiftAttenOutside=(1.0, 0, 0.5, 0.011)
+
+OtherAttenInside=(1.0, 0, 0.2, 0.029)
+OtherAttenOutside=(1.0, 0, 0.2, 0.011)
+
+
+// ENGINE VOLUME MIX
+playerEngineVolumeMinimum=1.0
+playerEngineVolumeThrottleFraction=0.2
+playerEngineVolumeRevFraction=0.0
+
+non-playerEngineVolumeMinimum=0.6
+non-playerEngineVolumeThrottleFraction=0.2
+non-playerEngineVolumeRevFraction=0.2
+
+
+// ENGINE THROTTLE-POSITION MIX
+EngineLoadBlendInside=(0.2,0.8)   // power sound starts to blend in at 20% throttle, coast sound blends out at 80%
+EngineLoadBlendOutside=(0.2,0.8)
+
+
+// ENGINE REV-SAMPLE MIX
+// RPMs need to overlap properly from one sample to the next (maximum of two playing at once).
+// The first minimum RPM should be above zero but low enough to hear an engine stall.
+
+// power inside
+EngRPMPowerInside=(0,     1.00,  3000.00,  2000) // zero-based engine number, minimum RPM, maximum RPM, natural RPM at which sample was recorded
+EngRPMPowerInside=(1,  2000.00,  6000.00,  3896) //4800     
+EngRPMPowerInside=(2,  3000.00,  7000.00,  5691)//6700
+EngRPMPowerInside=(3,  6000.00,  10200.00,  8000)  
+
+// coast inside
+EngRPMCoastInside=(0,     1.00,  3000.00,  2000)  // zero-based engine number, minimum RPM, maximum RPM, natural RPM at which sample was recorded
+EngRPMCoastInside=(1,  2000.00,  5000.00,  4537)  
+EngRPMCoastInside=(2,  3000.00,  7000.00,  7600)  
+EngRPMCoastInside=(3,  5000.00,  10200.00,  9000) 
+
+// coast outside
+EngRPMCoastOutside=(0, 150, 2450, 2252.9)
+EngRPMCoastOutside=(1, 1940, 4050, 4282.6)
+EngRPMCoastOutside=(2, 2450, 5000, 6700.0)
+EngRPMCoastOutside=(3, 4050, 7000, 6700.0)
+EngRPMCoastOutside=(4, 5000, 10000, 6700.0)
+
+// power outside
+EngRPMPowerOutside=(0, 150, 2500, 1800)
+EngRPMPowerOutside=(1, 2000, 4000, 3924)
+EngRPMPowerOutside=(2, 2500, 6000, 4944)
+EngRPMPowerOutside=(3, 4000, 7000, 6600)
+EngRPMPowerOutside=(4, 6000, 10500, 9334)  
+
+
+// TRANNY-SAMPLE MIX
+VS_INSIDE_COAST_TRANNY_1=0.2,HowstonGen6\Trans_offlow.wav
+//VS_INSIDE_COAST_TRANNY_2=HowstonGen6\Trans_offhigh.wav
+VS_INSIDE_POWER_TRANNY_1=HowstonGen6\howston6_in_onidle.wav
+//VS_INSIDE_POWER_TRANNY_2=HowstonGen6\Trans_onhigh.wav
+
+//VS_OUTSIDE_COAST_TRANNY_1=HowstonGen6\Trans4000_ex.wav
+//VS_OUTSIDE_COAST_TRANNY_2=HowstonGen6\Trans6000_ex.wav
+//VS_OUTSIDE_POWER_TRANNY_1=HowstonGen6\Trans4000_ex.wav
+//VS_OUTSIDE_POWER_TRANNY_2=HowstonGen6\Trans6000_ex.wav
+
+
+TrannyInitialRampRPM=1000.0
+TrannyCoastBlendRPMInside=(2000.0, 2500.0)
+TrannyCoast1RPMTorqueInside=(2000, 150.0)
+TrannyCoast2RPMTorqueInside=(2000, 150.0)
+TrannyPowerBlendRPMInside=(2000.0, 2500.0)
+TrannyPower1RPMTorqueInside=(2000, 40.0)
+TrannyPower2RPMTorqueInside=(2000, 40.0)
+
+//TrannyCoastBlendRPMOutside=(3000.0, 5000.0)
+//TrannyCoast1RPMTorqueOutside=(2000, 80.0)
+//TrannyCoast2RPMTorqueOutside=(4000, 80.0)
+//TrannyPowerBlendRPMOutside=(3000.0, 5000.0)
+//TrannyPower1RPMTorqueOutside=(2000, 80.0)
+//TrannyPower2RPMTorqueOutside=(4000, 80.0)
+
+
+// BRAKE-HISS
+VS_INSIDE_BRAKES_LOW=0.5,HowstonGen6\brakes_low.wav
+VS_INSIDE_BRAKES_HIGH=0.5,HowstonGen6\brakes_high.wav
+VS_OUTSIDE_BRAKES_LOW=0.25,HowstonGen6\brakes_low.wav
+VS_OUTSIDE_BRAKES_HIGH=0.25,HowstonGen6\brakes_high.wav
+
+// Note: all speeds are in meters/sec: 50.0 m/s = 112 mph = 180 kph
+//
+// Lower BrakePressure numbers will cause the volume to ramp up faster with less applied pressure, and will be more steady at higher pressures.
+// Higher BrakePressure numbers will tend to make the volume more dependent on applied pressure.
+//
+// Temperature effects on brake hiss volume are not implemented yet.
+
+BrakeRampSpeed=3.0            // volume ramps up to this speed
+BrakeBlendSpeeds=(8.0, 23.0)  // blends between low- and high-speed brake hiss
+BrakeFadeSpeeds=(23.0, 42.0)  // fades out high-speed brake hiss between these speeds
+BrakePressure=0.20            // defines how brake pressure affects brake hiss volume

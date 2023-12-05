@@ -1,0 +1,31 @@
+DefaultLivery="15_F150.dds"
+MaterialOverride="SC2020TS_F150_BaseMat.json"
+
+Extra3="Windows"
+Extra5="Windows"
+Extra9="Gloves"
+
+HDVehicle=SC2020TS.hdv
+Graphics=SC2020TS.gen
+Spinner=SC2020TS_Spinner.gen
+GenString=T6T6UB    // Used to generate GMT names in *.gen file <T1T1OB_> = <1234567> 5: O=RoeningTire, U=GoodyearTire
+Cameras=SC2020TS.cam                       // Defaults to default.cfg in UserData directory
+Sounds=SC2020TS-snd.json                   // Sounds=default.sfx
+HeadPhysics=HeadPhysics.ini                         // Affects driver eyepoint only
+Cockpit=SC2020TS_CockpitInfo.ini
+Upgrades=SC2020TS_Upgrades.ini
+AIUpgradeClass=SC2020TS
+
+Number=15
+Team="DGR-Crosley"
+PitGroup="Group1"
+Driver="Tanner Gray"
+Description="Ford F150 NASCAR #15"
+Engine="5.86 L (358 cu in) Pushrod V8"
+Manufacturer="Ford"
+
+Classes="SC2020TS"
+
+FullTeamName="DGR-Crosley"
+
+Category="NASCAR Craftsman Truck Series, Ford F-150"

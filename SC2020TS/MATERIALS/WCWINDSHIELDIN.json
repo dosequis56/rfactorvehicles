@@ -1,0 +1,67 @@
+{
+  "dstBlend" : "CUBEAB_INVSRCALPHA",
+  "flags" : [ "CUBEMAT_SPECULAR", "CUBEMAT_SORTEDALPHA", "CUBEMAT_AMBIENTMAT", "CUBEMAT_DIFFUSEMAT", "CUBEMAT_SPECLARDIR", "CUBEMAT_EMISSIVMAT", "CUBEMAT_EMISSIVDIR" ],
+  "name" : "WCWINDSHIELDIN",
+  "parameters" : {
+    "StandardInfo" : {
+      "ambientColour" : [ 0.752941, 0.752941, 0.752941, 0 ],
+      "blendPercent" : 1,
+      "bumpScale" : 0,
+      "cubeMapFresnel" : {
+        "Exp" : 10,
+        "Max" : 0.3,
+        "Min" : 0.01
+      },
+      "diffuseColour" : [ 1, 1, 1, 1 ],
+      "emissiveColour" : [ 0, 0, 0, 0 ],
+      "refEnhance" : 0,
+      "specFresnel" : {
+        "Exp" : 1,
+        "Max" : 0.1,
+        "Min" : 0
+      },
+      "specPower" : 0,
+      "specularColour" : [ 0.501961, 0.501961, 0.501961, 0 ]
+    }
+  },
+  "preprocessorFlags" : {
+    "NOALBEDOCORRECT" : "@Null"
+  },
+  "refName" : "REFMAP0",
+  "shader" : "L2WINDSCREENINSIDE",
+  "sortOffset" : 1,
+  "srcBlend" : "CUBEAB_SRCALPHA",
+  "textures" : [ {
+    "AnisoLevel" : 0,
+    "ChromaColor" : 0,
+    "Flags" : [ "CUBETF_AUTOMIPMAP", "CUBETF_TRILINEAR", "CUBETF_OWNEDBYMATERIAL", "CUBETF_NOZBUFFERREQUIRED" ],
+    "FrameCount" : 0,
+    "MipBias" : 0,
+    "MipLevels" : -1,
+    "Name" : "raindropTexture",
+    "ShaderPass" : 0,
+    "ShadowMipBias" : 0,
+    "StageType" : "CUBETST_RAINDROPMAP_GLASS",
+    "TexChannel" : 3,
+    "Texture" : "RAINDROPMAP_GLASS",
+    "hasDefault" : false,
+    "inactive" : false,
+    "runtime" : true
+  }, {
+    "AnisoLevel" : 0,
+    "ChromaColor" : 6583040,
+    "Flags" : [ "CUBETF_AUTOMIPMAP", "CUBETF_TRILINEAR", "CUBETF_OWNEDBYMATERIAL", "CUBETF_NOZBUFFERREQUIRED" ],
+    "FrameCount" : 1,
+    "MipBias" : 0,
+    "MipLevels" : 1862300516,
+    "Name" : "sTex0",
+    "ShaderPass" : 0,
+    "ShadowMipBias" : 0,
+    "StageType" : "CUBETST_DIFFUSEMAP",
+    "TexChannel" : 0,
+    "Texture" : "sc2020ts_windows",
+    "hasDefault" : false,
+    "inactive" : false,
+    "runtime" : false
+  } ]
+}

@@ -1,0 +1,31 @@
+DefaultLivery="21_Silverado.dds"
+MaterialOverride="SC2020TS_Silverado_BaseMat.json"
+
+Extra3="Windows"
+Extra5="Windows"
+Extra9="Gloves"
+
+HDVehicle=SC2020TS.hdv
+Graphics=SC2020TS.gen
+Spinner=SC2020TS_Spinner.gen
+GenString=T1T1UA      // Used to generate GMT names in *.gen file <T1T1OB_> = <1234567> 5: O=RoeningTire, U=GoodyearTire
+Cameras=SC2020TS.cam                       // Defaults to default.cfg in UserData directory
+Sounds=SC2020TS-snd.json                    // Sounds=default.sfx
+HeadPhysics=HeadPhysics.ini                         // Affects driver eyepoint only
+Cockpit=SC2020TS_CockpitInfo.ini
+Upgrades=SC2020TS_Upgrades.ini
+AIUpgradeClass=SC2020TS
+
+Number=21
+Team="GMS Racing"
+PitGroup="Group1"
+Driver="Zane Smith"
+Description="Chevrolet Silverado NASCAR #21"
+Engine="5.86 L (358 cu in) Pushrod V8"
+Manufacturer="Chevrolet"
+
+Classes="SC2020TS"
+
+FullTeamName="GMS Racing"
+
+Category="NASCAR Craftsman Truck Series, Chevrolet Silverado"

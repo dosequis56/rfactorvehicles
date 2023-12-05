@@ -1,0 +1,265 @@
+// Advanced Simulation Modding Group
+// SC2020TS Ingame car generation file
+//----------------------------------------
+
+SearchPath=<VEHDIR>SC2020TS\MAPS
+MaterialPath=<VEHDIR>SC2020TS\materials
+
+//----------------------------------------
+
+Instance=SLOT<ID>
+{
+  Moveable=True
+//------------------------------------MAX CAR SETTINGS---------------------------------------------
+
+<MAX>  MeshFile=SC2020TS_<6>_BODY_MAX.GMT   CollTarget=False HATTarget=False LODIn=(0)   LODOut=(20)  Reflect=True Damageable=true
+<MAX>  MeshFile=SC2020TS_<6>_BODY_HIGH.GMT  CollTarget=False HATTarget=False LODIn=(20)  LODOut=(60)  Reflect=True Damageable=true
+<MAX>  MeshFile=SC2020TS_<6>_BODY_MED.GMT   CollTarget=False HATTarget=False LODIn=(60)  LODOut=(150) Reflect=True Damageable=true
+<MAX>  MeshFile=SC2020TS_<6>_BODY_LOW.GMT   CollTarget=False HATTarget=False LODIn=(150) LODOut=(900) Reflect=NoLOD
+//------------------------------------HIGH CAR SETTINGS--------------------------------------------
+<HIGH> MeshFile=SC2020TS_<6>_BODY_MAX.GMT   CollTarget=False HATTarget=False LODIn=(0) LODOut=(10)    Reflect=True Damageable=true
+<HIGH> MeshFile=SC2020TS_<6>_BODY_HIGH.GMT  CollTarget=False HATTarget=False LODIn=(10) LODOut=(40)   Reflect=True Damageable=true
+<HIGH> MeshFile=SC2020TS_<6>_BODY_MED.GMT   CollTarget=False HATTarget=False LODIn=(40) LODOut=(60)   Reflect=True Damageable=true
+<HIGH> MeshFile=SC2020TS_<6>_BODY_LOW.GMT   CollTarget=False HATTarget=False LODIn=(60) LODOut=(600)  Reflect=NoLOD
+//------------------------------------MED CAR SETTINGS---------------------------------------------
+<MED>  MeshFile=SC2020TS_<6>_BODY_MAX.GMT   CollTarget=False HATTarget=False LODIn=(0) LODOut=(8)     Reflect=True Damageable=true
+<MED>  MeshFile=SC2020TS_<6>_BODY_HIGH.GMT  CollTarget=False HATTarget=False LODIn=(8) LODOut=(20)    Reflect=NoLOD Damageable=true
+<MED>  MeshFile=SC2020TS_<6>_BODY_MED.GMT   CollTarget=False HATTarget=False LODIn=(20) LODOut=(150)  Reflect=NoLOD Damageable=true
+<MED>  MeshFile=SC2020TS_<6>_BODY_LOW.GMT   CollTarget=False HATTarget=False LODIn=(150) LODOut=(450) Reflect=NoLOD
+//------------------------------------LOW CAR SETTINGS---------------------------------------------
+<LOW>  MeshFile=SC2020TS_<6>_BODY_HIGH.GMT  CollTarget=False HATTarget=False LODIn=(0) LODOut=(25)    Reflect=True Damageable=true
+<LOW>  MeshFile=SC2020TS_<6>_BODY_MED.GMT   CollTarget=False HATTarget=False LODIn=(25) LODOut=(150)  Reflect=NoLOD Damageable=true
+<LOW>  MeshFile=SC2020TS_<6>_BODY_LOW.GMT   CollTarget=False HATTarget=False LODIn=(150) LODOut=(350) Reflect=NoLOD
+
+
+<MAX>  MeshFile=SC2020TS_<6>_HOOD_MAX.GMT   CollTarget=False HATTarget=False LODIn=(0)   LODOut=(20)  Reflect=True Damageable=true
+<MAX>  MeshFile=SC2020TS_<6>_HOOD_HIGH.GMT  CollTarget=False HATTarget=False LODIn=(20)  LODOut=(60)  Reflect=True Damageable=true
+<MAX>  MeshFile=SC2020TS_<6>_HOOD_MED.GMT   CollTarget=False HATTarget=False LODIn=(60)  LODOut=(150) Reflect=True Damageable=true
+<MAX>  MeshFile=SC2020TS_<6>_HOOD_LOW.GMT   CollTarget=False HATTarget=False LODIn=(150) LODOut=(900) Reflect=NoLOD
+//------------------------------------HIGH CAR SETTINGS--------------------------------------------
+<HIGH> MeshFile=SC2020TS_<6>_HOOD_MAX.GMT   CollTarget=False HATTarget=False LODIn=(0) LODOut=(10)    Reflect=True Damageable=true
+<HIGH> MeshFile=SC2020TS_<6>_HOOD_HIGH.GMT  CollTarget=False HATTarget=False LODIn=(10) LODOut=(40)   Reflect=True Damageable=true
+<HIGH> MeshFile=SC2020TS_<6>_HOOD_MED.GMT   CollTarget=False HATTarget=False LODIn=(40) LODOut=(60)   Reflect=True Damageable=true
+<HIGH> MeshFile=SC2020TS_<6>_HOOD_LOW.GMT   CollTarget=False HATTarget=False LODIn=(60) LODOut=(600)  Reflect=NoLOD
+//------------------------------------MED CAR SETTINGS---------------------------------------------
+<MED>  MeshFile=SC2020TS_<6>_HOOD_MAX.GMT   CollTarget=False HATTarget=False LODIn=(0) LODOut=(8)     Reflect=True Damageable=true
+<MED>  MeshFile=SC2020TS_<6>_HOOD_HIGH.GMT  CollTarget=False HATTarget=False LODIn=(8) LODOut=(20)    Reflect=NoLOD Damageable=true
+<MED>  MeshFile=SC2020TS_<6>_HOOD_MED.GMT   CollTarget=False HATTarget=False LODIn=(20) LODOut=(150)  Reflect=NoLOD Damageable=true
+<MED>  MeshFile=SC2020TS_<6>_HOOD_LOW.GMT   CollTarget=False HATTarget=False LODIn=(150) LODOut=(450) Reflect=NoLOD
+//------------------------------------LOW CAR SETTINGS---------------------------------------------
+<LOW>  MeshFile=SC2020TS_<6>_HOOD_HIGH.GMT  CollTarget=False HATTarget=False LODIn=(0) LODOut=(25)    Reflect=True Damageable=true
+<LOW>  MeshFile=SC2020TS_<6>_HOOD_MED.GMT   CollTarget=False HATTarget=False LODIn=(25) LODOut=(150)  Reflect=NoLOD Damageable=true
+<LOW>  MeshFile=SC2020TS_<6>_HOOD_LOW.GMT   CollTarget=False HATTarget=False LODIn=(150) LODOut=(350) Reflect=NoLOD
+
+
+//------------------------------------SHADOW AND COLLISION OBJECTS---------------------------------
+  MeshFile=SC2020TS_COLL.GMT Render=False CollTarget=True HATTarget=False LODIn=(0) LODOut=(200)
+  MeshFile=SC2020TS_SHAD.GMT Render=False CollTarget=True HATTarget=False LODIn=(0) LODOut=(120) Shadowcaster=(True, Solid)
+
+  Actor=VEHICLE
+
+/////////////////////////////////////////////////// COCKPIT ///////////////////////////////////////////////////
+
+  Instance=COCKPIT
+  {
+    Moveable=True
+    MeshFile=SC2020TS_<6>_INT_CHASSIS.GMT           CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(8) Reflect=NoLOD
+    MeshFile=SC2020TS_<6>_INT_DASHBOARD.GMT         CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(8) Reflect=NoLOD
+    MeshFile=SC2020TS_<6>_INT_DASHBOARD_gauges.GMT  CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(8) Reflect=NoLOD
+    MeshFile=SC2020TS_<6>_INT_DASHBOARD_rpm.GMT     CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(8) Reflect=NoLOD
+    MeshFile=SC2020TS_<6>_INT_ENGINE.GMT            CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(8) Reflect=NoLOD
+    MeshFile=SC2020TS_<6>_INT_ENGINE_AIR.GMT        CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(8) Reflect=NoLOD
+    MeshFile=SC2020TS_<6>_INT_ENGINE_CABLES.GMT     CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(8) Reflect=NoLOD
+    MeshFile=SC2020TS_<6>_INT_ENGINE_FAN.GMT        CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(8) Reflect=NoLOD
+    MeshFile=SC2020TS_<6>_INT_WINDOWNET.GMT         CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(8) Reflect=NoLOD
+    MeshFile=SC2020TS_<6>_INT_MIRROR.GMT            CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(8) Reflect=NoLOD
+    MeshFile=SC2020TS_<6>_INT_PEDALS.GMT            CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(8) Reflect=NoLOD
+    MeshFile=SC2020TS_<6>_INT_RADIATOR.GMT          CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(8) Reflect=NoLOD
+    MeshFile=SC2020TS_<6>_INT_ROLLCAGE.GMT          CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(8) Reflect=NoLOD
+    MeshFile=SC2020TS_<6>_INT_SUPPORT.GMT           CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(8) Reflect=NoLOD
+    MeshFile=SC2020TS_<6>_INT_TUBES.GMT             CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(8) Reflect=NoLOD
+    MeshFile=SC2020TS_<6>_LMIRROR_IN.GMT            CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(8) Reflect=NoLOD
+    MeshFile=SC2020TS_<6>_MIRROR_EXT_L.GMT          CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(8) Reflect=NoLOD
+    MeshFile=SC2020TS_<6>_MIRROR_IN.GMT             CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(8) Reflect=NoLOD
+    MeshFile=SC2020TS_<6>_WINDOWS.GMT               CollTarget=False HATTarget=False ShadowCaster=(False, Solid) LODIn=(0) LODOut=(8) Reflect=NoLOD
+   <WIPEREXISTS>    MeshFile=SC2020TS_<6>_WIPER.GMT                 CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+   <WIPEREXISTS>    MeshFile=SC2020TS_<6>_WIPER_SUPP.GMT            CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    AnimFile=SC2020TS_<6>_WIPER.ANM
+  }
+
+  Instance=BODYIN
+  {
+    Moveable=True
+    MeshFile=SC2020TS_<6>_INT_CHASSIS.GMT           CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(120) Reflect=True
+    MeshFile=SC2020TS_<6>_INT_DASHBOARD.GMT         CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(60) Reflect=True
+    MeshFile=SC2020TS_<6>_INT_DASHBOARD_gauges.GMT  CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(30) Reflect=True
+    MeshFile=SC2020TS_<6>_INT_DASHBOARD_rpm.GMT     CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(30) Reflect=True
+    MeshFile=SC2020TS_<6>_INT_ENGINE.GMT            CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(60)  Reflect=True
+    MeshFile=SC2020TS_<6>_INT_ENGINE_AIR.GMT        CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(60)  Reflect=True
+    MeshFile=SC2020TS_<6>_INT_ENGINE_CABLES.GMT     CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(60)  Reflect=True
+    MeshFile=SC2020TS_<6>_INT_ENGINE_FAN.GMT        CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(30)  Reflect=True
+    MeshFile=SC2020TS_<6>_INT_WINDOWNET.GMT         CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(120) Reflect=True
+    MeshFile=SC2020TS_<6>_INT_MIRROR.GMT            CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(60)  Reflect=True
+    MeshFile=SC2020TS_<6>_INT_RADIATOR.GMT          CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(60)  Reflect=True
+    MeshFile=SC2020TS_<6>_INT_ROLLCAGE.GMT          CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(120) Reflect=True
+    MeshFile=SC2020TS_<6>_INT_seat.GMT              CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(60) Reflect=True
+    MeshFile=SC2020TS_<6>_INT_SUPPORT.GMT           CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(60) Reflect=True
+    MeshFile=SC2020TS_<6>_INT_TUBES.GMT             CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(30) Reflect=True
+  }
+
+/////////////////////////////////////////////////// STEERING WHEEL ///////////////////////////////////////////////////
+
+  Instance=WHEEL
+  {
+    Moveable=True
+    MeshFile=SC2020TS_<6>_SWHEEL_INT.GMT  CollTarget=False HATTarget=False LODIn=(0) LODOut=(60)  ShadowCaster=False Reflect=NoLOD
+  }
+
+/////////////////////////////////////////////////// DRIVER BODY ///////////////////////////////////////////////////
+
+  Instance=DRIVER
+  {
+    Moveable=True
+    MeshFile=SC2020TS_<6>_DRIVER_MAX.GMT  CollTarget=False HATTarget=False LODIn=(0)  LODOut=(4)  ShadowCaster=False Reflect=NoLOD
+    MeshFile=SC2020TS_<6>_DRIVER_MED.GMT  CollTarget=False HATTarget=False LODIn=(4)  LODOut=(10) ShadowCaster=False Reflect=NoLOD
+    MeshFile=SC2020TS_<6>_DRIVER_LOW.GMT  CollTarget=False HATTarget=False LODIn=(10) LODOut=(60) ShadowCaster=False Reflect=NoLOD
+    AnimFile=SC2020TS_STEER.ANM
+  }
+
+///////////////////////////////////////////////// HELMET ///////////////////////////////////////////////////
+
+ Instance=HELMET
+ {
+   Moveable=True
+   MeshFile=SC2020TS_<6>_HELMET.GMT  CollTarget=False HATTarget=False LODIn=(0)  LODOut=(120) ShadowCaster=False Reflect=NoLOD
+ }
+
+/////////////////////////////////////////////////// BODY PARTS ///////////////////////////////////////////////////
+
+  Instance=CHASSIS
+  {
+    Moveable=True
+    MeshFile=SC2020TS_<6>_CHASSIS_CAMS.GMT      CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(60) Reflect=True
+    MeshFile=SC2020TS_<6>_EXHAUST.GMT           CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(60) Reflect=True
+    MeshFile=SC2020TS_<6>_EXT_ROLLCAGE.GMT      CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(120) Reflect=True
+    MeshFile=SC2020TS_<6>_FRONT_DRIVETRAIN.GMT  CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(60) Reflect=True
+    MeshFile=SC2020TS_<6>_REAR_DRIVETRAIN.GMT   CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(60) Reflect=True
+    MeshFile=SC2020TS_<6>_SPLITTER.GMT          CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(200) Reflect=True
+    MeshFile=SC2020TS_<6>_SPOILER_SUPP.GMT      CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(60) Reflect=True
+  }
+
+  Instance=MIRRORS
+  {
+    Moveable=True
+    MeshFile=SC2020TS_<6>_MIRROR_EXT_L.GMT  CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(60) Reflect=True
+    MeshFile=SC2020TS_<6>_LMIRROR_EX.GMT    CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(60) Reflect=True
+    MeshFile=SC2020TS_<6>_MIRROR_EX.GMT     CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(60) Reflect=True
+  }
+
+  Instance=NORAINZONE_SC2020TS
+  {
+    Moveable=True
+    MeshFile=NORAINZONE_SC2020TS.GMT  CollTarget=False HATTarget=False Render=False ShadowCaster=False LODIn=(0) LODOut=(40) Reflect=False
+  }
+
+  /////////////////////////////////////////////////// WINDOWS ///////////////////////////////////////////////////
+
+  Instance=WINDOWS
+  {
+    Moveable=True
+    MeshFile=SC2020TS_<6>_WINDOWS.GMT  CollTarget=False HATTarget=False LODIn=(0) LODOut=(600) ShadowCaster=(True, Solid) Reflect=NoLOD
+  }
+
+  Instance=WIPER
+  {
+    Moveable=True 
+   <WIPEREXISTS>    MeshFile=SC2020TS_<6>_WIPER.GMT       CollTarget=False HATTarget=False LODIn=(0) LODOut=(200) Reflect=False Deformable=True
+   <WIPEREXISTS>    MeshFile=SC2020TS_<6>_WIPER_SUPP.GMT  CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(60) Reflect=True
+    AnimFile=SC2020TS_<6>_WIPER.ANM
+  }
+
+/////////////////////////////////////////////////// TYRES AND SPINDLE ///////////////////////////////////////////////////
+
+  Instance=LFTIRE
+  {
+    Moveable=True
+    MeshFile=SC2020TS_RIM_<12>_LF.GMT       CollTarget=False HATTarget=False LODIn=(0)  LODOut=(10)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=SC2020TS_RIM_<12>_LF_LOD1.GMT  CollTarget=False HATTarget=False LODIn=(10) LODOut=(20)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=SC2020TS_RIM_<12>_LF_LOD2.GMT  CollTarget=False HATTarget=False LODIn=(20) LODOut=(60)  ShadowCaster=False Reflect=True
+    MeshFile=SC2020TS_RIM_<12>_LF_LOD3.GMT  CollTarget=False HATTarget=False LODIn=(60) LODOut=(500) ShadowCaster=False Reflect=True
+
+    MeshFile=SC2020TS_RIM_<12>_BLUR_LF.GMT  CollTarget=False HATTarget=False LODIn=(0)  LODOut=(200) ShadowCaster=False Reflect=True
+
+    MeshFile=SC2020TS_ROTOR_LF.GMT          CollTarget=False HATTarget=False LODIn=(0)  LODOut=(60)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=SC2020TS_TIRE_<5>_LF.GMT       CollTarget=False HATTarget=False LODIn=(0)  LODOut=(500) ShadowCaster=(True, Solid) Reflect=True
+  }
+
+  Instance=LFSpindle
+  {
+    Moveable=True
+    MeshFile=SC2020TS_CALIPER_LF.GMT  CollTarget=False HATTarget=False LODIn=(0) LODOut=(60) ShadowCaster=False Reflect=True
+  }
+
+
+  Instance=RFTIRE
+  {
+    Moveable=True
+    MeshFile=SC2020TS_RIM_<12>_RF.GMT       CollTarget=False HATTarget=False LODIn=(0)  LODOut=(10)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=SC2020TS_RIM_<12>_RF_LOD1.GMT  CollTarget=False HATTarget=False LODIn=(10) LODOut=(20)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=SC2020TS_RIM_<12>_RF_LOD2.GMT  CollTarget=False HATTarget=False LODIn=(20) LODOut=(60)  ShadowCaster=False Reflect=True
+    MeshFile=SC2020TS_RIM_<12>_RF_LOD3.GMT  CollTarget=False HATTarget=False LODIn=(60) LODOut=(500) ShadowCaster=False Reflect=True
+
+    MeshFile=SC2020TS_RIM_<12>_BLUR_RF.GMT  CollTarget=False HATTarget=False LODIn=(0)  LODOut=(200) ShadowCaster=False Reflect=True
+
+    MeshFile=SC2020TS_ROTOR_RF.GMT          CollTarget=False HATTarget=False LODIn=(0)  LODOut=(60)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=SC2020TS_TIRE_<5>_RF.GMT       CollTarget=False HATTarget=False LODIn=(0)  LODOut=(500) ShadowCaster=(True, Solid) Reflect=True
+  }
+
+  Instance=RFSpindle
+  {
+    Moveable=True
+    MeshFile=SC2020TS_CALIPER_RF.GMT  CollTarget=False HATTarget=False LODIn=(0) LODOut=(60) ShadowCaster=False Reflect=True
+  }
+
+
+  Instance=LRTIRE
+  {
+    Moveable=True
+    MeshFile=SC2020TS_RIM_<34>_LR.GMT       CollTarget=False HATTarget=False LODIn=(0)  LODOut=(10)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=SC2020TS_RIM_<34>_LR_LOD1.GMT  CollTarget=False HATTarget=False LODIn=(10) LODOut=(20)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=SC2020TS_RIM_<34>_LR_LOD2.GMT  CollTarget=False HATTarget=False LODIn=(20) LODOut=(60)  ShadowCaster=False Reflect=True
+    MeshFile=SC2020TS_RIM_<34>_LR_LOD3.GMT  CollTarget=False HATTarget=False LODIn=(60) LODOut=(500) ShadowCaster=False Reflect=True
+
+    MeshFile=SC2020TS_RIM_<12>_BLUR_LR.GMT  CollTarget=False HATTarget=False LODIn=(0)  LODOut=(200) ShadowCaster=False Reflect=True
+
+    MeshFile=SC2020TS_ROTOR_LR.GMT          CollTarget=False HATTarget=False LODIn=(0)  LODOut=(60)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=SC2020TS_TIRE_<5>_LR.GMT       CollTarget=False HATTarget=False LODIn=(0)  LODOut=(500) ShadowCaster=(True, Solid) Reflect=True
+  }
+
+  Instance=LRSpindle
+  {
+    Moveable=True
+    MeshFile=SC2020TS_CALIPER_LR.GMT  CollTarget=False HATTarget=False LODIn=(0) LODOut=(60) ShadowCaster=False Reflect=True
+  }
+
+
+  Instance=RRTIRE
+  {
+    Moveable=True
+    MeshFile=SC2020TS_RIM_<34>_RR.GMT       CollTarget=False HATTarget=False LODIn=(0)  LODOut=(10)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=SC2020TS_RIM_<34>_RR_LOD1.GMT  CollTarget=False HATTarget=False LODIn=(10) LODOut=(20)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=SC2020TS_RIM_<34>_RR_LOD2.GMT  CollTarget=False HATTarget=False LODIn=(20) LODOut=(60)  ShadowCaster=False Reflect=True
+    MeshFile=SC2020TS_RIM_<34>_RR_LOD3.GMT  CollTarget=False HATTarget=False LODIn=(60) LODOut=(500) ShadowCaster=False Reflect=True
+
+    MeshFile=SC2020TS_RIM_<12>_BLUR_RR.GMT  CollTarget=False HATTarget=False LODIn=(0)  LODOut=(200) ShadowCaster=False Reflect=True
+
+    MeshFile=SC2020TS_ROTOR_RR.GMT          CollTarget=False HATTarget=False LODIn=(0)  LODOut=(60)  ShadowCaster=(True, Solid) Reflect=True
+    MeshFile=SC2020TS_TIRE_<5>_RR.GMT       CollTarget=False HATTarget=False LODIn=(0)  LODOut=(500) ShadowCaster=(True, Solid) Reflect=True
+  }
+
+  Instance=RRSpindle
+  {
+    Moveable=True
+    MeshFile=SC2020TS_CALIPER_RR.GMT  CollTarget=False HATTarget=False LODIn=(0) LODOut=(60) ShadowCaster=False Reflect=True
+  }
+}
