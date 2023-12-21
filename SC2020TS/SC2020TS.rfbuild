@@ -36,6 +36,11 @@ SC2020TS_Teams.MAS
 /teams_tundra
 }
 
+SC2020TS_Sounds.MAS
+{
+/sounds
+}
+
 SC2020TS.MAS 
 {
 /SC2020TS-snd.json
