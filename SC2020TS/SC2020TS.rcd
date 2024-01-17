@@ -114,8 +114,20 @@ SC2020TS
     }
     Dover_2016
     {
-      StepDistance = 4.50                    // distance of each step is 4.50 meters
-      CorneringCaution = 20.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      StepDistance = 5.20                    // distance of each step is 5.20 meters
+      StepSpeed1 = 25.00                     // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
+      StepSpeed2 = 32.00                     // look ahead 10.4 meters (34.1224 feet) at 115.2 KPH 71.5808 MPH
+      StepSpeed3 = 40.00                     // look ahead 15.599999 meters (51.183598 feet) at 144 KPH 89.476006 MPH
+      StepSpeed4 = 55.00                     // look ahead 20.8 meters (68.2448 feet) at 198 KPH 123.0295 MPH
+      StepSpeed5 = 70.00                     // look ahead 26 meters (85.306 feet) at 252 KPH 156.58301 MPH
+      StepSpeed6 = 82.00                     // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
+      StepSpeed7 = 88.00                     // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
+      StepSpeed8 = 93.00                     // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
+      UnderSteerEffectOnThrottleMulti = 250.00
+      UnderSteerEffectOnLineMulti = 250.00
+      OverSteerThrottleReaction = -35.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 35.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
     }
     Homestead_Speedway
     {
@@ -319,21 +331,6 @@ SC2020TS
         QualifyTimeVariance = 0.1
         DrivingLine = FASTEST
     }
-    Atlanta_Motor_Speedway
-    {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 31.332
-        PracticeTimeVariance = 0.125
-        QualifyTime = 31.332
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
-    }
     Bristol_2016
     {
         Speed = 50
@@ -392,21 +389,6 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 49.045
         QualifyTimeVariance = 0.05
-        DrivingLine = FASTEST
-    }
-    Dover_2016
-    {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 24.159
-        PracticeTimeVariance = 0.125
-        QualifyTime = 24.159
-        QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
     Homestead_Speedway
@@ -744,16 +726,17 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 31.029
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 33
         PracticeTimeVariance = 0.125
-        QualifyTime = 31.029
+        QualifyTime = 33
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -835,16 +818,17 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 24.346
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 33
         PracticeTimeVariance = 0.125
-        QualifyTime = 24.346
+        QualifyTime = 33
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -1200,16 +1184,18 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 50
+        Tier = 1
+        Speed = 98
         QualifySpeed = 98
-        WetSpeed = 90
+        WetSpeed = 98
         Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 31.509
+        Composure = 92
+        CorneringCaution = 12                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.00
+        MinRacingSkill = 90.00
+        PracticeTime = 31.7
         PracticeTimeVariance = 0.125
-        QualifyTime = 31.509
+        QualifyTime = 31.7
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -1292,16 +1278,18 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 50
+        Tier = 1
+        Speed = 98
         QualifySpeed = 98
-        WetSpeed = 90
+        WetSpeed = 98
         Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 24.646
+        Composure = 92
+        CorneringCaution = 12                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.00
+        MinRacingSkill = 90.00
+        PracticeTime = 31.7
         PracticeTimeVariance = 0.125
-        QualifyTime = 24.646
+        QualifyTime = 31.7
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -1655,16 +1643,18 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
+        Tier = 2
+        Speed = 93
+        QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.853
+        Aggression = 55
+        Composure = 70
+        CorneringCaution = 15                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 88.00
+        MinRacingSkill = 83.00
+        PracticeTime = 32
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.853
+        QualifyTime = 32
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -1747,16 +1737,18 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 50
-        QualifySpeed = 98
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.672
+        Aggression = 55
+        Composure = 70
+        CorneringCaution = 15                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 88.00
+        MinRacingSkill = 83.00
+        PracticeTime = 32
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.672
+        QualifyTime = 32
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -2110,21 +2102,6 @@ SC2020TS
         QualifyTimeVariance = 0.1
         DrivingLine = FASTEST
     }
-    Atlanta_Motor_Speedway
-    {
-        Speed = 100
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 100
-        Composure = 90
-        StartSkill = 98.00
-        MinRacingSkill = 98.00
-        PracticeTime = 28.989
-        PracticeTimeVariance = 0.125
-        QualifyTime = 28.109
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
-    }
     Bristol_2016
     {
         Speed = 100
@@ -2183,21 +2160,6 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 49.688
         QualifyTimeVariance = 0.05
-        DrivingLine = FASTEST
-    }
-    Dover_2016
-    {
-        Speed = 100
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 100
-        Composure = 90
-        StartSkill = 98.00
-        MinRacingSkill = 98.00
-        PracticeTime = 24.309
-        PracticeTimeVariance = 0.125
-        QualifyTime = 24.309
-        QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
     Homestead_Speedway
@@ -2535,16 +2497,17 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.878
+        Tier = 3
+        Speed = 84
+        QualifySpeed = 80
+        WetSpeed = 82
+        Aggression = 45
+        Composure = 75
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        PracticeTime = 32.4
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.878
+        QualifyTime = 32.4
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -2626,16 +2589,17 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.709
+        Tier = 3
+        Speed = 82
+        QualifySpeed = 80
+        WetSpeed = 82
+        Aggression = 45
+        Composure = 75
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        PracticeTime = 32.4
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.709
+        QualifyTime = 32.4
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -2991,16 +2955,18 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 99
-        QualifySpeed = 99
-        WetSpeed = 90
-        Aggression = 99
-        Composure = 97
-        StartSkill = 98.00
-        MinRacingSkill = 97.00
-        PracticeTime = 29.534
+        Tier = 2
+        Speed = 96
+        QualifySpeed = 90
+        WetSpeed = 92
+        Aggression = 60
+        Composure = 76
+        CorneringCaution = 15                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 32
         PracticeTimeVariance = 0.125
-        QualifyTime = 29.534
+        QualifyTime = 32
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -3083,16 +3049,18 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 99
-        QualifySpeed = 99
-        WetSpeed = 90
-        Aggression = 99
-        Composure = 97
-        StartSkill = 98.00
-        MinRacingSkill = 97.00
-        PracticeTime = 24.646
+        Tier = 2
+        Speed = 92
+        QualifySpeed = 90
+        WetSpeed = 92
+        Aggression = 60
+        Composure = 76
+        CorneringCaution = 15                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 32
         PracticeTimeVariance = 0.125
-        QualifyTime = 24.646
+        QualifyTime = 32
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -3448,16 +3416,17 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 31.13
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 33
         PracticeTimeVariance = 0.125
-        QualifyTime = 31.13
+        QualifyTime = 33
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -3539,16 +3508,17 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.972
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 33
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.972
+        QualifyTime = 33
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -3904,16 +3874,18 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
+        Tier = 2
+        Speed = 94
+        QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.802
+        Aggression = 55
+        Composure = 81
+        CorneringCaution = 16                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 32
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.802
+        QualifyTime = 32
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -3996,16 +3968,18 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 50
-        QualifySpeed = 98
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.784
+        Aggression = 55
+        Composure = 81
+        CorneringCaution = 16                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 32
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.784
+        QualifyTime = 32
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -4361,16 +4335,18 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 100
-        QualifySpeed = 100
-        WetSpeed = 90
-        Aggression = 100
-        Composure = 100
-        StartSkill = 100.00
-        MinRacingSkill = 100.00
-        PracticeTime = 30.55
+        Tier = 2
+        Speed = 95
+        QualifySpeed = 90
+        WetSpeed = 93
+        Aggression = 55
+        Composure = 80
+        CorneringCaution = 15                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        PracticeTime = 31.7
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.55
+        QualifyTime = 31.7
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -4453,16 +4429,18 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 100
-        QualifySpeed = 100
-        WetSpeed = 90
-        Aggression = 100
-        Composure = 100
-        StartSkill = 100.00
-        MinRacingSkill = 100.00
-        PracticeTime = 23.447
+        Tier = 2
+        Speed = 93
+        QualifySpeed = 90
+        WetSpeed = 93
+        Aggression = 55
+        Composure = 80
+        CorneringCaution = 15                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        PracticeTime = 31.7
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.447
+        QualifyTime = 31.7
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -4818,16 +4796,18 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 50
+        Tier = 1
+        Speed = 98
         QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
+        WetSpeed = 98
+        Aggression = 65
+        Composure = 95
+        CorneringCaution = 5                 // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
         StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.979
+        MinRacingSkill = 90.00
+        PracticeTime = 31.5
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.979
+        QualifyTime = 31.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -4910,16 +4890,18 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 50
+        Tier = 1
+        Speed = 98
         QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
+        WetSpeed = 98
+        Aggression = 65
+        Composure = 95
+        CorneringCaution = 5                 // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
         StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.522
+        MinRacingSkill = 90.00
+        PracticeTime = 31.5
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.522
+        QualifyTime = 31.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -5275,16 +5257,17 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.626
+        Tier = 5
+        Speed = 77
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 70.00
+        PracticeTime = 33
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.626
+        QualifyTime = 33
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -5366,16 +5349,17 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.56
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 70.00
+        PracticeTime = 33
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.56
+        QualifyTime = 33
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -5731,16 +5715,17 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 31.307
+        Tier = 3
+        Speed = 83
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 45
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 70.00
+        PracticeTime = 32.5
         PracticeTimeVariance = 0.125
-        QualifyTime = 31.307
+        QualifyTime = 32.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -5822,16 +5807,17 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 24.421
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 45
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 70.00
+        PracticeTime = 32.5
         PracticeTimeVariance = 0.125
-        QualifyTime = 24.421
+        QualifyTime = 32.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -6187,16 +6173,17 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 31.105
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 68.00
+        PracticeTime = 33
         PracticeTimeVariance = 0.125
-        QualifyTime = 31.105
+        QualifyTime = 33
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -6278,16 +6265,17 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 24.271
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 68.00
+        PracticeTime = 33
         PracticeTimeVariance = 0.125
-        QualifyTime = 24.271
+        QualifyTime = 33
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -6643,16 +6631,17 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 31.181
+        Tier = 5
+        Speed = 77
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 32.8
         PracticeTimeVariance = 0.125
-        QualifyTime = 31.181
+        QualifyTime = 32.8
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -6734,16 +6723,17 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 24.122
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 32.8
         PracticeTimeVariance = 0.125
-        QualifyTime = 24.122
+        QualifyTime = 32.8
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -7099,16 +7089,17 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 31.206
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 33
         PracticeTimeVariance = 0.125
-        QualifyTime = 31.206
+        QualifyTime = 33
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -7190,16 +7181,17 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 24.047
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 33
         PracticeTimeVariance = 0.125
-        QualifyTime = 24.047
+        QualifyTime = 33
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -7555,18 +7547,19 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 100
-        QualifySpeed = 99
-        WetSpeed = 90
-        Aggression = 95
-        Composure = 98
-        StartSkill = 98.00
-        MinRacingSkill = 98.00
-        PracticeTime = 31.534
+        Tier = 3
+        Speed = 83
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 25
+        Composure = 75
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        PracticeTime = 32.5
         PracticeTimeVariance = 0.125
-        QualifyTime = 31.534
+        QualifyTime = 32.5
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST2
+        DrivingLine = FASTEST
     }
     Bristol_2016
     {
@@ -7646,18 +7639,19 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 100
-        QualifySpeed = 99
-        WetSpeed = 90
-        Aggression = 95
-        Composure = 98
-        StartSkill = 98.00
-        MinRacingSkill = 98.00
-        PracticeTime = 24.646
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 25
+        Composure = 75
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTime = 32.5
         PracticeTimeVariance = 0.125
-        QualifyTime = 24.646
+        QualifyTime = 32.5
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST2
+        DrivingLine = FASTEST
     }
     Homestead_Speedway
     {
@@ -8011,16 +8005,18 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
+        Tier = 1
         Speed = 98
         QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 99
-        Composure = 95
-        StartSkill = 98.00
-        MinRacingSkill = 97.00
-        PracticeTime = 30.6
+        WetSpeed = 98
+        Aggression = 65
+        Composure = 94
+        CorneringCaution = 12                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.00
+        MinRacingSkill = 88.00
+        PracticeTime = 31.7
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.6
+        QualifyTime = 31.7
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -8103,16 +8099,18 @@ SC2020TS
     }
     Dover_2016
     {
+        Tier = 1
         Speed = 98
         QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 99
-        Composure = 95
-        StartSkill = 98.00
-        MinRacingSkill = 97.00
-        PracticeTime = 23.222
+        WetSpeed = 98
+        Aggression = 65
+        Composure = 94
+        CorneringCaution = 12                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.00
+        MinRacingSkill = 88.00
+        PracticeTime = 31.7
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.222
+        QualifyTime = 31.7
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -8468,16 +8466,17 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 31.08
+        Tier = 3
+        Speed = 85
+        QualifySpeed = 80
+        WetSpeed = 82
+        Aggression = 45
+        Composure = 75
+        StartSkill = 90.00
+        MinRacingSkill = 75.00
+        PracticeTime = 32.3
         PracticeTimeVariance = 0.125
-        QualifyTime = 31.08
+        QualifyTime = 32.3
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -8559,16 +8558,17 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 24.009
+        Tier = 3
+        Speed = 82
+        QualifySpeed = 80
+        WetSpeed = 82
+        Aggression = 45
+        Composure = 75
+        StartSkill = 90.00
+        MinRacingSkill = 75.00
+        PracticeTime = 32.3
         PracticeTimeVariance = 0.125
-        QualifyTime = 24.009
+        QualifyTime = 32.3
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -8924,16 +8924,17 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.903
+        Tier = 2
+        Speed = 89
+        QualifySpeed = 80
+        WetSpeed = 85
+        Aggression = 25
+        Composure = 75
+        StartSkill = 90.00
+        MinRacingSkill = 75.00
+        PracticeTime = 32.2
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.903
+        QualifyTime = 32.2
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -9015,16 +9016,17 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.41
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 80
+        WetSpeed = 85
+        Aggression = 25
+        Composure = 75
+        StartSkill = 90.00
+        MinRacingSkill = 75.00
+        PracticeTime = 32.2
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.41
+        QualifyTime = 32.2
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -9380,16 +9382,18 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 50
+        Tier = 1
+        Speed = 97
         QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 31.357
+        WetSpeed = 95
+        Aggression = 55
+        Composure = 81
+        CorneringCaution = 12                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 31.7
         PracticeTimeVariance = 0.125
-        QualifyTime = 31.357
+        QualifyTime = 31.7
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -9472,16 +9476,18 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 50
+        Tier = 1
+        Speed = 95
         QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 24.384
+        WetSpeed = 95
+        Aggression = 55
+        Composure = 81
+        CorneringCaution = 12                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 31.7
         PracticeTimeVariance = 0.125
-        QualifyTime = 24.384
+        QualifyTime = 31.7
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -9837,16 +9843,17 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.903
+        Tier = 2
+        Speed = 89
+        QualifySpeed = 80
+        WetSpeed = 85
+        Aggression = 60
+        Composure = 75
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 32.2
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.903
+        QualifyTime = 32.2
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -9928,16 +9935,17 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.41
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 80
+        WetSpeed = 85
+        Aggression = 60
+        Composure = 75
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 32.2
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.41
+        QualifyTime = 32.2
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -10293,16 +10301,17 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 31.357
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 33
         PracticeTimeVariance = 0.125
-        QualifyTime = 31.357
+        QualifyTime = 33
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -10384,16 +10393,17 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 24.384
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 33
         PracticeTimeVariance = 0.125
-        QualifyTime = 24.384
+        QualifyTime = 33
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -10749,16 +10759,17 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 31.181
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 33
         PracticeTimeVariance = 0.125
-        QualifyTime = 31.181
+        QualifyTime = 33
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -10840,16 +10851,17 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 24.122
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 33
         PracticeTimeVariance = 0.125
-        QualifyTime = 24.122
+        QualifyTime = 33
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -11205,16 +11217,17 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 31.458
+        Tier = 5
+        Speed = 75
+        QualifySpeed = 76
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 65.00
+        PracticeTime = 33
         PracticeTimeVariance = 0.125
-        QualifyTime = 31.458
+        QualifyTime = 33
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -11296,16 +11309,17 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
+        Tier = 5
+        Speed = 75
+        QualifySpeed = 76
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
         MinRacingSkill = 50.00
-        PracticeTime = 24.496
+        PracticeTime = 33
         PracticeTimeVariance = 0.125
-        QualifyTime = 24.496
+        QualifyTime = 33
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -11661,16 +11675,17 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.777
+        Tier = 5
+        Speed = 80
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 32.7
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.777
+        QualifyTime = 32.7
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -11752,16 +11767,17 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.485
+        Tier = 5
+        Speed = 77
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 32.7
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.485
+        QualifyTime = 32.7
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -12117,16 +12133,17 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.853
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 33
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.853
+        QualifyTime = 33
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -12208,16 +12225,17 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.672
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 33
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.672
+        QualifyTime = 33
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -12573,16 +12591,18 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 99
+        Tier = 1
+        Speed = 97
         QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 95
-        Composure = 99
-        StartSkill = 98.00
-        MinRacingSkill = 97.00
-        PracticeTime = 31.282
+        WetSpeed = 95
+        Aggression = 65
+        Composure = 82
+        CorneringCaution = 12                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 31.7
         PracticeTimeVariance = 0.125
-        QualifyTime = 31.282
+        QualifyTime = 31.7
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -12665,16 +12685,18 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 99
+        Tier = 1
+        Speed = 95
         QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 95
-        Composure = 99
-        StartSkill = 98.00
-        MinRacingSkill = 97.00
-        PracticeTime = 24.534
+        WetSpeed = 95
+        Aggression = 65
+        Composure = 82
+        CorneringCaution = 12                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 31.7
         PracticeTimeVariance = 0.125
-        QualifyTime = 24.534
+        QualifyTime = 31.7
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -13030,18 +13052,19 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.903
+        Tier = 5
+        Speed = 77
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 65.00
+        PracticeTime = 33
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.903
+        QualifyTime = 33
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     Bristol_2016
     {
@@ -13121,18 +13144,19 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
         MinRacingSkill = 50.00
-        PracticeTime = 23.41
+        PracticeTime = 33
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.41
+        QualifyTime = 33
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     Homestead_Speedway
     {
@@ -13486,16 +13510,17 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 31.231
+        Tier = 5
+        Speed = 75
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 33
         PracticeTimeVariance = 0.125
-        QualifyTime = 31.231
+        QualifyTime = 33
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -13577,16 +13602,17 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 24.234
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 33
         PracticeTimeVariance = 0.125
-        QualifyTime = 24.234
+        QualifyTime = 33
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -13942,18 +13968,19 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.903
+        Tier = 4
+        Speed = 82
+        QualifySpeed = 80
+        WetSpeed = 75
+        Aggression = 25
+        Composure = 75
+        StartSkill = 90.00
+        MinRacingSkill = 75.00
+        PracticeTime = 32.5
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.903
+        QualifyTime = 32.5
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     Bristol_2016
     {
@@ -14033,18 +14060,19 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.41
+        Tier = 4
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 75
+        Aggression = 25
+        Composure = 75
+        StartSkill = 90.00
+        MinRacingSkill = 75.00
+        PracticeTime = 32.5
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.41
+        QualifyTime = 32.5
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     Homestead_Speedway
     {
@@ -14398,18 +14426,19 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.903
+        Tier = 2
+        Speed = 89
+        QualifySpeed = 80
+        WetSpeed = 86
+        Aggression = 65
+        Composure = 75
+        StartSkill = 90.00
+        MinRacingSkill = 82.00
+        PracticeTime = 32
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.903
+        QualifyTime = 32
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     Bristol_2016
     {
@@ -14489,18 +14518,19 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.41
+        Tier = 2
+        Speed = 86
+        QualifySpeed = 80
+        WetSpeed = 86
+        Aggression = 65
+        Composure = 75
+        StartSkill = 90.00
+        MinRacingSkill = 82.00
+        PracticeTime = 32
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.41
+        QualifyTime = 32
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     Homestead_Speedway
     {
@@ -14854,18 +14884,19 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.903
+        Tier = 3
+        Speed = 84
+        QualifySpeed = 80
+        WetSpeed = 81
+        Aggression = 45
+        Composure = 75
+        StartSkill = 90.00
+        MinRacingSkill = 75.00
+        PracticeTime = 32.4
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.903
+        QualifyTime = 32.4
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     Bristol_2016
     {
@@ -14945,18 +14976,19 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.41
+        Tier = 3
+        Speed = 81
+        QualifySpeed = 80
+        WetSpeed = 81
+        Aggression = 45
+        Composure = 75
+        StartSkill = 90.00
+        MinRacingSkill = 75.00
+        PracticeTime = 32.4
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.41
+        QualifyTime = 32.4
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     Homestead_Speedway
     {
@@ -15310,18 +15342,19 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.903
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 33
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.903
+        QualifyTime = 33
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     Bristol_2016
     {
@@ -15401,18 +15434,19 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.41
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 33
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.41
+        QualifyTime = 33
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     Homestead_Speedway
     {
@@ -15766,18 +15800,20 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.903
+        Tier = 2
+        Speed = 91
+        QualifySpeed = 90
+        WetSpeed = 87
+        Aggression = 25
+        Composure = 75
+        CorneringCaution = 21                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.00
+        MinRacingSkill = 75.00
+        PracticeTime = 32
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.903
+        QualifyTime = 32
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     Bristol_2016
     {
@@ -15858,18 +15894,20 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.41
+        Tier = 2
+        Speed = 87
+        QualifySpeed = 90
+        WetSpeed = 87
+        Aggression = 25
+        Composure = 75
+        CorneringCaution = 21                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.00
+        MinRacingSkill = 75.00
+        PracticeTime = 32
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.41
+        QualifyTime = 32
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     Homestead_Speedway
     {
@@ -16223,18 +16261,19 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.903
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 70.00
+        PracticeTime = 33
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.903
+        QualifyTime = 33
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     Bristol_2016
     {
@@ -16314,18 +16353,19 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.41
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 70.00
+        PracticeTime = 33
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.41
+        QualifyTime = 33
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     Homestead_Speedway
     {
@@ -16679,18 +16719,19 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.903
+        Tier = 3
+        Speed = 84
+        QualifySpeed = 80
+        WetSpeed = 77
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 32.5
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.903
+        QualifyTime = 32.5
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     Bristol_2016
     {
@@ -16770,18 +16811,19 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.41
+        Tier = 3
+        Speed = 84
+        QualifySpeed = 80
+        WetSpeed = 77
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 32.5
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.41
+        QualifyTime = 32.5
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     Homestead_Speedway
     {
@@ -17135,18 +17177,20 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
+        Tier = 2
+        Speed = 95
+        QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.903
+        Aggression = 55
+        Composure = 81
+        CorneringCaution = 16                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 32
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.903
+        QualifyTime = 32
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     Bristol_2016
     {
@@ -17227,18 +17271,20 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 50
-        QualifySpeed = 98
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.41
+        Aggression = 55
+        Composure = 81
+        CorneringCaution = 16                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 32
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.41
+        QualifyTime = 32
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     Homestead_Speedway
     {
@@ -17592,18 +17638,20 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
+        Tier = 2
+        Speed = 95
+        QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.903
+        Aggression = 60
+        Composure = 76
+        CorneringCaution = 15                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 32
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.903
+        QualifyTime = 32
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     Bristol_2016
     {
@@ -17684,18 +17732,20 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 50
-        QualifySpeed = 98
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.41
+        Aggression = 60
+        Composure = 76
+        CorneringCaution = 15                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 32
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.41
+        QualifyTime = 32
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     Homestead_Speedway
     {
@@ -18049,18 +18099,20 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
+        Tier = 2
+        Speed = 94
+        QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.903
+        Aggression = 55
+        Composure = 81
+        CorneringCaution = 15                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 32
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.903
+        QualifyTime = 32
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     Bristol_2016
     {
@@ -18141,18 +18193,20 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 50
-        QualifySpeed = 98
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.41
+        Aggression = 55
+        Composure = 81
+        CorneringCaution = 15                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 32
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.41
+        QualifyTime = 32
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     Homestead_Speedway
     {
@@ -18506,18 +18560,19 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.903
+        Tier = 4
+        Speed = 81
+        QualifySpeed = 80
+        WetSpeed = 75
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 70.00
+        PracticeTime = 32.7
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.903
+        QualifyTime = 32.7
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     Bristol_2016
     {
@@ -18597,18 +18652,19 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.41
+        Tier = 4
+        Speed = 78
+        QualifySpeed = 80
+        WetSpeed = 75
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 70.00
+        PracticeTime = 32.7
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.41
+        QualifyTime = 32.7
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     Homestead_Speedway
     {
@@ -18962,18 +19018,20 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 50
+        Tier = 1
+        Speed = 100
         QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.903
+        WetSpeed = 100
+        Aggression = 75
+        Composure = 95
+        CorneringCaution = 5                 // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 97.00
+        MinRacingSkill = 90.10
+        PracticeTime = 31.5
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.903
+        QualifyTime = 31.5
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     Bristol_2016
     {
@@ -19054,18 +19112,20 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 50
+        Tier = 1
+        Speed = 100
         QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.41
+        WetSpeed = 100
+        Aggression = 75
+        Composure = 95
+        CorneringCaution = 5                 // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.10
+        MinRacingSkill = 90.10
+        PracticeTime = 31.5
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.41
+        QualifyTime = 31.5
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     Homestead_Speedway
     {
@@ -19419,18 +19479,20 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
+        Tier = 2
+        Speed = 93
+        QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.903
+        Aggression = 55
+        Composure = 81
+        CorneringCaution = 21                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 32
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.903
+        QualifyTime = 32
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     Bristol_2016
     {
@@ -19511,18 +19573,20 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 50
-        QualifySpeed = 98
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.41
+        Aggression = 55
+        Composure = 81
+        CorneringCaution = 21                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 32
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.41
+        QualifyTime = 32
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     Homestead_Speedway
     {
@@ -19876,18 +19940,19 @@ SC2020TS
     }
     Atlanta_Motor_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.903
+        Tier = 5
+        Speed = 78
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 67.00
+        PracticeTime = 32.8
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.903
+        QualifyTime = 32.8
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     Bristol_2016
     {
@@ -19967,18 +20032,19 @@ SC2020TS
     }
     Dover_2016
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
+        Tier = 5
+        Speed = 75
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
         MinRacingSkill = 50.00
-        PracticeTime = 23.41
+        PracticeTime = 32.8
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.41
+        QualifyTime = 32.8
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     Homestead_Speedway
     {
@@ -20315,6 +20381,22 @@ SC2020TS
   }
   Tanner Gray
   {
+    Atlanta_Motor_Speedway
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 80
+        WetSpeed = 85
+        Aggression = 47
+        Composure = 75
+        StartSkill = 90.00
+        MinRacingSkill = 75.00
+        PracticeTime = 32.3
+        PracticeTimeVariance = 0.125
+        QualifyTime = 32.3
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Darlington_500
     {
         Tier = 2
@@ -20330,6 +20412,22 @@ SC2020TS
         QualifyTime = 32.3
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
+    }
+    Dover_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 80
+        WetSpeed = 85
+        Aggression = 47
+        Composure = 75
+        StartSkill = 90.00
+        MinRacingSkill = 75.00
+        PracticeTime = 32.3
+        PracticeTimeVariance = 0.125
+        QualifyTime = 32.3
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     North_Wilkesboro
     {
@@ -20364,21 +20462,6 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 36.954
         QualifyTimeVariance = 0.1
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
-    }
-    Atlanta_Motor_Speedway
-    {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.903
-        PracticeTimeVariance = 0.125
-        QualifyTime = 30.903
-        QualifyTimeVariance = 0.125
         DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
     }
     Bristol_2016
@@ -20439,21 +20522,6 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 47.244
         QualifyTimeVariance = 0.05
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
-    }
-    Dover_2016
-    {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.41
-        PracticeTimeVariance = 0.125
-        QualifyTime = 23.41
-        QualifyTimeVariance = 0.125
         DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
     }
     Homestead_Speedway
