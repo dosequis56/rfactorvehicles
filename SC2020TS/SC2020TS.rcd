@@ -171,18 +171,20 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-      StepDistance = 6.00                    // distance of each step is 6.00 meters
-      StepSpeed1 = 10.00                     // look ahead 6 meters (19.685999 feet) at 36 KPH 22.369001 MPH
-      StepSpeed2 = 25.00                     // look ahead 12 meters (39.371998 feet) at 90 KPH 55.9225 MPH
-      StepSpeed3 = 40.00                     // look ahead 18 meters (59.058 feet) at 144 KPH 89.476006 MPH
-      StepSpeed4 = 60.00                     // look ahead 24 meters (78.743996 feet) at 216 KPH 134.214 MPH
-      StepSpeed5 = 70.00                     // look ahead 30 meters (98.43 feet) at 252 KPH 156.58301 MPH
-      StepSpeed6 = 80.00                     // look ahead 36 meters (118.116 feet) at 288 KPH 178.95201 MPH
-      StepSpeed7 = 90.00                     // look ahead 42 meters (137.802 feet) at 324 KPH 201.32101 MPH
-      StepSpeed8 = 100.00                    // look ahead 48 meters (157.48799 feet) at 360 KPH 223.69 MPH
-      UnderSteerEffectOnThrottleMulti = 0.10
-      UnderSteerEffectOnLineMulti = 0.10
-      CorneringCaution = 0.10                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      StepDistance = 5.20                    // distance of each step is 5.20 meters
+      StepSpeed1 = 25.00                     // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
+      StepSpeed2 = 32.00                     // look ahead 10.4 meters (34.1224 feet) at 115.2 KPH 71.5808 MPH
+      StepSpeed3 = 40.00                     // look ahead 15.599999 meters (51.183598 feet) at 144 KPH 89.476006 MPH
+      StepSpeed4 = 55.00                     // look ahead 20.8 meters (68.2448 feet) at 198 KPH 123.0295 MPH
+      StepSpeed5 = 70.00                     // look ahead 26 meters (85.306 feet) at 252 KPH 156.58301 MPH
+      StepSpeed6 = 82.00                     // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
+      StepSpeed7 = 88.00                     // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
+      StepSpeed8 = 93.00                     // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
+      UnderSteerEffectOnThrottleMulti = 250.00
+      UnderSteerEffectOnLineMulti = 250.00
+      OverSteerThrottleReaction = -35.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 35.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
     }
     LasVegas_2016
     {
@@ -422,21 +424,6 @@ SC2020TS
         DrivingLine = FASTEST
     }
     Kansas_2016
-    {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 31.767
-        PracticeTimeVariance = 0.125
-        QualifyTime = 31.767
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
-    }
-    Kentucky_Speedway
     {
         Speed = 50
         QualifySpeed = 98
@@ -879,16 +866,17 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 31.49
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 33
         PracticeTimeVariance = 0.125
-        QualifyTime = 31.49
+        QualifyTime = 33
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -1340,16 +1328,18 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 50
+        Tier = 1
+        Speed = 98
         QualifySpeed = 98
-        WetSpeed = 90
+        WetSpeed = 98
         Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 32.876
+        Composure = 92
+        CorneringCaution = 12                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.00
+        MinRacingSkill = 90.00
+        PracticeTime = 31.7
         PracticeTimeVariance = 0.125
-        QualifyTime = 32.876
+        QualifyTime = 31.7
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -1799,16 +1789,18 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
+        Tier = 2
+        Speed = 93
+        QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.658
+        Aggression = 55
+        Composure = 70
+        CorneringCaution = 15                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 88.00
+        MinRacingSkill = 83.00
+        PracticeTime = 32
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.658
+        QualifyTime = 32
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -2193,21 +2185,6 @@ SC2020TS
         DrivingLine = FASTEST
     }
     Kansas_2016
-    {
-        Speed = 100
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 100
-        Composure = 90
-        StartSkill = 98.00
-        MinRacingSkill = 98.00
-        PracticeTime = 32.322
-        PracticeTimeVariance = 0.125
-        QualifyTime = 32.322
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
-    }
-    Kentucky_Speedway
     {
         Speed = 100
         QualifySpeed = 98
@@ -2650,16 +2627,17 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.311
+        Tier = 3
+        Speed = 84
+        QualifySpeed = 80
+        WetSpeed = 82
+        Aggression = 45
+        Composure = 75
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        PracticeTime = 32.4
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.311
+        QualifyTime = 32.4
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -3111,16 +3089,18 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 99
-        QualifySpeed = 99
-        WetSpeed = 90
-        Aggression = 99
-        Composure = 97
-        StartSkill = 98.00
-        MinRacingSkill = 97.00
-        PracticeTime = 31.015
+        Tier = 2
+        Speed = 96
+        QualifySpeed = 90
+        WetSpeed = 92
+        Aggression = 60
+        Composure = 76
+        CorneringCaution = 15                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 32
         PracticeTimeVariance = 0.125
-        QualifyTime = 33.015
+        QualifyTime = 32
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -3520,7 +3500,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 33
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = HIGHLINE,FASTEST
     }
     Homestead_Speedway
     {
@@ -3569,16 +3549,17 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 31.143
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 33
         PracticeTimeVariance = 0.125
-        QualifyTime = 31.143
+        QualifyTime = 33
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -4030,16 +4011,18 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
+        Tier = 2
+        Speed = 94
+        QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 31.559
+        Aggression = 55
+        Composure = 81
+        CorneringCaution = 16                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 32
         PracticeTimeVariance = 0.125
-        QualifyTime = 31.559
+        QualifyTime = 32
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -4491,16 +4474,18 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 100
-        QualifySpeed = 100
-        WetSpeed = 90
-        Aggression = 100
-        Composure = 100
-        StartSkill = 100.00
-        MinRacingSkill = 100.00
-        PracticeTime = 31.42
+        Tier = 2
+        Speed = 95
+        QualifySpeed = 90
+        WetSpeed = 93
+        Aggression = 55
+        Composure = 80
+        CorneringCaution = 15                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        PracticeTime = 31.7
         PracticeTimeVariance = 0.125
-        QualifyTime = 31.42
+        QualifyTime = 31.7
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -4952,16 +4937,18 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 50
+        Tier = 1
+        Speed = 98
         QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
+        WetSpeed = 98
+        Aggression = 65
+        Composure = 95
+        CorneringCaution = 5                 // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
         StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 31.351
+        MinRacingSkill = 90.00
+        PracticeTime = 31.5
         PracticeTimeVariance = 0.125
-        QualifyTime = 31.351
+        QualifyTime = 31.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -5410,16 +5397,17 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.796
+        Tier = 5
+        Speed = 77
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 70.00
+        PracticeTime = 33
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.796
+        QualifyTime = 33
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -5868,16 +5856,17 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 32.53
+        Tier = 3
+        Speed = 83
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 45
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 70.00
+        PracticeTime = 32.5
         PracticeTimeVariance = 0.125
-        QualifyTime = 32.53
+        QualifyTime = 32.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -6277,7 +6266,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 33
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = HIGHLINE,FASTEST
     }
     Homestead_Speedway
     {
@@ -6326,16 +6315,17 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.935
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 68.00
+        PracticeTime = 33
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.935
+        QualifyTime = 33
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -6735,7 +6725,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 32.8
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = HIGHLINE,FASTEST
     }
     Homestead_Speedway
     {
@@ -6784,16 +6774,17 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 32.044
+        Tier = 5
+        Speed = 77
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 32.8
         PracticeTimeVariance = 0.125
-        QualifyTime = 32.044
+        QualifyTime = 32.8
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -7242,16 +7233,17 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 31.698
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 33
         PracticeTimeVariance = 0.125
-        QualifyTime = 31.698
+        QualifyTime = 33
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -7700,18 +7692,19 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 100
-        QualifySpeed = 99
-        WetSpeed = 90
-        Aggression = 95
-        Composure = 98
-        StartSkill = 98.00
-        MinRacingSkill = 98.00
-        PracticeTime = 33.015
+        Tier = 3
+        Speed = 83
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 25
+        Composure = 75
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        PracticeTime = 32.5
         PracticeTimeVariance = 0.125
-        QualifyTime = 33.015
+        QualifyTime = 32.5
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST2
+        DrivingLine = FASTEST
     }
     LasVegas_2016
     {
@@ -8161,16 +8154,18 @@ SC2020TS
     }
     Kentucky_Speedway
     {
+        Tier = 1
         Speed = 98
         QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 99
-        Composure = 95
-        StartSkill = 98.00
-        MinRacingSkill = 97.00
-        PracticeTime = 31.628
+        WetSpeed = 98
+        Aggression = 65
+        Composure = 94
+        CorneringCaution = 12                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.00
+        MinRacingSkill = 88.00
+        PracticeTime = 31.7
         PracticeTimeVariance = 0.125
-        QualifyTime = 31.628
+        QualifyTime = 31.7
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -8619,16 +8614,17 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 32.114
+        Tier = 3
+        Speed = 85
+        QualifySpeed = 80
+        WetSpeed = 82
+        Aggression = 45
+        Composure = 75
+        StartSkill = 90.00
+        MinRacingSkill = 75.00
+        PracticeTime = 32.3
         PracticeTimeVariance = 0.125
-        QualifyTime = 32.114
+        QualifyTime = 32.3
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -9077,16 +9073,17 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.727
+        Tier = 2
+        Speed = 89
+        QualifySpeed = 80
+        WetSpeed = 85
+        Aggression = 25
+        Composure = 75
+        StartSkill = 90.00
+        MinRacingSkill = 75.00
+        PracticeTime = 32.2
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.727
+        QualifyTime = 32.2
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -9538,16 +9535,18 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 50
+        Tier = 1
+        Speed = 97
         QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 32.668
+        WetSpeed = 95
+        Aggression = 55
+        Composure = 81
+        CorneringCaution = 12                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 31.7
         PracticeTimeVariance = 0.125
-        QualifyTime = 32.668
+        QualifyTime = 31.7
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -9996,16 +9995,17 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.727
+        Tier = 2
+        Speed = 89
+        QualifySpeed = 80
+        WetSpeed = 85
+        Aggression = 60
+        Composure = 75
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 32.2
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.727
+        QualifyTime = 32.2
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -10454,16 +10454,17 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 32.668
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 33
         PracticeTimeVariance = 0.125
-        QualifyTime = 32.668
+        QualifyTime = 33
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -10863,7 +10864,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 33
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = HIGHLINE,FASTEST
     }
     Homestead_Speedway
     {
@@ -10912,16 +10913,17 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 32.044
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 33
         PracticeTimeVariance = 0.125
-        QualifyTime = 32.044
+        QualifyTime = 33
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -11370,16 +11372,17 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 32.738
+        Tier = 5
+        Speed = 75
+        QualifySpeed = 76
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 65.00
+        PracticeTime = 33
         PracticeTimeVariance = 0.125
-        QualifyTime = 32.738
+        QualifyTime = 33
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -11828,16 +11831,17 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 32.252
+        Tier = 5
+        Speed = 80
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 32.7
         PracticeTimeVariance = 0.125
-        QualifyTime = 32.252
+        QualifyTime = 32.7
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -12237,7 +12241,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 33
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = HIGHLINE,FASTEST
     }
     Homestead_Speedway
     {
@@ -12286,16 +12290,17 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.658
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 33
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.658
+        QualifyTime = 33
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -12747,16 +12752,18 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 99
+        Tier = 1
+        Speed = 97
         QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 95
-        Composure = 99
-        StartSkill = 98.00
-        MinRacingSkill = 97.00
-        PracticeTime = 32.807
+        WetSpeed = 95
+        Aggression = 65
+        Composure = 82
+        CorneringCaution = 12                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 31.7
         PracticeTimeVariance = 0.125
-        QualifyTime = 32.807
+        QualifyTime = 31.7
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -13156,7 +13163,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 33
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = HIGHLINE,FASTEST
     }
     Homestead_Speedway
     {
@@ -13205,18 +13212,19 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.727
+        Tier = 5
+        Speed = 77
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 65.00
+        PracticeTime = 33
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.727
+        QualifyTime = 33
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     LasVegas_2016
     {
@@ -13663,16 +13671,17 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 32.391
+        Tier = 5
+        Speed = 75
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 33
         PracticeTimeVariance = 0.125
-        QualifyTime = 32.391
+        QualifyTime = 33
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -14121,18 +14130,19 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.727
+        Tier = 4
+        Speed = 82
+        QualifySpeed = 80
+        WetSpeed = 75
+        Aggression = 25
+        Composure = 75
+        StartSkill = 90.00
+        MinRacingSkill = 75.00
+        PracticeTime = 32.5
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.727
+        QualifyTime = 32.5
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     LasVegas_2016
     {
@@ -14579,18 +14589,19 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.727
+        Tier = 2
+        Speed = 89
+        QualifySpeed = 80
+        WetSpeed = 86
+        Aggression = 65
+        Composure = 75
+        StartSkill = 90.00
+        MinRacingSkill = 82.00
+        PracticeTime = 32
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.727
+        QualifyTime = 32
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     LasVegas_2016
     {
@@ -15037,18 +15048,19 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.727
+        Tier = 3
+        Speed = 84
+        QualifySpeed = 80
+        WetSpeed = 81
+        Aggression = 45
+        Composure = 75
+        StartSkill = 90.00
+        MinRacingSkill = 75.00
+        PracticeTime = 32.4
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.727
+        QualifyTime = 32.4
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     LasVegas_2016
     {
@@ -15446,7 +15458,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 33
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = HIGHLINE,FASTEST
     }
     Homestead_Speedway
     {
@@ -15495,18 +15507,19 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.727
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 33
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.727
+        QualifyTime = 33
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     LasVegas_2016
     {
@@ -15956,18 +15969,20 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.727
+        Tier = 2
+        Speed = 91
+        QualifySpeed = 90
+        WetSpeed = 87
+        Aggression = 25
+        Composure = 75
+        CorneringCaution = 21                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.00
+        MinRacingSkill = 75.00
+        PracticeTime = 32
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.727
+        QualifyTime = 32
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     LasVegas_2016
     {
@@ -16414,18 +16429,19 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.727
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 70.00
+        PracticeTime = 33
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.727
+        QualifyTime = 33
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     LasVegas_2016
     {
@@ -16872,18 +16888,19 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.727
+        Tier = 3
+        Speed = 84
+        QualifySpeed = 80
+        WetSpeed = 77
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 32.5
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.727
+        QualifyTime = 32.5
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     LasVegas_2016
     {
@@ -17333,18 +17350,20 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
+        Tier = 2
+        Speed = 95
+        QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.727
+        Aggression = 55
+        Composure = 81
+        CorneringCaution = 16                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 32
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.727
+        QualifyTime = 32
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     LasVegas_2016
     {
@@ -17794,18 +17813,20 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
+        Tier = 2
+        Speed = 95
+        QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.727
+        Aggression = 60
+        Composure = 76
+        CorneringCaution = 15                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 32
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.727
+        QualifyTime = 32
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     LasVegas_2016
     {
@@ -18255,18 +18276,20 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
+        Tier = 2
+        Speed = 94
+        QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.727
+        Aggression = 55
+        Composure = 81
+        CorneringCaution = 15                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 32
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.727
+        QualifyTime = 32
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     LasVegas_2016
     {
@@ -18713,18 +18736,19 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.727
+        Tier = 4
+        Speed = 81
+        QualifySpeed = 80
+        WetSpeed = 75
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 70.00
+        PracticeTime = 32.7
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.727
+        QualifyTime = 32.7
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     LasVegas_2016
     {
@@ -19174,18 +19198,20 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 50
+        Tier = 1
+        Speed = 100
         QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.727
+        WetSpeed = 100
+        Aggression = 75
+        Composure = 95
+        CorneringCaution = 5                 // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 97.00
+        MinRacingSkill = 90.10
+        PracticeTime = 31.5
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.727
+        QualifyTime = 31.5
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     LasVegas_2016
     {
@@ -19635,18 +19661,20 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
+        Tier = 2
+        Speed = 93
+        QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.727
+        Aggression = 55
+        Composure = 81
+        CorneringCaution = 21                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 32
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.727
+        QualifyTime = 32
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     LasVegas_2016
     {
@@ -20093,18 +20121,19 @@ SC2020TS
     }
     Kentucky_Speedway
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.727
+        Tier = 5
+        Speed = 78
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 75
+        StartSkill = 80.00
+        MinRacingSkill = 67.00
+        PracticeTime = 32.8
         PracticeTimeVariance = 0.125
-        QualifyTime = 30.727
+        QualifyTime = 32.8
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     LasVegas_2016
     {
@@ -20429,6 +20458,22 @@ SC2020TS
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 80
+        WetSpeed = 85
+        Aggression = 47
+        Composure = 75
+        StartSkill = 90.00
+        MinRacingSkill = 75.00
+        PracticeTime = 32.3
+        PracticeTimeVariance = 0.125
+        QualifyTime = 32.3
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     North_Wilkesboro
     {
         Tier = 2
@@ -20555,21 +20600,6 @@ SC2020TS
         DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
     }
     Kansas_2016
-    {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 30.727
-        PracticeTimeVariance = 0.125
-        QualifyTime = 30.727
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
-    }
-    Kentucky_Speedway
     {
         Speed = 50
         QualifySpeed = 98
