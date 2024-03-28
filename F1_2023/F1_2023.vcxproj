@@ -31,6 +31,7 @@
     <ProjectGuid>{3E289774-F8A1-42E0-8341-563185EA8556}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>F1_2023</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -125,7 +126,6 @@
     <None Include="ASMG_FH22.cam" />
     <None Include="ASMG_FH22.gen" />
     <None Include="ASMG_FH22.hdv" />
-    <None Include="ASMG_FH22.rcd" />
     <None Include="ASMG_FH22.sfx" />
     <None Include="ASMG_FH22_Chassis.ini" />
     <None Include="ASMG_FH22_CockpitInfo.ini" />
@@ -137,6 +137,7 @@
     <None Include="ASMG_FH22_Upgrades_AI.ini" />
     <None Include="build.bat" />
     <None Include="Engine915.ini" />
+    <None Include="Formula_1_2023.rcd" />
     <None Include="Maps\asmg_fh22_bduct_lf.gmt" />
     <None Include="Maps\asmg_fh22_bduct_lr.gmt" />
     <None Include="Maps\asmg_fh22_bduct_rf.gmt" />
@@ -310,6 +311,10 @@
     <None Include="teams_2023\Williams\F123_WI_02.veh" />
     <None Include="teams_2023\Williams\F123_WI_23.json" />
     <None Include="teams_2023\Williams\F123_WI_23.veh" />
+    <None Include="teams_2024\KickSauber\F123_AR_24.json" />
+    <None Include="teams_2024\KickSauber\F123_AR_24.veh" />
+    <None Include="teams_2024\KickSauber\F123_AR_77.json" />
+    <None Include="teams_2024\KickSauber\F123_AR_77.veh" />
     <None Include="Tires\F12023_FRONT_C1.TGM" />
     <None Include="Tires\F12023_FRONT_C2.TGM" />
     <None Include="Tires\F12023_FRONT_C3.TGM" />
@@ -804,6 +809,26 @@
     <Image Include="teams_2023\Williams\F123_WI_23HelmetNew.dds" />
     <Image Include="teams_2023\Williams\F123_WI_23Rims.dds" />
     <Image Include="teams_2023\Williams\F123_WI_23_region.dds" />
+    <Image Include="teams_2024\KickSauber\F123_AR_24-icon-1024x576.png" />
+    <Image Include="teams_2024\KickSauber\F123_AR_24-icon-128x72.png" />
+    <Image Include="teams_2024\KickSauber\F123_AR_24-icon-2048x1152.png" />
+    <Image Include="teams_2024\KickSauber\F123_AR_24-icon-256x144.png" />
+    <Image Include="teams_2024\KickSauber\F123_AR_24-icon-512x288.png" />
+    <Image Include="teams_2024\KickSauber\F124_KS_24.dds" />
+    <Image Include="teams_2024\KickSauber\F123_AR_24Driver.dds" />
+    <Image Include="teams_2024\KickSauber\F123_AR_24HelmetNew.dds" />
+    <Image Include="teams_2024\KickSauber\F123_AR_24Rims.dds" />
+    <Image Include="teams_2024\KickSauber\F123_AR_24_region.dds" />
+    <Image Include="teams_2024\KickSauber\F123_AR_77-icon-1024x576.png" />
+    <Image Include="teams_2024\KickSauber\F123_AR_77-icon-128x72.png" />
+    <Image Include="teams_2024\KickSauber\F123_AR_77-icon-2048x1152.png" />
+    <Image Include="teams_2024\KickSauber\F123_AR_77-icon-256x144.png" />
+    <Image Include="teams_2024\KickSauber\F123_AR_77-icon-512x288.png" />
+    <Image Include="teams_2024\KickSauber\F123_AR_77.dds" />
+    <Image Include="teams_2024\KickSauber\F123_AR_77Driver.dds" />
+    <Image Include="teams_2024\KickSauber\F123_AR_77HelmetNew.dds" />
+    <Image Include="teams_2024\KickSauber\F123_AR_77Rims.dds" />
+    <Image Include="teams_2024\KickSauber\F123_AR_77_region.dds" />
   </ItemGroup>
   <ItemGroup>
     <Media Include="Sounds\Formula_Hybrid_22_backfire01_ex.wav" />

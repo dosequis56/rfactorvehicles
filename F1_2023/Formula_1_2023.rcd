@@ -20,8 +20,11 @@ FORMULA_1_2023
     OverSteerThrottleReaction = -55.0 // 55.0 //-85.0
     UnderSteerEffectOnThrottleMulti = 130.0
     UnderSteerEffectOnLineMulti = 100.0
+    DrivingLine = FASTEST,FAST_ALT2,FAST_ALT1
+    DraftStickinessMulti = 0
+    MinRacingSkill = 50.0
 
-    F1_Monaco_SAVE
+    F1_ORIGINAL_STEPS
     {
         StepDistance = 2.0              // distance in meters (i.e. 2 meters)
         StepSpeed1 = 10.0               // speed in meters-per-second to look ahead 1x step-distance (i.e. 10 m/sec look 2 meters ahead)
@@ -35,6 +38,27 @@ FORMULA_1_2023
         CorneringCaution = 99.0         // default corner caution for any driver that doesn't have it defined
         FearOfWalls = 99.0              // default wall avoidance setting for any driver that doesn't have it defined
     }
+
+    F1_Monaco
+    {
+        MinRacingSkill = 50.0
+    }
+
+    F1_YasMarina
+    {
+        MinRacingSkill = 70.0
+    }
+
+    F1_Montreal
+    {
+        MinRacingSkill = 65.0
+    }
+
+    F1_Interlagos
+    {
+        MinRacingSkill = 70.0
+    }
+
   }
   
   //
@@ -68,13 +92,13 @@ FORMULA_1_2023
   {
     Nationality = Danish
     DateofBirth = 26-9-1962
-    Starts = 0
-    Poles = 0
-    Wins = 0
-    DriversChampionships = 0
+    Starts = 150
+    Poles = 50
+    Wins = 50
+    DriversChampionships = 5
     Aggression = 75.0
     Composure = 100.0
-    CorneringCaution = 38.0
+    CorneringCaution = 40.0
     FearOfWalls = 72.0
     Speed = 100.0
     QualifySpeed = 100.0
@@ -83,7 +107,7 @@ FORMULA_1_2023
     Crash = 0.0
     Recovery = 100.0
     CompletedLaps = 100.0
-    MinRacingSkill = 100.0
+    MinRacingSkill = 90.0
     DrivingLine = FASTEST
     DraftStickinessMulti = 100
   }
@@ -92,14 +116,14 @@ FORMULA_1_2023
   {
     Nationality = USA
     DateofBirth = 16-10-1995
-    Starts = 0
-    Poles = 0
-    Wins = 0
-    DriversChampionships = 0
+    Starts = 150
+    Poles = 50
+    Wins = 50
+    DriversChampionships = 5
     Aggression = 75.0
     Composure = 100.0
     CorneringCaution = 42.0
-    FearOfWalls = 73.0
+    FearOfWalls = 75.0
     Speed = 100.0
     QualifySpeed = 100.0
     WetSpeed = 95.0
@@ -107,7 +131,7 @@ FORMULA_1_2023
     Crash = 0.0
     Recovery = 100.0
     CompletedLaps = 100.0
-    MinRacingSkill = 100.0
+    MinRacingSkill = 90.0
     DrivingLine = FASTEST
     DraftStickinessMulti = 100
   }
@@ -118,19 +142,19 @@ FORMULA_1_2023
     DateofBirth = 30-9-1997
     Starts = 162 
     Poles = 19
-    Wins = 34
-    DriversChampionships = 2
-    Aggression = 75.0
-    Composure = 100.0
+    Wins = 43
+    DriversChampionships = 3
+    Aggression = 70.0
+    Composure = 97.0
     CorneringCaution = 55.0
-    Speed = 92.0
+    Speed = 99.0
     QualifySpeed = 100.0
-    WetSpeed = 100.0
-    StartSkill = 100.0
+    WetSpeed = 96.0
+    StartSkill = 99.0
     Crash = 0.0
     Recovery = 100.0
     CompletedLaps = 100.0
-    MinRacingSkill = 100.0
+    MinRacingSkill = 90.0
     DrivingLine = FASTEST
     DraftStickinessMulti = 100
   }
@@ -143,17 +167,16 @@ FORMULA_1_2023
     Poles = 1
     Wins = 4
     DriversChampionships = 0
-    Aggression = 42.0
-    Composure = 50.0
-    Speed = 63.0
+    Aggression = 45.0
+    Composure = 60.0
+    Speed = 95.0
     QualifySpeed = 90.0
-    WetSpeed = 65.0
-    StartSkill = 50.0
+    WetSpeed = 94.0
+    StartSkill = 85.0
     Crash = 5.5
     Recovery = 95.0
     CompletedLaps = 99.0
-    MinRacingSkill = 35.0
-    DrivingLine = FASTEST,FAST_ALT2,FAST_ALT1
+    MinRacingSkill = 75.0
     DraftStickinessMulti = 100
   }
 
@@ -165,17 +188,16 @@ FORMULA_1_2023
     Poles = 103
     Wins = 103
     DriversChampionships = 7
-    Aggression = 45.0
-    Composure = 90.0
-    Speed = 70.00
-    QualifySpeed = 90.0
-    WetSpeed = 90.0
-    StartSkill = 90.0
+    Aggression = 57.0
+    Composure = 95.0
+    Speed = 95.00
+    QualifySpeed = 95.0
+    WetSpeed = 96.0
+    StartSkill = 92.0
     Crash = 2.0
     Recovery = 100.0
     CompletedLaps = 100.0
-    MinRacingSkill = 75.0
-    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2 
+    MinRacingSkill = 85.0
     DraftStickinessMulti = 50
   }
 
@@ -188,16 +210,15 @@ FORMULA_1_2023
     Wins = 1
     DriversChampionships = 0
     Aggression = 35.0
-    Composure = 50.0
-    Speed = 65.0
-    QualifySpeed = 85.0
-    WetSpeed = 65.0
-    StartSkill = 70.0
+    Composure = 65.0
+    Speed = 94.0
+    QualifySpeed = 98.0
+    WetSpeed = 92.0
+    StartSkill = 89.0
     Crash = 4.0
     Recovery = 85.0
     CompletedLaps = 100.0
-    MinRacingSkill = 50.0
-    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2
+    MinRacingSkill = 80.0
     DraftStickinessMulti = 50
   }
 
@@ -211,15 +232,15 @@ FORMULA_1_2023
     DriversChampionships = 0
     Aggression = 40.0
     Composure = 80.0
-    Speed = 70.0
-    QualifySpeed = 80.0
-    WetSpeed = 70.0
-    StartSkill = 80.0
+    Speed = 96.0
+    QualifySpeed = 99.0
+    WetSpeed = 93.0
+    CorneringCaution = 55.0
+    StartSkill = 92.0
     Crash = 2.0
     Recovery = 100.0
     CompletedLaps = 100.0
     MinRacingSkill = 70.0
-    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2
     DraftStickinessMulti = 50
   }
 
@@ -233,15 +254,15 @@ FORMULA_1_2023
     DriversChampionships = 0
     Aggression = 50.0
     Composure = 75.0
-    Speed = 70.0
-    QualifySpeed = 85.0
-    WetSpeed = 73.0
-    StartSkill = 80.0
+    Speed = 95.0
+    QualifySpeed = 95.0
+    WetSpeed = 92.0
+    CorneringCaution = 62.0
+    StartSkill = 90.0
     Crash = 3.5
     Recovery = 99.0
     CompletedLaps = 100.0
     MinRacingSkill = 70.0
-    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2
     DraftStickinessMulti = 50
   }
 
@@ -256,15 +277,14 @@ FORMULA_1_2023
     Aggression = 55.0
     Composure = 75.0
     CorneringCaution = 100
-    Speed = 80.0
-    QualifySpeed = 75.0
-    WetSpeed = 75.0
-    StartSkill = 80.0
+    Speed = 96.0
+    QualifySpeed = 90.0
+    WetSpeed = 95.0
+    StartSkill = 92.0
     Crash = 1.0
     Recovery = 100.0
     CompletedLaps = 100.0
-    MinRacingSkill = 70.0
-    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2 
+    MinRacingSkill = 83.0
     DraftStickinessMulti = 50
   }
 
@@ -279,15 +299,14 @@ FORMULA_1_2023
     Aggression = 45.0
     Composure = 70.0
     CorneringCaution = 100
-    Speed = 75.0
-    QualifySpeed = 72.0
-    WetSpeed = 70.0
-    StartSkill = 70.0
+    Speed = 95.0
+    QualifySpeed = 94.0
+    WetSpeed = 92.0
+    StartSkill = 88.0
     Crash = 2.0
     Recovery = 100.0
     CompletedLaps = 100.0
-    MinRacingSkill = 55.0
-    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2 
+    MinRacingSkill = 80.0
     DraftStickinessMulti = 50
   }
 
@@ -302,16 +321,13 @@ FORMULA_1_2023
     Aggression = 40.0
     Composure = 80.0
     CorneringCaution = 100
-    Speed = 55.0
-    QualifySpeed = 70.0
-    WetSpeed = 55.0
+    Speed = 90.0
+    QualifySpeed = 85.0
+    WetSpeed = 90.0
     StartSkill = 80.0
     Crash = 8.0
     Recovery = 99.0
     CompletedLaps = 100.0
-    MinRacingSkill = 70.0
-    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2 
-    DraftStickinessMulti = 0
   }
 
   Pierre Gasly
@@ -322,19 +338,16 @@ FORMULA_1_2023
     Poles = 0
     Wins = 1
     DriversChampionships = 0
-    Aggression = 25.0
-    Composure = 70.0
+    Aggression = 60.0
+    Composure = 75.0
     CorneringCaution = 100
-    Speed = 45.0
-    QualifySpeed = 55.0
-    WetSpeed = 65.0
-    StartSkill = 70.0
+    Speed = 90.0
+    QualifySpeed = 88.0
+    WetSpeed = 90.0
+    StartSkill = 75.0
     Crash = 6.5
     Recovery = 99.0
     CompletedLaps = 100.0
-    MinRacingSkill = 60.0
-    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2
-    DraftStickinessMulti = 0
   }
 
   Yuki Tsunoda
@@ -348,16 +361,13 @@ FORMULA_1_2023
     Aggression = 25.0
     Composure = 60.0
     CorneringCaution = 100
-    Speed = 55.0
-    QualifySpeed = 65.0
-    WetSpeed = 55.0
+    Speed = 90.0
+    QualifySpeed = 90.0
+    WetSpeed = 85.0
     StartSkill = 70.0
     Crash = 8.5
     Recovery = 98.0
     CompletedLaps = 100.0
-    MinRacingSkill = 60.0
-    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2 
-    DraftStickinessMulti = 0
   }
 
   Valtteri Bottas
@@ -369,18 +379,15 @@ FORMULA_1_2023
     Wins = 10
     DriversChampionships = 0
     Aggression = 25.0
-    Composure = 75.0
+    Composure = 62.0
     CorneringCaution = 100
-    Speed = 55.0
-    QualifySpeed = 55.0
-    WetSpeed = 65.0
+    Speed = 88.0
+    QualifySpeed = 80.0
+    WetSpeed = 85.0
     StartSkill = 70.0
     Crash = 10.0
     Recovery = 99.0
     CompletedLaps = 100.0
-    MinRacingSkill = 60.0
-    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2
-    DraftStickinessMulti = 0
   }
 
   Zhou Guanyu
@@ -391,19 +398,16 @@ FORMULA_1_2023
     Poles = 0
     Wins = 0
     DriversChampionships = 0
-    Aggression = 25.0
+    Aggression = 50.0
     Composure = 82.0
     CorneringCaution = 100
-    Speed = 50.0
-    QualifySpeed = 80.0
-    WetSpeed = 50.0
+    Speed = 90.0
+    QualifySpeed = 90.0
+    WetSpeed = 88.0
     StartSkill = 70.0
     Crash = 8.5
     Recovery = 87.0
     CompletedLaps = 99.0
-    MinRacingSkill = 60.00
-    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2 
-    DraftStickinessMulti = 0
   }
 
   Esteban Ocon
@@ -417,16 +421,13 @@ FORMULA_1_2023
     Aggression = 25.0
     Composure = 60.0
     CorneringCaution = 100
-    Speed = 55.0
-    QualifySpeed = 55.0
-    WetSpeed = 40.0
+    Speed = 88.0
+    QualifySpeed = 90.0
+    WetSpeed = 88.0
     StartSkill = 55.0
     Crash = 10.0
     Recovery = 80.0
     CompletedLaps = 98.0
-    MinRacingSkill = 50.0
-    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2 
-    DraftStickinessMulti = 0
   }
 
   Fernando Alonso
@@ -440,18 +441,117 @@ FORMULA_1_2023
     Aggression = 70.0
     Composure = 92.0
     CorneringCaution = 100
-    Speed = 75.0
-    QualifySpeed = 90.0
-    WetSpeed = 70.0
+    Speed = 93.0
+    QualifySpeed = 94.0
+    WetSpeed = 94.0
     StartSkill = 80.0
     Crash = 2.5
     Recovery = 97.0
     CompletedLaps = 99.0
-    MinRacingSkill = 65.0
-    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2 
-    DraftStickinessMulti = 0
+    MinRacingSkill = 70.0
+  }
+ 
+  Lance Stroll
+  {
+    Nationality = Canadian
+    DateofBirth = 29 October 1998
+    Starts = 121 
+    Poles = 1
+    Wins = 0
+    DriversChampionships = 0
+    Aggression = 45.0
+    Composure = 65.0
+    Speed = 92.0
+    QualifySpeed = 95.0
+    WetSpeed = 90.0
+    StartSkill = 60.0
+    Crash = 7.75
+    Recovery = 80.0
+    CompletedLaps = 95.0
+    MinRacingSkill = 40.0
   }
   
+  Kevin Magnussen
+  {
+    Nationality = Danish
+    DateofBirth = 5 October 1992
+    Starts = 141
+    Poles = 1
+    Wins = 0
+    DriversChampionships = 0
+    Aggression = 35.0
+    Composure = 88.0
+    CorneringCaution = 100
+    Speed = 88.0
+    QualifySpeed = 90.0
+    WetSpeed = 85.0
+    StartSkill = 60.0
+    Crash = 8.0
+    Recovery = 75.0
+    CompletedLaps = 99.0
+  }
+ 
+  Alexander Albon
+  {
+    Nationality = British
+    DateofBirth = 23 March 1996
+    Starts = 58 
+    Poles = 0
+    Wins = 0
+    DriversChampionships = 0
+    Aggression = 25.0
+    Composure = 65.0
+    CorneringCaution = 100
+    Speed = 93.0
+    QualifySpeed = 90.0
+    WetSpeed = 88.0
+    StartSkill = 88.0
+    Crash = 5.50
+    Recovery = 85.0
+    CompletedLaps = 96.0
+    MinRacingSkill = 55.0
+  }
+ 
+  Logan Sargeant
+  {
+    Nationality = US
+    DateofBirth = 29 June 1995
+    Starts = 59 
+    Poles = 0
+    Wins = 0
+    DriversChampionships
+    Aggression = 25.0
+    Composure = 65.0
+    CorneringCaution = 100
+    Speed = 87.0
+    QualifySpeed = 85.0
+    WetSpeed = 84.0
+    StartSkill = 65.0
+    Crash = 15.50
+    Recovery = 85.0
+    CompletedLaps = 96.0
+    MinRacingSkill = 35.0
+  }
+
+  Nico Hulkenberg
+  {
+    Nationality = German
+    DateofBirth = 19 August 1987
+    Starts = 184
+    Poles = 0
+    Wins = 0
+    DriversChampionships = 0
+    Aggression = 25.0
+    Composure = 55.0
+    Speed = 87.0
+    QualifySpeed = 85.0
+    WetSpeed = 85.0
+    StartSkill = 65.0
+    Crash = 11.5
+    Recovery = 95.0
+    CompletedLaps = 98.0
+  }
+
   Sebastian Vettel 
   {
     Nationality = German
@@ -471,78 +571,8 @@ FORMULA_1_2023
     Recovery = 100.0
     CompletedLaps = 100.0
     MinRacingSkill = 80.0
-    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2 
-    DraftStickinessMulti = 0
   }
 
-  Lance Stroll
-  {
-    Nationality = Canadian
-    DateofBirth = 29 October 1998
-    Starts = 121 
-    Poles = 1
-    Wins = 0
-    DriversChampionships = 0
-    Aggression = 45.0
-    Composure = 65.0
-    Speed = 55.0
-    QualifySpeed = 55.0
-    WetSpeed = 45.0
-    StartSkill = 40.0
-    Crash = 7.75
-    Recovery = 80.0
-    CompletedLaps = 95.0
-    MinRacingSkill = 40.0
-    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2
-    DraftStickinessMulti = 0
-  }
-  
-  Mick Schumacher
-  {
-    Nationality = German
-    DateofBirth = 22 March 1999
-    Starts = 43 
-    Poles = 0
-    Wins = 0
-    DriversChampionships = 0
-    Aggression = 75.0
-    Composure = 93.0
-    CorneringCaution = 100
-    Speed = 75.0
-    QualifySpeed = 80.0
-    WetSpeed = 65.0
-    StartSkill = 75.0
-    Crash = 1.5
-    Recovery = 95.0
-    CompletedLaps = 98.0
-    MinRacingSkill = 65.0
-    DrivingLine = FAST_ALT2
-    DraftStickinessMulti = 0
-  }
-
-  Kevin Magnussen
-  {
-    Nationality = Danish
-    DateofBirth = 5 October 1992
-    Starts = 141
-    Poles = 1
-    Wins = 0
-    DriversChampionships = 0
-    Aggression = 35.0
-    Composure = 88.0
-    CorneringCaution = 100
-    Speed = 65.0
-    QualifySpeed = 65.0
-    WetSpeed = 55.0
-    StartSkill = 60.0
-    Crash = 8.0
-    Recovery = 75.0
-    CompletedLaps = 99.0
-    MinRacingSkill = 50.0
-    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2 
-    DraftStickinessMulti = 0
-  }
- 
   Nicholas Latifi
   {
     Nationality = Canadian
@@ -562,54 +592,27 @@ FORMULA_1_2023
     Recovery = 60.0
     CompletedLaps = 97.0
     MinRacingSkill = 25.0
-    DrivingLine = FAST_ALT2
-    DraftStickinessMulti = 0
   }
 
-  Alexander Albon
+  Mick Schumacher
   {
-    Nationality = British
-    DateofBirth = 23 March 1996
-    Starts = 58 
+    Nationality = German
+    DateofBirth = 22 March 1999
+    Starts = 43 
     Poles = 0
     Wins = 0
     DriversChampionships = 0
-    Aggression = 25.0
-    Composure = 65.0
+    Aggression = 75.0
+    Composure = 93.0
     CorneringCaution = 100
-    Speed = 50.0
-    QualifySpeed = 45.0
-    WetSpeed = 45.0
-    StartSkill = 80.0
-    Crash = 5.50
-    Recovery = 85.0
-    CompletedLaps = 96.0
-    MinRacingSkill = 75.0
-    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2 
-    DraftStickinessMulti = 0
-  }
- 
-  Logan Sargeant
-  {
-    Nationality = US
-    DateofBirth = 29 June 1995
-    Starts = 59 
-    Poles = 0
-    Wins = 0
-    DriversChampionships
-    Aggression = 25.0
-    Composure = 65.0
-    CorneringCaution = 100
-    Speed = 50.0
-    QualifySpeed = 45.0
-    WetSpeed = 55.0
-    StartSkill = 80.0
-    Crash = 15.50
-    Recovery = 85.0
-    CompletedLaps = 96.0
-    MinRacingSkill = 75.0
-    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2 
-    DraftStickinessMulti = 0
+    Speed = 88.0
+    QualifySpeed = 90.0
+    WetSpeed = 85.0
+    StartSkill = 75.0
+    Crash = 1.5
+    Recovery = 95.0
+    CompletedLaps = 98.0
+    MinRacingSkill = 65.0
   }
 
   Nyck de Vries
@@ -631,31 +634,6 @@ FORMULA_1_2023
     Recovery = 85.0
     CompletedLaps = 98.0
     MinRacingSkill = 50.0
-    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2 
-    DraftStickinessMulti = 0
-  }
-
-  Nico Hulkenberg
-  {
-    Nationality = German
-    DateofBirth = 19 August 1987
-    Starts = 184
-    Poles = 0
-    Wins = 0
-    DriversChampionships = 0
-    Aggression = 25.0
-    Composure = 55.0
-    CorneringCaution = 100
-    Speed = 55.0
-    QualifySpeed = 65.0
-    WetSpeed = 55.0
-    StartSkill = 65.0
-    Crash = 11.5
-    Recovery = 95.0
-    CompletedLaps = 98.0
-    MinRacingSkill = 50.0
-    DrivingLine = FASTEST,FAST_ALT1,FAST_ALT2 
-    DraftStickinessMulti = 0
   }
 }
 
