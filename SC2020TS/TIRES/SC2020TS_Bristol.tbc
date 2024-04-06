@@ -93,7 +93,7 @@ Data:
 Name="Bristol Tires"
 LEFT: //D-4632
 TGM="BristolLeft.tgm"
-DryLatLong=(2.14, 1.61)
+DryLatLong=(2.02, 1.61)
 WetLatLong=(1.16, 1.12)
 RoadGripEffects=(0.15,-0.06,-0.11,-0.4)
 RoadGrooveSqrdGripEffect=-0.155
@@ -130,10 +130,10 @@ AIPitThreshold=0.790
 AIHeatRate=8.0e-6
 Temperatures=(80, 49)
 OptimumPressure=(110, 0.021)
-GripTempPress=(1.2, 0.7, 0.4)
+GripTempPress=(1.6, 0.7, 0.4)
 RIGHT: //D-4644
 TGM="BristolRight.tgm"
-DryLatLong=(2.17, 1.54)
+DryLatLong=(2.02, 1.54)
 WetLatLong=(1.16, 1.12)
 RoadGripEffects=(0.15,-0.06,-0.11,-0.4)
 RoadGrooveSqrdGripEffect=-0.155
@@ -170,4 +170,4 @@ AIPitThreshold=0.790
 AIHeatRate=6.6e-6
 Temperatures=(80, 49)
 OptimumPressure=(110, 0.021)
-GripTempPress=(1.2, 0.7, 0.4)
+GripTempPress=(1.6, 0.7, 0.4)
