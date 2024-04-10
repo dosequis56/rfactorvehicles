@@ -18,11 +18,10 @@
 /PaceCar/C6_PC
 /ASMG_F1_2021/.idea
 /ASMG_F1_2021/log
-/.vs/Vehicles/v17/Browse.VC.opendb
-/.vs/Vehicles/v17/Browse.VC.db-wal
-/.vs/Vehicles/v17/Browse.VC.db-shm
-/.vs/Vehicles/v17/Browse.VC.db
+/.vs/*
 /ASMG_F1_2021/.vs/ASMG_F1_2021/v17/Browse.VC.db
 /ASMG_F1_2022/.vs/ASMG_F1_2022/v17/Browse.VC.db
 /ASMG_F1_2022/bin/hash
 /ASMG_F1_2022/x64/Debug
+/build.rfbuild
+

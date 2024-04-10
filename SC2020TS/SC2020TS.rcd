@@ -21,7 +21,7 @@ SC2020TS
     OverSteerThrottleReaction = -36.00       // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
     CorneringCaution = 8.00                  // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
     FearOfWalls = 50.00                      // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
-    DrivingLine = FASTEST, HIGHLINE
+    DrivingLine = FASTEST
     Oval_default
     {
       StepDistance = 5.20                    // distance of each step is 5.20 meters
@@ -38,10 +38,25 @@ SC2020TS
       OverSteerThrottleReaction = -35.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
       CorneringCaution = 35.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
       FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST, HIGHLINE
     }
     AppleValley_Speedway
     {
-      CorneringCaution = 80.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      StepDistance = 5.20                    // distance of each step is 5.20 meters
+      StepSpeed1 = 25.00                     // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
+      StepSpeed2 = 32.00                     // look ahead 10.4 meters (34.1224 feet) at 115.2 KPH 71.5808 MPH
+      StepSpeed3 = 40.00                     // look ahead 15.599999 meters (51.183598 feet) at 144 KPH 89.476006 MPH
+      StepSpeed4 = 55.00                     // look ahead 20.8 meters (68.2448 feet) at 198 KPH 123.0295 MPH
+      StepSpeed5 = 70.00                     // look ahead 26 meters (85.306 feet) at 252 KPH 156.58301 MPH
+      StepSpeed6 = 82.00                     // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
+      StepSpeed7 = 88.00                     // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
+      StepSpeed8 = 93.00                     // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
+      UnderSteerEffectOnThrottleMulti = 250.00
+      UnderSteerEffectOnLineMulti = 250.00
+      OverSteerThrottleReaction = -35.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 35.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST,HIGHLINE
     }
     Atlanta_Motor_Speedway
     {
@@ -62,7 +77,21 @@ SC2020TS
     }
     AutoClub_Speedway
     {
-      CorneringCaution = 80.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      StepDistance = 5.20                    // distance of each step is 5.20 meters
+      StepSpeed1 = 25.00                     // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
+      StepSpeed2 = 32.00                     // look ahead 10.4 meters (34.1224 feet) at 115.2 KPH 71.5808 MPH
+      StepSpeed3 = 40.00                     // look ahead 15.599999 meters (51.183598 feet) at 144 KPH 89.476006 MPH
+      StepSpeed4 = 55.00                     // look ahead 20.8 meters (68.2448 feet) at 198 KPH 123.0295 MPH
+      StepSpeed5 = 70.00                     // look ahead 26 meters (85.306 feet) at 252 KPH 156.58301 MPH
+      StepSpeed6 = 82.00                     // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
+      StepSpeed7 = 88.00                     // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
+      StepSpeed8 = 93.00                     // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
+      UnderSteerEffectOnThrottleMulti = 250.00
+      UnderSteerEffectOnLineMulti = 250.00
+      OverSteerThrottleReaction = -35.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 35.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST,HIGHLINE
     }
     Bristol_2016
     {
@@ -80,7 +109,7 @@ SC2020TS
       OverSteerThrottleReaction = -35.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
       CorneringCaution = 35.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
       FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
-      DrivingLine = LOWLINE,HIGHLINE
+      DrivingLine = FASTEST,HIGHLINE
     }
     Bristol_ONLINE
     {
@@ -98,13 +127,25 @@ SC2020TS
       OverSteerThrottleReaction = -35.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
       CorneringCaution = 35.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
       FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
-      DrivingLine = LOWLINE,HIGHLINE
+      DrivingLine = FASTEST,HIGHLINE
     }
     Brookdale_Speedway
     {
-      StepDistance = 5.50                    // distance of each step is 5.50 meters
+      StepDistance = 5.20                    // distance of each step is 5.20 meters
+      StepSpeed1 = 25.00                     // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
+      StepSpeed2 = 32.00                     // look ahead 10.4 meters (34.1224 feet) at 115.2 KPH 71.5808 MPH
+      StepSpeed3 = 40.00                     // look ahead 15.599999 meters (51.183598 feet) at 144 KPH 89.476006 MPH
+      StepSpeed4 = 55.00                     // look ahead 20.8 meters (68.2448 feet) at 198 KPH 123.0295 MPH
+      StepSpeed5 = 70.00                     // look ahead 26 meters (85.306 feet) at 252 KPH 156.58301 MPH
+      StepSpeed6 = 82.00                     // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
+      StepSpeed7 = 88.00                     // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
+      StepSpeed8 = 93.00                     // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
       UnderSteerEffectOnThrottleMulti = 95.00
-      CorneringCaution = 70.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      UnderSteerEffectOnLineMulti = 250.00
+      OverSteerThrottleReaction = -35.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 35.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST,HIGHLINE
     }
     GPVWC_COTA_2019
     {
@@ -193,21 +234,57 @@ SC2020TS
     }
     Homestead_Speedway
     {
-      StepDistance = 5.00                    // distance of each step is 5.00 meters
-      UnderSteerEffectOnThrottleMulti = 0.10
-      UnderSteerEffectOnLineMulti = 300.00
-      CorneringCaution = 70.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
-      FearOfWalls = 100.00                   // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      StepDistance = 5.20                    // distance of each step is 5.20 meters
+      StepSpeed1 = 25.00                     // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
+      StepSpeed2 = 32.00                     // look ahead 10.4 meters (34.1224 feet) at 115.2 KPH 71.5808 MPH
+      StepSpeed3 = 40.00                     // look ahead 15.599999 meters (51.183598 feet) at 144 KPH 89.476006 MPH
+      StepSpeed4 = 55.00                     // look ahead 20.8 meters (68.2448 feet) at 198 KPH 123.0295 MPH
+      StepSpeed5 = 70.00                     // look ahead 26 meters (85.306 feet) at 252 KPH 156.58301 MPH
+      StepSpeed6 = 82.00                     // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
+      StepSpeed7 = 88.00                     // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
+      StepSpeed8 = 93.00                     // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
+      UnderSteerEffectOnThrottleMulti = 250.00
+      UnderSteerEffectOnLineMulti = 250.00
+      OverSteerThrottleReaction = -35.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 35.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST,HIGHLINE
     }
     Indianapolis2020_500
     {
-      StepDistance = 8.00                    // distance of each step is 8.00 meters
-      CorneringCaution = 40.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      StepDistance = 5.20                    // distance of each step is 5.20 meters
+      StepSpeed1 = 25.00                     // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
+      StepSpeed2 = 32.00                     // look ahead 10.4 meters (34.1224 feet) at 115.2 KPH 71.5808 MPH
+      StepSpeed3 = 40.00                     // look ahead 15.599999 meters (51.183598 feet) at 144 KPH 89.476006 MPH
+      StepSpeed4 = 55.00                     // look ahead 20.8 meters (68.2448 feet) at 198 KPH 123.0295 MPH
+      StepSpeed5 = 70.00                     // look ahead 26 meters (85.306 feet) at 252 KPH 156.58301 MPH
+      StepSpeed6 = 82.00                     // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
+      StepSpeed7 = 88.00                     // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
+      StepSpeed8 = 93.00                     // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
+      UnderSteerEffectOnThrottleMulti = 250.00
+      UnderSteerEffectOnLineMulti = 250.00
+      OverSteerThrottleReaction = -35.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 35.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST,HIGHLINE
     }
     Indianapolis2020_400
     {
-      StepDistance = 8.00                    // distance of each step is 8.00 meters
-      CorneringCaution = 40.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      StepDistance = 5.20                    // distance of each step is 5.20 meters
+      StepSpeed1 = 25.00                     // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
+      StepSpeed2 = 32.00                     // look ahead 10.4 meters (34.1224 feet) at 115.2 KPH 71.5808 MPH
+      StepSpeed3 = 40.00                     // look ahead 15.599999 meters (51.183598 feet) at 144 KPH 89.476006 MPH
+      StepSpeed4 = 55.00                     // look ahead 20.8 meters (68.2448 feet) at 198 KPH 123.0295 MPH
+      StepSpeed5 = 70.00                     // look ahead 26 meters (85.306 feet) at 252 KPH 156.58301 MPH
+      StepSpeed6 = 82.00                     // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
+      StepSpeed7 = 88.00                     // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
+      StepSpeed8 = 93.00                     // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
+      UnderSteerEffectOnThrottleMulti = 250.00
+      UnderSteerEffectOnLineMulti = 250.00
+      OverSteerThrottleReaction = -35.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 35.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST,HIGHLINE
     }
     Jacksonville500
     {
@@ -224,12 +301,39 @@ SC2020TS
     }
     Joesville_Speedway
     {
-      CorneringCaution = 20.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      StepDistance = 3.00                    // distance of each step is 3.00 meters
+      StepSpeed1 = 07.00                     // look ahead 3 meters (9.842999 feet) at 25.199999 KPH 15.6583 MPH
+      StepSpeed2 = 12.00                     // look ahead 6 meters (19.685999 feet) at 43.199997 KPH 26.8428 MPH
+      StepSpeed3 = 25.00                     // look ahead 9 meters (29.529 feet) at 90 KPH 55.9225 MPH
+      StepSpeed4 = 33.00                     // look ahead 12 meters (39.371998 feet) at 118.799995 KPH 73.8177 MPH
+      StepSpeed5 = 41.00                     // look ahead 15 meters (49.215 feet) at 147.59999 KPH 91.712906 MPH
+      StepSpeed6 = 50.00                     // look ahead 18 meters (59.058 feet) at 180 KPH 111.845 MPH
+      StepSpeed7 = 62.00                     // look ahead 21 meters (68.901 feet) at 223.2 KPH 138.6878 MPH
+      StepSpeed8 = 75.00                     // look ahead 24 meters (78.743996 feet) at 270 KPH 167.7675 MPH
+      UnderSteerEffectOnThrottleMulti = 0.10
+      UnderSteerEffectOnLineMulti = 300.00
+      OverSteerThrottleReaction = -25.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 50.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 100.00                   // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST
     }
     Kansas_2016
     {
-      StepDistance = 5.00                    // distance of each step is 5.00 meters
-      FearOfWalls = 100.00                   // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      StepDistance = 5.20                    // distance of each step is 5.20 meters
+      StepSpeed1 = 25.00                     // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
+      StepSpeed2 = 32.00                     // look ahead 10.4 meters (34.1224 feet) at 115.2 KPH 71.5808 MPH
+      StepSpeed3 = 40.00                     // look ahead 15.599999 meters (51.183598 feet) at 144 KPH 89.476006 MPH
+      StepSpeed4 = 55.00                     // look ahead 20.8 meters (68.2448 feet) at 198 KPH 123.0295 MPH
+      StepSpeed5 = 70.00                     // look ahead 26 meters (85.306 feet) at 252 KPH 156.58301 MPH
+      StepSpeed6 = 82.00                     // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
+      StepSpeed7 = 88.00                     // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
+      StepSpeed8 = 93.00                     // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
+      UnderSteerEffectOnThrottleMulti = 250.00
+      UnderSteerEffectOnLineMulti = 250.00
+      OverSteerThrottleReaction = -35.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 35.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST,HIGHLINE
     }
     Kentucky_Speedway
     {
@@ -247,12 +351,25 @@ SC2020TS
       OverSteerThrottleReaction = -35.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
       CorneringCaution = 35.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
       FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST,HIGHLINE
     }
     LasVegas_2016
     {
-      StepDistance = 4.00                    // distance of each step is 4.00 meters
-      CorneringCaution = 50.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
-      FearOfWalls = 100.00                   // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      StepDistance = 5.20                    // distance of each step is 5.20 meters
+      StepSpeed1 = 25.00                     // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
+      StepSpeed2 = 32.00                     // look ahead 10.4 meters (34.1224 feet) at 115.2 KPH 71.5808 MPH
+      StepSpeed3 = 40.00                     // look ahead 15.599999 meters (51.183598 feet) at 144 KPH 89.476006 MPH
+      StepSpeed4 = 55.00                     // look ahead 20.8 meters (68.2448 feet) at 198 KPH 123.0295 MPH
+      StepSpeed5 = 70.00                     // look ahead 26 meters (85.306 feet) at 252 KPH 156.58301 MPH
+      StepSpeed6 = 82.00                     // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
+      StepSpeed7 = 88.00                     // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
+      StepSpeed8 = 93.00                     // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
+      UnderSteerEffectOnThrottleMulti = 250.00
+      UnderSteerEffectOnLineMulti = 250.00
+      OverSteerThrottleReaction = -35.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 35.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST,HIGHLINE
     }
     Martinsville_2016
     {
@@ -310,9 +427,21 @@ SC2020TS
     }
     TCH_NASH
     {
-      UnderSteerEffectOnThrottleMulti = 133.00
-      UnderSteerEffectOnLineMulti = 0.10
-      CorneringCaution = 60.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      StepDistance = 5.20                    // distance of each step is 5.20 meters
+      StepSpeed1 = 25.00                     // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
+      StepSpeed2 = 32.00                     // look ahead 10.4 meters (34.1224 feet) at 115.2 KPH 71.5808 MPH
+      StepSpeed3 = 40.00                     // look ahead 15.599999 meters (51.183598 feet) at 144 KPH 89.476006 MPH
+      StepSpeed4 = 55.00                     // look ahead 20.8 meters (68.2448 feet) at 198 KPH 123.0295 MPH
+      StepSpeed5 = 70.00                     // look ahead 26 meters (85.306 feet) at 252 KPH 156.58301 MPH
+      StepSpeed6 = 82.00                     // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
+      StepSpeed7 = 88.00                     // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
+      StepSpeed8 = 93.00                     // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
+      UnderSteerEffectOnThrottleMulti = 250.00
+      UnderSteerEffectOnLineMulti = 250.00
+      OverSteerThrottleReaction = -35.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 35.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST,HIGHLINE
     }
     North_Wilkesboro
     {
@@ -334,38 +463,93 @@ SC2020TS
     }
     NewHampshire_2016
     {
-      UnderSteerEffectOnThrottleMulti = 133.00
-      UnderSteerEffectOnLineMulti = 0.10
-      CorneringCaution = 60.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      StepDistance = 3.00                    // distance of each step is 3.00 meters
+      StepSpeed1 = 07.00                     // look ahead 3 meters (9.842999 feet) at 25.199999 KPH 15.6583 MPH
+      StepSpeed2 = 12.00                     // look ahead 6 meters (19.685999 feet) at 43.199997 KPH 26.8428 MPH
+      StepSpeed3 = 25.00                     // look ahead 9 meters (29.529 feet) at 90 KPH 55.9225 MPH
+      StepSpeed4 = 33.00                     // look ahead 12 meters (39.371998 feet) at 118.799995 KPH 73.8177 MPH
+      StepSpeed5 = 41.00                     // look ahead 15 meters (49.215 feet) at 147.59999 KPH 91.712906 MPH
+      StepSpeed6 = 50.00                     // look ahead 18 meters (59.058 feet) at 180 KPH 111.845 MPH
+      StepSpeed7 = 62.00                     // look ahead 21 meters (68.901 feet) at 223.2 KPH 138.6878 MPH
+      StepSpeed8 = 75.00                     // look ahead 24 meters (78.743996 feet) at 270 KPH 167.7675 MPH
+      UnderSteerEffectOnThrottleMulti = 0.10
+      UnderSteerEffectOnLineMulti = 300.00
+      OverSteerThrottleReaction = -25.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 50.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 100.00                   // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST
     }
     NIR
     {
-      StepDistance = 4.00                    // distance of each step is 4.00 meters
-      StepSpeed1 = 14.00                     // look ahead 4 meters (13.124 feet) at 50.399998 KPH 31.3166 MPH
-      StepSpeed2 = 22.00                     // look ahead 8 meters (26.248 feet) at 79.2 KPH 49.211803 MPH
-      StepSpeed3 = 30.00                     // look ahead 12 meters (39.371998 feet) at 108 KPH 67.107 MPH
-      StepSpeed4 = 38.00                     // look ahead 16 meters (52.496 feet) at 136.8 KPH 85.002205 MPH
-      StepSpeed5 = 46.00                     // look ahead 20 meters (65.619995 feet) at 165.59999 KPH 102.89741 MPH
-      StepSpeed6 = 54.00                     // look ahead 24 meters (78.743996 feet) at 194.4 KPH 120.7926 MPH
-      StepSpeed7 = 62.50                     // look ahead 28 meters (91.868 feet) at 225 KPH 139.80626 MPH
-      StepSpeed8 = 71.50                     // look ahead 32 meters (104.992 feet) at 257.4 KPH 159.93835 MPH
-      CorneringCaution = 4.50                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      StepDistance = 5.20                    // distance of each step is 5.20 meters
+      StepSpeed1 = 25.00                     // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
+      StepSpeed2 = 32.00                     // look ahead 10.4 meters (34.1224 feet) at 115.2 KPH 71.5808 MPH
+      StepSpeed3 = 40.00                     // look ahead 15.599999 meters (51.183598 feet) at 144 KPH 89.476006 MPH
+      StepSpeed4 = 55.00                     // look ahead 20.8 meters (68.2448 feet) at 198 KPH 123.0295 MPH
+      StepSpeed5 = 70.00                     // look ahead 26 meters (85.306 feet) at 252 KPH 156.58301 MPH
+      StepSpeed6 = 82.00                     // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
+      StepSpeed7 = 88.00                     // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
+      StepSpeed8 = 93.00                     // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
+      UnderSteerEffectOnThrottleMulti = 250.00
+      UnderSteerEffectOnLineMulti = 250.00
+      OverSteerThrottleReaction = -35.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 35.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST,HIGHLINE
     }
     PalmSprings_SW
     {
-      StepDistance = 5.00                    // distance of each step is 5.00 meters
-      UnderSteerEffectOnThrottleMulti = 0.10
-      UnderSteerEffectOnLineMulti = 300.00
-      CorneringCaution = 70.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
-      FearOfWalls = 100.00                   // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      StepDistance = 5.20                    // distance of each step is 5.20 meters
+      StepSpeed1 = 25.00                     // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
+      StepSpeed2 = 32.00                     // look ahead 10.4 meters (34.1224 feet) at 115.2 KPH 71.5808 MPH
+      StepSpeed3 = 40.00                     // look ahead 15.599999 meters (51.183598 feet) at 144 KPH 89.476006 MPH
+      StepSpeed4 = 55.00                     // look ahead 20.8 meters (68.2448 feet) at 198 KPH 123.0295 MPH
+      StepSpeed5 = 70.00                     // look ahead 26 meters (85.306 feet) at 252 KPH 156.58301 MPH
+      StepSpeed6 = 82.00                     // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
+      StepSpeed7 = 88.00                     // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
+      StepSpeed8 = 93.00                     // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
+      UnderSteerEffectOnThrottleMulti = 250.00
+      UnderSteerEffectOnLineMulti = 250.00
+      OverSteerThrottleReaction = -35.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 35.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST,HIGHLINE
     }
     Phoenix_2016
     {
-      CorneringCaution = 100.00              // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      StepDistance = 3.00                    // distance of each step is 3.00 meters
+      StepSpeed1 = 07.00                     // look ahead 3 meters (9.842999 feet) at 25.199999 KPH 15.6583 MPH
+      StepSpeed2 = 12.00                     // look ahead 6 meters (19.685999 feet) at 43.199997 KPH 26.8428 MPH
+      StepSpeed3 = 25.00                     // look ahead 9 meters (29.529 feet) at 90 KPH 55.9225 MPH
+      StepSpeed4 = 33.00                     // look ahead 12 meters (39.371998 feet) at 118.799995 KPH 73.8177 MPH
+      StepSpeed5 = 41.00                     // look ahead 15 meters (49.215 feet) at 147.59999 KPH 91.712906 MPH
+      StepSpeed6 = 50.00                     // look ahead 18 meters (59.058 feet) at 180 KPH 111.845 MPH
+      StepSpeed7 = 62.00                     // look ahead 21 meters (68.901 feet) at 223.2 KPH 138.6878 MPH
+      StepSpeed8 = 75.00                     // look ahead 24 meters (78.743996 feet) at 270 KPH 167.7675 MPH
+      UnderSteerEffectOnThrottleMulti = 0.10
+      UnderSteerEffectOnLineMulti = 300.00
+      OverSteerThrottleReaction = -25.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 50.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 100.00                   // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST
     }
     Pocono_2016
     {
-      CorneringCaution = 50.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      StepDistance = 5.20                    // distance of each step is 5.20 meters
+      StepSpeed1 = 25.00                     // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
+      StepSpeed2 = 32.00                     // look ahead 10.4 meters (34.1224 feet) at 115.2 KPH 71.5808 MPH
+      StepSpeed3 = 40.00                     // look ahead 15.599999 meters (51.183598 feet) at 144 KPH 89.476006 MPH
+      StepSpeed4 = 55.00                     // look ahead 20.8 meters (68.2448 feet) at 198 KPH 123.0295 MPH
+      StepSpeed5 = 70.00                     // look ahead 26 meters (85.306 feet) at 252 KPH 156.58301 MPH
+      StepSpeed6 = 82.00                     // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
+      StepSpeed7 = 88.00                     // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
+      StepSpeed8 = 93.00                     // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
+      UnderSteerEffectOnThrottleMulti = 250.00
+      UnderSteerEffectOnLineMulti = 250.00
+      OverSteerThrottleReaction = -35.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 35.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST,HIGHLINE
     }
     Richmond
     {
@@ -387,11 +571,39 @@ SC2020TS
     }
     Road_America_GP
     {
-      CorneringCaution = 100.00              // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      StepDistance = 3.00                    // distance of each step is 3.00 meters
+      StepSpeed1 = 07.00                     // look ahead 3 meters (9.842999 feet) at 25.199999 KPH 15.6583 MPH
+      StepSpeed2 = 12.00                     // look ahead 6 meters (19.685999 feet) at 43.199997 KPH 26.8428 MPH
+      StepSpeed3 = 25.00                     // look ahead 9 meters (29.529 feet) at 90 KPH 55.9225 MPH
+      StepSpeed4 = 33.00                     // look ahead 12 meters (39.371998 feet) at 118.799995 KPH 73.8177 MPH
+      StepSpeed5 = 41.00                     // look ahead 15 meters (49.215 feet) at 147.59999 KPH 91.712906 MPH
+      StepSpeed6 = 50.00                     // look ahead 18 meters (59.058 feet) at 180 KPH 111.845 MPH
+      StepSpeed7 = 62.00                     // look ahead 21 meters (68.901 feet) at 223.2 KPH 138.6878 MPH
+      StepSpeed8 = 75.00                     // look ahead 24 meters (78.743996 feet) at 270 KPH 167.7675 MPH
+      UnderSteerEffectOnThrottleMulti = 200.00
+      UnderSteerEffectOnLineMulti = 300.00
+      OverSteerThrottleReaction = -18.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 50.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 100.00                   // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST
     }
     Sonoma_Raceway_NASCAR
     {
-      CorneringCaution = 100.00              // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      StepDistance = 3.00                    // distance of each step is 3.00 meters
+      StepSpeed1 = 07.00                     // look ahead 3 meters (9.842999 feet) at 25.199999 KPH 15.6583 MPH
+      StepSpeed2 = 12.00                     // look ahead 6 meters (19.685999 feet) at 43.199997 KPH 26.8428 MPH
+      StepSpeed3 = 25.00                     // look ahead 9 meters (29.529 feet) at 90 KPH 55.9225 MPH
+      StepSpeed4 = 33.00                     // look ahead 12 meters (39.371998 feet) at 118.799995 KPH 73.8177 MPH
+      StepSpeed5 = 41.00                     // look ahead 15 meters (49.215 feet) at 147.59999 KPH 91.712906 MPH
+      StepSpeed6 = 50.00                     // look ahead 18 meters (59.058 feet) at 180 KPH 111.845 MPH
+      StepSpeed7 = 62.00                     // look ahead 21 meters (68.901 feet) at 223.2 KPH 138.6878 MPH
+      StepSpeed8 = 75.00                     // look ahead 24 meters (78.743996 feet) at 270 KPH 167.7675 MPH
+      UnderSteerEffectOnThrottleMulti = 200.00
+      UnderSteerEffectOnLineMulti = 300.00
+      OverSteerThrottleReaction = -18.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 50.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 100.00                   // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -425,6 +637,7 @@ SC2020TS
       OverSteerThrottleReaction = -35.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
       CorneringCaution = 35.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
       FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST,HIGHLINE
     }
   }
   Bill Bollinger
@@ -579,21 +792,6 @@ SC2020TS
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    NIR
-    {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
-        PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
-    }
     Phoenix_2016
     {
         Speed = 50
@@ -621,21 +819,6 @@ SC2020TS
         PracticeTime = 53.879
         PracticeTimeVariance = 0.125
         QualifyTime = 53.879
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
-    }
-    Richmond
-    {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
-        PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -979,7 +1162,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 20.42
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
+        DrivingLine = HIGHLINE
     }
     Martinsville_Speedway
     {
@@ -1062,18 +1245,20 @@ SC2020TS
     }
     NIR
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.053
+        Recovery = 90
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 20.42
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.053
+        QualifyTime = 20.42
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = HIGHLINE
     }
     Phoenix_2016
     {
@@ -1107,18 +1292,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        Recovery = 90
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 20.42
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 20.42
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -1465,7 +1652,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 19.8
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
+        DrivingLine = FASTEST
     }
     Martinsville_Speedway
     {
@@ -1548,16 +1735,18 @@ SC2020TS
     }
     NIR
     {
-        Speed = 50
+        Tier = 1
+        Speed = 98
         QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.582
+        WetSpeed = 98
+        Aggression = 25
+        Composure = 92
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 90.00
+        PracticeTime = 19.85
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.582
+        QualifyTime = 19.8
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -1593,18 +1782,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
+        Tier = 1
+        Speed = 98
         QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        WetSpeed = 98
+        Aggression = 25
+        Composure = 92
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 90.00
+        PracticeTime = 19.85
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 19.8
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -1775,7 +1966,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 32
         QualifyTimeVariance = 0.125
-        DrivingLine = LOWLINE
+        DrivingLine = FASTEST,LOWLINE
     }
     Bristol_ONLINE
     {
@@ -2032,18 +2223,20 @@ SC2020TS
     }
     NIR
     {
-        Speed = 50
-        QualifySpeed = 98
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 22.689
+        Aggression = 55
+        Composure = 70
+        Recovery = 90
+        StartSkill = 88.00
+        MinRacingSkill = 83.00
+        PracticeTime = 19.9
         PracticeTimeVariance = 0.125
-        QualifyTime = 22.689
+        QualifyTime = 19.9
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Phoenix_2016
     {
@@ -2077,18 +2270,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
-        QualifySpeed = 98
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        Aggression = 55
+        Composure = 70
+        Recovery = 90
+        StartSkill = 88.00
+        MinRacingSkill = 83.00
+        PracticeTime = 19.9
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 19.9
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -2363,21 +2558,6 @@ SC2020TS
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    NIR
-    {
-        Speed = 100
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 100
-        Composure = 90
-        StartSkill = 98.00
-        MinRacingSkill = 98.00
-        PracticeTime = 23.483
-        PracticeTimeVariance = 0.125
-        QualifyTime = 23.483
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
-    }
     Phoenix_2016
     {
         Speed = 100
@@ -2405,21 +2585,6 @@ SC2020TS
         PracticeTime = 54.494
         PracticeTimeVariance = 0.125
         QualifyTime = 54.494
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
-    }
-    Richmond
-    {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
-        PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -2763,7 +2928,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 20.15
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
+        DrivingLine = HIGHLINE,FASTEST
     }
     Martinsville_Speedway
     {
@@ -2846,18 +3011,20 @@ SC2020TS
     }
     NIR
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 3
+        Speed = 82
+        QualifySpeed = 80
+        WetSpeed = 82
+        Aggression = 45
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 22.986
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        PracticeTime = 20.15
         PracticeTimeVariance = 0.125
-        QualifyTime = 22.986
+        QualifyTime = 20.15
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = HIGHLINE,FASTEST
     }
     Phoenix_2016
     {
@@ -2891,18 +3058,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 3
+        Speed = 82
+        QualifySpeed = 80
+        WetSpeed = 82
+        Aggression = 45
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        PracticeTime = 20.15
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 20.15
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -3332,18 +3501,20 @@ SC2020TS
     }
     NIR
     {
-        Speed = 99
-        QualifySpeed = 99
-        WetSpeed = 90
-        Aggression = 99
-        Composure = 97
-        StartSkill = 98.00
-        MinRacingSkill = 97.00
-        PracticeTime = 23.648
+        Tier = 2
+        Speed = 92
+        QualifySpeed = 90
+        WetSpeed = 92
+        Aggression = 60
+        Composure = 76
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 19.9
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.648
+        QualifyTime = 19.9
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Phoenix_2016
     {
@@ -3377,18 +3548,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        Tier = 2
+        Speed = 92
+        QualifySpeed = 90
+        WetSpeed = 92
+        Aggression = 60
+        Composure = 76
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 19.9
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 19.9
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -3730,7 +3903,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 20.45
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
+        DrivingLine = HIGHLINE
     }
     Martinsville_Speedway
     {
@@ -3813,18 +3986,20 @@ SC2020TS
     }
     NIR
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 22.821
+        Recovery = 90
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 20.45
         PracticeTimeVariance = 0.125
-        QualifyTime = 22.821
+        QualifyTime = 20.45
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = HIGHLINE
     }
     Phoenix_2016
     {
@@ -3858,18 +4033,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        Recovery = 90
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 20.45
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 20.45
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -4042,7 +4219,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 32
         QualifyTimeVariance = 0.125
-        DrivingLine = LOWLINE
+        DrivingLine = FASTEST,LOWLINE
     }
     Bristol_ONLINE
     {
@@ -4299,18 +4476,20 @@ SC2020TS
     }
     NIR
     {
-        Speed = 50
-        QualifySpeed = 98
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.185
+        Aggression = 55
+        Composure = 81
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 19.95
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.185
+        QualifyTime = 19.95
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Phoenix_2016
     {
@@ -4344,18 +4523,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
-        QualifySpeed = 98
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        Aggression = 55
+        Composure = 81
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 19.95
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 19.95
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -4702,7 +4883,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 19.9
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
+        DrivingLine = FASTEST
     }
     Martinsville_Speedway
     {
@@ -4785,16 +4966,18 @@ SC2020TS
     }
     NIR
     {
-        Speed = 100
-        QualifySpeed = 100
-        WetSpeed = 90
-        Aggression = 100
-        Composure = 100
-        StartSkill = 100.00
-        MinRacingSkill = 100.00
-        PracticeTime = 22.424
+        Tier = 2
+        Speed = 93
+        QualifySpeed = 90
+        WetSpeed = 93
+        Aggression = 55
+        Composure = 80
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        PracticeTime = 19.9
         PracticeTimeVariance = 0.125
-        QualifyTime = 22.424
+        QualifyTime = 19.9
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -4830,18 +5013,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        Tier = 2
+        Speed = 93
+        QualifySpeed = 90
+        WetSpeed = 93
+        Aggression = 55
+        Composure = 80
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        PracticeTime = 19.9
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 19.9
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -5188,7 +5373,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 19.85
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
+        DrivingLine = FASTEST
     }
     Martinsville_Speedway
     {
@@ -5271,16 +5456,18 @@ SC2020TS
     }
     NIR
     {
-        Speed = 50
+        Tier = 1
+        Speed = 98
         QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
+        WetSpeed = 98
+        Aggression = 65
+        Composure = 95
+        Recovery = 90
         StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 22.722
+        MinRacingSkill = 90.00
+        PracticeTime = 19.82
         PracticeTimeVariance = 0.125
-        QualifyTime = 22.722
+        QualifyTime = 19.85
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -5316,18 +5503,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
+        Tier = 1
+        Speed = 98
         QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
+        WetSpeed = 98
+        Aggression = 65
+        Composure = 95
+        Recovery = 90
         StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        MinRacingSkill = 90.00
+        PracticeTime = 19.82
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 19.85
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -5669,7 +5858,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 20.3
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
+        DrivingLine = HIGHLINE
     }
     Martinsville_Speedway
     {
@@ -5752,18 +5941,20 @@ SC2020TS
     }
     NIR
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 22.59
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 65
+        Recovery = 90
+        StartSkill = 80.00
+        MinRacingSkill = 70.00
+        PracticeTime = 20.3
         PracticeTimeVariance = 0.125
-        QualifyTime = 22.59
+        QualifyTime = 20.3
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = HIGHLINE
     }
     Phoenix_2016
     {
@@ -5797,18 +5988,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
+        Composure = 65
+        Recovery = 90
+        StartSkill = 80.00
+        MinRacingSkill = 70.00
+        PracticeTime = 20.3
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 20.3
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -6150,7 +6343,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 20.15
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
+        DrivingLine = HIGHLINE,FASTEST
     }
     Martinsville_Speedway
     {
@@ -6233,18 +6426,20 @@ SC2020TS
     }
     NIR
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 45
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.416
+        Recovery = 90
+        StartSkill = 80.00
+        MinRacingSkill = 70.00
+        PracticeTime = 20.15
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.416
+        QualifyTime = 20.15
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = HIGHLINE,FASTEST
     }
     Phoenix_2016
     {
@@ -6278,18 +6473,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 45
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        Recovery = 90
+        StartSkill = 80.00
+        MinRacingSkill = 70.00
+        PracticeTime = 20.15
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 20.15
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -6631,7 +6828,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 20.3
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
+        DrivingLine = HIGHLINE
     }
     Martinsville_Speedway
     {
@@ -6714,18 +6911,20 @@ SC2020TS
     }
     NIR
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.02
+        Recovery = 90
+        StartSkill = 80.00
+        MinRacingSkill = 68.00
+        PracticeTime = 20.3
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.02
+        QualifyTime = 20.3
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = HIGHLINE
     }
     Phoenix_2016
     {
@@ -6759,18 +6958,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        Recovery = 90
+        StartSkill = 80.00
+        MinRacingSkill = 68.00
+        PracticeTime = 20.3
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 20.3
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -7112,7 +7313,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 20.3
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
+        DrivingLine = HIGHLINE
     }
     Martinsville_Speedway
     {
@@ -7195,18 +7396,20 @@ SC2020TS
     }
     NIR
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.516
+        Recovery = 90
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 20.3
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.516
+        QualifyTime = 20.3
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = HIGHLINE
     }
     Phoenix_2016
     {
@@ -7240,18 +7443,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        Recovery = 90
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 20.3
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 20.3
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -7593,7 +7798,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 20.45
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
+        DrivingLine = HIGHLINE
     }
     Martinsville_Speedway
     {
@@ -7676,18 +7881,20 @@ SC2020TS
     }
     NIR
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.218
+        Recovery = 90
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 20.45
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.218
+        QualifyTime = 20.45
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = HIGHLINE
     }
     Phoenix_2016
     {
@@ -7721,18 +7928,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        Recovery = 90
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 20.45
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 20.45
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -8074,7 +8283,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 20.15
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
+        DrivingLine = HIGHLINE,FASTEST
     }
     Martinsville_Speedway
     {
@@ -8157,18 +8366,20 @@ SC2020TS
     }
     NIR
     {
-        Speed = 100
-        QualifySpeed = 99
-        WetSpeed = 90
-        Aggression = 95
-        Composure = 98
-        StartSkill = 98.00
-        MinRacingSkill = 98.00
-        PracticeTime = 23.648
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 25
+        Composure = 50
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTime = 20.15
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.648
+        QualifyTime = 20.15
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST2
+        DrivingLine = HIGHLINE,FASTEST
     }
     Phoenix_2016
     {
@@ -8202,18 +8413,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
+        Recovery = 90
+        StartSkill = 90.00
         MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        PracticeTime = 20.15
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 20.15
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -8560,7 +8773,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 19.88
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
+        DrivingLine = FASTEST
     }
     Martinsville_Speedway
     {
@@ -8643,16 +8856,18 @@ SC2020TS
     }
     NIR
     {
+        Tier = 1
         Speed = 98
         QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 99
-        Composure = 95
-        StartSkill = 98.00
-        MinRacingSkill = 97.00
-        PracticeTime = 22.391
+        WetSpeed = 98
+        Aggression = 65
+        Composure = 94
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 88.00
+        PracticeTime = 19.88
         PracticeTimeVariance = 0.125
-        QualifyTime = 22.391
+        QualifyTime = 19.88
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -8688,18 +8903,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
+        Tier = 1
+        Speed = 98
         QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        WetSpeed = 98
+        Aggression = 65
+        Composure = 94
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 88.00
+        PracticeTime = 19.88
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 19.88
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -9041,7 +9258,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 20.15
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
+        DrivingLine = HIGHLINE,FASTEST
     }
     Martinsville_Speedway
     {
@@ -9124,18 +9341,20 @@ SC2020TS
     }
     NIR
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 3
+        Speed = 82
+        QualifySpeed = 80
+        WetSpeed = 82
+        Aggression = 45
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.317
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 75.00
+        PracticeTime = 20.15
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.317
+        QualifyTime = 20.15
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = HIGHLINE,FASTEST
     }
     Phoenix_2016
     {
@@ -9169,18 +9388,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 3
+        Speed = 82
+        QualifySpeed = 80
+        WetSpeed = 82
+        Aggression = 45
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 75.00
+        PracticeTime = 20.15
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 20.15
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -9605,18 +9826,20 @@ SC2020TS
     }
     NIR
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 80
+        WetSpeed = 85
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 22.556
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 75.00
+        PracticeTime = 20
         PracticeTimeVariance = 0.125
-        QualifyTime = 22.556
+        QualifyTime = 20
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Phoenix_2016
     {
@@ -9650,18 +9873,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 80
+        WetSpeed = 85
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 75.00
+        PracticeTime = 20
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 20
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -10008,7 +10233,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 19.9
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
+        DrivingLine = FASTEST
     }
     Martinsville_Speedway
     {
@@ -10091,16 +10316,18 @@ SC2020TS
     }
     NIR
     {
-        Speed = 50
+        Tier = 1
+        Speed = 95
         QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.251
+        WetSpeed = 95
+        Aggression = 55
+        Composure = 81
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 19.9
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.251
+        QualifyTime = 19.9
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -10136,18 +10363,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
+        Tier = 1
+        Speed = 95
         QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        WetSpeed = 95
+        Aggression = 55
+        Composure = 81
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 19.9
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 19.9
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -10572,18 +10801,20 @@ SC2020TS
     }
     NIR
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 80
+        WetSpeed = 85
+        Aggression = 60
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 22.556
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 20
         PracticeTimeVariance = 0.125
-        QualifyTime = 22.556
+        QualifyTime = 20
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Phoenix_2016
     {
@@ -10617,18 +10848,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 80
+        WetSpeed = 85
+        Aggression = 60
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 20
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 20
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -10970,7 +11203,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 20.42
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
+        DrivingLine = HIGHLINE
     }
     Martinsville_Speedway
     {
@@ -11053,18 +11286,20 @@ SC2020TS
     }
     NIR
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.251
+        Recovery = 90
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 20.42
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.251
+        QualifyTime = 20.42
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = HIGHLINE
     }
     Phoenix_2016
     {
@@ -11098,18 +11333,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        Recovery = 90
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 20.42
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 20.42
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -11451,7 +11688,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 20.45
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
+        DrivingLine = HIGHLINE
     }
     Martinsville_Speedway
     {
@@ -11534,18 +11771,20 @@ SC2020TS
     }
     NIR
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.516
+        Recovery = 90
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 20.45
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.516
+        QualifyTime = 20.45
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = HIGHLINE
     }
     Phoenix_2016
     {
@@ -11579,18 +11818,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        Recovery = 90
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 20.45
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 20.45
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -11932,7 +12173,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 20.45
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
+        DrivingLine = HIGHLINE
     }
     Martinsville_Speedway
     {
@@ -12015,18 +12256,20 @@ SC2020TS
     }
     NIR
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
+        Recovery = 90
+        StartSkill = 80.00
         MinRacingSkill = 50.00
-        PracticeTime = 23.549
+        PracticeTime = 20.45
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.549
+        QualifyTime = 20.45
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = HIGHLINE
     }
     Phoenix_2016
     {
@@ -12060,18 +12303,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
+        Recovery = 90
+        StartSkill = 80.00
         MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        PracticeTime = 20.45
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 20.45
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -12413,7 +12658,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 20.3
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
+        DrivingLine = HIGHLINE
     }
     Martinsville_Speedway
     {
@@ -12496,18 +12741,20 @@ SC2020TS
     }
     NIR
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 22.49
+        Recovery = 90
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 20.3
         PracticeTimeVariance = 0.125
-        QualifyTime = 22.49
+        QualifyTime = 20.3
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = HIGHLINE
     }
     Phoenix_2016
     {
@@ -12541,18 +12788,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        Recovery = 90
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 20.3
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 20.3
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -12894,7 +13143,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 20.42
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
+        DrivingLine = HIGHLINE
     }
     Martinsville_Speedway
     {
@@ -12977,18 +13226,20 @@ SC2020TS
     }
     NIR
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 22.689
+        Recovery = 90
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 20.42
         PracticeTimeVariance = 0.125
-        QualifyTime = 22.689
+        QualifyTime = 20.42
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = HIGHLINE
     }
     Phoenix_2016
     {
@@ -13022,18 +13273,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        Recovery = 90
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 20.42
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 20.42
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -13380,7 +13633,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 19.9
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
+        DrivingLine = FASTEST
     }
     Martinsville_Speedway
     {
@@ -13463,16 +13716,18 @@ SC2020TS
     }
     NIR
     {
-        Speed = 99
+        Tier = 1
+        Speed = 95
         QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 95
-        Composure = 99
-        StartSkill = 98.00
-        MinRacingSkill = 97.00
-        PracticeTime = 23.35
+        WetSpeed = 95
+        Aggression = 65
+        Composure = 82
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 19.9
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.35
+        QualifyTime = 19.9
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -13508,18 +13763,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
+        Tier = 1
+        Speed = 95
         QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        WetSpeed = 95
+        Aggression = 65
+        Composure = 82
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 19.9
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 19.9
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -13861,7 +14118,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 20.3
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
+        DrivingLine = HIGHLINE
     }
     Martinsville_Speedway
     {
@@ -13944,18 +14201,20 @@ SC2020TS
     }
     NIR
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
+        Recovery = 90
+        StartSkill = 80.00
         MinRacingSkill = 50.00
-        PracticeTime = 22.556
+        PracticeTime = 20.3
         PracticeTimeVariance = 0.125
-        QualifyTime = 22.556
+        QualifyTime = 20.3
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = HIGHLINE
     }
     Phoenix_2016
     {
@@ -13989,18 +14248,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
+        Recovery = 90
+        StartSkill = 80.00
         MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        PracticeTime = 20.3
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 20.3
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -14342,7 +14603,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 20.3
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
+        DrivingLine = HIGHLINE
     }
     Martinsville_Speedway
     {
@@ -14425,18 +14686,20 @@ SC2020TS
     }
     NIR
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.45
+        Recovery = 90
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 20.3
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.45
+        QualifyTime = 20.3
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = HIGHLINE
     }
     Phoenix_2016
     {
@@ -14470,18 +14733,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        Recovery = 90
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 20.3
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 20.3
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -14823,7 +15088,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 20.3
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
+        DrivingLine = HIGHLINE,FASTEST
     }
     Martinsville_Speedway
     {
@@ -14906,18 +15171,20 @@ SC2020TS
     }
     NIR
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 80
+        WetSpeed = 75
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 22.556
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 75.00
+        PracticeTime = 20.3
         PracticeTimeVariance = 0.125
-        QualifyTime = 22.556
+        QualifyTime = 20.3
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = HIGHLINE,FASTEST
     }
     Phoenix_2016
     {
@@ -14951,18 +15218,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 80
+        WetSpeed = 75
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 75.00
+        PracticeTime = 20.3
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 20.3
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -15133,7 +15402,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 32
         QualifyTimeVariance = 0.125
-        DrivingLine = LOWLINE
+        DrivingLine = FASTEST,LOWLINE
     }
     Bristol_ONLINE
     {
@@ -15387,18 +15656,20 @@ SC2020TS
     }
     NIR
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 2
+        Speed = 86
+        QualifySpeed = 80
+        WetSpeed = 86
+        Aggression = 65
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 22.556
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 82.00
+        PracticeTime = 20
         PracticeTimeVariance = 0.125
-        QualifyTime = 22.556
+        QualifyTime = 20
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST,HIGHLINE
     }
     Phoenix_2016
     {
@@ -15432,18 +15703,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 2
+        Speed = 86
+        QualifySpeed = 80
+        WetSpeed = 86
+        Aggression = 65
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 82.00
+        PracticeTime = 20
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 20
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -15785,7 +16058,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 20.15
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
+        DrivingLine = HIGHLINE,FASTEST
     }
     Martinsville_Speedway
     {
@@ -15868,18 +16141,20 @@ SC2020TS
     }
     NIR
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 3
+        Speed = 81
+        QualifySpeed = 80
+        WetSpeed = 81
+        Aggression = 45
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 22.556
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 75.00
+        PracticeTime = 20.15
         PracticeTimeVariance = 0.125
-        QualifyTime = 22.556
+        QualifyTime = 20.15
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = HIGHLINE,FASTEST
     }
     Phoenix_2016
     {
@@ -15913,18 +16188,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 3
+        Speed = 81
+        QualifySpeed = 80
+        WetSpeed = 81
+        Aggression = 45
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 75.00
+        PracticeTime = 20.15
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 20.15
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -16266,7 +16543,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 20.65
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
+        DrivingLine = HIGHLINE
     }
     Martinsville_Speedway
     {
@@ -16349,18 +16626,20 @@ SC2020TS
     }
     NIR
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 5
+        Speed = 69.79
+        QualifySpeed = 70
+        WetSpeed = 69.79
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 22.556
+        Recovery = 90
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 20.56
         PracticeTimeVariance = 0.125
-        QualifyTime = 22.556
+        QualifyTime = 20.65
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = HIGHLINE
     }
     Phoenix_2016
     {
@@ -16394,18 +16673,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 5
+        Speed = 69.79
+        QualifySpeed = 70
+        WetSpeed = 69.79
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        Recovery = 90
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 20.56
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 20.65
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -16578,7 +16859,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 32
         QualifyTimeVariance = 0.125
-        DrivingLine = LOWLINE
+        DrivingLine = FASTEST,LOWLINE
     }
     Bristol_ONLINE
     {
@@ -16835,18 +17116,20 @@ SC2020TS
     }
     NIR
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 2
+        Speed = 87
+        QualifySpeed = 90
+        WetSpeed = 87
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 22.556
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 75.00
+        PracticeTime = 19.95
         PracticeTimeVariance = 0.125
-        QualifyTime = 22.556
+        QualifyTime = 19.95
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST,HIGHLINE
     }
     Phoenix_2016
     {
@@ -16880,18 +17163,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 2
+        Speed = 87
+        QualifySpeed = 90
+        WetSpeed = 87
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 75.00
+        PracticeTime = 19.95
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 19.95
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -17233,7 +17518,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 20.42
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
+        DrivingLine = HIGHLINE
     }
     Martinsville_Speedway
     {
@@ -17316,18 +17601,20 @@ SC2020TS
     }
     NIR
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 22.556
+        Recovery = 90
+        StartSkill = 80.00
+        MinRacingSkill = 70.00
+        PracticeTime = 20.42
         PracticeTimeVariance = 0.125
-        QualifyTime = 22.556
+        QualifyTime = 20.42
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = HIGHLINE
     }
     Phoenix_2016
     {
@@ -17361,18 +17648,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        Recovery = 90
+        StartSkill = 80.00
+        MinRacingSkill = 70.00
+        PracticeTime = 20.42
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 20.42
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -17714,7 +18003,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 20.15
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
+        DrivingLine = HIGHLINE,FASTEST
     }
     Martinsville_Speedway
     {
@@ -17797,18 +18086,20 @@ SC2020TS
     }
     NIR
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 3
+        Speed = 84
+        QualifySpeed = 80
+        WetSpeed = 77
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 22.556
+        Recovery = 90
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 20.15
         PracticeTimeVariance = 0.125
-        QualifyTime = 22.556
+        QualifyTime = 20.15
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = HIGHLINE,FASTEST
     }
     Phoenix_2016
     {
@@ -17842,18 +18133,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 3
+        Speed = 84
+        QualifySpeed = 80
+        WetSpeed = 77
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        Recovery = 90
+        StartSkill = 80.00
+        MinRacingSkill = 75.00
+        PracticeTime = 20.15
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 20.15
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -18026,7 +18319,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 32
         QualifyTimeVariance = 0.125
-        DrivingLine = LOWLINE
+        DrivingLine = FASTEST,LOWLINE
     }
     Bristol_ONLINE
     {
@@ -18283,18 +18576,20 @@ SC2020TS
     }
     NIR
     {
-        Speed = 50
-        QualifySpeed = 98
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 22.556
+        Aggression = 55
+        Composure = 81
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 19.95
         PracticeTimeVariance = 0.125
-        QualifyTime = 22.556
+        QualifyTime = 19.95
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST,HIGHLINE
     }
     Phoenix_2016
     {
@@ -18328,18 +18623,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
-        QualifySpeed = 98
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        Aggression = 55
+        Composure = 81
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 19.95
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 19.95
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -18512,7 +18809,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 32
         QualifyTimeVariance = 0.125
-        DrivingLine = LOWLINE
+        DrivingLine = FASTEST,LOWLINE
     }
     Bristol_ONLINE
     {
@@ -18769,18 +19066,20 @@ SC2020TS
     }
     NIR
     {
-        Speed = 50
-        QualifySpeed = 98
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 22.556
+        Aggression = 60
+        Composure = 76
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 19.95
         PracticeTimeVariance = 0.125
-        QualifyTime = 22.556
+        QualifyTime = 19.95
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST,HIGHLINE
     }
     Phoenix_2016
     {
@@ -18814,18 +19113,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
-        QualifySpeed = 98
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        Aggression = 60
+        Composure = 76
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 19.95
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 19.95
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -18998,7 +19299,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 32
         QualifyTimeVariance = 0.125
-        DrivingLine = LOWLINE
+        DrivingLine = FASTEST,LOWLINE
     }
     Bristol_ONLINE
     {
@@ -19255,18 +19556,20 @@ SC2020TS
     }
     NIR
     {
-        Speed = 50
-        QualifySpeed = 98
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 22.556
+        Aggression = 55
+        Composure = 81
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 19.95
         PracticeTimeVariance = 0.125
-        QualifyTime = 22.556
+        QualifyTime = 19.95
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST,HIGHLINE
     }
     Phoenix_2016
     {
@@ -19300,18 +19603,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
-        QualifySpeed = 98
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        Aggression = 55
+        Composure = 81
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 19.95
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 19.95
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -19653,7 +19958,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 20.3
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
+        DrivingLine = HIGHLINE
     }
     Martinsville_Speedway
     {
@@ -19736,18 +20041,20 @@ SC2020TS
     }
     NIR
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 80
+        WetSpeed = 75
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 22.556
+        Recovery = 90
+        StartSkill = 80.00
+        MinRacingSkill = 70.00
+        PracticeTime = 20.3
         PracticeTimeVariance = 0.125
-        QualifyTime = 22.556
+        QualifyTime = 20.3
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = HIGHLINE
     }
     Phoenix_2016
     {
@@ -19781,18 +20088,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 80
+        WetSpeed = 75
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        Recovery = 90
+        StartSkill = 80.00
+        MinRacingSkill = 70.00
+        PracticeTime = 20.3
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 20.3
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -20139,7 +20448,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 19.725
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
+        DrivingLine = FASTEST
     }
     Martinsville_Speedway
     {
@@ -20222,18 +20531,20 @@ SC2020TS
     }
     NIR
     {
-        Speed = 50
+        Tier = 1
+        Speed = 100
         QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 22.556
+        WetSpeed = 100
+        Aggression = 75
+        Composure = 95
+        Recovery = 90
+        StartSkill = 90.10
+        MinRacingSkill = 90.10
+        PracticeTime = 19.79
         PracticeTimeVariance = 0.125
-        QualifyTime = 22.556
+        QualifyTime = 19.725
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST
     }
     Phoenix_2016
     {
@@ -20267,18 +20578,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
+        Tier = 1
+        Speed = 100
         QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        WetSpeed = 100
+        Aggression = 75
+        Composure = 95
+        Recovery = 90
+        StartSkill = 90.10
+        MinRacingSkill = 90.10
+        PracticeTime = 19.79
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 19.725
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -20451,7 +20764,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 32
         QualifyTimeVariance = 0.125
-        DrivingLine = LOWLINE
+        DrivingLine = FASTEST,LOWLINE
     }
     Bristol_ONLINE
     {
@@ -20708,18 +21021,20 @@ SC2020TS
     }
     NIR
     {
-        Speed = 50
-        QualifySpeed = 98
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 22.556
+        Aggression = 55
+        Composure = 81
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 19.95
         PracticeTimeVariance = 0.125
-        QualifyTime = 22.556
+        QualifyTime = 19.95
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = FASTEST,HIGHLINE
     }
     Phoenix_2016
     {
@@ -20753,18 +21068,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
-        QualifySpeed = 98
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        Aggression = 55
+        Composure = 81
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTime = 19.95
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 19.95
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -21106,7 +21423,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 20.3
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
+        DrivingLine = HIGHLINE
     }
     Martinsville_Speedway
     {
@@ -21189,18 +21506,20 @@ SC2020TS
     }
     NIR
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
+        Recovery = 90
+        StartSkill = 80.00
         MinRacingSkill = 50.00
-        PracticeTime = 22.556
+        PracticeTime = 20.3
         PracticeTimeVariance = 0.125
-        QualifyTime = 22.556
+        QualifyTime = 20.3
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
+        DrivingLine = HIGHLINE
     }
     Phoenix_2016
     {
@@ -21234,18 +21553,20 @@ SC2020TS
     }
     Richmond
     {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
+        Tier = 5
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 25
         Composure = 50
-        StartSkill = 98.00
+        Recovery = 90
+        StartSkill = 80.00
         MinRacingSkill = 50.00
-        PracticeTime = 23.284
+        PracticeTime = 20.3
         PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
+        QualifyTime = 20.3
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -21482,7 +21803,7 @@ SC2020TS
         PracticeTimeVariance = 0.125
         QualifyTime = 20
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
+        DrivingLine = HIGHLINE,FASTEST
     }
     Martinsville_Speedway
     {
@@ -21502,6 +21823,40 @@ SC2020TS
         DrivingLine = FASTEST,HIGHLINE
     }
     North_Wilkesboro
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 80
+        WetSpeed = 85
+        Aggression = 47
+        Composure = 50
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 75.00
+        PracticeTime = 20
+        PracticeTimeVariance = 0.125
+        QualifyTime = 20
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    NIR
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 80
+        WetSpeed = 85
+        Aggression = 47
+        Composure = 50
+        Recovery = 90
+        StartSkill = 90.00
+        MinRacingSkill = 75.00
+        PracticeTime = 20
+        PracticeTimeVariance = 0.125
+        QualifyTime = 20
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
+    Richmond
     {
         Tier = 2
         Speed = 85
@@ -21689,21 +22044,6 @@ SC2020TS
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
     }
-    NIR
-    {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 22.556
-        PracticeTimeVariance = 0.125
-        QualifyTime = 22.556
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
-    }
     Phoenix_2016
     {
         Speed = 50
@@ -21733,21 +22073,6 @@ SC2020TS
         QualifyTime = 54.109
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST, FASTEST2, FASTEST3, FASTEST4
-    }
-    Richmond
-    {
-        Speed = 50
-        QualifySpeed = 98
-        WetSpeed = 90
-        Aggression = 50
-        Composure = 50
-        StartSkill = 98.00
-        MinRacingSkill = 50.00
-        PracticeTime = 23.284
-        PracticeTimeVariance = 0.125
-        QualifyTime = 23.284
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
     }
     Road_America_GP
     {
