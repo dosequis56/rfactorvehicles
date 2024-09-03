@@ -1,0 +1,2455 @@
+//[[gMb1.002f (c)2015    ]] [[            ]]
+Formula_1_2024
+{
+  default
+  {
+    // The 'step' values control how far ahead AI looks at various speeds.  This effects braking, cornering etc
+    // Looking too far ahead makes the AI cut corners and potentially hit walls.
+    // Not looking far enough promotes twitchy turning reactions by AI cars.
+
+    StepDistance = 2.00                      // distance of each step is 2.00 meters
+    StepSpeed1 = 15.00                       // look ahead 2 meters (6.562 feet) at 54 KPH 33.5535 MPH
+    StepSpeed2 = 25.00                       // look ahead 4 meters (13.124 feet) at 90 KPH 55.9225 MPH
+    StepSpeed3 = 30.00                       // look ahead 6 meters (19.685999 feet) at 108 KPH 67.107 MPH
+    StepSpeed4 = 35.00                       // look ahead 8 meters (26.248 feet) at 126 KPH 78.291504 MPH
+    StepSpeed5 = 40.00                       // look ahead 10 meters (32.809998 feet) at 144 KPH 89.476006 MPH
+    StepSpeed6 = 48.00                       // look ahead 12 meters (39.371998 feet) at 172.79999 KPH 107.3712 MPH
+    StepSpeed7 = 55.00                       // look ahead 14 meters (45.934 feet) at 198 KPH 123.0295 MPH
+    StepSpeed8 = 70.00                       // look ahead 16 meters (52.496 feet) at 252 KPH 156.58301 MPH
+    UnderSteerEffectOnThrottleMulti = 130.00
+    UnderSteerEffectOnLineMulti = 100.00
+    OverSteerThrottleReaction = -55.00       // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+    CorneringCaution = 99.00                 // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+    FearOfWalls = 99.00                      // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+    DrivingLine = FASTEST,FAST_ALT2,FAST_ALT1
+    F1_ORIGINAL_STEPS
+    {
+      StepDistance = 2.00                    // distance of each step is 2.00 meters
+      StepSpeed1 = 10.00                     // look ahead 2 meters (6.562 feet) at 36 KPH 22.369001 MPH
+      StepSpeed2 = 15.00                     // look ahead 4 meters (13.124 feet) at 54 KPH 33.5535 MPH
+      StepSpeed3 = 20.00                     // look ahead 6 meters (19.685999 feet) at 72 KPH 44.738003 MPH
+      StepSpeed4 = 28.00                     // look ahead 8 meters (26.248 feet) at 100.799995 KPH 62.6332 MPH
+      StepSpeed5 = 40.00                     // look ahead 10 meters (32.809998 feet) at 144 KPH 89.476006 MPH
+      StepSpeed6 = 55.00                     // look ahead 12 meters (39.371998 feet) at 198 KPH 123.0295 MPH
+      StepSpeed7 = 70.00                     // look ahead 14 meters (45.934 feet) at 252 KPH 156.58301 MPH
+      StepSpeed8 = 85.00                     // look ahead 16 meters (52.496 feet) at 306 KPH 190.1365 MPH
+      CorneringCaution = 99.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 99.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+    }
+    F1_Interlagos
+    {
+      StepDistance = 2.00                    // distance of each step is 2.00 meters
+      StepSpeed1 = 15.00                     // look ahead 2 meters (6.562 feet) at 54 KPH 33.5535 MPH
+      StepSpeed2 = 25.00                     // look ahead 4 meters (13.124 feet) at 90 KPH 55.9225 MPH
+      StepSpeed3 = 30.00                     // look ahead 6 meters (19.685999 feet) at 108 KPH 67.107 MPH
+      StepSpeed4 = 35.00                     // look ahead 8 meters (26.248 feet) at 126 KPH 78.291504 MPH
+      StepSpeed5 = 40.00                     // look ahead 10 meters (32.809998 feet) at 144 KPH 89.476006 MPH
+      StepSpeed6 = 48.00                     // look ahead 12 meters (39.371998 feet) at 172.79999 KPH 107.3712 MPH
+      StepSpeed7 = 55.00                     // look ahead 14 meters (45.934 feet) at 198 KPH 123.0295 MPH
+      StepSpeed8 = 70.00                     // look ahead 16 meters (52.496 feet) at 252 KPH 156.58301 MPH
+      UnderSteerEffectOnThrottleMulti = 130.00
+      UnderSteerEffectOnLineMulti = 100.00
+      OverSteerThrottleReaction = -55.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 99.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 99.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST,FAST_ALT2,FAST_ALT1
+    }
+    F1_Montreal
+    {
+      StepDistance = 2.00                    // distance of each step is 2.00 meters
+      StepSpeed1 = 15.00                     // look ahead 2 meters (6.562 feet) at 54 KPH 33.5535 MPH
+      StepSpeed2 = 25.00                     // look ahead 4 meters (13.124 feet) at 90 KPH 55.9225 MPH
+      StepSpeed3 = 30.00                     // look ahead 6 meters (19.685999 feet) at 108 KPH 67.107 MPH
+      StepSpeed4 = 35.00                     // look ahead 8 meters (26.248 feet) at 126 KPH 78.291504 MPH
+      StepSpeed5 = 40.00                     // look ahead 10 meters (32.809998 feet) at 144 KPH 89.476006 MPH
+      StepSpeed6 = 48.00                     // look ahead 12 meters (39.371998 feet) at 172.79999 KPH 107.3712 MPH
+      StepSpeed7 = 55.00                     // look ahead 14 meters (45.934 feet) at 198 KPH 123.0295 MPH
+      StepSpeed8 = 70.00                     // look ahead 16 meters (52.496 feet) at 252 KPH 156.58301 MPH
+      UnderSteerEffectOnThrottleMulti = 130.00
+      UnderSteerEffectOnLineMulti = 100.00
+      OverSteerThrottleReaction = -55.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 99.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 99.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST,FAST_ALT2,FAST_ALT1
+    }
+    F1_Monaco
+    {
+      StepDistance = 2.00                    // distance of each step is 2.00 meters
+      StepSpeed1 = 15.00                     // look ahead 2 meters (6.562 feet) at 54 KPH 33.5535 MPH
+      StepSpeed2 = 25.00                     // look ahead 4 meters (13.124 feet) at 90 KPH 55.9225 MPH
+      StepSpeed3 = 30.00                     // look ahead 6 meters (19.685999 feet) at 108 KPH 67.107 MPH
+      StepSpeed4 = 35.00                     // look ahead 8 meters (26.248 feet) at 126 KPH 78.291504 MPH
+      StepSpeed5 = 40.00                     // look ahead 10 meters (32.809998 feet) at 144 KPH 89.476006 MPH
+      StepSpeed6 = 48.00                     // look ahead 12 meters (39.371998 feet) at 172.79999 KPH 107.3712 MPH
+      StepSpeed7 = 55.00                     // look ahead 14 meters (45.934 feet) at 198 KPH 123.0295 MPH
+      StepSpeed8 = 70.00                     // look ahead 16 meters (52.496 feet) at 252 KPH 156.58301 MPH
+      UnderSteerEffectOnThrottleMulti = 130.00
+      UnderSteerEffectOnLineMulti = 100.00
+      OverSteerThrottleReaction = -55.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 99.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 99.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST,FAST_ALT2,FAST_ALT1
+    }
+    GPVWC_Spa_2019
+    {
+      StepDistance = 2.00                    // distance of each step is 2.00 meters
+      StepSpeed1 = 15.00                     // look ahead 2 meters (6.562 feet) at 54 KPH 33.5535 MPH
+      StepSpeed2 = 25.00                     // look ahead 4 meters (13.124 feet) at 90 KPH 55.9225 MPH
+      StepSpeed3 = 30.00                     // look ahead 6 meters (19.685999 feet) at 108 KPH 67.107 MPH
+      StepSpeed4 = 35.00                     // look ahead 8 meters (26.248 feet) at 126 KPH 78.291504 MPH
+      StepSpeed5 = 40.00                     // look ahead 10 meters (32.809998 feet) at 144 KPH 89.476006 MPH
+      StepSpeed6 = 48.00                     // look ahead 12 meters (39.371998 feet) at 172.79999 KPH 107.3712 MPH
+      StepSpeed7 = 55.00                     // look ahead 14 meters (45.934 feet) at 198 KPH 123.0295 MPH
+      StepSpeed8 = 70.00                     // look ahead 16 meters (52.496 feet) at 252 KPH 156.58301 MPH
+      UnderSteerEffectOnThrottleMulti = 130.00
+      UnderSteerEffectOnLineMulti = 100.00
+      OverSteerThrottleReaction = -55.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 99.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 99.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST,FAST_ALT2,FAST_ALT1
+    }
+    F1_YasMarina
+    {
+      StepDistance = 2.00                    // distance of each step is 2.00 meters
+      StepSpeed1 = 15.00                     // look ahead 2 meters (6.562 feet) at 54 KPH 33.5535 MPH
+      StepSpeed2 = 25.00                     // look ahead 4 meters (13.124 feet) at 90 KPH 55.9225 MPH
+      StepSpeed3 = 30.00                     // look ahead 6 meters (19.685999 feet) at 108 KPH 67.107 MPH
+      StepSpeed4 = 35.00                     // look ahead 8 meters (26.248 feet) at 126 KPH 78.291504 MPH
+      StepSpeed5 = 40.00                     // look ahead 10 meters (32.809998 feet) at 144 KPH 89.476006 MPH
+      StepSpeed6 = 48.00                     // look ahead 12 meters (39.371998 feet) at 172.79999 KPH 107.3712 MPH
+      StepSpeed7 = 55.00                     // look ahead 14 meters (45.934 feet) at 198 KPH 123.0295 MPH
+      StepSpeed8 = 70.00                     // look ahead 16 meters (52.496 feet) at 252 KPH 156.58301 MPH
+      UnderSteerEffectOnThrottleMulti = 130.00
+      UnderSteerEffectOnLineMulti = 100.00
+      OverSteerThrottleReaction = -55.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 99.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 99.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST,FAST_ALT2,FAST_ALT1
+    }
+  }
+  Tom Hansen
+  {
+    Tier = 1
+    Speed = 100
+    QualifySpeed = 100
+    WetSpeed = 100
+    Aggression = 75
+    Composure = 100
+    Recovery = 100
+    CorneringCaution = 40                    // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+    FearOfWalls = 75                         // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+    StartSkill = 100.00
+    MinRacingSkill = 90.00
+    Crash = 0.0
+    ExtraDragCoefficient = 0
+    DrivingLine = FASTEST
+    Nationality = Danish
+    DateofBirth = 26-9-1962
+    Starts = 150
+    Wins = 50
+    DriversChampionships = 5
+    F1_Interlagos
+    {
+        Tier = 1
+        Speed = 100
+        QualifySpeed = 100
+        WetSpeed = 100
+        Aggression = 75
+        Composure = 100
+        Recovery = 100
+        CorneringCaution = 40                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 75                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 100.00
+        MinRacingSkill = 90.00
+        Crash = 0.0
+        ExtraDragCoefficient = 0
+        DrivingLine = FASTEST
+        Nationality = Danish
+        DateofBirth = 26-9-1962
+        Starts = 150
+        Wins = 50
+        DriversChampionships = 5
+    }
+    F1_Montreal
+    {
+        Tier = 1
+        Speed = 100
+        QualifySpeed = 100
+        WetSpeed = 100
+        Aggression = 75
+        Composure = 100
+        Recovery = 100
+        CorneringCaution = 40                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 75                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 100.00
+        MinRacingSkill = 90.00
+        Crash = 0.0
+        ExtraDragCoefficient = 0
+        DrivingLine = FASTEST
+        Nationality = Danish
+        DateofBirth = 26-9-1962
+        Starts = 150
+        Wins = 50
+        DriversChampionships = 5
+    }
+    GPVWC_Spa_2019
+    {
+        Tier = 1
+        Speed = 100
+        QualifySpeed = 100
+        WetSpeed = 100
+        Aggression = 75
+        Composure = 100
+        Recovery = 100
+        CorneringCaution = 40                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 75                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 100.00
+        MinRacingSkill = 90.00
+        Crash = 0.0
+        ExtraDragCoefficient = 0
+        DrivingLine = FASTEST
+        Nationality = Danish
+        DateofBirth = 26-9-1962
+        Starts = 150
+        Wins = 50
+        DriversChampionships = 5
+    }
+    F1_YasMarina
+    {
+        Tier = 1
+        Speed = 100
+        QualifySpeed = 100
+        WetSpeed = 100
+        Aggression = 75
+        Composure = 100
+        Recovery = 100
+        CorneringCaution = 40                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 75                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 100.00
+        MinRacingSkill = 90.00
+        Crash = 0.0
+        ExtraDragCoefficient = 0
+        DrivingLine = FASTEST
+        Nationality = Danish
+        DateofBirth = 26-9-1962
+        Starts = 150
+        Wins = 50
+        DriversChampionships = 5
+    }
+  }
+  Travis Hansen
+  {
+    Tier = 1
+    Speed = 100
+    QualifySpeed = 100
+    WetSpeed = 100
+    Aggression = 75
+    Composure = 100
+    Recovery = 100
+    CorneringCaution = 40                    // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+    FearOfWalls = 75                         // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+    StartSkill = 100.00
+    MinRacingSkill = 90.00
+    Crash = 0.0
+    ExtraDragCoefficient = 0
+    DrivingLine = FASTEST
+    Nationality = USA
+    DateofBirth = 16-10-1995
+    Starts = 150
+    Wins = 50
+    DriversChampionships = 5
+    F1_Interlagos
+    {
+        Tier = 1
+        Speed = 100
+        QualifySpeed = 100
+        WetSpeed = 100
+        Aggression = 75
+        Composure = 100
+        Recovery = 100
+        CorneringCaution = 40                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 75                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 100.00
+        MinRacingSkill = 90.00
+        Crash = 0.0
+        ExtraDragCoefficient = 0
+        DrivingLine = FASTEST
+        Nationality = USA
+        DateofBirth = 16-10-1995
+        Starts = 150
+        Wins = 50
+        DriversChampionships = 5
+    }
+    F1_Montreal
+    {
+        Tier = 1
+        Speed = 100
+        QualifySpeed = 100
+        WetSpeed = 100
+        Aggression = 75
+        Composure = 100
+        Recovery = 100
+        CorneringCaution = 40                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 75                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 100.00
+        MinRacingSkill = 90.00
+        Crash = 0.0
+        ExtraDragCoefficient = 0
+        DrivingLine = FASTEST
+        Nationality = USA
+        DateofBirth = 16-10-1995
+        Starts = 150
+        Wins = 50
+        DriversChampionships = 5
+    }
+    GPVWC_Spa_2019
+    {
+        Tier = 1
+        Speed = 100
+        QualifySpeed = 100
+        WetSpeed = 100
+        Aggression = 75
+        Composure = 100
+        Recovery = 100
+        CorneringCaution = 40                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 75                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 100.00
+        MinRacingSkill = 90.00
+        Crash = 0.0
+        ExtraDragCoefficient = 0
+        DrivingLine = FASTEST
+        Nationality = USA
+        DateofBirth = 16-10-1995
+        Starts = 150
+        Wins = 50
+        DriversChampionships = 5
+    }
+    F1_YasMarina
+    {
+        Tier = 1
+        Speed = 100
+        QualifySpeed = 100
+        WetSpeed = 100
+        Aggression = 75
+        Composure = 100
+        Recovery = 100
+        CorneringCaution = 40                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 75                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 100.00
+        MinRacingSkill = 90.00
+        Crash = 0.0
+        ExtraDragCoefficient = 0
+        DrivingLine = FASTEST
+        Nationality = USA
+        DateofBirth = 16-10-1995
+        Starts = 150
+        Wins = 50
+        DriversChampionships = 5
+    }
+  }
+  Max Verstappen
+  {
+    Tier = 2
+    Speed = 90
+    QualifySpeed = 92
+    WetSpeed = 90
+    Aggression = 70
+    Composure = 95
+    Recovery = 100
+    CorneringCaution = 55                    // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+    FearOfWalls = 90                         // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+    StartSkill = 95.00
+    MinRacingSkill = 85.00
+    Crash = 0.0
+    ExtraDragCoefficient = 0
+    DrivingLine = FASTEST
+    Nationality = Dutch
+    DateofBirth = 30-9-1997
+    Starts = 162
+    Wins = 43
+    DriversChampionships = 3
+    F1_Interlagos
+    {
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 92
+        WetSpeed = 90
+        Aggression = 70
+        Composure = 95
+        Recovery = 100
+        CorneringCaution = 55                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 90                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 95.00
+        MinRacingSkill = 85.00
+        Crash = 0.0
+        ExtraDragCoefficient = 0
+        DrivingLine = FASTEST
+        Nationality = Dutch
+        DateofBirth = 30-9-1997
+        Starts = 162
+        Wins = 43
+        DriversChampionships = 3
+    }
+    F1_Montreal
+    {
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 92
+        WetSpeed = 90
+        Aggression = 70
+        Composure = 95
+        Recovery = 100
+        CorneringCaution = 55                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 90                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 95.00
+        MinRacingSkill = 85.00
+        Crash = 0.0
+        ExtraDragCoefficient = 0
+        DrivingLine = FASTEST
+        Nationality = Dutch
+        DateofBirth = 30-9-1997
+        Starts = 162
+        Wins = 43
+        DriversChampionships = 3
+    }
+    GPVWC_Spa_2019
+    {
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 92
+        WetSpeed = 90
+        Aggression = 70
+        Composure = 95
+        Recovery = 100
+        CorneringCaution = 55                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 90                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 95.00
+        MinRacingSkill = 85.00
+        Crash = 0.0
+        ExtraDragCoefficient = 0
+        DrivingLine = FASTEST
+        Nationality = Dutch
+        DateofBirth = 30-9-1997
+        Starts = 162
+        Wins = 43
+        DriversChampionships = 3
+    }
+    F1_YasMarina
+    {
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 92
+        WetSpeed = 90
+        Aggression = 70
+        Composure = 95
+        Recovery = 100
+        CorneringCaution = 55                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 90                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 95.00
+        MinRacingSkill = 85.00
+        Crash = 0.0
+        ExtraDragCoefficient = 0
+        DrivingLine = FASTEST
+        Nationality = Dutch
+        DateofBirth = 30-9-1997
+        Starts = 162
+        Wins = 43
+        DriversChampionships = 3
+    }
+  }
+  Sergio Perez
+  {
+    Tier = 2
+    Speed = 82
+    QualifySpeed = 80
+    WetSpeed = 82
+    Aggression = 45
+    Composure = 60
+    Recovery = 95
+    CorneringCaution = 55                    // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+    FearOfWalls = 90                         // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+    StartSkill = 85.00
+    MinRacingSkill = 75.00
+    Crash = 5.5
+    ExtraDragCoefficient = 0
+    Nationality = Mexican
+    DateofBirth = 1/26/1990 12:00:00 AM
+    Starts = 238
+    Wins = 4
+    DriversChampionships = 0
+    F1_Interlagos
+    {
+        Tier = 2
+        Speed = 82
+        QualifySpeed = 80
+        WetSpeed = 82
+        Aggression = 45
+        Composure = 60
+        Recovery = 95
+        CorneringCaution = 55                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 90                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 85.00
+        MinRacingSkill = 75.00
+        Crash = 5.5
+        ExtraDragCoefficient = 0
+        Nationality = Mexican
+        DateofBirth = 1/26/1990 12:00:00 AM
+        Starts = 238
+        Wins = 4
+        DriversChampionships = 0
+    }
+    F1_Montreal
+    {
+        Tier = 2
+        Speed = 82
+        QualifySpeed = 80
+        WetSpeed = 82
+        Aggression = 45
+        Composure = 60
+        Recovery = 95
+        CorneringCaution = 55                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 90                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 85.00
+        MinRacingSkill = 75.00
+        Crash = 5.5
+        ExtraDragCoefficient = 0
+        Nationality = Mexican
+        DateofBirth = 1/26/1990 12:00:00 AM
+        Starts = 238
+        Wins = 4
+        DriversChampionships = 0
+    }
+    GPVWC_Spa_2019
+    {
+        Tier = 2
+        Speed = 82
+        QualifySpeed = 80
+        WetSpeed = 82
+        Aggression = 45
+        Composure = 60
+        Recovery = 95
+        CorneringCaution = 55                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 90                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 85.00
+        MinRacingSkill = 75.00
+        Crash = 5.5
+        ExtraDragCoefficient = 0
+        Nationality = Mexican
+        DateofBirth = 1/26/1990 12:00:00 AM
+        Starts = 238
+        Wins = 4
+        DriversChampionships = 0
+    }
+    F1_YasMarina
+    {
+        Tier = 2
+        Speed = 82
+        QualifySpeed = 80
+        WetSpeed = 82
+        Aggression = 45
+        Composure = 60
+        Recovery = 95
+        CorneringCaution = 55                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 90                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 85.00
+        MinRacingSkill = 75.00
+        Crash = 5.5
+        ExtraDragCoefficient = 0
+        Nationality = Mexican
+        DateofBirth = 1/26/1990 12:00:00 AM
+        Starts = 238
+        Wins = 4
+        DriversChampionships = 0
+    }
+  }
+  Lewis Hamilton
+  {
+    Tier = 2
+    Speed = 90
+    QualifySpeed = 92
+    WetSpeed = 90
+    Aggression = 57
+    Composure = 95
+    Recovery = 100
+    CorneringCaution = 55                    // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+    FearOfWalls = 90                         // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+    StartSkill = 92.00
+    MinRacingSkill = 85.00
+    Crash = 2.0
+    ExtraDragCoefficient = 25
+    Nationality = British
+    DateofBirth = 7/1/1985 12:00:00 AM
+    Starts = 309
+    Wins = 103
+    DriversChampionships = 7
+    F1_Interlagos
+    {
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 92
+        WetSpeed = 90
+        Aggression = 57
+        Composure = 95
+        Recovery = 100
+        CorneringCaution = 55                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 90                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 92.00
+        MinRacingSkill = 85.00
+        Crash = 2.0
+        ExtraDragCoefficient = 25
+        Nationality = British
+        DateofBirth = 7/1/1985 12:00:00 AM
+        Starts = 309
+        Wins = 103
+        DriversChampionships = 7
+    }
+    F1_Montreal
+    {
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 92
+        WetSpeed = 90
+        Aggression = 57
+        Composure = 95
+        Recovery = 100
+        CorneringCaution = 55                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 90                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 92.00
+        MinRacingSkill = 85.00
+        Crash = 2.0
+        ExtraDragCoefficient = 25
+        Nationality = British
+        DateofBirth = 7/1/1985 12:00:00 AM
+        Starts = 309
+        Wins = 103
+        DriversChampionships = 7
+    }
+    GPVWC_Spa_2019
+    {
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 92
+        WetSpeed = 90
+        Aggression = 57
+        Composure = 95
+        Recovery = 100
+        CorneringCaution = 55                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 90                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 92.00
+        MinRacingSkill = 85.00
+        Crash = 2.0
+        ExtraDragCoefficient = 25
+        Nationality = British
+        DateofBirth = 7/1/1985 12:00:00 AM
+        Starts = 309
+        Wins = 103
+        DriversChampionships = 7
+    }
+    F1_YasMarina
+    {
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 92
+        WetSpeed = 90
+        Aggression = 57
+        Composure = 95
+        Recovery = 100
+        CorneringCaution = 55                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 90                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 92.00
+        MinRacingSkill = 85.00
+        Crash = 2.0
+        ExtraDragCoefficient = 25
+        Nationality = British
+        DateofBirth = 7/1/1985 12:00:00 AM
+        Starts = 309
+        Wins = 103
+        DriversChampionships = 7
+    }
+  }
+  George Russell
+  {
+    Tier = 2
+    Speed = 90
+    QualifySpeed = 94
+    WetSpeed = 90
+    Aggression = 35
+    Composure = 85
+    Recovery = 85
+    CorneringCaution = 55                    // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+    FearOfWalls = 90                         // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+    StartSkill = 89.00
+    MinRacingSkill = 80.00
+    Crash = 4.0
+    ExtraDragCoefficient = 25
+    Nationality = British
+    DateofBirth = 2/15/1998 12:00:00 AM
+    Starts = 81
+    Wins = 1
+    DriversChampionships = 0
+    F1_Interlagos
+    {
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 94
+        WetSpeed = 90
+        Aggression = 35
+        Composure = 85
+        Recovery = 85
+        CorneringCaution = 55                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 90                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 89.00
+        MinRacingSkill = 80.00
+        Crash = 4.0
+        ExtraDragCoefficient = 25
+        Nationality = British
+        DateofBirth = 2/15/1998 12:00:00 AM
+        Starts = 81
+        Wins = 1
+        DriversChampionships = 0
+    }
+    F1_Montreal
+    {
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 94
+        WetSpeed = 90
+        Aggression = 35
+        Composure = 85
+        Recovery = 85
+        CorneringCaution = 55                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 90                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 89.00
+        MinRacingSkill = 80.00
+        Crash = 4.0
+        ExtraDragCoefficient = 25
+        Nationality = British
+        DateofBirth = 2/15/1998 12:00:00 AM
+        Starts = 81
+        Wins = 1
+        DriversChampionships = 0
+    }
+    GPVWC_Spa_2019
+    {
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 94
+        WetSpeed = 90
+        Aggression = 35
+        Composure = 85
+        Recovery = 85
+        CorneringCaution = 55                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 90                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 89.00
+        MinRacingSkill = 80.00
+        Crash = 4.0
+        ExtraDragCoefficient = 25
+        Nationality = British
+        DateofBirth = 2/15/1998 12:00:00 AM
+        Starts = 81
+        Wins = 1
+        DriversChampionships = 0
+    }
+    F1_YasMarina
+    {
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 94
+        WetSpeed = 90
+        Aggression = 35
+        Composure = 85
+        Recovery = 85
+        CorneringCaution = 55                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 90                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 89.00
+        MinRacingSkill = 80.00
+        Crash = 4.0
+        ExtraDragCoefficient = 25
+        Nationality = British
+        DateofBirth = 2/15/1998 12:00:00 AM
+        Starts = 81
+        Wins = 1
+        DriversChampionships = 0
+    }
+  }
+  Charles Leclerc
+  {
+    Tier = 2
+    Speed = 90
+    QualifySpeed = 93
+    WetSpeed = 90
+    Aggression = 40
+    Composure = 80
+    Recovery = 100
+    CorneringCaution = 55                    // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+    FearOfWalls = 90                         // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+    StartSkill = 92.00
+    MinRacingSkill = 70.00
+    Crash = 2.0
+    ExtraDragCoefficient = 25
+    Nationality = Monaco
+    DateofBirth = 10/16/1997 12:00:00 AM
+    Starts = 102
+    Wins = 5
+    DriversChampionships = 0
+    F1_Interlagos
+    {
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 93
+        WetSpeed = 90
+        Aggression = 40
+        Composure = 80
+        Recovery = 100
+        CorneringCaution = 55                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 90                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 92.00
+        MinRacingSkill = 70.00
+        Crash = 2.0
+        ExtraDragCoefficient = 25
+        Nationality = Monaco
+        DateofBirth = 10/16/1997 12:00:00 AM
+        Starts = 102
+        Wins = 5
+        DriversChampionships = 0
+    }
+    F1_Montreal
+    {
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 93
+        WetSpeed = 90
+        Aggression = 40
+        Composure = 80
+        Recovery = 100
+        CorneringCaution = 55                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 90                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 92.00
+        MinRacingSkill = 70.00
+        Crash = 2.0
+        ExtraDragCoefficient = 25
+        Nationality = Monaco
+        DateofBirth = 10/16/1997 12:00:00 AM
+        Starts = 102
+        Wins = 5
+        DriversChampionships = 0
+    }
+    GPVWC_Spa_2019
+    {
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 93
+        WetSpeed = 90
+        Aggression = 40
+        Composure = 80
+        Recovery = 100
+        CorneringCaution = 55                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 90                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 92.00
+        MinRacingSkill = 70.00
+        Crash = 2.0
+        ExtraDragCoefficient = 25
+        Nationality = Monaco
+        DateofBirth = 10/16/1997 12:00:00 AM
+        Starts = 102
+        Wins = 5
+        DriversChampionships = 0
+    }
+    F1_YasMarina
+    {
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 93
+        WetSpeed = 90
+        Aggression = 40
+        Composure = 80
+        Recovery = 100
+        CorneringCaution = 55                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 90                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 92.00
+        MinRacingSkill = 70.00
+        Crash = 2.0
+        ExtraDragCoefficient = 25
+        Nationality = Monaco
+        DateofBirth = 10/16/1997 12:00:00 AM
+        Starts = 102
+        Wins = 5
+        DriversChampionships = 0
+    }
+  }
+  Carlos Sainz Jr.
+  {
+    Tier = 2
+    Speed = 90
+    QualifySpeed = 90
+    WetSpeed = 90
+    Aggression = 50
+    Composure = 80
+    Recovery = 99
+    CorneringCaution = 62                    // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+    FearOfWalls = 90                         // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+    StartSkill = 90.00
+    MinRacingSkill = 70.00
+    Crash = 3.5
+    ExtraDragCoefficient = 25
+    Nationality = Spanish
+    DateofBirth = 9/1/1994 12:00:00 AM
+    Starts = 162
+    Wins = 1
+    DriversChampionships = 0
+    F1_Interlagos
+    {
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 50
+        Composure = 80
+        Recovery = 99
+        CorneringCaution = 62                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 90                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        Crash = 3.5
+        ExtraDragCoefficient = 25
+        Nationality = Spanish
+        DateofBirth = 9/1/1994 12:00:00 AM
+        Starts = 162
+        Wins = 1
+        DriversChampionships = 0
+    }
+    F1_Montreal
+    {
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 50
+        Composure = 80
+        Recovery = 99
+        CorneringCaution = 62                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 90                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        Crash = 3.5
+        ExtraDragCoefficient = 25
+        Nationality = Spanish
+        DateofBirth = 9/1/1994 12:00:00 AM
+        Starts = 162
+        Wins = 1
+        DriversChampionships = 0
+    }
+    GPVWC_Spa_2019
+    {
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 50
+        Composure = 80
+        Recovery = 99
+        CorneringCaution = 62                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 90                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        Crash = 3.5
+        ExtraDragCoefficient = 25
+        Nationality = Spanish
+        DateofBirth = 9/1/1994 12:00:00 AM
+        Starts = 162
+        Wins = 1
+        DriversChampionships = 0
+    }
+    F1_YasMarina
+    {
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 50
+        Composure = 80
+        Recovery = 99
+        CorneringCaution = 62                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 90                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        Crash = 3.5
+        ExtraDragCoefficient = 25
+        Nationality = Spanish
+        DateofBirth = 9/1/1994 12:00:00 AM
+        Starts = 162
+        Wins = 1
+        DriversChampionships = 0
+    }
+  }
+  Oscar Piastri
+  {
+    Tier = 1
+    Speed = 97
+    QualifySpeed = 95
+    WetSpeed = 97
+    Aggression = 45
+    Composure = 80
+    Recovery = 100
+    CorneringCaution = 99                    // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+    FearOfWalls = 90                         // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+    StartSkill = 92.00
+    MinRacingSkill = 80.00
+    Crash = 2.0
+    ExtraDragCoefficient = 15
+    Nationality = Australian
+    DateofBirth = 7/1/1989 12:00:00 AM
+    Starts = 231
+    Wins = 8
+    DriversChampionships = 0
+    F1_Interlagos
+    {
+        Tier = 1
+        Speed = 97
+        QualifySpeed = 95
+        WetSpeed = 97
+        Aggression = 45
+        Composure = 80
+        Recovery = 100
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 90                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 92.00
+        MinRacingSkill = 80.00
+        Crash = 2.0
+        ExtraDragCoefficient = 15
+        Nationality = Australian
+        DateofBirth = 7/1/1989 12:00:00 AM
+        Starts = 231
+        Wins = 8
+        DriversChampionships = 0
+    }
+    F1_Montreal
+    {
+        Tier = 1
+        Speed = 97
+        QualifySpeed = 95
+        WetSpeed = 97
+        Aggression = 45
+        Composure = 80
+        Recovery = 100
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 90                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 92.00
+        MinRacingSkill = 80.00
+        Crash = 2.0
+        ExtraDragCoefficient = 15
+        Nationality = Australian
+        DateofBirth = 7/1/1989 12:00:00 AM
+        Starts = 231
+        Wins = 8
+        DriversChampionships = 0
+    }
+    GPVWC_Spa_2019
+    {
+        Tier = 1
+        Speed = 97
+        QualifySpeed = 95
+        WetSpeed = 97
+        Aggression = 45
+        Composure = 80
+        Recovery = 100
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 90                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 92.00
+        MinRacingSkill = 80.00
+        Crash = 2.0
+        ExtraDragCoefficient = 15
+        Nationality = Australian
+        DateofBirth = 7/1/1989 12:00:00 AM
+        Starts = 231
+        Wins = 8
+        DriversChampionships = 0
+    }
+    F1_YasMarina
+    {
+        Tier = 1
+        Speed = 97
+        QualifySpeed = 95
+        WetSpeed = 97
+        Aggression = 45
+        Composure = 80
+        Recovery = 100
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 90                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 92.00
+        MinRacingSkill = 80.00
+        Crash = 2.0
+        ExtraDragCoefficient = 15
+        Nationality = Australian
+        DateofBirth = 7/1/1989 12:00:00 AM
+        Starts = 231
+        Wins = 8
+        DriversChampionships = 0
+    }
+  }
+  Lando Norris
+  {
+    Tier = 1
+    Speed = 99
+    QualifySpeed = 97
+    WetSpeed = 99
+    Aggression = 55
+    Composure = 75
+    Recovery = 100
+    CorneringCaution = 99                    // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+    FearOfWalls = 90                         // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+    StartSkill = 95.00
+    MinRacingSkill = 85.00
+    Crash = 1.0
+    ExtraDragCoefficient = 15
+    Nationality = British
+    DateofBirth = 11/13/1999 12:00:00 AM
+    Starts = 81
+    Wins = 0
+    DriversChampionships = 0
+    F1_Interlagos
+    {
+        Tier = 1
+        Speed = 99
+        QualifySpeed = 97
+        WetSpeed = 99
+        Aggression = 55
+        Composure = 75
+        Recovery = 100
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 90                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 95.00
+        MinRacingSkill = 85.00
+        Crash = 1.0
+        ExtraDragCoefficient = 15
+        Nationality = British
+        DateofBirth = 11/13/1999 12:00:00 AM
+        Starts = 81
+        Wins = 0
+        DriversChampionships = 0
+    }
+    F1_Montreal
+    {
+        Tier = 1
+        Speed = 99
+        QualifySpeed = 97
+        WetSpeed = 99
+        Aggression = 55
+        Composure = 75
+        Recovery = 100
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 90                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 95.00
+        MinRacingSkill = 85.00
+        Crash = 1.0
+        ExtraDragCoefficient = 15
+        Nationality = British
+        DateofBirth = 11/13/1999 12:00:00 AM
+        Starts = 81
+        Wins = 0
+        DriversChampionships = 0
+    }
+    GPVWC_Spa_2019
+    {
+        Tier = 1
+        Speed = 99
+        QualifySpeed = 97
+        WetSpeed = 99
+        Aggression = 55
+        Composure = 75
+        Recovery = 100
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 90                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 95.00
+        MinRacingSkill = 85.00
+        Crash = 1.0
+        ExtraDragCoefficient = 15
+        Nationality = British
+        DateofBirth = 11/13/1999 12:00:00 AM
+        Starts = 81
+        Wins = 0
+        DriversChampionships = 0
+    }
+    F1_YasMarina
+    {
+        Tier = 1
+        Speed = 99
+        QualifySpeed = 97
+        WetSpeed = 99
+        Aggression = 55
+        Composure = 75
+        Recovery = 100
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 90                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 95.00
+        MinRacingSkill = 85.00
+        Crash = 1.0
+        ExtraDragCoefficient = 15
+        Nationality = British
+        DateofBirth = 11/13/1999 12:00:00 AM
+        Starts = 81
+        Wins = 0
+        DriversChampionships = 0
+    }
+  }
+  Fernando Alonso
+  {
+    Tier = 3
+    Speed = 75
+    QualifySpeed = 80
+    WetSpeed = 75
+    Aggression = 70
+    Composure = 92
+    Recovery = 90
+    CorneringCaution = 99                    // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+    FearOfWalls = 99                         // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+    StartSkill = 80.00
+    MinRacingSkill = 50.00
+    Crash = 2.5
+    ExtraDragCoefficient = 50
+    Nationality = Spanish
+    DateofBirth = 7/29/1981 12:00:00 AM
+    Starts = 357
+    Wins = 32
+    DriversChampionships = 2
+    F1_Interlagos
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 80
+        WetSpeed = 75
+        Aggression = 70
+        Composure = 92
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        Crash = 2.5
+        ExtraDragCoefficient = 50
+        Nationality = Spanish
+        DateofBirth = 7/29/1981 12:00:00 AM
+        Starts = 357
+        Wins = 32
+        DriversChampionships = 2
+    }
+    F1_Montreal
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 80
+        WetSpeed = 75
+        Aggression = 70
+        Composure = 92
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        Crash = 2.5
+        ExtraDragCoefficient = 50
+        Nationality = Spanish
+        DateofBirth = 7/29/1981 12:00:00 AM
+        Starts = 357
+        Wins = 32
+        DriversChampionships = 2
+    }
+    GPVWC_Spa_2019
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 80
+        WetSpeed = 75
+        Aggression = 70
+        Composure = 92
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        Crash = 2.5
+        ExtraDragCoefficient = 50
+        Nationality = Spanish
+        DateofBirth = 7/29/1981 12:00:00 AM
+        Starts = 357
+        Wins = 32
+        DriversChampionships = 2
+    }
+    F1_YasMarina
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 80
+        WetSpeed = 75
+        Aggression = 70
+        Composure = 92
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        Crash = 2.5
+        ExtraDragCoefficient = 50
+        Nationality = Spanish
+        DateofBirth = 7/29/1981 12:00:00 AM
+        Starts = 357
+        Wins = 32
+        DriversChampionships = 2
+    }
+  }
+  Lance Stroll
+  {
+    Tier = 3
+    Speed = 60
+    QualifySpeed = 70
+    WetSpeed = 60
+    Aggression = 45
+    Composure = 65
+    Recovery = 90
+    CorneringCaution = 99                    // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+    FearOfWalls = 99                         // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+    StartSkill = 60.00
+    MinRacingSkill = 40.00
+    Crash = 7.8
+    ExtraDragCoefficient = 50
+    Nationality = Canadian
+    DateofBirth = 10/29/1998 12:00:00 AM
+    Starts = 121
+    Wins = 0
+    DriversChampionships = 0
+    F1_Interlagos
+    {
+        Tier = 3
+        Speed = 60
+        QualifySpeed = 70
+        WetSpeed = 60
+        Aggression = 45
+        Composure = 65
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 60.00
+        MinRacingSkill = 40.00
+        Crash = 7.8
+        ExtraDragCoefficient = 50
+        Nationality = Canadian
+        DateofBirth = 10/29/1998 12:00:00 AM
+        Starts = 121
+        Wins = 0
+        DriversChampionships = 0
+    }
+    F1_Montreal
+    {
+        Tier = 3
+        Speed = 60
+        QualifySpeed = 70
+        WetSpeed = 60
+        Aggression = 45
+        Composure = 65
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 60.00
+        MinRacingSkill = 40.00
+        Crash = 7.8
+        ExtraDragCoefficient = 50
+        Nationality = Canadian
+        DateofBirth = 10/29/1998 12:00:00 AM
+        Starts = 121
+        Wins = 0
+        DriversChampionships = 0
+    }
+    GPVWC_Spa_2019
+    {
+        Tier = 3
+        Speed = 60
+        QualifySpeed = 70
+        WetSpeed = 60
+        Aggression = 45
+        Composure = 65
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 60.00
+        MinRacingSkill = 40.00
+        Crash = 7.8
+        ExtraDragCoefficient = 50
+        Nationality = Canadian
+        DateofBirth = 10/29/1998 12:00:00 AM
+        Starts = 121
+        Wins = 0
+        DriversChampionships = 0
+    }
+    F1_YasMarina
+    {
+        Tier = 3
+        Speed = 60
+        QualifySpeed = 70
+        WetSpeed = 60
+        Aggression = 45
+        Composure = 65
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 60.00
+        MinRacingSkill = 40.00
+        Crash = 7.8
+        ExtraDragCoefficient = 50
+        Nationality = Canadian
+        DateofBirth = 10/29/1998 12:00:00 AM
+        Starts = 121
+        Wins = 0
+        DriversChampionships = 0
+    }
+  }
+  Daniel Ricciardo
+  {
+    Tier = 3
+    Speed = 55
+    QualifySpeed = 70
+    WetSpeed = 55
+    Aggression = 40
+    Composure = 80
+    Recovery = 90
+    CorneringCaution = 99                    // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+    FearOfWalls = 99                         // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+    StartSkill = 80.00
+    MinRacingSkill = 50.00
+    Crash = 8.0
+    ExtraDragCoefficient = 50
+    Nationality = Australian
+    DateofBirth = 7/1/1989 12:00:00 AM
+    Starts = 231
+    Wins = 8
+    DriversChampionships = 0
+    F1_Interlagos
+    {
+        Tier = 3
+        Speed = 55
+        QualifySpeed = 70
+        WetSpeed = 55
+        Aggression = 40
+        Composure = 80
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        Crash = 8.0
+        ExtraDragCoefficient = 50
+        Nationality = Australian
+        DateofBirth = 7/1/1989 12:00:00 AM
+        Starts = 231
+        Wins = 8
+        DriversChampionships = 0
+    }
+    F1_Montreal
+    {
+        Tier = 3
+        Speed = 55
+        QualifySpeed = 70
+        WetSpeed = 55
+        Aggression = 40
+        Composure = 80
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        Crash = 8.0
+        ExtraDragCoefficient = 50
+        Nationality = Australian
+        DateofBirth = 7/1/1989 12:00:00 AM
+        Starts = 231
+        Wins = 8
+        DriversChampionships = 0
+    }
+    GPVWC_Spa_2019
+    {
+        Tier = 3
+        Speed = 55
+        QualifySpeed = 70
+        WetSpeed = 55
+        Aggression = 40
+        Composure = 80
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        Crash = 8.0
+        ExtraDragCoefficient = 50
+        Nationality = Australian
+        DateofBirth = 7/1/1989 12:00:00 AM
+        Starts = 231
+        Wins = 8
+        DriversChampionships = 0
+    }
+    F1_YasMarina
+    {
+        Tier = 3
+        Speed = 55
+        QualifySpeed = 70
+        WetSpeed = 55
+        Aggression = 40
+        Composure = 80
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        Crash = 8.0
+        ExtraDragCoefficient = 50
+        Nationality = Australian
+        DateofBirth = 7/1/1989 12:00:00 AM
+        Starts = 231
+        Wins = 8
+        DriversChampionships = 0
+    }
+  }
+  Pierre Gasly
+  {
+    Tier = 4
+    Speed = 50
+    QualifySpeed = 50
+    WetSpeed = 50
+    Aggression = 60
+    Composure = 75
+    Recovery = 90
+    CorneringCaution = 99                    // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+    FearOfWalls = 99                         // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+    StartSkill = 75.00
+    MinRacingSkill = 50.00
+    Crash = 6.5
+    ExtraDragCoefficient = 99
+    Nationality = French
+    DateofBirth = 2/7/1996 12:00:00 AM
+    Starts = 107
+    Wins = 1
+    DriversChampionships = 0
+    F1_Interlagos
+    {
+        Tier = 4
+        Speed = 50
+        QualifySpeed = 50
+        WetSpeed = 50
+        Aggression = 60
+        Composure = 75
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        Crash = 6.5
+        ExtraDragCoefficient = 99
+        Nationality = French
+        DateofBirth = 2/7/1996 12:00:00 AM
+        Starts = 107
+        Wins = 1
+        DriversChampionships = 0
+    }
+    F1_Montreal
+    {
+        Tier = 4
+        Speed = 50
+        QualifySpeed = 50
+        WetSpeed = 50
+        Aggression = 60
+        Composure = 75
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        Crash = 6.5
+        ExtraDragCoefficient = 99
+        Nationality = French
+        DateofBirth = 2/7/1996 12:00:00 AM
+        Starts = 107
+        Wins = 1
+        DriversChampionships = 0
+    }
+    GPVWC_Spa_2019
+    {
+        Tier = 4
+        Speed = 50
+        QualifySpeed = 50
+        WetSpeed = 50
+        Aggression = 60
+        Composure = 75
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        Crash = 6.5
+        ExtraDragCoefficient = 99
+        Nationality = French
+        DateofBirth = 2/7/1996 12:00:00 AM
+        Starts = 107
+        Wins = 1
+        DriversChampionships = 0
+    }
+    F1_YasMarina
+    {
+        Tier = 4
+        Speed = 50
+        QualifySpeed = 50
+        WetSpeed = 50
+        Aggression = 60
+        Composure = 75
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        Crash = 6.5
+        ExtraDragCoefficient = 99
+        Nationality = French
+        DateofBirth = 2/7/1996 12:00:00 AM
+        Starts = 107
+        Wins = 1
+        DriversChampionships = 0
+    }
+  }
+  Yuki Tsunoda
+  {
+    Tier = 4
+    Speed = 60
+    QualifySpeed = 65
+    WetSpeed = 60
+    Aggression = 25
+    Composure = 60
+    Recovery = 90
+    CorneringCaution = 99                    // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+    FearOfWalls = 99                         // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+    StartSkill = 70.00
+    MinRacingSkill = 50.00
+    Crash = 8.5
+    ExtraDragCoefficient = 50
+    Nationality = Japan
+    DateofBirth = 5/11/2000 12:00:00 AM
+    Starts = 43
+    Wins = 0
+    DriversChampionships = 0
+    F1_Interlagos
+    {
+        Tier = 4
+        Speed = 60
+        QualifySpeed = 65
+        WetSpeed = 60
+        Aggression = 25
+        Composure = 60
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 70.00
+        MinRacingSkill = 50.00
+        Crash = 8.5
+        ExtraDragCoefficient = 50
+        Nationality = Japan
+        DateofBirth = 5/11/2000 12:00:00 AM
+        Starts = 43
+        Wins = 0
+        DriversChampionships = 0
+    }
+    F1_Montreal
+    {
+        Tier = 4
+        Speed = 60
+        QualifySpeed = 65
+        WetSpeed = 60
+        Aggression = 25
+        Composure = 60
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 70.00
+        MinRacingSkill = 50.00
+        Crash = 8.5
+        ExtraDragCoefficient = 50
+        Nationality = Japan
+        DateofBirth = 5/11/2000 12:00:00 AM
+        Starts = 43
+        Wins = 0
+        DriversChampionships = 0
+    }
+    GPVWC_Spa_2019
+    {
+        Tier = 4
+        Speed = 60
+        QualifySpeed = 65
+        WetSpeed = 60
+        Aggression = 25
+        Composure = 60
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 70.00
+        MinRacingSkill = 50.00
+        Crash = 8.5
+        ExtraDragCoefficient = 50
+        Nationality = Japan
+        DateofBirth = 5/11/2000 12:00:00 AM
+        Starts = 43
+        Wins = 0
+        DriversChampionships = 0
+    }
+    F1_YasMarina
+    {
+        Tier = 4
+        Speed = 60
+        QualifySpeed = 65
+        WetSpeed = 60
+        Aggression = 25
+        Composure = 60
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 70.00
+        MinRacingSkill = 50.00
+        Crash = 8.5
+        ExtraDragCoefficient = 50
+        Nationality = Japan
+        DateofBirth = 5/11/2000 12:00:00 AM
+        Starts = 43
+        Wins = 0
+        DriversChampionships = 0
+    }
+  }
+  Valtteri Bottas
+  {
+    Tier = 5
+    Speed = 45
+    QualifySpeed = 50
+    WetSpeed = 45
+    Aggression = 25
+    Composure = 62
+    Recovery = 90
+    CorneringCaution = 99                    // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+    FearOfWalls = 99                         // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+    StartSkill = 70.00
+    MinRacingSkill = 50.00
+    Crash = 10.0
+    ExtraDragCoefficient = 50
+    Nationality = Finnish
+    DateofBirth = 8/28/1989 12:00:00 AM
+    Starts = 200
+    Wins = 10
+    DriversChampionships = 0
+    F1_Interlagos
+    {
+        Tier = 5
+        Speed = 45
+        QualifySpeed = 50
+        WetSpeed = 45
+        Aggression = 25
+        Composure = 62
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 70.00
+        MinRacingSkill = 50.00
+        Crash = 10.0
+        ExtraDragCoefficient = 50
+        Nationality = Finnish
+        DateofBirth = 8/28/1989 12:00:00 AM
+        Starts = 200
+        Wins = 10
+        DriversChampionships = 0
+    }
+    F1_Montreal
+    {
+        Tier = 5
+        Speed = 45
+        QualifySpeed = 50
+        WetSpeed = 45
+        Aggression = 25
+        Composure = 62
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 70.00
+        MinRacingSkill = 50.00
+        Crash = 10.0
+        ExtraDragCoefficient = 50
+        Nationality = Finnish
+        DateofBirth = 8/28/1989 12:00:00 AM
+        Starts = 200
+        Wins = 10
+        DriversChampionships = 0
+    }
+    GPVWC_Spa_2019
+    {
+        Tier = 5
+        Speed = 45
+        QualifySpeed = 50
+        WetSpeed = 45
+        Aggression = 25
+        Composure = 62
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 70.00
+        MinRacingSkill = 50.00
+        Crash = 10.0
+        ExtraDragCoefficient = 50
+        Nationality = Finnish
+        DateofBirth = 8/28/1989 12:00:00 AM
+        Starts = 200
+        Wins = 10
+        DriversChampionships = 0
+    }
+    F1_YasMarina
+    {
+        Tier = 5
+        Speed = 45
+        QualifySpeed = 50
+        WetSpeed = 45
+        Aggression = 25
+        Composure = 62
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 70.00
+        MinRacingSkill = 50.00
+        Crash = 10.0
+        ExtraDragCoefficient = 50
+        Nationality = Finnish
+        DateofBirth = 8/28/1989 12:00:00 AM
+        Starts = 200
+        Wins = 10
+        DriversChampionships = 0
+    }
+  }
+  Zhou Guanyu
+  {
+    Tier = 5
+    Speed = 45
+    QualifySpeed = 50
+    WetSpeed = 45
+    Aggression = 50
+    Composure = 82
+    Recovery = 90
+    CorneringCaution = 99                    // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+    FearOfWalls = 99                         // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+    StartSkill = 70.00
+    MinRacingSkill = 50.00
+    Crash = 8.5
+    ExtraDragCoefficient = 50
+    Nationality = China
+    DateofBirth = 5/30/1999 12:00:00 AM
+    Starts = 23
+    Wins = 0
+    DriversChampionships = 0
+    F1_Interlagos
+    {
+        Tier = 5
+        Speed = 45
+        QualifySpeed = 50
+        WetSpeed = 45
+        Aggression = 50
+        Composure = 82
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 70.00
+        MinRacingSkill = 50.00
+        Crash = 8.5
+        ExtraDragCoefficient = 50
+        Nationality = China
+        DateofBirth = 5/30/1999 12:00:00 AM
+        Starts = 23
+        Wins = 0
+        DriversChampionships = 0
+    }
+    F1_Montreal
+    {
+        Tier = 5
+        Speed = 45
+        QualifySpeed = 50
+        WetSpeed = 45
+        Aggression = 50
+        Composure = 82
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 70.00
+        MinRacingSkill = 50.00
+        Crash = 8.5
+        ExtraDragCoefficient = 50
+        Nationality = China
+        DateofBirth = 5/30/1999 12:00:00 AM
+        Starts = 23
+        Wins = 0
+        DriversChampionships = 0
+    }
+    GPVWC_Spa_2019
+    {
+        Tier = 5
+        Speed = 45
+        QualifySpeed = 50
+        WetSpeed = 45
+        Aggression = 50
+        Composure = 82
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 70.00
+        MinRacingSkill = 50.00
+        Crash = 8.5
+        ExtraDragCoefficient = 50
+        Nationality = China
+        DateofBirth = 5/30/1999 12:00:00 AM
+        Starts = 23
+        Wins = 0
+        DriversChampionships = 0
+    }
+    F1_YasMarina
+    {
+        Tier = 5
+        Speed = 45
+        QualifySpeed = 50
+        WetSpeed = 45
+        Aggression = 50
+        Composure = 82
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 70.00
+        MinRacingSkill = 50.00
+        Crash = 8.5
+        ExtraDragCoefficient = 50
+        Nationality = China
+        DateofBirth = 5/30/1999 12:00:00 AM
+        Starts = 23
+        Wins = 0
+        DriversChampionships = 0
+    }
+  }
+  Esteban Ocon
+  {
+    Tier = 4
+    Speed = 50
+    QualifySpeed = 60
+    WetSpeed = 50
+    Aggression = 25
+    Composure = 60
+    Recovery = 90
+    CorneringCaution = 99                    // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+    FearOfWalls = 99                         // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+    StartSkill = 55.00
+    MinRacingSkill = 50.00
+    Crash = 10.0
+    ExtraDragCoefficient = 50
+    Nationality = French
+    DateofBirth = 9/17/1996 12:00:00 AM
+    Starts = 110
+    Wins = 1
+    DriversChampionships = 0
+    F1_Interlagos
+    {
+        Tier = 4
+        Speed = 50
+        QualifySpeed = 60
+        WetSpeed = 50
+        Aggression = 25
+        Composure = 60
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 55.00
+        MinRacingSkill = 50.00
+        Crash = 10.0
+        ExtraDragCoefficient = 50
+        Nationality = French
+        DateofBirth = 9/17/1996 12:00:00 AM
+        Starts = 110
+        Wins = 1
+        DriversChampionships = 0
+    }
+    F1_Montreal
+    {
+        Tier = 4
+        Speed = 50
+        QualifySpeed = 60
+        WetSpeed = 50
+        Aggression = 25
+        Composure = 60
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 55.00
+        MinRacingSkill = 50.00
+        Crash = 10.0
+        ExtraDragCoefficient = 50
+        Nationality = French
+        DateofBirth = 9/17/1996 12:00:00 AM
+        Starts = 110
+        Wins = 1
+        DriversChampionships = 0
+    }
+    GPVWC_Spa_2019
+    {
+        Tier = 4
+        Speed = 50
+        QualifySpeed = 60
+        WetSpeed = 50
+        Aggression = 25
+        Composure = 60
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 55.00
+        MinRacingSkill = 50.00
+        Crash = 10.0
+        ExtraDragCoefficient = 50
+        Nationality = French
+        DateofBirth = 9/17/1996 12:00:00 AM
+        Starts = 110
+        Wins = 1
+        DriversChampionships = 0
+    }
+    F1_YasMarina
+    {
+        Tier = 4
+        Speed = 50
+        QualifySpeed = 60
+        WetSpeed = 50
+        Aggression = 25
+        Composure = 60
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 55.00
+        MinRacingSkill = 50.00
+        Crash = 10.0
+        ExtraDragCoefficient = 50
+        Nationality = French
+        DateofBirth = 9/17/1996 12:00:00 AM
+        Starts = 110
+        Wins = 1
+        DriversChampionships = 0
+    }
+  }
+  Nico Hulkenberg
+  {
+    Tier = 4
+    Speed = 50
+    QualifySpeed = 70
+    WetSpeed = 50
+    Aggression = 25
+    Composure = 55
+    Recovery = 90
+    CorneringCaution = 99                    // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+    FearOfWalls = 99                         // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+    StartSkill = 65.00
+    MinRacingSkill = 40.00
+    Crash = 11.5
+    ExtraDragCoefficient = 50
+    Nationality = German
+    DateofBirth = 8/19/1987 12:00:00 AM
+    Starts = 184
+    Wins = 0
+    DriversChampionships = 0
+    F1_Interlagos
+    {
+        Tier = 4
+        Speed = 50
+        QualifySpeed = 70
+        WetSpeed = 50
+        Aggression = 25
+        Composure = 55
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 65.00
+        MinRacingSkill = 40.00
+        Crash = 11.5
+        ExtraDragCoefficient = 50
+        Nationality = German
+        DateofBirth = 8/19/1987 12:00:00 AM
+        Starts = 184
+        Wins = 0
+        DriversChampionships = 0
+    }
+    F1_Montreal
+    {
+        Tier = 4
+        Speed = 50
+        QualifySpeed = 70
+        WetSpeed = 50
+        Aggression = 25
+        Composure = 55
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 65.00
+        MinRacingSkill = 40.00
+        Crash = 11.5
+        ExtraDragCoefficient = 50
+        Nationality = German
+        DateofBirth = 8/19/1987 12:00:00 AM
+        Starts = 184
+        Wins = 0
+        DriversChampionships = 0
+    }
+    GPVWC_Spa_2019
+    {
+        Tier = 4
+        Speed = 50
+        QualifySpeed = 70
+        WetSpeed = 50
+        Aggression = 25
+        Composure = 55
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 65.00
+        MinRacingSkill = 40.00
+        Crash = 11.5
+        ExtraDragCoefficient = 50
+        Nationality = German
+        DateofBirth = 8/19/1987 12:00:00 AM
+        Starts = 184
+        Wins = 0
+        DriversChampionships = 0
+    }
+    F1_YasMarina
+    {
+        Tier = 4
+        Speed = 50
+        QualifySpeed = 70
+        WetSpeed = 50
+        Aggression = 25
+        Composure = 55
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 65.00
+        MinRacingSkill = 40.00
+        Crash = 11.5
+        ExtraDragCoefficient = 50
+        Nationality = German
+        DateofBirth = 8/19/1987 12:00:00 AM
+        Starts = 184
+        Wins = 0
+        DriversChampionships = 0
+    }
+  }
+  Kevin Magnussen
+  {
+    Tier = 4
+    Speed = 50
+    QualifySpeed = 65
+    WetSpeed = 50
+    Aggression = 35
+    Composure = 88
+    Recovery = 90
+    CorneringCaution = 99                    // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+    FearOfWalls = 99                         // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+    StartSkill = 60.00
+    MinRacingSkill = 40.00
+    Crash = 8.0
+    ExtraDragCoefficient = 50
+    Nationality = Danish
+    DateofBirth = 10/5/1992 12:00:00 AM
+    Starts = 141
+    Wins = 0
+    DriversChampionships = 0
+    F1_Interlagos
+    {
+        Tier = 4
+        Speed = 50
+        QualifySpeed = 65
+        WetSpeed = 50
+        Aggression = 35
+        Composure = 88
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 60.00
+        MinRacingSkill = 40.00
+        Crash = 8.0
+        ExtraDragCoefficient = 50
+        Nationality = Danish
+        DateofBirth = 10/5/1992 12:00:00 AM
+        Starts = 141
+        Wins = 0
+        DriversChampionships = 0
+    }
+    F1_Montreal
+    {
+        Tier = 4
+        Speed = 50
+        QualifySpeed = 65
+        WetSpeed = 50
+        Aggression = 35
+        Composure = 88
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 60.00
+        MinRacingSkill = 40.00
+        Crash = 8.0
+        ExtraDragCoefficient = 50
+        Nationality = Danish
+        DateofBirth = 10/5/1992 12:00:00 AM
+        Starts = 141
+        Wins = 0
+        DriversChampionships = 0
+    }
+    GPVWC_Spa_2019
+    {
+        Tier = 4
+        Speed = 50
+        QualifySpeed = 65
+        WetSpeed = 50
+        Aggression = 35
+        Composure = 88
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 60.00
+        MinRacingSkill = 40.00
+        Crash = 8.0
+        ExtraDragCoefficient = 50
+        Nationality = Danish
+        DateofBirth = 10/5/1992 12:00:00 AM
+        Starts = 141
+        Wins = 0
+        DriversChampionships = 0
+    }
+    F1_YasMarina
+    {
+        Tier = 4
+        Speed = 50
+        QualifySpeed = 65
+        WetSpeed = 50
+        Aggression = 35
+        Composure = 88
+        Recovery = 90
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 60.00
+        MinRacingSkill = 40.00
+        Crash = 8.0
+        ExtraDragCoefficient = 50
+        Nationality = Danish
+        DateofBirth = 10/5/1992 12:00:00 AM
+        Starts = 141
+        Wins = 0
+        DriversChampionships = 0
+    }
+  }
+  Alexander Albon
+  {
+    Tier = 4
+    Speed = 55
+    QualifySpeed = 75
+    WetSpeed = 55
+    Aggression = 25
+    Composure = 65
+    Recovery = 85
+    CorneringCaution = 99                    // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+    FearOfWalls = 99                         // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+    StartSkill = 88.00
+    MinRacingSkill = 55.00
+    Crash = 5.5
+    ExtraDragCoefficient = 50
+    Nationality = British
+    DateofBirth = 3/23/1996 12:00:00 AM
+    Starts = 58
+    Wins = 0
+    DriversChampionships = 0
+    F1_Interlagos
+    {
+        Tier = 4
+        Speed = 55
+        QualifySpeed = 75
+        WetSpeed = 55
+        Aggression = 25
+        Composure = 65
+        Recovery = 85
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 88.00
+        MinRacingSkill = 55.00
+        Crash = 5.5
+        ExtraDragCoefficient = 50
+        Nationality = British
+        DateofBirth = 3/23/1996 12:00:00 AM
+        Starts = 58
+        Wins = 0
+        DriversChampionships = 0
+    }
+    F1_Montreal
+    {
+        Tier = 4
+        Speed = 55
+        QualifySpeed = 75
+        WetSpeed = 55
+        Aggression = 25
+        Composure = 65
+        Recovery = 85
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 88.00
+        MinRacingSkill = 55.00
+        Crash = 5.5
+        ExtraDragCoefficient = 50
+        Nationality = British
+        DateofBirth = 3/23/1996 12:00:00 AM
+        Starts = 58
+        Wins = 0
+        DriversChampionships = 0
+    }
+    GPVWC_Spa_2019
+    {
+        Tier = 4
+        Speed = 55
+        QualifySpeed = 75
+        WetSpeed = 55
+        Aggression = 25
+        Composure = 65
+        Recovery = 85
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 88.00
+        MinRacingSkill = 55.00
+        Crash = 5.5
+        ExtraDragCoefficient = 50
+        Nationality = British
+        DateofBirth = 3/23/1996 12:00:00 AM
+        Starts = 58
+        Wins = 0
+        DriversChampionships = 0
+    }
+    F1_YasMarina
+    {
+        Tier = 4
+        Speed = 55
+        QualifySpeed = 75
+        WetSpeed = 55
+        Aggression = 25
+        Composure = 65
+        Recovery = 85
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 88.00
+        MinRacingSkill = 55.00
+        Crash = 5.5
+        ExtraDragCoefficient = 50
+        Nationality = British
+        DateofBirth = 3/23/1996 12:00:00 AM
+        Starts = 58
+        Wins = 0
+        DriversChampionships = 0
+    }
+  }
+  Logan Sargeant
+  {
+    Tier = 5
+    Speed = 40
+    QualifySpeed = 30
+    WetSpeed = 40
+    Aggression = 25
+    Composure = 65
+    Recovery = 75
+    CorneringCaution = 99                    // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+    FearOfWalls = 99                         // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+    StartSkill = 65.00
+    MinRacingSkill = 35.00
+    Crash = 15.5
+    ExtraDragCoefficient = 99
+    Nationality = US
+    DateofBirth = 6/29/1995 12:00:00 AM
+    Starts = 59
+    Wins = 0
+    DriversChampionships = 0
+    F1_Interlagos
+    {
+        Tier = 5
+        Speed = 40
+        QualifySpeed = 30
+        WetSpeed = 40
+        Aggression = 25
+        Composure = 65
+        Recovery = 75
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 65.00
+        MinRacingSkill = 35.00
+        Crash = 15.5
+        ExtraDragCoefficient = 99
+        Nationality = US
+        DateofBirth = 6/29/1995 12:00:00 AM
+        Starts = 59
+        Wins = 0
+        DriversChampionships = 0
+    }
+    F1_Montreal
+    {
+        Tier = 5
+        Speed = 40
+        QualifySpeed = 30
+        WetSpeed = 40
+        Aggression = 25
+        Composure = 65
+        Recovery = 75
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 65.00
+        MinRacingSkill = 35.00
+        Crash = 15.5
+        ExtraDragCoefficient = 99
+        Nationality = US
+        DateofBirth = 6/29/1995 12:00:00 AM
+        Starts = 59
+        Wins = 0
+        DriversChampionships = 0
+    }
+    GPVWC_Spa_2019
+    {
+        Tier = 5
+        Speed = 40
+        QualifySpeed = 30
+        WetSpeed = 40
+        Aggression = 25
+        Composure = 65
+        Recovery = 75
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 65.00
+        MinRacingSkill = 35.00
+        Crash = 15.5
+        ExtraDragCoefficient = 99
+        Nationality = US
+        DateofBirth = 6/29/1995 12:00:00 AM
+        Starts = 59
+        Wins = 0
+        DriversChampionships = 0
+    }
+    F1_YasMarina
+    {
+        Tier = 5
+        Speed = 40
+        QualifySpeed = 30
+        WetSpeed = 40
+        Aggression = 25
+        Composure = 65
+        Recovery = 75
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 65.00
+        MinRacingSkill = 35.00
+        Crash = 15.5
+        ExtraDragCoefficient = 99
+        Nationality = US
+        DateofBirth = 6/29/1995 12:00:00 AM
+        Starts = 59
+        Wins = 0
+        DriversChampionships = 0
+    }
+  }
+}
