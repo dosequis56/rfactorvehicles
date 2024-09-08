@@ -1,0 +1,125 @@
+{
+  "dstBlend" : "CUBEAB_ZERO",
+  "flags" : [ "CUBEMAT_SPECULAR", "CUBEMAT_FRESNELREFLECT", "CUBEMAT_FRESNELSPECULAR", "CUBEMAT_AMBIENTMAT", "CUBEMAT_DIFFUSEMAT", "CUBEMAT_SPECLARDIR", "CUBEMAT_EMISSIVMAT", "CUBEMAT_EMISSIVDIR" ],
+  "meta" : {
+    "selectedMaterial" : {
+      "Alpha" : "matteCarbonFiber",
+      "Black" : "carPaint",
+      "Blue" : "chrome",
+      "Green" : "matteCarbonFiber",
+      "Red" : "carPaint",
+      "White" : "mattePaint"
+    }
+  },
+  "name" : "WCCARBODY",
+  "parameters" : {
+    "StandardInfo" : {
+      "ambientColour" : [ 1, 1, 1, 1 ],
+      "blendPercent" : 1,
+      "bumpScale" : 1,
+      "cubeMapFresnel" : {
+        "Exp" : 4,
+        "Max" : 1,
+        "Min" : 0
+      },
+      "diffuseColour" : [ 1, 1, 1, 1 ],
+      "emissiveColour" : [ 0, 0, 0, 1 ],
+      "refEnhance" : 0,
+      "specFresnel" : {
+        "Exp" : 4,
+        "Max" : 1,
+        "Min" : 0
+      },
+      "specPower" : 1,
+      "specularColour" : [ 1, 1, 1, 1 ]
+    },
+    "cbMaterialExt" : {
+      "Alpha" : {
+        "baseCoatRefractiveIndex" : 2.40876,
+        "baseCoatRoughness" : 0.15,
+        "baseCoatSpecStrength" : 0.501676,
+        "clearCoatRefractiveIndex" : 1.61207,
+        "clearCoatRoughness" : 0.302443,
+        "clearCoatSpecStrength" : 0.149126,
+        "lacquerColour" : [ 0.752941, 0.752941, 0.752941, 1 ],
+        "metallicFlakeColour" : [ 1, 1, 1, 0 ],
+        "metallicFlakeStrength" : 0,
+        "metallicPaintStrength" : 0
+      },
+      "Black" : {
+        "baseCoatRefractiveIndex" : 1,
+        "baseCoatRoughness" : 0.38,
+        "baseCoatSpecStrength" : 0.36,
+        "clearCoatRefractiveIndex" : 1.19,
+        "clearCoatRoughness" : 0,
+        "clearCoatSpecStrength" : 1,
+        "lacquerColour" : [ 0.823529, 0.823529, 0.823529, 1 ],
+        "metallicFlakeColour" : [ 1, 1, 1, 0 ],
+        "metallicFlakeStrength" : 0,
+        "metallicPaintStrength" : 0.12
+      },
+      "Blue" : {
+        "baseCoatRefractiveIndex" : 2.14,
+        "baseCoatRoughness" : 0.18,
+        "baseCoatSpecStrength" : 1,
+        "clearCoatRefractiveIndex" : 1,
+        "clearCoatRoughness" : 0,
+        "clearCoatSpecStrength" : 0.79,
+        "lacquerColour" : [ 0.529412, 0.529412, 0.529412, 1 ],
+        "metallicFlakeColour" : [ 1, 1, 1, 1 ],
+        "metallicFlakeStrength" : 0,
+        "metallicPaintStrength" : 0
+      },
+      "Green" : {
+        "baseCoatRefractiveIndex" : 1.72,
+        "baseCoatRoughness" : 0.39,
+        "baseCoatSpecStrength" : 0.19,
+        "clearCoatRefractiveIndex" : 1.04,
+        "clearCoatRoughness" : 0,
+        "clearCoatSpecStrength" : 0.55,
+        "lacquerColour" : [ 0.752941, 0.752941, 0.752941, 1 ],
+        "metallicFlakeColour" : [ 1, 1, 1, 0 ],
+        "metallicFlakeStrength" : 0,
+        "metallicPaintStrength" : 0
+      },
+      "GreenEmissive" : {
+        "emissiveColour" : [ 0, 0, 0, 0 ],
+        "emissiveStrength" : 15
+      },
+      "Red" : {
+        "baseCoatRefractiveIndex" : 1.84,
+        "baseCoatRoughness" : 0.19,
+        "baseCoatSpecStrength" : 0.36,
+        "clearCoatRefractiveIndex" : 1,
+        "clearCoatRoughness" : 0,
+        "clearCoatSpecStrength" : 1,
+        "lacquerColour" : [ 1, 1, 1, 1 ],
+        "metallicFlakeColour" : [ 1, 1, 1, 1 ],
+        "metallicFlakeStrength" : 0,
+        "metallicPaintStrength" : 0
+      },
+      "White" : {
+        "baseCoatRefractiveIndex" : 1.46,
+        "baseCoatRoughness" : 0.18,
+        "baseCoatSpecStrength" : 0.32,
+        "clearCoatRefractiveIndex" : 1,
+        "clearCoatRoughness" : 0,
+        "clearCoatSpecStrength" : 1,
+        "lacquerColour" : [ 1, 1, 1, 1 ],
+        "metallicFlakeColour" : [ 1, 1, 1, 0 ],
+        "metallicFlakeStrength" : 0,
+        "metallicPaintStrength" : 0
+      },
+      "clearCoatStrength" : 1,
+      "lacquerThickness" : 0.168692
+    }
+  },
+  "preprocessorFlags" : {
+    "COCKPIT_MODE" : "1"
+  },
+  "refName" : "REFMAP0",
+  "shader" : "L2IBLCARBODY",
+  "sortOffset" : 0,
+  "srcBlend" : "CUBEAB_ONE",
+  "textures" : {}
+}

@@ -1,0 +1,98 @@
+// ASMG NASCAR Menu car generation file
+//----------------------------------------
+
+SearchPath=<VEHDIR>
+SearchPath=<VEHDIR>SCNG2023\MAPS
+SearchPath=<VEHDIR>SCNG2023\MAPS\GaugesPitLights
+MaterialPath=<VEHDIR>SCNG2023\MATERIALS
+MASFile=cmaps.mas
+
+ReflectPlane=(0.0, -1.0, 0.0, 0)
+
+//----------------------------------------
+Instance=SLOT<ID>
+{
+  Moveable=True
+  MeshFile=SCNG<12>_<3456>_BODY.GMT                 CollTarget=False HATTarget=False LODIn=(0) LODOut=(100) ShadowCaster=(Dynamic, Solid) Reflect=True
+  
+  Actor=VEHICLE
+
+  Instance=BASE
+  {
+    Moveable=True
+    
+    MeshFile=SCNG<12>_<3456>_BACKPLATES.GMT        CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=SCNG<12>_<3456>_CHASSIS.GMT           CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=SCNG<12>_<3456>_EXHAUST.GMT           CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=SCNG<12>_<3456>_GRILLE.GMT            CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(100) Reflect=True
+    
+    MeshFile=SCNG<12>_<3456>_INT_BODY.GMT          CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=SCNG<12>_<3456>_INT_BUTTONS.GMT       CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=SCNG<12>_<3456>_INT_DECALS.GMT        CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=SCNG<12>_<3456>_INT_DISPLAY.GMT       CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=SCNG<12>_<3456>_INT_FISHNET.GMT       CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=SCNG<12>_<3456>_INT_FISHNET_MET.GMT   CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=SCNG<12>_<3456>_INT_LMIRROR_EX.GMT    CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=SCNG<12>_<3456>_INT_MIRROR_EX.GMT     CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=SCNG<12>_<3456>_INT_MISC.GMT          CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=SCNG<12>_<3456>_INT_PLASTIC.GMT       CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=SCNG<12>_<3456>_INT_RMIRROR_EX.GMT    CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=SCNG<12>_<3456>_INT_SCREWS_IN.GMT     CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(100) Reflect=True
+    
+    MeshFile=SCNG<12>_<3456>_LOGO.GMT              CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=SCNG<12>_<3456>_MIRROR_EX.GMT         CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=SCNG<12>_<3456>_MISC.GMT              CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=SCNG<12>_<3456>_PLASTIC.GMT           CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=SCNG<12>_<3456>_SCREWS.GMT            CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=SCNG<12>_<3456>_SIDEWING.GMT          CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=SCNG<12>_<3456>_SUPPORT.GMT           CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=SCNG<12>_<3456>_WINDOWS.GMT           CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+    MeshFile=SCNG<12>_<3456>_WING_R.GMT            CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+   <WIPEREXISTS> MeshFile=SCNG<12>_<3456>_WIPER.GMT             CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+   <WIPEREXISTS> MeshFile=SCNG<12>_<3456>_WIPER_SUPP.GMT        CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=True
+  }
+
+  Instance=SWHEEL
+  {
+    Moveable=True
+    MeshFile=SCNG<12>_<3456>_SWHEEL_IN.GMT  CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(100) Reflect=True
+  }
+
+  /////////////////////////////////////////////////// TYRES AND SPINDLE ///////////////////////////////////////////////////
+
+  Instance=SPINTIRELF
+  {
+    Moveable=True
+    MeshFile=SCNG<12>_TIRE_LF.GMT     CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) ShadowReceiver=True Reflect=true
+    MeshFile=SCNG<12>_RIM_LF.GMT      CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) ShadowReceiver=True Reflect=true
+    MeshFile=SCNG<12>_ROTOR_LF.GMT    CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(100) ShadowReceiver=True Reflect=true
+    MeshFile=SCNG<12>_CALIPER_LF.GMT  CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(100) ShadowReceiver=True Reflect=true
+  }
+
+  Instance=SPINTIRERF
+  {
+    Moveable=True
+    MeshFile=SCNG<12>_TIRE_RF.GMT     CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) ShadowReceiver=True Reflect=true
+    MeshFile=SCNG<12>_RIM_RF.GMT      CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) ShadowReceiver=True Reflect=true
+    MeshFile=SCNG<12>_ROTOR_RF.GMT    CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(100) ShadowReceiver=True Reflect=true
+    MeshFile=SCNG<12>_CALIPER_RF.GMT  CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(100) ShadowReceiver=True Reflect=true
+  }
+
+  Instance=SPINTIRELR
+  {
+    Moveable=True
+    MeshFile=SCNG<12>_TIRE_LR.GMT     CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) ShadowReceiver=True Reflect=true
+    MeshFile=SCNG<12>_RIM_LR.GMT      CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) ShadowReceiver=True Reflect=true
+    MeshFile=SCNG<12>_ROTOR_LR.GMT    CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(100) ShadowReceiver=True Reflect=true
+    MeshFile=SCNG<12>_CALIPER_LR.GMT  CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(100) ShadowReceiver=True Reflect=true
+  }
+
+  Instance=SPINTIRERR
+  {
+    Moveable=True
+    MeshFile=SCNG<12>_TIRE_RR.GMT     CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) ShadowReceiver=True Reflect=true
+    MeshFile=SCNG<12>_RIM_RR.GMT      CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) ShadowReceiver=True Reflect=true
+    MeshFile=SCNG<12>_ROTOR_RR.GMT    CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(100) ShadowReceiver=True Reflect=true
+    MeshFile=SCNG<12>_CALIPER_RR.GMT  CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(100) ShadowReceiver=True Reflect=true
+  }
+}
