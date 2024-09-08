@@ -18,10 +18,16 @@
 /PaceCar/C6_PC
 /ASMG_F1_2021/.idea
 /ASMG_F1_2021/log
-/.vs/*
+/.vs
 /ASMG_F1_2021/.vs/ASMG_F1_2021/v17/Browse.VC.db
 /ASMG_F1_2022/.vs/ASMG_F1_2022/v17/Browse.VC.db
 /ASMG_F1_2022/bin/hash
 /ASMG_F1_2022/x64/Debug
 /build.rfbuild
 
+/.vs/Vehicles/v17/.suo
+/.vs/Vehicles/v17/fileList.bin
+/RenaultMegane
+/SRHF1_2024/Textures
+*.ffs_db
+/VRSC2023
