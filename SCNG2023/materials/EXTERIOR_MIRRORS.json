@@ -1,0 +1,97 @@
+{
+  "dstBlend" : "CUBEAB_ZERO",
+  "flags" : [ "CUBEMAT_SPECULAR", "CUBEMAT_RELIGHT", "CUBEMAT_AMBIENTMAT", "CUBEMAT_DIFFUSEMAT", "CUBEMAT_SPECLARDIR", "CUBEMAT_EMISSIVMAT", "CUBEMAT_EMISSIVDIR" ],
+  "name" : "EXTERIOR_MIRRORS",
+  "parameters" : {
+    "StandardInfo" : {
+      "ambientColour" : [ 1, 1, 1, 1 ],
+      "blendPercent" : 100,
+      "bumpScale" : 1,
+      "cubeMapFresnel" : {
+        "Exp" : 4,
+        "Max" : 1,
+        "Min" : 0
+      },
+      "diffuseColour" : [ 1, 1, 1, 1 ],
+      "emissiveColour" : [ 0, 0, 0, 1 ],
+      "refEnhance" : 0,
+      "specFresnel" : {
+        "Exp" : 4,
+        "Max" : 1,
+        "Min" : 0
+      },
+      "specPower" : 1,
+      "specularColour" : [ 1, 1, 1, 1 ]
+    },
+    "cbParameters" : {
+      "Base_Material" : {
+        "AO" : 1,
+        "Metallic" : 0,
+        "Roughness" : 0.5,
+        "Specular" : 1
+      },
+      "Material_Adjust" : {
+        "AlbedoTint" : [ 1, 1, 1, 1 ],
+        "Metallic" : 1,
+        "NormalIntensity" : 0,
+        "NormalShadowInfluence" : 0,
+        "Roughness" : 0.05,
+        "Specular" : 1
+      },
+      "UV_Scale" : {
+        "Albedo" : [ 1, 1 ]
+      }
+    }
+  },
+  "preprocessorFlags" : {
+    "ALBEDOMAP" : "@Null",
+    "ALBEDOUV" : "UV_A",
+    "AOSPECALTMAP" : "@Undef",
+    "AOSPECALTUV" : "UV_A",
+    "AOSPECMAP" : "@Undef",
+    "AOSPECUV" : "UV_C",
+    "BILLBOARD" : "@Undef",
+    "DETAILALBEDO" : "@Null",
+    "DETAILALBEDOBLEND" : "@Undef",
+    "DETAILAO" : "@Undef",
+    "DETAILMAP" : "@Undef",
+    "DETAILMETALLIC" : "@Undef",
+    "DETAILNORMAL" : "@Undef",
+    "DETAILROUGHNESS" : "@Undef",
+    "DETAILSPEC" : "@Undef",
+    "DETAILUV" : "UV_B",
+    "EMISSIVEMAP" : "@Undef",
+    "EMISSIVEMODE" : "@Undef",
+    "EMISSIVEUV" : "UV_C",
+    "METALLICROUGHNESSMAP" : "@Undef",
+    "METALROUGHUV" : "UV_A",
+    "NORMALMAP" : "@Undef",
+    "NORMALUV" : "UV_A",
+    "RETROREFLECTOR" : "@Undef",
+    "TRANSLUCENCY" : "@Undef",
+    "TRANSLUCENCYALBEDO" : "@Undef",
+    "VERTEXALPHA" : "@Undef",
+    "VERTEXCOLOR" : "@Undef"
+  },
+  "refName" : "REFMAP0",
+  "shader" : "L2IBLSTANDARD",
+  "sortOffset" : 0,
+  "srcBlend" : "CUBEAB_ONE",
+  "textures" : [ {
+    "AnisoLevel" : 0,
+    "ChromaColor" : 0,
+    "Flags" : [ "CUBETF_OWNEDBYMATERIAL" ],
+    "FrameCount" : 1,
+    "MipBias" : 0,
+    "MipLevels" : 1,
+    "Name" : "albedoMap",
+    "ShaderPass" : 0,
+    "ShadowMipBias" : 0,
+    "StageType" : "CUBETST_SRGB",
+    "TexChannel" : 0,
+    "Texture" : "mirror_ext",
+    "hasDefault" : true,
+    "inactive" : false,
+    "runtime" : false
+  } ]
+}
