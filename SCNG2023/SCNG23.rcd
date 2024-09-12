@@ -1,0 +1,6418 @@
+//[[gMb1.002f (c)2015    ]] [[            ]]
+SCNG23
+{
+  default
+  {
+    // The 'step' values control how far ahead AI looks at various speeds.  This effects braking, cornering etc
+    // Looking too far ahead makes the AI cut corners and potentially hit walls.
+    // Not looking far enough promotes twitchy turning reactions by AI cars.
+
+    Oval_default
+    {
+      StepDistance = 6.00                    // distance of each step is 6.00 meters
+      StepSpeed1 = 25.00                     // look ahead 6 meters (19.685999 feet) at 90 KPH 55.9225 MPH
+      StepSpeed2 = 33.80                     // look ahead 12 meters (39.371998 feet) at 121.67999 KPH 75.60722 MPH
+      StepSpeed3 = 45.60                     // look ahead 18 meters (59.058 feet) at 164.15999 KPH 102.00264 MPH
+      StepSpeed4 = 52.00                     // look ahead 24 meters (78.743996 feet) at 187.2 KPH 116.3188 MPH
+      StepSpeed5 = 61.00                     // look ahead 30 meters (98.43 feet) at 219.59999 KPH 136.45091 MPH
+      StepSpeed6 = 72.50                     // look ahead 36 meters (118.116 feet) at 261 KPH 162.17526 MPH
+      StepSpeed7 = 85.00                     // look ahead 42 meters (137.802 feet) at 306 KPH 190.1365 MPH
+      StepSpeed8 = 94.00                     // look ahead 48 meters (157.48799 feet) at 338.4 KPH 210.26862 MPH
+      UnderSteerEffectOnThrottleMulti = 200.00
+      UnderSteerEffectOnLineMulti = 55.00
+      OverSteerThrottleReaction = -35.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 100.00              // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 5.00                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST
+    }
+    AppleValley_Speedway
+    {
+      CorneringCaution = 8.00                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 1.00                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+    }
+    Atlanta_Motor_Speedway
+    {
+      StepDistance = 5.20                    // distance of each step is 5.20 meters
+      StepSpeed1 = 25.00                     // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
+      StepSpeed2 = 32.00                     // look ahead 10.4 meters (34.1224 feet) at 115.2 KPH 71.5808 MPH
+      StepSpeed3 = 40.00                     // look ahead 15.599999 meters (51.183598 feet) at 144 KPH 89.476006 MPH
+      StepSpeed4 = 55.00                     // look ahead 20.8 meters (68.2448 feet) at 198 KPH 123.0295 MPH
+      StepSpeed5 = 70.00                     // look ahead 26 meters (85.306 feet) at 252 KPH 156.58301 MPH
+      StepSpeed6 = 82.00                     // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
+      StepSpeed7 = 88.00                     // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
+      StepSpeed8 = 93.00                     // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
+      UnderSteerEffectOnThrottleMulti = 125.00
+      UnderSteerEffectOnLineMulti = 250.00
+      OverSteerThrottleReaction = -35.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 35.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+    }
+    AutoClub_Speedway
+    {
+      StepDistance = 6.00                    // distance of each step is 6.00 meters
+      StepSpeed1 = 19.10                     // look ahead 6 meters (19.685999 feet) at 68.76 KPH 42.724792 MPH
+      StepSpeed2 = 33.80                     // look ahead 12 meters (39.371998 feet) at 121.67999 KPH 75.60722 MPH
+      StepSpeed3 = 45.60                     // look ahead 18 meters (59.058 feet) at 164.15999 KPH 102.00264 MPH
+      StepSpeed4 = 52.00                     // look ahead 24 meters (78.743996 feet) at 187.2 KPH 116.3188 MPH
+      StepSpeed5 = 61.00                     // look ahead 30 meters (98.43 feet) at 219.59999 KPH 136.45091 MPH
+      StepSpeed6 = 72.50                     // look ahead 36 meters (118.116 feet) at 261 KPH 162.17526 MPH
+      StepSpeed7 = 85.00                     // look ahead 42 meters (137.802 feet) at 306 KPH 190.1365 MPH
+      StepSpeed8 = 94.00                     // look ahead 48 meters (157.48799 feet) at 338.4 KPH 210.26862 MPH
+      UnderSteerEffectOnThrottleMulti = 100.00
+      UnderSteerEffectOnLineMulti = 100.00
+      OverSteerThrottleReaction = -36.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 85.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 1.00                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST, HIGHLINE
+    }
+    Bristol_2016
+    {
+      StepDistance = 6.00                    // distance of each step is 6.00 meters
+      StepSpeed1 = 19.10                     // look ahead 6 meters (19.685999 feet) at 68.76 KPH 42.724792 MPH
+      StepSpeed2 = 33.80                     // look ahead 12 meters (39.371998 feet) at 121.67999 KPH 75.60722 MPH
+      StepSpeed3 = 45.60                     // look ahead 18 meters (59.058 feet) at 164.15999 KPH 102.00264 MPH
+      StepSpeed4 = 52.00                     // look ahead 24 meters (78.743996 feet) at 187.2 KPH 116.3188 MPH
+      StepSpeed5 = 61.00                     // look ahead 30 meters (98.43 feet) at 219.59999 KPH 136.45091 MPH
+      StepSpeed6 = 72.50                     // look ahead 36 meters (118.116 feet) at 261 KPH 162.17526 MPH
+      StepSpeed7 = 85.00                     // look ahead 42 meters (137.802 feet) at 306 KPH 190.1365 MPH
+      StepSpeed8 = 94.00                     // look ahead 48 meters (157.48799 feet) at 338.4 KPH 210.26862 MPH
+      UnderSteerEffectOnThrottleMulti = 125.00
+      UnderSteerEffectOnLineMulti = 55.00
+      OverSteerThrottleReaction = -36.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 35.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 1.00                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST, HIGHLINE
+    }
+    Bristol_Online
+    {
+      StepDistance = 6.00                    // distance of each step is 6.00 meters
+      StepSpeed1 = 16.38                     // look ahead 6 meters (19.685999 feet) at 58.967995 KPH 36.640423 MPH
+      StepSpeed2 = 22.75                     // look ahead 12 meters (39.371998 feet) at 81.9 KPH 50.889477 MPH
+      StepSpeed3 = 29.13                     // look ahead 18 meters (59.058 feet) at 104.868 KPH 65.1609 MPH
+      StepSpeed4 = 35.50                     // look ahead 24 meters (78.743996 feet) at 127.799995 KPH 79.40995 MPH
+      StepSpeed5 = 41.88                     // look ahead 30 meters (98.43 feet) at 150.768 KPH 93.68138 MPH
+      StepSpeed6 = 48.25                     // look ahead 36 meters (118.116 feet) at 173.7 KPH 107.93043 MPH
+      StepSpeed7 = 57.00                     // look ahead 42 meters (137.802 feet) at 205.2 KPH 127.5033 MPH
+      StepSpeed8 = 68.00                     // look ahead 48 meters (157.48799 feet) at 244.79999 KPH 152.1092 MPH
+      UnderSteerEffectOnThrottleMulti = 125.00
+      UnderSteerEffectOnLineMulti = 36.00
+      OverSteerThrottleReaction = -36.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 1.00                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 1.00                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST, HIGHLINE
+    }
+    Brookdale_Speedway
+    {
+      StepDistance = 6.00                    // distance of each step is 6.00 meters
+      StepSpeed1 = 16.38                     // look ahead 6 meters (19.685999 feet) at 58.967995 KPH 36.640423 MPH
+      StepSpeed2 = 22.75                     // look ahead 12 meters (39.371998 feet) at 81.9 KPH 50.889477 MPH
+      StepSpeed3 = 29.13                     // look ahead 18 meters (59.058 feet) at 104.868 KPH 65.1609 MPH
+      StepSpeed4 = 35.50                     // look ahead 24 meters (78.743996 feet) at 127.799995 KPH 79.40995 MPH
+      StepSpeed5 = 41.88                     // look ahead 30 meters (98.43 feet) at 150.768 KPH 93.68138 MPH
+      StepSpeed6 = 48.25                     // look ahead 36 meters (118.116 feet) at 173.7 KPH 107.93043 MPH
+      StepSpeed7 = 57.00                     // look ahead 42 meters (137.802 feet) at 205.2 KPH 127.5033 MPH
+      StepSpeed8 = 68.00                     // look ahead 48 meters (157.48799 feet) at 244.79999 KPH 152.1092 MPH
+      UnderSteerEffectOnThrottleMulti = 125.00
+      UnderSteerEffectOnLineMulti = 36.00
+      OverSteerThrottleReaction = -36.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 1.00                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 1.00                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST, HIGHLINE
+    }
+    TT_Charlotte
+    {
+      StepDistance = 6.00                    // distance of each step is 6.00 meters
+      StepSpeed1 = 19.10                     // look ahead 6 meters (19.685999 feet) at 68.76 KPH 42.724792 MPH
+      StepSpeed2 = 33.80                     // look ahead 12 meters (39.371998 feet) at 121.67999 KPH 75.60722 MPH
+      StepSpeed3 = 45.60                     // look ahead 18 meters (59.058 feet) at 164.15999 KPH 102.00264 MPH
+      StepSpeed4 = 52.00                     // look ahead 24 meters (78.743996 feet) at 187.2 KPH 116.3188 MPH
+      StepSpeed5 = 61.00                     // look ahead 30 meters (98.43 feet) at 219.59999 KPH 136.45091 MPH
+      StepSpeed6 = 72.50                     // look ahead 36 meters (118.116 feet) at 261 KPH 162.17526 MPH
+      StepSpeed7 = 85.00                     // look ahead 42 meters (137.802 feet) at 306 KPH 190.1365 MPH
+      StepSpeed8 = 94.00                     // look ahead 48 meters (157.48799 feet) at 338.4 KPH 210.26862 MPH
+      UnderSteerEffectOnThrottleMulti = 100.00
+      UnderSteerEffectOnLineMulti = 100.00
+      OverSteerThrottleReaction = -36.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 35.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 1.00                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST, HIGHLINE
+    }
+    Charlotte_Motor_Speedway
+    {
+      StepDistance = 6.00                    // distance of each step is 6.00 meters
+      StepSpeed1 = 19.10                     // look ahead 6 meters (19.685999 feet) at 68.76 KPH 42.724792 MPH
+      StepSpeed2 = 33.80                     // look ahead 12 meters (39.371998 feet) at 121.67999 KPH 75.60722 MPH
+      StepSpeed3 = 45.60                     // look ahead 18 meters (59.058 feet) at 164.15999 KPH 102.00264 MPH
+      StepSpeed4 = 52.00                     // look ahead 24 meters (78.743996 feet) at 187.2 KPH 116.3188 MPH
+      StepSpeed5 = 61.00                     // look ahead 30 meters (98.43 feet) at 219.59999 KPH 136.45091 MPH
+      StepSpeed6 = 72.50                     // look ahead 36 meters (118.116 feet) at 261 KPH 162.17526 MPH
+      StepSpeed7 = 85.00                     // look ahead 42 meters (137.802 feet) at 306 KPH 190.1365 MPH
+      StepSpeed8 = 94.00                     // look ahead 48 meters (157.48799 feet) at 338.4 KPH 210.26862 MPH
+      UnderSteerEffectOnThrottleMulti = 135.00
+      UnderSteerEffectOnLineMulti = 55.00
+      OverSteerThrottleReaction = -36.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 80.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 1.00                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST, HIGHLINE
+    }
+    Chicagoland_2016
+    {
+      StepDistance = 6.00                    // distance of each step is 6.00 meters
+      StepSpeed1 = 19.10                     // look ahead 6 meters (19.685999 feet) at 68.76 KPH 42.724792 MPH
+      StepSpeed2 = 33.80                     // look ahead 12 meters (39.371998 feet) at 121.67999 KPH 75.60722 MPH
+      StepSpeed3 = 45.60                     // look ahead 18 meters (59.058 feet) at 164.15999 KPH 102.00264 MPH
+      StepSpeed4 = 52.00                     // look ahead 24 meters (78.743996 feet) at 187.2 KPH 116.3188 MPH
+      StepSpeed5 = 61.00                     // look ahead 30 meters (98.43 feet) at 219.59999 KPH 136.45091 MPH
+      StepSpeed6 = 72.50                     // look ahead 36 meters (118.116 feet) at 261 KPH 162.17526 MPH
+      StepSpeed7 = 85.00                     // look ahead 42 meters (137.802 feet) at 306 KPH 190.1365 MPH
+      StepSpeed8 = 94.00                     // look ahead 48 meters (157.48799 feet) at 338.4 KPH 210.26862 MPH
+      UnderSteerEffectOnThrottleMulti = 135.00
+      UnderSteerEffectOnLineMulti = 55.00
+      OverSteerThrottleReaction = -36.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 80.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 1.00                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST, HIGHLINE
+    }
+    Gateway_2022
+    {
+      StepDistance = 6.00                    // distance of each step is 6.00 meters
+      StepSpeed1 = 19.10                     // look ahead 6 meters (19.685999 feet) at 68.76 KPH 42.724792 MPH
+      StepSpeed2 = 33.80                     // look ahead 12 meters (39.371998 feet) at 121.67999 KPH 75.60722 MPH
+      StepSpeed3 = 45.60                     // look ahead 18 meters (59.058 feet) at 164.15999 KPH 102.00264 MPH
+      StepSpeed4 = 52.00                     // look ahead 24 meters (78.743996 feet) at 187.2 KPH 116.3188 MPH
+      StepSpeed5 = 61.00                     // look ahead 30 meters (98.43 feet) at 219.59999 KPH 136.45091 MPH
+      StepSpeed6 = 72.50                     // look ahead 36 meters (118.116 feet) at 261 KPH 162.17526 MPH
+      StepSpeed7 = 85.00                     // look ahead 42 meters (137.802 feet) at 306 KPH 190.1365 MPH
+      StepSpeed8 = 94.00                     // look ahead 48 meters (157.48799 feet) at 338.4 KPH 210.26862 MPH
+      UnderSteerEffectOnThrottleMulti = 135.00
+      UnderSteerEffectOnLineMulti = 55.00
+      OverSteerThrottleReaction = -36.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 80.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 1.00                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST, HIGHLINE
+    }
+    GPVWC_COTA_2019
+    {
+      StepDistance = 3.00                    // distance of each step is 3.00 meters
+      StepSpeed1 = 07.00                     // look ahead 3 meters (9.842999 feet) at 25.199999 KPH 15.6583 MPH
+      StepSpeed2 = 12.00                     // look ahead 6 meters (19.685999 feet) at 43.199997 KPH 26.8428 MPH
+      StepSpeed3 = 25.00                     // look ahead 9 meters (29.529 feet) at 90 KPH 55.9225 MPH
+      StepSpeed4 = 33.00                     // look ahead 12 meters (39.371998 feet) at 118.799995 KPH 73.8177 MPH
+      StepSpeed5 = 41.00                     // look ahead 15 meters (49.215 feet) at 147.59999 KPH 91.712906 MPH
+      StepSpeed6 = 50.00                     // look ahead 18 meters (59.058 feet) at 180 KPH 111.845 MPH
+      StepSpeed7 = 62.00                     // look ahead 21 meters (68.901 feet) at 223.2 KPH 138.6878 MPH
+      StepSpeed8 = 75.00                     // look ahead 24 meters (78.743996 feet) at 270 KPH 167.7675 MPH
+      UnderSteerEffectOnThrottleMulti = 200.00
+      UnderSteerEffectOnLineMulti = 300.00
+      OverSteerThrottleReaction = -18.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 50.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 100.00                   // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST
+    }
+    Darlington_500
+    {
+      StepDistance = 5.20                    // distance of each step is 5.20 meters
+      StepSpeed1 = 25.00                     // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
+      StepSpeed2 = 32.00                     // look ahead 10.4 meters (34.1224 feet) at 115.2 KPH 71.5808 MPH
+      StepSpeed3 = 40.00                     // look ahead 15.599999 meters (51.183598 feet) at 144 KPH 89.476006 MPH
+      StepSpeed4 = 55.00                     // look ahead 20.8 meters (68.2448 feet) at 198 KPH 123.0295 MPH
+      StepSpeed5 = 70.00                     // look ahead 26 meters (85.306 feet) at 252 KPH 156.58301 MPH
+      StepSpeed6 = 82.00                     // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
+      StepSpeed7 = 88.00                     // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
+      StepSpeed8 = 93.00                     // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
+      UnderSteerEffectOnThrottleMulti = 125.00
+      UnderSteerEffectOnLineMulti = 250.00
+      OverSteerThrottleReaction = -35.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 35.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+    }
+    Daytona_2016
+    {
+      StepDistance = 6.00                    // distance of each step is 6.00 meters
+      StepSpeed1 = 19.10                     // look ahead 6 meters (19.685999 feet) at 68.76 KPH 42.724792 MPH
+      StepSpeed2 = 33.80                     // look ahead 12 meters (39.371998 feet) at 121.67999 KPH 75.60722 MPH
+      StepSpeed3 = 45.60                     // look ahead 18 meters (59.058 feet) at 164.15999 KPH 102.00264 MPH
+      StepSpeed4 = 52.00                     // look ahead 24 meters (78.743996 feet) at 187.2 KPH 116.3188 MPH
+      StepSpeed5 = 61.00                     // look ahead 30 meters (98.43 feet) at 219.59999 KPH 136.45091 MPH
+      StepSpeed6 = 72.50                     // look ahead 36 meters (118.116 feet) at 261 KPH 162.17526 MPH
+      StepSpeed7 = 85.00                     // look ahead 42 meters (137.802 feet) at 306 KPH 190.1365 MPH
+      StepSpeed8 = 94.00                     // look ahead 48 meters (157.48799 feet) at 338.4 KPH 210.26862 MPH
+      UnderSteerEffectOnThrottleMulti = 0.10
+      UnderSteerEffectOnLineMulti = 300.00
+      OverSteerThrottleReaction = -36.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 80.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 1.00                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST, HIGHLINE
+    }
+    JM_Daytona_Speedway_Oval
+    {
+      StepDistance = 5.20                    // distance of each step is 5.20 meters
+      StepSpeed1 = 25.00                     // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
+      StepSpeed2 = 32.00                     // look ahead 10.4 meters (34.1224 feet) at 115.2 KPH 71.5808 MPH
+      StepSpeed3 = 40.00                     // look ahead 15.599999 meters (51.183598 feet) at 144 KPH 89.476006 MPH
+      StepSpeed4 = 55.00                     // look ahead 20.8 meters (68.2448 feet) at 198 KPH 123.0295 MPH
+      StepSpeed5 = 70.00                     // look ahead 26 meters (85.306 feet) at 252 KPH 156.58301 MPH
+      StepSpeed6 = 82.00                     // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
+      StepSpeed7 = 88.00                     // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
+      StepSpeed8 = 93.00                     // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
+      UnderSteerEffectOnThrottleMulti = 250.00
+      UnderSteerEffectOnLineMulti = 250.00
+      OverSteerThrottleReaction = 100.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 0.10                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+    }
+    Dover_2016
+    {
+      StepDistance = 5.20                    // distance of each step is 5.20 meters
+      StepSpeed1 = 25.00                     // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
+      StepSpeed2 = 32.00                     // look ahead 10.4 meters (34.1224 feet) at 115.2 KPH 71.5808 MPH
+      StepSpeed3 = 40.00                     // look ahead 15.599999 meters (51.183598 feet) at 144 KPH 89.476006 MPH
+      StepSpeed4 = 55.00                     // look ahead 20.8 meters (68.2448 feet) at 198 KPH 123.0295 MPH
+      StepSpeed5 = 70.00                     // look ahead 26 meters (85.306 feet) at 252 KPH 156.58301 MPH
+      StepSpeed6 = 82.00                     // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
+      StepSpeed7 = 88.00                     // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
+      StepSpeed8 = 93.00                     // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
+      UnderSteerEffectOnThrottleMulti = 250.00
+      UnderSteerEffectOnLineMulti = 250.00
+      OverSteerThrottleReaction = -35.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 35.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST, HIGHLINE
+    }
+    Homestead_Speedway
+    {
+      StepDistance = 6.00                    // distance of each step is 6.00 meters
+      StepSpeed1 = 19.10                     // look ahead 6 meters (19.685999 feet) at 68.76 KPH 42.724792 MPH
+      StepSpeed2 = 33.80                     // look ahead 12 meters (39.371998 feet) at 121.67999 KPH 75.60722 MPH
+      StepSpeed3 = 45.60                     // look ahead 18 meters (59.058 feet) at 164.15999 KPH 102.00264 MPH
+      StepSpeed4 = 52.00                     // look ahead 24 meters (78.743996 feet) at 187.2 KPH 116.3188 MPH
+      StepSpeed5 = 61.00                     // look ahead 30 meters (98.43 feet) at 219.59999 KPH 136.45091 MPH
+      StepSpeed6 = 72.50                     // look ahead 36 meters (118.116 feet) at 261 KPH 162.17526 MPH
+      StepSpeed7 = 85.00                     // look ahead 42 meters (137.802 feet) at 306 KPH 190.1365 MPH
+      StepSpeed8 = 94.00                     // look ahead 48 meters (157.48799 feet) at 338.4 KPH 210.26862 MPH
+      UnderSteerEffectOnThrottleMulti = 0.10
+      UnderSteerEffectOnLineMulti = 300.00
+      OverSteerThrottleReaction = -36.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 20.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 1.00                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST, HIGHLINE
+    }
+    Indianapolis2020_500
+    {
+      StepDistance = 6.00                    // distance of each step is 6.00 meters
+      StepSpeed1 = 19.10                     // look ahead 6 meters (19.685999 feet) at 68.76 KPH 42.724792 MPH
+      StepSpeed2 = 33.80                     // look ahead 12 meters (39.371998 feet) at 121.67999 KPH 75.60722 MPH
+      StepSpeed3 = 45.60                     // look ahead 18 meters (59.058 feet) at 164.15999 KPH 102.00264 MPH
+      StepSpeed4 = 52.00                     // look ahead 24 meters (78.743996 feet) at 187.2 KPH 116.3188 MPH
+      StepSpeed5 = 61.00                     // look ahead 30 meters (98.43 feet) at 219.59999 KPH 136.45091 MPH
+      StepSpeed6 = 72.50                     // look ahead 36 meters (118.116 feet) at 261 KPH 162.17526 MPH
+      StepSpeed7 = 85.00                     // look ahead 42 meters (137.802 feet) at 306 KPH 190.1365 MPH
+      StepSpeed8 = 94.00                     // look ahead 48 meters (157.48799 feet) at 338.4 KPH 210.26862 MPH
+      UnderSteerEffectOnThrottleMulti = 0.10
+      UnderSteerEffectOnLineMulti = 0.10
+      OverSteerThrottleReaction = -16.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 22.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 1.00                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST, HIGHLINE
+    }
+    Indianapolis2020_400
+    {
+      StepDistance = 8.00                    // distance of each step is 8.00 meters
+      StepSpeed1 = 19.10                     // look ahead 8 meters (26.248 feet) at 68.76 KPH 42.724792 MPH
+      StepSpeed2 = 33.80                     // look ahead 16 meters (52.496 feet) at 121.67999 KPH 75.60722 MPH
+      StepSpeed3 = 45.60                     // look ahead 24 meters (78.743996 feet) at 164.15999 KPH 102.00264 MPH
+      StepSpeed4 = 52.00                     // look ahead 32 meters (104.992 feet) at 187.2 KPH 116.3188 MPH
+      StepSpeed5 = 61.00                     // look ahead 40 meters (131.23999 feet) at 219.59999 KPH 136.45091 MPH
+      StepSpeed6 = 72.50                     // look ahead 48 meters (157.48799 feet) at 261 KPH 162.17526 MPH
+      StepSpeed7 = 85.00                     // look ahead 56 meters (183.736 feet) at 306 KPH 190.1365 MPH
+      StepSpeed8 = 94.00                     // look ahead 64 meters (209.984 feet) at 338.4 KPH 210.26862 MPH
+      UnderSteerEffectOnThrottleMulti = 1.00
+      UnderSteerEffectOnLineMulti = 1.00
+      OverSteerThrottleReaction = -36.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 30.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 1.00                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST, HIGHLINE
+    }
+    Jacksonville500
+    {
+      StepDistance = 8.00                    // distance of each step is 8.00 meters
+      StepSpeed1 = 19.10                     // look ahead 8 meters (26.248 feet) at 68.76 KPH 42.724792 MPH
+      StepSpeed2 = 33.80                     // look ahead 16 meters (52.496 feet) at 121.67999 KPH 75.60722 MPH
+      StepSpeed3 = 45.60                     // look ahead 24 meters (78.743996 feet) at 164.15999 KPH 102.00264 MPH
+      StepSpeed4 = 52.00                     // look ahead 32 meters (104.992 feet) at 187.2 KPH 116.3188 MPH
+      StepSpeed5 = 61.00                     // look ahead 40 meters (131.23999 feet) at 219.59999 KPH 136.45091 MPH
+      StepSpeed6 = 72.50                     // look ahead 48 meters (157.48799 feet) at 261 KPH 162.17526 MPH
+      StepSpeed7 = 85.00                     // look ahead 56 meters (183.736 feet) at 306 KPH 190.1365 MPH
+      StepSpeed8 = 94.00                     // look ahead 64 meters (209.984 feet) at 338.4 KPH 210.26862 MPH
+      UnderSteerEffectOnThrottleMulti = 1.00
+      UnderSteerEffectOnLineMulti = 1.00
+      OverSteerThrottleReaction = -36.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 45.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 1.00                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST, HIGHLINE
+    }
+    Joesville_Speedway
+    {
+      StepDistance = 5.20                    // distance of each step is 5.20 meters
+      StepSpeed1 = 25.00                     // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
+      StepSpeed2 = 32.00                     // look ahead 10.4 meters (34.1224 feet) at 115.2 KPH 71.5808 MPH
+      StepSpeed3 = 40.00                     // look ahead 15.599999 meters (51.183598 feet) at 144 KPH 89.476006 MPH
+      StepSpeed4 = 55.00                     // look ahead 20.8 meters (68.2448 feet) at 198 KPH 123.0295 MPH
+      StepSpeed5 = 70.00                     // look ahead 26 meters (85.306 feet) at 252 KPH 156.58301 MPH
+      StepSpeed6 = 82.00                     // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
+      StepSpeed7 = 88.00                     // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
+      StepSpeed8 = 93.00                     // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
+      CorneringCaution = 10.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+    }
+    Kansas_2016
+    {
+      CorneringCaution = 20.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+    }
+    Kentucky_Speedway
+    {
+      StepDistance = 5.00                    // distance of each step is 5.00 meters
+      StepSpeed1 = 19.10                     // look ahead 5 meters (16.404999 feet) at 68.76 KPH 42.724792 MPH
+      StepSpeed2 = 33.80                     // look ahead 10 meters (32.809998 feet) at 121.67999 KPH 75.60722 MPH
+      StepSpeed3 = 45.60                     // look ahead 15 meters (49.215 feet) at 164.15999 KPH 102.00264 MPH
+      StepSpeed4 = 52.00                     // look ahead 20 meters (65.619995 feet) at 187.2 KPH 116.3188 MPH
+      StepSpeed5 = 61.00                     // look ahead 25 meters (82.024994 feet) at 219.59999 KPH 136.45091 MPH
+      StepSpeed6 = 72.50                     // look ahead 30 meters (98.43 feet) at 261 KPH 162.17526 MPH
+      StepSpeed7 = 85.00                     // look ahead 35 meters (114.835 feet) at 306 KPH 190.1365 MPH
+      StepSpeed8 = 94.00                     // look ahead 40 meters (131.23999 feet) at 338.4 KPH 210.26862 MPH
+      UnderSteerEffectOnThrottleMulti = 1.00
+      UnderSteerEffectOnLineMulti = 1.00
+      OverSteerThrottleReaction = -36.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 30.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 100.00                   // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST, HIGHLINE
+    }
+    LasVegas_2016
+    {
+      StepDistance = 6.00                    // distance of each step is 6.00 meters
+      StepSpeed1 = 19.10                     // look ahead 6 meters (19.685999 feet) at 68.76 KPH 42.724792 MPH
+      StepSpeed2 = 33.80                     // look ahead 12 meters (39.371998 feet) at 121.67999 KPH 75.60722 MPH
+      StepSpeed3 = 45.60                     // look ahead 18 meters (59.058 feet) at 164.15999 KPH 102.00264 MPH
+      StepSpeed4 = 52.00                     // look ahead 24 meters (78.743996 feet) at 187.2 KPH 116.3188 MPH
+      StepSpeed5 = 61.00                     // look ahead 30 meters (98.43 feet) at 219.59999 KPH 136.45091 MPH
+      StepSpeed6 = 72.50                     // look ahead 36 meters (118.116 feet) at 261 KPH 162.17526 MPH
+      StepSpeed7 = 85.00                     // look ahead 42 meters (137.802 feet) at 306 KPH 190.1365 MPH
+      StepSpeed8 = 94.00                     // look ahead 48 meters (157.48799 feet) at 338.4 KPH 210.26862 MPH
+      UnderSteerEffectOnThrottleMulti = 1.00
+      UnderSteerEffectOnLineMulti = 1.00
+      OverSteerThrottleReaction = -36.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 30.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 100.00                   // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST, HIGHLINE
+    }
+    Martinsville_2016
+    {
+      StepDistance = 5.20                    // distance of each step is 5.20 meters
+      StepSpeed1 = 25.00                     // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
+      StepSpeed2 = 32.00                     // look ahead 10.4 meters (34.1224 feet) at 115.2 KPH 71.5808 MPH
+      StepSpeed3 = 40.00                     // look ahead 15.599999 meters (51.183598 feet) at 144 KPH 89.476006 MPH
+      StepSpeed4 = 55.00                     // look ahead 20.8 meters (68.2448 feet) at 198 KPH 123.0295 MPH
+      StepSpeed5 = 70.00                     // look ahead 26 meters (85.306 feet) at 252 KPH 156.58301 MPH
+      StepSpeed6 = 82.00                     // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
+      StepSpeed7 = 88.00                     // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
+      StepSpeed8 = 93.00                     // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
+      UnderSteerEffectOnThrottleMulti = 133.00
+      UnderSteerEffectOnLineMulti = 100.00
+      OverSteerThrottleReaction = -75.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 60.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST,HIGHLINE
+    }
+    Martinsville_Speedway
+    {
+      StepDistance = 5.20                    // distance of each step is 5.20 meters
+      StepSpeed1 = 25.00                     // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
+      StepSpeed2 = 32.00                     // look ahead 10.4 meters (34.1224 feet) at 115.2 KPH 71.5808 MPH
+      StepSpeed3 = 40.00                     // look ahead 15.599999 meters (51.183598 feet) at 144 KPH 89.476006 MPH
+      StepSpeed4 = 55.00                     // look ahead 20.8 meters (68.2448 feet) at 198 KPH 123.0295 MPH
+      StepSpeed5 = 70.00                     // look ahead 26 meters (85.306 feet) at 252 KPH 156.58301 MPH
+      StepSpeed6 = 82.00                     // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
+      StepSpeed7 = 88.00                     // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
+      StepSpeed8 = 93.00                     // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
+      UnderSteerEffectOnThrottleMulti = 250.00
+      UnderSteerEffectOnLineMulti = 100.00
+      OverSteerThrottleReaction = -75.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 25.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST,HIGHLINE
+    }
+    Michigan_2016
+    {
+      StepDistance = 5.50                    // distance of each step is 5.50 meters
+      StepSpeed1 = 19.10                     // look ahead 5.5 meters (18.0455 feet) at 68.76 KPH 42.724792 MPH
+      StepSpeed2 = 33.80                     // look ahead 11 meters (36.091 feet) at 121.67999 KPH 75.60722 MPH
+      StepSpeed3 = 45.60                     // look ahead 16.5 meters (54.136497 feet) at 164.15999 KPH 102.00264 MPH
+      StepSpeed4 = 52.00                     // look ahead 22 meters (72.182 feet) at 187.2 KPH 116.3188 MPH
+      StepSpeed5 = 61.00                     // look ahead 27.5 meters (90.2275 feet) at 219.59999 KPH 136.45091 MPH
+      StepSpeed6 = 72.50                     // look ahead 33 meters (108.272995 feet) at 261 KPH 162.17526 MPH
+      StepSpeed7 = 85.00                     // look ahead 38.5 meters (126.3185 feet) at 306 KPH 190.1365 MPH
+      StepSpeed8 = 94.00                     // look ahead 44 meters (144.364 feet) at 338.4 KPH 210.26862 MPH
+      UnderSteerEffectOnThrottleMulti = 0.10
+      UnderSteerEffectOnLineMulti = 0.10
+      OverSteerThrottleReaction = -36.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 45.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 1.00                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST, HIGHLINE
+    }
+    TCH_NASH
+    {
+      UnderSteerEffectOnThrottleMulti = 0.10
+      UnderSteerEffectOnLineMulti = 300.00
+      OverSteerThrottleReaction = 100.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 100.00              // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+    }
+    NewHampshire_2016
+    {
+      StepDistance = 5.50                    // distance of each step is 5.50 meters
+      StepSpeed1 = 25.00                     // look ahead 5.5 meters (18.0455 feet) at 90 KPH 55.9225 MPH
+      StepSpeed2 = 33.80                     // look ahead 11 meters (36.091 feet) at 121.67999 KPH 75.60722 MPH
+      StepSpeed3 = 45.60                     // look ahead 16.5 meters (54.136497 feet) at 164.15999 KPH 102.00264 MPH
+      StepSpeed4 = 52.00                     // look ahead 22 meters (72.182 feet) at 187.2 KPH 116.3188 MPH
+      StepSpeed5 = 61.00                     // look ahead 27.5 meters (90.2275 feet) at 219.59999 KPH 136.45091 MPH
+      StepSpeed6 = 72.50                     // look ahead 33 meters (108.272995 feet) at 261 KPH 162.17526 MPH
+      StepSpeed7 = 85.00                     // look ahead 38.5 meters (126.3185 feet) at 306 KPH 190.1365 MPH
+      StepSpeed8 = 94.00                     // look ahead 44 meters (144.364 feet) at 338.4 KPH 210.26862 MPH
+      UnderSteerEffectOnThrottleMulti = 133.00
+      UnderSteerEffectOnLineMulti = 100.00
+      OverSteerThrottleReaction = -75.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 25.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 1.00                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST, HIGHLINE
+    }
+    NIR
+    {
+      StepDistance = 5.50                    // distance of each step is 5.50 meters
+      StepSpeed1 = 19.10                     // look ahead 5.5 meters (18.0455 feet) at 68.76 KPH 42.724792 MPH
+      StepSpeed2 = 33.80                     // look ahead 11 meters (36.091 feet) at 121.67999 KPH 75.60722 MPH
+      StepSpeed3 = 45.60                     // look ahead 16.5 meters (54.136497 feet) at 164.15999 KPH 102.00264 MPH
+      StepSpeed4 = 52.00                     // look ahead 22 meters (72.182 feet) at 187.2 KPH 116.3188 MPH
+      StepSpeed5 = 61.00                     // look ahead 27.5 meters (90.2275 feet) at 219.59999 KPH 136.45091 MPH
+      StepSpeed6 = 72.50                     // look ahead 33 meters (108.272995 feet) at 261 KPH 162.17526 MPH
+      StepSpeed7 = 85.00                     // look ahead 38.5 meters (126.3185 feet) at 306 KPH 190.1365 MPH
+      StepSpeed8 = 94.00                     // look ahead 44 meters (144.364 feet) at 338.4 KPH 210.26862 MPH
+      UnderSteerEffectOnThrottleMulti = 0.10
+      UnderSteerEffectOnLineMulti = 0.10
+      OverSteerThrottleReaction = -36.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 80.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+    }
+    North_Wilkesboro
+    {
+      StepDistance = 4.00                    // distance of each step is 4.00 meters
+      StepSpeed1 = 19.10                     // look ahead 4 meters (13.124 feet) at 68.76 KPH 42.724792 MPH
+      StepSpeed2 = 33.80                     // look ahead 8 meters (26.248 feet) at 121.67999 KPH 75.60722 MPH
+      StepSpeed3 = 45.60                     // look ahead 12 meters (39.371998 feet) at 164.15999 KPH 102.00264 MPH
+      StepSpeed4 = 52.00                     // look ahead 16 meters (52.496 feet) at 187.2 KPH 116.3188 MPH
+      StepSpeed5 = 61.00                     // look ahead 20 meters (65.619995 feet) at 219.59999 KPH 136.45091 MPH
+      StepSpeed6 = 72.50                     // look ahead 24 meters (78.743996 feet) at 261 KPH 162.17526 MPH
+      StepSpeed7 = 85.00                     // look ahead 28 meters (91.868 feet) at 306 KPH 190.1365 MPH
+      StepSpeed8 = 94.00                     // look ahead 32 meters (104.992 feet) at 338.4 KPH 210.26862 MPH
+      UnderSteerEffectOnThrottleMulti = 0.10
+      UnderSteerEffectOnLineMulti = 0.10
+      OverSteerThrottleReaction = -36.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 80.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 1.00                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST, HIGHLINE
+    }
+    PalmSprings_SW
+    {
+      StepDistance = 5.00                    // distance of each step is 5.00 meters
+      StepSpeed1 = 19.10                     // look ahead 5 meters (16.404999 feet) at 68.76 KPH 42.724792 MPH
+      StepSpeed2 = 33.80                     // look ahead 10 meters (32.809998 feet) at 121.67999 KPH 75.60722 MPH
+      StepSpeed3 = 45.60                     // look ahead 15 meters (49.215 feet) at 164.15999 KPH 102.00264 MPH
+      StepSpeed4 = 52.00                     // look ahead 20 meters (65.619995 feet) at 187.2 KPH 116.3188 MPH
+      StepSpeed5 = 61.00                     // look ahead 25 meters (82.024994 feet) at 219.59999 KPH 136.45091 MPH
+      StepSpeed6 = 72.50                     // look ahead 30 meters (98.43 feet) at 261 KPH 162.17526 MPH
+      StepSpeed7 = 85.00                     // look ahead 35 meters (114.835 feet) at 306 KPH 190.1365 MPH
+      StepSpeed8 = 94.00                     // look ahead 40 meters (131.23999 feet) at 338.4 KPH 210.26862 MPH
+      UnderSteerEffectOnThrottleMulti = 0.10
+      UnderSteerEffectOnLineMulti = 0.10
+      OverSteerThrottleReaction = -36.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 45.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 1.00                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST, BLOCK, HIGHLINE, RIGHT
+    }
+    Phoenix_2016
+    {
+      StepDistance = 5.00                    // distance of each step is 5.00 meters
+      UnderSteerEffectOnThrottleMulti = 0.10
+      UnderSteerEffectOnLineMulti = 300.00
+      CorneringCaution = 70.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 100.00                   // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+    }
+    Pocono_2016
+    {
+      StepDistance = 5.50                    // distance of each step is 5.50 meters
+      StepSpeed1 = 19.10                     // look ahead 5.5 meters (18.0455 feet) at 68.76 KPH 42.724792 MPH
+      StepSpeed2 = 33.80                     // look ahead 11 meters (36.091 feet) at 121.67999 KPH 75.60722 MPH
+      StepSpeed3 = 45.60                     // look ahead 16.5 meters (54.136497 feet) at 164.15999 KPH 102.00264 MPH
+      StepSpeed4 = 52.00                     // look ahead 22 meters (72.182 feet) at 187.2 KPH 116.3188 MPH
+      StepSpeed5 = 61.00                     // look ahead 27.5 meters (90.2275 feet) at 219.59999 KPH 136.45091 MPH
+      StepSpeed6 = 72.50                     // look ahead 33 meters (108.272995 feet) at 261 KPH 162.17526 MPH
+      StepSpeed7 = 85.00                     // look ahead 38.5 meters (126.3185 feet) at 306 KPH 190.1365 MPH
+      StepSpeed8 = 94.00                     // look ahead 44 meters (144.364 feet) at 338.4 KPH 210.26862 MPH
+      UnderSteerEffectOnThrottleMulti = 0.10
+      UnderSteerEffectOnLineMulti = 0.10
+      OverSteerThrottleReaction = -36.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 80.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+    }
+    Richmond
+    {
+      StepDistance = 5.20                    // distance of each step is 5.20 meters
+      StepSpeed1 = 19.10                     // look ahead 5.2 meters (17.0612 feet) at 68.76 KPH 42.724792 MPH
+      StepSpeed2 = 33.80                     // look ahead 10.4 meters (34.1224 feet) at 121.67999 KPH 75.60722 MPH
+      StepSpeed3 = 45.60                     // look ahead 15.599999 meters (51.183598 feet) at 164.15999 KPH 102.00264 MPH
+      StepSpeed4 = 52.00                     // look ahead 20.8 meters (68.2448 feet) at 187.2 KPH 116.3188 MPH
+      StepSpeed5 = 61.00                     // look ahead 26 meters (85.306 feet) at 219.59999 KPH 136.45091 MPH
+      StepSpeed6 = 72.50                     // look ahead 31.199999 meters (102.367195 feet) at 261 KPH 162.17526 MPH
+      StepSpeed7 = 85.00                     // look ahead 36.399998 meters (119.42839 feet) at 306 KPH 190.1365 MPH
+      StepSpeed8 = 94.00                     // look ahead 41.6 meters (136.4896 feet) at 338.4 KPH 210.26862 MPH
+      UnderSteerEffectOnThrottleMulti = 0.10
+      UnderSteerEffectOnLineMulti = 0.10
+      OverSteerThrottleReaction = -36.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 22.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 1.00                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST, HIGHLINE
+    }
+    Road_America_GP
+    {
+      StepDistance = 4.00                    // distance of each step is 4.00 meters
+      StepSpeed1 = 19.10                     // look ahead 4 meters (13.124 feet) at 68.76 KPH 42.724792 MPH
+      StepSpeed2 = 33.80                     // look ahead 8 meters (26.248 feet) at 121.67999 KPH 75.60722 MPH
+      StepSpeed3 = 45.60                     // look ahead 12 meters (39.371998 feet) at 164.15999 KPH 102.00264 MPH
+      StepSpeed4 = 52.00                     // look ahead 16 meters (52.496 feet) at 187.2 KPH 116.3188 MPH
+      StepSpeed5 = 61.00                     // look ahead 20 meters (65.619995 feet) at 219.59999 KPH 136.45091 MPH
+      StepSpeed6 = 72.50                     // look ahead 24 meters (78.743996 feet) at 261 KPH 162.17526 MPH
+      StepSpeed7 = 85.00                     // look ahead 28 meters (91.868 feet) at 306 KPH 190.1365 MPH
+      StepSpeed8 = 94.00                     // look ahead 32 meters (104.992 feet) at 338.4 KPH 210.26862 MPH
+      UnderSteerEffectOnThrottleMulti = 0.10
+      UnderSteerEffectOnLineMulti = 0.10
+      OverSteerThrottleReaction = -36.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 80.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 1.00                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST, HIGHLINE
+    }
+    Sonoma_Raceway_NASCAR
+    {
+      CorneringCaution = 100.00              // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+    }
+    Talladega_2016
+    {
+      CorneringCaution = 100.00              // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+    }
+    Texas_2016
+    {
+      StepDistance = 5.20                    // distance of each step is 5.20 meters
+      StepSpeed1 = 25.00                     // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
+      StepSpeed2 = 32.00                     // look ahead 10.4 meters (34.1224 feet) at 115.2 KPH 71.5808 MPH
+      StepSpeed3 = 40.00                     // look ahead 15.599999 meters (51.183598 feet) at 144 KPH 89.476006 MPH
+      StepSpeed4 = 55.00                     // look ahead 20.8 meters (68.2448 feet) at 198 KPH 123.0295 MPH
+      StepSpeed5 = 70.00                     // look ahead 26 meters (85.306 feet) at 252 KPH 156.58301 MPH
+      StepSpeed6 = 82.00                     // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
+      StepSpeed7 = 88.00                     // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
+      StepSpeed8 = 93.00                     // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
+      UnderSteerEffectOnThrottleMulti = 250.00
+      UnderSteerEffectOnLineMulti = 250.00
+      OverSteerThrottleReaction = 100.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 0.10                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+    }
+    Watkins_Glen_Short
+    {
+      StepDistance = 5.50                    // distance of each step is 5.50 meters
+      StepSpeed1 = 19.10                     // look ahead 5.5 meters (18.0455 feet) at 68.76 KPH 42.724792 MPH
+      StepSpeed2 = 33.80                     // look ahead 11 meters (36.091 feet) at 121.67999 KPH 75.60722 MPH
+      StepSpeed3 = 45.60                     // look ahead 16.5 meters (54.136497 feet) at 164.15999 KPH 102.00264 MPH
+      StepSpeed4 = 52.00                     // look ahead 22 meters (72.182 feet) at 187.2 KPH 116.3188 MPH
+      StepSpeed5 = 61.00                     // look ahead 27.5 meters (90.2275 feet) at 219.59999 KPH 136.45091 MPH
+      StepSpeed6 = 72.50                     // look ahead 33 meters (108.272995 feet) at 261 KPH 162.17526 MPH
+      StepSpeed7 = 85.00                     // look ahead 38.5 meters (126.3185 feet) at 306 KPH 190.1365 MPH
+      StepSpeed8 = 94.00                     // look ahead 44 meters (144.364 feet) at 338.4 KPH 210.26862 MPH
+      UnderSteerEffectOnThrottleMulti = 0.10
+      UnderSteerEffectOnLineMulti = 0.10
+      OverSteerThrottleReaction = -36.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 30.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 80.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST, HIGHLINE
+    }
+    Dominion_Raceway
+    {
+      StepDistance = 6.00                    // distance of each step is 6.00 meters
+      StepSpeed1 = 25.00                     // look ahead 6 meters (19.685999 feet) at 90 KPH 55.9225 MPH
+      StepSpeed2 = 33.80                     // look ahead 12 meters (39.371998 feet) at 121.67999 KPH 75.60722 MPH
+      StepSpeed3 = 45.60                     // look ahead 18 meters (59.058 feet) at 164.15999 KPH 102.00264 MPH
+      StepSpeed4 = 52.00                     // look ahead 24 meters (78.743996 feet) at 187.2 KPH 116.3188 MPH
+      StepSpeed5 = 61.00                     // look ahead 30 meters (98.43 feet) at 219.59999 KPH 136.45091 MPH
+      StepSpeed6 = 72.50                     // look ahead 36 meters (118.116 feet) at 261 KPH 162.17526 MPH
+      StepSpeed7 = 85.00                     // look ahead 42 meters (137.802 feet) at 306 KPH 190.1365 MPH
+      StepSpeed8 = 94.00                     // look ahead 48 meters (157.48799 feet) at 338.4 KPH 210.26862 MPH
+      UnderSteerEffectOnThrottleMulti = 200.00
+      UnderSteerEffectOnLineMulti = 55.00
+      OverSteerThrottleReaction = -35.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 100.00              // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 5.00                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST
+    }
+  }
+  Kyle Larson
+  {
+    Tier = 1
+    Speed = 99
+    QualifySpeed = 95
+    WetSpeed = 90
+    Aggression = 70
+    Composure = 85
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 99.00
+    MinRacingSkill = 90.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 1
+        Speed = 99
+        QualifySpeed = 95
+        WetSpeed = 90
+        Aggression = 70
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 99.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 1
+        Speed = 99
+        QualifySpeed = 95
+        WetSpeed = 90
+        Aggression = 70
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 99.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Darlington_500
+    {
+        Tier = 1
+        Speed = 99
+        QualifySpeed = 95
+        WetSpeed = 90
+        Aggression = 70
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 99.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Daytona_2016
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 70
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 99.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 1
+        Speed = 99
+        QualifySpeed = 95
+        WetSpeed = 90
+        Aggression = 70
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 99.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 1
+        Speed = 99
+        QualifySpeed = 95
+        WetSpeed = 90
+        Aggression = 70
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 45                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 99.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    NewHampshire_2016
+    {
+        Tier = 1
+        Speed = 99
+        QualifySpeed = 95
+        WetSpeed = 90
+        Aggression = 70
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 99.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+  }
+  Denny Hamlin
+  {
+    Tier = 1
+    Speed = 98
+    QualifySpeed = 90
+    WetSpeed = 90
+    Aggression = 70
+    Composure = 90
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 97.00
+    MinRacingSkill = 90.00
+    PracticeTime = 31.2
+    PracticeTimeVariance = 0.125
+    QualifyTime = 31.2
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 1
+        Speed = 98
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 70
+        Composure = 90
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 97.00
+        MinRacingSkill = 90.00
+        PracticeTime = 31.2
+        PracticeTimeVariance = 0.125
+        QualifyTime = 31.2
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 1
+        Speed = 98
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 70
+        Composure = 90
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 97.00
+        MinRacingSkill = 90.00
+        PracticeTime = 31.2
+        PracticeTimeVariance = 0.125
+        QualifyTime = 31.2
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Darlington_500
+    {
+        Tier = 1
+        Speed = 98
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 70
+        Composure = 90
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 97.00
+        MinRacingSkill = 90.00
+        PracticeTime = 31.2
+        PracticeTimeVariance = 0.125
+        QualifyTime = 31.2
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Daytona_2016
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 70
+        Composure = 90
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 97.00
+        MinRacingSkill = 90.00
+        PracticeTime = 31.2
+        PracticeTimeVariance = 0.125
+        QualifyTime = 31.2
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 1
+        Speed = 98
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 70
+        Composure = 90
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 97.00
+        MinRacingSkill = 90.00
+        PracticeTime = 31.2
+        PracticeTimeVariance = 0.125
+        QualifyTime = 31.2
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 1
+        Speed = 98
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 70
+        Composure = 90
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 40                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 97.00
+        MinRacingSkill = 90.00
+        PracticeTime = 31.2
+        PracticeTimeVariance = 0.125
+        QualifyTime = 31.2
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    NewHampshire_2016
+    {
+        Tier = 1
+        Speed = 98
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 70
+        Composure = 90
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 97.00
+        MinRacingSkill = 90.00
+        PracticeTime = 31.2
+        PracticeTimeVariance = 0.125
+        QualifyTime = 31.2
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+  }
+  Martin Truex Jr.
+  {
+    Tier = 1
+    Speed = 92
+    QualifySpeed = 88
+    WetSpeed = 90
+    Aggression = 50
+    Composure = 85
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 95.00
+    MinRacingSkill = 90.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 88
+        WetSpeed = 90
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 95.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 88
+        WetSpeed = 90
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 95.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Darlington_500
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 88
+        WetSpeed = 90
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 95.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Daytona_2016
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 88
+        WetSpeed = 90
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 95.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 88
+        WetSpeed = 90
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 95.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 88
+        WetSpeed = 90
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 40                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 95.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    NewHampshire_2016
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 88
+        WetSpeed = 90
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 95.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  Christopher Bell
+  {
+    Tier = 1
+    Speed = 93
+    QualifySpeed = 92
+    WetSpeed = 85
+    Aggression = 50
+    Composure = 85
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 95.00
+    MinRacingSkill = 87.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 1
+        Speed = 93
+        QualifySpeed = 92
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 95.00
+        MinRacingSkill = 87.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 1
+        Speed = 93
+        QualifySpeed = 92
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 95.00
+        MinRacingSkill = 87.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Darlington_500
+    {
+        Tier = 1
+        Speed = 93
+        QualifySpeed = 92
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 95.00
+        MinRacingSkill = 87.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Daytona_2016
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 95.00
+        MinRacingSkill = 87.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 1
+        Speed = 93
+        QualifySpeed = 92
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 95.00
+        MinRacingSkill = 87.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 1
+        Speed = 93
+        QualifySpeed = 92
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 40                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 95.00
+        MinRacingSkill = 87.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    NewHampshire_2016
+    {
+        Tier = 1
+        Speed = 93
+        QualifySpeed = 92
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 95.00
+        MinRacingSkill = 87.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  William Byron
+  {
+    Tier = 1
+    Speed = 95
+    QualifySpeed = 90
+    WetSpeed = 90
+    Aggression = 50
+    Composure = 85
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 92.00
+    MinRacingSkill = 87.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 1
+        Speed = 95
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 92.00
+        MinRacingSkill = 87.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 1
+        Speed = 95
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 92.00
+        MinRacingSkill = 87.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Darlington_500
+    {
+        Tier = 1
+        Speed = 95
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 92.00
+        MinRacingSkill = 87.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Daytona_2016
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 92.00
+        MinRacingSkill = 87.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 1
+        Speed = 95
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 92.00
+        MinRacingSkill = 87.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 1
+        Speed = 95
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 40                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 92.00
+        MinRacingSkill = 87.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    NewHampshire_2016
+    {
+        Tier = 1
+        Speed = 95
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 92.00
+        MinRacingSkill = 87.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  Tyler Reddick
+  {
+    Tier = 1
+    Speed = 92
+    QualifySpeed = 91
+    WetSpeed = 88
+    Aggression = 50
+    Composure = 85
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 95.00
+    MinRacingSkill = 85.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 91
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 95.00
+        MinRacingSkill = 85.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 91
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 95.00
+        MinRacingSkill = 85.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Darlington_500
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 91
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 95.00
+        MinRacingSkill = 85.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Daytona_2016
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 95.00
+        MinRacingSkill = 85.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 91
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 95.00
+        MinRacingSkill = 85.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 91
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 40                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 95.00
+        MinRacingSkill = 85.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    NewHampshire_2016
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 91
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 95.00
+        MinRacingSkill = 85.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  Chase Elliott
+  {
+    Tier = 1
+    Speed = 92
+    QualifySpeed = 85
+    WetSpeed = 90
+    Aggression = 65
+    Composure = 85
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 93.00
+    MinRacingSkill = 82.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 85
+        WetSpeed = 90
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 93.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 85
+        WetSpeed = 90
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 93.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Darlington_500
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 85
+        WetSpeed = 90
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 93.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Daytona_2016
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 85
+        WetSpeed = 90
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 93.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 85
+        WetSpeed = 90
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 93.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 85
+        WetSpeed = 90
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 40                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 93.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    NewHampshire_2016
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 85
+        WetSpeed = 90
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 93.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  Joey Logano
+  {
+    Tier = 1
+    Speed = 92
+    QualifySpeed = 80
+    WetSpeed = 80
+    Aggression = 50
+    Composure = 85
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 92.00
+    MinRacingSkill = 82.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 92.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 92.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Darlington_500
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 92.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Daytona_2016
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 92.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 92.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 40                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 92.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    NewHampshire_2016
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 92.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  Ryan Blaney
+  {
+    Tier = 1
+    Speed = 95
+    QualifySpeed = 90
+    WetSpeed = 88
+    Aggression = 50
+    Composure = 85
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 90.00
+    MinRacingSkill = 82.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 1
+        Speed = 95
+        QualifySpeed = 90
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 1
+        Speed = 95
+        QualifySpeed = 90
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Darlington_500
+    {
+        Tier = 1
+        Speed = 95
+        QualifySpeed = 90
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Daytona_2016
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 1
+        Speed = 95
+        QualifySpeed = 90
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 1
+        Speed = 95
+        QualifySpeed = 90
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 40                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    NewHampshire_2016
+    {
+        Tier = 1
+        Speed = 95
+        QualifySpeed = 90
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  Ross Chastain
+  {
+    Tier = 2
+    Speed = 88
+    QualifySpeed = 85
+    WetSpeed = 85
+    Aggression = 50
+    Composure = 85
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 90.00
+    MinRacingSkill = 80.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Darlington_500
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Daytona_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 40                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    NewHampshire_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  Kevin Harvick
+  {
+    Tier = 2
+    Speed = 88
+    QualifySpeed = 80
+    WetSpeed = 88
+    Aggression = 50
+    Composure = 85
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 90.00
+    MinRacingSkill = 80.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 80
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 80
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Darlington_500
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 80
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Daytona_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 80
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 80
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 80
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 40                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    NewHampshire_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 80
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  Alex Bowman
+  {
+    Tier = 2
+    Speed = 88
+    QualifySpeed = 88
+    WetSpeed = 85
+    Aggression = 50
+    Composure = 80
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 90.00
+    MinRacingSkill = 80.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Darlington_500
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Daytona_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    NewHampshire_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  Kyle Busch
+  {
+    Tier = 2
+    Speed = 88
+    QualifySpeed = 87
+    WetSpeed = 87
+    Aggression = 50
+    Composure = 80
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 90.00
+    MinRacingSkill = 80.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 87
+        WetSpeed = 87
+        Aggression = 50
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 87
+        WetSpeed = 87
+        Aggression = 50
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Darlington_500
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 87
+        WetSpeed = 87
+        Aggression = 50
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Daytona_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 87
+        WetSpeed = 87
+        Aggression = 50
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 87
+        WetSpeed = 87
+        Aggression = 50
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 87
+        WetSpeed = 87
+        Aggression = 50
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    NewHampshire_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 87
+        WetSpeed = 87
+        Aggression = 50
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  Bubba Wallace
+  {
+    Tier = 2
+    Speed = 85
+    QualifySpeed = 89
+    WetSpeed = 85
+    Aggression = 50
+    Composure = 75
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 90.00
+    MinRacingSkill = 80.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 89
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 89
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,LOWLINE
+    }
+    Darlington_500
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 89
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    Daytona_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 89
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 89
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 89
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    NewHampshire_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 89
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  Chris Buescher
+  {
+    Tier = 2
+    Speed = 85
+    QualifySpeed = 85
+    WetSpeed = 85
+    Aggression = 50
+    Composure = 75
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 90.00
+    MinRacingSkill = 70.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,LOWLINE
+    }
+    Darlington_500
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    Daytona_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    NewHampshire_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  Brad Keselowski
+  {
+    Tier = 2
+    Speed = 85
+    QualifySpeed = 83
+    WetSpeed = 85
+    Aggression = 50
+    Composure = 75
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 90.00
+    MinRacingSkill = 70.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 83
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 83
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,LOWLINE
+    }
+    Darlington_500
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 83
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    Daytona_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 83
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 83
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 83
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    NewHampshire_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 83
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  Ty Gibbs
+  {
+    Tier = 2
+    Speed = 85
+    QualifySpeed = 88
+    WetSpeed = 85
+    Aggression = 50
+    Composure = 75
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 90.00
+    MinRacingSkill = 67.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 67.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 67.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,LOWLINE
+    }
+    Darlington_500
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 67.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    Daytona_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 67.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 67.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 67.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    NewHampshire_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 67.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  Daniel Suarez
+  {
+    Tier = 2
+    Speed = 80
+    QualifySpeed = 80
+    WetSpeed = 80
+    Aggression = 50
+    Composure = 75
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 90.00
+    MinRacingSkill = 50.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,LOWLINE
+    }
+    Darlington_500
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    Daytona_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    NewHampshire_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  Austin Cindric
+  {
+    Tier = 2
+    Speed = 80
+    QualifySpeed = 80
+    WetSpeed = 80
+    Aggression = 50
+    Composure = 75
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 90.00
+    MinRacingSkill = 50.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,LOWLINE
+    }
+    Darlington_500
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    Daytona_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
+    NewHampshire_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  AJ Allmendinger
+  {
+    Tier = 2
+    Speed = 80
+    QualifySpeed = 80
+    WetSpeed = 80
+    Aggression = 50
+    Composure = 75
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 90.00
+    MinRacingSkill = 50.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,LOWLINE
+    }
+    Darlington_500
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    Daytona_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
+    NewHampshire_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  Austin Dillon
+  {
+    Tier = 2
+    Speed = 80
+    QualifySpeed = 80
+    WetSpeed = 80
+    Aggression = 50
+    Composure = 75
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 90.00
+    MinRacingSkill = 50.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,LOWLINE
+    }
+    Darlington_500
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    Daytona_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
+    NewHampshire_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  Chase Briscoe
+  {
+    Tier = 2
+    Speed = 80
+    QualifySpeed = 80
+    WetSpeed = 80
+    Aggression = 50
+    Composure = 75
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 90.00
+    MinRacingSkill = 50.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,LOWLINE
+    }
+    Darlington_500
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    Daytona_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
+    NewHampshire_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  Erik Jones
+  {
+    Tier = 2
+    Speed = 80
+    QualifySpeed = 80
+    WetSpeed = 80
+    Aggression = 50
+    Composure = 75
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 90.00
+    MinRacingSkill = 50.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,LOWLINE
+    }
+    Darlington_500
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    Daytona_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
+    NewHampshire_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  Richard Stenhouse Jr
+  {
+    Tier = 3
+    Speed = 80
+    QualifySpeed = 80
+    WetSpeed = 80
+    Aggression = 50
+    Composure = 75
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 90.00
+    MinRacingSkill = 50.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,LOWLINE
+    }
+    Darlington_500
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    Daytona_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
+    NewHampshire_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  Corey Lajoie
+  {
+    Tier = 3
+    Speed = 80
+    QualifySpeed = 80
+    WetSpeed = 80
+    Aggression = 50
+    Composure = 75
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 90.00
+    MinRacingSkill = 50.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,LOWLINE
+    }
+    Darlington_500
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    Daytona_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
+    NewHampshire_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  Aric Almirola
+  {
+    Tier = 3
+    Speed = 77
+    QualifySpeed = 80
+    WetSpeed = 80
+    Aggression = 50
+    Composure = 75
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 90.00
+    MinRacingSkill = 50.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 3
+        Speed = 77
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 3
+        Speed = 77
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,LOWLINE
+    }
+    Darlington_500
+    {
+        Tier = 3
+        Speed = 77
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    Daytona_2016
+    {
+        Tier = 3
+        Speed = 77
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 3
+        Speed = 77
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 3
+        Speed = 77
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
+    NewHampshire_2016
+    {
+        Tier = 3
+        Speed = 77
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  Ryan Preece
+  {
+    Tier = 3
+    Speed = 80
+    QualifySpeed = 80
+    WetSpeed = 80
+    Aggression = 50
+    Composure = 75
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 90.00
+    MinRacingSkill = 50.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,LOWLINE
+    }
+    Darlington_500
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    Daytona_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    NewHampshire_2016
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  Michael McDowell
+  {
+    Tier = 3
+    Speed = 80
+    QualifySpeed = 80
+    WetSpeed = 80
+    Aggression = 50
+    Composure = 75
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 90.00
+    MinRacingSkill = 50.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,LOWLINE
+    }
+    Darlington_500
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    Daytona_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 99
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 96.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    NewHampshire_2016
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  Todd Gilliland
+  {
+    Tier = 3
+    Speed = 80
+    QualifySpeed = 80
+    WetSpeed = 80
+    Aggression = 50
+    Composure = 75
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 90.00
+    MinRacingSkill = 50.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,LOWLINE
+    }
+    Darlington_500
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    Daytona_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 95
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    NewHampshire_2016
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  Harrison Burton
+  {
+    Tier = 3
+    Speed = 80
+    QualifySpeed = 80
+    WetSpeed = 80
+    Aggression = 50
+    Composure = 75
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 90.00
+    MinRacingSkill = 50.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 3
+        Speed = 72
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,LOWLINE
+    }
+    Darlington_500
+    {
+        Tier = 3
+        Speed = 72
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    Daytona_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 3
+        Speed = 72
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 3
+        Speed = 72
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    NewHampshire_2016
+    {
+        Tier = 3
+        Speed = 72
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  Dale JR
+  {
+    Tier = 3
+    Speed = 80
+    QualifySpeed = 80
+    WetSpeed = 80
+    Aggression = 50
+    Composure = 75
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 90.00
+    MinRacingSkill = 50.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,LOWLINE
+    }
+    Darlington_500
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    Daytona_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    NewHampshire_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  Chandler Smith
+  {
+    Tier = 4
+    Speed = 80
+    QualifySpeed = 80
+    WetSpeed = 80
+    Aggression = 50
+    Composure = 75
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 85.00
+    MinRacingSkill = 50.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 4
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,LOWLINE
+    }
+    Darlington_500
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    Daytona_2016
+    {
+        Tier = 4
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    NewHampshire_2016
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  Noah Gragson
+  {
+    Tier = 4
+    Speed = 80
+    QualifySpeed = 80
+    WetSpeed = 80
+    Aggression = 50
+    Composure = 55
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 85.00
+    MinRacingSkill = 50.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 4
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,LOWLINE
+    }
+    Darlington_500
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    Daytona_2016
+    {
+        Tier = 4
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    NewHampshire_2016
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  Austin Hill
+  {
+    Tier = 4
+    Speed = 78
+    QualifySpeed = 80
+    WetSpeed = 80
+    Aggression = 50
+    Composure = 55
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 85.00
+    MinRacingSkill = 50.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 4
+        Speed = 78
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,LOWLINE
+    }
+    Darlington_500
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    Daytona_2016
+    {
+        Tier = 4
+        Speed = 78
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    NewHampshire_2016
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  Ty Dillon
+  {
+    Tier = 4
+    Speed = 77
+    QualifySpeed = 80
+    WetSpeed = 80
+    Aggression = 50
+    Composure = 55
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 85.00
+    MinRacingSkill = 50.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 4
+        Speed = 77
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,LOWLINE
+    }
+    Darlington_500
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    Daytona_2016
+    {
+        Tier = 4
+        Speed = 77
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    NewHampshire_2016
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  Zane Smith
+  {
+    Tier = 4
+    Speed = 75
+    QualifySpeed = 80
+    WetSpeed = 80
+    Aggression = 50
+    Composure = 55
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 85.00
+    MinRacingSkill = 50.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,LOWLINE
+    }
+    Darlington_500
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    Daytona_2016
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    NewHampshire_2016
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  Daniel Hemric
+  {
+    Tier = 4
+    Speed = 75
+    QualifySpeed = 70
+    WetSpeed = 75
+    Aggression = 50
+    Composure = 55
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 85.00
+    MinRacingSkill = 50.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 70
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,LOWLINE
+    }
+    Darlington_500
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    Daytona_2016
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 70
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    NewHampshire_2016
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  Carson Hocevar
+  {
+    Tier = 4
+    Speed = 72
+    QualifySpeed = 80
+    WetSpeed = 80
+    Aggression = 40
+    Composure = 55
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 85.00
+    MinRacingSkill = 50.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 40
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 40
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,LOWLINE
+    }
+    Darlington_500
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 40
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    Daytona_2016
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 40
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 40
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 40
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    NewHampshire_2016
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 40
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  Riley Herbst
+  {
+    Tier = 4
+    Speed = 72
+    QualifySpeed = 80
+    WetSpeed = 80
+    Aggression = 40
+    Composure = 50
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 80.00
+    MinRacingSkill = 50.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 40
+        Composure = 50
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 40
+        Composure = 50
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,LOWLINE
+    }
+    Darlington_500
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 40
+        Composure = 50
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    Daytona_2016
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 40
+        Composure = 50
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 40
+        Composure = 50
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 40
+        Composure = 50
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    NewHampshire_2016
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 40
+        Composure = 50
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  BJ McLeod
+  {
+    Tier = 4
+    Speed = 72
+    QualifySpeed = 80
+    WetSpeed = 80
+    Aggression = 35
+    Composure = 45
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 80.00
+    MinRacingSkill = 50.00
+    PracticeTime = 31.2
+    PracticeTimeVariance = 0.125
+    QualifyTime = 31.3
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        PracticeTime = 31.2
+        PracticeTimeVariance = 0.125
+        QualifyTime = 31.3
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        PracticeTime = 31.2
+        PracticeTimeVariance = 0.125
+        QualifyTime = 31.3
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,LOWLINE
+    }
+    Darlington_500
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        PracticeTime = 31.2
+        PracticeTimeVariance = 0.125
+        QualifyTime = 31.3
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    Daytona_2016
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        PracticeTime = 31.2
+        PracticeTimeVariance = 0.125
+        QualifyTime = 31.3
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        PracticeTime = 31.2
+        PracticeTimeVariance = 0.125
+        QualifyTime = 31.3
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        PracticeTime = 31.2
+        PracticeTimeVariance = 0.125
+        QualifyTime = 31.3
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    NewHampshire_2016
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        PracticeTime = 31.2
+        PracticeTimeVariance = 0.125
+        QualifyTime = 31.3
+        QualifyTimeVariance = 0.125
+    }
+  }
+  Josh Bilicki
+  {
+    Tier = 5
+    Speed = 72
+    QualifySpeed = 80
+    WetSpeed = 80
+    Aggression = 35
+    Composure = 45
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 80.00
+    MinRacingSkill = 50.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 5
+        Speed = 72
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 5
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,LOWLINE
+    }
+    Darlington_500
+    {
+        Tier = 5
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    Daytona_2016
+    {
+        Tier = 5
+        Speed = 72
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 5
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 5
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    NewHampshire_2016
+    {
+        Tier = 5
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  Jimmie Johnson
+  {
+    Tier = 5
+    Speed = 65
+    QualifySpeed = 60
+    WetSpeed = 70
+    Aggression = 35
+    Composure = 45
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 75.00
+    MinRacingSkill = 50.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 5
+        Speed = 65
+        QualifySpeed = 60
+        WetSpeed = 70
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 5
+        Speed = 65
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,LOWLINE
+    }
+    Darlington_500
+    {
+        Tier = 5
+        Speed = 65
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    Daytona_2016
+    {
+        Tier = 5
+        Speed = 65
+        QualifySpeed = 60
+        WetSpeed = 70
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 5
+        Speed = 65
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 5
+        Speed = 65
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    NewHampshire_2016
+    {
+        Tier = 5
+        Speed = 65
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  Kimi Raikkonen
+  {
+    Tier = 5
+    Speed = 60
+    QualifySpeed = 70
+    WetSpeed = 80
+    Aggression = 35
+    Composure = 35
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 75.00
+    MinRacingSkill = 50.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 5
+        Speed = 60
+        QualifySpeed = 70
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 5
+        Speed = 60
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,LOWLINE
+    }
+    Darlington_500
+    {
+        Tier = 5
+        Speed = 60
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    Daytona_2016
+    {
+        Tier = 5
+        Speed = 60
+        QualifySpeed = 70
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 5
+        Speed = 60
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 5
+        Speed = 60
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    NewHampshire_2016
+    {
+        Tier = 5
+        Speed = 60
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  Jenson Button
+  {
+    Tier = 5
+    Speed = 55
+    QualifySpeed = 65
+    WetSpeed = 80
+    Aggression = 35
+    Composure = 35
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 75.00
+    MinRacingSkill = 50.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 65
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,LOWLINE
+    }
+    Darlington_500
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    Daytona_2016
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 65
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    NewHampshire_2016
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+  Ryan Newman
+  {
+    Tier = 5
+    Speed = 55
+    QualifySpeed = 50
+    WetSpeed = 80
+    Aggression = 35
+    Composure = 35
+    Courtesy = 99
+    Recovery = 99
+    StartSkill = 75.00
+    MinRacingSkill = 50.00
+    PracticeTimeVariance = 0.125
+    QualifyTimeVariance = 0.125
+    DrivingLine = FASTEST
+    Atlanta_Motor_Speedway
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 50
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Bristol_2016
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,LOWLINE
+    }
+    Darlington_500
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    Daytona_2016
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 50
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Dover_2016
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    NewHampshire_2016
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+  }
+}
