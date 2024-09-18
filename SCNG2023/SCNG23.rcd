@@ -67,21 +67,20 @@ SCNG23
     }
     Bristol_2016
     {
-      StepDistance = 6.00                    // distance of each step is 6.00 meters
-      StepSpeed1 = 19.10                     // look ahead 6 meters (19.685999 feet) at 68.76 KPH 42.724792 MPH
-      StepSpeed2 = 33.80                     // look ahead 12 meters (39.371998 feet) at 121.67999 KPH 75.60722 MPH
-      StepSpeed3 = 45.60                     // look ahead 18 meters (59.058 feet) at 164.15999 KPH 102.00264 MPH
-      StepSpeed4 = 52.00                     // look ahead 24 meters (78.743996 feet) at 187.2 KPH 116.3188 MPH
-      StepSpeed5 = 61.00                     // look ahead 30 meters (98.43 feet) at 219.59999 KPH 136.45091 MPH
-      StepSpeed6 = 72.50                     // look ahead 36 meters (118.116 feet) at 261 KPH 162.17526 MPH
-      StepSpeed7 = 85.00                     // look ahead 42 meters (137.802 feet) at 306 KPH 190.1365 MPH
-      StepSpeed8 = 94.00                     // look ahead 48 meters (157.48799 feet) at 338.4 KPH 210.26862 MPH
-      UnderSteerEffectOnThrottleMulti = 125.00
-      UnderSteerEffectOnLineMulti = 55.00
-      OverSteerThrottleReaction = -36.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      StepDistance = 5.20                    // distance of each step is 5.20 meters
+      StepSpeed1 = 25.00                     // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
+      StepSpeed2 = 32.00                     // look ahead 10.4 meters (34.1224 feet) at 115.2 KPH 71.5808 MPH
+      StepSpeed3 = 40.00                     // look ahead 15.599999 meters (51.183598 feet) at 144 KPH 89.476006 MPH
+      StepSpeed4 = 55.00                     // look ahead 20.8 meters (68.2448 feet) at 198 KPH 123.0295 MPH
+      StepSpeed5 = 70.00                     // look ahead 26 meters (85.306 feet) at 252 KPH 156.58301 MPH
+      StepSpeed6 = 82.00                     // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
+      StepSpeed7 = 88.00                     // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
+      StepSpeed8 = 93.00                     // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
+      UnderSteerEffectOnThrottleMulti = 100.00
+      UnderSteerEffectOnLineMulti = 100.00
+      OverSteerThrottleReaction = -15.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
       CorneringCaution = 35.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
-      FearOfWalls = 1.00                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
-      DrivingLine = FASTEST, HIGHLINE
+      FearOfWalls = 99.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
     }
     Bristol_Online
     {
@@ -298,39 +297,39 @@ SCNG23
     }
     Indianapolis2020_500
     {
-      StepDistance = 6.00                    // distance of each step is 6.00 meters
-      StepSpeed1 = 19.10                     // look ahead 6 meters (19.685999 feet) at 68.76 KPH 42.724792 MPH
-      StepSpeed2 = 33.80                     // look ahead 12 meters (39.371998 feet) at 121.67999 KPH 75.60722 MPH
-      StepSpeed3 = 45.60                     // look ahead 18 meters (59.058 feet) at 164.15999 KPH 102.00264 MPH
-      StepSpeed4 = 52.00                     // look ahead 24 meters (78.743996 feet) at 187.2 KPH 116.3188 MPH
-      StepSpeed5 = 61.00                     // look ahead 30 meters (98.43 feet) at 219.59999 KPH 136.45091 MPH
-      StepSpeed6 = 72.50                     // look ahead 36 meters (118.116 feet) at 261 KPH 162.17526 MPH
-      StepSpeed7 = 85.00                     // look ahead 42 meters (137.802 feet) at 306 KPH 190.1365 MPH
-      StepSpeed8 = 94.00                     // look ahead 48 meters (157.48799 feet) at 338.4 KPH 210.26862 MPH
-      UnderSteerEffectOnThrottleMulti = 0.10
-      UnderSteerEffectOnLineMulti = 0.10
-      OverSteerThrottleReaction = -16.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
-      CorneringCaution = 22.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
-      FearOfWalls = 1.00                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
-      DrivingLine = FASTEST, HIGHLINE
+      StepDistance = 5.20                    // distance of each step is 5.20 meters
+      StepSpeed1 = 25.00                     // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
+      StepSpeed2 = 32.00                     // look ahead 10.4 meters (34.1224 feet) at 115.2 KPH 71.5808 MPH
+      StepSpeed3 = 40.00                     // look ahead 15.599999 meters (51.183598 feet) at 144 KPH 89.476006 MPH
+      StepSpeed4 = 55.00                     // look ahead 20.8 meters (68.2448 feet) at 198 KPH 123.0295 MPH
+      StepSpeed5 = 70.00                     // look ahead 26 meters (85.306 feet) at 252 KPH 156.58301 MPH
+      StepSpeed6 = 82.00                     // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
+      StepSpeed7 = 88.00                     // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
+      StepSpeed8 = 93.00                     // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
+      UnderSteerEffectOnThrottleMulti = 250.00
+      UnderSteerEffectOnLineMulti = 250.00
+      OverSteerThrottleReaction = -35.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 35.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST,HIGHLINE
     }
     Indianapolis2020_400
     {
-      StepDistance = 8.00                    // distance of each step is 8.00 meters
-      StepSpeed1 = 19.10                     // look ahead 8 meters (26.248 feet) at 68.76 KPH 42.724792 MPH
-      StepSpeed2 = 33.80                     // look ahead 16 meters (52.496 feet) at 121.67999 KPH 75.60722 MPH
-      StepSpeed3 = 45.60                     // look ahead 24 meters (78.743996 feet) at 164.15999 KPH 102.00264 MPH
-      StepSpeed4 = 52.00                     // look ahead 32 meters (104.992 feet) at 187.2 KPH 116.3188 MPH
-      StepSpeed5 = 61.00                     // look ahead 40 meters (131.23999 feet) at 219.59999 KPH 136.45091 MPH
-      StepSpeed6 = 72.50                     // look ahead 48 meters (157.48799 feet) at 261 KPH 162.17526 MPH
-      StepSpeed7 = 85.00                     // look ahead 56 meters (183.736 feet) at 306 KPH 190.1365 MPH
-      StepSpeed8 = 94.00                     // look ahead 64 meters (209.984 feet) at 338.4 KPH 210.26862 MPH
-      UnderSteerEffectOnThrottleMulti = 1.00
-      UnderSteerEffectOnLineMulti = 1.00
-      OverSteerThrottleReaction = -36.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
-      CorneringCaution = 30.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
-      FearOfWalls = 1.00                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
-      DrivingLine = FASTEST, HIGHLINE
+      StepDistance = 5.20                    // distance of each step is 5.20 meters
+      StepSpeed1 = 25.00                     // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
+      StepSpeed2 = 32.00                     // look ahead 10.4 meters (34.1224 feet) at 115.2 KPH 71.5808 MPH
+      StepSpeed3 = 40.00                     // look ahead 15.599999 meters (51.183598 feet) at 144 KPH 89.476006 MPH
+      StepSpeed4 = 55.00                     // look ahead 20.8 meters (68.2448 feet) at 198 KPH 123.0295 MPH
+      StepSpeed5 = 70.00                     // look ahead 26 meters (85.306 feet) at 252 KPH 156.58301 MPH
+      StepSpeed6 = 82.00                     // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
+      StepSpeed7 = 88.00                     // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
+      StepSpeed8 = 93.00                     // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
+      UnderSteerEffectOnThrottleMulti = 250.00
+      UnderSteerEffectOnLineMulti = 250.00
+      OverSteerThrottleReaction = -35.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 35.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST,HIGHLINE
     }
     Jacksonville500
     {
@@ -365,25 +364,39 @@ SCNG23
     }
     Kansas_2016
     {
-      CorneringCaution = 20.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      StepDistance = 5.20                    // distance of each step is 5.20 meters
+      StepSpeed1 = 25.00                     // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
+      StepSpeed2 = 32.00                     // look ahead 10.4 meters (34.1224 feet) at 115.2 KPH 71.5808 MPH
+      StepSpeed3 = 40.00                     // look ahead 15.599999 meters (51.183598 feet) at 144 KPH 89.476006 MPH
+      StepSpeed4 = 55.00                     // look ahead 20.8 meters (68.2448 feet) at 198 KPH 123.0295 MPH
+      StepSpeed5 = 70.00                     // look ahead 26 meters (85.306 feet) at 252 KPH 156.58301 MPH
+      StepSpeed6 = 82.00                     // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
+      StepSpeed7 = 88.00                     // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
+      StepSpeed8 = 93.00                     // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
+      UnderSteerEffectOnThrottleMulti = 250.00
+      UnderSteerEffectOnLineMulti = 250.00
+      OverSteerThrottleReaction = -35.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 35.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST,HIGHLINE
     }
     Kentucky_Speedway
     {
-      StepDistance = 5.00                    // distance of each step is 5.00 meters
-      StepSpeed1 = 19.10                     // look ahead 5 meters (16.404999 feet) at 68.76 KPH 42.724792 MPH
-      StepSpeed2 = 33.80                     // look ahead 10 meters (32.809998 feet) at 121.67999 KPH 75.60722 MPH
-      StepSpeed3 = 45.60                     // look ahead 15 meters (49.215 feet) at 164.15999 KPH 102.00264 MPH
-      StepSpeed4 = 52.00                     // look ahead 20 meters (65.619995 feet) at 187.2 KPH 116.3188 MPH
-      StepSpeed5 = 61.00                     // look ahead 25 meters (82.024994 feet) at 219.59999 KPH 136.45091 MPH
-      StepSpeed6 = 72.50                     // look ahead 30 meters (98.43 feet) at 261 KPH 162.17526 MPH
-      StepSpeed7 = 85.00                     // look ahead 35 meters (114.835 feet) at 306 KPH 190.1365 MPH
-      StepSpeed8 = 94.00                     // look ahead 40 meters (131.23999 feet) at 338.4 KPH 210.26862 MPH
-      UnderSteerEffectOnThrottleMulti = 1.00
-      UnderSteerEffectOnLineMulti = 1.00
-      OverSteerThrottleReaction = -36.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
-      CorneringCaution = 30.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
-      FearOfWalls = 100.00                   // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
-      DrivingLine = FASTEST, HIGHLINE
+      StepDistance = 5.20                    // distance of each step is 5.20 meters
+      StepSpeed1 = 25.00                     // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
+      StepSpeed2 = 32.00                     // look ahead 10.4 meters (34.1224 feet) at 115.2 KPH 71.5808 MPH
+      StepSpeed3 = 40.00                     // look ahead 15.599999 meters (51.183598 feet) at 144 KPH 89.476006 MPH
+      StepSpeed4 = 55.00                     // look ahead 20.8 meters (68.2448 feet) at 198 KPH 123.0295 MPH
+      StepSpeed5 = 70.00                     // look ahead 26 meters (85.306 feet) at 252 KPH 156.58301 MPH
+      StepSpeed6 = 82.00                     // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
+      StepSpeed7 = 88.00                     // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
+      StepSpeed8 = 93.00                     // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
+      UnderSteerEffectOnThrottleMulti = 250.00
+      UnderSteerEffectOnLineMulti = 250.00
+      OverSteerThrottleReaction = -35.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 35.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST,HIGHLINE
     }
     LasVegas_2016
     {
@@ -435,8 +448,8 @@ SCNG23
       UnderSteerEffectOnThrottleMulti = 250.00
       UnderSteerEffectOnLineMulti = 100.00
       OverSteerThrottleReaction = -75.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
-      CorneringCaution = 25.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
-      FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      CorneringCaution = 80.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 99.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
       DrivingLine = FASTEST,HIGHLINE
     }
     Michigan_2016
@@ -484,37 +497,39 @@ SCNG23
     }
     NIR
     {
-      StepDistance = 5.50                    // distance of each step is 5.50 meters
-      StepSpeed1 = 19.10                     // look ahead 5.5 meters (18.0455 feet) at 68.76 KPH 42.724792 MPH
-      StepSpeed2 = 33.80                     // look ahead 11 meters (36.091 feet) at 121.67999 KPH 75.60722 MPH
-      StepSpeed3 = 45.60                     // look ahead 16.5 meters (54.136497 feet) at 164.15999 KPH 102.00264 MPH
-      StepSpeed4 = 52.00                     // look ahead 22 meters (72.182 feet) at 187.2 KPH 116.3188 MPH
-      StepSpeed5 = 61.00                     // look ahead 27.5 meters (90.2275 feet) at 219.59999 KPH 136.45091 MPH
-      StepSpeed6 = 72.50                     // look ahead 33 meters (108.272995 feet) at 261 KPH 162.17526 MPH
-      StepSpeed7 = 85.00                     // look ahead 38.5 meters (126.3185 feet) at 306 KPH 190.1365 MPH
-      StepSpeed8 = 94.00                     // look ahead 44 meters (144.364 feet) at 338.4 KPH 210.26862 MPH
-      UnderSteerEffectOnThrottleMulti = 0.10
-      UnderSteerEffectOnLineMulti = 0.10
-      OverSteerThrottleReaction = -36.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
-      CorneringCaution = 80.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      StepDistance = 5.20                    // distance of each step is 5.20 meters
+      StepSpeed1 = 25.00                     // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
+      StepSpeed2 = 32.00                     // look ahead 10.4 meters (34.1224 feet) at 115.2 KPH 71.5808 MPH
+      StepSpeed3 = 40.00                     // look ahead 15.599999 meters (51.183598 feet) at 144 KPH 89.476006 MPH
+      StepSpeed4 = 55.00                     // look ahead 20.8 meters (68.2448 feet) at 198 KPH 123.0295 MPH
+      StepSpeed5 = 70.00                     // look ahead 26 meters (85.306 feet) at 252 KPH 156.58301 MPH
+      StepSpeed6 = 82.00                     // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
+      StepSpeed7 = 88.00                     // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
+      StepSpeed8 = 93.00                     // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
+      UnderSteerEffectOnThrottleMulti = 250.00
+      UnderSteerEffectOnLineMulti = 250.00
+      OverSteerThrottleReaction = -35.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 35.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST,HIGHLINE
     }
     North_Wilkesboro
     {
-      StepDistance = 4.00                    // distance of each step is 4.00 meters
-      StepSpeed1 = 19.10                     // look ahead 4 meters (13.124 feet) at 68.76 KPH 42.724792 MPH
-      StepSpeed2 = 33.80                     // look ahead 8 meters (26.248 feet) at 121.67999 KPH 75.60722 MPH
-      StepSpeed3 = 45.60                     // look ahead 12 meters (39.371998 feet) at 164.15999 KPH 102.00264 MPH
-      StepSpeed4 = 52.00                     // look ahead 16 meters (52.496 feet) at 187.2 KPH 116.3188 MPH
-      StepSpeed5 = 61.00                     // look ahead 20 meters (65.619995 feet) at 219.59999 KPH 136.45091 MPH
-      StepSpeed6 = 72.50                     // look ahead 24 meters (78.743996 feet) at 261 KPH 162.17526 MPH
-      StepSpeed7 = 85.00                     // look ahead 28 meters (91.868 feet) at 306 KPH 190.1365 MPH
-      StepSpeed8 = 94.00                     // look ahead 32 meters (104.992 feet) at 338.4 KPH 210.26862 MPH
-      UnderSteerEffectOnThrottleMulti = 0.10
-      UnderSteerEffectOnLineMulti = 0.10
-      OverSteerThrottleReaction = -36.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
-      CorneringCaution = 80.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
-      FearOfWalls = 1.00                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
-      DrivingLine = FASTEST, HIGHLINE
+      StepDistance = 3.00                    // distance of each step is 3.00 meters
+      StepSpeed1 = 07.00                     // look ahead 3 meters (9.842999 feet) at 25.199999 KPH 15.6583 MPH
+      StepSpeed2 = 12.00                     // look ahead 6 meters (19.685999 feet) at 43.199997 KPH 26.8428 MPH
+      StepSpeed3 = 25.00                     // look ahead 9 meters (29.529 feet) at 90 KPH 55.9225 MPH
+      StepSpeed4 = 33.00                     // look ahead 12 meters (39.371998 feet) at 118.799995 KPH 73.8177 MPH
+      StepSpeed5 = 41.00                     // look ahead 15 meters (49.215 feet) at 147.59999 KPH 91.712906 MPH
+      StepSpeed6 = 50.00                     // look ahead 18 meters (59.058 feet) at 180 KPH 111.845 MPH
+      StepSpeed7 = 62.00                     // look ahead 21 meters (68.901 feet) at 223.2 KPH 138.6878 MPH
+      StepSpeed8 = 75.00                     // look ahead 24 meters (78.743996 feet) at 270 KPH 167.7675 MPH
+      UnderSteerEffectOnThrottleMulti = 250.00
+      UnderSteerEffectOnLineMulti = 100.00
+      OverSteerThrottleReaction = -55.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 25.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST
     }
     PalmSprings_SW
     {
@@ -536,11 +551,21 @@ SCNG23
     }
     Phoenix_2016
     {
-      StepDistance = 5.00                    // distance of each step is 5.00 meters
-      UnderSteerEffectOnThrottleMulti = 0.10
-      UnderSteerEffectOnLineMulti = 300.00
-      CorneringCaution = 70.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
-      FearOfWalls = 100.00                   // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      StepDistance = 5.20                    // distance of each step is 5.20 meters
+      StepSpeed1 = 25.00                     // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
+      StepSpeed2 = 32.00                     // look ahead 10.4 meters (34.1224 feet) at 115.2 KPH 71.5808 MPH
+      StepSpeed3 = 40.00                     // look ahead 15.599999 meters (51.183598 feet) at 144 KPH 89.476006 MPH
+      StepSpeed4 = 55.00                     // look ahead 20.8 meters (68.2448 feet) at 198 KPH 123.0295 MPH
+      StepSpeed5 = 70.00                     // look ahead 26 meters (85.306 feet) at 252 KPH 156.58301 MPH
+      StepSpeed6 = 82.00                     // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
+      StepSpeed7 = 88.00                     // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
+      StepSpeed8 = 93.00                     // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
+      UnderSteerEffectOnThrottleMulti = 250.00
+      UnderSteerEffectOnLineMulti = 100.00
+      OverSteerThrottleReaction = -35.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 35.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST,HIGHLINE
     }
     Pocono_2016
     {
@@ -561,42 +586,56 @@ SCNG23
     Richmond
     {
       StepDistance = 5.20                    // distance of each step is 5.20 meters
-      StepSpeed1 = 19.10                     // look ahead 5.2 meters (17.0612 feet) at 68.76 KPH 42.724792 MPH
-      StepSpeed2 = 33.80                     // look ahead 10.4 meters (34.1224 feet) at 121.67999 KPH 75.60722 MPH
-      StepSpeed3 = 45.60                     // look ahead 15.599999 meters (51.183598 feet) at 164.15999 KPH 102.00264 MPH
-      StepSpeed4 = 52.00                     // look ahead 20.8 meters (68.2448 feet) at 187.2 KPH 116.3188 MPH
-      StepSpeed5 = 61.00                     // look ahead 26 meters (85.306 feet) at 219.59999 KPH 136.45091 MPH
-      StepSpeed6 = 72.50                     // look ahead 31.199999 meters (102.367195 feet) at 261 KPH 162.17526 MPH
-      StepSpeed7 = 85.00                     // look ahead 36.399998 meters (119.42839 feet) at 306 KPH 190.1365 MPH
-      StepSpeed8 = 94.00                     // look ahead 41.6 meters (136.4896 feet) at 338.4 KPH 210.26862 MPH
-      UnderSteerEffectOnThrottleMulti = 0.10
-      UnderSteerEffectOnLineMulti = 0.10
-      OverSteerThrottleReaction = -36.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
-      CorneringCaution = 22.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
-      FearOfWalls = 1.00                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
-      DrivingLine = FASTEST, HIGHLINE
+      StepSpeed1 = 25.00                     // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
+      StepSpeed2 = 32.00                     // look ahead 10.4 meters (34.1224 feet) at 115.2 KPH 71.5808 MPH
+      StepSpeed3 = 40.00                     // look ahead 15.599999 meters (51.183598 feet) at 144 KPH 89.476006 MPH
+      StepSpeed4 = 55.00                     // look ahead 20.8 meters (68.2448 feet) at 198 KPH 123.0295 MPH
+      StepSpeed5 = 70.00                     // look ahead 26 meters (85.306 feet) at 252 KPH 156.58301 MPH
+      StepSpeed6 = 82.00                     // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
+      StepSpeed7 = 88.00                     // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
+      StepSpeed8 = 93.00                     // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
+      UnderSteerEffectOnThrottleMulti = 250.00
+      UnderSteerEffectOnLineMulti = 250.00
+      OverSteerThrottleReaction = -35.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 35.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
-      StepDistance = 4.00                    // distance of each step is 4.00 meters
-      StepSpeed1 = 19.10                     // look ahead 4 meters (13.124 feet) at 68.76 KPH 42.724792 MPH
-      StepSpeed2 = 33.80                     // look ahead 8 meters (26.248 feet) at 121.67999 KPH 75.60722 MPH
-      StepSpeed3 = 45.60                     // look ahead 12 meters (39.371998 feet) at 164.15999 KPH 102.00264 MPH
-      StepSpeed4 = 52.00                     // look ahead 16 meters (52.496 feet) at 187.2 KPH 116.3188 MPH
-      StepSpeed5 = 61.00                     // look ahead 20 meters (65.619995 feet) at 219.59999 KPH 136.45091 MPH
-      StepSpeed6 = 72.50                     // look ahead 24 meters (78.743996 feet) at 261 KPH 162.17526 MPH
-      StepSpeed7 = 85.00                     // look ahead 28 meters (91.868 feet) at 306 KPH 190.1365 MPH
-      StepSpeed8 = 94.00                     // look ahead 32 meters (104.992 feet) at 338.4 KPH 210.26862 MPH
-      UnderSteerEffectOnThrottleMulti = 0.10
-      UnderSteerEffectOnLineMulti = 0.10
-      OverSteerThrottleReaction = -36.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
-      CorneringCaution = 80.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
-      FearOfWalls = 1.00                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
-      DrivingLine = FASTEST, HIGHLINE
+      StepDistance = 3.00                    // distance of each step is 3.00 meters
+      StepSpeed1 = 07.00                     // look ahead 3 meters (9.842999 feet) at 25.199999 KPH 15.6583 MPH
+      StepSpeed2 = 12.00                     // look ahead 6 meters (19.685999 feet) at 43.199997 KPH 26.8428 MPH
+      StepSpeed3 = 25.00                     // look ahead 9 meters (29.529 feet) at 90 KPH 55.9225 MPH
+      StepSpeed4 = 33.00                     // look ahead 12 meters (39.371998 feet) at 118.799995 KPH 73.8177 MPH
+      StepSpeed5 = 41.00                     // look ahead 15 meters (49.215 feet) at 147.59999 KPH 91.712906 MPH
+      StepSpeed6 = 50.00                     // look ahead 18 meters (59.058 feet) at 180 KPH 111.845 MPH
+      StepSpeed7 = 62.00                     // look ahead 21 meters (68.901 feet) at 223.2 KPH 138.6878 MPH
+      StepSpeed8 = 75.00                     // look ahead 24 meters (78.743996 feet) at 270 KPH 167.7675 MPH
+      UnderSteerEffectOnThrottleMulti = 200.00
+      UnderSteerEffectOnLineMulti = 300.00
+      OverSteerThrottleReaction = -18.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 50.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 100.00                   // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST
     }
     Sonoma_Raceway_NASCAR
     {
-      CorneringCaution = 100.00              // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      StepDistance = 3.00                    // distance of each step is 3.00 meters
+      StepSpeed1 = 07.00                     // look ahead 3 meters (9.842999 feet) at 25.199999 KPH 15.6583 MPH
+      StepSpeed2 = 12.00                     // look ahead 6 meters (19.685999 feet) at 43.199997 KPH 26.8428 MPH
+      StepSpeed3 = 25.00                     // look ahead 9 meters (29.529 feet) at 90 KPH 55.9225 MPH
+      StepSpeed4 = 33.00                     // look ahead 12 meters (39.371998 feet) at 118.799995 KPH 73.8177 MPH
+      StepSpeed5 = 41.00                     // look ahead 15 meters (49.215 feet) at 147.59999 KPH 91.712906 MPH
+      StepSpeed6 = 50.00                     // look ahead 18 meters (59.058 feet) at 180 KPH 111.845 MPH
+      StepSpeed7 = 62.00                     // look ahead 21 meters (68.901 feet) at 223.2 KPH 138.6878 MPH
+      StepSpeed8 = 75.00                     // look ahead 24 meters (78.743996 feet) at 270 KPH 167.7675 MPH
+      UnderSteerEffectOnThrottleMulti = 200.00
+      UnderSteerEffectOnLineMulti = 300.00
+      OverSteerThrottleReaction = -18.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 50.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 100.00                   // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -620,21 +659,21 @@ SCNG23
     }
     Watkins_Glen_Short
     {
-      StepDistance = 5.50                    // distance of each step is 5.50 meters
-      StepSpeed1 = 19.10                     // look ahead 5.5 meters (18.0455 feet) at 68.76 KPH 42.724792 MPH
-      StepSpeed2 = 33.80                     // look ahead 11 meters (36.091 feet) at 121.67999 KPH 75.60722 MPH
-      StepSpeed3 = 45.60                     // look ahead 16.5 meters (54.136497 feet) at 164.15999 KPH 102.00264 MPH
-      StepSpeed4 = 52.00                     // look ahead 22 meters (72.182 feet) at 187.2 KPH 116.3188 MPH
-      StepSpeed5 = 61.00                     // look ahead 27.5 meters (90.2275 feet) at 219.59999 KPH 136.45091 MPH
-      StepSpeed6 = 72.50                     // look ahead 33 meters (108.272995 feet) at 261 KPH 162.17526 MPH
-      StepSpeed7 = 85.00                     // look ahead 38.5 meters (126.3185 feet) at 306 KPH 190.1365 MPH
-      StepSpeed8 = 94.00                     // look ahead 44 meters (144.364 feet) at 338.4 KPH 210.26862 MPH
-      UnderSteerEffectOnThrottleMulti = 0.10
-      UnderSteerEffectOnLineMulti = 0.10
-      OverSteerThrottleReaction = -36.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
-      CorneringCaution = 30.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
-      FearOfWalls = 80.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
-      DrivingLine = FASTEST, HIGHLINE
+      StepDistance = 3.00                    // distance of each step is 3.00 meters
+      StepSpeed1 = 07.00                     // look ahead 3 meters (9.842999 feet) at 25.199999 KPH 15.6583 MPH
+      StepSpeed2 = 12.00                     // look ahead 6 meters (19.685999 feet) at 43.199997 KPH 26.8428 MPH
+      StepSpeed3 = 25.00                     // look ahead 9 meters (29.529 feet) at 90 KPH 55.9225 MPH
+      StepSpeed4 = 33.00                     // look ahead 12 meters (39.371998 feet) at 118.799995 KPH 73.8177 MPH
+      StepSpeed5 = 41.00                     // look ahead 15 meters (49.215 feet) at 147.59999 KPH 91.712906 MPH
+      StepSpeed6 = 50.00                     // look ahead 18 meters (59.058 feet) at 180 KPH 111.845 MPH
+      StepSpeed7 = 62.00                     // look ahead 21 meters (68.901 feet) at 223.2 KPH 138.6878 MPH
+      StepSpeed8 = 75.00                     // look ahead 24 meters (78.743996 feet) at 270 KPH 167.7675 MPH
+      UnderSteerEffectOnThrottleMulti = 200.00
+      UnderSteerEffectOnLineMulti = 300.00
+      OverSteerThrottleReaction = -18.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 50.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 100.00                   // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST
     }
     Dominion_Raceway
     {
@@ -665,10 +704,8 @@ SCNG23
     Composure = 85
     Courtesy = 99
     Recovery = 99
-    StartSkill = 99.00
+    StartSkill = 50.00
     MinRacingSkill = 90.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -690,17 +727,15 @@ SCNG23
     {
         Tier = 1
         Speed = 99
-        QualifySpeed = 95
-        WetSpeed = 90
-        Aggression = 70
-        Composure = 85
+        QualifySpeed = 99
+        WetSpeed = 99
+        Aggression = 95
+        Composure = 99
         Courtesy = 99
         Recovery = 99
-        StartSkill = 99.00
-        MinRacingSkill = 90.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        DrivingLine = FASTEST,LOWLINE
     }
     Darlington_500
     {
@@ -738,14 +773,14 @@ SCNG23
     {
         Tier = 1
         Speed = 99
-        QualifySpeed = 95
-        WetSpeed = 90
-        Aggression = 70
-        Composure = 85
+        QualifySpeed = 99
+        WetSpeed = 99
+        Aggression = 95
+        Composure = 99
         Courtesy = 99
         Recovery = 99
-        StartSkill = 99.00
-        MinRacingSkill = 90.00
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -754,15 +789,14 @@ SCNG23
     {
         Tier = 1
         Speed = 99
-        QualifySpeed = 95
-        WetSpeed = 90
-        Aggression = 70
-        Composure = 85
+        QualifySpeed = 99
+        WetSpeed = 99
+        Aggression = 95
+        Composure = 99
         Courtesy = 99
         Recovery = 99
-        CorneringCaution = 45                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
-        StartSkill = 99.00
-        MinRacingSkill = 90.00
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -772,6 +806,54 @@ SCNG23
         Tier = 1
         Speed = 99
         QualifySpeed = 95
+        WetSpeed = 90
+        Aggression = 70
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 99.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    NIR
+    {
+        Tier = 1
+        Speed = 99
+        QualifySpeed = 99
+        WetSpeed = 99
+        Aggression = 95
+        Composure = 99
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    North_Wilkesboro
+    {
+        Tier = 1
+        Speed = 99
+        QualifySpeed = 95
+        WetSpeed = 90
+        Aggression = 70
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
         WetSpeed = 90
         Aggression = 70
         Composure = 85
@@ -794,12 +876,8 @@ SCNG23
     Composure = 90
     Courtesy = 99
     Recovery = 99
-    StartSkill = 97.00
+    StartSkill = 50.00
     MinRacingSkill = 90.00
-    PracticeTime = 31.2
-    PracticeTimeVariance = 0.125
-    QualifyTime = 31.2
-    QualifyTimeVariance = 0.125
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -822,20 +900,16 @@ SCNG23
     Bristol_2016
     {
         Tier = 1
-        Speed = 98
-        QualifySpeed = 90
-        WetSpeed = 90
-        Aggression = 70
-        Composure = 90
+        Speed = 99
+        QualifySpeed = 99
+        WetSpeed = 99
+        Aggression = 95
+        Composure = 99
         Courtesy = 99
         Recovery = 99
-        StartSkill = 97.00
-        MinRacingSkill = 90.00
-        PracticeTime = 31.2
-        PracticeTimeVariance = 0.125
-        QualifyTime = 31.2
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        DrivingLine = FASTEST,LOWLINE
     }
     Darlington_500
     {
@@ -876,15 +950,15 @@ SCNG23
     Dover_2016
     {
         Tier = 1
-        Speed = 98
-        QualifySpeed = 90
-        WetSpeed = 90
-        Aggression = 70
-        Composure = 90
+        Speed = 99
+        QualifySpeed = 99
+        WetSpeed = 99
+        Aggression = 95
+        Composure = 99
         Courtesy = 99
         Recovery = 99
-        StartSkill = 97.00
-        MinRacingSkill = 90.00
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
         PracticeTime = 31.2
         PracticeTimeVariance = 0.125
         QualifyTime = 31.2
@@ -894,16 +968,15 @@ SCNG23
     Martinsville_Speedway
     {
         Tier = 1
-        Speed = 98
-        QualifySpeed = 90
-        WetSpeed = 90
-        Aggression = 70
-        Composure = 90
+        Speed = 99
+        QualifySpeed = 99
+        WetSpeed = 99
+        Aggression = 95
+        Composure = 99
         Courtesy = 99
         Recovery = 99
-        CorneringCaution = 40                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
-        StartSkill = 97.00
-        MinRacingSkill = 90.00
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
         PracticeTime = 31.2
         PracticeTimeVariance = 0.125
         QualifyTime = 31.2
@@ -914,6 +987,56 @@ SCNG23
     {
         Tier = 1
         Speed = 98
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 70
+        Composure = 90
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 97.00
+        MinRacingSkill = 90.00
+        PracticeTime = 31.2
+        PracticeTimeVariance = 0.125
+        QualifyTime = 31.2
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    NIR
+    {
+        Tier = 1
+        Speed = 99
+        QualifySpeed = 99
+        WetSpeed = 99
+        Aggression = 95
+        Composure = 99
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    North_Wilkesboro
+    {
+        Tier = 1
+        Speed = 98
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 70
+        Composure = 90
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 1
+        Speed = 90
         QualifySpeed = 90
         WetSpeed = 90
         Aggression = 70
@@ -939,10 +1062,8 @@ SCNG23
     Composure = 85
     Courtesy = 99
     Recovery = 99
-    StartSkill = 95.00
+    StartSkill = 50.00
     MinRacingSkill = 90.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -966,15 +1087,13 @@ SCNG23
         Speed = 92
         QualifySpeed = 88
         WetSpeed = 90
-        Aggression = 50
+        Aggression = 75
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 95.00
-        MinRacingSkill = 90.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        DrivingLine = FASTEST,LOWLINE
     }
     Darlington_500
     {
@@ -1014,12 +1133,12 @@ SCNG23
         Speed = 92
         QualifySpeed = 88
         WetSpeed = 90
-        Aggression = 50
+        Aggression = 75
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 95.00
-        MinRacingSkill = 90.00
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -1030,13 +1149,12 @@ SCNG23
         Speed = 92
         QualifySpeed = 88
         WetSpeed = 90
-        Aggression = 50
+        Aggression = 75
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        CorneringCaution = 40                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
-        StartSkill = 95.00
-        MinRacingSkill = 90.00
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -1055,6 +1173,54 @@ SCNG23
         MinRacingSkill = 90.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    NIR
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 88
+        WetSpeed = 90
+        Aggression = 75
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    North_Wilkesboro
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 88
+        WetSpeed = 90
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 88
+        WetSpeed = 90
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 95.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
   }
   Christopher Bell
@@ -1067,10 +1233,8 @@ SCNG23
     Composure = 85
     Courtesy = 99
     Recovery = 99
-    StartSkill = 95.00
+    StartSkill = 50.00
     MinRacingSkill = 87.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -1094,15 +1258,13 @@ SCNG23
         Speed = 93
         QualifySpeed = 92
         WetSpeed = 85
-        Aggression = 50
+        Aggression = 75
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 95.00
-        MinRacingSkill = 87.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        DrivingLine = FASTEST,LOWLINE
     }
     Darlington_500
     {
@@ -1142,12 +1304,12 @@ SCNG23
         Speed = 93
         QualifySpeed = 92
         WetSpeed = 85
-        Aggression = 50
+        Aggression = 75
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 95.00
-        MinRacingSkill = 87.00
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -1158,13 +1320,12 @@ SCNG23
         Speed = 93
         QualifySpeed = 92
         WetSpeed = 85
-        Aggression = 50
+        Aggression = 75
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        CorneringCaution = 40                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
-        StartSkill = 95.00
-        MinRacingSkill = 87.00
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -1183,6 +1344,54 @@ SCNG23
         MinRacingSkill = 87.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    NIR
+    {
+        Tier = 1
+        Speed = 93
+        QualifySpeed = 92
+        WetSpeed = 85
+        Aggression = 75
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    North_Wilkesboro
+    {
+        Tier = 1
+        Speed = 93
+        QualifySpeed = 92
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 87.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 95.00
+        MinRacingSkill = 87.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
   }
   William Byron
@@ -1195,10 +1404,8 @@ SCNG23
     Composure = 85
     Courtesy = 99
     Recovery = 99
-    StartSkill = 92.00
+    StartSkill = 50.00
     MinRacingSkill = 87.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -1222,15 +1429,13 @@ SCNG23
         Speed = 95
         QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 50
+        Aggression = 80
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 92.00
-        MinRacingSkill = 87.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        DrivingLine = FASTEST,LOWLINE
     }
     Darlington_500
     {
@@ -1270,12 +1475,12 @@ SCNG23
         Speed = 95
         QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 50
+        Aggression = 80
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 92.00
-        MinRacingSkill = 87.00
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -1286,13 +1491,12 @@ SCNG23
         Speed = 95
         QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 50
+        Aggression = 80
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        CorneringCaution = 40                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
-        StartSkill = 92.00
-        MinRacingSkill = 87.00
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -1311,6 +1515,54 @@ SCNG23
         MinRacingSkill = 87.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    NIR
+    {
+        Tier = 1
+        Speed = 95
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 80
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    North_Wilkesboro
+    {
+        Tier = 1
+        Speed = 95
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 87.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 92.00
+        MinRacingSkill = 87.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
   }
   Tyler Reddick
@@ -1323,10 +1575,8 @@ SCNG23
     Composure = 85
     Courtesy = 99
     Recovery = 99
-    StartSkill = 95.00
+    StartSkill = 50.00
     MinRacingSkill = 85.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -1350,15 +1600,13 @@ SCNG23
         Speed = 92
         QualifySpeed = 91
         WetSpeed = 88
-        Aggression = 50
+        Aggression = 80
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 95.00
-        MinRacingSkill = 85.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        DrivingLine = FASTEST,LOWLINE
     }
     Darlington_500
     {
@@ -1398,12 +1646,12 @@ SCNG23
         Speed = 92
         QualifySpeed = 91
         WetSpeed = 88
-        Aggression = 50
+        Aggression = 80
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 95.00
-        MinRacingSkill = 85.00
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -1414,13 +1662,12 @@ SCNG23
         Speed = 92
         QualifySpeed = 91
         WetSpeed = 88
-        Aggression = 50
+        Aggression = 80
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        CorneringCaution = 40                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
-        StartSkill = 95.00
-        MinRacingSkill = 85.00
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -1439,6 +1686,54 @@ SCNG23
         MinRacingSkill = 85.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    NIR
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 91
+        WetSpeed = 88
+        Aggression = 80
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    North_Wilkesboro
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 91
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 85.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 95.00
+        MinRacingSkill = 85.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
   }
   Chase Elliott
@@ -1451,10 +1746,8 @@ SCNG23
     Composure = 85
     Courtesy = 99
     Recovery = 99
-    StartSkill = 93.00
+    StartSkill = 50.00
     MinRacingSkill = 82.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -1482,11 +1775,9 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 93.00
-        MinRacingSkill = 82.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        DrivingLine = FASTEST,LOWLINE
     }
     Darlington_500
     {
@@ -1530,8 +1821,8 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 93.00
-        MinRacingSkill = 82.00
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -1546,9 +1837,8 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        CorneringCaution = 40                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
-        StartSkill = 93.00
-        MinRacingSkill = 82.00
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -1567,6 +1857,54 @@ SCNG23
         MinRacingSkill = 82.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    NIR
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 85
+        WetSpeed = 90
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    North_Wilkesboro
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 85
+        WetSpeed = 90
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 85
+        WetSpeed = 90
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 93.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
   }
   Joey Logano
@@ -1579,10 +1917,8 @@ SCNG23
     Composure = 85
     Courtesy = 99
     Recovery = 99
-    StartSkill = 92.00
+    StartSkill = 50.00
     MinRacingSkill = 82.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -1604,17 +1940,15 @@ SCNG23
     {
         Tier = 1
         Speed = 92
-        QualifySpeed = 80
+        QualifySpeed = 85
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 65
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 92.00
-        MinRacingSkill = 82.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        DrivingLine = FASTEST,LOWLINE
     }
     Darlington_500
     {
@@ -1652,14 +1986,14 @@ SCNG23
     {
         Tier = 1
         Speed = 92
-        QualifySpeed = 80
+        QualifySpeed = 85
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 65
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 92.00
-        MinRacingSkill = 82.00
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -1668,15 +2002,14 @@ SCNG23
     {
         Tier = 1
         Speed = 92
-        QualifySpeed = 80
+        QualifySpeed = 85
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 65
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        CorneringCaution = 40                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
-        StartSkill = 92.00
-        MinRacingSkill = 82.00
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -1695,6 +2028,54 @@ SCNG23
         MinRacingSkill = 82.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    NIR
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 85
+        WetSpeed = 80
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    North_Wilkesboro
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 92.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
   }
   Ryan Blaney
@@ -1707,10 +2088,8 @@ SCNG23
     Composure = 85
     Courtesy = 99
     Recovery = 99
-    StartSkill = 90.00
+    StartSkill = 50.00
     MinRacingSkill = 82.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -1734,15 +2113,13 @@ SCNG23
         Speed = 95
         QualifySpeed = 90
         WetSpeed = 88
-        Aggression = 50
+        Aggression = 75
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 82.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        DrivingLine = FASTEST,LOWLINE
     }
     Darlington_500
     {
@@ -1782,12 +2159,12 @@ SCNG23
         Speed = 95
         QualifySpeed = 90
         WetSpeed = 88
-        Aggression = 50
+        Aggression = 75
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 82.00
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -1798,13 +2175,12 @@ SCNG23
         Speed = 95
         QualifySpeed = 90
         WetSpeed = 88
-        Aggression = 50
+        Aggression = 75
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        CorneringCaution = 40                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
-        StartSkill = 90.00
-        MinRacingSkill = 82.00
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -1823,6 +2199,54 @@ SCNG23
         MinRacingSkill = 82.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    NIR
+    {
+        Tier = 1
+        Speed = 95
+        QualifySpeed = 90
+        WetSpeed = 88
+        Aggression = 75
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    North_Wilkesboro
+    {
+        Tier = 1
+        Speed = 95
+        QualifySpeed = 90
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
   }
   Ross Chastain
@@ -1835,10 +2259,8 @@ SCNG23
     Composure = 85
     Courtesy = 99
     Recovery = 99
-    StartSkill = 90.00
+    StartSkill = 45.00
     MinRacingSkill = 80.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -1862,15 +2284,13 @@ SCNG23
         Speed = 88
         QualifySpeed = 85
         WetSpeed = 85
-        Aggression = 50
+        Aggression = 95
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,LOWLINE
     }
     Darlington_500
     {
@@ -1910,11 +2330,11 @@ SCNG23
         Speed = 88
         QualifySpeed = 85
         WetSpeed = 85
-        Aggression = 50
+        Aggression = 95
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -1926,12 +2346,11 @@ SCNG23
         Speed = 88
         QualifySpeed = 85
         WetSpeed = 85
-        Aggression = 50
+        Aggression = 95
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        CorneringCaution = 40                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -1951,6 +2370,54 @@ SCNG23
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    NIR
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 95
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    North_Wilkesboro
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
   }
   Kevin Harvick
@@ -1963,10 +2430,8 @@ SCNG23
     Composure = 85
     Courtesy = 99
     Recovery = 99
-    StartSkill = 90.00
+    StartSkill = 45.00
     MinRacingSkill = 80.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -1994,11 +2459,9 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,LOWLINE
     }
     Darlington_500
     {
@@ -2042,7 +2505,7 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -2058,8 +2521,7 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        CorneringCaution = 40                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -2079,6 +2541,54 @@ SCNG23
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    NIR
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 80
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    North_Wilkesboro
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 80
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 80
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
   }
   Alex Bowman
@@ -2091,10 +2601,8 @@ SCNG23
     Composure = 80
     Courtesy = 99
     Recovery = 99
-    StartSkill = 90.00
+    StartSkill = 45.00
     MinRacingSkill = 80.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -2122,11 +2630,9 @@ SCNG23
         Composure = 80
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,LOWLINE
     }
     Darlington_500
     {
@@ -2170,7 +2676,7 @@ SCNG23
         Composure = 80
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -2186,7 +2692,7 @@ SCNG23
         Composure = 80
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -2206,6 +2712,54 @@ SCNG23
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    NIR
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    North_Wilkesboro
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
   }
   Kyle Busch
@@ -2218,10 +2772,8 @@ SCNG23
     Composure = 80
     Courtesy = 99
     Recovery = 99
-    StartSkill = 90.00
+    StartSkill = 45.00
     MinRacingSkill = 80.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -2245,15 +2797,13 @@ SCNG23
         Speed = 88
         QualifySpeed = 87
         WetSpeed = 87
-        Aggression = 50
+        Aggression = 95
         Composure = 80
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = FASTEST,LOWLINE
     }
     Darlington_500
     {
@@ -2293,11 +2843,11 @@ SCNG23
         Speed = 88
         QualifySpeed = 87
         WetSpeed = 87
-        Aggression = 50
+        Aggression = 95
         Composure = 80
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -2309,11 +2859,11 @@ SCNG23
         Speed = 88
         QualifySpeed = 87
         WetSpeed = 87
-        Aggression = 50
+        Aggression = 95
         Composure = 80
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -2333,6 +2883,54 @@ SCNG23
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    NIR
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 87
+        WetSpeed = 87
+        Aggression = 95
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    North_Wilkesboro
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 87
+        WetSpeed = 87
+        Aggression = 50
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 87
+        WetSpeed = 87
+        Aggression = 50
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
   }
   Bubba Wallace
@@ -2345,10 +2943,8 @@ SCNG23
     Composure = 75
     Courtesy = 99
     Recovery = 99
-    StartSkill = 90.00
+    StartSkill = 45.00
     MinRacingSkill = 80.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -2376,10 +2972,8 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,LOWLINE
     }
     Darlington_500
@@ -2424,7 +3018,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -2440,7 +3034,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -2460,22 +3054,68 @@ SCNG23
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    NIR
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 89
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    North_Wilkesboro
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 89
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 89
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
   }
   Chris Buescher
   {
     Tier = 2
-    Speed = 85
-    QualifySpeed = 85
-    WetSpeed = 85
-    Aggression = 50
-    Composure = 75
+    Speed = 15
+    QualifySpeed = 15
+    WetSpeed = 15
+    Aggression = 15
+    Composure = 15
     Courtesy = 99
     Recovery = 99
-    StartSkill = 90.00
-    MinRacingSkill = 70.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
+    StartSkill = 15.00
+    MinRacingSkill = 15.00
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -2503,10 +3143,8 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 70.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,LOWLINE
     }
     Darlington_500
@@ -2551,7 +3189,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -2567,7 +3205,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -2587,6 +3225,54 @@ SCNG23
         MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    NIR
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    North_Wilkesboro
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
   }
   Brad Keselowski
@@ -2599,10 +3285,8 @@ SCNG23
     Composure = 75
     Courtesy = 99
     Recovery = 99
-    StartSkill = 90.00
+    StartSkill = 45.00
     MinRacingSkill = 70.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -2630,10 +3314,8 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 70.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,LOWLINE
     }
     Darlington_500
@@ -2678,7 +3360,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -2694,7 +3376,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -2714,6 +3396,54 @@ SCNG23
         MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    NIR
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 83
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    North_Wilkesboro
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 83
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 83
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
   }
   Ty Gibbs
@@ -2726,10 +3456,8 @@ SCNG23
     Composure = 75
     Courtesy = 99
     Recovery = 99
-    StartSkill = 90.00
-    MinRacingSkill = 67.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
+    StartSkill = 45.00
+    MinRacingSkill = 70.00
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -2757,10 +3485,8 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 67.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        StartSkill = 45.00
+        MinRacingSkill = 65.00
         DrivingLine = FASTEST,LOWLINE
     }
     Darlington_500
@@ -2805,8 +3531,8 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 67.00
+        StartSkill = 45.00
+        MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -2821,8 +3547,8 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 67.00
+        StartSkill = 45.00
+        MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -2841,6 +3567,54 @@ SCNG23
         MinRacingSkill = 67.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    NIR
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 65.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    North_Wilkesboro
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 67.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 67.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
   }
   Daniel Suarez
@@ -2853,10 +3627,8 @@ SCNG23
     Composure = 75
     Courtesy = 99
     Recovery = 99
-    StartSkill = 90.00
-    MinRacingSkill = 50.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
+    StartSkill = 45.00
+    MinRacingSkill = 70.00
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -2881,13 +3653,11 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        StartSkill = 45.00
+        MinRacingSkill = 65.00
         DrivingLine = FASTEST,LOWLINE
     }
     Darlington_500
@@ -2929,11 +3699,11 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
+        StartSkill = 45.00
+        MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -2945,11 +3715,11 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
+        StartSkill = 45.00
+        MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -2969,6 +3739,54 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
+    NIR
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 65.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    North_Wilkesboro
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
   }
   Austin Cindric
   {
@@ -2980,10 +3798,8 @@ SCNG23
     Composure = 75
     Courtesy = 99
     Recovery = 99
-    StartSkill = 90.00
-    MinRacingSkill = 50.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
+    StartSkill = 45.00
+    MinRacingSkill = 70.00
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -3008,13 +3824,11 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        StartSkill = 45.00
+        MinRacingSkill = 65.00
         DrivingLine = FASTEST,LOWLINE
     }
     Darlington_500
@@ -3056,11 +3870,11 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
+        StartSkill = 45.00
+        MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -3072,11 +3886,11 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
+        StartSkill = 45.00
+        MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
@@ -3095,6 +3909,54 @@ SCNG23
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    NIR
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 65.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
+    North_Wilkesboro
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
   }
   AJ Allmendinger
@@ -3107,10 +3969,8 @@ SCNG23
     Composure = 75
     Courtesy = 99
     Recovery = 99
-    StartSkill = 90.00
-    MinRacingSkill = 50.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
+    StartSkill = 45.00
+    MinRacingSkill = 70.00
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -3135,13 +3995,11 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        StartSkill = 45.00
+        MinRacingSkill = 55.00
         DrivingLine = FASTEST,LOWLINE
     }
     Darlington_500
@@ -3183,11 +4041,11 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
+        StartSkill = 45.00
+        MinRacingSkill = 55.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -3199,11 +4057,11 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
+        StartSkill = 45.00
+        MinRacingSkill = 55.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
@@ -3222,6 +4080,54 @@ SCNG23
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    NIR
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 55.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
+    North_Wilkesboro
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
   }
   Austin Dillon
@@ -3234,10 +4140,8 @@ SCNG23
     Composure = 75
     Courtesy = 99
     Recovery = 99
-    StartSkill = 90.00
-    MinRacingSkill = 50.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
+    StartSkill = 45.00
+    MinRacingSkill = 70.00
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -3262,13 +4166,11 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,LOWLINE
     }
     Darlington_500
@@ -3310,10 +4212,10 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -3326,10 +4228,10 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -3349,6 +4251,54 @@ SCNG23
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    NIR
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
+    North_Wilkesboro
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
   }
   Chase Briscoe
@@ -3361,10 +4311,8 @@ SCNG23
     Composure = 75
     Courtesy = 99
     Recovery = 99
-    StartSkill = 90.00
-    MinRacingSkill = 50.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
+    StartSkill = 45.00
+    MinRacingSkill = 70.00
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -3389,13 +4337,11 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,LOWLINE
     }
     Darlington_500
@@ -3437,10 +4383,10 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -3453,10 +4399,10 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -3476,6 +4422,54 @@ SCNG23
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    NIR
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
+    North_Wilkesboro
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
   }
   Erik Jones
@@ -3488,10 +4482,8 @@ SCNG23
     Composure = 75
     Courtesy = 99
     Recovery = 99
-    StartSkill = 90.00
-    MinRacingSkill = 50.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
+    StartSkill = 45.00
+    MinRacingSkill = 70.00
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -3516,13 +4508,11 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,LOWLINE
     }
     Darlington_500
@@ -3564,10 +4554,10 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -3580,10 +4570,10 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -3603,6 +4593,54 @@ SCNG23
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    NIR
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
+    North_Wilkesboro
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
   }
   Richard Stenhouse Jr
@@ -3615,10 +4653,8 @@ SCNG23
     Composure = 75
     Courtesy = 99
     Recovery = 99
-    StartSkill = 90.00
-    MinRacingSkill = 50.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
+    StartSkill = 40.00
+    MinRacingSkill = 60.00
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -3643,13 +4679,11 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 40.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,LOWLINE
     }
     Darlington_500
@@ -3691,10 +4725,10 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 40.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -3707,10 +4741,10 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 40.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -3730,6 +4764,54 @@ SCNG23
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    NIR
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
+    North_Wilkesboro
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
   }
   Corey Lajoie
@@ -3742,10 +4824,8 @@ SCNG23
     Composure = 75
     Courtesy = 99
     Recovery = 99
-    StartSkill = 90.00
-    MinRacingSkill = 50.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
+    StartSkill = 40.00
+    MinRacingSkill = 60.00
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -3770,13 +4850,11 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 45
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
         DrivingLine = FASTEST,LOWLINE
     }
     Darlington_500
@@ -3818,11 +4896,11 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 45
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -3834,11 +4912,11 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 45
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
@@ -3857,22 +4935,68 @@ SCNG23
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    NIR
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
+    North_Wilkesboro
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
   }
   Aric Almirola
   {
     Tier = 3
     Speed = 77
-    QualifySpeed = 80
+    QualifySpeed = 75
     WetSpeed = 80
     Aggression = 50
     Composure = 75
     Courtesy = 99
     Recovery = 99
-    StartSkill = 90.00
-    MinRacingSkill = 50.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
+    StartSkill = 40.00
+    MinRacingSkill = 60.00
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -3897,13 +5021,11 @@ SCNG23
         QualifySpeed = 75
         WetSpeed = 75
         Aggression = 50
-        Composure = 75
+        Composure = 45
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
         DrivingLine = FASTEST,LOWLINE
     }
     Darlington_500
@@ -3945,11 +5067,11 @@ SCNG23
         QualifySpeed = 75
         WetSpeed = 75
         Aggression = 50
-        Composure = 75
+        Composure = 45
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -3961,11 +5083,11 @@ SCNG23
         QualifySpeed = 75
         WetSpeed = 75
         Aggression = 50
-        Composure = 75
+        Composure = 45
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
@@ -3985,21 +5107,67 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
+    NIR
+    {
+        Tier = 3
+        Speed = 77
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
+    North_Wilkesboro
+    {
+        Tier = 3
+        Speed = 77
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 3
+        Speed = 77
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
   }
   Ryan Preece
   {
     Tier = 3
-    Speed = 80
-    QualifySpeed = 80
+    Speed = 77
+    QualifySpeed = 75
     WetSpeed = 80
     Aggression = 50
     Composure = 75
     Courtesy = 99
     Recovery = 99
-    StartSkill = 90.00
-    MinRacingSkill = 50.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
+    StartSkill = 40.00
+    MinRacingSkill = 60.00
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -4024,13 +5192,11 @@ SCNG23
         QualifySpeed = 75
         WetSpeed = 75
         Aggression = 50
-        Composure = 75
+        Composure = 45
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
         DrivingLine = FASTEST,LOWLINE
     }
     Darlington_500
@@ -4072,11 +5238,11 @@ SCNG23
         QualifySpeed = 75
         WetSpeed = 75
         Aggression = 50
-        Composure = 75
+        Composure = 45
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -4088,11 +5254,11 @@ SCNG23
         QualifySpeed = 75
         WetSpeed = 75
         Aggression = 50
-        Composure = 75
+        Composure = 45
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -4112,21 +5278,67 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
+    NIR
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    North_Wilkesboro
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
   }
   Michael McDowell
   {
     Tier = 3
     Speed = 80
-    QualifySpeed = 80
+    QualifySpeed = 75
     WetSpeed = 80
     Aggression = 50
     Composure = 75
     Courtesy = 99
     Recovery = 99
-    StartSkill = 90.00
-    MinRacingSkill = 50.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
+    StartSkill = 40.00
+    MinRacingSkill = 60.00
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -4151,13 +5363,11 @@ SCNG23
         QualifySpeed = 75
         WetSpeed = 75
         Aggression = 50
-        Composure = 75
+        Composure = 45
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
         DrivingLine = FASTEST,LOWLINE
     }
     Darlington_500
@@ -4199,11 +5409,11 @@ SCNG23
         QualifySpeed = 75
         WetSpeed = 75
         Aggression = 50
-        Composure = 75
+        Composure = 45
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -4215,11 +5425,11 @@ SCNG23
         QualifySpeed = 75
         WetSpeed = 75
         Aggression = 50
-        Composure = 75
+        Composure = 45
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -4239,21 +5449,67 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
+    NIR
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    North_Wilkesboro
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 99
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 96.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
   }
   Todd Gilliland
   {
     Tier = 3
     Speed = 80
-    QualifySpeed = 80
+    QualifySpeed = 75
     WetSpeed = 80
     Aggression = 50
     Composure = 75
     Courtesy = 99
     Recovery = 99
-    StartSkill = 90.00
-    MinRacingSkill = 50.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
+    StartSkill = 40.00
+    MinRacingSkill = 55.00
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -4278,13 +5534,11 @@ SCNG23
         QualifySpeed = 75
         WetSpeed = 75
         Aggression = 50
-        Composure = 75
+        Composure = 45
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
         DrivingLine = FASTEST,LOWLINE
     }
     Darlington_500
@@ -4326,11 +5580,11 @@ SCNG23
         QualifySpeed = 75
         WetSpeed = 75
         Aggression = 50
-        Composure = 75
+        Composure = 45
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -4342,11 +5596,11 @@ SCNG23
         QualifySpeed = 75
         WetSpeed = 75
         Aggression = 50
-        Composure = 75
+        Composure = 45
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -4366,21 +5620,67 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
+    NIR
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    North_Wilkesboro
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 95
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
   }
   Harrison Burton
   {
     Tier = 3
-    Speed = 80
-    QualifySpeed = 80
+    Speed = 77
+    QualifySpeed = 70
     WetSpeed = 80
     Aggression = 50
     Composure = 75
     Courtesy = 99
     Recovery = 99
-    StartSkill = 90.00
-    MinRacingSkill = 50.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
+    StartSkill = 40.00
+    MinRacingSkill = 55.00
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -4405,13 +5705,11 @@ SCNG23
         QualifySpeed = 70
         WetSpeed = 70
         Aggression = 50
-        Composure = 75
+        Composure = 35
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
         DrivingLine = HIGHLINE,LOWLINE
     }
     Darlington_500
@@ -4453,11 +5751,11 @@ SCNG23
         QualifySpeed = 70
         WetSpeed = 70
         Aggression = 50
-        Composure = 75
+        Composure = 35
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
@@ -4469,11 +5767,11 @@ SCNG23
         QualifySpeed = 70
         WetSpeed = 70
         Aggression = 50
-        Composure = 75
+        Composure = 35
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -4492,22 +5790,68 @@ SCNG23
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    NIR
+    {
+        Tier = 3
+        Speed = 72
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    North_Wilkesboro
+    {
+        Tier = 3
+        Speed = 72
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
   }
   Dale JR
   {
     Tier = 3
     Speed = 80
-    QualifySpeed = 80
+    QualifySpeed = 70
     WetSpeed = 80
     Aggression = 50
     Composure = 75
     Courtesy = 99
     Recovery = 99
-    StartSkill = 90.00
-    MinRacingSkill = 50.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
+    StartSkill = 40.00
+    MinRacingSkill = 55.00
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -4532,13 +5876,11 @@ SCNG23
         QualifySpeed = 70
         WetSpeed = 70
         Aggression = 50
-        Composure = 75
+        Composure = 35
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
         DrivingLine = HIGHLINE,LOWLINE
     }
     Darlington_500
@@ -4580,11 +5922,11 @@ SCNG23
         QualifySpeed = 70
         WetSpeed = 70
         Aggression = 50
-        Composure = 75
+        Composure = 35
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -4596,11 +5938,11 @@ SCNG23
         QualifySpeed = 70
         WetSpeed = 70
         Aggression = 50
-        Composure = 75
+        Composure = 35
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -4619,22 +5961,68 @@ SCNG23
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    NIR
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    North_Wilkesboro
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
   }
   Chandler Smith
   {
     Tier = 4
     Speed = 80
-    QualifySpeed = 80
+    QualifySpeed = 70
     WetSpeed = 80
     Aggression = 50
     Composure = 75
     Courtesy = 99
     Recovery = 99
-    StartSkill = 85.00
+    StartSkill = 35.00
     MinRacingSkill = 50.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -4658,14 +6046,12 @@ SCNG23
         Speed = 70
         QualifySpeed = 70
         WetSpeed = 70
-        Aggression = 50
-        Composure = 75
+        Aggression = 40
+        Composure = 35
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        StartSkill = 35.00
+        MinRacingSkill = 35.00
         DrivingLine = HIGHLINE,LOWLINE
     }
     Darlington_500
@@ -4706,12 +6092,12 @@ SCNG23
         Speed = 70
         QualifySpeed = 70
         WetSpeed = 70
-        Aggression = 50
-        Composure = 75
+        Aggression = 40
+        Composure = 35
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
@@ -4722,12 +6108,12 @@ SCNG23
         Speed = 70
         QualifySpeed = 70
         WetSpeed = 70
-        Aggression = 50
-        Composure = 75
+        Aggression = 40
+        Composure = 35
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -4746,22 +6132,68 @@ SCNG23
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    NIR
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 40
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    North_Wilkesboro
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 4
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
   }
   Noah Gragson
   {
     Tier = 4
     Speed = 80
-    QualifySpeed = 80
+    QualifySpeed = 70
     WetSpeed = 80
     Aggression = 50
     Composure = 55
     Courtesy = 99
     Recovery = 99
-    StartSkill = 85.00
+    StartSkill = 35.00
     MinRacingSkill = 50.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -4785,14 +6217,12 @@ SCNG23
         Speed = 70
         QualifySpeed = 70
         WetSpeed = 70
-        Aggression = 50
-        Composure = 55
+        Aggression = 40
+        Composure = 35
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        StartSkill = 35.00
+        MinRacingSkill = 35.00
         DrivingLine = HIGHLINE,LOWLINE
     }
     Darlington_500
@@ -4833,12 +6263,12 @@ SCNG23
         Speed = 70
         QualifySpeed = 70
         WetSpeed = 70
-        Aggression = 50
-        Composure = 55
+        Aggression = 40
+        Composure = 35
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -4849,12 +6279,12 @@ SCNG23
         Speed = 70
         QualifySpeed = 70
         WetSpeed = 70
-        Aggression = 50
-        Composure = 55
+        Aggression = 40
+        Composure = 35
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -4873,22 +6303,68 @@ SCNG23
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    NIR
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 40
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    North_Wilkesboro
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 4
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
   }
   Austin Hill
   {
     Tier = 4
     Speed = 78
-    QualifySpeed = 80
+    QualifySpeed = 70
     WetSpeed = 80
     Aggression = 50
     Composure = 55
     Courtesy = 99
     Recovery = 99
-    StartSkill = 85.00
+    StartSkill = 35.00
     MinRacingSkill = 50.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -4912,14 +6388,12 @@ SCNG23
         Speed = 70
         QualifySpeed = 70
         WetSpeed = 70
-        Aggression = 50
-        Composure = 55
+        Aggression = 40
+        Composure = 25
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         DrivingLine = HIGHLINE,LOWLINE
     }
     Darlington_500
@@ -4960,12 +6434,12 @@ SCNG23
         Speed = 70
         QualifySpeed = 70
         WetSpeed = 70
-        Aggression = 50
-        Composure = 55
+        Aggression = 40
+        Composure = 25
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
@@ -4976,12 +6450,12 @@ SCNG23
         Speed = 70
         QualifySpeed = 70
         WetSpeed = 70
-        Aggression = 50
-        Composure = 55
+        Aggression = 40
+        Composure = 25
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -5000,22 +6474,68 @@ SCNG23
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    NIR
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    North_Wilkesboro
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 4
+        Speed = 78
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
   }
   Ty Dillon
   {
     Tier = 4
     Speed = 77
-    QualifySpeed = 80
+    QualifySpeed = 65
     WetSpeed = 80
     Aggression = 50
     Composure = 55
     Courtesy = 99
     Recovery = 99
-    StartSkill = 85.00
+    StartSkill = 35.00
     MinRacingSkill = 50.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -5039,14 +6559,12 @@ SCNG23
         Speed = 70
         QualifySpeed = 65
         WetSpeed = 65
-        Aggression = 50
-        Composure = 55
+        Aggression = 40
+        Composure = 25
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         DrivingLine = HIGHLINE,LOWLINE
     }
     Darlington_500
@@ -5087,12 +6605,12 @@ SCNG23
         Speed = 70
         QualifySpeed = 65
         WetSpeed = 65
-        Aggression = 50
-        Composure = 55
+        Aggression = 40
+        Composure = 25
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -5103,12 +6621,12 @@ SCNG23
         Speed = 70
         QualifySpeed = 65
         WetSpeed = 65
-        Aggression = 50
-        Composure = 55
+        Aggression = 40
+        Composure = 25
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -5127,22 +6645,68 @@ SCNG23
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    NIR
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    North_Wilkesboro
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 4
+        Speed = 77
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
   }
   Zane Smith
   {
     Tier = 4
     Speed = 75
-    QualifySpeed = 80
+    QualifySpeed = 65
     WetSpeed = 80
     Aggression = 50
     Composure = 55
     Courtesy = 99
     Recovery = 99
-    StartSkill = 85.00
+    StartSkill = 35.00
     MinRacingSkill = 50.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -5166,14 +6730,12 @@ SCNG23
         Speed = 75
         QualifySpeed = 65
         WetSpeed = 65
-        Aggression = 50
-        Composure = 55
+        Aggression = 40
+        Composure = 25
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         DrivingLine = HIGHLINE,LOWLINE
     }
     Darlington_500
@@ -5214,12 +6776,12 @@ SCNG23
         Speed = 75
         QualifySpeed = 65
         WetSpeed = 65
-        Aggression = 50
-        Composure = 55
+        Aggression = 40
+        Composure = 25
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
@@ -5230,12 +6792,12 @@ SCNG23
         Speed = 75
         QualifySpeed = 65
         WetSpeed = 65
-        Aggression = 50
-        Composure = 55
+        Aggression = 40
+        Composure = 25
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -5254,22 +6816,68 @@ SCNG23
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    NIR
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    North_Wilkesboro
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
   }
   Daniel Hemric
   {
     Tier = 4
     Speed = 75
-    QualifySpeed = 70
+    QualifySpeed = 65
     WetSpeed = 75
     Aggression = 50
     Composure = 55
     Courtesy = 99
     Recovery = 99
-    StartSkill = 85.00
+    StartSkill = 35.00
     MinRacingSkill = 50.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -5293,14 +6901,12 @@ SCNG23
         Speed = 75
         QualifySpeed = 65
         WetSpeed = 65
-        Aggression = 50
-        Composure = 55
+        Aggression = 40
+        Composure = 25
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         DrivingLine = HIGHLINE,LOWLINE
     }
     Darlington_500
@@ -5341,12 +6947,12 @@ SCNG23
         Speed = 75
         QualifySpeed = 65
         WetSpeed = 65
-        Aggression = 50
-        Composure = 55
+        Aggression = 40
+        Composure = 25
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -5357,12 +6963,12 @@ SCNG23
         Speed = 75
         QualifySpeed = 65
         WetSpeed = 65
-        Aggression = 50
-        Composure = 55
+        Aggression = 40
+        Composure = 25
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -5381,22 +6987,68 @@ SCNG23
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    NIR
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    North_Wilkesboro
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 70
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
   }
   Carson Hocevar
   {
     Tier = 4
     Speed = 72
-    QualifySpeed = 80
+    QualifySpeed = 65
     WetSpeed = 80
     Aggression = 40
     Composure = 55
     Courtesy = 99
     Recovery = 99
-    StartSkill = 85.00
+    StartSkill = 35.00
     MinRacingSkill = 50.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -5420,14 +7072,12 @@ SCNG23
         Speed = 72
         QualifySpeed = 65
         WetSpeed = 65
-        Aggression = 40
-        Composure = 55
+        Aggression = 35
+        Composure = 25
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         DrivingLine = HIGHLINE,LOWLINE
     }
     Darlington_500
@@ -5468,12 +7118,12 @@ SCNG23
         Speed = 72
         QualifySpeed = 65
         WetSpeed = 65
-        Aggression = 40
-        Composure = 55
+        Aggression = 35
+        Composure = 25
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
@@ -5484,12 +7134,12 @@ SCNG23
         Speed = 72
         QualifySpeed = 65
         WetSpeed = 65
-        Aggression = 40
-        Composure = 55
+        Aggression = 35
+        Composure = 25
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -5508,22 +7158,68 @@ SCNG23
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    NIR
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 35
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    North_Wilkesboro
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 40
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 40
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
   }
   Riley Herbst
   {
     Tier = 4
     Speed = 72
-    QualifySpeed = 80
+    QualifySpeed = 55
     WetSpeed = 80
     Aggression = 40
     Composure = 50
     Courtesy = 99
     Recovery = 99
-    StartSkill = 80.00
+    StartSkill = 35.00
     MinRacingSkill = 50.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -5547,14 +7243,12 @@ SCNG23
         Speed = 72
         QualifySpeed = 60
         WetSpeed = 60
-        Aggression = 40
-        Composure = 50
+        Aggression = 35
+        Composure = 25
         Courtesy = 99
         Recovery = 99
-        StartSkill = 80.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         DrivingLine = HIGHLINE,LOWLINE
     }
     Darlington_500
@@ -5595,12 +7289,12 @@ SCNG23
         Speed = 72
         QualifySpeed = 60
         WetSpeed = 60
-        Aggression = 40
-        Composure = 50
+        Aggression = 35
+        Composure = 25
         Courtesy = 99
         Recovery = 99
-        StartSkill = 80.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -5611,12 +7305,12 @@ SCNG23
         Speed = 72
         QualifySpeed = 60
         WetSpeed = 60
-        Aggression = 40
-        Composure = 50
+        Aggression = 35
+        Composure = 25
         Courtesy = 99
         Recovery = 99
-        StartSkill = 80.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -5635,24 +7329,68 @@ SCNG23
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    NIR
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 35
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    North_Wilkesboro
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 40
+        Composure = 50
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 40
+        Composure = 50
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
   }
   BJ McLeod
   {
     Tier = 4
     Speed = 72
-    QualifySpeed = 80
+    QualifySpeed = 55
     WetSpeed = 80
     Aggression = 35
     Composure = 45
     Courtesy = 99
     Recovery = 99
-    StartSkill = 80.00
+    StartSkill = 35.00
     MinRacingSkill = 50.00
-    PracticeTime = 31.2
-    PracticeTimeVariance = 0.125
-    QualifyTime = 31.3
-    QualifyTimeVariance = 0.125
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -5678,16 +7416,12 @@ SCNG23
         Speed = 72
         QualifySpeed = 60
         WetSpeed = 60
-        Aggression = 35
-        Composure = 45
+        Aggression = 25
+        Composure = 25
         Courtesy = 99
         Recovery = 99
-        StartSkill = 80.00
-        MinRacingSkill = 50.00
-        PracticeTime = 31.2
-        PracticeTimeVariance = 0.125
-        QualifyTime = 31.3
-        QualifyTimeVariance = 0.125
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         DrivingLine = HIGHLINE,LOWLINE
     }
     Darlington_500
@@ -5732,12 +7466,12 @@ SCNG23
         Speed = 72
         QualifySpeed = 60
         WetSpeed = 60
-        Aggression = 35
-        Composure = 45
+        Aggression = 25
+        Composure = 25
         Courtesy = 99
         Recovery = 99
-        StartSkill = 80.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         PracticeTime = 31.2
         PracticeTimeVariance = 0.125
         QualifyTime = 31.3
@@ -5750,12 +7484,12 @@ SCNG23
         Speed = 72
         QualifySpeed = 60
         WetSpeed = 60
-        Aggression = 35
-        Composure = 45
+        Aggression = 25
+        Composure = 25
         Courtesy = 99
         Recovery = 99
-        StartSkill = 80.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         PracticeTime = 31.2
         PracticeTimeVariance = 0.125
         QualifyTime = 31.3
@@ -5778,22 +7512,70 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTime = 31.3
         QualifyTimeVariance = 0.125
+    }
+    NIR
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 25
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    North_Wilkesboro
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        PracticeTime = 31.2
+        PracticeTimeVariance = 0.125
+        QualifyTime = 31.3
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
   }
   Josh Bilicki
   {
     Tier = 5
     Speed = 72
-    QualifySpeed = 80
+    QualifySpeed = 55
     WetSpeed = 80
     Aggression = 35
     Composure = 45
     Courtesy = 99
     Recovery = 99
-    StartSkill = 80.00
+    StartSkill = 35.00
     MinRacingSkill = 50.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -5817,14 +7599,12 @@ SCNG23
         Speed = 72
         QualifySpeed = 60
         WetSpeed = 60
-        Aggression = 35
-        Composure = 45
+        Aggression = 25
+        Composure = 25
         Courtesy = 99
         Recovery = 99
-        StartSkill = 80.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         DrivingLine = HIGHLINE,LOWLINE
     }
     Darlington_500
@@ -5865,12 +7645,12 @@ SCNG23
         Speed = 72
         QualifySpeed = 60
         WetSpeed = 60
-        Aggression = 35
-        Composure = 45
+        Aggression = 25
+        Composure = 25
         Courtesy = 99
         Recovery = 99
-        StartSkill = 80.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -5881,12 +7661,12 @@ SCNG23
         Speed = 72
         QualifySpeed = 60
         WetSpeed = 60
-        Aggression = 35
-        Composure = 45
+        Aggression = 25
+        Composure = 25
         Courtesy = 99
         Recovery = 99
-        StartSkill = 80.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -5905,22 +7685,68 @@ SCNG23
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    NIR
+    {
+        Tier = 5
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 25
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    North_Wilkesboro
+    {
+        Tier = 5
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 5
+        Speed = 72
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
   }
   Jimmie Johnson
   {
     Tier = 5
     Speed = 65
-    QualifySpeed = 60
+    QualifySpeed = 55
     WetSpeed = 70
     Aggression = 35
     Composure = 45
     Courtesy = 99
     Recovery = 99
-    StartSkill = 75.00
+    StartSkill = 35.00
     MinRacingSkill = 50.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -5945,13 +7771,11 @@ SCNG23
         QualifySpeed = 60
         WetSpeed = 60
         Aggression = 35
-        Composure = 45
+        Composure = 25
         Courtesy = 99
         Recovery = 99
-        StartSkill = 75.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         DrivingLine = HIGHLINE,LOWLINE
     }
     Darlington_500
@@ -5993,11 +7817,11 @@ SCNG23
         QualifySpeed = 60
         WetSpeed = 60
         Aggression = 35
-        Composure = 45
+        Composure = 25
         Courtesy = 99
         Recovery = 99
-        StartSkill = 75.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
@@ -6009,11 +7833,11 @@ SCNG23
         QualifySpeed = 60
         WetSpeed = 60
         Aggression = 35
-        Composure = 45
+        Composure = 25
         Courtesy = 99
         Recovery = 99
-        StartSkill = 75.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -6032,22 +7856,68 @@ SCNG23
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    NIR
+    {
+        Tier = 5
+        Speed = 65
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 35
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    North_Wilkesboro
+    {
+        Tier = 5
+        Speed = 65
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 5
+        Speed = 65
+        QualifySpeed = 60
+        WetSpeed = 70
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
   }
   Kimi Raikkonen
   {
     Tier = 5
     Speed = 60
-    QualifySpeed = 70
+    QualifySpeed = 55
     WetSpeed = 80
     Aggression = 35
     Composure = 35
     Courtesy = 99
     Recovery = 99
-    StartSkill = 75.00
+    StartSkill = 35.00
     MinRacingSkill = 50.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -6071,14 +7941,12 @@ SCNG23
         Speed = 60
         QualifySpeed = 55
         WetSpeed = 55
-        Aggression = 35
-        Composure = 35
+        Aggression = 25
+        Composure = 15
         Courtesy = 99
         Recovery = 99
-        StartSkill = 75.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         DrivingLine = HIGHLINE,LOWLINE
     }
     Darlington_500
@@ -6119,12 +7987,12 @@ SCNG23
         Speed = 60
         QualifySpeed = 55
         WetSpeed = 55
-        Aggression = 35
-        Composure = 35
+        Aggression = 25
+        Composure = 15
         Courtesy = 99
         Recovery = 99
-        StartSkill = 75.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -6135,12 +8003,12 @@ SCNG23
         Speed = 60
         QualifySpeed = 55
         WetSpeed = 55
-        Aggression = 35
-        Composure = 35
+        Aggression = 25
+        Composure = 15
         Courtesy = 99
         Recovery = 99
-        StartSkill = 75.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -6159,22 +8027,68 @@ SCNG23
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    NIR
+    {
+        Tier = 5
+        Speed = 60
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 25
+        Composure = 15
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    North_Wilkesboro
+    {
+        Tier = 5
+        Speed = 60
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 5
+        Speed = 60
+        QualifySpeed = 70
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
   }
   Jenson Button
   {
     Tier = 5
     Speed = 55
-    QualifySpeed = 65
+    QualifySpeed = 55
     WetSpeed = 80
     Aggression = 35
     Composure = 35
     Courtesy = 99
     Recovery = 99
-    StartSkill = 75.00
+    StartSkill = 35.00
     MinRacingSkill = 50.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -6198,14 +8112,12 @@ SCNG23
         Speed = 55
         QualifySpeed = 55
         WetSpeed = 55
-        Aggression = 35
-        Composure = 35
+        Aggression = 25
+        Composure = 15
         Courtesy = 99
         Recovery = 99
-        StartSkill = 75.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         DrivingLine = HIGHLINE,LOWLINE
     }
     Darlington_500
@@ -6246,12 +8158,12 @@ SCNG23
         Speed = 55
         QualifySpeed = 55
         WetSpeed = 55
-        Aggression = 35
-        Composure = 35
+        Aggression = 25
+        Composure = 15
         Courtesy = 99
         Recovery = 99
-        StartSkill = 75.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
@@ -6262,12 +8174,12 @@ SCNG23
         Speed = 55
         QualifySpeed = 55
         WetSpeed = 55
-        Aggression = 35
-        Composure = 35
+        Aggression = 25
+        Composure = 15
         Courtesy = 99
         Recovery = 99
-        StartSkill = 75.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -6286,22 +8198,68 @@ SCNG23
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    NIR
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 25
+        Composure = 15
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    North_Wilkesboro
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    Talladega_2016
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 65
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
   }
   Ryan Newman
   {
     Tier = 5
     Speed = 55
-    QualifySpeed = 50
+    QualifySpeed = 55
     WetSpeed = 80
     Aggression = 35
     Composure = 35
     Courtesy = 99
     Recovery = 99
-    StartSkill = 75.00
+    StartSkill = 35.00
     MinRacingSkill = 50.00
-    PracticeTimeVariance = 0.125
-    QualifyTimeVariance = 0.125
     DrivingLine = FASTEST
     Atlanta_Motor_Speedway
     {
@@ -6326,13 +8284,11 @@ SCNG23
         QualifySpeed = 55
         WetSpeed = 55
         Aggression = 35
-        Composure = 35
+        Composure = 15
         Courtesy = 99
         Recovery = 99
-        StartSkill = 75.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         DrivingLine = HIGHLINE,LOWLINE
     }
     Darlington_500
@@ -6374,11 +8330,11 @@ SCNG23
         QualifySpeed = 55
         WetSpeed = 55
         Aggression = 35
-        Composure = 35
+        Composure = 15
         Courtesy = 99
         Recovery = 99
-        StartSkill = 75.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
@@ -6390,11 +8346,11 @@ SCNG23
         QualifySpeed = 55
         WetSpeed = 55
         Aggression = 35
-        Composure = 35
+        Composure = 15
         Courtesy = 99
         Recovery = 99
-        StartSkill = 75.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -6413,6 +8369,53 @@ SCNG23
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    NIR
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 35
+        Composure = 15
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
+    North_Wilkesboro
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+    Talladega_2016
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 50
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
   }
 }
