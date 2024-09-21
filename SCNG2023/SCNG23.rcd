@@ -391,7 +391,7 @@ SCNG23
       StepSpeed6 = 82.00                     // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
       StepSpeed7 = 88.00                     // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
       StepSpeed8 = 93.00                     // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
-      UnderSteerEffectOnThrottleMulti = 250.00
+      UnderSteerEffectOnThrottleMulti = 125.00
       UnderSteerEffectOnLineMulti = 250.00
       OverSteerThrottleReaction = -35.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
       CorneringCaution = 35.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
@@ -717,7 +717,7 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 99.00
+        StartSkill = 50.00
         MinRacingSkill = 90.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -785,6 +785,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 1
+        Speed = 99
+        QualifySpeed = 99
+        WetSpeed = 99
+        Aggression = 65
+        Composure = 99
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 1
@@ -805,14 +821,14 @@ SCNG23
     {
         Tier = 1
         Speed = 99
-        QualifySpeed = 95
-        WetSpeed = 90
-        Aggression = 70
-        Composure = 85
+        QualifySpeed = 99
+        WetSpeed = 99
+        Aggression = 95
+        Composure = 99
         Courtesy = 99
         Recovery = 99
-        StartSkill = 99.00
-        MinRacingSkill = 90.00
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -837,17 +853,33 @@ SCNG23
     {
         Tier = 1
         Speed = 99
-        QualifySpeed = 95
-        WetSpeed = 90
-        Aggression = 70
-        Composure = 85
+        QualifySpeed = 99
+        WetSpeed = 99
+        Aggression = 95
+        Composure = 99
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 90.00
+        MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 1
+        Speed = 99
+        QualifySpeed = 99
+        WetSpeed = 99
+        Aggression = 95
+        Composure = 99
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -889,7 +921,7 @@ SCNG23
         Composure = 90
         Courtesy = 99
         Recovery = 99
-        StartSkill = 97.00
+        StartSkill = 50.00
         MinRacingSkill = 90.00
         PracticeTime = 31.2
         PracticeTimeVariance = 0.125
@@ -965,6 +997,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 1
+        Speed = 99
+        QualifySpeed = 99
+        WetSpeed = 99
+        Aggression = 65
+        Composure = 99
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 1
@@ -986,15 +1034,15 @@ SCNG23
     NewHampshire_2016
     {
         Tier = 1
-        Speed = 98
-        QualifySpeed = 90
-        WetSpeed = 90
-        Aggression = 70
-        Composure = 90
+        Speed = 99
+        QualifySpeed = 99
+        WetSpeed = 99
+        Aggression = 95
+        Composure = 99
         Courtesy = 99
         Recovery = 99
-        StartSkill = 97.00
-        MinRacingSkill = 90.00
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
         PracticeTime = 31.2
         PracticeTimeVariance = 0.125
         QualifyTime = 31.2
@@ -1020,18 +1068,34 @@ SCNG23
     North_Wilkesboro
     {
         Tier = 1
-        Speed = 98
-        QualifySpeed = 90
-        WetSpeed = 90
-        Aggression = 70
-        Composure = 90
+        Speed = 99
+        QualifySpeed = 99
+        WetSpeed = 99
+        Aggression = 95
+        Composure = 99
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 90.00
+        MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 1
+        Speed = 99
+        QualifySpeed = 99
+        WetSpeed = 99
+        Aggression = 95
+        Composure = 99
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -1075,7 +1139,7 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 95.00
+        StartSkill = 50.00
         MinRacingSkill = 90.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -1143,6 +1207,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 88
+        WetSpeed = 90
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 1
@@ -1165,12 +1245,12 @@ SCNG23
         Speed = 92
         QualifySpeed = 88
         WetSpeed = 90
-        Aggression = 50
+        Aggression = 75
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 95.00
-        MinRacingSkill = 90.00
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
@@ -1196,15 +1276,30 @@ SCNG23
         Speed = 92
         QualifySpeed = 88
         WetSpeed = 90
-        Aggression = 50
+        Aggression = 75
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 90.00
+        MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 88
+        WetSpeed = 90
+        Aggression = 75
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -1246,7 +1341,7 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 95.00
+        StartSkill = 50.00
         MinRacingSkill = 87.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -1314,6 +1409,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 1
+        Speed = 93
+        QualifySpeed = 92
+        WetSpeed = 85
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 1
@@ -1336,12 +1447,12 @@ SCNG23
         Speed = 93
         QualifySpeed = 92
         WetSpeed = 85
-        Aggression = 50
+        Aggression = 75
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 95.00
-        MinRacingSkill = 87.00
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
@@ -1367,15 +1478,30 @@ SCNG23
         Speed = 93
         QualifySpeed = 92
         WetSpeed = 85
-        Aggression = 50
+        Aggression = 75
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 87.00
+        MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 1
+        Speed = 93
+        QualifySpeed = 92
+        WetSpeed = 85
+        Aggression = 75
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -1417,7 +1543,7 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 92.00
+        StartSkill = 50.00
         MinRacingSkill = 87.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -1485,6 +1611,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 1
+        Speed = 95
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 1
@@ -1507,12 +1649,12 @@ SCNG23
         Speed = 95
         QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 50
+        Aggression = 80
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 92.00
-        MinRacingSkill = 87.00
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
@@ -1538,15 +1680,30 @@ SCNG23
         Speed = 95
         QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 50
+        Aggression = 80
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 87.00
+        MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 1
+        Speed = 95
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 80
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -1588,7 +1745,7 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 95.00
+        StartSkill = 50.00
         MinRacingSkill = 85.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -1656,6 +1813,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 91
+        WetSpeed = 88
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 1
@@ -1678,12 +1851,12 @@ SCNG23
         Speed = 92
         QualifySpeed = 91
         WetSpeed = 88
-        Aggression = 50
+        Aggression = 80
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 95.00
-        MinRacingSkill = 85.00
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
@@ -1709,15 +1882,30 @@ SCNG23
         Speed = 92
         QualifySpeed = 91
         WetSpeed = 88
-        Aggression = 50
+        Aggression = 80
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 85.00
+        MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 91
+        WetSpeed = 88
+        Aggression = 80
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -1759,7 +1947,7 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 93.00
+        StartSkill = 50.00
         MinRacingSkill = 82.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -1827,6 +2015,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 85
+        WetSpeed = 90
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 1
@@ -1853,8 +2057,8 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 93.00
-        MinRacingSkill = 82.00
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
@@ -1885,10 +2089,25 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 82.00
+        MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 85
+        WetSpeed = 90
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -1930,7 +2149,7 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 92.00
+        StartSkill = 50.00
         MinRacingSkill = 82.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -1998,6 +2217,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 85
+        WetSpeed = 80
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 1
@@ -2018,14 +2253,14 @@ SCNG23
     {
         Tier = 1
         Speed = 92
-        QualifySpeed = 80
+        QualifySpeed = 85
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 65
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 92.00
-        MinRacingSkill = 82.00
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
@@ -2049,17 +2284,32 @@ SCNG23
     {
         Tier = 1
         Speed = 92
-        QualifySpeed = 80
+        QualifySpeed = 85
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 65
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 82.00
+        MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 85
+        WetSpeed = 80
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -2101,7 +2351,7 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 50.00
         MinRacingSkill = 82.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -2169,6 +2419,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 1
+        Speed = 95
+        QualifySpeed = 90
+        WetSpeed = 88
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 1
@@ -2191,12 +2457,12 @@ SCNG23
         Speed = 95
         QualifySpeed = 90
         WetSpeed = 88
-        Aggression = 50
+        Aggression = 75
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 82.00
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
@@ -2222,15 +2488,30 @@ SCNG23
         Speed = 95
         QualifySpeed = 90
         WetSpeed = 88
-        Aggression = 50
+        Aggression = 75
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 82.00
+        MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 1
+        Speed = 95
+        QualifySpeed = 90
+        WetSpeed = 88
+        Aggression = 75
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -2272,7 +2553,7 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -2340,6 +2621,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 2
@@ -2362,11 +2659,11 @@ SCNG23
         Speed = 88
         QualifySpeed = 85
         WetSpeed = 85
-        Aggression = 50
+        Aggression = 95
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -2393,7 +2690,7 @@ SCNG23
         Speed = 88
         QualifySpeed = 85
         WetSpeed = 85
-        Aggression = 50
+        Aggression = 95
         Composure = 85
         Courtesy = 99
         Recovery = 99
@@ -2402,6 +2699,21 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 95
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -2443,7 +2755,7 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -2511,6 +2823,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 80
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 2
@@ -2537,7 +2865,7 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -2573,6 +2901,21 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 80
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -2614,7 +2957,7 @@ SCNG23
         Composure = 80
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -2682,6 +3025,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 2
@@ -2708,7 +3067,7 @@ SCNG23
         Composure = 80
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -2744,6 +3103,21 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -2785,7 +3159,7 @@ SCNG23
         Composure = 80
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -2853,6 +3227,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 87
+        WetSpeed = 87
+        Aggression = 95
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 2
@@ -2875,11 +3265,11 @@ SCNG23
         Speed = 88
         QualifySpeed = 87
         WetSpeed = 87
-        Aggression = 50
+        Aggression = 95
         Composure = 80
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -2906,7 +3296,7 @@ SCNG23
         Speed = 88
         QualifySpeed = 87
         WetSpeed = 87
-        Aggression = 50
+        Aggression = 95
         Composure = 80
         Courtesy = 99
         Recovery = 99
@@ -2915,6 +3305,21 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 87
+        WetSpeed = 87
+        Aggression = 95
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -2956,7 +3361,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -3024,6 +3429,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 89
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 2
@@ -3050,7 +3471,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -3086,6 +3507,21 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 89
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -3107,9 +3543,9 @@ SCNG23
   Chris Buescher
   {
     Tier = 2
-    Speed = 15
-    QualifySpeed = 15
-    WetSpeed = 15
+    Speed = 85
+    QualifySpeed = 85
+    WetSpeed = 85
     Aggression = 15
     Composure = 15
     Courtesy = 99
@@ -3127,7 +3563,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -3195,6 +3631,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 2
@@ -3221,7 +3673,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -3257,6 +3709,21 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -3298,7 +3765,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -3366,6 +3833,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 83
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 2
@@ -3392,7 +3875,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -3428,6 +3911,21 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 83
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -3469,7 +3967,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 67.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -3537,6 +4035,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 65.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 2
@@ -3563,8 +4077,8 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 67.00
+        StartSkill = 45.00
+        MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
@@ -3595,10 +4109,25 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 67.00
+        MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 65.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -3640,7 +4169,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -3708,6 +4237,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 65.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 2
@@ -3731,11 +4276,11 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
+        StartSkill = 45.00
+        MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
@@ -3762,14 +4307,29 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 65.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -3811,7 +4371,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -3879,6 +4439,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 65.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 2
@@ -3902,11 +4478,11 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
+        StartSkill = 45.00
+        MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
@@ -3933,14 +4509,29 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 65.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -3982,7 +4573,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -4050,6 +4641,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 55.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 2
@@ -4073,11 +4680,11 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
+        StartSkill = 45.00
+        MinRacingSkill = 55.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
@@ -4104,14 +4711,29 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 55.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 55.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -4153,7 +4775,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -4221,6 +4843,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 2
@@ -4244,10 +4882,10 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -4275,7 +4913,7 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
@@ -4283,6 +4921,21 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -4324,7 +4977,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -4392,6 +5045,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 2
@@ -4415,10 +5084,10 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -4446,7 +5115,7 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
@@ -4454,6 +5123,21 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -4495,7 +5179,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -4563,6 +5247,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 2
@@ -4586,10 +5286,10 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -4617,7 +5317,7 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
@@ -4625,6 +5325,21 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -4666,7 +5381,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 40.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -4734,6 +5449,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 3
@@ -4757,10 +5488,10 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 40.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -4788,7 +5519,7 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
@@ -4796,6 +5527,21 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -4837,7 +5583,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 40.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -4905,6 +5651,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 3
@@ -4928,11 +5690,11 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 45
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
@@ -4959,14 +5721,29 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 45
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -5008,7 +5785,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 40.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -5076,6 +5853,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 3
+        Speed = 77
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 3
@@ -5099,11 +5892,11 @@ SCNG23
         QualifySpeed = 75
         WetSpeed = 75
         Aggression = 50
-        Composure = 75
+        Composure = 45
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
@@ -5130,14 +5923,29 @@ SCNG23
         QualifySpeed = 75
         WetSpeed = 75
         Aggression = 50
-        Composure = 75
+        Composure = 45
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 3
+        Speed = 77
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -5179,7 +5987,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 40.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -5247,6 +6055,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 3
@@ -5270,11 +6094,11 @@ SCNG23
         QualifySpeed = 75
         WetSpeed = 75
         Aggression = 50
-        Composure = 75
+        Composure = 45
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
@@ -5301,14 +6125,29 @@ SCNG23
         QualifySpeed = 75
         WetSpeed = 75
         Aggression = 50
-        Composure = 75
+        Composure = 45
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -5350,7 +6189,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 40.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -5418,6 +6257,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 3
@@ -5441,11 +6296,11 @@ SCNG23
         QualifySpeed = 75
         WetSpeed = 75
         Aggression = 50
-        Composure = 75
+        Composure = 45
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
@@ -5472,14 +6327,29 @@ SCNG23
         QualifySpeed = 75
         WetSpeed = 75
         Aggression = 50
-        Composure = 75
+        Composure = 45
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -5521,7 +6391,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 40.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -5589,6 +6459,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 3
@@ -5612,11 +6498,11 @@ SCNG23
         QualifySpeed = 75
         WetSpeed = 75
         Aggression = 50
-        Composure = 75
+        Composure = 45
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
@@ -5643,14 +6529,29 @@ SCNG23
         QualifySpeed = 75
         WetSpeed = 75
         Aggression = 50
-        Composure = 75
+        Composure = 45
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -5692,7 +6593,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 40.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -5760,6 +6661,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 3
+        Speed = 72
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 3
@@ -5783,11 +6700,11 @@ SCNG23
         QualifySpeed = 70
         WetSpeed = 70
         Aggression = 50
-        Composure = 75
+        Composure = 35
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
@@ -5814,14 +6731,29 @@ SCNG23
         QualifySpeed = 70
         WetSpeed = 70
         Aggression = 50
-        Composure = 75
+        Composure = 35
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 3
+        Speed = 72
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -5863,7 +6795,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 40.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -5931,6 +6863,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 3
@@ -5954,11 +6902,11 @@ SCNG23
         QualifySpeed = 70
         WetSpeed = 70
         Aggression = 50
-        Composure = 75
+        Composure = 35
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
@@ -5985,14 +6933,29 @@ SCNG23
         QualifySpeed = 70
         WetSpeed = 70
         Aggression = 50
-        Composure = 75
+        Composure = 35
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -6034,7 +6997,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -6102,6 +7065,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 40
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 4
@@ -6124,12 +7103,12 @@ SCNG23
         Speed = 70
         QualifySpeed = 70
         WetSpeed = 70
-        Aggression = 50
-        Composure = 75
+        Aggression = 40
+        Composure = 35
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
@@ -6155,15 +7134,30 @@ SCNG23
         Speed = 70
         QualifySpeed = 70
         WetSpeed = 70
-        Aggression = 50
-        Composure = 75
+        Aggression = 40
+        Composure = 35
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 40
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -6205,7 +7199,7 @@ SCNG23
         Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -6273,6 +7267,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 40
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 4
@@ -6295,12 +7305,12 @@ SCNG23
         Speed = 70
         QualifySpeed = 70
         WetSpeed = 70
-        Aggression = 50
-        Composure = 55
+        Aggression = 40
+        Composure = 35
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
@@ -6326,15 +7336,30 @@ SCNG23
         Speed = 70
         QualifySpeed = 70
         WetSpeed = 70
-        Aggression = 50
-        Composure = 55
+        Aggression = 40
+        Composure = 35
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 40
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -6376,7 +7401,7 @@ SCNG23
         Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -6444,6 +7469,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 4
@@ -6466,12 +7507,12 @@ SCNG23
         Speed = 70
         QualifySpeed = 70
         WetSpeed = 70
-        Aggression = 50
-        Composure = 55
+        Aggression = 40
+        Composure = 25
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
@@ -6497,15 +7538,30 @@ SCNG23
         Speed = 70
         QualifySpeed = 70
         WetSpeed = 70
-        Aggression = 50
-        Composure = 55
+        Aggression = 40
+        Composure = 25
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -6547,7 +7603,7 @@ SCNG23
         Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -6615,6 +7671,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 4
@@ -6637,12 +7709,12 @@ SCNG23
         Speed = 70
         QualifySpeed = 65
         WetSpeed = 65
-        Aggression = 50
-        Composure = 55
+        Aggression = 40
+        Composure = 25
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
@@ -6668,15 +7740,30 @@ SCNG23
         Speed = 70
         QualifySpeed = 65
         WetSpeed = 65
-        Aggression = 50
-        Composure = 55
+        Aggression = 40
+        Composure = 25
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -6718,7 +7805,7 @@ SCNG23
         Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -6786,6 +7873,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 4
@@ -6808,12 +7911,12 @@ SCNG23
         Speed = 75
         QualifySpeed = 65
         WetSpeed = 65
-        Aggression = 50
-        Composure = 55
+        Aggression = 40
+        Composure = 25
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
@@ -6839,15 +7942,30 @@ SCNG23
         Speed = 75
         QualifySpeed = 65
         WetSpeed = 65
-        Aggression = 50
-        Composure = 55
+        Aggression = 40
+        Composure = 25
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -6889,7 +8007,7 @@ SCNG23
         Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -6957,6 +8075,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 4
@@ -6979,12 +8113,12 @@ SCNG23
         Speed = 75
         QualifySpeed = 65
         WetSpeed = 65
-        Aggression = 50
-        Composure = 55
+        Aggression = 40
+        Composure = 25
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
@@ -7010,15 +8144,30 @@ SCNG23
         Speed = 75
         QualifySpeed = 65
         WetSpeed = 65
-        Aggression = 50
-        Composure = 55
+        Aggression = 40
+        Composure = 25
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -7060,7 +8209,7 @@ SCNG23
         Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -7128,6 +8277,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 35
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 4
@@ -7150,12 +8315,12 @@ SCNG23
         Speed = 72
         QualifySpeed = 65
         WetSpeed = 65
-        Aggression = 40
-        Composure = 55
+        Aggression = 35
+        Composure = 25
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
@@ -7181,15 +8346,30 @@ SCNG23
         Speed = 72
         QualifySpeed = 65
         WetSpeed = 65
-        Aggression = 40
-        Composure = 55
+        Aggression = 35
+        Composure = 25
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 35
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -7231,7 +8411,7 @@ SCNG23
         Composure = 50
         Courtesy = 99
         Recovery = 99
-        StartSkill = 80.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -7299,6 +8479,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 35
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 4
@@ -7321,12 +8517,12 @@ SCNG23
         Speed = 72
         QualifySpeed = 60
         WetSpeed = 60
-        Aggression = 40
-        Composure = 50
+        Aggression = 35
+        Composure = 25
         Courtesy = 99
         Recovery = 99
-        StartSkill = 80.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
@@ -7352,15 +8548,30 @@ SCNG23
         Speed = 72
         QualifySpeed = 60
         WetSpeed = 60
-        Aggression = 40
-        Composure = 50
+        Aggression = 35
+        Composure = 25
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 35
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -7402,7 +8613,7 @@ SCNG23
         Composure = 45
         Courtesy = 99
         Recovery = 99
-        StartSkill = 80.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTime = 31.2
         PracticeTimeVariance = 0.125
@@ -7478,6 +8689,24 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 25
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTime = 31.2
+        PracticeTimeVariance = 0.125
+        QualifyTime = 31.3
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 4
@@ -7502,12 +8731,12 @@ SCNG23
         Speed = 72
         QualifySpeed = 60
         WetSpeed = 60
-        Aggression = 35
-        Composure = 45
+        Aggression = 25
+        Composure = 25
         Courtesy = 99
         Recovery = 99
-        StartSkill = 80.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         PracticeTime = 31.2
         PracticeTimeVariance = 0.125
         QualifyTime = 31.3
@@ -7535,15 +8764,32 @@ SCNG23
         Speed = 72
         QualifySpeed = 60
         WetSpeed = 60
-        Aggression = 35
-        Composure = 45
+        Aggression = 25
+        Composure = 25
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 25
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTime = 31.2
+        PracticeTimeVariance = 0.125
+        QualifyTime = 31.3
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -7587,7 +8833,7 @@ SCNG23
         Composure = 45
         Courtesy = 99
         Recovery = 99
-        StartSkill = 80.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -7655,6 +8901,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 5
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 25
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 5
@@ -7677,12 +8939,12 @@ SCNG23
         Speed = 72
         QualifySpeed = 60
         WetSpeed = 60
-        Aggression = 35
-        Composure = 45
+        Aggression = 25
+        Composure = 25
         Courtesy = 99
         Recovery = 99
-        StartSkill = 80.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
@@ -7708,15 +8970,30 @@ SCNG23
         Speed = 72
         QualifySpeed = 60
         WetSpeed = 60
-        Aggression = 35
-        Composure = 45
+        Aggression = 25
+        Composure = 25
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 5
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 25
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -7758,7 +9035,7 @@ SCNG23
         Composure = 45
         Courtesy = 99
         Recovery = 99
-        StartSkill = 75.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -7826,6 +9103,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 5
+        Speed = 65
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 35
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 5
@@ -7849,11 +9142,11 @@ SCNG23
         QualifySpeed = 60
         WetSpeed = 60
         Aggression = 35
-        Composure = 45
+        Composure = 25
         Courtesy = 99
         Recovery = 99
-        StartSkill = 75.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
@@ -7880,14 +9173,29 @@ SCNG23
         QualifySpeed = 60
         WetSpeed = 60
         Aggression = 35
-        Composure = 45
+        Composure = 25
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 5
+        Speed = 65
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 35
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -7929,7 +9237,7 @@ SCNG23
         Composure = 35
         Courtesy = 99
         Recovery = 99
-        StartSkill = 75.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -7997,6 +9305,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 5
+        Speed = 60
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 25
+        Composure = 15
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 5
@@ -8019,12 +9343,12 @@ SCNG23
         Speed = 60
         QualifySpeed = 55
         WetSpeed = 55
-        Aggression = 35
-        Composure = 35
+        Aggression = 25
+        Composure = 15
         Courtesy = 99
         Recovery = 99
-        StartSkill = 75.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
@@ -8050,15 +9374,30 @@ SCNG23
         Speed = 60
         QualifySpeed = 55
         WetSpeed = 55
-        Aggression = 35
-        Composure = 35
+        Aggression = 25
+        Composure = 15
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 5
+        Speed = 60
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 25
+        Composure = 15
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -8100,7 +9439,7 @@ SCNG23
         Composure = 35
         Courtesy = 99
         Recovery = 99
-        StartSkill = 75.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -8168,6 +9507,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 25
+        Composure = 15
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 5
@@ -8190,12 +9545,12 @@ SCNG23
         Speed = 55
         QualifySpeed = 55
         WetSpeed = 55
-        Aggression = 35
-        Composure = 35
+        Aggression = 25
+        Composure = 15
         Courtesy = 99
         Recovery = 99
-        StartSkill = 75.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
@@ -8221,15 +9576,30 @@ SCNG23
         Speed = 55
         QualifySpeed = 55
         WetSpeed = 55
-        Aggression = 35
-        Composure = 35
+        Aggression = 25
+        Composure = 15
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Phoenix_2016
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 25
+        Composure = 15
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     Talladega_2016
     {
@@ -8271,7 +9641,7 @@ SCNG23
         Composure = 35
         Courtesy = 99
         Recovery = 99
-        StartSkill = 75.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -8339,6 +9709,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
+    Kentucky_Speedway
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 35
+        Composure = 15
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 5
@@ -8362,11 +9748,11 @@ SCNG23
         QualifySpeed = 55
         WetSpeed = 55
         Aggression = 35
-        Composure = 35
+        Composure = 15
         Courtesy = 99
         Recovery = 99
-        StartSkill = 75.00
-        MinRacingSkill = 50.00
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
@@ -8393,11 +9779,26 @@ SCNG23
         QualifySpeed = 55
         WetSpeed = 55
         Aggression = 35
-        Composure = 35
+        Composure = 15
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
+    Phoenix_2016
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 35
+        Composure = 15
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
