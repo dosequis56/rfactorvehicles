@@ -7,6 +7,20 @@ SCNG23
     // Looking too far ahead makes the AI cut corners and potentially hit walls.
     // Not looking far enough promotes twitchy turning reactions by AI cars.
 
+    StepDistance = 5.20                      // distance of each step is 5.20 meters
+    StepSpeed1 = 25.00                       // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
+    StepSpeed2 = 32.00                       // look ahead 10.4 meters (34.1224 feet) at 115.2 KPH 71.5808 MPH
+    StepSpeed3 = 40.00                       // look ahead 15.599999 meters (51.183598 feet) at 144 KPH 89.476006 MPH
+    StepSpeed4 = 55.00                       // look ahead 20.8 meters (68.2448 feet) at 198 KPH 123.0295 MPH
+    StepSpeed5 = 70.00                       // look ahead 26 meters (85.306 feet) at 252 KPH 156.58301 MPH
+    StepSpeed6 = 82.00                       // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
+    StepSpeed7 = 88.00                       // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
+    StepSpeed8 = 93.00                       // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
+    UnderSteerEffectOnThrottleMulti = 100.00
+    UnderSteerEffectOnLineMulti = 100.00
+    OverSteerThrottleReaction = -15.00       // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+    CorneringCaution = 35.00                 // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+    FearOfWalls = 99.00                      // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
     Oval_default
     {
       StepDistance = 6.00                    // distance of each step is 6.00 meters
@@ -726,10 +740,10 @@ SCNG23
     Bristol_2016
     {
         Tier = 1
-        Speed = 99
-        QualifySpeed = 99
+        Speed = 95
+        QualifySpeed = 92
         WetSpeed = 99
-        Aggression = 95
+        Aggression = 65
         Composure = 99
         Courtesy = 99
         Recovery = 99
@@ -807,7 +821,7 @@ SCNG23
         Speed = 99
         QualifySpeed = 99
         WetSpeed = 99
-        Aggression = 95
+        Aggression = 65
         Composure = 99
         Courtesy = 99
         Recovery = 99
@@ -933,9 +947,9 @@ SCNG23
     {
         Tier = 1
         Speed = 99
-        QualifySpeed = 99
+        QualifySpeed = 96
         WetSpeed = 99
-        Aggression = 95
+        Aggression = 65
         Composure = 99
         Courtesy = 99
         Recovery = 99
@@ -1017,9 +1031,9 @@ SCNG23
     {
         Tier = 1
         Speed = 99
-        QualifySpeed = 99
+        QualifySpeed = 93
         WetSpeed = 99
-        Aggression = 95
+        Aggression = 65
         Composure = 99
         Courtesy = 99
         Recovery = 99
@@ -1148,10 +1162,10 @@ SCNG23
     Bristol_2016
     {
         Tier = 1
-        Speed = 92
+        Speed = 98
         QualifySpeed = 88
         WetSpeed = 90
-        Aggression = 75
+        Aggression = 65
         Composure = 85
         Courtesy = 99
         Recovery = 99
@@ -1227,9 +1241,9 @@ SCNG23
     {
         Tier = 1
         Speed = 92
-        QualifySpeed = 88
+        QualifySpeed = 96
         WetSpeed = 90
-        Aggression = 75
+        Aggression = 65
         Composure = 85
         Courtesy = 99
         Recovery = 99
@@ -1351,9 +1365,9 @@ SCNG23
     {
         Tier = 1
         Speed = 93
-        QualifySpeed = 92
+        QualifySpeed = 90
         WetSpeed = 85
-        Aggression = 75
+        Aggression = 65
         Composure = 85
         Courtesy = 99
         Recovery = 99
@@ -1431,7 +1445,7 @@ SCNG23
         Speed = 93
         QualifySpeed = 92
         WetSpeed = 85
-        Aggression = 75
+        Aggression = 65
         Composure = 85
         Courtesy = 99
         Recovery = 99
@@ -1552,10 +1566,10 @@ SCNG23
     Bristol_2016
     {
         Tier = 1
-        Speed = 95
+        Speed = 90
         QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 80
+        Aggression = 65
         Composure = 85
         Courtesy = 99
         Recovery = 99
@@ -1630,10 +1644,10 @@ SCNG23
     Martinsville_Speedway
     {
         Tier = 1
-        Speed = 95
+        Speed = 99
         QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 80
+        Aggression = 65
         Composure = 85
         Courtesy = 99
         Recovery = 99
@@ -1754,10 +1768,10 @@ SCNG23
     Bristol_2016
     {
         Tier = 1
-        Speed = 92
+        Speed = 90
         QualifySpeed = 91
         WetSpeed = 88
-        Aggression = 80
+        Aggression = 60
         Composure = 85
         Courtesy = 99
         Recovery = 99
@@ -1835,7 +1849,7 @@ SCNG23
         Speed = 92
         QualifySpeed = 91
         WetSpeed = 88
-        Aggression = 80
+        Aggression = 65
         Composure = 85
         Courtesy = 99
         Recovery = 99
@@ -1956,10 +1970,10 @@ SCNG23
     Bristol_2016
     {
         Tier = 1
-        Speed = 92
+        Speed = 90
         QualifySpeed = 85
         WetSpeed = 90
-        Aggression = 65
+        Aggression = 60
         Composure = 85
         Courtesy = 99
         Recovery = 99
@@ -2034,8 +2048,8 @@ SCNG23
     Martinsville_Speedway
     {
         Tier = 1
-        Speed = 92
-        QualifySpeed = 85
+        Speed = 97
+        QualifySpeed = 97
         WetSpeed = 90
         Aggression = 65
         Composure = 85
@@ -2158,10 +2172,10 @@ SCNG23
     Bristol_2016
     {
         Tier = 1
-        Speed = 92
+        Speed = 90
         QualifySpeed = 85
         WetSpeed = 80
-        Aggression = 65
+        Aggression = 60
         Composure = 85
         Courtesy = 99
         Recovery = 99
@@ -2361,9 +2375,9 @@ SCNG23
     {
         Tier = 1
         Speed = 95
-        QualifySpeed = 90
+        QualifySpeed = 99
         WetSpeed = 88
-        Aggression = 75
+        Aggression = 60
         Composure = 85
         Courtesy = 99
         Recovery = 99
@@ -2441,7 +2455,7 @@ SCNG23
         Speed = 95
         QualifySpeed = 90
         WetSpeed = 88
-        Aggression = 75
+        Aggression = 60
         Composure = 85
         Courtesy = 99
         Recovery = 99
@@ -2565,7 +2579,7 @@ SCNG23
         Speed = 88
         QualifySpeed = 85
         WetSpeed = 85
-        Aggression = 95
+        Aggression = 60
         Composure = 85
         Courtesy = 99
         Recovery = 99
@@ -2643,7 +2657,7 @@ SCNG23
         Speed = 88
         QualifySpeed = 85
         WetSpeed = 85
-        Aggression = 95
+        Aggression = 60
         Composure = 85
         Courtesy = 99
         Recovery = 99
@@ -2765,7 +2779,7 @@ SCNG23
     {
         Tier = 2
         Speed = 88
-        QualifySpeed = 80
+        QualifySpeed = 97
         WetSpeed = 88
         Aggression = 50
         Composure = 85
@@ -2843,7 +2857,7 @@ SCNG23
     {
         Tier = 2
         Speed = 88
-        QualifySpeed = 80
+        QualifySpeed = 95
         WetSpeed = 88
         Aggression = 50
         Composure = 85
@@ -2966,7 +2980,7 @@ SCNG23
     Bristol_2016
     {
         Tier = 2
-        Speed = 88
+        Speed = 96
         QualifySpeed = 88
         WetSpeed = 85
         Aggression = 50
@@ -3045,7 +3059,7 @@ SCNG23
     {
         Tier = 2
         Speed = 88
-        QualifySpeed = 88
+        QualifySpeed = 90
         WetSpeed = 85
         Aggression = 50
         Composure = 80
@@ -3448,8 +3462,8 @@ SCNG23
     Martinsville_Speedway
     {
         Tier = 2
-        Speed = 85
-        QualifySpeed = 89
+        Speed = 90
+        QualifySpeed = 97
         WetSpeed = 85
         Aggression = 50
         Composure = 75
@@ -3774,7 +3788,7 @@ SCNG23
     Bristol_2016
     {
         Tier = 2
-        Speed = 85
+        Speed = 97
         QualifySpeed = 83
         WetSpeed = 85
         Aggression = 50
@@ -5064,8 +5078,8 @@ SCNG23
     Martinsville_Speedway
     {
         Tier = 2
-        Speed = 80
-        QualifySpeed = 80
+        Speed = 90
+        QualifySpeed = 95
         WetSpeed = 80
         Aggression = 50
         Composure = 55
@@ -6074,7 +6088,7 @@ SCNG23
     Martinsville_Speedway
     {
         Tier = 3
-        Speed = 75
+        Speed = 90
         QualifySpeed = 75
         WetSpeed = 75
         Aggression = 50
