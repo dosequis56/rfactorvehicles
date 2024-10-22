@@ -1,6 +1,33 @@
+// Slip curves do not represent the coefficient of grip. Instead they represent
+// the reaction to the current slip. Regardless of the peak value in this curve,
+// it will be automatically normalized to have a peak of 1.0.
+//
+// The peak of the slip curve is dynamically adjusted to higher or lower slip
+// values based on current load and speed. The second value of "SpeedEffects"
+// is an equivalency value for load and speed. To calculate the slip peak, we
+// use the following input which is a combination of load and speed:
+// <load/speed combination> = <load> + (<speed> * <equivalency>)
+// Obviously a larger equivalency value will make speed a more dominant factor
+// in the calculation of the peak. See the SpeedEffects, LatPeak, and
+// LongPeak tire parameters for more info.
+//
+// Slip curve data points are connected using a cubic spline, so there is no
+// need to use a massive amount of data points unless the curve is really busy.
+//
+// Lateral slip angles are normalized so that you need to take the sine of the
+// angle to get the slip. For example, 12 degrees is a slip of 0.208 and vice
+// versa. Longitudinal slip ratios closely match the SAE definition.
+//
+// All curves should probably go out to at least a slip of 2.0, even the lateral
+// and braking curves. Although locking up your brakes is a slip of 1.0, there
+// are situations where you can spin your wheels in the opposite direction of
+// your velocity (like shifting into reverse while moving forwards).
+//
+// Note that the initial slope of the curve may have an effect on how some
+// features behave, such as traction control, ABS, skids, and tire smoke.
 [SLIPCURVE]
 Name="Lateral"
-Step=0.009
+Step=0.05
 DropoffFunction=0.0
 Data:
 0.000000 0.195171 0.387663 0.552850 0.694648 0.804787 0.884509 0.937386 0.969752 0.987687
@@ -30,7 +57,18 @@ Data:
 
 [SLIPCURVE]
 Name="Accelerative"
-Step=0.009
+Step=0.05 //This slip step means that this curves peak grip is at just over 2 percent. Longitudinal curves go by slip percent instead of degree like a lateral curve would.
+// The "DropoffFunction" is a new feature (new in rF) in the [SLIPCURVE] section. It
+// describes how the slip curve dropoff is affected when the peak of the
+// slip curve changes. The peak of the slip curve may move to a smaller
+// or larger slip when load or speed changes. When this happens, the
+// slip curve is stretched or shrunk to match. The DropoffFunction parameter
+// allows you to affect the behavior beyond the peak when this happens:
+// -1.0 = dropoff occurs faster when peak increases
+// 0.0 = dropoff curve does NOT change shape when the peak changes
+// 1.0 = dropoff curve is stretched or shrunk with the rest of the curve,
+// which means the dropoff may feel more gradual as the peak increases.
+// This is the default.
 DropoffFunction=0.2
 Data:
 0.000000 0.197868 0.394405 0.564985 0.714554 0.833423 0.908347 0.952406 0.978122 0.991927
@@ -124,8 +162,9 @@ AirTreadRate=0.003
 WearRate=1.05e-7
 WearGrip1=(0.99,0.96,0.952,0.946,0.94,0.934,0.928,0.922)
 WearGrip2=(0.917,0.912,0.906,0.9,0.892,0.88,0.86,0.72)
+AIPitThreshold=0.850
 Softness=0.6
-AIGripMult=1.03
+AIGripMult=1.33
 AIHeatRate=8.0e-6
 Temperatures=(80, 49)
 OptimumPressure=(110, 0.021)
@@ -163,8 +202,9 @@ AirTreadRate=0.003
 WearRate=0.95e-7
 WearGrip1=(0.99,0.96,0.952,0.946,0.94,0.934,0.928,0.922)
 WearGrip2=(0.917,0.912,0.906,0.9,0.892,0.88,0.86,0.72)
+AIPitThreshold=0.850
 Softness=0.6
-AIGripMult=1.03
+AIGripMult=1.33
 AIHeatRate=6.6e-6
 Temperatures=(80, 49)
 OptimumPressure=(110, 0.021)
