@@ -320,7 +320,7 @@ SCNG23
       StepSpeed6 = 82.00                     // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
       StepSpeed7 = 88.00                     // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
       StepSpeed8 = 93.00                     // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
-      UnderSteerEffectOnThrottleMulti = 250.00
+      UnderSteerEffectOnThrottleMulti = 125.00
       UnderSteerEffectOnLineMulti = 250.00
       OverSteerThrottleReaction = -35.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
       CorneringCaution = 35.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
@@ -338,12 +338,12 @@ SCNG23
       StepSpeed6 = 82.00                     // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
       StepSpeed7 = 88.00                     // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
       StepSpeed8 = 93.00                     // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
-      UnderSteerEffectOnThrottleMulti = 250.00
-      UnderSteerEffectOnLineMulti = 250.00
-      OverSteerThrottleReaction = -35.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      UnderSteerEffectOnThrottleMulti = 125.00
+      UnderSteerEffectOnLineMulti = 200.00
+      OverSteerThrottleReaction = -75.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
       CorneringCaution = 35.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
-      FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
-      DrivingLine = FASTEST,HIGHLINE
+      FearOfWalls = 99.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST
     }
     Jacksonville500
     {
@@ -583,19 +583,21 @@ SCNG23
     }
     Pocono_2016
     {
-      StepDistance = 5.50                    // distance of each step is 5.50 meters
-      StepSpeed1 = 19.10                     // look ahead 5.5 meters (18.0455 feet) at 68.76 KPH 42.724792 MPH
-      StepSpeed2 = 33.80                     // look ahead 11 meters (36.091 feet) at 121.67999 KPH 75.60722 MPH
-      StepSpeed3 = 45.60                     // look ahead 16.5 meters (54.136497 feet) at 164.15999 KPH 102.00264 MPH
-      StepSpeed4 = 52.00                     // look ahead 22 meters (72.182 feet) at 187.2 KPH 116.3188 MPH
-      StepSpeed5 = 61.00                     // look ahead 27.5 meters (90.2275 feet) at 219.59999 KPH 136.45091 MPH
-      StepSpeed6 = 72.50                     // look ahead 33 meters (108.272995 feet) at 261 KPH 162.17526 MPH
-      StepSpeed7 = 85.00                     // look ahead 38.5 meters (126.3185 feet) at 306 KPH 190.1365 MPH
-      StepSpeed8 = 94.00                     // look ahead 44 meters (144.364 feet) at 338.4 KPH 210.26862 MPH
-      UnderSteerEffectOnThrottleMulti = 0.10
-      UnderSteerEffectOnLineMulti = 0.10
-      OverSteerThrottleReaction = -36.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
-      CorneringCaution = 80.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      StepDistance = 4.00                    // distance of each step is 4.00 meters
+      StepSpeed1 = 19.10                     // look ahead 4 meters (13.124 feet) at 68.76 KPH 42.724792 MPH
+      StepSpeed2 = 33.80                     // look ahead 8 meters (26.248 feet) at 121.67999 KPH 75.60722 MPH
+      StepSpeed3 = 45.60                     // look ahead 12 meters (39.371998 feet) at 164.15999 KPH 102.00264 MPH
+      StepSpeed4 = 52.00                     // look ahead 16 meters (52.496 feet) at 187.2 KPH 116.3188 MPH
+      StepSpeed5 = 61.00                     // look ahead 20 meters (65.619995 feet) at 219.59999 KPH 136.45091 MPH
+      StepSpeed6 = 72.50                     // look ahead 24 meters (78.743996 feet) at 261 KPH 162.17526 MPH
+      StepSpeed7 = 85.00                     // look ahead 28 meters (91.868 feet) at 306 KPH 190.1365 MPH
+      StepSpeed8 = 94.00                     // look ahead 32 meters (104.992 feet) at 338.4 KPH 210.26862 MPH
+      UnderSteerEffectOnThrottleMulti = 125.00
+      UnderSteerEffectOnLineMulti = 200.00
+      OverSteerThrottleReaction = -80.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 65.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 99.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST
     }
     Richmond
     {
@@ -799,6 +801,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 1
+        Speed = 99
+        QualifySpeed = 99
+        WetSpeed = 99
+        Aggression = 95
+        Composure = 99
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 1
+        Speed = 99
+        QualifySpeed = 99
+        WetSpeed = 99
+        Aggression = 95
+        Composure = 99
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 50.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 1
@@ -880,6 +916,22 @@ SCNG23
         DrivingLine = FASTEST,HIGHLINE
     }
     Phoenix_2016
+    {
+        Tier = 1
+        Speed = 99
+        QualifySpeed = 99
+        WetSpeed = 99
+        Aggression = 95
+        Composure = 99
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Pocono_2016
     {
         Tier = 1
         Speed = 99
@@ -1011,6 +1063,44 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 1
+        Speed = 99
+        QualifySpeed = 99
+        WetSpeed = 99
+        Aggression = 95
+        Composure = 99
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTime = 31.2
+        PracticeTimeVariance = 0.125
+        QualifyTime = 31.2
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 1
+        Speed = 99
+        QualifySpeed = 99
+        WetSpeed = 99
+        Aggression = 95
+        Composure = 99
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 50.00
+        MinRacingSkill = 90.00
+        PracticeTime = 31.2
+        PracticeTimeVariance = 0.125
+        QualifyTime = 31.2
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 1
@@ -1108,6 +1198,24 @@ SCNG23
         StartSkill = 50.00
         MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Pocono_2016
+    {
+        Tier = 1
+        Speed = 99
+        QualifySpeed = 99
+        WetSpeed = 99
+        Aggression = 95
+        Composure = 99
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTime = 31.2
+        PracticeTimeVariance = 0.125
+        QualifyTime = 31.2
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -1221,6 +1329,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 88
+        WetSpeed = 90
+        Aggression = 75
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 88
+        WetSpeed = 90
+        Aggression = 75
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 50.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 1
@@ -1314,6 +1456,22 @@ SCNG23
         MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 88
+        WetSpeed = 90
+        Aggression = 75
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -1423,6 +1581,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 1
+        Speed = 93
+        QualifySpeed = 92
+        WetSpeed = 85
+        Aggression = 75
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 1
+        Speed = 93
+        QualifySpeed = 92
+        WetSpeed = 85
+        Aggression = 75
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 50.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 1
@@ -1516,6 +1708,22 @@ SCNG23
         MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 1
+        Speed = 93
+        QualifySpeed = 92
+        WetSpeed = 85
+        Aggression = 75
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -1625,6 +1833,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 1
+        Speed = 95
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 80
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 1
+        Speed = 95
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 80
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 50.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 1
@@ -1718,6 +1960,22 @@ SCNG23
         MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 1
+        Speed = 95
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 80
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -1827,6 +2085,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 91
+        WetSpeed = 88
+        Aggression = 80
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 91
+        WetSpeed = 88
+        Aggression = 80
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 50.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 1
@@ -1920,6 +2212,22 @@ SCNG23
         MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 91
+        WetSpeed = 88
+        Aggression = 80
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -2029,6 +2337,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 85
+        WetSpeed = 90
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 85
+        WetSpeed = 90
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 50.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 1
@@ -2122,6 +2464,22 @@ SCNG23
         MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 85
+        WetSpeed = 90
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -2231,6 +2589,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 85
+        WetSpeed = 80
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 85
+        WetSpeed = 80
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 50.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 1
@@ -2324,6 +2716,22 @@ SCNG23
         MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 85
+        WetSpeed = 80
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -2433,6 +2841,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 1
+        Speed = 95
+        QualifySpeed = 90
+        WetSpeed = 88
+        Aggression = 75
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 1
+        Speed = 95
+        QualifySpeed = 90
+        WetSpeed = 88
+        Aggression = 75
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 50.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 1
@@ -2526,6 +2968,22 @@ SCNG23
         MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 1
+        Speed = 95
+        QualifySpeed = 90
+        WetSpeed = 88
+        Aggression = 75
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -2635,6 +3093,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 95
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 95
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 2
@@ -2728,6 +3220,22 @@ SCNG23
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 95
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -2837,6 +3345,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 80
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 80
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 2
@@ -2930,6 +3472,22 @@ SCNG23
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 80
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -3039,6 +3597,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 2
@@ -3132,6 +3724,22 @@ SCNG23
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -3241,6 +3849,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 87
+        WetSpeed = 87
+        Aggression = 95
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 87
+        WetSpeed = 87
+        Aggression = 95
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 2
@@ -3334,6 +3976,22 @@ SCNG23
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 87
+        WetSpeed = 87
+        Aggression = 95
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -3443,6 +4101,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 89
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 89
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 2
@@ -3536,6 +4228,22 @@ SCNG23
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 89
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -3645,6 +4353,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 2
@@ -3738,6 +4480,22 @@ SCNG23
         MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -3847,6 +4605,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 83
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 83
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 2
@@ -3940,6 +4732,22 @@ SCNG23
         MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 83
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -4049,6 +4857,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 65.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 45.00
+        MinRacingSkill = 65.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 2
@@ -4142,6 +4984,22 @@ SCNG23
         MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 65.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -4251,6 +5109,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 65.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 45.00
+        MinRacingSkill = 65.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 2
@@ -4344,6 +5236,22 @@ SCNG23
         MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 65.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -4453,6 +5361,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 65.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 45.00
+        MinRacingSkill = 65.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 2
@@ -4546,6 +5488,22 @@ SCNG23
         MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 65.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -4655,6 +5613,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 55.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 45.00
+        MinRacingSkill = 55.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 2
@@ -4748,6 +5740,22 @@ SCNG23
         MinRacingSkill = 55.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 55.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -4857,6 +5865,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 45.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 2
@@ -4950,6 +5992,22 @@ SCNG23
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -5059,6 +6117,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 45.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 2
@@ -5152,6 +6244,22 @@ SCNG23
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -5261,6 +6369,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 45.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 2
@@ -5354,6 +6496,22 @@ SCNG23
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -5463,6 +6621,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 40.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 3
@@ -5556,6 +6748,22 @@ SCNG23
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -5665,6 +6873,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 3
@@ -5758,6 +7000,22 @@ SCNG23
         MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -5867,6 +7125,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 3
+        Speed = 77
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 3
+        Speed = 77
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 3
@@ -5960,6 +7252,22 @@ SCNG23
         MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 3
+        Speed = 77
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -6069,6 +7377,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 3
@@ -6162,6 +7504,22 @@ SCNG23
         MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -6271,6 +7629,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 3
@@ -6364,6 +7756,22 @@ SCNG23
         MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -6473,6 +7881,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 3
@@ -6566,6 +8008,22 @@ SCNG23
         MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -6675,6 +8133,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 3
+        Speed = 72
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 3
+        Speed = 72
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 3
@@ -6768,6 +8260,22 @@ SCNG23
         MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 3
+        Speed = 72
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -6877,6 +8385,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 3
@@ -6970,6 +8512,22 @@ SCNG23
         MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -7079,6 +8637,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 40
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 40
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 35.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 4
@@ -7172,6 +8764,22 @@ SCNG23
         MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 40
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -7281,6 +8889,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 40
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 40
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 35.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 4
@@ -7374,6 +9016,22 @@ SCNG23
         MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 40
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -7483,6 +9141,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 4
@@ -7576,6 +9268,22 @@ SCNG23
         MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -7685,6 +9393,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 4
@@ -7778,6 +9520,22 @@ SCNG23
         MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -7887,6 +9645,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 4
@@ -7980,6 +9772,22 @@ SCNG23
         MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -8089,6 +9897,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 4
@@ -8182,6 +10024,22 @@ SCNG23
         MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -8291,6 +10149,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 35
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 35
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 4
@@ -8384,6 +10276,22 @@ SCNG23
         MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 35
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -8493,6 +10401,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 35
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 35
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 4
@@ -8586,6 +10528,22 @@ SCNG23
         MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 35
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -8703,6 +10661,44 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 25
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTime = 31.2
+        PracticeTimeVariance = 0.125
+        QualifyTime = 31.3
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 25
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTime = 31.2
+        PracticeTimeVariance = 0.125
+        QualifyTime = 31.3
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 4
@@ -8804,6 +10800,24 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTime = 31.3
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 25
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTime = 31.2
+        PracticeTimeVariance = 0.125
+        QualifyTime = 31.3
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -8915,6 +10929,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 5
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 25
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 5
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 25
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 5
@@ -9008,6 +11056,22 @@ SCNG23
         MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 5
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 25
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -9117,6 +11181,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 5
+        Speed = 65
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 35
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 5
+        Speed = 65
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 35
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 5
@@ -9210,6 +11308,22 @@ SCNG23
         MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 5
+        Speed = 65
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 35
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -9319,6 +11433,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 5
+        Speed = 60
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 25
+        Composure = 15
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 5
+        Speed = 60
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 25
+        Composure = 15
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 5
@@ -9412,6 +11560,22 @@ SCNG23
         MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 5
+        Speed = 60
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 25
+        Composure = 15
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -9521,6 +11685,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 25
+        Composure = 15
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 25
+        Composure = 15
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 5
@@ -9614,6 +11812,22 @@ SCNG23
         MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 25
+        Composure = 15
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
@@ -9723,6 +11937,40 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
+    Indianapolis2020_500
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 35
+        Composure = 15
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Indianapolis2020_400
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 35
+        Composure = 15
+        Courtesy = 99
+        Recovery = 99
+        CorneringCaution = 99                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+        FearOfWalls = 99                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Kentucky_Speedway
     {
         Tier = 5
@@ -9815,6 +12063,22 @@ SCNG23
         MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
+    }
+    Pocono_2016
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 35
+        Composure = 15
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
     }
     Talladega_2016
     {
