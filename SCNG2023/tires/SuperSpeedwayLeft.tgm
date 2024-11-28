@@ -1751,8 +1751,8 @@ BeltSpringZ=(2.097e6,10.05382,-3132.56465,8.00152) //(<base>,<per_unit_pressure>
 TemporaryBeltDamper=(99.015,125.937)
 TreadSpringXPerUnitArea=(6.593e8,-63.29283,-786692.76936,-1169.42055) //(<base>,<per_unit_pressure >,<per_unit_temperature>,<per_unit_rotation_square d>)
 TreadSpringZPerUnitArea=(1.081e9,3530.56384,-2306970.08922,-2768.04998) //(<base>,<per_unit_pressure >,<per_unit_temperature>,<per_unit_rotation_square d>)
-BaseDamperPerUnitArea=(1759.9,1398.6,3153.3)//(512.8,395,707.4) //(<lateral>, <vertical>, <longitudinal>)
-HystereticVerticalDamperPerUnitArea=500//4995//500 //<vertical>
+BaseDamperPerUnitArea=(1759.9,798.6,3153.3)//(512.8,395,707.4) //(<lateral>, <vertical>, <longitudinal>)
+HystereticVerticalDamperPerUnitArea=500 //<vertical>
 VerticalDampingMultiplier=(1.38,1.21,1.01,1.00,1.01,1.21,1.38) //(<bristle1>, <bristle2>, <bristle3>, <bristle4>, <bristle5>, <bristle6>, <bristle7>)
 MarbleEffectOnEffectiveLoad=-0.0955 // fraction of load available for grip when driving on maximum marbles (9.5% less load in this case)
 TerrainWeightOnContactTemperature=0.1 // temperature used for WLF is influenced by the track temperature (in this case, 90% tire surface, 10% terrain surface)
@@ -1760,8 +1760,8 @@ StaticRoughnessEffect=0.2 // terrain roughness influence on static friction
 WLFParameters=(250.15,50,-8.86,51.5) // glass transition temperature.  Other values pretty much the same for all rubbers, except butyl.  Most likely, you won't touch the last three values.
 StaticCurve=(288.706,1.176,366,1.176,500,0.31) // at -100C there's 52% of maximum static grip, at 100C it's maximum, at 400C it's back down to 52% of max static grip
 SlidingAdhesionCurve=(-7.8,0.4,-4.5,1.7,-1.2,0.2)//(-17.2,-0.4,-4.5,1.7,-1.2,0.2) // min sliding speed (log(10) aTv), grip multiplier (for min), peak sliding speed, grip multiplier (for peak), max sliding speed, grip multiplier (for max)
-SlidingMicroDeformationCurve=(-4.5,0.3,-1.2,1.8,1.6,0.2) // these values are blended following a cosine rule
-SlidingMacroDeformationCurve=(-1.2,0.2,1.6,2,4.8,0.4) // to get the totals the adhesion, micro and macro curves are then multiplied by the surface types as defined in the TDF files, the defaults of which are 0.25 for adhesion, 0.5 microroughness, 0.25 macroroughness
+SlidingMicroDeformationCurve=(-4.5,0.3,-1.2,1.82,1.6,0.2) // these values are blended following a cosine rule
+SlidingMacroDeformationCurve=(-1.2,0.2,1.6,2.2,4.8,0.4) // to get the totals the adhesion, micro and macro curves are then multiplied by the surface types as defined in the TDF files, the defaults of which are 0.25 for adhesion, 0.5 microroughness, 0.25 macroroughness
 RubberPressureSensitivityPower=(-9.00,3e6,5e5,1) // (Amount of grip gained under load. Lower # is less grip gained.) rubber contact pressure sensivity power, offset, nominal maximum, normalize (1=yes,2=no)
 IgnitionParameters=(500,0.067,98) // ignition temperature of rubber in Kelvin, heat power factor, nominal max of area*temperature_over_ignition
 GrooveEffects=(0.01,0.01,0.007,0.003) // maximum groove influences grip here for: static friction, sliding adhesion, sliding micro-deformation, sliding macro-deformation
@@ -1773,7 +1773,7 @@ ThermalDepthBelowSurface=4e-4 // (if provisional code enabled) the depth of the 
 BristleLength=0.145 // tuned to aid collision detection, no other physical effects
 DampingHeatEnergy=(1,0.4,0.67)//(1.0,2.2,0.65) // (Fraction of ring damping heat into sidewall (should probably be 1.0), fraction of bristle damping heat into carcass, fraction of bristle damping heat into tread) the 2nd and 3rd values should generally add up to 1.0
 InternalGasHeatTransfer=(9,4.5,0.6) // (base, mult, power) - heat transfer coefficients to internal gas cavity = base+(mult*(vel^power)), where vel is linear velocity of tire
-ExternalGasHeatTransfer=(10.3334,4.1667,0.6)//(20,6,0.6) // (base, mult, power) - heat transfer coefficients to external air = base+(mult*(vel^power)), where vel is linear velocity of tire
+ExternalGasHeatTransfer=(10.3334,4.9667,0.6)//(20,6,0.6) // (base, mult, power) - heat transfer coefficients to external air = base+(mult*(vel^power)), where vel is linear velocity of tire
 GroundConductance=(1000,0.0088,0)// (base, mult, reserved) - thermal contact conductance coefficient to ground = base+(mult*pressure), where pressure is contact pressure and the reserved variable will be used at some later stage.
 WetConductance=(1650,1100,0,0) // Additional conductance due to (<dampness>, <wetness>,<and reserved for future usage 1>,<reserved 2>)
 TireRadiationEmissivity=0.937 // thermal radiation emissivity for external tire surface
