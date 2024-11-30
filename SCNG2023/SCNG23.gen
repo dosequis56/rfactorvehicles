@@ -33,7 +33,7 @@ Instance=SLOT<ID>
 <LOW>  MeshFile=SCNG<12>_<3456>_BODY_LOD3.GMT  CollTarget=False HATTarget=False LODIn=(150) LODOut=(350) ShadowCaster=(False, Solid) Reflect=NoLOD
 
   MeshFile=SCNG<12>_COLL.GMT  CollTarget=True  HATTarget=False Render=False LODIn=(0) LODOut=(200)
-  MeshFile=SCNG<12>_SHAD.GMT  CollTarget=False HATTarget=False Render=False LODIn=(0) LODOut=(200) ShadowCaster=(True, Solid)
+  MeshFile=SCNG<12>_<3456>_SHAD.GMT  CollTarget=False HATTarget=False Render=False LODIn=(0) LODOut=(200) ShadowCaster=(True, Solid)
 
   Actor=VEHICLE
 

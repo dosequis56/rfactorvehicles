@@ -93,8 +93,8 @@ Data:
 Name="Road Course"
 ALL:
 TGM="Road_Course.tgm"
-DryLatLong=(1.94, 1.91)
-WetLatLong=(1.16, 1.12)
+DryLatLong=(2.54, 2.51)
+WetLatLong=(2.16, 2.12)
 RoadGripEffects=(0.09,-0.08,-0.14,-0.4)
 RoadGrooveSqrdGripEffect=-0.025
 RoadModifierMults=(0.55,0.9,0.9,0.65)
