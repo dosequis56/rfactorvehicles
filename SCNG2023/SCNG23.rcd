@@ -801,6 +801,7 @@ SCNG23
         StartSkill = 50.00
         MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 22.44
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -854,6 +855,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 1
+        Speed = 99
+        QualifySpeed = 99
+        WetSpeed = 99
+        Aggression = 65
+        Composure = 99
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.718
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 1
@@ -867,6 +885,7 @@ SCNG23
         StartSkill = 50.00
         MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 19.718
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -1064,7 +1083,7 @@ SCNG23
         MinRacingSkill = 99.00
         PracticeTime = 31.2
         PracticeTimeVariance = 0.125
-        QualifyTime = 31.2
+        QualifyTime = 22.44
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -1122,11 +1141,11 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Martinsville_Speedway
+    Martinsville_2016
     {
         Tier = 1
         Speed = 99
-        QualifySpeed = 93
+        QualifySpeed = 95
         WetSpeed = 99
         Aggression = 65
         Composure = 99
@@ -1136,7 +1155,25 @@ SCNG23
         MinRacingSkill = 99.00
         PracticeTime = 31.2
         PracticeTimeVariance = 0.125
-        QualifyTime = 31.2
+        QualifyTime = 19.719
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 1
+        Speed = 99
+        QualifySpeed = 95
+        WetSpeed = 99
+        Aggression = 65
+        Composure = 99
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTime = 31.2
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.719
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -1333,6 +1370,7 @@ SCNG23
         StartSkill = 50.00
         MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 22.44
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -1386,11 +1424,11 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Martinsville_Speedway
+    Martinsville_2016
     {
         Tier = 1
         Speed = 92
-        QualifySpeed = 96
+        QualifySpeed = 92
         WetSpeed = 90
         Aggression = 65
         Composure = 85
@@ -1399,6 +1437,24 @@ SCNG23
         StartSkill = 50.00
         MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 19.725
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 92
+        WetSpeed = 90
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.725
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -1587,6 +1643,7 @@ SCNG23
         StartSkill = 50.00
         MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 22.44
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -1640,6 +1697,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 1
+        Speed = 93
+        QualifySpeed = 92
+        WetSpeed = 85
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.73
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 1
@@ -1653,6 +1727,7 @@ SCNG23
         StartSkill = 50.00
         MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 19.73
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -1841,6 +1916,7 @@ SCNG23
         StartSkill = 50.00
         MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 22.44
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -1894,6 +1970,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 1
+        Speed = 99
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.73
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 1
@@ -1907,6 +2000,7 @@ SCNG23
         StartSkill = 50.00
         MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 19.73
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -2095,6 +2189,7 @@ SCNG23
         StartSkill = 50.00
         MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 22.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -2148,11 +2243,11 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Martinsville_Speedway
+    Martinsville_2016
     {
         Tier = 1
         Speed = 92
-        QualifySpeed = 91
+        QualifySpeed = 90
         WetSpeed = 88
         Aggression = 65
         Composure = 85
@@ -2161,6 +2256,24 @@ SCNG23
         StartSkill = 50.00
         MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 19.73
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Martinsville_Speedway
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 90
+        WetSpeed = 88
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.73
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -2349,6 +2462,7 @@ SCNG23
         StartSkill = 50.00
         MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 22.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -2402,6 +2516,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 1
+        Speed = 97
+        QualifySpeed = 97
+        WetSpeed = 90
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.73
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 1
@@ -2415,6 +2546,7 @@ SCNG23
         StartSkill = 50.00
         MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 19.73
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -2603,6 +2735,7 @@ SCNG23
         StartSkill = 50.00
         MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 22.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -2656,6 +2789,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 85
+        WetSpeed = 80
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.73
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
     Martinsville_Speedway
     {
         Tier = 1
@@ -2669,6 +2819,7 @@ SCNG23
         StartSkill = 50.00
         MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 19.73
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
     }
@@ -2857,6 +3008,7 @@ SCNG23
         StartSkill = 50.00
         MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 22.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -2910,6 +3062,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 1
+        Speed = 95
+        QualifySpeed = 90
+        WetSpeed = 88
+        Aggression = 60
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.73
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
     Martinsville_Speedway
     {
         Tier = 1
@@ -2923,6 +3092,7 @@ SCNG23
         StartSkill = 50.00
         MinRacingSkill = 99.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 19.73
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
     }
@@ -3111,6 +3281,7 @@ SCNG23
         StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 22.6
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -3164,6 +3335,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 60
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.73
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
     Martinsville_Speedway
     {
         Tier = 2
@@ -3177,6 +3365,7 @@ SCNG23
         StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 19.73
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
     }
@@ -3365,6 +3554,7 @@ SCNG23
         StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 22.6
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -3418,6 +3608,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 95
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.73
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
     Martinsville_Speedway
     {
         Tier = 2
@@ -3431,6 +3638,7 @@ SCNG23
         StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 19.73
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
     }
@@ -3619,6 +3827,7 @@ SCNG23
         StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 22.6
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -3672,6 +3881,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 90
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.73
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
     Martinsville_Speedway
     {
         Tier = 2
@@ -3685,6 +3911,7 @@ SCNG23
         StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 19.73
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
     }
@@ -3873,6 +4100,7 @@ SCNG23
         StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 22.7
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -3926,6 +4154,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 87
+        WetSpeed = 87
+        Aggression = 95
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.85
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
     Martinsville_Speedway
     {
         Tier = 2
@@ -3939,6 +4184,7 @@ SCNG23
         StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 19.85
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
     }
@@ -4127,6 +4373,7 @@ SCNG23
         StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 22.7
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -4180,6 +4427,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 97
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.85
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
     Martinsville_Speedway
     {
         Tier = 2
@@ -4193,6 +4457,7 @@ SCNG23
         StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 19.85
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
     }
@@ -4381,6 +4646,7 @@ SCNG23
         StartSkill = 45.00
         MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 22.7
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -4434,6 +4700,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.85
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
     Martinsville_Speedway
     {
         Tier = 2
@@ -4447,6 +4730,7 @@ SCNG23
         StartSkill = 45.00
         MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 19.85
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
     }
@@ -4635,6 +4919,7 @@ SCNG23
         StartSkill = 45.00
         MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 22.7
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -4688,6 +4973,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 83
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.85
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
     Martinsville_Speedway
     {
         Tier = 2
@@ -4701,6 +5003,7 @@ SCNG23
         StartSkill = 45.00
         MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 19.85
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
     }
@@ -4889,6 +5192,7 @@ SCNG23
         StartSkill = 45.00
         MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 22.7
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -4942,6 +5246,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 65.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.85
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
     Martinsville_Speedway
     {
         Tier = 2
@@ -4955,6 +5276,7 @@ SCNG23
         StartSkill = 45.00
         MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 19.85
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
     }
@@ -5143,6 +5465,7 @@ SCNG23
         StartSkill = 45.00
         MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 22.7
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -5196,6 +5519,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 65.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.85
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
+    }
     Martinsville_Speedway
     {
         Tier = 2
@@ -5209,6 +5549,7 @@ SCNG23
         StartSkill = 45.00
         MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 19.85
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
     }
@@ -5397,6 +5738,7 @@ SCNG23
         StartSkill = 45.00
         MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 22.7
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -5450,6 +5792,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 65.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.85
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 2
@@ -5463,6 +5822,7 @@ SCNG23
         StartSkill = 45.00
         MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 19.85
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
@@ -5651,6 +6011,7 @@ SCNG23
         StartSkill = 45.00
         MinRacingSkill = 55.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 22.7
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -5704,6 +6065,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 55.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.85
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 2
@@ -5717,6 +6095,7 @@ SCNG23
         StartSkill = 45.00
         MinRacingSkill = 55.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 19.85
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
@@ -5905,6 +6284,7 @@ SCNG23
         StartSkill = 45.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 22.8
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -5958,6 +6338,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.85
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 2
@@ -5971,6 +6368,7 @@ SCNG23
         StartSkill = 45.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 19.85
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
@@ -6159,6 +6557,7 @@ SCNG23
         StartSkill = 45.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 22.8
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -6212,6 +6611,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 95
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.85
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 2
@@ -6225,6 +6641,7 @@ SCNG23
         StartSkill = 45.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 19.85
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
@@ -6413,6 +6830,7 @@ SCNG23
         StartSkill = 45.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 22.8
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -6466,6 +6884,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.85
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 2
@@ -6479,6 +6914,7 @@ SCNG23
         StartSkill = 45.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 19.85
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
@@ -6667,6 +7103,7 @@ SCNG23
         StartSkill = 40.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 22.9
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -6720,6 +7157,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.93
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 3
@@ -6733,6 +7187,7 @@ SCNG23
         StartSkill = 40.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 19.93
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
@@ -6921,6 +7376,7 @@ SCNG23
         StartSkill = 40.00
         MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 22.9
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -6974,6 +7430,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.93
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 3
@@ -6987,6 +7460,7 @@ SCNG23
         StartSkill = 40.00
         MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 19.93
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
@@ -7175,6 +7649,7 @@ SCNG23
         StartSkill = 40.00
         MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -7228,6 +7703,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 3
+        Speed = 77
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.93
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
     Martinsville_Speedway
     {
         Tier = 3
@@ -7241,6 +7733,7 @@ SCNG23
         StartSkill = 40.00
         MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 19.93
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
@@ -7429,6 +7922,7 @@ SCNG23
         StartSkill = 40.00
         MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -7482,6 +7976,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 3
+        Speed = 90
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.93
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
     Martinsville_Speedway
     {
         Tier = 3
@@ -7495,6 +8006,7 @@ SCNG23
         StartSkill = 40.00
         MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 19.93
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
     }
@@ -7683,6 +8195,7 @@ SCNG23
         StartSkill = 40.00
         MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -7736,6 +8249,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.93
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
     Martinsville_Speedway
     {
         Tier = 3
@@ -7749,6 +8279,7 @@ SCNG23
         StartSkill = 40.00
         MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 19.93
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
     }
@@ -7937,6 +8468,7 @@ SCNG23
         StartSkill = 40.00
         MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -7990,6 +8522,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.93
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
     Martinsville_Speedway
     {
         Tier = 3
@@ -8003,6 +8552,7 @@ SCNG23
         StartSkill = 40.00
         MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 19.93
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
     }
@@ -8191,6 +8741,7 @@ SCNG23
         StartSkill = 40.00
         MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
@@ -8244,6 +8795,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 3
+        Speed = 72
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.93
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
     Martinsville_Speedway
     {
         Tier = 3
@@ -8257,6 +8825,7 @@ SCNG23
         StartSkill = 40.00
         MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 19.93
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
     }
@@ -8445,6 +9014,7 @@ SCNG23
         StartSkill = 40.00
         MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -8498,6 +9068,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.93
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
     Martinsville_Speedway
     {
         Tier = 3
@@ -8511,6 +9098,7 @@ SCNG23
         StartSkill = 40.00
         MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 19.93
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
     }
@@ -8699,6 +9287,7 @@ SCNG23
         StartSkill = 35.00
         MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
@@ -8752,6 +9341,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 40
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 20
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
     Martinsville_Speedway
     {
         Tier = 4
@@ -8765,6 +9371,7 @@ SCNG23
         StartSkill = 35.00
         MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 20
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
     }
@@ -8953,6 +9560,7 @@ SCNG23
         StartSkill = 35.00
         MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -9006,6 +9614,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 40
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 20
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
     Martinsville_Speedway
     {
         Tier = 4
@@ -9019,6 +9644,7 @@ SCNG23
         StartSkill = 35.00
         MinRacingSkill = 35.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 20
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
     }
@@ -9207,6 +9833,7 @@ SCNG23
         StartSkill = 35.00
         MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
@@ -9260,6 +9887,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 20
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
     Martinsville_Speedway
     {
         Tier = 4
@@ -9273,6 +9917,7 @@ SCNG23
         StartSkill = 35.00
         MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 20
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
     }
@@ -9461,6 +10106,7 @@ SCNG23
         StartSkill = 35.00
         MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 23.2
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -9514,6 +10160,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 20
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
     Martinsville_Speedway
     {
         Tier = 4
@@ -9527,6 +10190,7 @@ SCNG23
         StartSkill = 35.00
         MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 20
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
     }
@@ -9715,6 +10379,7 @@ SCNG23
         StartSkill = 35.00
         MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 23.2
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
@@ -9768,6 +10433,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 20
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
     Martinsville_Speedway
     {
         Tier = 4
@@ -9781,6 +10463,7 @@ SCNG23
         StartSkill = 35.00
         MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 20
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
     }
@@ -9969,6 +10652,7 @@ SCNG23
         StartSkill = 35.00
         MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 23.2
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -10022,6 +10706,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 20
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
     Martinsville_Speedway
     {
         Tier = 4
@@ -10035,6 +10736,7 @@ SCNG23
         StartSkill = 35.00
         MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 20
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
     }
@@ -10223,6 +10925,7 @@ SCNG23
         StartSkill = 35.00
         MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 23.3
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
@@ -10276,6 +10979,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 35
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 20
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
     Martinsville_Speedway
     {
         Tier = 4
@@ -10289,6 +11009,7 @@ SCNG23
         StartSkill = 35.00
         MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 20
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
     }
@@ -10477,6 +11198,7 @@ SCNG23
         StartSkill = 35.00
         MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 23.3
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -10530,6 +11252,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 35
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 20.1
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
     Martinsville_Speedway
     {
         Tier = 4
@@ -10543,6 +11282,7 @@ SCNG23
         StartSkill = 35.00
         MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 20.1
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
     }
@@ -10738,7 +11478,7 @@ SCNG23
         MinRacingSkill = 25.00
         PracticeTime = 31.2
         PracticeTimeVariance = 0.125
-        QualifyTime = 31.3
+        QualifyTime = 23.3
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
@@ -10798,6 +11538,24 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 25
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTime = 31.2
+        PracticeTimeVariance = 0.125
+        QualifyTime = 20.1
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
     Martinsville_Speedway
     {
         Tier = 4
@@ -10812,7 +11570,7 @@ SCNG23
         MinRacingSkill = 25.00
         PracticeTime = 31.2
         PracticeTimeVariance = 0.125
-        QualifyTime = 31.3
+        QualifyTime = 20.1
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
     }
@@ -11009,6 +11767,7 @@ SCNG23
         StartSkill = 35.00
         MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 23.3
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -11062,6 +11821,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 5
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 25
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 20.2
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
     Martinsville_Speedway
     {
         Tier = 5
@@ -11075,6 +11851,7 @@ SCNG23
         StartSkill = 35.00
         MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 20.2
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
     }
@@ -11263,6 +12040,7 @@ SCNG23
         StartSkill = 35.00
         MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 23.3
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
@@ -11316,6 +12094,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 5
+        Speed = 65
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 35
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 20.2
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
     Martinsville_Speedway
     {
         Tier = 5
@@ -11329,6 +12124,7 @@ SCNG23
         StartSkill = 35.00
         MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 20.2
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
     }
@@ -11517,6 +12313,7 @@ SCNG23
         StartSkill = 35.00
         MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 23.4
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -11570,6 +12367,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 5
+        Speed = 60
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 25
+        Composure = 15
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 20.3
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
     Martinsville_Speedway
     {
         Tier = 5
@@ -11583,6 +12397,7 @@ SCNG23
         StartSkill = 35.00
         MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 20.3
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
     }
@@ -11771,6 +12586,7 @@ SCNG23
         StartSkill = 35.00
         MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 23.4
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
@@ -11824,6 +12640,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 25
+        Composure = 15
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 20.3
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
     Martinsville_Speedway
     {
         Tier = 5
@@ -11837,6 +12670,7 @@ SCNG23
         StartSkill = 35.00
         MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 20.3
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
     }
@@ -12025,6 +12859,7 @@ SCNG23
         StartSkill = 35.00
         MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 23.5
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
@@ -12078,6 +12913,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
+    Martinsville_2016
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 35
+        Composure = 15
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 20.3
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
+    }
     Martinsville_Speedway
     {
         Tier = 5
@@ -12091,6 +12943,7 @@ SCNG23
         StartSkill = 35.00
         MinRacingSkill = 25.00
         PracticeTimeVariance = 0.125
+        QualifyTime = 20.3
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
     }
