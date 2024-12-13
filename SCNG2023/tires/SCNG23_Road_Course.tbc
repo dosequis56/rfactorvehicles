@@ -121,15 +121,16 @@ Heating=(0.575, 0.007)
 Transfer=(0.02, 1.92e-3, 2.72e-4)
 HeatDistrib=(11.50,112.0)
 AirTreadRate=0.003
-WearRate=1.0e-7
-WearGrip1=(0.99,0.98,0.974,0.969,0.965,0.961,0.958,0.955)
-WearGrip2=(0.952,0.949,0.947,0.945,0.942,0.936,0.85,0.75)
+WearRate=0.44e-7
+WearGrip1=(0.99,0.98,0.974,0.969,0.960,0.952,0.945,0.935)
+WearGrip2=(0.925,0.910,0.900,0.885,0.870,0.855,0.825,0.75)
+AIPitThreshold=0.835
 Softness=0.6
 AIGripMult=1.0
 AIHeatRate=7.0e-6
 Temperatures=(75, 49)
 OptimumPressure=(110, 0.015)
-GripTempPress=(1.2, 0.7, 0.5)
+GripTempPress=(1.1, 0.7, 0.5)
 
 [COMPOUND]
 Name="Wets"

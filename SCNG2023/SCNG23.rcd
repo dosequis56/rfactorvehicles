@@ -260,19 +260,21 @@ SCNG23
     }
     JM_Daytona_Speedway_Oval
     {
-      StepDistance = 5.20                    // distance of each step is 5.20 meters
-      StepSpeed1 = 25.00                     // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
-      StepSpeed2 = 32.00                     // look ahead 10.4 meters (34.1224 feet) at 115.2 KPH 71.5808 MPH
-      StepSpeed3 = 40.00                     // look ahead 15.599999 meters (51.183598 feet) at 144 KPH 89.476006 MPH
-      StepSpeed4 = 55.00                     // look ahead 20.8 meters (68.2448 feet) at 198 KPH 123.0295 MPH
-      StepSpeed5 = 70.00                     // look ahead 26 meters (85.306 feet) at 252 KPH 156.58301 MPH
-      StepSpeed6 = 82.00                     // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
-      StepSpeed7 = 88.00                     // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
-      StepSpeed8 = 93.00                     // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
-      UnderSteerEffectOnThrottleMulti = 250.00
-      UnderSteerEffectOnLineMulti = 250.00
-      OverSteerThrottleReaction = 100.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
-      CorneringCaution = 0.10                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      StepDistance = 6.00                    // distance of each step is 6.00 meters
+      StepSpeed1 = 19.10                     // look ahead 6 meters (19.685999 feet) at 68.76 KPH 42.724792 MPH
+      StepSpeed2 = 33.80                     // look ahead 12 meters (39.371998 feet) at 121.67999 KPH 75.60722 MPH
+      StepSpeed3 = 45.60                     // look ahead 18 meters (59.058 feet) at 164.15999 KPH 102.00264 MPH
+      StepSpeed4 = 52.00                     // look ahead 24 meters (78.743996 feet) at 187.2 KPH 116.3188 MPH
+      StepSpeed5 = 61.00                     // look ahead 30 meters (98.43 feet) at 219.59999 KPH 136.45091 MPH
+      StepSpeed6 = 72.50                     // look ahead 36 meters (118.116 feet) at 261 KPH 162.17526 MPH
+      StepSpeed7 = 85.00                     // look ahead 42 meters (137.802 feet) at 306 KPH 190.1365 MPH
+      StepSpeed8 = 94.00                     // look ahead 48 meters (157.48799 feet) at 338.4 KPH 210.26862 MPH
+      UnderSteerEffectOnThrottleMulti = 0.10
+      UnderSteerEffectOnLineMulti = 300.00
+      OverSteerThrottleReaction = -36.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 80.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 1.00                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST, HIGHLINE
     }
     Dover_2016
     {
@@ -656,7 +658,21 @@ SCNG23
     }
     Talladega_2016
     {
-      CorneringCaution = 100.00              // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      StepDistance = 6.00                    // distance of each step is 6.00 meters
+      StepSpeed1 = 19.10                     // look ahead 6 meters (19.685999 feet) at 68.76 KPH 42.724792 MPH
+      StepSpeed2 = 33.80                     // look ahead 12 meters (39.371998 feet) at 121.67999 KPH 75.60722 MPH
+      StepSpeed3 = 45.60                     // look ahead 18 meters (59.058 feet) at 164.15999 KPH 102.00264 MPH
+      StepSpeed4 = 52.00                     // look ahead 24 meters (78.743996 feet) at 187.2 KPH 116.3188 MPH
+      StepSpeed5 = 61.00                     // look ahead 30 meters (98.43 feet) at 219.59999 KPH 136.45091 MPH
+      StepSpeed6 = 72.50                     // look ahead 36 meters (118.116 feet) at 261 KPH 162.17526 MPH
+      StepSpeed7 = 85.00                     // look ahead 42 meters (137.802 feet) at 306 KPH 190.1365 MPH
+      StepSpeed8 = 94.00                     // look ahead 48 meters (157.48799 feet) at 338.4 KPH 210.26862 MPH
+      UnderSteerEffectOnThrottleMulti = 0.10
+      UnderSteerEffectOnLineMulti = 300.00
+      OverSteerThrottleReaction = -36.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 80.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 1.00                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST, HIGHLINE
     }
     Texas_2016
     {
@@ -675,6 +691,24 @@ SCNG23
       CorneringCaution = 0.10                // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
     }
     Watkins_Glen_Short
+    {
+      StepDistance = 3.00                    // distance of each step is 3.00 meters
+      StepSpeed1 = 07.00                     // look ahead 3 meters (9.842999 feet) at 25.199999 KPH 15.6583 MPH
+      StepSpeed2 = 12.00                     // look ahead 6 meters (19.685999 feet) at 43.199997 KPH 26.8428 MPH
+      StepSpeed3 = 25.00                     // look ahead 9 meters (29.529 feet) at 90 KPH 55.9225 MPH
+      StepSpeed4 = 33.00                     // look ahead 12 meters (39.371998 feet) at 118.799995 KPH 73.8177 MPH
+      StepSpeed5 = 41.00                     // look ahead 15 meters (49.215 feet) at 147.59999 KPH 91.712906 MPH
+      StepSpeed6 = 50.00                     // look ahead 18 meters (59.058 feet) at 180 KPH 111.845 MPH
+      StepSpeed7 = 62.00                     // look ahead 21 meters (68.901 feet) at 223.2 KPH 138.6878 MPH
+      StepSpeed8 = 75.00                     // look ahead 24 meters (78.743996 feet) at 270 KPH 167.7675 MPH
+      UnderSteerEffectOnThrottleMulti = 200.00
+      UnderSteerEffectOnLineMulti = 300.00
+      OverSteerThrottleReaction = -18.00     // How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 50.00               // (0-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 100.00                   // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
     {
       StepDistance = 3.00                    // distance of each step is 3.00 meters
       StepSpeed1 = 07.00                     // look ahead 3 meters (9.842999 feet) at 25.199999 KPH 15.6583 MPH
@@ -969,6 +1003,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 70
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
     {
         Tier = 1
@@ -980,6 +1030,54 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 99.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 70
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 70
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 70
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
         MinRacingSkill = 90.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -1261,6 +1359,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 65
+        Composure = 90
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
     {
         Tier = 1
@@ -1276,6 +1390,54 @@ SCNG23
         PracticeTime = 31.2
         PracticeTimeVariance = 0.125
         QualifyTime = 31.2
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 65
+        Composure = 90
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 75.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 65
+        Composure = 90
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 65
+        Composure = 90
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -1536,6 +1698,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 88
+        WetSpeed = 90
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
     {
         Tier = 1
@@ -1547,6 +1725,54 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 95.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 88
+        WetSpeed = 90
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 88
+        WetSpeed = 90
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 88
+        WetSpeed = 90
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
         MinRacingSkill = 90.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -1809,6 +2035,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 87.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
     {
         Tier = 1
@@ -1820,6 +2062,54 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 95.00
+        MinRacingSkill = 87.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 87.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 87.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
         MinRacingSkill = 87.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -2082,6 +2372,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 87.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
     {
         Tier = 1
@@ -2093,6 +2399,54 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 92.00
+        MinRacingSkill = 87.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 87.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 87.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
         MinRacingSkill = 87.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -2355,6 +2709,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 85.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
     {
         Tier = 1
@@ -2366,6 +2736,54 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 95.00
+        MinRacingSkill = 85.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 85.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 85.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
         MinRacingSkill = 85.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -2628,6 +3046,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 85
+        WetSpeed = 90
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
     {
         Tier = 1
@@ -2639,6 +3073,54 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 93.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 85
+        WetSpeed = 90
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 85.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 85
+        WetSpeed = 90
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 85
+        WetSpeed = 90
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
         MinRacingSkill = 82.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -2901,6 +3383,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
     {
         Tier = 1
@@ -2912,6 +3410,54 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 92.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 75.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
         MinRacingSkill = 82.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -3174,7 +3720,71 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
     {
         Tier = 1
         Speed = 90
@@ -3447,6 +4057,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 88.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
     {
         Tier = 2
@@ -3459,6 +4085,54 @@ SCNG23
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 88.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 88.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 88.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -3720,7 +4394,71 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 80
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 80
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 80
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 75.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 80
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
     {
         Tier = 2
         Speed = 88
@@ -3993,7 +4731,71 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
     {
         Tier = 2
         Speed = 88
@@ -4266,7 +5068,71 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 87
+        WetSpeed = 87
+        Aggression = 50
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 87
+        WetSpeed = 87
+        Aggression = 50
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 87
+        WetSpeed = 87
+        Aggression = 50
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 87
+        WetSpeed = 87
+        Aggression = 50
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
     {
         Tier = 2
         Speed = 88
@@ -4539,7 +5405,71 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 89
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 89
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 2
+        Speed = 77
+        QualifySpeed = 89
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 89
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
     {
         Tier = 2
         Speed = 85
@@ -4812,7 +5742,71 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
     {
         Tier = 2
         Speed = 85
@@ -5085,7 +6079,71 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 83
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 83
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 83
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 83
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
     {
         Tier = 2
         Speed = 85
@@ -5358,6 +6416,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 85.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
     {
         Tier = 2
@@ -5370,6 +6444,54 @@ SCNG23
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 67.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 85.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 85.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 85.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -5631,7 +6753,71 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
     {
         Tier = 2
         Speed = 80
@@ -5904,7 +7090,71 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
     {
         Tier = 2
         Speed = 80
@@ -6177,6 +7427,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 90
+        WetSpeed = 92
+        Aggression = 75
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
     {
         Tier = 2
@@ -6189,6 +7455,54 @@ SCNG23
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 90
+        WetSpeed = 92
+        Aggression = 75
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 90
+        WetSpeed = 92
+        Aggression = 75
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 90
+        WetSpeed = 92
+        Aggression = 75
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 90.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -6450,7 +7764,71 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
     {
         Tier = 2
         Speed = 80
@@ -6723,7 +8101,71 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
     {
         Tier = 2
         Speed = 80
@@ -6996,7 +8438,71 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
     {
         Tier = 2
         Speed = 80
@@ -7269,7 +8775,71 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
     {
         Tier = 3
         Speed = 80
@@ -7542,7 +9112,71 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
     {
         Tier = 3
         Speed = 80
@@ -7815,7 +9449,71 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 3
+        Speed = 77
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
+    {
+        Tier = 3
+        Speed = 77
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 3
+        Speed = 77
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 3
+        Speed = 77
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
     {
         Tier = 3
         Speed = 77
@@ -8088,7 +9786,71 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
     {
         Tier = 3
         Speed = 80
@@ -8361,6 +10123,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 75
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
     {
         Tier = 3
@@ -8373,6 +10151,54 @@ SCNG23
         Recovery = 99
         StartSkill = 96.00
         MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 75
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 75
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 75
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 90.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -8634,6 +10460,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 2
+        Speed = 86
+        QualifySpeed = 88
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
     {
         Tier = 3
@@ -8646,6 +10488,54 @@ SCNG23
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 2
+        Speed = 86
+        QualifySpeed = 88
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 2
+        Speed = 86
+        QualifySpeed = 88
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
+    {
+        Tier = 2
+        Speed = 86
+        QualifySpeed = 88
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -8907,7 +10797,71 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
     {
         Tier = 3
         Speed = 80
@@ -9180,7 +11134,71 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
     {
         Tier = 3
         Speed = 80
@@ -9453,7 +11471,71 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 4
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
+    {
+        Tier = 4
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 4
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 4
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
     {
         Tier = 4
         Speed = 80
@@ -9726,7 +11808,71 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 4
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
+    {
+        Tier = 4
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 4
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 4
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
     {
         Tier = 4
         Speed = 80
@@ -9999,7 +12145,71 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 4
+        Speed = 78
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
+    {
+        Tier = 4
+        Speed = 78
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 4
+        Speed = 78
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 4
+        Speed = 78
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
     {
         Tier = 4
         Speed = 78
@@ -10272,7 +12482,71 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 4
+        Speed = 77
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
+    {
+        Tier = 4
+        Speed = 77
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 4
+        Speed = 77
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 4
+        Speed = 77
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
     {
         Tier = 4
         Speed = 77
@@ -10545,7 +12819,71 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
     {
         Tier = 4
         Speed = 75
@@ -10818,7 +13156,71 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 70
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 70
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 70
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 70
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
     {
         Tier = 4
         Speed = 75
@@ -11091,7 +13493,71 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 40
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 40
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 40
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 40
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
     {
         Tier = 4
         Speed = 72
@@ -11364,7 +13830,71 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 40
+        Composure = 50
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 40
+        Composure = 50
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 40
+        Composure = 50
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 40
+        Composure = 50
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
     {
         Tier = 4
         Speed = 72
@@ -11658,7 +14188,79 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        PracticeTime = 31.2
+        PracticeTimeVariance = 0.125
+        QualifyTime = 31.3
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        PracticeTime = 31.2
+        PracticeTimeVariance = 0.125
+        QualifyTime = 31.3
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        PracticeTime = 31.2
+        PracticeTimeVariance = 0.125
+        QualifyTime = 31.3
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        PracticeTime = 31.2
+        PracticeTimeVariance = 0.125
+        QualifyTime = 31.3
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
     {
         Tier = 4
         Speed = 72
@@ -11933,7 +14535,71 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 5
+        Speed = 72
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
+    {
+        Tier = 5
+        Speed = 72
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 5
+        Speed = 72
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 5
+        Speed = 72
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
     {
         Tier = 5
         Speed = 72
@@ -12206,7 +14872,71 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 5
+        Speed = 65
+        QualifySpeed = 60
+        WetSpeed = 70
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
+    {
+        Tier = 5
+        Speed = 65
+        QualifySpeed = 60
+        WetSpeed = 70
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 5
+        Speed = 65
+        QualifySpeed = 60
+        WetSpeed = 70
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 5
+        Speed = 65
+        QualifySpeed = 60
+        WetSpeed = 70
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
     {
         Tier = 5
         Speed = 65
@@ -12479,7 +15209,71 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 5
+        Speed = 60
+        QualifySpeed = 70
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
+    {
+        Tier = 5
+        Speed = 60
+        QualifySpeed = 70
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 5
+        Speed = 60
+        QualifySpeed = 70
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 5
+        Speed = 60
+        QualifySpeed = 70
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
     {
         Tier = 5
         Speed = 60
@@ -12752,7 +15546,71 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 65
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 65
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 65
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 65
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
     {
         Tier = 5
         Speed = 55
@@ -13024,7 +15882,71 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Sonoma_Raceway_NASCAR
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 50
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Talladega_2016
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 50
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 50
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Watkins_Glen_Short_NC
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 50
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Sonoma_Nascar
     {
         Tier = 5
         Speed = 55
