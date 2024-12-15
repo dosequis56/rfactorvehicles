@@ -179,12 +179,12 @@ Pitstop3Special=(8,"2 CANS",,)
 Pitstop3Setting=8
 AIMinPassesPerTick=5         // minimum passes per tick (can use more accurate spring/damper/torque values, but takes more CPU)
 AICornerRates=(0.89,0.89,0.89,0.89) // spring rate adjustment for AI physics
-AIBumpstop=(1,1,1,0.3)
+AIBumpstop=(1,1,1,1)
 AIDamping=(1.0,1.0,1.0,1.0)
 AIDownforceZArm=0.1          // hard-coded center-of-pressure offset from vehicle CG
 AIDownforceBias=0            // bias between setup and hard-coded value (0.0-1.0)
 AIFuelMult=-1                // PLR file override for AI fuel usage - only positive value will override, see PLR for default
-AIPerfUsage=(-1, -1, -1)     // PLR file overrides for (brake power usage, brake grip usage, corner grip usage) used by AI to estimate performance - only positive values will override, see PLR for defaults
+AIPerfUsage=(0.90, 0.90, 0.90)     // PLR file overrides for (brake power usage, brake grip usage, corner grip usage) used by AI to estimate performance - only positive values will override, see PLR for defaults
 AITableParams=(-1, -1)       // PLR file overrides for (max load, min radius) used when computing performance estimate tables - only positive values will override, see PLR for defaults
 
 
