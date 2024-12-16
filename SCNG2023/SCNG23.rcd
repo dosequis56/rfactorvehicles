@@ -822,6 +822,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    JM_Daytona_Speedway_Oval
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 70
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 99.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Dover_2016
     {
         Tier = 1
@@ -1150,6 +1166,24 @@ SCNG23
         DrivingLine = FASTEST
     }
     Daytona_2016
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 70
+        Composure = 90
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 97.00
+        MinRacingSkill = 90.00
+        PracticeTime = 31.2
+        PracticeTimeVariance = 0.125
+        QualifyTime = 31.2
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    JM_Daytona_Speedway_Oval
     {
         Tier = 1
         Speed = 90
@@ -1519,6 +1553,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    JM_Daytona_Speedway_Oval
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 88
+        WetSpeed = 90
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 95.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Dover_2016
     {
         Tier = 1
@@ -1841,6 +1891,22 @@ SCNG23
         DrivingLine = FASTEST
     }
     Daytona_2016
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 95.00
+        MinRacingSkill = 87.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    JM_Daytona_Speedway_Oval
     {
         Tier = 1
         Speed = 90
@@ -2193,6 +2259,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    JM_Daytona_Speedway_Oval
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 92.00
+        MinRacingSkill = 87.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Dover_2016
     {
         Tier = 1
@@ -2515,6 +2597,22 @@ SCNG23
         DrivingLine = FASTEST
     }
     Daytona_2016
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 95.00
+        MinRacingSkill = 85.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    JM_Daytona_Speedway_Oval
     {
         Tier = 1
         Speed = 90
@@ -2867,6 +2965,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    JM_Daytona_Speedway_Oval
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 85
+        WetSpeed = 90
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 93.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Dover_2016
     {
         Tier = 1
@@ -3189,6 +3303,22 @@ SCNG23
         DrivingLine = FASTEST
     }
     Daytona_2016
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 92.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    JM_Daytona_Speedway_Oval
     {
         Tier = 1
         Speed = 90
@@ -3541,6 +3671,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    JM_Daytona_Speedway_Oval
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 90
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 82.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Dover_2016
     {
         Tier = 1
@@ -3863,6 +4009,22 @@ SCNG23
         DrivingLine = FASTEST
     }
     Daytona_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    JM_Daytona_Speedway_Oval
     {
         Tier = 2
         Speed = 88
@@ -4215,6 +4377,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    JM_Daytona_Speedway_Oval
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 80
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Dover_2016
     {
         Tier = 2
@@ -4537,6 +4715,22 @@ SCNG23
         DrivingLine = FASTEST
     }
     Daytona_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    JM_Daytona_Speedway_Oval
     {
         Tier = 2
         Speed = 88
@@ -4889,6 +5083,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    JM_Daytona_Speedway_Oval
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 87
+        WetSpeed = 87
+        Aggression = 50
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Dover_2016
     {
         Tier = 2
@@ -5211,6 +5421,22 @@ SCNG23
         DrivingLine = HIGHLINE
     }
     Daytona_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 89
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    JM_Daytona_Speedway_Oval
     {
         Tier = 2
         Speed = 85
@@ -5563,6 +5789,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    JM_Daytona_Speedway_Oval
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Dover_2016
     {
         Tier = 2
@@ -5885,6 +6127,22 @@ SCNG23
         DrivingLine = HIGHLINE
     }
     Daytona_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 83
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    JM_Daytona_Speedway_Oval
     {
         Tier = 2
         Speed = 85
@@ -6237,6 +6495,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    JM_Daytona_Speedway_Oval
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 67.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Dover_2016
     {
         Tier = 2
@@ -6559,6 +6833,22 @@ SCNG23
         DrivingLine = HIGHLINE
     }
     Daytona_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    JM_Daytona_Speedway_Oval
     {
         Tier = 2
         Speed = 80
@@ -6911,6 +7201,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    JM_Daytona_Speedway_Oval
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Dover_2016
     {
         Tier = 2
@@ -7233,6 +7539,22 @@ SCNG23
         DrivingLine = HIGHLINE
     }
     Daytona_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    JM_Daytona_Speedway_Oval
     {
         Tier = 2
         Speed = 80
@@ -7585,6 +7907,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    JM_Daytona_Speedway_Oval
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Dover_2016
     {
         Tier = 2
@@ -7907,6 +8245,22 @@ SCNG23
         DrivingLine = HIGHLINE
     }
     Daytona_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    JM_Daytona_Speedway_Oval
     {
         Tier = 2
         Speed = 80
@@ -8259,6 +8613,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    JM_Daytona_Speedway_Oval
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Dover_2016
     {
         Tier = 2
@@ -8581,6 +8951,22 @@ SCNG23
         DrivingLine = HIGHLINE
     }
     Daytona_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    JM_Daytona_Speedway_Oval
     {
         Tier = 3
         Speed = 80
@@ -8933,6 +9319,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    JM_Daytona_Speedway_Oval
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Dover_2016
     {
         Tier = 3
@@ -9255,6 +9657,22 @@ SCNG23
         DrivingLine = HIGHLINE
     }
     Daytona_2016
+    {
+        Tier = 3
+        Speed = 77
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    JM_Daytona_Speedway_Oval
     {
         Tier = 3
         Speed = 77
@@ -9607,6 +10025,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    JM_Daytona_Speedway_Oval
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Dover_2016
     {
         Tier = 3
@@ -9940,6 +10374,22 @@ SCNG23
         Recovery = 99
         StartSkill = 96.00
         MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    JM_Daytona_Speedway_Oval
+    {
+        Tier = 3
+        Speed = 88
+        QualifySpeed = 99
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 96.00
+        MinRacingSkill = 75.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -10281,6 +10731,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    JM_Daytona_Speedway_Oval
+    {
+        Tier = 3
+        Speed = 88
+        QualifySpeed = 95
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 75.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Dover_2016
     {
         Tier = 3
@@ -10603,6 +11069,22 @@ SCNG23
         DrivingLine = HIGHLINE
     }
     Daytona_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    JM_Daytona_Speedway_Oval
     {
         Tier = 3
         Speed = 80
@@ -10955,6 +11437,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    JM_Daytona_Speedway_Oval
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 90.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Dover_2016
     {
         Tier = 3
@@ -11277,6 +11775,22 @@ SCNG23
         DrivingLine = HIGHLINE
     }
     Daytona_2016
+    {
+        Tier = 4
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    JM_Daytona_Speedway_Oval
     {
         Tier = 4
         Speed = 80
@@ -11629,6 +12143,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    JM_Daytona_Speedway_Oval
+    {
+        Tier = 4
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Dover_2016
     {
         Tier = 4
@@ -11951,6 +12481,22 @@ SCNG23
         DrivingLine = HIGHLINE
     }
     Daytona_2016
+    {
+        Tier = 4
+        Speed = 78
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    JM_Daytona_Speedway_Oval
     {
         Tier = 4
         Speed = 78
@@ -12303,6 +12849,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    JM_Daytona_Speedway_Oval
+    {
+        Tier = 4
+        Speed = 77
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Dover_2016
     {
         Tier = 4
@@ -12625,6 +13187,22 @@ SCNG23
         DrivingLine = HIGHLINE
     }
     Daytona_2016
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    JM_Daytona_Speedway_Oval
     {
         Tier = 4
         Speed = 75
@@ -12977,6 +13555,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    JM_Daytona_Speedway_Oval
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 70
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Dover_2016
     {
         Tier = 4
@@ -13299,6 +13893,22 @@ SCNG23
         DrivingLine = HIGHLINE
     }
     Daytona_2016
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 40
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 85.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    JM_Daytona_Speedway_Oval
     {
         Tier = 4
         Speed = 72
@@ -13651,6 +14261,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    JM_Daytona_Speedway_Oval
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 40
+        Composure = 50
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Dover_2016
     {
         Tier = 4
@@ -13977,6 +14603,24 @@ SCNG23
         DrivingLine = HIGHLINE
     }
     Daytona_2016
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        PracticeTime = 31.2
+        PracticeTimeVariance = 0.125
+        QualifyTime = 31.3
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    JM_Daytona_Speedway_Oval
     {
         Tier = 4
         Speed = 72
@@ -14356,6 +15000,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    JM_Daytona_Speedway_Oval
+    {
+        Tier = 5
+        Speed = 72
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 80.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Dover_2016
     {
         Tier = 5
@@ -14678,6 +15338,22 @@ SCNG23
         DrivingLine = HIGHLINE
     }
     Daytona_2016
+    {
+        Tier = 5
+        Speed = 65
+        QualifySpeed = 60
+        WetSpeed = 70
+        Aggression = 35
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    JM_Daytona_Speedway_Oval
     {
         Tier = 5
         Speed = 65
@@ -15030,6 +15706,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    JM_Daytona_Speedway_Oval
+    {
+        Tier = 5
+        Speed = 60
+        QualifySpeed = 70
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Dover_2016
     {
         Tier = 5
@@ -15367,6 +16059,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    JM_Daytona_Speedway_Oval
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 65
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     Dover_2016
     {
         Tier = 5
@@ -15689,6 +16397,22 @@ SCNG23
         DrivingLine = HIGHLINE
     }
     Daytona_2016
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 50
+        WetSpeed = 80
+        Aggression = 35
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 75.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    JM_Daytona_Speedway_Oval
     {
         Tier = 5
         Speed = 55
