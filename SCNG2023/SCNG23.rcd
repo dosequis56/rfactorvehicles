@@ -801,7 +801,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 99.00
-        MinRacingSkill = 90.00
+        MinRacingSkill = 85.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -828,7 +828,7 @@ SCNG23
         Speed = 90
         QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 70
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
@@ -1158,7 +1158,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 97.00
-        MinRacingSkill = 90.00
+        MinRacingSkill = 85.00
         PracticeTime = 31.2
         PracticeTimeVariance = 0.125
         QualifyTime = 31.2
@@ -1189,7 +1189,7 @@ SCNG23
         Speed = 90
         QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 70
+        Aggression = 50
         Composure = 90
         Courtesy = 99
         Recovery = 99
@@ -1532,7 +1532,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 95.00
-        MinRacingSkill = 90.00
+        MinRacingSkill = 85.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -1885,7 +1885,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 95.00
-        MinRacingSkill = 87.00
+        MinRacingSkill = 85.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -2238,7 +2238,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 92.00
-        MinRacingSkill = 87.00
+        MinRacingSkill = 85.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -2971,7 +2971,7 @@ SCNG23
         Speed = 90
         QualifySpeed = 85
         WetSpeed = 90
-        Aggression = 65
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
@@ -4027,7 +4027,7 @@ SCNG23
     JM_Daytona_Speedway_Oval
     {
         Tier = 2
-        Speed = 88
+        Speed = 90
         QualifySpeed = 85
         WetSpeed = 85
         Aggression = 50
@@ -5089,7 +5089,7 @@ SCNG23
         Speed = 88
         QualifySpeed = 87
         WetSpeed = 87
-        Aggression = 50
+        Aggression = 40
         Composure = 80
         Courtesy = 99
         Recovery = 99
@@ -5442,7 +5442,7 @@ SCNG23
         Speed = 85
         QualifySpeed = 89
         WetSpeed = 85
-        Aggression = 50
+        Aggression = 40
         Composure = 75
         Courtesy = 99
         Recovery = 99
@@ -5795,7 +5795,7 @@ SCNG23
         Speed = 85
         QualifySpeed = 85
         WetSpeed = 85
-        Aggression = 50
+        Aggression = 40
         Composure = 75
         Courtesy = 99
         Recovery = 99
@@ -6148,7 +6148,7 @@ SCNG23
         Speed = 85
         QualifySpeed = 83
         WetSpeed = 85
-        Aggression = 50
+        Aggression = 40
         Composure = 75
         Courtesy = 99
         Recovery = 99
@@ -6474,7 +6474,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
-        MinRacingSkill = 67.00
+        MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -6501,7 +6501,7 @@ SCNG23
         Speed = 85
         QualifySpeed = 88
         WetSpeed = 85
-        Aggression = 50
+        Aggression = 40
         Composure = 75
         Courtesy = 99
         Recovery = 99
@@ -6827,7 +6827,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -6854,7 +6854,7 @@ SCNG23
         Speed = 80
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 40
         Composure = 75
         Courtesy = 99
         Recovery = 99
@@ -7180,7 +7180,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -7207,7 +7207,7 @@ SCNG23
         Speed = 80
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 40
         Composure = 75
         Courtesy = 99
         Recovery = 99
@@ -7533,7 +7533,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -7560,7 +7560,7 @@ SCNG23
         Speed = 80
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 40
         Composure = 75
         Courtesy = 99
         Recovery = 99
@@ -7886,7 +7886,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -7913,7 +7913,7 @@ SCNG23
         Speed = 80
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 40
         Composure = 75
         Courtesy = 99
         Recovery = 99
@@ -8239,7 +8239,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -8266,7 +8266,7 @@ SCNG23
         Speed = 80
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 40
         Composure = 75
         Courtesy = 99
         Recovery = 99
@@ -8592,7 +8592,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -8619,7 +8619,7 @@ SCNG23
         Speed = 80
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 40
         Composure = 75
         Courtesy = 99
         Recovery = 99
@@ -8945,7 +8945,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -8972,7 +8972,7 @@ SCNG23
         Speed = 80
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 25
         Composure = 75
         Courtesy = 99
         Recovery = 99
@@ -9298,7 +9298,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -9325,7 +9325,7 @@ SCNG23
         Speed = 80
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 25
         Composure = 75
         Courtesy = 99
         Recovery = 99
@@ -9651,7 +9651,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -9678,7 +9678,7 @@ SCNG23
         Speed = 77
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 25
         Composure = 75
         Courtesy = 99
         Recovery = 99
@@ -10004,7 +10004,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -10031,7 +10031,7 @@ SCNG23
         Speed = 80
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 25
         Composure = 75
         Courtesy = 99
         Recovery = 99
@@ -10357,7 +10357,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 55.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -10380,7 +10380,7 @@ SCNG23
     }
     JM_Daytona_Speedway_Oval
     {
-        Tier = 3
+        Tier = 1
         Speed = 88
         QualifySpeed = 99
         WetSpeed = 80
@@ -10710,7 +10710,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 55.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -10733,8 +10733,8 @@ SCNG23
     }
     JM_Daytona_Speedway_Oval
     {
-        Tier = 3
-        Speed = 88
+        Tier = 1
+        Speed = 90
         QualifySpeed = 95
         WetSpeed = 80
         Aggression = 50
@@ -11063,7 +11063,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 55.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -11090,7 +11090,7 @@ SCNG23
         Speed = 80
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 25
         Composure = 75
         Courtesy = 99
         Recovery = 99
@@ -11407,16 +11407,16 @@ SCNG23
     }
     Darlington_500
     {
-        Tier = 3
-        Speed = 80
-        QualifySpeed = 70
-        WetSpeed = 70
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 90
+        WetSpeed = 90
         Aggression = 50
-        Composure = 75
+        Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -11443,7 +11443,7 @@ SCNG23
         Speed = 80
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 25
         Composure = 75
         Courtesy = 99
         Recovery = 99
@@ -11796,7 +11796,7 @@ SCNG23
         Speed = 80
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 25
         Composure = 75
         Courtesy = 99
         Recovery = 99
@@ -12149,7 +12149,7 @@ SCNG23
         Speed = 80
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 25
         Composure = 55
         Courtesy = 99
         Recovery = 99
@@ -12502,7 +12502,7 @@ SCNG23
         Speed = 78
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 25
         Composure = 55
         Courtesy = 99
         Recovery = 99
@@ -12855,7 +12855,7 @@ SCNG23
         Speed = 77
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 25
         Composure = 55
         Courtesy = 99
         Recovery = 99
@@ -13208,7 +13208,7 @@ SCNG23
         Speed = 75
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 25
         Composure = 55
         Courtesy = 99
         Recovery = 99
@@ -13561,7 +13561,7 @@ SCNG23
         Speed = 75
         QualifySpeed = 70
         WetSpeed = 75
-        Aggression = 50
+        Aggression = 25
         Composure = 55
         Courtesy = 99
         Recovery = 99
@@ -13914,7 +13914,7 @@ SCNG23
         Speed = 72
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 40
+        Aggression = 25
         Composure = 55
         Courtesy = 99
         Recovery = 99
@@ -14267,7 +14267,7 @@ SCNG23
         Speed = 72
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 40
+        Aggression = 25
         Composure = 50
         Courtesy = 99
         Recovery = 99
@@ -14626,7 +14626,7 @@ SCNG23
         Speed = 72
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 35
+        Aggression = 5
         Composure = 45
         Courtesy = 99
         Recovery = 99
@@ -15006,7 +15006,7 @@ SCNG23
         Speed = 72
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 35
+        Aggression = 5
         Composure = 45
         Courtesy = 99
         Recovery = 99
@@ -15359,7 +15359,7 @@ SCNG23
         Speed = 65
         QualifySpeed = 60
         WetSpeed = 70
-        Aggression = 35
+        Aggression = 5
         Composure = 45
         Courtesy = 99
         Recovery = 99
@@ -15712,7 +15712,7 @@ SCNG23
         Speed = 60
         QualifySpeed = 70
         WetSpeed = 80
-        Aggression = 35
+        Aggression = 5
         Composure = 35
         Courtesy = 99
         Recovery = 99
@@ -16065,7 +16065,7 @@ SCNG23
         Speed = 55
         QualifySpeed = 65
         WetSpeed = 80
-        Aggression = 35
+        Aggression = 5
         Composure = 35
         Courtesy = 99
         Recovery = 99
@@ -16418,7 +16418,7 @@ SCNG23
         Speed = 55
         QualifySpeed = 50
         WetSpeed = 80
-        Aggression = 35
+        Aggression = 5
         Composure = 35
         Courtesy = 99
         Recovery = 99
