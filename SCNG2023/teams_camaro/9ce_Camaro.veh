@@ -25,7 +25,7 @@ Sounds=SCNG23_Sounds.json              // Sounds=default.sfx
 Cameras=SCNG23_Camaro.cam                     // Defaults to default.cfg in UserData directory
 HeadPhysics=HeadPhysics.ini                    // Affects driver eyepoint only
 Cockpit=SCNG23_Camaro_CockpitInfo.ini
-ExternalDisplays=SCNG23_Camaro_ExternalDisplays.ini
+//ExternalDisplays=SCNG23_Camaro_ExternalDisplays.ini
 Upgrades=SCNG23_Upgrades.ini
 AIUpgradeClass=SCNG23
 

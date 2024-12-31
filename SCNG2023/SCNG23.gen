@@ -51,12 +51,11 @@ Instance=SLOT<ID>
     MeshFile=SCNG<12>_<3456>_INT_LCD.GMT           CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(100) Reflect=NoLOD
     MeshFile=SCNG<12>_<3456>_INT_LMIRROR_IN.GMT    CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(100) Reflect=NoLOD
     MeshFile=SCNG<12>_<3456>_INT_CMIRROR_IN.GMT    CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(100) Reflect=NoLOD
-    MeshFile=SCNG<12>_<3456>_INT_MIRROR_IN.GMT     CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(1)   Reflect=NoLOD
+    MeshFile=SCNG<12>_<3456>_INT_MIRROR_IN.GMT     CollTarget=False HATTarget=False Render=False ShadowCaster=False LODIn=(0) LODOut=(1)   Reflect=NoLOD
     MeshFile=SCNG<12>_<3456>_INT_MISC.GMT          CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(100) Reflect=NoLOD
     MeshFile=SCNG<12>_<3456>_INT_PLASTIC.GMT       CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(100) Reflect=NoLOD
     MeshFile=SCNG<12>_<3456>_INT_RMIRROR_IN.GMT    CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(100) Reflect=NoLOD
     MeshFile=SCNG<12>_<3456>_INT_SCREWS_IN.GMT     CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(100) Reflect=NoLOD
-
     MeshFile=SCNG<12>_<3456>_PLASTIC_IN.GMT        CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=NoLOD
     MeshFile=SCNG<12>_<3456>_MIRROR_EX.GMT         CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=NoLOD
     MeshFile=SCNG<12>_<3456>_MISC.GMT              CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=NoLOD
@@ -297,5 +296,11 @@ Instance=SLOT<ID>
   {
     Moveable=True
     MeshFile=SCNG<12>_CALIPER_RR.GMT  CollTarget=False HATTarget=False LODIn=(0) LODOut=(60) ShadowCaster=False Reflect=True
+  }
+  
+    Instance=BACKFIRE
+  {
+    Moveable=True
+    MeshFile=SCNG<12>_<3456>_backfire.gmt CollTarget=False HATTarget=False LODIn=(0) LODOut=(80)
   }
 }
