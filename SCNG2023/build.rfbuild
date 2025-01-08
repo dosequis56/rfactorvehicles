@@ -5,7 +5,7 @@ rfcmp
 [Component]
 Name=NASCAR Next Generation Cars
 Type=2
-Version=2024-0923220327
+Version=2025-0106172057
 Author=Stock Car Evolution
 Origin=1
 Category=8
@@ -61,6 +61,6 @@ SCNG2023.MAS
 /SCNG23_Spinner.gen
 /SCNG23_SSWrestricted_engine.ini
 /SCNG23_Upgrades.ini
-/TrackConfigBase.ini
+/TrackConfigsBase.ini
 }
 

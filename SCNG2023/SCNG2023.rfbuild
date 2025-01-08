@@ -1,11 +1,8 @@
-buildpath=BUILD_TARGET_PATH\RFACTOR\SCNG2023
-
 rfcmp
 {
 [Component]
 Name=NASCAR Next Generation Cars
 Type=2
-Version=BUILD_TARGET_VERSION
 Author=Stock Car Evolution
 Origin=1
 Category=8
