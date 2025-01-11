@@ -395,7 +395,11 @@ SCNG23
       StepSpeed6 = 82.00                     // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
       StepSpeed7 = 88.00                     // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
       StepSpeed8 = 93.00                     // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
-      CorneringCaution = 10.00               // (0.1-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      UnderSteerEffectOnThrottleMulti = 250.00// Min 0.1,  Max 133  Raise if you want AI to more quickly get off throttle when he detects understeer
+      UnderSteerEffectOnLineMulti = 250.00   //  Min 0.1,  Max 300  Lower if you want AI to more quickly adjust line wide when he detects understeer
+      OverSteerThrottleReaction = -35.00     // Min -100, Max 100  Raise to make AI keep on throttle more if loose// How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 35.00               // (0.1-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
     }
     Kansas_2016
     {
@@ -498,19 +502,21 @@ SCNG23
       StepSpeed6 = 72.50                     // look ahead 33 meters (108.272995 feet) at 261 KPH 162.17526 MPH
       StepSpeed7 = 85.00                     // look ahead 38.5 meters (126.3185 feet) at 306 KPH 190.1365 MPH
       StepSpeed8 = 94.00                     // look ahead 44 meters (144.364 feet) at 338.4 KPH 210.26862 MPH
-      UnderSteerEffectOnThrottleMulti = 0.10 // Min 0.1,  Max 133  Raise if you want AI to more quickly get off throttle when he detects understeer
-      UnderSteerEffectOnLineMulti = 0.10     //  Min 0.1,  Max 300  Lower if you want AI to more quickly adjust line wide when he detects understeer
-      OverSteerThrottleReaction = -36.00     // Min -100, Max 100  Raise to make AI keep on throttle more if loose// How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
-      CorneringCaution = 45.00               // (0.1-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      UnderSteerEffectOnThrottleMulti = 133.00// Min 0.1,  Max 133  Raise if you want AI to more quickly get off throttle when he detects understeer
+      UnderSteerEffectOnLineMulti = 100.00   //  Min 0.1,  Max 300  Lower if you want AI to more quickly adjust line wide when he detects understeer
+      OverSteerThrottleReaction = -35.00     // Min -100, Max 100  Raise to make AI keep on throttle more if loose// How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 25.00               // (0.1-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
       FearOfWalls = 1.00                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
       DrivingLine = FASTEST, HIGHLINE
     }
     TCH_NASH
     {
-      UnderSteerEffectOnThrottleMulti = 0.10 // Min 0.1,  Max 133  Raise if you want AI to more quickly get off throttle when he detects understeer
-      UnderSteerEffectOnLineMulti = 300.00   //  Min 0.1,  Max 300  Lower if you want AI to more quickly adjust line wide when he detects understeer
-      OverSteerThrottleReaction = 100.00     // Min -100, Max 100  Raise to make AI keep on throttle more if loose// How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
-      CorneringCaution = 100.00              // (0.1-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      UnderSteerEffectOnThrottleMulti = 133.00// Min 0.1,  Max 133  Raise if you want AI to more quickly get off throttle when he detects understeer
+      UnderSteerEffectOnLineMulti = 100.00   //  Min 0.1,  Max 300  Lower if you want AI to more quickly adjust line wide when he detects understeer
+      OverSteerThrottleReaction = -75.00     // Min -100, Max 100  Raise to make AI keep on throttle more if loose// How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 25.00               // (0.1-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 1.00                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST
     }
     NewHampshire_2016
     {
@@ -973,6 +979,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Michigan_2016
+    {
+        Tier = 1
+        Speed = 99
+        QualifySpeed = 99
+        WetSpeed = 99
+        Aggression = 95
+        Composure = 99
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     NewHampshire_2016
     {
         Tier = 1
@@ -1361,6 +1383,24 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Michigan_2016
+    {
+        Tier = 1
+        Speed = 99
+        QualifySpeed = 99
+        WetSpeed = 99
+        Aggression = 95
+        Composure = 99
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTime = 31.2
+        PracticeTimeVariance = 0.125
+        QualifyTime = 31.2
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
     NewHampshire_2016
     {
         Tier = 1
@@ -1738,6 +1778,21 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Michigan_2016
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 88
+        WetSpeed = 90
+        Aggression = 75
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
     NewHampshire_2016
     {
         Tier = 1
@@ -2106,6 +2161,21 @@ SCNG23
         QualifyTime = 19.73
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Michigan_2016
+    {
+        Tier = 1
+        Speed = 93
+        QualifySpeed = 92
+        WetSpeed = 85
+        Aggression = 75
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     NewHampshire_2016
     {
@@ -2476,6 +2546,21 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Michigan_2016
+    {
+        Tier = 1
+        Speed = 95
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 80
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
     NewHampshire_2016
     {
         Tier = 1
@@ -2844,6 +2929,21 @@ SCNG23
         QualifyTime = 19.73
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Michigan_2016
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 91
+        WetSpeed = 88
+        Aggression = 80
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     NewHampshire_2016
     {
@@ -3214,6 +3314,21 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Michigan_2016
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 85
+        WetSpeed = 90
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
     NewHampshire_2016
     {
         Tier = 1
@@ -3582,6 +3697,21 @@ SCNG23
         QualifyTime = 19.73
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Michigan_2016
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 85
+        WetSpeed = 80
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     NewHampshire_2016
     {
@@ -3952,6 +4082,21 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
     }
+    Michigan_2016
+    {
+        Tier = 1
+        Speed = 95
+        QualifySpeed = 90
+        WetSpeed = 88
+        Aggression = 75
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
     NewHampshire_2016
     {
         Tier = 1
@@ -4320,6 +4465,21 @@ SCNG23
         QualifyTime = 19.73
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Michigan_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 95
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     NewHampshire_2016
     {
@@ -4690,6 +4850,21 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
     }
+    Michigan_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 80
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
     NewHampshire_2016
     {
         Tier = 2
@@ -5058,6 +5233,21 @@ SCNG23
         QualifyTime = 19.73
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Michigan_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     NewHampshire_2016
     {
@@ -5428,6 +5618,21 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
     }
+    Michigan_2016
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 87
+        WetSpeed = 87
+        Aggression = 95
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
     NewHampshire_2016
     {
         Tier = 2
@@ -5796,6 +6001,21 @@ SCNG23
         QualifyTime = 19.85
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Michigan_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 89
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     NewHampshire_2016
     {
@@ -6166,6 +6386,21 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
     }
+    Michigan_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
     NewHampshire_2016
     {
         Tier = 2
@@ -6534,6 +6769,21 @@ SCNG23
         QualifyTime = 19.85
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Michigan_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 83
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     NewHampshire_2016
     {
@@ -6904,6 +7154,21 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
     }
+    Michigan_2016
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 65.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
     NewHampshire_2016
     {
         Tier = 2
@@ -7272,6 +7537,21 @@ SCNG23
         QualifyTime = 19.85
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
+    }
+    Michigan_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 65.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     NewHampshire_2016
     {
@@ -7642,6 +7922,21 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
+    Michigan_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 65.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
     NewHampshire_2016
     {
         Tier = 2
@@ -8010,6 +8305,21 @@ SCNG23
         QualifyTime = 19.85
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
+    }
+    Michigan_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 55.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     NewHampshire_2016
     {
@@ -8380,6 +8690,21 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
+    Michigan_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
     NewHampshire_2016
     {
         Tier = 2
@@ -8748,6 +9073,21 @@ SCNG23
         QualifyTime = 19.85
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
+    }
+    Michigan_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     NewHampshire_2016
     {
@@ -9118,6 +9458,21 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
+    Michigan_2016
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
     NewHampshire_2016
     {
         Tier = 2
@@ -9486,6 +9841,21 @@ SCNG23
         QualifyTime = 19.93
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
+    }
+    Michigan_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     NewHampshire_2016
     {
@@ -9856,6 +10226,21 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
+    Michigan_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
     NewHampshire_2016
     {
         Tier = 3
@@ -10224,6 +10609,21 @@ SCNG23
         QualifyTime = 19.93
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
+    }
+    Michigan_2016
+    {
+        Tier = 3
+        Speed = 77
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     NewHampshire_2016
     {
@@ -10594,6 +10994,21 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
     }
+    Michigan_2016
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
     NewHampshire_2016
     {
         Tier = 3
@@ -10962,6 +11377,21 @@ SCNG23
         QualifyTime = 19.93
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
+    }
+    Michigan_2016
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     NewHampshire_2016
     {
@@ -11332,6 +11762,21 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
     }
+    Michigan_2016
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
     NewHampshire_2016
     {
         Tier = 3
@@ -11700,6 +12145,21 @@ SCNG23
         QualifyTime = 19.93
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
+    }
+    Michigan_2016
+    {
+        Tier = 3
+        Speed = 72
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     NewHampshire_2016
     {
@@ -12070,6 +12530,21 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
     }
+    Michigan_2016
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
     NewHampshire_2016
     {
         Tier = 3
@@ -12438,6 +12913,21 @@ SCNG23
         QualifyTime = 20
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
+    }
+    Michigan_2016
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 40
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     NewHampshire_2016
     {
@@ -12808,6 +13298,21 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
     }
+    Michigan_2016
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 40
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
     NewHampshire_2016
     {
         Tier = 4
@@ -13176,6 +13681,21 @@ SCNG23
         QualifyTime = 20
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
+    }
+    Michigan_2016
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     NewHampshire_2016
     {
@@ -13546,6 +14066,21 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
     }
+    Michigan_2016
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
     NewHampshire_2016
     {
         Tier = 4
@@ -13914,6 +14449,21 @@ SCNG23
         QualifyTime = 20
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
+    }
+    Michigan_2016
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     NewHampshire_2016
     {
@@ -14284,6 +14834,21 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
     }
+    Michigan_2016
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
     NewHampshire_2016
     {
         Tier = 4
@@ -14653,6 +15218,21 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
     }
+    Michigan_2016
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 35
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
     NewHampshire_2016
     {
         Tier = 4
@@ -15021,6 +15601,21 @@ SCNG23
         QualifyTime = 20.1
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
+    }
+    Michigan_2016
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 35
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     NewHampshire_2016
     {
@@ -15410,6 +16005,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
     }
+    Michigan_2016
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 25
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTime = 31.2
+        PracticeTimeVariance = 0.125
+        QualifyTime = 31.3
+        QualifyTimeVariance = 0.125
+    }
     NewHampshire_2016
     {
         Tier = 4
@@ -15795,6 +16407,21 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
     }
+    Michigan_2016
+    {
+        Tier = 5
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 25
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
     NewHampshire_2016
     {
         Tier = 5
@@ -16163,6 +16790,21 @@ SCNG23
         QualifyTime = 20.2
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
+    }
+    Michigan_2016
+    {
+        Tier = 5
+        Speed = 65
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 35
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     NewHampshire_2016
     {
@@ -16533,6 +17175,21 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
     }
+    Michigan_2016
+    {
+        Tier = 5
+        Speed = 60
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 25
+        Composure = 15
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
     NewHampshire_2016
     {
         Tier = 5
@@ -16902,6 +17559,21 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
     }
+    Michigan_2016
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 25
+        Composure = 15
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+    }
     NewHampshire_2016
     {
         Tier = 5
@@ -17270,6 +17942,21 @@ SCNG23
         QualifyTime = 20.3
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
+    }
+    Michigan_2016
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 35
+        Composure = 15
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
     }
     NewHampshire_2016
     {
