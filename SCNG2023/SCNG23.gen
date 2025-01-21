@@ -33,7 +33,7 @@ Instance=SLOT<ID>
 <LOW>  MeshFile=SCNG<12>_<3456>_BODY_LOD3.GMT  CollTarget=False HATTarget=False LODIn=(150) LODOut=(350) ShadowCaster=(False, Solid) Reflect=NoLOD
 
   MeshFile=SCNG<12>_COLL.GMT  CollTarget=True  HATTarget=False Render=False LODIn=(0) LODOut=(200)
-  MeshFile=SCNG<12>_<3456>_SHAD.GMT  CollTarget=False HATTarget=False Render=False LODIn=(0) LODOut=(200) ShadowCaster=(True, Solid)
+  MeshFile=SCNG<12>_<3456>_SHAD.GMT  CollTarget=False HATTarget=False Render=False LODIn=(0) LODOut=(900) ShadowCaster=(True, Solid)
 
   Actor=VEHICLE
 
@@ -72,8 +72,8 @@ Instance=SLOT<ID>
     MeshFile=SCNG<12>_<3456>_INT_BUTTONS.GMT       CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(100) Reflect=NoLOD
     MeshFile=SCNG<12>_<3456>_INT_DECALS.GMT        CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(100) Reflect=NoLOD
     MeshFile=SCNG<12>_<3456>_INT_DISPLAY.GMT       CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(100) Reflect=NoLOD
-    MeshFile=SCNG<12>_<3456>_INT_FISHNET.GMT       CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=NoLOD
-    MeshFile=SCNG<12>_<3456>_INT_FISHNET_MET.GMT   CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(100) Reflect=NoLOD
+    MeshFile=SCNG<12>_<3456>_INT_FISHNET.GMT       CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(100) Reflect=NoLOD
+    MeshFile=SCNG<12>_<3456>_INT_FISHNET_MET.GMT   CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(100) Reflect=NoLOD
     MeshFile=SCNG<12>_<3456>_INT_LMIRROR_EX.GMT    CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(100) Reflect=NoLOD
     MeshFile=SCNG<12>_<3456>_INT_MIRROR_EX.GMT     CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(100) Reflect=NoLOD
     MeshFile=SCNG<12>_<3456>_INT_MISC.GMT          CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(100) Reflect=NoLOD
@@ -138,7 +138,7 @@ Instance=SLOT<ID>
   Instance=WINDOWS
   {
     Moveable=True
-    MeshFile=SCNG<12>_<3456>_WINDOWS.GMT  CollTarget=False HATTarget=False ShadowCaster=(True, Solid) LODIn=(0) LODOut=(200)  Reflect=NoLOD
+    MeshFile=SCNG<12>_<3456>_WINDOWS.GMT  CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0) LODOut=(200)  Reflect=NoLOD
   }
 
    Instance=WIPER
