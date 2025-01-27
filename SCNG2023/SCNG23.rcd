@@ -842,7 +842,7 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 99.00
+        StartSkill = 50.00
         MinRacingSkill = 85.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -851,16 +851,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 1
-        Speed = 90
-        QualifySpeed = 90
+        Speed = 80
+        QualifySpeed = 99
         WetSpeed = 90
-        Aggression = 70
+        Aggression = 55
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 90.00
-        PracticeTimeVariance = 0.125
+        StartSkill = 50.00
+        MinRacingSkill = 92.00
+        PracticeTimeVariance = 0.5
+        QualifyTime = 83
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -874,7 +875,7 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 99.00
+        StartSkill = 50.00
         MinRacingSkill = 85.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -1247,7 +1248,7 @@ SCNG23
         Composure = 90
         Courtesy = 99
         Recovery = 99
-        StartSkill = 97.00
+        StartSkill = 50.00
         MinRacingSkill = 85.00
         PracticeTime = 31.2
         PracticeTimeVariance = 0.125
@@ -1258,16 +1259,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 2
-        Speed = 85
+        Speed = 73
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 65
+        Aggression = 51
         Composure = 90
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 90.00
-        PracticeTimeVariance = 0.125
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.5
+        QualifyTime = 84
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -1281,7 +1283,7 @@ SCNG23
         Composure = 90
         Courtesy = 99
         Recovery = 99
-        StartSkill = 97.00
+        StartSkill = 50.00
         MinRacingSkill = 85.00
         PracticeTime = 31.2
         PracticeTimeVariance = 0.125
@@ -1673,7 +1675,7 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 95.00
+        StartSkill = 50.00
         MinRacingSkill = 85.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -1682,16 +1684,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 1
-        Speed = 90
-        QualifySpeed = 88
+        Speed = 80
+        QualifySpeed = 99
         WetSpeed = 90
-        Aggression = 50
+        Aggression = 55
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 50.00
         MinRacingSkill = 90.00
-        PracticeTimeVariance = 0.125
+        PracticeTimeVariance = 0.5
+        QualifyTime = 83
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -1705,7 +1708,7 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 95.00
+        StartSkill = 50.00
         MinRacingSkill = 85.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -2073,7 +2076,7 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 95.00
+        StartSkill = 50.00
         MinRacingSkill = 85.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -2082,16 +2085,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 1
-        Speed = 90
-        QualifySpeed = 90
+        Speed = 80
+        QualifySpeed = 99
         WetSpeed = 85
-        Aggression = 50
+        Aggression = 55
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 87.00
-        PracticeTimeVariance = 0.125
+        StartSkill = 50.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.5
+        QualifyTime = 83
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -2105,7 +2109,7 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 95.00
+        StartSkill = 50.00
         MinRacingSkill = 85.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -2473,7 +2477,7 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 92.00
+        StartSkill = 50.00
         MinRacingSkill = 85.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -2482,16 +2486,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 1
-        Speed = 90
-        QualifySpeed = 90
+        Speed = 78
+        QualifySpeed = 99
         WetSpeed = 90
-        Aggression = 50
+        Aggression = 55
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 50.00
         MinRacingSkill = 87.00
-        PracticeTimeVariance = 0.125
+        PracticeTimeVariance = 0.5
+        QualifyTime = 83
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -2505,7 +2510,7 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 92.00
+        StartSkill = 50.00
         MinRacingSkill = 85.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -2873,7 +2878,7 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 95.00
+        StartSkill = 50.00
         MinRacingSkill = 85.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -2882,16 +2887,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 1
-        Speed = 90
-        QualifySpeed = 90
+        Speed = 78
+        QualifySpeed = 99
         WetSpeed = 90
-        Aggression = 50
+        Aggression = 55
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 85.00
-        PracticeTimeVariance = 0.125
+        StartSkill = 50.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.5
+        QualifyTime = 83
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -2905,7 +2911,7 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 95.00
+        StartSkill = 50.00
         MinRacingSkill = 85.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -3273,7 +3279,7 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 93.00
+        StartSkill = 50.00
         MinRacingSkill = 82.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -3282,16 +3288,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 1
-        Speed = 90
-        QualifySpeed = 85
+        Speed = 78
+        QualifySpeed = 95
         WetSpeed = 90
-        Aggression = 65
+        Aggression = 55
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 82.00
-        PracticeTimeVariance = 0.125
+        StartSkill = 50.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.5
+        QualifyTime = 83
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -3305,7 +3312,7 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 93.00
+        StartSkill = 50.00
         MinRacingSkill = 82.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -3673,7 +3680,7 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 92.00
+        StartSkill = 50.00
         MinRacingSkill = 82.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -3682,16 +3689,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 2
-        Speed = 85
+        Speed = 73
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 51
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 82.00
-        PracticeTimeVariance = 0.125
+        PracticeTimeVariance = 0.5
+        QualifyTime = 83
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -3705,7 +3713,7 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 92.00
+        StartSkill = 50.00
         MinRacingSkill = 82.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -4073,7 +4081,7 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 50.00
         MinRacingSkill = 82.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -4082,16 +4090,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 1
-        Speed = 90
-        QualifySpeed = 90
+        Speed = 75
+        QualifySpeed = 95
         WetSpeed = 88
-        Aggression = 50
+        Aggression = 55
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 82.00
-        PracticeTimeVariance = 0.125
+        PracticeTimeVariance = 0.5
+        QualifyTime = 83
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -4105,7 +4114,7 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 50.00
         MinRacingSkill = 82.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -4473,7 +4482,7 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -4481,17 +4490,18 @@ SCNG23
     }
     Charlotte_Roval_2024
     {
-        Tier = 2
-        Speed = 88
-        QualifySpeed = 85
+        Tier = 1
+        Speed = 77
+        QualifySpeed = 95
         WetSpeed = 85
-        Aggression = 50
+        Aggression = 55
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 50.00
         MinRacingSkill = 88.00
-        PracticeTimeVariance = 0.125
+        PracticeTimeVariance = 0.5
+        QualifyTime = 83
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -4505,7 +4515,7 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -4873,7 +4883,7 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -4882,16 +4892,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 2
-        Speed = 88
+        Speed = 74
         QualifySpeed = 80
         WetSpeed = 88
-        Aggression = 50
+        Aggression = 51
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.125
+        PracticeTimeVariance = 0.5
+        QualifyTime = 84
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -4905,7 +4916,7 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -5273,7 +5284,7 @@ SCNG23
         Composure = 80
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -5282,16 +5293,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 2
-        Speed = 88
+        Speed = 71
         QualifySpeed = 88
         WetSpeed = 85
-        Aggression = 50
+        Aggression = 51
         Composure = 80
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.125
+        PracticeTimeVariance = 0.5
+        QualifyTime = 84
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -5305,7 +5317,7 @@ SCNG23
         Composure = 80
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -5673,7 +5685,7 @@ SCNG23
         Composure = 80
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -5682,16 +5694,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 2
-        Speed = 88
+        Speed = 71
         QualifySpeed = 87
         WetSpeed = 87
-        Aggression = 50
+        Aggression = 51
         Composure = 80
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.125
+        PracticeTimeVariance = 0.5
+        QualifyTime = 84
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -5705,7 +5718,7 @@ SCNG23
         Composure = 80
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -6073,7 +6086,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -6082,16 +6095,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 2
-        Speed = 85
+        Speed = 70
         QualifySpeed = 89
         WetSpeed = 85
-        Aggression = 50
+        Aggression = 51
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.125
+        PracticeTimeVariance = 0.5
+        QualifyTime = 84
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -6105,7 +6119,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -6473,7 +6487,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -6482,16 +6496,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 2
-        Speed = 85
+        Speed = 75
         QualifySpeed = 85
         WetSpeed = 85
-        Aggression = 50
+        Aggression = 51
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 70.00
-        PracticeTimeVariance = 0.125
+        PracticeTimeVariance = 0.5
+        QualifyTime = 84.25
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -6505,7 +6520,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -6873,7 +6888,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -6882,16 +6897,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 2
-        Speed = 85
+        Speed = 66
         QualifySpeed = 83
         WetSpeed = 85
-        Aggression = 50
+        Aggression = 51
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 70.00
-        PracticeTimeVariance = 0.125
+        PracticeTimeVariance = 0.5
+        QualifyTime = 84.25
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -6905,7 +6921,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -7273,7 +7289,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -7282,16 +7298,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 2
-        Speed = 88
-        QualifySpeed = 88
+        Speed = 75
+        QualifySpeed = 95
         WetSpeed = 85
-        Aggression = 50
+        Aggression = 55
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 85.00
-        PracticeTimeVariance = 0.125
+        PracticeTimeVariance = 0.5
+        QualifyTime = 83
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -7305,7 +7322,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -7673,7 +7690,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -7682,16 +7699,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 2
-        Speed = 80
-        QualifySpeed = 80
+        Speed = 77
+        QualifySpeed = 90
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 51
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.5
+        QualifyTime = 84.25
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -7705,7 +7723,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -8073,7 +8091,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -8082,16 +8100,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 2
-        Speed = 80
+        Speed = 75
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.5
+        QualifyTime = 84.25
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -8105,7 +8124,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -8473,7 +8492,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -8482,16 +8501,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 1
-        Speed = 92
-        QualifySpeed = 90
+        Speed = 80
+        QualifySpeed = 99
         WetSpeed = 92
-        Aggression = 75
+        Aggression = 55
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 90.00
-        PracticeTimeVariance = 0.125
+        StartSkill = 50.00
+        MinRacingSkill = 94.00
+        PracticeTimeVariance = 0.5
+        QualifyTime = 82.7
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -8505,7 +8525,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -8873,7 +8893,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -8882,16 +8902,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 2
-        Speed = 80
+        Speed = 65
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
+        PracticeTimeVariance = 0.5
+        QualifyTime = 84.25
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -8905,7 +8926,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -9273,7 +9294,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -9282,16 +9303,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 2
-        Speed = 80
+        Speed = 74
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
+        StartSkill = 40.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.5
+        QualifyTime = 84.25
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -9305,7 +9327,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -9673,7 +9695,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 40.00
         MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -9682,16 +9704,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 2
-        Speed = 80
+        Speed = 65
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 40.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
+        PracticeTimeVariance = 0.75
+        QualifyTime = 84.25
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -9705,7 +9728,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 40.00
         MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -10073,7 +10096,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 40.00
         MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -10082,16 +10105,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 3
-        Speed = 80
+        Speed = 65
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 40.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
+        PracticeTimeVariance = 0.75
+        QualifyTime = 84.4
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -10105,7 +10129,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 40.00
         MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -10473,7 +10497,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 40.00
         MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -10482,16 +10506,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 3
-        Speed = 80
+        Speed = 65
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 40.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
+        PracticeTimeVariance = 0.75
+        QualifyTime = 84.4
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -10505,7 +10530,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 40.00
         MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -10873,7 +10898,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 40.00
         MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -10882,16 +10907,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 3
-        Speed = 77
+        Speed = 67
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 40.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
+        PracticeTimeVariance = 0.75
+        QualifyTime = 84.4
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -10905,7 +10931,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 40.00
         MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -11273,7 +11299,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 40.00
         MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -11282,16 +11308,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 3
-        Speed = 80
+        Speed = 74
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
+        StartSkill = 40.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.75
+        QualifyTime = 84.4
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -11305,7 +11332,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 40.00
         MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -11673,7 +11700,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 40.00
         MinRacingSkill = 55.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -11682,16 +11709,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 1
-        Speed = 90
-        QualifySpeed = 90
+        Speed = 80
+        QualifySpeed = 99
         WetSpeed = 90
-        Aggression = 75
+        Aggression = 55
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
-        MinRacingSkill = 90.00
-        PracticeTimeVariance = 0.125
+        StartSkill = 50.00
+        MinRacingSkill = 92.00
+        PracticeTimeVariance = 0.5
+        QualifyTime = 82.8
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -11705,7 +11733,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 40.00
         MinRacingSkill = 55.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -12073,7 +12101,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 40.00
         MinRacingSkill = 55.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -12082,16 +12110,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 2
-        Speed = 86
+        Speed = 70
         QualifySpeed = 88
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 51
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.125
+        PracticeTimeVariance = 0.5
+        QualifyTime = 84
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -12105,7 +12134,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 40.00
         MinRacingSkill = 55.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -12473,7 +12502,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 40.00
         MinRacingSkill = 55.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -12482,16 +12511,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 3
-        Speed = 80
+        Speed = 65
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 40.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
+        PracticeTimeVariance = 0.75
+        QualifyTime = 84.6
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -12505,7 +12535,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 40.00
         MinRacingSkill = 55.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -12873,7 +12903,7 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -12883,15 +12913,16 @@ SCNG23
     {
         Tier = 3
         Speed = 80
-        QualifySpeed = 80
+        QualifySpeed = 92
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 40.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
+        PracticeTimeVariance = 0.75
+        QualifyTime = 84.6
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -12905,7 +12936,7 @@ SCNG23
         Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 90.00
+        StartSkill = 45.00
         MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -13273,7 +13304,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -13282,16 +13313,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 4
-        Speed = 80
+        Speed = 65
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
+        PracticeTimeVariance = 0.75
+        QualifyTime = 84.6
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -13305,7 +13337,7 @@ SCNG23
         Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -13673,7 +13705,7 @@ SCNG23
         Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -13682,16 +13714,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 4
-        Speed = 80
+        Speed = 65
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 45
         Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
+        PracticeTimeVariance = 0.75
+        QualifyTime = 84.6
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -13705,7 +13738,7 @@ SCNG23
         Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -14073,7 +14106,7 @@ SCNG23
         Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -14082,16 +14115,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 4
-        Speed = 78
+        Speed = 65
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 45
         Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
+        PracticeTimeVariance = 1
+        QualifyTime = 84.6
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -14105,7 +14139,7 @@ SCNG23
         Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -14473,7 +14507,7 @@ SCNG23
         Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -14482,16 +14516,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 4
-        Speed = 77
+        Speed = 60
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 36
         Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
+        PracticeTimeVariance = 1
+        QualifyTime = 84.6
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -14505,7 +14540,7 @@ SCNG23
         Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -14873,7 +14908,7 @@ SCNG23
         Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -14882,16 +14917,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 4
-        Speed = 75
+        Speed = 60
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 36
         Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
+        PracticeTimeVariance = 1
+        QualifyTime = 85
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -14905,7 +14941,7 @@ SCNG23
         Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -15273,7 +15309,7 @@ SCNG23
         Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -15282,16 +15318,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 4
-        Speed = 75
+        Speed = 60
         QualifySpeed = 70
         WetSpeed = 75
-        Aggression = 50
+        Aggression = 36
         Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
+        PracticeTimeVariance = 1
+        QualifyTime = 85
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -15305,7 +15342,7 @@ SCNG23
         Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -15673,7 +15710,7 @@ SCNG23
         Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -15682,16 +15719,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 4
-        Speed = 72
+        Speed = 60
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 40
+        Aggression = 36
         Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
+        PracticeTimeVariance = 1
+        QualifyTime = 85
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -15705,7 +15743,7 @@ SCNG23
         Composure = 55
         Courtesy = 99
         Recovery = 99
-        StartSkill = 85.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -16073,7 +16111,7 @@ SCNG23
         Composure = 50
         Courtesy = 99
         Recovery = 99
-        StartSkill = 80.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -16082,16 +16120,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 4
-        Speed = 72
+        Speed = 55
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 40
+        Aggression = 36
         Composure = 50
         Courtesy = 99
         Recovery = 99
-        StartSkill = 80.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
+        PracticeTimeVariance = 1
+        QualifyTime = 85
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -16105,7 +16144,7 @@ SCNG23
         Composure = 50
         Courtesy = 99
         Recovery = 99
-        StartSkill = 80.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -16475,7 +16514,7 @@ SCNG23
         Composure = 45
         Courtesy = 99
         Recovery = 99
-        StartSkill = 80.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTime = 31.2
         PracticeTimeVariance = 0.125
@@ -16486,18 +16525,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 4
-        Speed = 72
+        Speed = 55
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 35
+        Aggression = 31
         Composure = 45
         Courtesy = 99
         Recovery = 99
-        StartSkill = 80.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
-        PracticeTime = 31.2
-        PracticeTimeVariance = 0.125
-        QualifyTime = 31.3
+        PracticeTimeVariance = 1
+        QualifyTime = 85
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -16511,7 +16549,7 @@ SCNG23
         Composure = 45
         Courtesy = 99
         Recovery = 99
-        StartSkill = 80.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTime = 31.2
         PracticeTimeVariance = 0.125
@@ -16912,7 +16950,7 @@ SCNG23
         Composure = 45
         Courtesy = 99
         Recovery = 99
-        StartSkill = 80.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -16921,16 +16959,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 5
-        Speed = 72
+        Speed = 55
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 35
+        Aggression = 31
         Composure = 45
         Courtesy = 99
         Recovery = 99
-        StartSkill = 80.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
+        PracticeTimeVariance = 1
+        QualifyTime = 85
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -16944,7 +16983,7 @@ SCNG23
         Composure = 45
         Courtesy = 99
         Recovery = 99
-        StartSkill = 80.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -17312,7 +17351,7 @@ SCNG23
         Composure = 45
         Courtesy = 99
         Recovery = 99
-        StartSkill = 75.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -17321,16 +17360,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 5
-        Speed = 65
+        Speed = 50
         QualifySpeed = 60
         WetSpeed = 70
-        Aggression = 35
+        Aggression = 31
         Composure = 45
         Courtesy = 99
         Recovery = 99
-        StartSkill = 75.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
+        PracticeTimeVariance = 1
+        QualifyTime = 85
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -17344,7 +17384,7 @@ SCNG23
         Composure = 45
         Courtesy = 99
         Recovery = 99
-        StartSkill = 75.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -17712,7 +17752,7 @@ SCNG23
         Composure = 35
         Courtesy = 99
         Recovery = 99
-        StartSkill = 75.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -17721,16 +17761,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 5
-        Speed = 60
+        Speed = 50
         QualifySpeed = 70
         WetSpeed = 80
-        Aggression = 35
+        Aggression = 31
         Composure = 35
         Courtesy = 99
         Recovery = 99
-        StartSkill = 75.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
+        PracticeTimeVariance = 1
+        QualifyTime = 85
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -17744,7 +17785,7 @@ SCNG23
         Composure = 35
         Courtesy = 99
         Recovery = 99
-        StartSkill = 75.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -18112,7 +18153,7 @@ SCNG23
         Composure = 35
         Courtesy = 99
         Recovery = 99
-        StartSkill = 75.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -18121,16 +18162,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 5
-        Speed = 55
+        Speed = 45
         QualifySpeed = 65
         WetSpeed = 80
-        Aggression = 35
+        Aggression = 31
         Composure = 35
         Courtesy = 99
         Recovery = 99
-        StartSkill = 75.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
+        PracticeTimeVariance = 1
+        QualifyTime = 85
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -18144,7 +18186,7 @@ SCNG23
         Composure = 35
         Courtesy = 99
         Recovery = 99
-        StartSkill = 75.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -18512,7 +18554,7 @@ SCNG23
         Composure = 35
         Courtesy = 99
         Recovery = 99
-        StartSkill = 75.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
@@ -18521,16 +18563,17 @@ SCNG23
     Charlotte_Roval_2024
     {
         Tier = 5
-        Speed = 55
+        Speed = 45
         QualifySpeed = 50
         WetSpeed = 80
-        Aggression = 35
+        Aggression = 31
         Composure = 35
         Courtesy = 99
         Recovery = 99
-        StartSkill = 75.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
+        PracticeTimeVariance = 1
+        QualifyTime = 85
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -18544,7 +18587,7 @@ SCNG23
         Composure = 35
         Courtesy = 99
         Recovery = 99
-        StartSkill = 75.00
+        StartSkill = 35.00
         MinRacingSkill = 50.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
