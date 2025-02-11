@@ -130,7 +130,7 @@ AIGripMult=1.0
 AIHeatRate=7.0e-6
 Temperatures=(75, 49)
 OptimumPressure=(110, 0.015)
-GripTempPress=(1.1, 0.7, 0.5)
+GripTempPress=(1.0, 0.7, 0.5)
 
 [COMPOUND]
 Name="Wets"
@@ -173,4 +173,4 @@ AIGripMult=1.02
 AIHeatRate=9.5e-6
 Temperatures=(64, 49)
 OptimumPressure=(125, 0.015)
-GripTempPress=(1.1, 1.0, 0.55)
+GripTempPress=(1.0, 1.0, 0.55)
