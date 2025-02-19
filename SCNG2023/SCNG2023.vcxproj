@@ -170,6 +170,8 @@
     <None Include="build.bat" />
     <None Include="buildrcd.bat" />
     <None Include="SCNG2023.rfbuild" />
+    <None Include="tires\SCNG23_Roval.tbc" />
+    <None Include="tires\SCNG23_Sonoma.tbc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

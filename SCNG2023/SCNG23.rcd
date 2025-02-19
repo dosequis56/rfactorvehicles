@@ -850,7 +850,7 @@ SCNG23
         PracticeTime = 29.8
         PracticeTimeVariance = 0.25
         QualifyTime = 29.5
-        QualifyTimeVariance = 0.25
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Charlotte_600
@@ -877,12 +877,12 @@ SCNG23
         Speed = 77
         QualifySpeed = 99
         WetSpeed = 90
-        Aggression = 55
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 92.00
+        MinRacingSkill = 85.00
         PracticeTime = 81.7
         PracticeTimeVariance = 0.5
         QualifyTime = 81.3
@@ -913,13 +913,13 @@ SCNG23
         Speed = 90
         QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 70
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 99.00
         MinRacingSkill = 90.00
-        PracticeTimeVariance = 0.125
+        QualifyTime = 49.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -935,7 +935,7 @@ SCNG23
         Recovery = 99
         StartSkill = 99.00
         MinRacingSkill = 90.00
-        PracticeTimeVariance = 0.125
+        QualifyTime = 49.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -1158,16 +1158,15 @@ SCNG23
         Tier = 1
         Speed = 80
         QualifySpeed = 99
-        WetSpeed = 90
-        Aggression = 55
+        WetSpeed = 80
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 92.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 83
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 85.00
+        QualifyTime = 77.8
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Talladega_2016
@@ -1176,13 +1175,13 @@ SCNG23
         Speed = 90
         QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 70
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 99.00
         MinRacingSkill = 90.00
-        PracticeTimeVariance = 0.125
+        QualifyTime = 49.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -1192,29 +1191,30 @@ SCNG23
         Speed = 80
         QualifySpeed = 99
         WetSpeed = 90
-        Aggression = 55
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 92.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 83
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 85.00
+        PracticeTime = 71
+        PracticeTimeVariance = 1
+        QualifyTime = 70.5
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
     {
         Tier = 1
-        Speed = 80
+        Speed = 75
         QualifySpeed = 99
         WetSpeed = 90
-        Aggression = 55
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 92.00
+        MinRacingSkill = 85.00
         PracticeTimeVariance = 0.5
         QualifyTime = 83
         QualifyTimeVariance = 0.125
@@ -1225,16 +1225,13 @@ SCNG23
         Tier = 1
         Speed = 80
         QualifySpeed = 99
-        WetSpeed = 90
-        Aggression = 55
+        WetSpeed = 80
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 92.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 83
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 80.00
         DrivingLine = FASTEST
     }
   }
@@ -1300,7 +1297,7 @@ SCNG23
         PracticeTime = 29.8
         PracticeTimeVariance = 0.25
         QualifyTime = 29.5
-        QualifyTimeVariance = 0.25
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Charlotte_600
@@ -1327,7 +1324,7 @@ SCNG23
         Speed = 73
         QualifySpeed = 87
         WetSpeed = 80
-        Aggression = 51
+        Aggression = 45
         Composure = 90
         Courtesy = 99
         Recovery = 99
@@ -1363,15 +1360,13 @@ SCNG23
         Speed = 90
         QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 70
+        Aggression = 50
         Composure = 90
         Courtesy = 99
         Recovery = 99
         StartSkill = 97.00
         MinRacingSkill = 90.00
-        PracticeTime = 31.2
-        PracticeTimeVariance = 0.125
-        QualifyTime = 31.2
+        QualifyTime = 49.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -1387,9 +1382,7 @@ SCNG23
         Recovery = 99
         StartSkill = 97.00
         MinRacingSkill = 90.00
-        PracticeTime = 31.2
-        PracticeTimeVariance = 0.125
-        QualifyTime = 31.2
+        QualifyTime = 49.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -1625,16 +1618,15 @@ SCNG23
         Tier = 2
         Speed = 73
         QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 51
+        WetSpeed = 73
+        Aggression = 45
         Composure = 90
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 84
-        QualifyTimeVariance = 0.125
+        QualifyTime = 78
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Talladega_2016
@@ -1643,15 +1635,13 @@ SCNG23
         Speed = 90
         QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 70
+        Aggression = 50
         Composure = 90
         Courtesy = 99
         Recovery = 99
         StartSkill = 97.00
         MinRacingSkill = 90.00
-        PracticeTime = 31.2
-        PracticeTimeVariance = 0.125
-        QualifyTime = 31.2
+        QualifyTime = 49.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -1659,26 +1649,27 @@ SCNG23
     {
         Tier = 2
         Speed = 73
-        QualifySpeed = 80
+        QualifySpeed = 85
         WetSpeed = 80
-        Aggression = 51
+        Aggression = 45
         Composure = 90
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 84
-        QualifyTimeVariance = 0.125
+        PracticeTime = 71
+        PracticeTimeVariance = 1
+        QualifyTime = 70.8
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
     {
         Tier = 2
-        Speed = 73
+        Speed = 68
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 51
+        Aggression = 45
         Composure = 90
         Courtesy = 99
         Recovery = 99
@@ -1694,16 +1685,13 @@ SCNG23
         Tier = 2
         Speed = 73
         QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 51
+        WetSpeed = 73
+        Aggression = 45
         Composure = 90
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 84
-        QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
   }
@@ -1769,7 +1757,7 @@ SCNG23
         PracticeTime = 29.8
         PracticeTimeVariance = 0.25
         QualifyTime = 29.5
-        QualifyTimeVariance = 0.25
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Charlotte_600
@@ -1796,12 +1784,12 @@ SCNG23
         Speed = 77
         QualifySpeed = 99
         WetSpeed = 90
-        Aggression = 55
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 90.00
+        MinRacingSkill = 85.00
         PracticeTime = 81.7
         PracticeTimeVariance = 0.5
         QualifyTime = 81.3
@@ -1838,7 +1826,7 @@ SCNG23
         Recovery = 99
         StartSkill = 95.00
         MinRacingSkill = 90.00
-        PracticeTimeVariance = 0.125
+        QualifyTime = 49.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -1854,7 +1842,7 @@ SCNG23
         Recovery = 99
         StartSkill = 95.00
         MinRacingSkill = 90.00
-        PracticeTimeVariance = 0.125
+        QualifyTime = 49.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -2074,16 +2062,15 @@ SCNG23
         Tier = 1
         Speed = 80
         QualifySpeed = 99
-        WetSpeed = 90
-        Aggression = 55
+        WetSpeed = 80
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 90.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 83
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 85.00
+        QualifyTime = 77.8
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Talladega_2016
@@ -2098,7 +2085,7 @@ SCNG23
         Recovery = 99
         StartSkill = 95.00
         MinRacingSkill = 90.00
-        PracticeTimeVariance = 0.125
+        QualifyTime = 49.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -2108,29 +2095,30 @@ SCNG23
         Speed = 80
         QualifySpeed = 99
         WetSpeed = 90
-        Aggression = 55
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 90.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 83
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 85.00
+        PracticeTime = 71
+        PracticeTimeVariance = 1
+        QualifyTime = 70.5
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
     {
         Tier = 1
-        Speed = 80
+        Speed = 75
         QualifySpeed = 99
         WetSpeed = 90
-        Aggression = 55
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 90.00
+        MinRacingSkill = 85.00
         PracticeTimeVariance = 0.5
         QualifyTime = 83
         QualifyTimeVariance = 0.125
@@ -2140,17 +2128,14 @@ SCNG23
     {
         Tier = 1
         Speed = 80
-        QualifySpeed = 99
-        WetSpeed = 90
-        Aggression = 55
+        QualifySpeed = 90
+        WetSpeed = 80
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 90.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 83
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 80.00
         DrivingLine = FASTEST
     }
   }
@@ -2216,7 +2201,7 @@ SCNG23
         PracticeTime = 29.8
         PracticeTimeVariance = 0.25
         QualifyTime = 29.5
-        QualifyTimeVariance = 0.25
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Charlotte_600
@@ -2243,12 +2228,12 @@ SCNG23
         Speed = 77
         QualifySpeed = 99
         WetSpeed = 85
-        Aggression = 55
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 90.00
+        MinRacingSkill = 85.00
         PracticeTime = 81.7
         PracticeTimeVariance = 0.5
         QualifyTime = 81.3
@@ -2285,7 +2270,7 @@ SCNG23
         Recovery = 99
         StartSkill = 95.00
         MinRacingSkill = 87.00
-        PracticeTimeVariance = 0.125
+        QualifyTime = 49.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -2301,7 +2286,7 @@ SCNG23
         Recovery = 99
         StartSkill = 95.00
         MinRacingSkill = 87.00
-        PracticeTimeVariance = 0.125
+        QualifyTime = 49.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -2521,16 +2506,15 @@ SCNG23
         Tier = 1
         Speed = 80
         QualifySpeed = 99
-        WetSpeed = 85
-        Aggression = 55
+        WetSpeed = 80
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 90.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 83
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 85.00
+        QualifyTime = 77.8
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Talladega_2016
@@ -2545,7 +2529,7 @@ SCNG23
         Recovery = 99
         StartSkill = 95.00
         MinRacingSkill = 87.00
-        PracticeTimeVariance = 0.125
+        QualifyTime = 49.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -2555,29 +2539,30 @@ SCNG23
         Speed = 80
         QualifySpeed = 99
         WetSpeed = 85
-        Aggression = 55
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 90.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 83
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 85.00
+        PracticeTime = 71
+        PracticeTimeVariance = 1
+        QualifyTime = 70.5
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
     {
         Tier = 1
-        Speed = 80
+        Speed = 75
         QualifySpeed = 99
         WetSpeed = 85
-        Aggression = 55
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 90.00
+        MinRacingSkill = 85.00
         PracticeTimeVariance = 0.5
         QualifyTime = 83
         QualifyTimeVariance = 0.125
@@ -2588,16 +2573,13 @@ SCNG23
         Tier = 1
         Speed = 80
         QualifySpeed = 99
-        WetSpeed = 85
-        Aggression = 55
+        WetSpeed = 80
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 90.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 83
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 80.00
         DrivingLine = FASTEST
     }
   }
@@ -2663,7 +2645,7 @@ SCNG23
         PracticeTime = 30
         PracticeTimeVariance = 0.25
         QualifyTime = 29.5
-        QualifyTimeVariance = 0.25
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Charlotte_600
@@ -2690,12 +2672,12 @@ SCNG23
         Speed = 76
         QualifySpeed = 99
         WetSpeed = 90
-        Aggression = 55
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 87.00
+        MinRacingSkill = 85.00
         PracticeTime = 81.7
         PracticeTimeVariance = 0.5
         QualifyTime = 81.4
@@ -2732,7 +2714,7 @@ SCNG23
         Recovery = 99
         StartSkill = 92.00
         MinRacingSkill = 87.00
-        PracticeTimeVariance = 0.125
+        QualifyTime = 49.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -2748,7 +2730,7 @@ SCNG23
         Recovery = 99
         StartSkill = 92.00
         MinRacingSkill = 87.00
-        PracticeTimeVariance = 0.125
+        QualifyTime = 49.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -2968,16 +2950,15 @@ SCNG23
         Tier = 1
         Speed = 78
         QualifySpeed = 99
-        WetSpeed = 90
-        Aggression = 55
+        WetSpeed = 78
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 87.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 83
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 85.00
+        QualifyTime = 77.8
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Talladega_2016
@@ -2992,7 +2973,7 @@ SCNG23
         Recovery = 99
         StartSkill = 92.00
         MinRacingSkill = 87.00
-        PracticeTimeVariance = 0.125
+        QualifyTime = 49.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -3002,29 +2983,30 @@ SCNG23
         Speed = 78
         QualifySpeed = 99
         WetSpeed = 90
-        Aggression = 55
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 87.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 83
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 85.00
+        PracticeTime = 71
+        PracticeTimeVariance = 1
+        QualifyTime = 70.5
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
     {
         Tier = 1
-        Speed = 78
+        Speed = 72
         QualifySpeed = 99
         WetSpeed = 90
-        Aggression = 55
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 87.00
+        MinRacingSkill = 85.00
         PracticeTimeVariance = 0.5
         QualifyTime = 83
         QualifyTimeVariance = 0.125
@@ -3035,16 +3017,13 @@ SCNG23
         Tier = 1
         Speed = 78
         QualifySpeed = 99
-        WetSpeed = 90
-        Aggression = 55
+        WetSpeed = 78
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 87.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 83
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 80.00
         DrivingLine = FASTEST
     }
   }
@@ -3110,7 +3089,7 @@ SCNG23
         PracticeTime = 30
         PracticeTimeVariance = 0.25
         QualifyTime = 29.5
-        QualifyTimeVariance = 0.25
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Charlotte_600
@@ -3137,12 +3116,12 @@ SCNG23
         Speed = 76
         QualifySpeed = 99
         WetSpeed = 90
-        Aggression = 55
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 90.00
+        MinRacingSkill = 85.00
         PracticeTime = 81.7
         PracticeTimeVariance = 0.5
         QualifyTime = 81.25
@@ -3179,7 +3158,7 @@ SCNG23
         Recovery = 99
         StartSkill = 95.00
         MinRacingSkill = 85.00
-        PracticeTimeVariance = 0.125
+        QualifyTime = 49.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -3195,7 +3174,7 @@ SCNG23
         Recovery = 99
         StartSkill = 95.00
         MinRacingSkill = 85.00
-        PracticeTimeVariance = 0.125
+        QualifyTime = 49.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -3415,16 +3394,15 @@ SCNG23
         Tier = 1
         Speed = 78
         QualifySpeed = 99
-        WetSpeed = 90
-        Aggression = 55
+        WetSpeed = 78
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 90.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 83
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 85.00
+        QualifyTime = 77.8
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Talladega_2016
@@ -3439,7 +3417,7 @@ SCNG23
         Recovery = 99
         StartSkill = 95.00
         MinRacingSkill = 85.00
-        PracticeTimeVariance = 0.125
+        QualifyTime = 49.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -3449,29 +3427,30 @@ SCNG23
         Speed = 78
         QualifySpeed = 99
         WetSpeed = 90
-        Aggression = 55
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 90.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 83
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 85.00
+        PracticeTime = 71
+        PracticeTimeVariance = 1
+        QualifyTime = 70.5
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
     {
         Tier = 1
-        Speed = 78
+        Speed = 72
         QualifySpeed = 99
         WetSpeed = 90
-        Aggression = 55
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 90.00
+        MinRacingSkill = 85.00
         PracticeTimeVariance = 0.5
         QualifyTime = 83
         QualifyTimeVariance = 0.125
@@ -3482,16 +3461,13 @@ SCNG23
         Tier = 1
         Speed = 78
         QualifySpeed = 99
-        WetSpeed = 90
-        Aggression = 55
+        WetSpeed = 78
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 90.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 83
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 80.00
         DrivingLine = FASTEST
     }
   }
@@ -3557,7 +3533,7 @@ SCNG23
         PracticeTime = 30
         PracticeTimeVariance = 0.25
         QualifyTime = 29.65
-        QualifyTimeVariance = 0.25
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Charlotte_600
@@ -3584,12 +3560,12 @@ SCNG23
         Speed = 77
         QualifySpeed = 95
         WetSpeed = 90
-        Aggression = 55
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 90.00
+        MinRacingSkill = 85.00
         PracticeTime = 81.7
         PracticeTimeVariance = 0.5
         QualifyTime = 81.5
@@ -3620,13 +3596,13 @@ SCNG23
         Speed = 90
         QualifySpeed = 85
         WetSpeed = 90
-        Aggression = 65
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 93.00
         MinRacingSkill = 82.00
-        PracticeTimeVariance = 0.125
+        QualifyTime = 49.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -3642,7 +3618,7 @@ SCNG23
         Recovery = 99
         StartSkill = 93.00
         MinRacingSkill = 82.00
-        PracticeTimeVariance = 0.125
+        QualifyTime = 49.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -3862,16 +3838,15 @@ SCNG23
         Tier = 1
         Speed = 78
         QualifySpeed = 95
-        WetSpeed = 90
-        Aggression = 55
+        WetSpeed = 78
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 90.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 83
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 85.00
+        QualifyTime = 77.8
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Talladega_2016
@@ -3880,13 +3855,13 @@ SCNG23
         Speed = 90
         QualifySpeed = 85
         WetSpeed = 90
-        Aggression = 65
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 93.00
         MinRacingSkill = 82.00
-        PracticeTimeVariance = 0.125
+        QualifyTime = 49.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -3896,29 +3871,30 @@ SCNG23
         Speed = 78
         QualifySpeed = 95
         WetSpeed = 90
-        Aggression = 55
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 90.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 83
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 85.00
+        PracticeTime = 71
+        PracticeTimeVariance = 1
+        QualifyTime = 70.5
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
     {
         Tier = 1
-        Speed = 78
+        Speed = 72
         QualifySpeed = 95
         WetSpeed = 90
-        Aggression = 55
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 90.00
+        MinRacingSkill = 85.00
         PracticeTimeVariance = 0.5
         QualifyTime = 83
         QualifyTimeVariance = 0.125
@@ -3928,17 +3904,14 @@ SCNG23
     {
         Tier = 1
         Speed = 78
-        QualifySpeed = 95
-        WetSpeed = 90
-        Aggression = 55
+        QualifySpeed = 99
+        WetSpeed = 78
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 90.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 83
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 80.00
         DrivingLine = FASTEST
     }
   }
@@ -4004,7 +3977,7 @@ SCNG23
         PracticeTime = 30
         PracticeTimeVariance = 0.25
         QualifyTime = 29.65
-        QualifyTimeVariance = 0.25
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Charlotte_600
@@ -4031,12 +4004,12 @@ SCNG23
         Speed = 73
         QualifySpeed = 90
         WetSpeed = 80
-        Aggression = 51
+        Aggression = 45
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 82.00
+        MinRacingSkill = 80.00
         PracticeTime = 82
         PracticeTimeVariance = 0.5
         QualifyTime = 81.5
@@ -4073,7 +4046,7 @@ SCNG23
         Recovery = 99
         StartSkill = 92.00
         MinRacingSkill = 82.00
-        PracticeTimeVariance = 0.125
+        QualifyTime = 49.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -4089,7 +4062,7 @@ SCNG23
         Recovery = 99
         StartSkill = 92.00
         MinRacingSkill = 82.00
-        PracticeTimeVariance = 0.125
+        QualifyTime = 49.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -4309,16 +4282,15 @@ SCNG23
         Tier = 2
         Speed = 73
         QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 51
+        WetSpeed = 73
+        Aggression = 45
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 82.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 83
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 80.00
+        QualifyTime = 78
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Talladega_2016
@@ -4333,7 +4305,7 @@ SCNG23
         Recovery = 99
         StartSkill = 92.00
         MinRacingSkill = 82.00
-        PracticeTimeVariance = 0.125
+        QualifyTime = 49.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -4341,31 +4313,32 @@ SCNG23
     {
         Tier = 2
         Speed = 73
-        QualifySpeed = 80
+        QualifySpeed = 85
         WetSpeed = 80
-        Aggression = 51
+        Aggression = 45
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 82.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 83
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 80.00
+        PracticeTime = 71
+        PracticeTimeVariance = 1
+        QualifyTime = 70.8
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
     {
         Tier = 2
-        Speed = 73
+        Speed = 70
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 51
+        Aggression = 45
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 82.00
+        MinRacingSkill = 80.00
         PracticeTimeVariance = 0.5
         QualifyTime = 83
         QualifyTimeVariance = 0.125
@@ -4376,16 +4349,13 @@ SCNG23
         Tier = 2
         Speed = 73
         QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 51
+        WetSpeed = 73
+        Aggression = 45
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 82.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 83
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 80.00
         DrivingLine = FASTEST
     }
   }
@@ -4451,7 +4421,7 @@ SCNG23
         PracticeTime = 30
         PracticeTimeVariance = 0.25
         QualifyTime = 29.65
-        QualifyTimeVariance = 0.25
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Charlotte_600
@@ -4478,12 +4448,12 @@ SCNG23
         Speed = 75
         QualifySpeed = 95
         WetSpeed = 88
-        Aggression = 55
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 82.00
+        MinRacingSkill = 80.00
         PracticeTime = 81.7
         PracticeTimeVariance = 0.5
         QualifyTime = 81.5
@@ -4520,7 +4490,7 @@ SCNG23
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 82.00
-        PracticeTimeVariance = 0.125
+        QualifyTime = 49.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -4536,7 +4506,7 @@ SCNG23
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 82.00
-        PracticeTimeVariance = 0.125
+        QualifyTime = 49.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -4756,16 +4726,15 @@ SCNG23
         Tier = 1
         Speed = 75
         QualifySpeed = 95
-        WetSpeed = 88
-        Aggression = 55
+        WetSpeed = 75
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 82.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 83
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 80.00
+        QualifyTime = 77.8
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Talladega_2016
@@ -4780,7 +4749,7 @@ SCNG23
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 82.00
-        PracticeTimeVariance = 0.125
+        QualifyTime = 49.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -4790,29 +4759,30 @@ SCNG23
         Speed = 75
         QualifySpeed = 95
         WetSpeed = 88
-        Aggression = 55
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 82.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 83
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 80.00
+        PracticeTime = 71
+        PracticeTimeVariance = 1
+        QualifyTime = 70.5
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
     {
         Tier = 1
-        Speed = 75
+        Speed = 70
         QualifySpeed = 95
         WetSpeed = 88
-        Aggression = 55
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 82.00
+        MinRacingSkill = 80.00
         PracticeTimeVariance = 0.5
         QualifyTime = 83
         QualifyTimeVariance = 0.125
@@ -4823,16 +4793,13 @@ SCNG23
         Tier = 1
         Speed = 75
         QualifySpeed = 95
-        WetSpeed = 88
-        Aggression = 55
+        WetSpeed = 75
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 82.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 83
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 80.00
         DrivingLine = FASTEST
     }
   }
@@ -4898,7 +4865,7 @@ SCNG23
         PracticeTime = 30
         PracticeTimeVariance = 0.25
         QualifyTime = 29.65
-        QualifyTimeVariance = 0.25
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST,HIGHLINE
     }
     Charlotte_600
@@ -4925,7 +4892,7 @@ SCNG23
         Speed = 76
         QualifySpeed = 95
         WetSpeed = 85
-        Aggression = 55
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
@@ -4958,7 +4925,7 @@ SCNG23
     Daytona_2016
     {
         Tier = 2
-        Speed = 88
+        Speed = 90
         QualifySpeed = 85
         WetSpeed = 85
         Aggression = 50
@@ -4967,8 +4934,8 @@ SCNG23
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     JM_Daytona_Speedway_Oval
@@ -4983,8 +4950,8 @@ SCNG23
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     Dover_2016
@@ -5203,22 +5170,21 @@ SCNG23
         Tier = 1
         Speed = 77
         QualifySpeed = 95
-        WetSpeed = 85
-        Aggression = 55
+        WetSpeed = 77
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
         MinRacingSkill = 88.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 83
-        QualifyTimeVariance = 0.125
+        QualifyTime = 77.8
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Talladega_2016
     {
         Tier = 2
-        Speed = 88
+        Speed = 90
         QualifySpeed = 85
         WetSpeed = 85
         Aggression = 50
@@ -5227,8 +5193,8 @@ SCNG23
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short
@@ -5237,24 +5203,25 @@ SCNG23
         Speed = 77
         QualifySpeed = 95
         WetSpeed = 85
-        Aggression = 55
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
         MinRacingSkill = 88.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 83
-        QualifyTimeVariance = 0.125
+        PracticeTime = 71
+        PracticeTimeVariance = 1
+        QualifyTime = 70.5
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
     {
         Tier = 1
-        Speed = 77
+        Speed = 71
         QualifySpeed = 95
         WetSpeed = 85
-        Aggression = 55
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
@@ -5270,16 +5237,13 @@ SCNG23
         Tier = 1
         Speed = 77
         QualifySpeed = 95
-        WetSpeed = 85
-        Aggression = 55
+        WetSpeed = 77
+        Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 88.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 83
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 80.00
         DrivingLine = FASTEST
     }
   }
@@ -5345,7 +5309,7 @@ SCNG23
         PracticeTime = 30
         PracticeTimeVariance = 0.25
         QualifyTime = 29.8
-        QualifyTimeVariance = 0.25
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST,HIGHLINE
     }
     Charlotte_600
@@ -5372,7 +5336,7 @@ SCNG23
         Speed = 74
         QualifySpeed = 87
         WetSpeed = 88
-        Aggression = 51
+        Aggression = 45
         Composure = 85
         Courtesy = 99
         Recovery = 99
@@ -5414,8 +5378,8 @@ SCNG23
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     JM_Daytona_Speedway_Oval
@@ -5430,8 +5394,8 @@ SCNG23
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     Dover_2016
@@ -5650,16 +5614,15 @@ SCNG23
         Tier = 2
         Speed = 74
         QualifySpeed = 80
-        WetSpeed = 88
-        Aggression = 51
+        WetSpeed = 74
+        Aggression = 45
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 84
-        QualifyTimeVariance = 0.125
+        QualifyTime = 78
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Talladega_2016
@@ -5674,34 +5637,35 @@ SCNG23
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short
     {
         Tier = 2
         Speed = 74
-        QualifySpeed = 80
+        QualifySpeed = 90
         WetSpeed = 88
-        Aggression = 51
+        Aggression = 45
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 84
-        QualifyTimeVariance = 0.125
+        PracticeTime = 71
+        PracticeTimeVariance = 1
+        QualifyTime = 70.8
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
     {
         Tier = 2
-        Speed = 74
+        Speed = 68
         QualifySpeed = 80
         WetSpeed = 88
-        Aggression = 51
+        Aggression = 45
         Composure = 85
         Courtesy = 99
         Recovery = 99
@@ -5717,16 +5681,13 @@ SCNG23
         Tier = 2
         Speed = 74
         QualifySpeed = 80
-        WetSpeed = 88
-        Aggression = 51
+        WetSpeed = 74
+        Aggression = 45
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 84
-        QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
   }
@@ -5792,7 +5753,7 @@ SCNG23
         PracticeTime = 30
         PracticeTimeVariance = 0.25
         QualifyTime = 29.8
-        QualifyTimeVariance = 0.25
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST,HIGHLINE
     }
     Charlotte_600
@@ -5819,7 +5780,7 @@ SCNG23
         Speed = 71
         QualifySpeed = 88
         WetSpeed = 85
-        Aggression = 51
+        Aggression = 45
         Composure = 80
         Courtesy = 99
         Recovery = 99
@@ -5861,8 +5822,8 @@ SCNG23
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     JM_Daytona_Speedway_Oval
@@ -5877,8 +5838,8 @@ SCNG23
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     Dover_2016
@@ -6097,16 +6058,15 @@ SCNG23
         Tier = 2
         Speed = 71
         QualifySpeed = 88
-        WetSpeed = 85
-        Aggression = 51
+        WetSpeed = 71
+        Aggression = 45
         Composure = 80
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 84
-        QualifyTimeVariance = 0.125
+        QualifyTime = 78
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Talladega_2016
@@ -6121,34 +6081,35 @@ SCNG23
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short
     {
         Tier = 2
         Speed = 71
-        QualifySpeed = 88
+        QualifySpeed = 90
         WetSpeed = 85
-        Aggression = 51
+        Aggression = 45
         Composure = 80
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 84
-        QualifyTimeVariance = 0.125
+        PracticeTime = 71
+        PracticeTimeVariance = 1
+        QualifyTime = 70.8
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
     {
         Tier = 2
-        Speed = 71
+        Speed = 68
         QualifySpeed = 88
         WetSpeed = 85
-        Aggression = 51
+        Aggression = 45
         Composure = 80
         Courtesy = 99
         Recovery = 99
@@ -6164,16 +6125,13 @@ SCNG23
         Tier = 2
         Speed = 71
         QualifySpeed = 88
-        WetSpeed = 85
-        Aggression = 51
+        WetSpeed = 71
+        Aggression = 45
         Composure = 80
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 84
-        QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
   }
@@ -6239,7 +6197,7 @@ SCNG23
         PracticeTime = 30
         PracticeTimeVariance = 0.25
         QualifyTime = 29.8
-        QualifyTimeVariance = 0.25
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST,HIGHLINE
     }
     Charlotte_600
@@ -6266,7 +6224,7 @@ SCNG23
         Speed = 71
         QualifySpeed = 87
         WetSpeed = 87
-        Aggression = 51
+        Aggression = 45
         Composure = 80
         Courtesy = 99
         Recovery = 99
@@ -6302,14 +6260,14 @@ SCNG23
         Speed = 88
         QualifySpeed = 87
         WetSpeed = 87
-        Aggression = 50
+        Aggression = 40
         Composure = 80
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     JM_Daytona_Speedway_Oval
@@ -6324,8 +6282,8 @@ SCNG23
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     Dover_2016
@@ -6544,16 +6502,15 @@ SCNG23
         Tier = 2
         Speed = 71
         QualifySpeed = 87
-        WetSpeed = 87
-        Aggression = 51
+        WetSpeed = 71
+        Aggression = 45
         Composure = 80
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 84
-        QualifyTimeVariance = 0.125
+        QualifyTime = 78
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Talladega_2016
@@ -6562,40 +6519,41 @@ SCNG23
         Speed = 88
         QualifySpeed = 87
         WetSpeed = 87
-        Aggression = 50
+        Aggression = 40
         Composure = 80
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short
     {
         Tier = 2
         Speed = 71
-        QualifySpeed = 87
+        QualifySpeed = 90
         WetSpeed = 87
-        Aggression = 51
+        Aggression = 45
         Composure = 80
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 84
-        QualifyTimeVariance = 0.125
+        PracticeTime = 71
+        PracticeTimeVariance = 1
+        QualifyTime = 70.8
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
     {
         Tier = 2
-        Speed = 71
+        Speed = 68
         QualifySpeed = 87
         WetSpeed = 87
-        Aggression = 51
+        Aggression = 45
         Composure = 80
         Courtesy = 99
         Recovery = 99
@@ -6611,16 +6569,13 @@ SCNG23
         Tier = 2
         Speed = 71
         QualifySpeed = 87
-        WetSpeed = 87
-        Aggression = 51
+        WetSpeed = 71
+        Aggression = 45
         Composure = 80
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 84
-        QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
   }
@@ -6686,7 +6641,7 @@ SCNG23
         PracticeTime = 30
         PracticeTimeVariance = 0.25
         QualifyTime = 29.8
-        QualifyTimeVariance = 0.25
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST,HIGHLINE
     }
     Charlotte_600
@@ -6713,7 +6668,7 @@ SCNG23
         Speed = 67
         QualifySpeed = 89
         WetSpeed = 85
-        Aggression = 51
+        Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
@@ -6749,14 +6704,14 @@ SCNG23
         Speed = 85
         QualifySpeed = 89
         WetSpeed = 85
-        Aggression = 50
+        Aggression = 40
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     JM_Daytona_Speedway_Oval
@@ -6771,8 +6726,8 @@ SCNG23
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     Dover_2016
@@ -6991,16 +6946,15 @@ SCNG23
         Tier = 2
         Speed = 67
         QualifySpeed = 89
-        WetSpeed = 85
-        Aggression = 51
+        WetSpeed = 67
+        Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 84
-        QualifyTimeVariance = 0.125
+        QualifyTime = 78
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Talladega_2016
@@ -7009,40 +6963,41 @@ SCNG23
         Speed = 85
         QualifySpeed = 89
         WetSpeed = 85
-        Aggression = 50
+        Aggression = 40
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short
     {
         Tier = 2
         Speed = 67
-        QualifySpeed = 89
+        QualifySpeed = 85
         WetSpeed = 85
-        Aggression = 51
+        Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 84
-        QualifyTimeVariance = 0.125
+        PracticeTime = 71
+        PracticeTimeVariance = 1
+        QualifyTime = 70.8
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
     {
         Tier = 2
-        Speed = 67
+        Speed = 65
         QualifySpeed = 89
         WetSpeed = 85
-        Aggression = 51
+        Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
@@ -7056,18 +7011,15 @@ SCNG23
     Sonoma_Nascar
     {
         Tier = 2
-        Speed = 67
-        QualifySpeed = 89
-        WetSpeed = 85
-        Aggression = 51
+        Speed = 65
+        QualifySpeed = 95
+        WetSpeed = 67
+        Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 84
-        QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
   }
@@ -7133,7 +7085,7 @@ SCNG23
         PracticeTime = 30
         PracticeTimeVariance = 0.25
         QualifyTime = 30
-        QualifyTimeVariance = 0.25
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST,HIGHLINE
     }
     Charlotte_600
@@ -7160,7 +7112,7 @@ SCNG23
         Speed = 73
         QualifySpeed = 85
         WetSpeed = 85
-        Aggression = 51
+        Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
@@ -7196,14 +7148,14 @@ SCNG23
         Speed = 85
         QualifySpeed = 85
         WetSpeed = 85
-        Aggression = 50
+        Aggression = 40
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 70.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     JM_Daytona_Speedway_Oval
@@ -7218,8 +7170,8 @@ SCNG23
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 70.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     Dover_2016
@@ -7438,16 +7390,15 @@ SCNG23
         Tier = 2
         Speed = 75
         QualifySpeed = 85
-        WetSpeed = 85
-        Aggression = 51
+        WetSpeed = 75
+        Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 70.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 84.25
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 80.00
+        QualifyTime = 78
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Talladega_2016
@@ -7456,31 +7407,32 @@ SCNG23
         Speed = 85
         QualifySpeed = 85
         WetSpeed = 85
-        Aggression = 50
+        Aggression = 40
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 70.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short
     {
         Tier = 2
         Speed = 75
-        QualifySpeed = 85
+        QualifySpeed = 90
         WetSpeed = 85
-        Aggression = 51
+        Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 70.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 84.25
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 80.00
+        PracticeTime = 71
+        PracticeTimeVariance = 1
+        QualifyTime = 71
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
@@ -7489,12 +7441,12 @@ SCNG23
         Speed = 75
         QualifySpeed = 85
         WetSpeed = 85
-        Aggression = 51
+        Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 70.00
+        MinRacingSkill = 80.00
         PracticeTimeVariance = 0.5
         QualifyTime = 84.25
         QualifyTimeVariance = 0.125
@@ -7505,16 +7457,13 @@ SCNG23
         Tier = 2
         Speed = 75
         QualifySpeed = 85
-        WetSpeed = 85
-        Aggression = 51
+        WetSpeed = 75
+        Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 70.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 84.25
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 80.00
         DrivingLine = FASTEST
     }
   }
@@ -7580,7 +7529,7 @@ SCNG23
         PracticeTime = 30.25
         PracticeTimeVariance = 0.25
         QualifyTime = 30
-        QualifyTimeVariance = 0.25
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST,HIGHLINE
     }
     Charlotte_600
@@ -7607,12 +7556,12 @@ SCNG23
         Speed = 66
         QualifySpeed = 83
         WetSpeed = 85
-        Aggression = 51
+        Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 70.00
+        MinRacingSkill = 80.00
         PracticeTime = 82.25
         PracticeTimeVariance = 0.5
         QualifyTime = 82
@@ -7643,14 +7592,14 @@ SCNG23
         Speed = 85
         QualifySpeed = 83
         WetSpeed = 85
-        Aggression = 50
+        Aggression = 40
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 70.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     JM_Daytona_Speedway_Oval
@@ -7665,8 +7614,8 @@ SCNG23
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 70.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     Dover_2016
@@ -7885,16 +7834,15 @@ SCNG23
         Tier = 2
         Speed = 66
         QualifySpeed = 83
-        WetSpeed = 85
-        Aggression = 51
+        WetSpeed = 66
+        Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 70.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 84.25
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 80.00
+        QualifyTime = 78
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Talladega_2016
@@ -7903,31 +7851,32 @@ SCNG23
         Speed = 85
         QualifySpeed = 83
         WetSpeed = 85
-        Aggression = 50
+        Aggression = 40
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 70.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short
     {
         Tier = 2
         Speed = 66
-        QualifySpeed = 83
+        QualifySpeed = 85
         WetSpeed = 85
-        Aggression = 51
+        Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 70.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 84.25
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 80.00
+        PracticeTime = 71
+        PracticeTimeVariance = 1
+        QualifyTime = 71
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
@@ -7936,12 +7885,12 @@ SCNG23
         Speed = 66
         QualifySpeed = 83
         WetSpeed = 85
-        Aggression = 51
+        Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 70.00
+        MinRacingSkill = 80.00
         PracticeTimeVariance = 0.5
         QualifyTime = 84.25
         QualifyTimeVariance = 0.125
@@ -7952,16 +7901,13 @@ SCNG23
         Tier = 2
         Speed = 66
         QualifySpeed = 83
-        WetSpeed = 85
-        Aggression = 51
+        WetSpeed = 66
+        Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 70.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 84.25
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 80.00
         DrivingLine = FASTEST
     }
   }
@@ -8027,7 +7973,7 @@ SCNG23
         PracticeTime = 30.25
         PracticeTimeVariance = 0.25
         QualifyTime = 30
-        QualifyTimeVariance = 0.25
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST,HIGHLINE
     }
     Charlotte_600
@@ -8054,12 +8000,12 @@ SCNG23
         Speed = 75
         QualifySpeed = 95
         WetSpeed = 85
-        Aggression = 55
+        Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 85.00
+        MinRacingSkill = 80.00
         PracticeTime = 82
         PracticeTimeVariance = 0.5
         QualifyTime = 81.3
@@ -8090,14 +8036,14 @@ SCNG23
         Speed = 85
         QualifySpeed = 88
         WetSpeed = 85
-        Aggression = 50
+        Aggression = 40
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
-        MinRacingSkill = 67.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 70.00
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     JM_Daytona_Speedway_Oval
@@ -8111,9 +8057,9 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
-        MinRacingSkill = 67.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 70.00
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     Dover_2016
@@ -8332,16 +8278,15 @@ SCNG23
         Tier = 2
         Speed = 75
         QualifySpeed = 95
-        WetSpeed = 85
-        Aggression = 55
+        WetSpeed = 75
+        Aggression = 50
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 85.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 83
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 80.00
+        QualifyTime = 78
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Talladega_2016
@@ -8350,14 +8295,14 @@ SCNG23
         Speed = 85
         QualifySpeed = 88
         WetSpeed = 85
-        Aggression = 50
+        Aggression = 40
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
-        MinRacingSkill = 67.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 70.00
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short
@@ -8366,29 +8311,30 @@ SCNG23
         Speed = 75
         QualifySpeed = 95
         WetSpeed = 85
-        Aggression = 55
+        Aggression = 50
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 85.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 83
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 80.00
+        PracticeTime = 71
+        PracticeTimeVariance = 1
+        QualifyTime = 70.8
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
     {
         Tier = 2
-        Speed = 75
+        Speed = 70
         QualifySpeed = 95
         WetSpeed = 85
-        Aggression = 55
+        Aggression = 50
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 85.00
+        MinRacingSkill = 80.00
         PracticeTimeVariance = 0.5
         QualifyTime = 83
         QualifyTimeVariance = 0.125
@@ -8399,16 +8345,13 @@ SCNG23
         Tier = 2
         Speed = 75
         QualifySpeed = 95
-        WetSpeed = 85
-        Aggression = 55
+        WetSpeed = 75
+        Aggression = 50
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 85.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 83
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 80.00
         DrivingLine = FASTEST
     }
   }
@@ -8474,16 +8417,16 @@ SCNG23
         PracticeTime = 30.25
         PracticeTimeVariance = 0.25
         QualifyTime = 30
-        QualifyTimeVariance = 0.25
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST,HIGHLINE
     }
     Charlotte_600
     {
         Tier = 3
-        Speed = 75
+        Speed = 77
         QualifySpeed = 85
         WetSpeed = 77
-        Aggression = 16
+        Aggression = 20
         Composure = 75
         Courtesy = 99
         Recovery = 99
@@ -8501,12 +8444,12 @@ SCNG23
         Speed = 74
         QualifySpeed = 90
         WetSpeed = 80
-        Aggression = 51
+        Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 70.00
+        MinRacingSkill = 80.00
         PracticeTime = 82.25
         PracticeTimeVariance = 0.5
         QualifyTime = 82
@@ -8537,14 +8480,14 @@ SCNG23
         Speed = 80
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 40
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     JM_Daytona_Speedway_Oval
@@ -8559,8 +8502,8 @@ SCNG23
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     Dover_2016
@@ -8779,16 +8722,15 @@ SCNG23
         Tier = 2
         Speed = 77
         QualifySpeed = 90
-        WetSpeed = 80
-        Aggression = 51
+        WetSpeed = 77
+        Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 70.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 84.25
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 80.00
+        QualifyTime = 78
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Talladega_2016
@@ -8797,14 +8739,14 @@ SCNG23
         Speed = 80
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 40
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short
@@ -8813,29 +8755,30 @@ SCNG23
         Speed = 77
         QualifySpeed = 90
         WetSpeed = 80
-        Aggression = 51
+        Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 70.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 84.25
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 80.00
+        PracticeTime = 71
+        PracticeTimeVariance = 1
+        QualifyTime = 71
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
     {
         Tier = 2
-        Speed = 77
+        Speed = 72
         QualifySpeed = 90
         WetSpeed = 80
-        Aggression = 51
+        Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 70.00
+        MinRacingSkill = 80.00
         PracticeTimeVariance = 0.5
         QualifyTime = 84.25
         QualifyTimeVariance = 0.125
@@ -8846,16 +8789,13 @@ SCNG23
         Tier = 2
         Speed = 77
         QualifySpeed = 90
-        WetSpeed = 80
-        Aggression = 51
+        WetSpeed = 77
+        Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 70.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 84.25
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 80.00
         DrivingLine = FASTEST
     }
   }
@@ -8921,16 +8861,16 @@ SCNG23
         PracticeTime = 30.25
         PracticeTimeVariance = 0.25
         QualifyTime = 30
-        QualifyTimeVariance = 0.25
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST,HIGHLINE
     }
     Charlotte_600
     {
         Tier = 3
-        Speed = 75
+        Speed = 77
         QualifySpeed = 85
         WetSpeed = 77
-        Aggression = 16
+        Aggression = 20
         Composure = 75
         Courtesy = 99
         Recovery = 99
@@ -8953,7 +8893,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 75.00
+        MinRacingSkill = 80.00
         PracticeTime = 82.25
         PracticeTimeVariance = 0.5
         QualifyTime = 82
@@ -8984,14 +8924,14 @@ SCNG23
         Speed = 80
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 40
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     JM_Daytona_Speedway_Oval
@@ -9006,8 +8946,8 @@ SCNG23
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     Dover_2016
@@ -9226,16 +9166,15 @@ SCNG23
         Tier = 2
         Speed = 75
         QualifySpeed = 80
-        WetSpeed = 80
+        WetSpeed = 75
         Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 70.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 84.25
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 80.00
+        QualifyTime = 78
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Talladega_2016
@@ -9244,37 +9183,38 @@ SCNG23
         Speed = 80
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 40
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short
     {
         Tier = 2
         Speed = 75
-        QualifySpeed = 80
+        QualifySpeed = 90
         WetSpeed = 80
         Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 70.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 84.25
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 80.00
+        PracticeTime = 71
+        PracticeTimeVariance = 1
+        QualifyTime = 71
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
     {
         Tier = 2
-        Speed = 75
+        Speed = 72
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 45
@@ -9282,7 +9222,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 70.00
+        MinRacingSkill = 80.00
         PracticeTimeVariance = 0.5
         QualifyTime = 84.25
         QualifyTimeVariance = 0.125
@@ -9293,16 +9233,13 @@ SCNG23
         Tier = 2
         Speed = 75
         QualifySpeed = 80
-        WetSpeed = 80
+        WetSpeed = 75
         Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 70.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 84.25
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 80.00
         DrivingLine = FASTEST
     }
   }
@@ -9368,7 +9305,7 @@ SCNG23
         PracticeTime = 30.25
         PracticeTimeVariance = 0.25
         QualifyTime = 30
-        QualifyTimeVariance = 0.25
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST,HIGHLINE
     }
     Charlotte_600
@@ -9377,7 +9314,7 @@ SCNG23
         Speed = 75
         QualifySpeed = 85
         WetSpeed = 77
-        Aggression = 16
+        Aggression = 20
         Composure = 75
         Courtesy = 99
         Recovery = 99
@@ -9395,12 +9332,12 @@ SCNG23
         Speed = 77
         QualifySpeed = 99
         WetSpeed = 92
-        Aggression = 55
+        Aggression = 50
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 94.00
+        MinRacingSkill = 85.00
         PracticeTime = 81.7
         PracticeTimeVariance = 0.5
         QualifyTime = 81.3
@@ -9431,14 +9368,14 @@ SCNG23
         Speed = 80
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 40
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     JM_Daytona_Speedway_Oval
@@ -9453,8 +9390,8 @@ SCNG23
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     Dover_2016
@@ -9673,16 +9610,15 @@ SCNG23
         Tier = 1
         Speed = 80
         QualifySpeed = 99
-        WetSpeed = 92
-        Aggression = 55
-        Composure = 75
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 94.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 82.7
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 85.00
+        QualifyTime = 77.8
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Talladega_2016
@@ -9691,14 +9627,14 @@ SCNG23
         Speed = 80
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 40
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short
@@ -9707,29 +9643,30 @@ SCNG23
         Speed = 80
         QualifySpeed = 99
         WetSpeed = 92
-        Aggression = 55
+        Aggression = 50
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 94.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 82.7
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 85.00
+        PracticeTime = 71
+        PracticeTimeVariance = 1
+        QualifyTime = 70.5
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
     {
         Tier = 1
-        Speed = 80
+        Speed = 75
         QualifySpeed = 99
         WetSpeed = 92
-        Aggression = 55
+        Aggression = 50
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 94.00
+        MinRacingSkill = 85.00
         PracticeTimeVariance = 0.5
         QualifyTime = 82.7
         QualifyTimeVariance = 0.125
@@ -9739,17 +9676,14 @@ SCNG23
     {
         Tier = 1
         Speed = 80
-        QualifySpeed = 99
-        WetSpeed = 92
-        Aggression = 55
-        Composure = 75
+        QualifySpeed = 95
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 94.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 82.7
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 80.00
         DrivingLine = FASTEST
     }
   }
@@ -9815,7 +9749,7 @@ SCNG23
         PracticeTime = 30.25
         PracticeTimeVariance = 0.25
         QualifyTime = 30
-        QualifyTimeVariance = 0.25
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST,HIGHLINE
     }
     Charlotte_600
@@ -9824,7 +9758,7 @@ SCNG23
         Speed = 75
         QualifySpeed = 85
         WetSpeed = 77
-        Aggression = 16
+        Aggression = 20
         Composure = 75
         Courtesy = 99
         Recovery = 99
@@ -9847,7 +9781,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 67.00
+        MinRacingSkill = 80.00
         PracticeTime = 82.25
         PracticeTimeVariance = 0.5
         QualifyTime = 82
@@ -9878,14 +9812,14 @@ SCNG23
         Speed = 80
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 40
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     JM_Daytona_Speedway_Oval
@@ -9900,8 +9834,8 @@ SCNG23
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     Dover_2016
@@ -10120,16 +10054,15 @@ SCNG23
         Tier = 2
         Speed = 65
         QualifySpeed = 80
-        WetSpeed = 80
+        WetSpeed = 65
         Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 84.25
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 80.00
+        QualifyTime = 78
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Talladega_2016
@@ -10138,14 +10071,14 @@ SCNG23
         Speed = 80
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 40
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short
@@ -10159,16 +10092,17 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 84.25
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 80.00
+        PracticeTime = 71
+        PracticeTimeVariance = 1
+        QualifyTime = 71
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
     {
         Tier = 2
-        Speed = 65
+        Speed = 62
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 45
@@ -10176,7 +10110,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 80.00
         PracticeTimeVariance = 0.5
         QualifyTime = 84.25
         QualifyTimeVariance = 0.125
@@ -10187,16 +10121,13 @@ SCNG23
         Tier = 2
         Speed = 65
         QualifySpeed = 80
-        WetSpeed = 80
+        WetSpeed = 65
         Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 84.25
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 80.00
         DrivingLine = FASTEST
     }
   }
@@ -10262,7 +10193,7 @@ SCNG23
         PracticeTime = 30.4
         PracticeTimeVariance = 0.25
         QualifyTime = 30
-        QualifyTimeVariance = 0.25
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST,HIGHLINE
     }
     Charlotte_600
@@ -10271,7 +10202,7 @@ SCNG23
         Speed = 75
         QualifySpeed = 85
         WetSpeed = 77
-        Aggression = 16
+        Aggression = 20
         Composure = 75
         Courtesy = 99
         Recovery = 99
@@ -10325,14 +10256,14 @@ SCNG23
         Speed = 80
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 40
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     JM_Daytona_Speedway_Oval
@@ -10347,8 +10278,8 @@ SCNG23
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     Dover_2016
@@ -10567,16 +10498,15 @@ SCNG23
         Tier = 2
         Speed = 74
         QualifySpeed = 80
-        WetSpeed = 80
+        WetSpeed = 74
         Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 70.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 84.25
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 80.00
+        QualifyTime = 78
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Talladega_2016
@@ -10585,37 +10515,38 @@ SCNG23
         Speed = 80
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 40
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short
     {
         Tier = 2
         Speed = 74
-        QualifySpeed = 80
+        QualifySpeed = 85
         WetSpeed = 80
         Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 70.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 84.25
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 80.00
+        PracticeTime = 71
+        PracticeTimeVariance = 1
+        QualifyTime = 71
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
     {
         Tier = 2
-        Speed = 74
+        Speed = 70
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 45
@@ -10623,7 +10554,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 70.00
+        MinRacingSkill = 80.00
         PracticeTimeVariance = 0.5
         QualifyTime = 84.25
         QualifyTimeVariance = 0.125
@@ -10634,16 +10565,13 @@ SCNG23
         Tier = 2
         Speed = 74
         QualifySpeed = 80
-        WetSpeed = 80
+        WetSpeed = 74
         Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 70.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 84.25
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 80.00
         DrivingLine = FASTEST
     }
   }
@@ -10709,7 +10637,7 @@ SCNG23
         PracticeTime = 30.4
         PracticeTimeVariance = 0.25
         QualifyTime = 30
-        QualifyTimeVariance = 0.25
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST,HIGHLINE
     }
     Charlotte_600
@@ -10718,7 +10646,7 @@ SCNG23
         Speed = 75
         QualifySpeed = 85
         WetSpeed = 77
-        Aggression = 16
+        Aggression = 20
         Composure = 75
         Courtesy = 99
         Recovery = 99
@@ -10736,7 +10664,7 @@ SCNG23
         Speed = 65
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 45
+        Aggression = 41
         Composure = 75
         Courtesy = 99
         Recovery = 99
@@ -10772,14 +10700,14 @@ SCNG23
         Speed = 80
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 40
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     JM_Daytona_Speedway_Oval
@@ -10794,8 +10722,8 @@ SCNG23
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     Dover_2016
@@ -11014,16 +10942,15 @@ SCNG23
         Tier = 2
         Speed = 65
         QualifySpeed = 80
-        WetSpeed = 80
+        WetSpeed = 65
         Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.75
-        QualifyTime = 84.25
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 80.00
+        QualifyTime = 78
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Talladega_2016
@@ -11032,14 +10959,14 @@ SCNG23
         Speed = 80
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 40
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 49.7
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short
@@ -11053,16 +10980,17 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.75
-        QualifyTime = 84.25
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 80.00
+        PracticeTime = 71
+        PracticeTimeVariance = 1
+        QualifyTime = 71
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
     {
         Tier = 2
-        Speed = 65
+        Speed = 60
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 45
@@ -11070,7 +10998,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 80.00
         PracticeTimeVariance = 0.75
         QualifyTime = 84.25
         QualifyTimeVariance = 0.125
@@ -11080,17 +11008,14 @@ SCNG23
     {
         Tier = 2
         Speed = 65
-        QualifySpeed = 80
-        WetSpeed = 80
+        QualifySpeed = 97
+        WetSpeed = 65
         Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.75
-        QualifyTime = 84.25
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 80.00
         DrivingLine = FASTEST
     }
   }
@@ -11156,7 +11081,7 @@ SCNG23
         PracticeTime = 30.4
         PracticeTimeVariance = 0.25
         QualifyTime = 30
-        QualifyTimeVariance = 0.25
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST,HIGHLINE
     }
     Charlotte_600
@@ -11165,7 +11090,7 @@ SCNG23
         Speed = 75
         QualifySpeed = 85
         WetSpeed = 77
-        Aggression = 16
+        Aggression = 20
         Composure = 75
         Courtesy = 99
         Recovery = 99
@@ -11183,12 +11108,12 @@ SCNG23
         Speed = 65
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 45
+        Aggression = 41
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 65.00
+        MinRacingSkill = 70.00
         PracticeTime = 82.5
         PracticeTimeVariance = 0.75
         QualifyTime = 82.3
@@ -11219,14 +11144,14 @@ SCNG23
         Speed = 80
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 25
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     JM_Daytona_Speedway_Oval
@@ -11241,8 +11166,8 @@ SCNG23
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     Dover_2016
@@ -11461,16 +11386,15 @@ SCNG23
         Tier = 3
         Speed = 65
         QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 45
+        WetSpeed = 65
+        Aggression = 41
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.75
-        QualifyTime = 84.4
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 70.00
+        QualifyTime = 78
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Talladega_2016
@@ -11479,14 +11403,14 @@ SCNG23
         Speed = 80
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 25
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50
+        QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short
@@ -11495,29 +11419,30 @@ SCNG23
         Speed = 65
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 45
+        Aggression = 41
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.75
-        QualifyTime = 84.4
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 70.00
+        PracticeTime = 71
+        PracticeTimeVariance = 1
+        QualifyTime = 71.3
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
     {
         Tier = 3
-        Speed = 65
+        Speed = 60
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 45
+        Aggression = 41
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 70.00
         PracticeTimeVariance = 0.75
         QualifyTime = 84.4
         QualifyTimeVariance = 0.125
@@ -11528,16 +11453,13 @@ SCNG23
         Tier = 3
         Speed = 65
         QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 45
+        WetSpeed = 65
+        Aggression = 41
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.75
-        QualifyTime = 84.4
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 70.00
         DrivingLine = FASTEST
     }
   }
@@ -11603,7 +11525,7 @@ SCNG23
         PracticeTime = 30.4
         PracticeTimeVariance = 0.25
         QualifyTime = 30
-        QualifyTimeVariance = 0.25
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST,HIGHLINE
     }
     Charlotte_600
@@ -11612,7 +11534,7 @@ SCNG23
         Speed = 75
         QualifySpeed = 85
         WetSpeed = 77
-        Aggression = 16
+        Aggression = 20
         Composure = 75
         Courtesy = 99
         Recovery = 99
@@ -11630,12 +11552,12 @@ SCNG23
         Speed = 65
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 45
+        Aggression = 41
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 65.00
+        MinRacingSkill = 70.00
         PracticeTime = 82.5
         PracticeTimeVariance = 0.75
         QualifyTime = 82.5
@@ -11666,14 +11588,14 @@ SCNG23
         Speed = 80
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 25
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50
+        QualifyTimeVariance = 0.3
         DrivingLine = FASTEST
     }
     JM_Daytona_Speedway_Oval
@@ -11688,8 +11610,8 @@ SCNG23
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50
+        QualifyTimeVariance = 0.3
         DrivingLine = FASTEST
     }
     Dover_2016
@@ -11908,16 +11830,15 @@ SCNG23
         Tier = 3
         Speed = 65
         QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 45
+        WetSpeed = 65
+        Aggression = 41
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.75
-        QualifyTime = 84.4
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 70.00
+        QualifyTime = 78
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Talladega_2016
@@ -11926,14 +11847,14 @@ SCNG23
         Speed = 80
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 25
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50
+        QualifyTimeVariance = 0.3
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short
@@ -11942,29 +11863,30 @@ SCNG23
         Speed = 65
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 45
+        Aggression = 41
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.75
-        QualifyTime = 84.4
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 70.00
+        PracticeTime = 71
+        PracticeTimeVariance = 1
+        QualifyTime = 71.3
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
     {
         Tier = 3
-        Speed = 65
+        Speed = 60
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 45
+        Aggression = 41
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 70.00
         PracticeTimeVariance = 0.75
         QualifyTime = 84.4
         QualifyTimeVariance = 0.125
@@ -11974,17 +11896,14 @@ SCNG23
     {
         Tier = 3
         Speed = 65
-        QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 45
+        QualifySpeed = 85
+        WetSpeed = 65
+        Aggression = 41
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.75
-        QualifyTime = 84.4
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 70.00
         DrivingLine = FASTEST
     }
   }
@@ -12050,16 +11969,16 @@ SCNG23
         PracticeTime = 30.4
         PracticeTimeVariance = 0.25
         QualifyTime = 30
-        QualifyTimeVariance = 0.25
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST,HIGHLINE
     }
     Charlotte_600
     {
         Tier = 3
-        Speed = 72
+        Speed = 75
         QualifySpeed = 80
         WetSpeed = 72
-        Aggression = 16
+        Aggression = 20
         Composure = 75
         Courtesy = 99
         Recovery = 99
@@ -12077,12 +11996,12 @@ SCNG23
         Speed = 67
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 45
+        Aggression = 41
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 70.00
         PracticeTime = 82.5
         PracticeTimeVariance = 0.75
         QualifyTime = 82.5
@@ -12113,14 +12032,14 @@ SCNG23
         Speed = 77
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 25
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50
+        QualifyTimeVariance = 0.3
         DrivingLine = FASTEST
     }
     JM_Daytona_Speedway_Oval
@@ -12135,8 +12054,8 @@ SCNG23
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50
+        QualifyTimeVariance = 0.3
         DrivingLine = FASTEST
     }
     Dover_2016
@@ -12355,16 +12274,15 @@ SCNG23
         Tier = 3
         Speed = 67
         QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 45
+        WetSpeed = 67
+        Aggression = 41
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.75
-        QualifyTime = 84.4
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 70.00
+        QualifyTime = 78
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Talladega_2016
@@ -12373,14 +12291,14 @@ SCNG23
         Speed = 77
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 25
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50
+        QualifyTimeVariance = 0.3
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short
@@ -12389,29 +12307,30 @@ SCNG23
         Speed = 67
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 45
+        Aggression = 41
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.75
-        QualifyTime = 84.4
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 70.00
+        PracticeTime = 71
+        PracticeTimeVariance = 1
+        QualifyTime = 71.3
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
     {
         Tier = 3
-        Speed = 67
+        Speed = 60
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 45
+        Aggression = 41
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 70.00
         PracticeTimeVariance = 0.75
         QualifyTime = 84.4
         QualifyTimeVariance = 0.125
@@ -12422,16 +12341,13 @@ SCNG23
         Tier = 3
         Speed = 67
         QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 45
+        WetSpeed = 67
+        Aggression = 41
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.75
-        QualifyTime = 84.4
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 70.00
         DrivingLine = FASTEST
     }
   }
@@ -12497,16 +12413,16 @@ SCNG23
         PracticeTime = 30.5
         PracticeTimeVariance = 0.4
         QualifyTime = 30.25
-        QualifyTimeVariance = 0.4
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST,HIGHLINE
     }
     Charlotte_600
     {
         Tier = 3
-        Speed = 72
+        Speed = 75
         QualifySpeed = 80
         WetSpeed = 72
-        Aggression = 16
+        Aggression = 20
         Composure = 75
         Courtesy = 99
         Recovery = 99
@@ -12524,12 +12440,12 @@ SCNG23
         Speed = 72
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 45
+        Aggression = 41
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 77.00
+        MinRacingSkill = 70.00
         PracticeTime = 82.5
         PracticeTimeVariance = 0.75
         QualifyTime = 82.5
@@ -12560,14 +12476,14 @@ SCNG23
         Speed = 80
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 25
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50
+        QualifyTimeVariance = 0.3
         DrivingLine = FASTEST
     }
     JM_Daytona_Speedway_Oval
@@ -12582,8 +12498,8 @@ SCNG23
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50
+        QualifyTimeVariance = 0.3
         DrivingLine = FASTEST
     }
     Dover_2016
@@ -12802,16 +12718,15 @@ SCNG23
         Tier = 3
         Speed = 74
         QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 45
+        WetSpeed = 74
+        Aggression = 41
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
         MinRacingSkill = 70.00
-        PracticeTimeVariance = 0.75
-        QualifyTime = 84.4
-        QualifyTimeVariance = 0.125
+        QualifyTime = 78
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Talladega_2016
@@ -12820,14 +12735,14 @@ SCNG23
         Speed = 80
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 25
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50
+        QualifyTimeVariance = 0.3
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short
@@ -12836,24 +12751,25 @@ SCNG23
         Speed = 74
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 45
+        Aggression = 41
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
         MinRacingSkill = 70.00
-        PracticeTimeVariance = 0.75
-        QualifyTime = 84.4
-        QualifyTimeVariance = 0.125
+        PracticeTime = 71
+        PracticeTimeVariance = 1
+        QualifyTime = 71.3
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
     {
         Tier = 3
-        Speed = 74
+        Speed = 65
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 45
+        Aggression = 41
         Composure = 75
         Courtesy = 99
         Recovery = 99
@@ -12868,17 +12784,14 @@ SCNG23
     {
         Tier = 3
         Speed = 74
-        QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 45
+        QualifySpeed = 95
+        WetSpeed = 74
+        Aggression = 41
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
         MinRacingSkill = 70.00
-        PracticeTimeVariance = 0.75
-        QualifyTime = 84.4
-        QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
   }
@@ -12944,21 +12857,21 @@ SCNG23
         PracticeTime = 30.5
         PracticeTimeVariance = 0.4
         QualifyTime = 30.25
-        QualifyTimeVariance = 0.4
+        QualifyTimeVariance = 0.5
         DrivingLine = HIGHLINE,FASTEST
     }
     Charlotte_600
     {
         Tier = 3
-        Speed = 72
+        Speed = 75
         QualifySpeed = 80
         WetSpeed = 72
-        Aggression = 16
+        Aggression = 20
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 65.00
+        MinRacingSkill = 70.00
         PracticeTime = 30.5
         PracticeTimeVariance = 0.4
         QualifyTime = 30.25
@@ -12971,12 +12884,12 @@ SCNG23
         Speed = 77
         QualifySpeed = 99
         WetSpeed = 90
-        Aggression = 55
+        Aggression = 50
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 92.00
+        MinRacingSkill = 85.00
         PracticeTime = 81.7
         PracticeTimeVariance = 0.5
         QualifyTime = 81.3
@@ -13003,8 +12916,8 @@ SCNG23
     }
     Daytona_2016
     {
-        Tier = 3
-        Speed = 80
+        Tier = 1
+        Speed = 88
         QualifySpeed = 99
         WetSpeed = 80
         Aggression = 50
@@ -13012,8 +12925,8 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 96.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
+        MinRacingSkill = 75.00
+        QualifyTime = 49.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -13029,7 +12942,7 @@ SCNG23
         Recovery = 99
         StartSkill = 96.00
         MinRacingSkill = 75.00
-        PracticeTimeVariance = 0.125
+        QualifyTime = 49.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -13249,22 +13162,21 @@ SCNG23
         Tier = 1
         Speed = 80
         QualifySpeed = 99
-        WetSpeed = 90
-        Aggression = 55
-        Composure = 75
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 92.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 82.8
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 85.00
+        QualifyTime = 77.8
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Talladega_2016
     {
-        Tier = 3
-        Speed = 80
+        Tier = 1
+        Speed = 88
         QualifySpeed = 99
         WetSpeed = 80
         Aggression = 50
@@ -13272,8 +13184,8 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 96.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
+        MinRacingSkill = 75.00
+        QualifyTime = 49.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -13283,29 +13195,30 @@ SCNG23
         Speed = 80
         QualifySpeed = 99
         WetSpeed = 90
-        Aggression = 55
+        Aggression = 50
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 92.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 82.8
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 85.00
+        PracticeTime = 71
+        PracticeTimeVariance = 1
+        QualifyTime = 70.5
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
     {
         Tier = 1
-        Speed = 80
+        Speed = 75
         QualifySpeed = 99
         WetSpeed = 90
-        Aggression = 55
+        Aggression = 50
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 92.00
+        MinRacingSkill = 85.00
         PracticeTimeVariance = 0.5
         QualifyTime = 82.8
         QualifyTimeVariance = 0.125
@@ -13316,16 +13229,13 @@ SCNG23
         Tier = 1
         Speed = 80
         QualifySpeed = 99
-        WetSpeed = 90
-        Aggression = 55
-        Composure = 75
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 92.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 82.8
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 80.00
         DrivingLine = FASTEST
     }
   }
@@ -13391,21 +13301,21 @@ SCNG23
         PracticeTime = 30.5
         PracticeTimeVariance = 0.4
         QualifyTime = 30.25
-        QualifyTimeVariance = 0.4
+        QualifyTimeVariance = 0.5
         DrivingLine = HIGHLINE,FASTEST
     }
     Charlotte_600
     {
         Tier = 3
-        Speed = 70
+        Speed = 74
         QualifySpeed = 80
         WetSpeed = 72
-        Aggression = 16
+        Aggression = 20
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 65.00
+        MinRacingSkill = 70.00
         PracticeTime = 30.5
         PracticeTimeVariance = 0.4
         QualifyTime = 30.25
@@ -13418,7 +13328,7 @@ SCNG23
         Speed = 70
         QualifySpeed = 88
         WetSpeed = 80
-        Aggression = 51
+        Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
@@ -13450,8 +13360,8 @@ SCNG23
     }
     Daytona_2016
     {
-        Tier = 3
-        Speed = 80
+        Tier = 1
+        Speed = 90
         QualifySpeed = 95
         WetSpeed = 80
         Aggression = 50
@@ -13459,8 +13369,8 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
+        MinRacingSkill = 75.00
+        QualifyTime = 49.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -13476,7 +13386,7 @@ SCNG23
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 75.00
-        PracticeTimeVariance = 0.125
+        QualifyTime = 49.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -13696,22 +13606,21 @@ SCNG23
         Tier = 2
         Speed = 70
         QualifySpeed = 88
-        WetSpeed = 80
-        Aggression = 51
+        WetSpeed = 70
+        Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 84
-        QualifyTimeVariance = 0.125
+        QualifyTime = 78
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Talladega_2016
     {
-        Tier = 3
-        Speed = 80
+        Tier = 1
+        Speed = 90
         QualifySpeed = 95
         WetSpeed = 80
         Aggression = 50
@@ -13719,8 +13628,8 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
+        MinRacingSkill = 75.00
+        QualifyTime = 49.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -13728,17 +13637,18 @@ SCNG23
     {
         Tier = 2
         Speed = 70
-        QualifySpeed = 88
+        QualifySpeed = 90
         WetSpeed = 80
-        Aggression = 51
+        Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 84
-        QualifyTimeVariance = 0.125
+        PracticeTime = 71
+        PracticeTimeVariance = 1
+        QualifyTime = 70.8
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
@@ -13747,7 +13657,7 @@ SCNG23
         Speed = 70
         QualifySpeed = 88
         WetSpeed = 80
-        Aggression = 51
+        Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
@@ -13763,16 +13673,13 @@ SCNG23
         Tier = 2
         Speed = 70
         QualifySpeed = 88
-        WetSpeed = 80
-        Aggression = 51
+        WetSpeed = 70
+        Aggression = 45
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.5
-        QualifyTime = 84
-        QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
   }
@@ -13838,21 +13745,21 @@ SCNG23
         PracticeTime = 30.5
         PracticeTimeVariance = 0.4
         QualifyTime = 30.25
-        QualifyTimeVariance = 0.4
+        QualifyTimeVariance = 0.5
         DrivingLine = HIGHLINE,FASTEST
     }
     Charlotte_600
     {
         Tier = 3
-        Speed = 70
+        Speed = 73
         QualifySpeed = 75
         WetSpeed = 72
-        Aggression = 16
+        Aggression = 20
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 65.00
+        MinRacingSkill = 70.00
         PracticeTime = 30.5
         PracticeTimeVariance = 0.4
         QualifyTime = 30.25
@@ -13865,12 +13772,12 @@ SCNG23
         Speed = 65
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 45
+        Aggression = 50
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 80.00
         PracticeTime = 82.5
         PracticeTimeVariance = 0.75
         QualifyTime = 82.7
@@ -13901,14 +13808,14 @@ SCNG23
         Speed = 80
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 25
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50
+        QualifyTimeVariance = 0.3
         DrivingLine = FASTEST
     }
     JM_Daytona_Speedway_Oval
@@ -13923,8 +13830,8 @@ SCNG23
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50
+        QualifyTimeVariance = 0.3
         DrivingLine = FASTEST
     }
     Dover_2016
@@ -14143,16 +14050,15 @@ SCNG23
         Tier = 3
         Speed = 65
         QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 45
+        WetSpeed = 65
+        Aggression = 41
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.75
-        QualifyTime = 84.6
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 70.00
+        QualifyTime = 78.5
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Talladega_2016
@@ -14161,14 +14067,14 @@ SCNG23
         Speed = 80
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 25
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50
+        QualifyTimeVariance = 0.3
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short
@@ -14177,29 +14083,30 @@ SCNG23
         Speed = 65
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 45
+        Aggression = 41
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.75
-        QualifyTime = 84.6
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 70.00
+        PracticeTime = 71
+        PracticeTimeVariance = 1
+        QualifyTime = 71.3
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
     {
         Tier = 3
-        Speed = 65
+        Speed = 60
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 45
+        Aggression = 41
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 70.00
         PracticeTimeVariance = 0.75
         QualifyTime = 84.6
         QualifyTimeVariance = 0.125
@@ -14210,16 +14117,13 @@ SCNG23
         Tier = 3
         Speed = 65
         QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 45
+        WetSpeed = 65
+        Aggression = 41
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.75
-        QualifyTime = 84.6
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 70.00
         DrivingLine = FASTEST
     }
   }
@@ -14285,7 +14189,7 @@ SCNG23
         PracticeTime = 30
         PracticeTimeVariance = 0.25
         QualifyTime = 29.65
-        QualifyTimeVariance = 0.25
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Charlotte_600
@@ -14312,12 +14216,12 @@ SCNG23
         Speed = 75
         QualifySpeed = 92
         WetSpeed = 80
-        Aggression = 45
+        Aggression = 50
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 85.00
+        MinRacingSkill = 80.00
         PracticeTime = 81.7
         PracticeTimeVariance = 0.5
         QualifyTime = 81.7
@@ -14344,33 +14248,33 @@ SCNG23
     }
     Daytona_2016
     {
-        Tier = 3
-        Speed = 80
-        QualifySpeed = 80
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 95
         WetSpeed = 80
         Aggression = 50
-        Composure = 75
+        Composure = 90
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
+        MinRacingSkill = 90.00
+        QualifyTime = 49.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
     JM_Daytona_Speedway_Oval
     {
-        Tier = 3
-        Speed = 80
-        QualifySpeed = 80
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 95
         WetSpeed = 80
-        Aggression = 25
-        Composure = 75
+        Aggression = 50
+        Composure = 90
         Courtesy = 99
         Recovery = 99
         StartSkill = 90.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
+        MinRacingSkill = 90.00
+        QualifyTime = 49.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -14591,30 +14495,29 @@ SCNG23
         Speed = 80
         QualifySpeed = 92
         WetSpeed = 80
-        Aggression = 45
-        Composure = 75
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 40.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.75
-        QualifyTime = 83.9
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
-    }
-    Talladega_2016
-    {
-        Tier = 3
-        Speed = 80
-        QualifySpeed = 80
-        WetSpeed = 80
         Aggression = 50
         Composure = 75
         Courtesy = 99
         Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 80.00
+        QualifyTime = 78.5
+        QualifyTimeVariance = 0.75
+        DrivingLine = FASTEST
+    }
+    Talladega_2016
+    {
+        Tier = 1
+        Speed = 90
+        QualifySpeed = 95
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 90
+        Courtesy = 99
+        Recovery = 99
         StartSkill = 90.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
+        MinRacingSkill = 90.00
+        QualifyTime = 49.5
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -14624,29 +14527,30 @@ SCNG23
         Speed = 80
         QualifySpeed = 92
         WetSpeed = 80
-        Aggression = 45
-        Composure = 75
+        Aggression = 50
+        Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 40.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.75
-        QualifyTime = 83.9
-        QualifyTimeVariance = 0.125
+        StartSkill = 50.00
+        MinRacingSkill = 80.00
+        PracticeTime = 71
+        PracticeTimeVariance = 1
+        QualifyTime = 70.7
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
     {
         Tier = 2
-        Speed = 80
+        Speed = 70
         QualifySpeed = 92
         WetSpeed = 80
-        Aggression = 45
+        Aggression = 50
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 80.00
         PracticeTimeVariance = 0.75
         QualifyTime = 83.9
         QualifyTimeVariance = 0.125
@@ -14658,15 +14562,12 @@ SCNG23
         Speed = 80
         QualifySpeed = 92
         WetSpeed = 80
-        Aggression = 45
-        Composure = 75
+        Aggression = 50
+        Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 40.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.75
-        QualifyTime = 83.9
-        QualifyTimeVariance = 0.125
+        StartSkill = 50.00
+        MinRacingSkill = 80.00
         DrivingLine = FASTEST
     }
   }
@@ -14732,21 +14633,21 @@ SCNG23
         PracticeTime = 30.5
         PracticeTimeVariance = 0.4
         QualifyTime = 30.25
-        QualifyTimeVariance = 0.4
+        QualifyTimeVariance = 0.5
         DrivingLine = HIGHLINE,FASTEST
     }
     Charlotte_600
     {
         Tier = 4
-        Speed = 67
+        Speed = 70
         QualifySpeed = 75
         WetSpeed = 67
-        Aggression = 14
+        Aggression = 20
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 65.00
+        MinRacingSkill = 70.00
         PracticeTime = 30.5
         PracticeTimeVariance = 0.4
         QualifyTime = 30.25
@@ -14759,12 +14660,12 @@ SCNG23
         Speed = 65
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 45
+        Aggression = 35
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 60.00
         PracticeTime = 83
         PracticeTimeVariance = 0.75
         QualifyTime = 83.2
@@ -14795,14 +14696,14 @@ SCNG23
         Speed = 80
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 25
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 85.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.3
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     JM_Daytona_Speedway_Oval
@@ -14817,8 +14718,8 @@ SCNG23
         Recovery = 99
         StartSkill = 85.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.3
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Dover_2016
@@ -15037,16 +14938,15 @@ SCNG23
         Tier = 4
         Speed = 65
         QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 45
+        WetSpeed = 65
+        Aggression = 35
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.75
-        QualifyTime = 84.6
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 60.00
+        QualifyTime = 78.5
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Talladega_2016
@@ -15055,14 +14955,14 @@ SCNG23
         Speed = 80
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
+        Aggression = 25
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 85.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.3
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short
@@ -15071,29 +14971,30 @@ SCNG23
         Speed = 65
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 45
+        Aggression = 35
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.75
-        QualifyTime = 84.6
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 60.00
+        PracticeTime = 71
+        PracticeTimeVariance = 1
+        QualifyTime = 71.5
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
     {
         Tier = 4
-        Speed = 65
+        Speed = 58
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 45
+        Aggression = 35
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 60.00
         PracticeTimeVariance = 0.75
         QualifyTime = 84.6
         QualifyTimeVariance = 0.125
@@ -15104,16 +15005,13 @@ SCNG23
         Tier = 4
         Speed = 65
         QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 45
+        WetSpeed = 65
+        Aggression = 35
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.75
-        QualifyTime = 84.6
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 60.00
         DrivingLine = FASTEST
     }
   }
@@ -15179,21 +15077,21 @@ SCNG23
         PracticeTime = 30.5
         PracticeTimeVariance = 0.4
         QualifyTime = 30.25
-        QualifyTimeVariance = 0.4
+        QualifyTimeVariance = 0.5
         DrivingLine = HIGHLINE,FASTEST
     }
     Charlotte_600
     {
         Tier = 4
-        Speed = 67
+        Speed = 70
         QualifySpeed = 75
         WetSpeed = 67
-        Aggression = 14
-        Composure = 55
+        Aggression = 20
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 65.00
+        MinRacingSkill = 70.00
         PracticeTime = 30.5
         PracticeTimeVariance = 0.4
         QualifyTime = 30.25
@@ -15206,12 +15104,12 @@ SCNG23
         Speed = 65
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 45
+        Aggression = 35
         Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 60.00
         PracticeTime = 83
         PracticeTimeVariance = 0.75
         QualifyTime = 83.2
@@ -15242,14 +15140,14 @@ SCNG23
         Speed = 80
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
-        Composure = 55
+        Aggression = 25
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 85.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.3
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     JM_Daytona_Speedway_Oval
@@ -15259,13 +15157,13 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 25
-        Composure = 55
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 85.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.3
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Dover_2016
@@ -15484,16 +15382,15 @@ SCNG23
         Tier = 4
         Speed = 65
         QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 45
+        WetSpeed = 65
+        Aggression = 35
         Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.75
-        QualifyTime = 84.6
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 60.00
+        QualifyTime = 78.5
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Talladega_2016
@@ -15502,14 +15399,14 @@ SCNG23
         Speed = 80
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
-        Composure = 55
+        Aggression = 25
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 85.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.3
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short
@@ -15518,29 +15415,30 @@ SCNG23
         Speed = 65
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 45
+        Aggression = 35
         Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.75
-        QualifyTime = 84.6
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 60.00
+        PracticeTime = 71
+        PracticeTimeVariance = 1
+        QualifyTime = 71.5
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
     {
         Tier = 4
-        Speed = 65
+        Speed = 58
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 45
+        Aggression = 35
         Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 60.00
         PracticeTimeVariance = 0.75
         QualifyTime = 84.6
         QualifyTimeVariance = 0.125
@@ -15551,16 +15449,13 @@ SCNG23
         Tier = 4
         Speed = 65
         QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 45
+        WetSpeed = 65
+        Aggression = 35
         Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.75
-        QualifyTime = 84.6
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 60.00
         DrivingLine = FASTEST
     }
   }
@@ -15626,21 +15521,21 @@ SCNG23
         PracticeTime = 30.5
         PracticeTimeVariance = 0.4
         QualifyTime = 30.4
-        QualifyTimeVariance = 0.4
+        QualifyTimeVariance = 0.5
         DrivingLine = HIGHLINE,FASTEST
     }
     Charlotte_600
     {
         Tier = 4
-        Speed = 67
+        Speed = 70
         QualifySpeed = 75
         WetSpeed = 67
-        Aggression = 14
-        Composure = 55
+        Aggression = 20
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 65.00
+        MinRacingSkill = 70.00
         PracticeTime = 30.5
         PracticeTimeVariance = 0.4
         QualifyTime = 30.4
@@ -15653,16 +15548,16 @@ SCNG23
         Speed = 65
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 45
+        Aggression = 35
         Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 60.00
         PracticeTime = 83
         PracticeTimeVariance = 1
         QualifyTime = 83.2
-        QualifyTimeVariance = 1
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Darlington_500
@@ -15689,14 +15584,14 @@ SCNG23
         Speed = 78
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
-        Composure = 55
+        Aggression = 25
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 85.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.3
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     JM_Daytona_Speedway_Oval
@@ -15706,13 +15601,13 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 25
-        Composure = 55
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 85.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.3
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Dover_2016
@@ -15931,16 +15826,15 @@ SCNG23
         Tier = 4
         Speed = 65
         QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 45
+        WetSpeed = 65
+        Aggression = 35
         Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 1
-        QualifyTime = 84.6
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 60.00
+        QualifyTime = 78.5
+        QualifyTimeVariance = 1
         DrivingLine = FASTEST
     }
     Talladega_2016
@@ -15949,14 +15843,14 @@ SCNG23
         Speed = 78
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
-        Composure = 55
+        Aggression = 25
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 85.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.3
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short
@@ -15965,29 +15859,30 @@ SCNG23
         Speed = 65
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 45
+        Aggression = 35
         Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 60.00
+        PracticeTime = 71
         PracticeTimeVariance = 1
-        QualifyTime = 84.6
-        QualifyTimeVariance = 0.125
+        QualifyTime = 71.5
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
     {
         Tier = 4
-        Speed = 65
+        Speed = 58
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 45
+        Aggression = 35
         Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 60.00
         PracticeTimeVariance = 1
         QualifyTime = 84.6
         QualifyTimeVariance = 0.125
@@ -15998,16 +15893,13 @@ SCNG23
         Tier = 4
         Speed = 65
         QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 45
+        WetSpeed = 65
+        Aggression = 35
         Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 1
-        QualifyTime = 84.6
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 60.00
         DrivingLine = FASTEST
     }
   }
@@ -16073,21 +15965,21 @@ SCNG23
         PracticeTime = 30.7
         PracticeTimeVariance = 0.4
         QualifyTime = 30.4
-        QualifyTimeVariance = 0.4
+        QualifyTimeVariance = 0.5
         DrivingLine = HIGHLINE,FASTEST
     }
     Charlotte_600
     {
         Tier = 4
-        Speed = 67
+        Speed = 70
         QualifySpeed = 70
         WetSpeed = 67
-        Aggression = 14
-        Composure = 55
+        Aggression = 20
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 65.00
+        MinRacingSkill = 70.00
         PracticeTime = 30.7
         PracticeTimeVariance = 0.4
         QualifyTime = 30.4
@@ -16100,16 +15992,16 @@ SCNG23
         Speed = 60
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 36
+        Aggression = 35
         Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 60.00
         PracticeTime = 83
         PracticeTimeVariance = 1
         QualifyTime = 83.2
-        QualifyTimeVariance = 1
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Darlington_500
@@ -16136,14 +16028,14 @@ SCNG23
         Speed = 77
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
-        Composure = 55
+        Aggression = 25
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 85.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.3
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     JM_Daytona_Speedway_Oval
@@ -16153,13 +16045,13 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 25
-        Composure = 55
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 85.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.3
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Dover_2016
@@ -16378,16 +16270,15 @@ SCNG23
         Tier = 4
         Speed = 60
         QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 36
+        WetSpeed = 60
+        Aggression = 35
         Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 1
-        QualifyTime = 84.6
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 60.00
+        QualifyTime = 78.5
+        QualifyTimeVariance = 1
         DrivingLine = FASTEST
     }
     Talladega_2016
@@ -16396,14 +16287,14 @@ SCNG23
         Speed = 77
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
-        Composure = 55
+        Aggression = 25
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 85.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.3
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short
@@ -16412,29 +16303,30 @@ SCNG23
         Speed = 60
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 36
+        Aggression = 35
         Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 60.00
+        PracticeTime = 71
         PracticeTimeVariance = 1
-        QualifyTime = 84.6
-        QualifyTimeVariance = 0.125
+        QualifyTime = 71.5
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
     {
         Tier = 4
-        Speed = 60
+        Speed = 55
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 36
+        Aggression = 35
         Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 60.00
         PracticeTimeVariance = 1
         QualifyTime = 84.6
         QualifyTimeVariance = 0.125
@@ -16445,16 +16337,13 @@ SCNG23
         Tier = 4
         Speed = 60
         QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 36
+        WetSpeed = 60
+        Aggression = 35
         Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 1
-        QualifyTime = 84.6
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 60.00
         DrivingLine = FASTEST
     }
   }
@@ -16520,7 +16409,7 @@ SCNG23
         PracticeTime = 30.7
         PracticeTimeVariance = 0.4
         QualifyTime = 30.4
-        QualifyTimeVariance = 0.4
+        QualifyTimeVariance = 0.5
         DrivingLine = HIGHLINE,FASTEST
     }
     Charlotte_600
@@ -16529,12 +16418,12 @@ SCNG23
         Speed = 70
         QualifySpeed = 70
         WetSpeed = 70
-        Aggression = 14
-        Composure = 55
+        Aggression = 20
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 65.00
+        MinRacingSkill = 70.00
         PracticeTime = 30.7
         PracticeTimeVariance = 0.4
         QualifyTime = 30.4
@@ -16547,16 +16436,16 @@ SCNG23
         Speed = 60
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 36
+        Aggression = 35
         Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 60.00
         PracticeTime = 83.5
         PracticeTimeVariance = 1
         QualifyTime = 83.2
-        QualifyTimeVariance = 1
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Darlington_500
@@ -16583,14 +16472,14 @@ SCNG23
         Speed = 75
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
-        Composure = 55
+        Aggression = 25
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 85.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.3
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     JM_Daytona_Speedway_Oval
@@ -16600,13 +16489,13 @@ SCNG23
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 25
-        Composure = 55
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 85.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.3
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Dover_2016
@@ -16825,16 +16714,15 @@ SCNG23
         Tier = 4
         Speed = 60
         QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 36
+        WetSpeed = 60
+        Aggression = 35
         Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 1
-        QualifyTime = 85
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 60.00
+        QualifyTime = 78.5
+        QualifyTimeVariance = 1
         DrivingLine = FASTEST
     }
     Talladega_2016
@@ -16843,14 +16731,14 @@ SCNG23
         Speed = 75
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
-        Composure = 55
+        Aggression = 25
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 85.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.3
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short
@@ -16859,29 +16747,30 @@ SCNG23
         Speed = 60
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 36
+        Aggression = 35
         Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 60.00
+        PracticeTime = 71
         PracticeTimeVariance = 1
-        QualifyTime = 85
-        QualifyTimeVariance = 0.125
+        QualifyTime = 71.5
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
     {
         Tier = 4
-        Speed = 60
+        Speed = 55
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 36
+        Aggression = 35
         Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 60.00
         PracticeTimeVariance = 1
         QualifyTime = 85
         QualifyTimeVariance = 0.125
@@ -16892,16 +16781,13 @@ SCNG23
         Tier = 4
         Speed = 60
         QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 36
+        WetSpeed = 60
+        Aggression = 35
         Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 1
-        QualifyTime = 85
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 60.00
         DrivingLine = FASTEST
     }
   }
@@ -16967,7 +16853,7 @@ SCNG23
         PracticeTime = 30.7
         PracticeTimeVariance = 0.4
         QualifyTime = 30.4
-        QualifyTimeVariance = 0.4
+        QualifyTimeVariance = 0.5
         DrivingLine = HIGHLINE,FASTEST
     }
     Charlotte_600
@@ -16976,12 +16862,12 @@ SCNG23
         Speed = 70
         QualifySpeed = 70
         WetSpeed = 70
-        Aggression = 14
-        Composure = 55
+        Aggression = 20
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 65.00
+        MinRacingSkill = 70.00
         PracticeTime = 30.7
         PracticeTimeVariance = 0.4
         QualifyTime = 30.4
@@ -16994,16 +16880,16 @@ SCNG23
         Speed = 60
         QualifySpeed = 70
         WetSpeed = 75
-        Aggression = 36
+        Aggression = 35
         Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 60.00
         PracticeTime = 83.5
         PracticeTimeVariance = 1
         QualifyTime = 83.2
-        QualifyTimeVariance = 1
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Darlington_500
@@ -17030,14 +16916,14 @@ SCNG23
         Speed = 75
         QualifySpeed = 70
         WetSpeed = 75
-        Aggression = 50
-        Composure = 55
+        Aggression = 25
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 85.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.3
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     JM_Daytona_Speedway_Oval
@@ -17047,13 +16933,13 @@ SCNG23
         QualifySpeed = 70
         WetSpeed = 75
         Aggression = 25
-        Composure = 55
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 85.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.3
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Dover_2016
@@ -17272,16 +17158,15 @@ SCNG23
         Tier = 4
         Speed = 60
         QualifySpeed = 70
-        WetSpeed = 75
-        Aggression = 36
+        WetSpeed = 60
+        Aggression = 35
         Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 1
-        QualifyTime = 85
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 60.00
+        QualifyTime = 78.5
+        QualifyTimeVariance = 1
         DrivingLine = FASTEST
     }
     Talladega_2016
@@ -17290,14 +17175,14 @@ SCNG23
         Speed = 75
         QualifySpeed = 70
         WetSpeed = 75
-        Aggression = 50
-        Composure = 55
+        Aggression = 25
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 85.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.3
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short
@@ -17306,29 +17191,30 @@ SCNG23
         Speed = 60
         QualifySpeed = 70
         WetSpeed = 75
-        Aggression = 36
+        Aggression = 35
         Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 60.00
+        PracticeTime = 71
         PracticeTimeVariance = 1
-        QualifyTime = 85
-        QualifyTimeVariance = 0.125
+        QualifyTime = 71.5
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
     {
         Tier = 4
-        Speed = 60
+        Speed = 55
         QualifySpeed = 70
         WetSpeed = 75
-        Aggression = 36
+        Aggression = 35
         Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 60.00
         PracticeTimeVariance = 1
         QualifyTime = 85
         QualifyTimeVariance = 0.125
@@ -17338,17 +17224,14 @@ SCNG23
     {
         Tier = 4
         Speed = 60
-        QualifySpeed = 70
-        WetSpeed = 75
-        Aggression = 36
+        QualifySpeed = 92
+        WetSpeed = 60
+        Aggression = 35
         Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 1
-        QualifyTime = 85
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 60.00
         DrivingLine = FASTEST
     }
   }
@@ -17414,21 +17297,21 @@ SCNG23
         PracticeTime = 30.85
         PracticeTimeVariance = 0.4
         QualifyTime = 30.4
-        QualifyTimeVariance = 0.4
+        QualifyTimeVariance = 0.5
         DrivingLine = HIGHLINE,FASTEST
     }
     Charlotte_600
     {
         Tier = 4
-        Speed = 67
+        Speed = 70
         QualifySpeed = 70
         WetSpeed = 67
-        Aggression = 14
-        Composure = 55
+        Aggression = 20
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 65.00
+        MinRacingSkill = 70.00
         PracticeTime = 30.85
         PracticeTimeVariance = 0.4
         QualifyTime = 30.4
@@ -17441,16 +17324,16 @@ SCNG23
         Speed = 60
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 36
+        Aggression = 35
         Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 60.00
         PracticeTime = 83.5
         PracticeTimeVariance = 1
         QualifyTime = 83.5
-        QualifyTimeVariance = 1
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Darlington_500
@@ -17474,33 +17357,33 @@ SCNG23
     Daytona_2016
     {
         Tier = 4
-        Speed = 72
+        Speed = 75
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 40
-        Composure = 55
+        Aggression = 25
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 85.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.3
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     JM_Daytona_Speedway_Oval
     {
         Tier = 4
-        Speed = 72
+        Speed = 75
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 25
-        Composure = 55
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 85.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.3
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Dover_2016
@@ -17719,32 +17602,31 @@ SCNG23
         Tier = 4
         Speed = 60
         QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 36
+        WetSpeed = 60
+        Aggression = 35
         Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 1
-        QualifyTime = 85
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 60.00
+        QualifyTime = 78.5
+        QualifyTimeVariance = 1
         DrivingLine = FASTEST
     }
     Talladega_2016
     {
         Tier = 4
-        Speed = 72
+        Speed = 75
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 40
-        Composure = 55
+        Aggression = 25
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 85.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.3
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short
@@ -17753,29 +17635,30 @@ SCNG23
         Speed = 60
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 36
+        Aggression = 35
         Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 60.00
+        PracticeTime = 71
         PracticeTimeVariance = 1
-        QualifyTime = 85
-        QualifyTimeVariance = 0.125
+        QualifyTime = 71.5
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
     {
         Tier = 4
-        Speed = 60
+        Speed = 55
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 36
+        Aggression = 35
         Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 60.00
         PracticeTimeVariance = 1
         QualifyTime = 85
         QualifyTimeVariance = 0.125
@@ -17786,16 +17669,13 @@ SCNG23
         Tier = 4
         Speed = 60
         QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 36
+        WetSpeed = 60
+        Aggression = 35
         Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 1
-        QualifyTime = 85
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 60.00
         DrivingLine = FASTEST
     }
   }
@@ -17861,21 +17741,21 @@ SCNG23
         PracticeTime = 30.85
         PracticeTimeVariance = 0.4
         QualifyTime = 30.5
-        QualifyTimeVariance = 0.4
+        QualifyTimeVariance = 0.5
         DrivingLine = HIGHLINE,FASTEST
     }
     Charlotte_600
     {
         Tier = 4
-        Speed = 67
+        Speed = 70
         QualifySpeed = 65
         WetSpeed = 67
-        Aggression = 14
-        Composure = 50
+        Aggression = 20
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 65.00
+        MinRacingSkill = 70.00
         PracticeTime = 30.85
         PracticeTimeVariance = 0.4
         QualifyTime = 30.5
@@ -17888,16 +17768,16 @@ SCNG23
         Speed = 55
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 36
+        Aggression = 35
         Composure = 50
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 60.00
         PracticeTime = 83.5
         PracticeTimeVariance = 1
         QualifyTime = 83.5
-        QualifyTimeVariance = 1
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Darlington_500
@@ -17921,33 +17801,33 @@ SCNG23
     Daytona_2016
     {
         Tier = 4
-        Speed = 72
+        Speed = 75
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 40
-        Composure = 50
+        Aggression = 25
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 80.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.3
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     JM_Daytona_Speedway_Oval
     {
         Tier = 4
-        Speed = 72
+        Speed = 75
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 25
-        Composure = 50
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 80.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.3
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Dover_2016
@@ -18166,32 +18046,31 @@ SCNG23
         Tier = 4
         Speed = 55
         QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 36
+        WetSpeed = 55
+        Aggression = 35
         Composure = 50
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 1
-        QualifyTime = 85
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 60.00
+        QualifyTime = 78.5
+        QualifyTimeVariance = 1
         DrivingLine = FASTEST
     }
     Talladega_2016
     {
         Tier = 4
-        Speed = 72
+        Speed = 75
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 40
-        Composure = 50
+        Aggression = 25
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 80.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.3
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short
@@ -18200,15 +18079,16 @@ SCNG23
         Speed = 55
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 36
+        Aggression = 35
         Composure = 50
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 60.00
+        PracticeTime = 71
         PracticeTimeVariance = 1
-        QualifyTime = 85
-        QualifyTimeVariance = 0.125
+        QualifyTime = 71.5
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
@@ -18217,12 +18097,12 @@ SCNG23
         Speed = 55
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 36
+        Aggression = 35
         Composure = 50
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 60.00
         PracticeTimeVariance = 1
         QualifyTime = 85
         QualifyTimeVariance = 0.125
@@ -18233,16 +18113,13 @@ SCNG23
         Tier = 4
         Speed = 55
         QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 36
+        WetSpeed = 55
+        Aggression = 35
         Composure = 50
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 1
-        QualifyTime = 85
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 60.00
         DrivingLine = FASTEST
     }
   }
@@ -18308,21 +18185,21 @@ SCNG23
         PracticeTime = 30.85
         PracticeTimeVariance = 0.4
         QualifyTime = 30.5
-        QualifyTimeVariance = 0.4
+        QualifyTimeVariance = 0.5
         DrivingLine = HIGHLINE,FASTEST
     }
     Charlotte_600
     {
         Tier = 4
-        Speed = 67
+        Speed = 70
         QualifySpeed = 65
         WetSpeed = 67
-        Aggression = 14
-        Composure = 45
+        Aggression = 20
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 60.00
+        MinRacingSkill = 70.00
         PracticeTime = 30.85
         PracticeTimeVariance = 0.4
         QualifyTime = 30.5
@@ -18335,16 +18212,16 @@ SCNG23
         Speed = 55
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 31
+        Aggression = 35
         Composure = 45
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 60.00
         PracticeTime = 83.5
         PracticeTimeVariance = 1
         QualifyTime = 83.5
-        QualifyTimeVariance = 1
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Darlington_500
@@ -18368,37 +18245,33 @@ SCNG23
     Daytona_2016
     {
         Tier = 4
-        Speed = 72
+        Speed = 75
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 35
-        Composure = 45
+        Aggression = 5
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 80.00
         MinRacingSkill = 50.00
-        PracticeTime = 31.2
-        PracticeTimeVariance = 0.125
-        QualifyTime = 31.3
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.3
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     JM_Daytona_Speedway_Oval
     {
         Tier = 4
-        Speed = 72
+        Speed = 75
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 5
-        Composure = 45
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 80.00
         MinRacingSkill = 50.00
-        PracticeTime = 31.2
-        PracticeTimeVariance = 0.125
-        QualifyTime = 31.3
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.3
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Dover_2016
@@ -18634,34 +18507,31 @@ SCNG23
         Tier = 4
         Speed = 55
         QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 31
+        WetSpeed = 55
+        Aggression = 35
         Composure = 45
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 1
-        QualifyTime = 85
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 60.00
+        QualifyTime = 78.5
+        QualifyTimeVariance = 1
         DrivingLine = FASTEST
     }
     Talladega_2016
     {
         Tier = 4
-        Speed = 72
+        Speed = 75
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 35
-        Composure = 45
+        Aggression = 5
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 80.00
         MinRacingSkill = 50.00
-        PracticeTime = 31.2
-        PracticeTimeVariance = 0.125
-        QualifyTime = 31.3
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.3
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short
@@ -18670,15 +18540,16 @@ SCNG23
         Speed = 55
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 31
+        Aggression = 35
         Composure = 45
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 60.00
+        PracticeTime = 71
         PracticeTimeVariance = 1
-        QualifyTime = 85
-        QualifyTimeVariance = 0.125
+        QualifyTime = 71.5
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
@@ -18687,12 +18558,12 @@ SCNG23
         Speed = 55
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 31
+        Aggression = 35
         Composure = 45
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 60.00
         PracticeTimeVariance = 1
         QualifyTime = 85
         QualifyTimeVariance = 0.125
@@ -18703,16 +18574,13 @@ SCNG23
         Tier = 4
         Speed = 55
         QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 31
+        WetSpeed = 55
+        Aggression = 35
         Composure = 45
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 1
-        QualifyTime = 85
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 60.00
         DrivingLine = FASTEST
     }
   }
@@ -18778,21 +18646,21 @@ SCNG23
         PracticeTime = 31
         PracticeTimeVariance = 0.4
         QualifyTime = 30.5
-        QualifyTimeVariance = 0.4
+        QualifyTimeVariance = 0.5
         DrivingLine = HIGHLINE,FASTEST
     }
     Charlotte_600
     {
         Tier = 5
-        Speed = 65
+        Speed = 67
         QualifySpeed = 65
         WetSpeed = 67
-        Aggression = 8
-        Composure = 45
+        Aggression = 20
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 60.00
+        MinRacingSkill = 70.00
         PracticeTime = 31
         PracticeTimeVariance = 0.4
         QualifyTime = 30.5
@@ -18814,7 +18682,7 @@ SCNG23
         PracticeTime = 83.5
         PracticeTimeVariance = 1
         QualifyTime = 83.5
-        QualifyTimeVariance = 1
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Darlington_500
@@ -18838,33 +18706,33 @@ SCNG23
     Daytona_2016
     {
         Tier = 5
-        Speed = 72
+        Speed = 75
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 35
-        Composure = 45
+        Aggression = 5
+        Composure = 65
         Courtesy = 99
         Recovery = 99
         StartSkill = 80.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.5
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     JM_Daytona_Speedway_Oval
     {
         Tier = 5
-        Speed = 72
+        Speed = 75
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 5
-        Composure = 45
+        Composure = 65
         Courtesy = 99
         Recovery = 99
         StartSkill = 80.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.5
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Dover_2016
@@ -19080,58 +18948,58 @@ SCNG23
     }
     Sonoma_Raceway_NASCAR
     {
-        Tier = 5
-        Speed = 55
-        QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 31
+        Tier = 2
+        Speed = 72
+        QualifySpeed = 87
+        WetSpeed = 78
+        Aggression = 45
         Composure = 45
         Courtesy = 99
         Recovery = 99
-        StartSkill = 35.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 1
-        QualifyTime = 85
-        QualifyTimeVariance = 0.125
+        StartSkill = 40.00
+        MinRacingSkill = 77.00
+        QualifyTime = 78
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Talladega_2016
     {
         Tier = 5
-        Speed = 72
+        Speed = 75
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 35
-        Composure = 45
+        Aggression = 5
+        Composure = 65
         Courtesy = 99
         Recovery = 99
         StartSkill = 80.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.5
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short
     {
-        Tier = 5
-        Speed = 55
-        QualifySpeed = 80
+        Tier = 2
+        Speed = 68
+        QualifySpeed = 90
         WetSpeed = 80
-        Aggression = 31
-        Composure = 45
+        Aggression = 35
+        Composure = 70
         Courtesy = 99
         Recovery = 99
-        StartSkill = 35.00
-        MinRacingSkill = 50.00
+        StartSkill = 40.00
+        MinRacingSkill = 80.00
+        PracticeTime = 71
         PracticeTimeVariance = 1
-        QualifyTime = 85
-        QualifyTimeVariance = 0.125
+        QualifyTime = 71
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
     {
         Tier = 5
-        Speed = 55
+        Speed = 52
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 31
@@ -19147,19 +19015,16 @@ SCNG23
     }
     Sonoma_Nascar
     {
-        Tier = 5
-        Speed = 55
-        QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 31
+        Tier = 2
+        Speed = 72
+        QualifySpeed = 87
+        WetSpeed = 78
+        Aggression = 45
         Composure = 45
         Courtesy = 99
         Recovery = 99
-        StartSkill = 35.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 1
-        QualifyTime = 85
-        QualifyTimeVariance = 0.125
+        StartSkill = 40.00
+        MinRacingSkill = 77.00
         DrivingLine = FASTEST
     }
   }
@@ -19231,15 +19096,15 @@ SCNG23
     Charlotte_600
     {
         Tier = 5
-        Speed = 62
+        Speed = 65
         QualifySpeed = 65
         WetSpeed = 62
-        Aggression = 8
-        Composure = 45
+        Aggression = 20
+        Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 60.00
+        MinRacingSkill = 70.00
         PracticeTime = 31
         PracticeTimeVariance = 0.5
         QualifyTime = 30.75
@@ -19261,7 +19126,7 @@ SCNG23
         PracticeTime = 83.5
         PracticeTimeVariance = 1
         QualifyTime = 83.5
-        QualifyTimeVariance = 1
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Darlington_500
@@ -19285,33 +19150,33 @@ SCNG23
     Daytona_2016
     {
         Tier = 5
-        Speed = 65
+        Speed = 75
         QualifySpeed = 60
         WetSpeed = 70
-        Aggression = 35
-        Composure = 45
+        Aggression = 5
+        Composure = 65
         Courtesy = 99
         Recovery = 99
         StartSkill = 75.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.5
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     JM_Daytona_Speedway_Oval
     {
         Tier = 5
-        Speed = 65
+        Speed = 75
         QualifySpeed = 60
         WetSpeed = 70
         Aggression = 5
-        Composure = 45
+        Composure = 65
         Courtesy = 99
         Recovery = 99
         StartSkill = 75.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.5
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Dover_2016
@@ -19530,32 +19395,31 @@ SCNG23
         Tier = 5
         Speed = 50
         QualifySpeed = 60
-        WetSpeed = 70
+        WetSpeed = 50
         Aggression = 31
         Composure = 45
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 1
-        QualifyTime = 85
-        QualifyTimeVariance = 0.125
+        QualifyTime = 79
+        QualifyTimeVariance = 1
         DrivingLine = FASTEST
     }
     Talladega_2016
     {
         Tier = 5
-        Speed = 65
+        Speed = 75
         QualifySpeed = 60
         WetSpeed = 70
-        Aggression = 35
-        Composure = 45
+        Aggression = 5
+        Composure = 65
         Courtesy = 99
         Recovery = 99
         StartSkill = 75.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.5
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short
@@ -19570,9 +19434,10 @@ SCNG23
         Recovery = 99
         StartSkill = 35.00
         MinRacingSkill = 50.00
+        PracticeTime = 71
         PracticeTimeVariance = 1
-        QualifyTime = 85
-        QualifyTimeVariance = 0.125
+        QualifyTime = 71.8
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
@@ -19596,17 +19461,14 @@ SCNG23
     {
         Tier = 5
         Speed = 50
-        QualifySpeed = 60
-        WetSpeed = 70
+        QualifySpeed = 70
+        WetSpeed = 50
         Aggression = 31
         Composure = 45
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 1
-        QualifyTime = 85
-        QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
   }
@@ -19678,15 +19540,15 @@ SCNG23
     Charlotte_600
     {
         Tier = 5
-        Speed = 58
+        Speed = 65
         QualifySpeed = 60
         WetSpeed = 58
-        Aggression = 8
-        Composure = 35
+        Aggression = 20
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 60.00
+        MinRacingSkill = 70.00
         PracticeTime = 31
         PracticeTimeVariance = 0.5
         QualifyTime = 30.75
@@ -19708,7 +19570,7 @@ SCNG23
         PracticeTime = 83.5
         PracticeTimeVariance = 1
         QualifyTime = 83.5
-        QualifyTimeVariance = 1
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Darlington_500
@@ -19732,33 +19594,33 @@ SCNG23
     Daytona_2016
     {
         Tier = 5
-        Speed = 60
+        Speed = 75
         QualifySpeed = 70
         WetSpeed = 80
-        Aggression = 35
-        Composure = 35
+        Aggression = 5
+        Composure = 65
         Courtesy = 99
         Recovery = 99
         StartSkill = 75.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.5
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     JM_Daytona_Speedway_Oval
     {
         Tier = 5
-        Speed = 60
+        Speed = 75
         QualifySpeed = 70
         WetSpeed = 80
         Aggression = 5
-        Composure = 35
+        Composure = 65
         Courtesy = 99
         Recovery = 99
         StartSkill = 75.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.5
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Dover_2016
@@ -19977,32 +19839,31 @@ SCNG23
         Tier = 5
         Speed = 50
         QualifySpeed = 70
-        WetSpeed = 80
+        WetSpeed = 50
         Aggression = 31
         Composure = 35
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 1
-        QualifyTime = 85
-        QualifyTimeVariance = 0.125
+        QualifyTime = 79
+        QualifyTimeVariance = 1
         DrivingLine = FASTEST
     }
     Talladega_2016
     {
         Tier = 5
-        Speed = 60
+        Speed = 75
         QualifySpeed = 70
         WetSpeed = 80
-        Aggression = 35
-        Composure = 35
+        Aggression = 5
+        Composure = 65
         Courtesy = 99
         Recovery = 99
         StartSkill = 75.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.5
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short
@@ -20017,9 +19878,10 @@ SCNG23
         Recovery = 99
         StartSkill = 35.00
         MinRacingSkill = 50.00
+        PracticeTime = 71
         PracticeTimeVariance = 1
-        QualifyTime = 85
-        QualifyTimeVariance = 0.125
+        QualifyTime = 71.8
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
@@ -20044,16 +19906,13 @@ SCNG23
         Tier = 5
         Speed = 50
         QualifySpeed = 70
-        WetSpeed = 80
+        WetSpeed = 50
         Aggression = 31
         Composure = 35
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 1
-        QualifyTime = 85
-        QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
   }
@@ -20125,15 +19984,15 @@ SCNG23
     Charlotte_600
     {
         Tier = 5
-        Speed = 52
+        Speed = 65
         QualifySpeed = 60
         WetSpeed = 52
-        Aggression = 8
-        Composure = 35
+        Aggression = 20
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 60.00
+        MinRacingSkill = 70.00
         PracticeTime = 31
         PracticeTimeVariance = 0.5
         QualifyTime = 30.75
@@ -20155,7 +20014,7 @@ SCNG23
         PracticeTime = 83.5
         PracticeTimeVariance = 1
         QualifyTime = 83.5
-        QualifyTimeVariance = 1
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Darlington_500
@@ -20179,33 +20038,33 @@ SCNG23
     Daytona_2016
     {
         Tier = 5
-        Speed = 55
+        Speed = 75
         QualifySpeed = 65
         WetSpeed = 80
-        Aggression = 35
-        Composure = 35
+        Aggression = 5
+        Composure = 65
         Courtesy = 99
         Recovery = 99
         StartSkill = 75.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.5
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     JM_Daytona_Speedway_Oval
     {
         Tier = 5
-        Speed = 55
+        Speed = 75
         QualifySpeed = 65
         WetSpeed = 80
         Aggression = 5
-        Composure = 35
+        Composure = 65
         Courtesy = 99
         Recovery = 99
         StartSkill = 75.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.5
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Dover_2016
@@ -20424,32 +20283,31 @@ SCNG23
         Tier = 5
         Speed = 45
         QualifySpeed = 65
-        WetSpeed = 80
+        WetSpeed = 45
         Aggression = 31
         Composure = 35
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 1
-        QualifyTime = 85
-        QualifyTimeVariance = 0.125
+        QualifyTime = 79
+        QualifyTimeVariance = 1
         DrivingLine = FASTEST
     }
     Talladega_2016
     {
         Tier = 5
-        Speed = 55
+        Speed = 75
         QualifySpeed = 65
         WetSpeed = 80
-        Aggression = 35
-        Composure = 35
+        Aggression = 5
+        Composure = 65
         Courtesy = 99
         Recovery = 99
         StartSkill = 75.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.5
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short
@@ -20464,9 +20322,10 @@ SCNG23
         Recovery = 99
         StartSkill = 35.00
         MinRacingSkill = 50.00
+        PracticeTime = 71
         PracticeTimeVariance = 1
-        QualifyTime = 85
-        QualifyTimeVariance = 0.125
+        QualifyTime = 71.8
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
@@ -20491,16 +20350,13 @@ SCNG23
         Tier = 5
         Speed = 45
         QualifySpeed = 65
-        WetSpeed = 80
+        WetSpeed = 45
         Aggression = 31
         Composure = 35
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 1
-        QualifyTime = 85
-        QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
   }
@@ -20572,15 +20428,15 @@ SCNG23
     Charlotte_600
     {
         Tier = 5
-        Speed = 52
+        Speed = 65
         QualifySpeed = 60
         WetSpeed = 52
-        Aggression = 8
-        Composure = 35
+        Aggression = 20
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 60.00
+        MinRacingSkill = 70.00
         PracticeTime = 31
         PracticeTimeVariance = 0.5
         QualifyTime = 30.75
@@ -20602,7 +20458,7 @@ SCNG23
         PracticeTime = 83.5
         PracticeTimeVariance = 1
         QualifyTime = 83.5
-        QualifyTimeVariance = 1
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Darlington_500
@@ -20626,33 +20482,33 @@ SCNG23
     Daytona_2016
     {
         Tier = 5
-        Speed = 55
+        Speed = 75
         QualifySpeed = 50
         WetSpeed = 80
-        Aggression = 35
-        Composure = 35
+        Aggression = 5
+        Composure = 65
         Courtesy = 99
         Recovery = 99
         StartSkill = 75.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.5
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     JM_Daytona_Speedway_Oval
     {
         Tier = 5
-        Speed = 55
+        Speed = 75
         QualifySpeed = 50
         WetSpeed = 80
         Aggression = 5
-        Composure = 35
+        Composure = 65
         Courtesy = 99
         Recovery = 99
         StartSkill = 75.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.5
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Dover_2016
@@ -20870,32 +20726,31 @@ SCNG23
         Tier = 5
         Speed = 45
         QualifySpeed = 50
-        WetSpeed = 80
+        WetSpeed = 45
         Aggression = 31
         Composure = 35
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 1
-        QualifyTime = 85
-        QualifyTimeVariance = 0.125
+        QualifyTime = 79
+        QualifyTimeVariance = 1
         DrivingLine = FASTEST
     }
     Talladega_2016
     {
         Tier = 5
-        Speed = 55
+        Speed = 75
         QualifySpeed = 50
         WetSpeed = 80
-        Aggression = 35
-        Composure = 35
+        Aggression = 5
+        Composure = 65
         Courtesy = 99
         Recovery = 99
         StartSkill = 75.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
+        QualifyTime = 50.5
+        QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short
@@ -20910,9 +20765,10 @@ SCNG23
         Recovery = 99
         StartSkill = 35.00
         MinRacingSkill = 50.00
+        PracticeTime = 71
         PracticeTimeVariance = 1
-        QualifyTime = 85
-        QualifyTimeVariance = 0.125
+        QualifyTime = 71.8
+        QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
     }
     Watkins_Glen_Short_NC
@@ -20936,17 +20792,14 @@ SCNG23
     {
         Tier = 5
         Speed = 45
-        QualifySpeed = 50
-        WetSpeed = 80
+        QualifySpeed = 65
+        WetSpeed = 45
         Aggression = 31
         Composure = 35
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
         MinRacingSkill = 50.00
-        PracticeTimeVariance = 1
-        QualifyTime = 85
-        QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
   }

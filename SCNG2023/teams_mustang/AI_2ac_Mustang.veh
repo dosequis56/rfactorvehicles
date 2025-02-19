@@ -1,0 +1,44 @@
+// The first section defines what maps to load for the new vehicle skinning technology.
+// The first line defines a "prefix" to be used for all generic maps.
+// Currently, generic maps are used for the livery, wing, driver, driver arms, driver helmet, and pit crew.
+// The second line will replace the default livery with the new specified, for the track specified.
+// The format is as follows:
+//
+// DefaultLivery="PREFIX"       // PREFIX is the base texture map name, assumed to be BMP unless specified
+// PitCrewLivery="PREFIX"       // This is only needed if it differs from the default livery PREFIX
+// TrackLivery="TRACK, PREFIX"  // TRACK is the track name as defined in the event GDB
+// TrackLivery="TRACK, PREFIX"  // For example, "2001_Monza"
+// TrackLivery="TRACK, PREFIX"  // You can have an infinite # of these lines
+
+DefaultLivery="2ac_Mustang.dds"
+MaterialOverride="2ac_Mustang.json"
+
+Extra1="Decals"
+Extra8="Gloves"
+Extra9="Gloves"
+
+HDVehicle=SCNG23.hdv
+Graphics=SCNG23_AI.gen
+Spinner=SCNG23_Spinner.gen
+GenString=23MSGTS                                     // Used to generate GMT names in *.gen file
+Sounds=SCNG23_Sounds.json              // Sounds=default.sfx
+Cameras=SCNG23_Mustang.cam                     // Defaults to default.cfg in UserData directory
+HeadPhysics=HeadPhysics.ini                    // Affects driver eyepoint only
+Cockpit=SCNG23_Mustang_CockpitInfo.ini
+//ExternalDisplays=SCNG23_Mustang_ExternalDisplays.ini
+Upgrades=SCNG23_Upgrades.ini
+AIUpgradeClass=SCNG23
+
+Number=2
+Team="Team Penske"
+PitGroup="Group1"
+Driver="Austin Cindric"
+Description="Ford Mustang GT NASCAR #2"
+Engine="5.86 L (358 cu in) V8 Naturally-aspirated FR layout"
+Manufacturer="Ford Performance"
+
+Classes="SCNG23-AI AI_ONLY"
+
+FullTeamName="Team Penske"
+
+Category="NASCAR 2023 CUP Series, Ford Mustang GT"

@@ -35,8 +35,6 @@ Instance=SLOT<ID>
   MeshFile=SCNG<12>_COLL.GMT  CollTarget=True  HATTarget=False Render=False LODIn=(0) LODOut=(200)
   MeshFile=SCNG<12>_<3456>_SHAD.GMT  CollTarget=False HATTarget=False Render=False LODIn=(0) LODOut=(900) ShadowCaster=(True, Solid)
 
-  Actor=VEHICLE
-
 /////////////////////////////////////////////////// COCKPIT ///////////////////////////////////////////////////
 
   Instance=COCKPIT

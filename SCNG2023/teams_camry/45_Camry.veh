@@ -37,7 +37,7 @@ Description="Toyota Camry TRD NASCAR #45"
 Engine="5.86 L (358 cu in) V8 Naturally-aspirated FR layout"
 Manufacturer="TRD"
 
-Classes="SCNG23"
+Classes="SCNG23 NO_AI"
 
 FullTeamName="23XI Racing"
 

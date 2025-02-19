@@ -37,7 +37,7 @@ Description="Ford Mustang GT NASCAR #34"
 Engine="5.86 L (358 cu in) V8 Naturally-aspirated FR layout"
 Manufacturer="Ford Performance"
 
-Classes="SCNG23"
+Classes="SCNG23 NO_AI"
 
 FullTeamName="Front Row Motorsports"
 
