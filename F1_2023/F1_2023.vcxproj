@@ -5,6 +5,14 @@
       <Configuration>Debug</Configuration>
       <Platform>Win32</Platform>
     </ProjectConfiguration>
+    <ProjectConfiguration Include="RCD|Win32">
+      <Configuration>RCD</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RCD|x64">
+      <Configuration>RCD</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
     <ProjectConfiguration Include="Release|Win32">
       <Configuration>Release</Configuration>
       <Platform>Win32</Platform>
@@ -64,6 +72,12 @@
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='RCD|x64'">
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='RCD|Win32'">
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
   </ImportGroup>
@@ -121,6 +135,19 @@
     <PostBuildEvent>
       <Command>cmd.exe /c build.bat</Command>
     </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RCD|Win32'">
+    <CustomBuildStep>
+      <Command>cmd -c ./buildrcd.bat</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RCD|x64'">
+    <CustomBuildStep>
+      <Command>cmd -c ./buildrcd.bat</Command>
+    </CustomBuildStep>
+    <PreBuildEvent>
+      <Command>cmd.exe /c buildrcd.bat</Command>
+    </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="ASMG_FH22.cam" />
@@ -315,6 +342,74 @@
     <None Include="teams_2024\KickSauber\F123_AR_24.veh" />
     <None Include="teams_2024\KickSauber\F123_AR_77.json" />
     <None Include="teams_2024\KickSauber\F123_AR_77.veh" />
+    <None Include="teams_2025\Alpine\F125_AL_10.json" />
+    <None Include="teams_2025\Alpine\F125_AL_10.veh" />
+    <None Include="teams_2025\Alpine\F125_AL_31.json" />
+    <None Include="teams_2025\Alpine\F125_AL_31.veh" />
+    <None Include="teams_2025\Alpine\F125_AL_7.json" />
+    <None Include="teams_2025\Alpine\F125_AL_7.veh" />
+    <None Include="teams_2025\Alpine\F1_Bahrain.svm" />
+    <None Include="teams_2025\AstonMartin\F125_AM_14.json" />
+    <None Include="teams_2025\AstonMartin\F125_AM_14.veh" />
+    <None Include="teams_2025\AstonMartin\F125_AM_18.json" />
+    <None Include="teams_2025\AstonMartin\F125_AM_18.veh" />
+    <None Include="teams_2025\AstonMartin\F1_Bahrain.svm" />
+    <None Include="teams_2025\Corona\F125_Corona_56.json" />
+    <None Include="teams_2025\Corona\F125_Corona_56.pdn" />
+    <None Include="teams_2025\Corona\F125_Corona_56.veh" />
+    <None Include="teams_2025\Corona\F125_Corona_91.json" />
+    <None Include="teams_2025\Corona\F125_Corona_91.veh" />
+    <None Include="teams_2025\Corona\F1_Bahrain.svm" />
+    <None Include="teams_2025\Corona\GPVWC_Monaco.race.svm" />
+    <None Include="teams_2025\Corona\GPVWC_Monaco.svm" />
+    <None Include="teams_2025\Corona\LochDrummond_Short.race.svm" />
+    <None Include="teams_2025\Corona\LochDrummond_Short.svm" />
+    <None Include="teams_2025\Ferrari\F125_FE_16.json" />
+    <None Include="teams_2025\Ferrari\F125_FE_16.veh" />
+    <None Include="teams_2025\Ferrari\F125_FE_44.json" />
+    <None Include="teams_2025\Ferrari\F125_FE_44.veh" />
+    <None Include="teams_2025\Haas\F125_HA_31.json" />
+    <None Include="teams_2025\Haas\F125_HA_31.veh" />
+    <None Include="teams_2025\Haas\F125_HA_87.json" />
+    <None Include="teams_2025\Haas\F125_HA_87.veh" />
+    <None Include="teams_2025\KickSauber\F125_KS_27.json" />
+    <None Include="teams_2025\KickSauber\F125_KS_27.pdn" />
+    <None Include="teams_2025\KickSauber\F125_KS_27.veh" />
+    <None Include="teams_2025\KickSauber\F125_KS_27_region.pdn" />
+    <None Include="teams_2025\KickSauber\F125_KS_5.json" />
+    <None Include="teams_2025\KickSauber\F125_KS_5.pdn" />
+    <None Include="teams_2025\KickSauber\F125_KS_5.veh" />
+    <None Include="teams_2025\KickSauber\F125_KS_5_region.pdn" />
+    <None Include="teams_2025\McLaren\F125_MC_04.json" />
+    <None Include="teams_2025\McLaren\F125_MC_04.veh" />
+    <None Include="teams_2025\McLaren\F125_MC_81.json" />
+    <None Include="teams_2025\McLaren\F125_MC_81.veh" />
+    <None Include="teams_2025\McLaren\F1_Bahrain.svm" />
+    <None Include="teams_2025\Mercedes\F125_ME_12.json" />
+    <None Include="teams_2025\Mercedes\F125_ME_12.veh" />
+    <None Include="teams_2025\Mercedes\F125_ME_63.json" />
+    <None Include="teams_2025\Mercedes\F125_ME_63.veh" />
+    <None Include="teams_2025\Mercedes\F1_Bahrain.svm" />
+    <None Include="teams_2025\RB\F125_AT_06.json" />
+    <None Include="teams_2025\RB\F125_AT_06.pdn" />
+    <None Include="teams_2025\RB\F125_AT_06.veh" />
+    <None Include="teams_2025\RB\F125_AT_22.json" />
+    <None Include="teams_2025\RB\F125_AT_22.pdn" />
+    <None Include="teams_2025\RB\F125_AT_22.veh" />
+    <None Include="teams_2025\RedBull\F125_RB_01.json" />
+    <None Include="teams_2025\RedBull\F125_RB_01.veh" />
+    <None Include="teams_2025\RedBull\F125_RB_30.json" />
+    <None Include="teams_2025\RedBull\F125_RB_30.veh" />
+    <None Include="teams_2025\RedBull\F1_Bahrain.svm" />
+    <None Include="teams_2025\Williams\F125_WI_23.json" />
+    <None Include="teams_2025\Williams\F125_WI_23.pdn" />
+    <None Include="teams_2025\Williams\F125_WI_23.veh" />
+    <None Include="teams_2025\Williams\F125_WI_23_region.pdn" />
+    <None Include="teams_2025\Williams\F125_WI_55.json" />
+    <None Include="teams_2025\Williams\F125_WI_55.pdn" />
+    <None Include="teams_2025\Williams\F125_WI_55.veh" />
+    <None Include="teams_2025\Williams\F125_WI_55_region.pdn" />
+    <None Include="teams_2025\Williams\F1_Bahrain.svm" />
     <None Include="Tires\F12023_FRONT_C1.TGM" />
     <None Include="Tires\F12023_FRONT_C2.TGM" />
     <None Include="Tires\F12023_FRONT_C3.TGM" />
@@ -829,6 +924,252 @@
     <Image Include="teams_2024\KickSauber\F123_AR_77HelmetNew.dds" />
     <Image Include="teams_2024\KickSauber\F123_AR_77Rims.dds" />
     <Image Include="teams_2024\KickSauber\F123_AR_77_region.dds" />
+    <Image Include="teams_2025\Alpine\F125_AL_10-icon-1024x576.png" />
+    <Image Include="teams_2025\Alpine\F125_AL_10-icon-128x72.png" />
+    <Image Include="teams_2025\Alpine\F125_AL_10-icon-2048x1152.png" />
+    <Image Include="teams_2025\Alpine\F125_AL_10-icon-256x144.png" />
+    <Image Include="teams_2025\Alpine\F125_AL_10-icon-512x288.png" />
+    <Image Include="teams_2025\Alpine\F125_AL_10.dds" />
+    <Image Include="teams_2025\Alpine\F125_AL_10Driver.dds" />
+    <Image Include="teams_2025\Alpine\F125_AL_10Gloves.dds" />
+    <Image Include="teams_2025\Alpine\F125_AL_10HelmetNew.dds" />
+    <Image Include="teams_2025\Alpine\F125_AL_10icon.png" />
+    <Image Include="teams_2025\Alpine\F125_AL_10Rims.dds" />
+    <Image Include="teams_2025\Alpine\F125_AL_10_region.dds" />
+    <Image Include="teams_2025\Alpine\F125_AL_31-icon-1024x576.png" />
+    <Image Include="teams_2025\Alpine\F125_AL_31-icon-128x72.png" />
+    <Image Include="teams_2025\Alpine\F125_AL_31-icon-2048x1152.png" />
+    <Image Include="teams_2025\Alpine\F125_AL_31-icon-256x144.png" />
+    <Image Include="teams_2025\Alpine\F125_AL_31-icon-512x288.png" />
+    <Image Include="teams_2025\Alpine\F125_AL_31.dds" />
+    <Image Include="teams_2025\Alpine\F125_AL_31Driver.dds" />
+    <Image Include="teams_2025\Alpine\F125_AL_31Gloves.dds" />
+    <Image Include="teams_2025\Alpine\F125_AL_31HelmetNew.dds" />
+    <Image Include="teams_2025\Alpine\F125_AL_31icon.png" />
+    <Image Include="teams_2025\Alpine\F125_AL_31Rims.dds" />
+    <Image Include="teams_2025\Alpine\F125_AL_31_region.dds" />
+    <Image Include="teams_2025\Alpine\F125_AL_7-icon-1024x576.png" />
+    <Image Include="teams_2025\Alpine\F125_AL_7-icon-128x72.png" />
+    <Image Include="teams_2025\Alpine\F125_AL_7-icon-2048x1152.png" />
+    <Image Include="teams_2025\Alpine\F125_AL_7-icon-256x144.png" />
+    <Image Include="teams_2025\Alpine\F125_AL_7-icon-512x288.png" />
+    <Image Include="teams_2025\Alpine\F125_AL_7.dds" />
+    <Image Include="teams_2025\Alpine\F125_AL_7Driver.dds" />
+    <Image Include="teams_2025\Alpine\F125_AL_7Gloves.dds" />
+    <Image Include="teams_2025\Alpine\F125_AL_7HelmetNew.dds" />
+    <Image Include="teams_2025\Alpine\F125_AL_7icon.png" />
+    <Image Include="teams_2025\Alpine\F125_AL_7Rims.dds" />
+    <Image Include="teams_2025\Alpine\F125_AL_7_region.dds" />
+    <Image Include="teams_2025\AstonMartin\F125_AM_14-icon-1024x576.png" />
+    <Image Include="teams_2025\AstonMartin\F125_AM_14-icon-128x72.png" />
+    <Image Include="teams_2025\AstonMartin\F125_AM_14-icon-2048x1152.png" />
+    <Image Include="teams_2025\AstonMartin\F125_AM_14-icon-256x144.png" />
+    <Image Include="teams_2025\AstonMartin\F125_AM_14-icon-512x288.png" />
+    <Image Include="teams_2025\AstonMartin\F125_AM_14.dds" />
+    <Image Include="teams_2025\AstonMartin\F125_AM_14Driver.dds" />
+    <Image Include="teams_2025\AstonMartin\F125_AM_14Gloves.dds" />
+    <Image Include="teams_2025\AstonMartin\F125_AM_14HelmetNew.dds" />
+    <Image Include="teams_2025\AstonMartin\F125_AM_14Rims.dds" />
+    <Image Include="teams_2025\AstonMartin\F125_AM_14_region.dds" />
+    <Image Include="teams_2025\AstonMartin\F125_AM_18-icon-1024x576.png" />
+    <Image Include="teams_2025\AstonMartin\F125_AM_18-icon-128x72.png" />
+    <Image Include="teams_2025\AstonMartin\F125_AM_18-icon-2048x1152.png" />
+    <Image Include="teams_2025\AstonMartin\F125_AM_18-icon-256x144.png" />
+    <Image Include="teams_2025\AstonMartin\F125_AM_18-icon-512x288.png" />
+    <Image Include="teams_2025\AstonMartin\F125_AM_18.dds" />
+    <Image Include="teams_2025\AstonMartin\F125_AM_18Driver.dds" />
+    <Image Include="teams_2025\AstonMartin\F125_AM_18Gloves.dds" />
+    <Image Include="teams_2025\AstonMartin\F125_AM_18HelmetNew.dds" />
+    <Image Include="teams_2025\AstonMartin\F125_AM_18Rims.dds" />
+    <Image Include="teams_2025\AstonMartin\F125_AM_18_region.dds" />
+    <Image Include="teams_2025\Corona\F125_Corona_56-icon-1024x576.png" />
+    <Image Include="teams_2025\Corona\F125_Corona_56-icon-128x72.png" />
+    <Image Include="teams_2025\Corona\F125_Corona_56-icon-2048x1152.png" />
+    <Image Include="teams_2025\Corona\F125_Corona_56-icon-256x144.png" />
+    <Image Include="teams_2025\Corona\F125_Corona_56-icon-512x288.png" />
+    <Image Include="teams_2025\Corona\F125_Corona_56.dds" />
+    <Image Include="teams_2025\Corona\F125_Corona_56Driver.dds" />
+    <Image Include="teams_2025\Corona\F125_Corona_56Gloves.dds" />
+    <Image Include="teams_2025\Corona\F125_Corona_56HelmetNew.dds" />
+    <Image Include="teams_2025\Corona\F125_Corona_56icon.png" />
+    <Image Include="teams_2025\Corona\F125_Corona_56Rims.dds" />
+    <Image Include="teams_2025\Corona\F125_Corona_56Stickers.dds" />
+    <Image Include="teams_2025\Corona\F125_Corona_56_region.dds" />
+    <Image Include="teams_2025\Corona\F125_Corona_91-icon-1024x576.png" />
+    <Image Include="teams_2025\Corona\F125_Corona_91-icon-128x72.png" />
+    <Image Include="teams_2025\Corona\F125_Corona_91-icon-2048x1152.png" />
+    <Image Include="teams_2025\Corona\F125_Corona_91-icon-256x144.png" />
+    <Image Include="teams_2025\Corona\F125_Corona_91-icon-512x288.png" />
+    <Image Include="teams_2025\Corona\F125_Corona_91.dds" />
+    <Image Include="teams_2025\Corona\F125_Corona_91Driver.dds" />
+    <Image Include="teams_2025\Corona\F125_Corona_91Gloves.dds" />
+    <Image Include="teams_2025\Corona\F125_Corona_91HelmetNew.dds" />
+    <Image Include="teams_2025\Corona\F125_Corona_91icon.png" />
+    <Image Include="teams_2025\Corona\F125_Corona_91Rims.dds" />
+    <Image Include="teams_2025\Corona\F125_Corona_91Stickers.dds" />
+    <Image Include="teams_2025\Corona\F125_Corona_91_region.dds" />
+    <Image Include="teams_2025\Ferrari\F125_FE_16-icon-1024x576.png" />
+    <Image Include="teams_2025\Ferrari\F125_FE_16-icon-128x72.png" />
+    <Image Include="teams_2025\Ferrari\F125_FE_16-icon-2048x1152.png" />
+    <Image Include="teams_2025\Ferrari\F125_FE_16-icon-256x144.png" />
+    <Image Include="teams_2025\Ferrari\F125_FE_16-icon-512x288.png" />
+    <Image Include="teams_2025\Ferrari\F125_FE_16.dds" />
+    <Image Include="teams_2025\Ferrari\F125_FE_16Driver.dds" />
+    <Image Include="teams_2025\Ferrari\F125_FE_16HelmetNew.dds" />
+    <Image Include="teams_2025\Ferrari\F125_FE_16Rims.dds" />
+    <Image Include="teams_2025\Ferrari\F125_FE_16_region.dds" />
+    <Image Include="teams_2025\Ferrari\F125_FE_44-icon-1024x576.png" />
+    <Image Include="teams_2025\Ferrari\F125_FE_44-icon-128x72.png" />
+    <Image Include="teams_2025\Ferrari\F125_FE_44-icon-2048x1152.png" />
+    <Image Include="teams_2025\Ferrari\F125_FE_44-icon-256x144.png" />
+    <Image Include="teams_2025\Ferrari\F125_FE_44-icon-512x288.png" />
+    <Image Include="teams_2025\Ferrari\F125_FE_44.dds" />
+    <Image Include="teams_2025\Ferrari\F125_FE_44Driver.dds" />
+    <Image Include="teams_2025\Ferrari\F125_FE_44HelmetNew.dds" />
+    <Image Include="teams_2025\Ferrari\F125_FE_44Rims.dds" />
+    <Image Include="teams_2025\Ferrari\F125_FE_44_region.dds" />
+    <Image Include="teams_2025\Haas\F125_HA_31-icon-1024x576.png" />
+    <Image Include="teams_2025\Haas\F125_HA_31-icon-128x72.png" />
+    <Image Include="teams_2025\Haas\F125_HA_31-icon-2048x1152.png" />
+    <Image Include="teams_2025\Haas\F125_HA_31-icon-256x144.png" />
+    <Image Include="teams_2025\Haas\F125_HA_31-icon-512x288.png" />
+    <Image Include="teams_2025\Haas\F125_HA_31.dds" />
+    <Image Include="teams_2025\Haas\F125_HA_31Driver.dds" />
+    <Image Include="teams_2025\Haas\F125_HA_31HelmetNew.dds" />
+    <Image Include="teams_2025\Haas\F125_HA_31Rims.dds" />
+    <Image Include="teams_2025\Haas\F125_HA_31_region.dds" />
+    <Image Include="teams_2025\Haas\F125_HA_87-icon-1024x576.png" />
+    <Image Include="teams_2025\Haas\F125_HA_87-icon-128x72.png" />
+    <Image Include="teams_2025\Haas\F125_HA_87-icon-2048x1152.png" />
+    <Image Include="teams_2025\Haas\F125_HA_87-icon-256x144.png" />
+    <Image Include="teams_2025\Haas\F125_HA_87-icon-512x288.png" />
+    <Image Include="teams_2025\Haas\F125_HA_87.dds" />
+    <Image Include="teams_2025\Haas\F125_HA_87Driver.dds" />
+    <Image Include="teams_2025\Haas\F125_HA_87HelmetNew.dds" />
+    <Image Include="teams_2025\Haas\F125_HA_87Rims.dds" />
+    <Image Include="teams_2025\Haas\F125_HA_87_region.dds" />
+    <Image Include="teams_2025\KickSauber\F124_KS_24.dds" />
+    <Image Include="teams_2025\KickSauber\F125_KS_27-icon-1024x576.png" />
+    <Image Include="teams_2025\KickSauber\F125_KS_27-icon-128x72.png" />
+    <Image Include="teams_2025\KickSauber\F125_KS_27-icon-2048x1152.png" />
+    <Image Include="teams_2025\KickSauber\F125_KS_27-icon-256x144.png" />
+    <Image Include="teams_2025\KickSauber\F125_KS_27-icon-512x288.png" />
+    <Image Include="teams_2025\KickSauber\F125_KS_27.dds" />
+    <Image Include="teams_2025\KickSauber\F125_KS_27Driver.dds" />
+    <Image Include="teams_2025\KickSauber\F125_KS_27HelmetNew.dds" />
+    <Image Include="teams_2025\KickSauber\F125_KS_27Rims.dds" />
+    <Image Include="teams_2025\KickSauber\F125_KS_27_region.dds" />
+    <Image Include="teams_2025\KickSauber\F125_KS_5-icon-1024x576.png" />
+    <Image Include="teams_2025\KickSauber\F125_KS_5-icon-128x72.png" />
+    <Image Include="teams_2025\KickSauber\F125_KS_5-icon-2048x1152.png" />
+    <Image Include="teams_2025\KickSauber\F125_KS_5-icon-256x144.png" />
+    <Image Include="teams_2025\KickSauber\F125_KS_5-icon-512x288.png" />
+    <Image Include="teams_2025\KickSauber\F125_KS_5.dds" />
+    <Image Include="teams_2025\KickSauber\F125_KS_5Driver.dds" />
+    <Image Include="teams_2025\KickSauber\F125_KS_5HelmetNew.dds" />
+    <Image Include="teams_2025\KickSauber\F125_KS_5Rims.dds" />
+    <Image Include="teams_2025\KickSauber\F125_KS_5_region.dds" />
+    <Image Include="teams_2025\McLaren\F125_MC_04-icon-1024x576.png" />
+    <Image Include="teams_2025\McLaren\F125_MC_04-icon-128x72.png" />
+    <Image Include="teams_2025\McLaren\F125_MC_04-icon-2048x1152.png" />
+    <Image Include="teams_2025\McLaren\F125_MC_04-icon-256x144.png" />
+    <Image Include="teams_2025\McLaren\F125_MC_04-icon-512x288.png" />
+    <Image Include="teams_2025\McLaren\F125_MC_04.dds" />
+    <Image Include="teams_2025\McLaren\F125_MC_04Driver.dds" />
+    <Image Include="teams_2025\McLaren\F125_MC_04HelmetNew.dds" />
+    <Image Include="teams_2025\McLaren\F125_MC_04Rims.dds" />
+    <Image Include="teams_2025\McLaren\F125_MC_04_region.dds" />
+    <Image Include="teams_2025\McLaren\F125_MC_81-icon-1024x576.png" />
+    <Image Include="teams_2025\McLaren\F125_MC_81-icon-128x72.png" />
+    <Image Include="teams_2025\McLaren\F125_MC_81-icon-2048x1152.png" />
+    <Image Include="teams_2025\McLaren\F125_MC_81-icon-256x144.png" />
+    <Image Include="teams_2025\McLaren\F125_MC_81-icon-512x288.png" />
+    <Image Include="teams_2025\McLaren\F125_MC_81.dds" />
+    <Image Include="teams_2025\McLaren\F125_MC_81Driver.dds" />
+    <Image Include="teams_2025\McLaren\F125_MC_81HelmetNew.dds" />
+    <Image Include="teams_2025\McLaren\F125_MC_81Rims.dds" />
+    <Image Include="teams_2025\McLaren\F125_MC_81_region.dds" />
+    <Image Include="teams_2025\Mercedes\F125_ME_12-icon-1024x576.png" />
+    <Image Include="teams_2025\Mercedes\F125_ME_12-icon-128x72.png" />
+    <Image Include="teams_2025\Mercedes\F125_ME_12-icon-2048x1152.png" />
+    <Image Include="teams_2025\Mercedes\F125_ME_12-icon-256x144.png" />
+    <Image Include="teams_2025\Mercedes\F125_ME_12-icon-512x288.png" />
+    <Image Include="teams_2025\Mercedes\F125_ME_12.dds" />
+    <Image Include="teams_2025\Mercedes\F125_ME_12Driver.dds" />
+    <Image Include="teams_2025\Mercedes\F125_ME_12HelmetNew.dds" />
+    <Image Include="teams_2025\Mercedes\F125_ME_12Rims.dds" />
+    <Image Include="teams_2025\Mercedes\F125_ME_12_region.dds" />
+    <Image Include="teams_2025\Mercedes\F125_ME_63-icon-1024x576.png" />
+    <Image Include="teams_2025\Mercedes\F125_ME_63-icon-128x72.png" />
+    <Image Include="teams_2025\Mercedes\F125_ME_63-icon-2048x1152.png" />
+    <Image Include="teams_2025\Mercedes\F125_ME_63-icon-256x144.png" />
+    <Image Include="teams_2025\Mercedes\F125_ME_63-icon-512x288.png" />
+    <Image Include="teams_2025\Mercedes\F125_ME_63.dds" />
+    <Image Include="teams_2025\Mercedes\F125_ME_63Driver.dds" />
+    <Image Include="teams_2025\Mercedes\F125_ME_63HelmetNew.dds" />
+    <Image Include="teams_2025\Mercedes\F125_ME_63Rims.dds" />
+    <Image Include="teams_2025\Mercedes\F125_ME_63_region.dds" />
+    <Image Include="teams_2025\RB\F125_AT_06-icon-128x72.png" />
+    <Image Include="teams_2025\RB\F125_AT_06-icon-2048x1152.png" />
+    <Image Include="teams_2025\RB\F125_AT_06-icon-512x288.png" />
+    <Image Include="teams_2025\RB\F125_AT_06.dds" />
+    <Image Include="teams_2025\RB\F125_AT_06HelmetNew.dds" />
+    <Image Include="teams_2025\RB\F125_AT_06i-con-256x144.png" />
+    <Image Include="teams_2025\RB\F125_AT_06ims.dds" />
+    <Image Include="teams_2025\RB\F125_AT_06region.dds" />
+    <Image Include="teams_2025\RB\F125_AT_06river.dds" />
+    <Image Include="teams_2025\RB\F125_AT_22-icon-1024x576.png" />
+    <Image Include="teams_2025\RB\F125_AT_22-icon-128x72.png" />
+    <Image Include="teams_2025\RB\F125_AT_22-icon-2048x1152.png" />
+    <Image Include="teams_2025\RB\F125_AT_22-icon-256x144.png" />
+    <Image Include="teams_2025\RB\F125_AT_22-icon-512x288.png" />
+    <Image Include="teams_2025\RB\F125_AT_22.dds" />
+    <Image Include="teams_2025\RB\F125_AT_22Driver.dds" />
+    <Image Include="teams_2025\RB\F125_AT_22HelmetNew.dds" />
+    <Image Include="teams_2025\RB\F125_AT_22Rims.dds" />
+    <Image Include="teams_2025\RB\F125_AT_22_region.dds" />
+    <Image Include="teams_2025\RedBull\F125_RB_01-icon-1024x576.png" />
+    <Image Include="teams_2025\RedBull\F125_RB_01-icon-128x72.png" />
+    <Image Include="teams_2025\RedBull\F125_RB_01-icon-2048x1152.png" />
+    <Image Include="teams_2025\RedBull\F125_RB_01-icon-256x144.png" />
+    <Image Include="teams_2025\RedBull\F125_RB_01-icon-512x288.png" />
+    <Image Include="teams_2025\RedBull\F125_RB_01.dds" />
+    <Image Include="teams_2025\RedBull\F125_RB_01Driver.dds" />
+    <Image Include="teams_2025\RedBull\F125_RB_01Gloves.dds" />
+    <Image Include="teams_2025\RedBull\F125_RB_01HelmetNew.dds" />
+    <Image Include="teams_2025\RedBull\F125_RB_01Rims.dds" />
+    <Image Include="teams_2025\RedBull\F125_RB_01_region.dds" />
+    <Image Include="teams_2025\RedBull\F125_RB_30-icon-1024x576.png" />
+    <Image Include="teams_2025\RedBull\F125_RB_30-icon-128x72.png" />
+    <Image Include="teams_2025\RedBull\F125_RB_30-icon-2048x1152.png" />
+    <Image Include="teams_2025\RedBull\F125_RB_30-icon-256x144.png" />
+    <Image Include="teams_2025\RedBull\F125_RB_30-icon-512x288.png" />
+    <Image Include="teams_2025\RedBull\F125_RB_30.dds" />
+    <Image Include="teams_2025\RedBull\F125_RB_30Driver.dds" />
+    <Image Include="teams_2025\RedBull\F125_RB_30Gloves.dds" />
+    <Image Include="teams_2025\RedBull\F125_RB_30HelmetNew.dds" />
+    <Image Include="teams_2025\RedBull\F125_RB_30Rims.dds" />
+    <Image Include="teams_2025\RedBull\F125_RB_30_region.dds" />
+    <Image Include="teams_2025\Williams\F125_WI_23-icon-1024x576.png" />
+    <Image Include="teams_2025\Williams\F125_WI_23-icon-128x72.png" />
+    <Image Include="teams_2025\Williams\F125_WI_23-icon-2048x1152.png" />
+    <Image Include="teams_2025\Williams\F125_WI_23-icon-256x144.png" />
+    <Image Include="teams_2025\Williams\F125_WI_23-icon-512x288.png" />
+    <Image Include="teams_2025\Williams\F125_WI_23.dds" />
+    <Image Include="teams_2025\Williams\F125_WI_23Driver.dds" />
+    <Image Include="teams_2025\Williams\F125_WI_23HelmetNew.dds" />
+    <Image Include="teams_2025\Williams\F125_WI_23Rims.dds" />
+    <Image Include="teams_2025\Williams\F125_WI_23_region.dds" />
+    <Image Include="teams_2025\Williams\F125_WI_55-icon-1024x576.png" />
+    <Image Include="teams_2025\Williams\F125_WI_55-icon-128x72.png" />
+    <Image Include="teams_2025\Williams\F125_WI_55-icon-2048x1152.png" />
+    <Image Include="teams_2025\Williams\F125_WI_55-icon-256x144.png" />
+    <Image Include="teams_2025\Williams\F125_WI_55-icon-512x288.png" />
+    <Image Include="teams_2025\Williams\F125_WI_55.dds" />
+    <Image Include="teams_2025\Williams\F125_WI_55Driver.dds" />
+    <Image Include="teams_2025\Williams\F125_WI_55HelmetNew.dds" />
+    <Image Include="teams_2025\Williams\F125_WI_55Rims.dds" />
+    <Image Include="teams_2025\Williams\F125_WI_55_region.dds" />
   </ItemGroup>
   <ItemGroup>
     <Media Include="Sounds\Formula_Hybrid_22_backfire01_ex.wav" />
@@ -880,6 +1221,8 @@
   <ItemGroup>
     <Text Include="teams_2023\Corona\F123_Corona_56.txt" />
     <Text Include="teams_2023\Corona\F123_Corona_91.txt" />
+    <Text Include="teams_2025\Corona\F125_Corona_56.txt" />
+    <Text Include="teams_2025\Corona\F125_Corona_91.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,4 +1,4 @@
-set BUILD_PROJECT_NAME=Formula_1_2024
+set BUILD_PROJECT_NAME=Formula_1_2025
 
 set PATH=%PATH%;"C:\Program Files (x86)\Steam\steamapps\common\rFactor 2\Bin64"
 set MODDEV="C:\Program Files (x86)\Steam\steamapps\common\rFactor 2\ModDev"
