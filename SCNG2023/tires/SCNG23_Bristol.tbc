@@ -131,7 +131,7 @@ AIPitThreshold=0.815
 AIHeatRate=8.0e-6
 Temperatures=(80, 49)
 OptimumPressure=(110, 0.021)
-GripTempPress=(1.2, 0.7, 0.4)
+GripTempPress=(1.0, 0.7, 0.4)
 RIGHT: //D-4644
 TGM="BristolRight.tgm"
 DryLatLong=(1.94, 1.91)

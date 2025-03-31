@@ -33,6 +33,11 @@ SCNG2023_Teams.MAS
 /teams_camry
 }
 
+SCNG2024_Teams.MAS 
+{
+/teams_camaro_2024
+}
+
 SCNG2023_Sounds.MAS
 {
 /sounds
@@ -41,9 +46,11 @@ SCNG2023_Sounds.MAS
 SCNG2023.MAS 
 {
 /SCNG23.gen
+/SCNG23_AI.gen
 /SCNG23.hdv
 /SCNG23.pm
 /SCNG23.rcd
+/SCNG23-AI.rcd
 /SCNG23_750_engine.ini
 /SCNG23_Camaro.cam
 /SCNG23_Camaro_CockpitInfo.ini
