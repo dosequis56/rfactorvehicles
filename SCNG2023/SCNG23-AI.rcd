@@ -519,7 +519,7 @@ SCNG23-AI
       FearOfWalls = 1.00                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
       DrivingLine = FASTEST, HIGHLINE
     }
-    NIR
+    Richmond_400
     {
       StepDistance = 5.20                    // distance of each step is 5.20 meters
       StepSpeed1 = 25.00                     // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
@@ -794,7 +794,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 80.00
+        MinRacingSkill = 90.00
         QualifyTime = 15.35
         QualifyTimeVariance = 0.25
         DrivingLine = FASTEST,LOWLINE
@@ -1018,10 +1018,10 @@ SCNG23-AI
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    NIR
+    Richmond_400
     {
         Tier = 1
-        Speed = 99
+        Speed = 88
         QualifySpeed = 99
         WetSpeed = 99
         Aggression = 95
@@ -1029,7 +1029,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
+        MinRacingSkill = 90.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -1224,7 +1224,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 80.00
+        MinRacingSkill = 90.00
         QualifyTime = 15.35
         QualifyTimeVariance = 0.25
         DrivingLine = FASTEST,LOWLINE
@@ -1459,10 +1459,10 @@ SCNG23-AI
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    NIR
+    Richmond_400
     {
         Tier = 1
-        Speed = 99
+        Speed = 88
         QualifySpeed = 99
         WetSpeed = 99
         Aggression = 95
@@ -1470,7 +1470,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
+        MinRacingSkill = 90.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -1667,7 +1667,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 80.00
+        MinRacingSkill = 90.00
         QualifyTime = 15.35
         QualifyTimeVariance = 0.25
         DrivingLine = FASTEST,LOWLINE
@@ -1889,10 +1889,10 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 1
-        Speed = 92
+        Speed = 87
         QualifySpeed = 88
         WetSpeed = 90
         Aggression = 75
@@ -1900,7 +1900,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
+        MinRacingSkill = 90.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -2094,7 +2094,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 80.00
+        MinRacingSkill = 90.00
         QualifyTime = 15.35
         QualifyTimeVariance = 0.25
         DrivingLine = FASTEST,LOWLINE
@@ -2316,10 +2316,10 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 1
-        Speed = 93
+        Speed = 87
         QualifySpeed = 92
         WetSpeed = 85
         Aggression = 75
@@ -2327,7 +2327,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
+        MinRacingSkill = 90.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -2521,7 +2521,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 80.00
+        MinRacingSkill = 90.00
         QualifyTime = 15.35
         QualifyTimeVariance = 0.25
         DrivingLine = FASTEST,LOWLINE
@@ -2743,18 +2743,18 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 1
-        Speed = 95
+        Speed = 87
         QualifySpeed = 90
         WetSpeed = 90
-        Aggression = 80
+        Aggression = 75
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
+        MinRacingSkill = 90.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -2948,7 +2948,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 80.00
+        MinRacingSkill = 90.00
         QualifyTime = 15.35
         QualifyTimeVariance = 0.25
         DrivingLine = FASTEST,LOWLINE
@@ -3170,21 +3170,21 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 1
-        Speed = 92
+        Speed = 86
         QualifySpeed = 91
         WetSpeed = 88
-        Aggression = 80
+        Aggression = 75
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
+        MinRacingSkill = 85.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = HIGHLINE,FASTEST
     }
     North_Wilkesboro
     {
@@ -3375,7 +3375,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 80.00
+        MinRacingSkill = 90.00
         QualifyTime = 15.35
         QualifyTimeVariance = 0.25
         DrivingLine = FASTEST,LOWLINE
@@ -3597,18 +3597,18 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 1
-        Speed = 92
+        Speed = 87
         QualifySpeed = 85
         WetSpeed = 90
-        Aggression = 65
+        Aggression = 75
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
+        MinRacingSkill = 90.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -3802,7 +3802,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 80.00
+        MinRacingSkill = 90.00
         QualifyTime = 15.35
         QualifyTimeVariance = 0.25
         DrivingLine = FASTEST,LOWLINE
@@ -4024,18 +4024,18 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 1
-        Speed = 92
+        Speed = 86
         QualifySpeed = 85
         WetSpeed = 80
-        Aggression = 65
+        Aggression = 75
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
+        MinRacingSkill = 85.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -4229,7 +4229,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 80.00
+        MinRacingSkill = 90.00
         QualifyTime = 15.35
         QualifyTimeVariance = 0.25
         DrivingLine = FASTEST,LOWLINE
@@ -4451,18 +4451,18 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 1
-        Speed = 95
-        QualifySpeed = 90
+        Speed = 86
+        QualifySpeed = 85
         WetSpeed = 88
         Aggression = 75
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
+        MinRacingSkill = 85.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -4656,7 +4656,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 80.00
+        MinRacingSkill = 85.00
         QualifyTime = 15.5
         QualifyTimeVariance = 0.25
         DrivingLine = FASTEST,LOWLINE
@@ -4878,13 +4878,13 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 2
-        Speed = 88
+        Speed = 85
         QualifySpeed = 85
         WetSpeed = 85
-        Aggression = 95
+        Aggression = 75
         Composure = 85
         Courtesy = 99
         Recovery = 99
@@ -5083,7 +5083,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 80.00
+        MinRacingSkill = 85.00
         QualifyTime = 15.5
         QualifyTimeVariance = 0.25
         DrivingLine = FASTEST,LOWLINE
@@ -5305,13 +5305,13 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 2
-        Speed = 88
+        Speed = 83
         QualifySpeed = 80
         WetSpeed = 88
-        Aggression = 50
+        Aggression = 75
         Composure = 85
         Courtesy = 99
         Recovery = 99
@@ -5510,7 +5510,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 80.00
+        MinRacingSkill = 85.00
         QualifyTime = 15.5
         QualifyTimeVariance = 0.25
         DrivingLine = FASTEST,LOWLINE
@@ -5732,13 +5732,13 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 2
-        Speed = 88
+        Speed = 83
         QualifySpeed = 88
         WetSpeed = 85
-        Aggression = 50
+        Aggression = 75
         Composure = 80
         Courtesy = 99
         Recovery = 99
@@ -6159,13 +6159,13 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 2
-        Speed = 88
+        Speed = 82
         QualifySpeed = 87
         WetSpeed = 87
-        Aggression = 95
+        Aggression = 75
         Composure = 80
         Courtesy = 99
         Recovery = 99
@@ -6586,10 +6586,10 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 2
-        Speed = 85
+        Speed = 80
         QualifySpeed = 89
         WetSpeed = 85
         Aggression = 50
@@ -6791,7 +6791,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 70.00
+        MinRacingSkill = 80.00
         QualifyTime = 15.5
         QualifyTimeVariance = 0.25
         DrivingLine = FASTEST,LOWLINE
@@ -7013,10 +7013,10 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 2
-        Speed = 85
+        Speed = 80
         QualifySpeed = 85
         WetSpeed = 85
         Aggression = 50
@@ -7024,7 +7024,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 70.00
+        MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -7218,7 +7218,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 70.00
+        MinRacingSkill = 80.00
         QualifyTime = 15.5
         QualifyTimeVariance = 0.25
         DrivingLine = FASTEST,LOWLINE
@@ -7440,10 +7440,10 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 2
-        Speed = 85
+        Speed = 80
         QualifySpeed = 83
         WetSpeed = 85
         Aggression = 50
@@ -7451,7 +7451,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 70.00
+        MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -7645,7 +7645,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 65.00
+        MinRacingSkill = 80.00
         QualifyTime = 15.5
         QualifyTimeVariance = 0.25
         DrivingLine = FASTEST,LOWLINE
@@ -7867,10 +7867,10 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 2
-        Speed = 85
+        Speed = 80
         QualifySpeed = 88
         WetSpeed = 85
         Aggression = 50
@@ -7878,7 +7878,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 65.00
+        MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -8072,7 +8072,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 65.00
+        MinRacingSkill = 80.00
         QualifyTime = 15.5
         QualifyTimeVariance = 0.25
         DrivingLine = FASTEST,LOWLINE
@@ -8294,7 +8294,7 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 2
         Speed = 80
@@ -8305,7 +8305,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 65.00
+        MinRacingSkill = 75.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -8499,7 +8499,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 65.00
+        MinRacingSkill = 80.00
         QualifyTime = 15.5
         QualifyTimeVariance = 0.25
         DrivingLine = FASTEST,LOWLINE
@@ -8721,7 +8721,7 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 2
         Speed = 80
@@ -8732,7 +8732,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 65.00
+        MinRacingSkill = 75.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
@@ -8926,7 +8926,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 55.00
+        MinRacingSkill = 80.00
         QualifyTime = 15.5
         QualifyTimeVariance = 0.25
         DrivingLine = FASTEST,LOWLINE
@@ -9148,7 +9148,7 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 2
         Speed = 80
@@ -9159,7 +9159,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 55.00
+        MinRacingSkill = 75.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
@@ -9353,7 +9353,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 80.00
         QualifyTime = 15.5
         QualifyTimeVariance = 0.25
         DrivingLine = FASTEST,LOWLINE
@@ -9575,10 +9575,10 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 2
-        Speed = 80
+        Speed = 78
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
@@ -9586,7 +9586,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
@@ -9780,7 +9780,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 80.00
         QualifyTime = 15.5
         QualifyTimeVariance = 0.25
         DrivingLine = FASTEST,LOWLINE
@@ -10002,10 +10002,10 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 2
-        Speed = 80
+        Speed = 78
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
@@ -10013,7 +10013,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
@@ -10207,7 +10207,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 80.00
         QualifyTime = 15.8
         QualifyTimeVariance = 0.25
         DrivingLine = FASTEST,LOWLINE
@@ -10429,10 +10429,10 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 2
-        Speed = 80
+        Speed = 77
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
@@ -10440,7 +10440,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
@@ -10634,7 +10634,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 80.00
         QualifyTime = 15.8
         QualifyTimeVariance = 0.25
         DrivingLine = FASTEST,LOWLINE
@@ -10856,10 +10856,10 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 3
-        Speed = 80
+        Speed = 77
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
@@ -10867,7 +10867,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
@@ -11061,7 +11061,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 45.00
+        MinRacingSkill = 75.00
         QualifyTime = 15.8
         QualifyTimeVariance = 0.25
         DrivingLine = FASTEST,LOWLINE
@@ -11283,10 +11283,10 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 3
-        Speed = 80
+        Speed = 75
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
@@ -11294,7 +11294,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 35.00
+        MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
@@ -11488,7 +11488,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 45.00
+        MinRacingSkill = 75.00
         QualifyTime = 15.8
         QualifyTimeVariance = 0.25
         DrivingLine = FASTEST,LOWLINE
@@ -11710,10 +11710,10 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 3
-        Speed = 77
+        Speed = 75
         QualifySpeed = 75
         WetSpeed = 75
         Aggression = 50
@@ -11721,7 +11721,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 35.00
+        MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
@@ -11915,7 +11915,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 45.00
+        MinRacingSkill = 75.00
         QualifyTime = 15.8
         QualifyTimeVariance = 0.25
         DrivingLine = FASTEST,LOWLINE
@@ -12137,10 +12137,10 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 3
-        Speed = 75
+        Speed = 73
         QualifySpeed = 75
         WetSpeed = 75
         Aggression = 50
@@ -12148,7 +12148,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 35.00
+        MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -12342,7 +12342,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 45.00
+        MinRacingSkill = 75.00
         QualifyTime = 15.8
         QualifyTimeVariance = 0.25
         DrivingLine = FASTEST,LOWLINE
@@ -12564,10 +12564,10 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 3
-        Speed = 75
+        Speed = 73
         QualifySpeed = 75
         WetSpeed = 75
         Aggression = 50
@@ -12575,7 +12575,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 35.00
+        MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -12769,7 +12769,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 45.00
+        MinRacingSkill = 70.00
         QualifyTime = 15.8
         QualifyTimeVariance = 0.25
         DrivingLine = FASTEST,LOWLINE
@@ -12991,10 +12991,10 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 3
-        Speed = 75
+        Speed = 72
         QualifySpeed = 75
         WetSpeed = 75
         Aggression = 50
@@ -13002,7 +13002,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 35.00
+        MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -13196,7 +13196,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 45.00
+        MinRacingSkill = 70.00
         QualifyTime = 15.8
         QualifyTimeVariance = 0.25
         DrivingLine = HIGHLINE,LOWLINE
@@ -13418,10 +13418,10 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 3
-        Speed = 72
+        Speed = 71
         QualifySpeed = 70
         WetSpeed = 70
         Aggression = 50
@@ -13429,7 +13429,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 35.00
+        MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -13615,15 +13615,15 @@ SCNG23-AI
     Bristol_500
     {
         Tier = 2
-        Speed = 85
-        QualifySpeed = 80
+        Speed = 90
+        QualifySpeed = 90
         WetSpeed = 70
         Aggression = 50
         Composure = 80
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 80.00
+        MinRacingSkill = 85.00
         QualifyTime = 16.1
         QualifyTimeVariance = 0.25
         DrivingLine = HIGHLINE,LOWLINE
@@ -13845,21 +13845,21 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
-        Tier = 3
-        Speed = 80
-        QualifySpeed = 70
+        Tier = 2
+        Speed = 84
+        QualifySpeed = 90
         WetSpeed = 70
-        Aggression = 50
-        Composure = 35
+        Aggression = 75
+        Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 35.00
+        MinRacingSkill = 85.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE
+        DrivingLine = FASTEST,HIGHLINE
     }
     North_Wilkesboro
     {
@@ -14050,7 +14050,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 45.00
+        MinRacingSkill = 70.00
         QualifyTime = 16.1
         QualifyTimeVariance = 0.25
         DrivingLine = HIGHLINE,LOWLINE
@@ -14272,7 +14272,7 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 4
         Speed = 70
@@ -14283,7 +14283,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 35.00
+        MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -14477,7 +14477,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 45.00
+        MinRacingSkill = 70.00
         QualifyTime = 16.1
         QualifyTimeVariance = 0.25
         DrivingLine = HIGHLINE,LOWLINE
@@ -14699,7 +14699,7 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 4
         Speed = 70
@@ -14710,7 +14710,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 35.00
+        MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -14904,7 +14904,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 45.00
+        MinRacingSkill = 70.00
         QualifyTime = 16.1
         QualifyTimeVariance = 0.25
         DrivingLine = HIGHLINE,LOWLINE
@@ -15126,7 +15126,7 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 4
         Speed = 70
@@ -15137,7 +15137,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
+        MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -15331,7 +15331,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 45.00
+        MinRacingSkill = 70.00
         QualifyTime = 16.1
         QualifyTimeVariance = 0.25
         DrivingLine = HIGHLINE,LOWLINE
@@ -15553,7 +15553,7 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 4
         Speed = 70
@@ -15564,7 +15564,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
+        MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -15758,7 +15758,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 45.00
+        MinRacingSkill = 70.00
         QualifyTime = 16.1
         QualifyTimeVariance = 0.25
         DrivingLine = HIGHLINE,LOWLINE
@@ -15980,10 +15980,10 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 4
-        Speed = 75
+        Speed = 70
         QualifySpeed = 65
         WetSpeed = 65
         Aggression = 40
@@ -15991,7 +15991,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
+        MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -16185,7 +16185,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 45.00
+        MinRacingSkill = 70.00
         QualifyTime = 16.1
         QualifyTimeVariance = 0.25
         DrivingLine = HIGHLINE,LOWLINE
@@ -16407,10 +16407,10 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 4
-        Speed = 75
+        Speed = 70
         QualifySpeed = 65
         WetSpeed = 65
         Aggression = 40
@@ -16418,7 +16418,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
+        MinRacingSkill = 60.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -16612,7 +16612,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 45.00
+        MinRacingSkill = 70.00
         QualifyTime = 16.1
         QualifyTimeVariance = 0.25
         DrivingLine = HIGHLINE,LOWLINE
@@ -16834,10 +16834,10 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 4
-        Speed = 72
+        Speed = 70
         QualifySpeed = 65
         WetSpeed = 65
         Aggression = 35
@@ -16845,7 +16845,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
+        MinRacingSkill = 60.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -17039,7 +17039,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 45.00
+        MinRacingSkill = 70.00
         QualifyTime = 16.1
         QualifyTimeVariance = 0.25
         DrivingLine = HIGHLINE,LOWLINE
@@ -17261,10 +17261,10 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 4
-        Speed = 72
+        Speed = 68
         QualifySpeed = 60
         WetSpeed = 60
         Aggression = 35
@@ -17272,7 +17272,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
+        MinRacingSkill = 55.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -17466,7 +17466,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 45.00
+        MinRacingSkill = 65.00
         QualifyTime = 16.1
         QualifyTimeVariance = 0.25
         DrivingLine = HIGHLINE,LOWLINE
@@ -17701,10 +17701,10 @@ SCNG23-AI
         QualifyTime = 31.3
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 4
-        Speed = 72
+        Speed = 67
         QualifySpeed = 60
         WetSpeed = 60
         Aggression = 25
@@ -17712,7 +17712,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
+        MinRacingSkill = 55.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -17910,7 +17910,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 40.00
+        MinRacingSkill = 65.00
         QualifyTime = 16.3
         QualifyTimeVariance = 0.25
         DrivingLine = HIGHLINE,LOWLINE
@@ -18132,10 +18132,10 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 5
-        Speed = 72
+        Speed = 67
         QualifySpeed = 60
         WetSpeed = 60
         Aggression = 25
@@ -18143,7 +18143,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
+        MinRacingSkill = 55.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -18337,7 +18337,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 40.00
+        MinRacingSkill = 65.00
         QualifyTime = 16.3
         QualifyTimeVariance = 0.25
         DrivingLine = HIGHLINE,LOWLINE
@@ -18559,7 +18559,7 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 5
         Speed = 65
@@ -18570,7 +18570,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
+        MinRacingSkill = 45.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -18764,7 +18764,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 40.00
+        MinRacingSkill = 60.00
         QualifyTime = 16.3
         QualifyTimeVariance = 0.25
         DrivingLine = HIGHLINE,LOWLINE
@@ -18986,10 +18986,10 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 5
-        Speed = 60
+        Speed = 65
         QualifySpeed = 55
         WetSpeed = 55
         Aggression = 25
@@ -18997,7 +18997,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
+        MinRacingSkill = 45.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -19191,7 +19191,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 40.00
+        MinRacingSkill = 60.00
         QualifyTime = 16.3
         QualifyTimeVariance = 0.25
         DrivingLine = HIGHLINE,LOWLINE
@@ -19413,10 +19413,10 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 5
-        Speed = 55
+        Speed = 62
         QualifySpeed = 55
         WetSpeed = 55
         Aggression = 25
@@ -19424,7 +19424,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
+        MinRacingSkill = 45.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
@@ -19618,7 +19618,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 40.00
+        MinRacingSkill = 60.00
         QualifyTime = 16.3
         QualifyTimeVariance = 0.25
         DrivingLine = HIGHLINE,LOWLINE
@@ -19840,10 +19840,10 @@ SCNG23-AI
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    NIR
+    Richmond_400
     {
         Tier = 5
-        Speed = 55
+        Speed = 62
         QualifySpeed = 55
         WetSpeed = 55
         Aggression = 35
@@ -19851,7 +19851,7 @@ SCNG23-AI
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
+        MinRacingSkill = 45.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE
