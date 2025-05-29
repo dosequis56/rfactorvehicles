@@ -1,0 +1,1949 @@
+{
+  "name": "My Sounds",
+  "time": 0,
+  "bankKey": "camera-in-out",
+  "effects": {
+    "ambient": {"$ref": "rfsnd:global/effects/examples/ambient"},
+    "engine": {
+      "type": "reverb",
+      "Density": 0.7,
+      "densityComment": "Reverb Modal Density controls the coloration of the late reverb. Lowering the value adds more coloration to the late reverb. 0.0-1.0",
+      "Diffusion": 1.0,
+      "diffusionComment": "The Reverb Diffusion property controls the echo density in the reverberation decay. It’s set by default to 1.0, which provides the highest density. Reducing diffusion gives the reverberation a more “grainy” character that is especially noticeable with percussive sound sources. If you set a diffusion value of 0.0, the later reverberation sounds like a succession of distinct echoes. (A linear multiplier value) 0.0-1.0",
+      "Gain": 0.9462,
+      "gainComment": "The Reverb Gain property is the master volume control for the reflected sound (both early reflections and reverberation) that the reverb effect adds to all sound sources. It sets the maximum amount of reflections and reverberation added to the final sound mix. The value of the Reverb Gain property ranges from 1.0 (0db) (the maximum amount) to 0.0 (-100db) (no reflected sound at all). (Linear gain) 0.0-1.0",
+      "GainHF": 0.99,
+      "gainHFComment": "The Reverb Gain HF property further tweaks reflected sound by attenuating it at high frequencies. It controls a low-pass filter that applies globally to the reflected sound of all sound sources feeding the particular instance of the reverb effect. The value of the Reverb Gain HF property ranges from 1.0 (0db) (no filter) to 0.0 (-100db) (virtually no reflected sound). HF Reference sets the frequency at which the value of this property is measured. (Linear gain) 0.0-1.0",
+      "GainLF": 1,
+      "gainLFComment": "The Reverb Gain LF property further tweaks reflected sound by attenuating it at low frequencies. It controls a high-pass filter that applies globally to the reflected sound of all sound sources feeding the particular instance of the reverb effect. The value of the Reverb Gain LF property ranges from 1.0 (0db) (no filter) to 0.0 (-100db) (virtually no reflected sound). LF Reference sets the frequency at which the value of this property is measured. (Linear gain) 0.0-1.0",
+      "DecayTime": 0.1,
+      "decayTimeComment": "The Decay Time property sets the reverberation decay time. It ranges from 0.1 (typically a small room with very dead surfaces) to 20.0 (typically a large room with very live surfaces). (Seconds) 0.1-20.0",
+      "DecayHFRatio": 1,
+      "decayHFRationComment": "The Decay HF Ratio property adjusts the spectral quality of the Decay Time parameter. It is the ratio of high-frequency decay time relative to the time set by Decay Time. The Decay HF Ratio value 1.0 is neutral: the decay time is equal for all frequencies. As Decay HF Ratio increases above 1.0, the high-frequency decay time increases so it’s longer than the decay time at mid frequencies. You hear a more brilliant reverberation with a longer decay at high frequencies. As the Decay HF Ratio value decreases below 1.0, the high-frequency decay time decreases so it’s shorter than the decay time of the mid frequencies. You hear a more natural reverberation. (A linear multiplier value) 0.1-20.0",
+      "DecayLFRatio": 1,
+      "decayLFRatioComment": "The Decay LF Ratio property adjusts the spectral quality of the Decay Time parameter. It is the ratio of low-frequency decay time relative to the time set by Decay Time. The Decay LF Ratio value 1.0 is neutral: the decay time is equal for all frequencies. As Decay LF Ratio increases above 1.0, the low-frequency decay time increases so it’s longer than the decay time at mid frequencies. You hear a more booming reverberation with a longer decay at low frequencies. As the Decay LF Ratio value decreases below 1.0, the low-frequency decay time decreases so it’s shorter than the decay time of the mid frequencies. You hear a more tinny reverberation. (A linear multiplier value) 0.1-20.0",
+      "ReflectionsGain": 2.9382,
+      "reflectionsGainComment": "The Reflections Gain property controls the overall amount of initial reflections relative to the Gain property. (The Gain property sets the overall amount of reflected sound: both initial reflections and later reverberation.) The value of Reflections Gain ranges from a maximum of 3.16 (+10 dB) to a minimum of 0.0 (-100 dB) (no initial reflections at all), and is corrected by the value of the Gain property. The Reflections Gain property does not affect the subsequent reverberation decay. You can increase the amount of initial reflections to simulate a more narrow space or closer walls, especially effective if you associate the initial reflections increase with a reduction in reflections delays by lowering the value of the Reflection Delay property. To simulate open or semi-open environments, you can maintain the amount of early reflections while reducing the value of the Late Reverb Gain property, which controls later reflections. (Linear gain) 0.0-3.16",
+      "ReflectionsDelay": 0.000,
+      "reflectionsDelayComment": "The Reflections Delay property is the amount of delay between the arrival time of the direct path from the source to the first reflection from the source. It ranges from 0 to 300 milliseconds. You can reduce or increase Reflections Delay to simulate closer or more distant reflective surfaces—and therefore control the perceived size of the room. (Seconds) 0.0-0.3",
+      "ReflectionsPan": [-0.2, 0, 0.2],
+      "reflectionsPanComment": "The Reflections Pan property is a 3D vector that controls the spatial distribution of the cluster of early reflections. The direction of this vector controls the global direction of the reflections, while its magnitude controls how focused the reflections are towards this direction. It is important to note that the direction of the vector is interpreted in the coordinate system of the user, without taking into account the orientation of the virtual listener. For instance, assuming a four-point loudspeaker playback system, setting Reflections Pan to (0., 0., 0.7) means that the reflections are panned to the front speaker pair, whereas as setting of (0., 0., −0.7) pans the reflections towards the rear speakers. These vectors follow the a left-handed co-ordinate system, unlike OpenAL uses a right-handed co-ordinate system. If the magnitude of Reflections Pan is zero (the default setting), the early reflections come evenly from all directions. As the magnitude increases, the reflections become more focused in the direction pointed to by the vector. A magnitude of 1.0 would represent the extreme case, where all reflections come from a single direction.",
+      "LateReverbGain": 0.0178,
+      "lateReverbGainComment": "The Late Reverb Gain property controls the overall amount of later reverberation relative to the Gain property. (The Gain property sets the overall amount of both initial reflections and later reverberation.) The value of Late Reverb Gain ranges from a maximum of 10.0 (+20 dB) to a minimum of 0.0 (-100 dB) (no late reverberation at all). Note that Late Reverb Gain and Decay Time are independent properties: If you adjust Decay Time without changing Late Reverb Gain, the total intensity (the averaged square of the amplitude) of the late reverberation remains constant. (Linear gain) 0.0-10.0",
+      "LateReverbDelay": 0.011,
+      "lateReverbDelay": "The Late Reverb Delay property defines the begin time of the late reverberation relative to the time of the initial reflection (the first of the early reflections). It ranges from 0 to 100 milliseconds. Reducing or increasing Late Reverb Delay is useful for simulating a smaller or larger room. (Seconds) 0.0-0.1",
+      "LateReverbPan": [-0.2, 0, 0.2],
+      "lateReverbPanComment": "The Late Reverb Pan property is a 3D vector that controls the spatial distribution of the late reverb. The direction of this vector controls the global direction of the reverb, while its magnitude controls how focused the reverb are towards this direction. The details under Reflections Pan, above, also apply to Late Reverb Pan. ",
+      "EchoTime": 0.25,
+      "echoTimeComment": "Echo Depth introduces a cyclic echo in the reverberation decay, which will be noticeable with transient or percussive sounds. A larger value of Echo Depth will make this effect more prominent. Echo Time controls the rate at which the cyclic echo repeats itself along the reverberation decay. For example, the default setting for Echo Time is 250 ms. causing the echo to occur 4 times per second. Therefore, if you were to clap your hands in this type of environment, you will hear four repetitions of clap per second. (Seconds) 0.075-0.25",
+      "EchoDepth": 0.00,
+      "echoDepthComment": "Together with Reverb Diffusion, Echo Depth will control how long the echo effect will persist along the reverberation decay. In a more diffuse environment, echoes will wash out more quickly after the direct sound. In an environment that is less diffuse, you will be able to hear a larger number of repetitions of the echo, which will wash out later in the reverberation decay. If Diffusion is set to 0.0 and Echo Depth is set to 1.0, the echo will persist distinctly until the end of the reverberation decay. (A linear multiplier value) 0.0-1.0",
+      "ModulationTime": 0.25,
+      "ModulationDepth": 0,
+      "modulationTimeDepthComment": "Using these two properties, you can create a pitch modulation in the reverberant sound. This will be most noticeable applied to sources that have tonal color or pitch. You can use this to make some trippy effects! Modulation Time controls the speed of the vibrato (rate of periodic changes in pitch). Modulation Depth controls the amount of pitch change. Low values of Diffusion will contribute to reinforcing the perceived effect by reducing the mixing of overlapping reflections in the reverberation decay. (Seconds/A linear multiplier value) 0.004-4.0/0.0-1.0",
+      "AirAbsorptionGainHF": 0.9143,
+      "airAbsorptionGainHFComment": "The Air Absorption Gain HF property controls the distance-dependent attenuation at high frequencies caused by the propagation medium. It applies to reflected sound only. You can use Air Absorption Gain HF to simulate sound transmission through foggy air, dry air, smoky atmosphere, and so on. The default value is 0.994 (-0.05 dB) per meter, which roughly corresponds to typical condition of atmospheric humidity, temperature, and so on. Lowering the value simulates a more absorbent medium (more humidity in the air, for example); raising the value simulates a less absorbent medium (dry desert air, for example). (Linear gain per meter) 0.892-1.0",
+      "HFReference": 4720.2002,
+      "LFReference": 250,
+      "HFLFReferenceComment": "The properties HF Reference and LF Reference determine respectively the frequencies at which the high-frequency effects and the low-frequency effects created by EAX Reverb properties are measured, for example Decay HF Ratio and Decay LF Ratio. Note that it is necessary to maintain a factor of at least 10 between these two reference frequencies so that low frequency and high frequency properties can be accurately controlled and will produce independent effects. In other words, the LF Reference value should be less than 1/10 of the HF Reference value. (Hz) 1000-20000/20-1000",
+      "RoomRolloffFactor": 0.005,
+      "roomRolloffFactorComment": "The Room Rolloff Factor property is one of two methods available to attenuate the reflected sound (containing both reflections and reverberation) according to source-listener distance. It’s defined the same way as OpenAL’s Rolloff Factor, but operates on reverb sound instead of direct-path sound. Setting the Room Rolloff Factor value to 1.0 specifies that the reflected sound will decay by 6 dB every time the distance doubles. Any value other than 1.0 is equivalent to a scaling factor applied to the quantity specified by ((Source listener distance) - (Reference Distance)). Reference Distance is an OpenAL source parameter that specifies the inner border for distance rolloff effects: if the source comes closer to the listener than the reference distance, the direct-path sound isn’t increased as the source comes closer to the listener, and neither is the reflected sound. (A linear multiplier value) 0.0-10.0",
+      "DecayHFLimit": 1,
+      "decayLimitComment": "When this flag is set, the high-frequency decay time automatically stays below a limit value that’s derived from the setting of the property Air Absorption Gain HF. This limit applies regardless of the setting of the property Decay HF Ratio, and the limit doesn’t affect the value of Decay HF Ratio. This limit, when on, maintains a natural sounding reverberation decay by allowing you to increase the value of Decay Time without the risk of getting an unnaturally long decay time at high frequencies. If this flag is set to 0, high-frequency decay time isn’t automatically limited. 0/1",
+      "PanMode": "source",
+      "PanModeComment": "Pan mode describes the mode in which pans are applied. They can be applied relative to a source, so that they pan along with the source. They can also be applied to the listener, and move along with it. Alternatively, they can be set as absolute world coordinates, in which case pan gets calculated in realtime based on listener location and orientation. Possible values: world, listener, source",
+      "PanParams": {
+        "RefLow": 10,
+        "RefHigh": 250,
+        "ValLow": 0.35,
+        "ValHigh": 0.85
+      },
+      "PanParamsComment": "Pan parameters control how panning changes with distance. At the RefNear distance, RefPanNear is the amount of panning that is applied (0.0-1.0). This linearly increases/decreases by distance until RefFar, where it will be clamped to RefPanFar"
+    },
+    "engineOpen": {
+      "type": "reverb",
+      "Density": 1,
+      "Diffusion": 1.0,
+      "Gain": 0.9462,
+      "GainHF": 0.99,
+      "GainLF": 1,
+      "DecayTime": 0.4,
+      "DecayHFRatio": 1,
+      "DecayLFRatio": 1,
+      "ReflectionsGain": 0.1382,
+      "ReflectionsDelay": 0.000,
+      "ReflectionsPan": [0, 0, 0.8],
+      "LateReverbGain": 0.6178,
+      "LateReverbDelay": 0.011,
+      "LateReverbPan": [0, 0, 0.5],
+      "EchoTime": 0.25,
+      "EchoDepth": 0.00,
+      "ModulationTime": 0.25,
+      "ModulationDepth": 0,
+      "AirAbsorptionGainHF": 0.9143,
+      "HFReference": 4720.2002,
+      "LFReference": 250,
+      "RoomRolloffFactor": 0.005,
+      "DecayHFLimit": 1,
+      "PanMode": "source",
+      "PanParams": {
+        "RefLow": 10,
+        "RefHigh": 250,
+        "ValLow": 0.35,
+        "ValHigh": 0.85
+      },
+      "PanParamsComment": "Pan parameters control how panning changes with distance. At the RefNear distance, RefPanNear is the amount of panning that is applied (0.0-1.0). This linearly increases/decreases by distance until RefFar, where it will be clamped to RefPanFar"
+    },
+    "wind": {
+      "type": "reverb",
+      "Density": 0.7,
+      "densityComment": "Reverb Modal Density controls the coloration of the late reverb. Lowering the value adds more coloration to the late reverb. 0.0-1.0",
+      "Diffusion": 1.0,
+      "diffusionComment": "The Reverb Diffusion property controls the echo density in the reverberation decay. It’s set by default to 1.0, which provides the highest density. Reducing diffusion gives the reverberation a more “grainy” character that is especially noticeable with percussive sound sources. If you set a diffusion value of 0.0, the later reverberation sounds like a succession of distinct echoes. (A linear multiplier value) 0.0-1.0",
+      "Gain": 0.9462,
+      "gainComment": "The Reverb Gain property is the master volume control for the reflected sound (both early reflections and reverberation) that the reverb effect adds to all sound sources. It sets the maximum amount of reflections and reverberation added to the final sound mix. The value of the Reverb Gain property ranges from 1.0 (0db) (the maximum amount) to 0.0 (-100db) (no reflected sound at all). (Linear gain) 0.0-1.0",
+      "GainHF": 0.99,
+      "gainHFComment": "The Reverb Gain HF property further tweaks reflected sound by attenuating it at high frequencies. It controls a low-pass filter that applies globally to the reflected sound of all sound sources feeding the particular instance of the reverb effect. The value of the Reverb Gain HF property ranges from 1.0 (0db) (no filter) to 0.0 (-100db) (virtually no reflected sound). HF Reference sets the frequency at which the value of this property is measured. (Linear gain) 0.0-1.0",
+      "GainLF": 1,
+      "gainLFComment": "The Reverb Gain LF property further tweaks reflected sound by attenuating it at low frequencies. It controls a high-pass filter that applies globally to the reflected sound of all sound sources feeding the particular instance of the reverb effect. The value of the Reverb Gain LF property ranges from 1.0 (0db) (no filter) to 0.0 (-100db) (virtually no reflected sound). LF Reference sets the frequency at which the value of this property is measured. (Linear gain) 0.0-1.0",
+      "DecayTime": 0.1,
+      "decayTimeComment": "The Decay Time property sets the reverberation decay time. It ranges from 0.1 (typically a small room with very dead surfaces) to 20.0 (typically a large room with very live surfaces). (Seconds) 0.1-20.0",
+      "DecayHFRatio": 1,
+      "decayHFRationComment": "The Decay HF Ratio property adjusts the spectral quality of the Decay Time parameter. It is the ratio of high-frequency decay time relative to the time set by Decay Time. The Decay HF Ratio value 1.0 is neutral: the decay time is equal for all frequencies. As Decay HF Ratio increases above 1.0, the high-frequency decay time increases so it’s longer than the decay time at mid frequencies. You hear a more brilliant reverberation with a longer decay at high frequencies. As the Decay HF Ratio value decreases below 1.0, the high-frequency decay time decreases so it’s shorter than the decay time of the mid frequencies. You hear a more natural reverberation. (A linear multiplier value) 0.1-20.0",
+      "DecayLFRatio": 1,
+      "decayLFRatioComment": "The Decay LF Ratio property adjusts the spectral quality of the Decay Time parameter. It is the ratio of low-frequency decay time relative to the time set by Decay Time. The Decay LF Ratio value 1.0 is neutral: the decay time is equal for all frequencies. As Decay LF Ratio increases above 1.0, the low-frequency decay time increases so it’s longer than the decay time at mid frequencies. You hear a more booming reverberation with a longer decay at low frequencies. As the Decay LF Ratio value decreases below 1.0, the low-frequency decay time decreases so it’s shorter than the decay time of the mid frequencies. You hear a more tinny reverberation. (A linear multiplier value) 0.1-20.0",
+      "ReflectionsGain": 2.9382,
+      "reflectionsGainComment": "The Reflections Gain property controls the overall amount of initial reflections relative to the Gain property. (The Gain property sets the overall amount of reflected sound: both initial reflections and later reverberation.) The value of Reflections Gain ranges from a maximum of 3.16 (+10 dB) to a minimum of 0.0 (-100 dB) (no initial reflections at all), and is corrected by the value of the Gain property. The Reflections Gain property does not affect the subsequent reverberation decay. You can increase the amount of initial reflections to simulate a more narrow space or closer walls, especially effective if you associate the initial reflections increase with a reduction in reflections delays by lowering the value of the Reflection Delay property. To simulate open or semi-open environments, you can maintain the amount of early reflections while reducing the value of the Late Reverb Gain property, which controls later reflections. (Linear gain) 0.0-3.16",
+      "ReflectionsDelay": 0.000,
+      "reflectionsDelayComment": "The Reflections Delay property is the amount of delay between the arrival time of the direct path from the source to the first reflection from the source. It ranges from 0 to 300 milliseconds. You can reduce or increase Reflections Delay to simulate closer or more distant reflective surfaces—and therefore control the perceived size of the room. (Seconds) 0.0-0.3",
+      "ReflectionsPan": [-0.2, 0, 0.2],
+      "reflectionsPanComment": "The Reflections Pan property is a 3D vector that controls the spatial distribution of the cluster of early reflections. The direction of this vector controls the global direction of the reflections, while its magnitude controls how focused the reflections are towards this direction. It is important to note that the direction of the vector is interpreted in the coordinate system of the user, without taking into account the orientation of the virtual listener. For instance, assuming a four-point loudspeaker playback system, setting Reflections Pan to (0., 0., 0.7) means that the reflections are panned to the front speaker pair, whereas as setting of (0., 0., −0.7) pans the reflections towards the rear speakers. These vectors follow the a left-handed co-ordinate system, unlike OpenAL uses a right-handed co-ordinate system. If the magnitude of Reflections Pan is zero (the default setting), the early reflections come evenly from all directions. As the magnitude increases, the reflections become more focused in the direction pointed to by the vector. A magnitude of 1.0 would represent the extreme case, where all reflections come from a single direction.",
+      "LateReverbGain": 0.0178,
+      "lateReverbGainComment": "The Late Reverb Gain property controls the overall amount of later reverberation relative to the Gain property. (The Gain property sets the overall amount of both initial reflections and later reverberation.) The value of Late Reverb Gain ranges from a maximum of 10.0 (+20 dB) to a minimum of 0.0 (-100 dB) (no late reverberation at all). Note that Late Reverb Gain and Decay Time are independent properties: If you adjust Decay Time without changing Late Reverb Gain, the total intensity (the averaged square of the amplitude) of the late reverberation remains constant. (Linear gain) 0.0-10.0",
+      "LateReverbDelay": 0.011,
+      "lateReverbDelay": "The Late Reverb Delay property defines the begin time of the late reverberation relative to the time of the initial reflection (the first of the early reflections). It ranges from 0 to 100 milliseconds. Reducing or increasing Late Reverb Delay is useful for simulating a smaller or larger room. (Seconds) 0.0-0.1",
+      "LateReverbPan": [-0.2, 0, 0.2],
+      "lateReverbPanComment": "The Late Reverb Pan property is a 3D vector that controls the spatial distribution of the late reverb. The direction of this vector controls the global direction of the reverb, while its magnitude controls how focused the reverb are towards this direction. The details under Reflections Pan, above, also apply to Late Reverb Pan. ",
+      "EchoTime": 0.25,
+      "echoTimeComment": "Echo Depth introduces a cyclic echo in the reverberation decay, which will be noticeable with transient or percussive sounds. A larger value of Echo Depth will make this effect more prominent. Echo Time controls the rate at which the cyclic echo repeats itself along the reverberation decay. For example, the default setting for Echo Time is 250 ms. causing the echo to occur 4 times per second. Therefore, if you were to clap your hands in this type of environment, you will hear four repetitions of clap per second. (Seconds) 0.075-0.25",
+      "EchoDepth": 0.00,
+      "echoDepthComment": "Together with Reverb Diffusion, Echo Depth will control how long the echo effect will persist along the reverberation decay. In a more diffuse environment, echoes will wash out more quickly after the direct sound. In an environment that is less diffuse, you will be able to hear a larger number of repetitions of the echo, which will wash out later in the reverberation decay. If Diffusion is set to 0.0 and Echo Depth is set to 1.0, the echo will persist distinctly until the end of the reverberation decay. (A linear multiplier value) 0.0-1.0",
+      "ModulationTime": 0.25,
+      "ModulationDepth": 0,
+      "modulationTimeDepthComment": "Using these two properties, you can create a pitch modulation in the reverberant sound. This will be most noticeable applied to sources that have tonal color or pitch. You can use this to make some trippy effects! Modulation Time controls the speed of the vibrato (rate of periodic changes in pitch). Modulation Depth controls the amount of pitch change. Low values of Diffusion will contribute to reinforcing the perceived effect by reducing the mixing of overlapping reflections in the reverberation decay. (Seconds/A linear multiplier value) 0.004-4.0/0.0-1.0",
+      "AirAbsorptionGainHF": 0.9143,
+      "airAbsorptionGainHFComment": "The Air Absorption Gain HF property controls the distance-dependent attenuation at high frequencies caused by the propagation medium. It applies to reflected sound only. You can use Air Absorption Gain HF to simulate sound transmission through foggy air, dry air, smoky atmosphere, and so on. The default value is 0.994 (-0.05 dB) per meter, which roughly corresponds to typical condition of atmospheric humidity, temperature, and so on. Lowering the value simulates a more absorbent medium (more humidity in the air, for example); raising the value simulates a less absorbent medium (dry desert air, for example). (Linear gain per meter) 0.892-1.0",
+      "HFReference": 4720.2002,
+      "LFReference": 250,
+      "HFLFReferenceComment": "The properties HF Reference and LF Reference determine respectively the frequencies at which the high-frequency effects and the low-frequency effects created by EAX Reverb properties are measured, for example Decay HF Ratio and Decay LF Ratio. Note that it is necessary to maintain a factor of at least 10 between these two reference frequencies so that low frequency and high frequency properties can be accurately controlled and will produce independent effects. In other words, the LF Reference value should be less than 1/10 of the HF Reference value. (Hz) 1000-20000/20-1000",
+      "RoomRolloffFactor": 0.005,
+      "roomRolloffFactorComment": "The Room Rolloff Factor property is one of two methods available to attenuate the reflected sound (containing both reflections and reverberation) according to source-listener distance. It’s defined the same way as OpenAL’s Rolloff Factor, but operates on reverb sound instead of direct-path sound. Setting the Room Rolloff Factor value to 1.0 specifies that the reflected sound will decay by 6 dB every time the distance doubles. Any value other than 1.0 is equivalent to a scaling factor applied to the quantity specified by ((Source listener distance) - (Reference Distance)). Reference Distance is an OpenAL source parameter that specifies the inner border for distance rolloff effects: if the source comes closer to the listener than the reference distance, the direct-path sound isn’t increased as the source comes closer to the listener, and neither is the reflected sound. (A linear multiplier value) 0.0-10.0",
+      "DecayHFLimit": 1,
+      "decayLimitComment": "When this flag is set, the high-frequency decay time automatically stays below a limit value that’s derived from the setting of the property Air Absorption Gain HF. This limit applies regardless of the setting of the property Decay HF Ratio, and the limit doesn’t affect the value of Decay HF Ratio. This limit, when on, maintains a natural sounding reverberation decay by allowing you to increase the value of Decay Time without the risk of getting an unnaturally long decay time at high frequencies. If this flag is set to 0, high-frequency decay time isn’t automatically limited. 0/1",
+      "PanMode": "source",
+      "PanModeComment": "Pan mode describes the mode in which pans are applied. They can be applied relative to a source, so that they pan along with the source. They can also be applied to the listener, and move along with it. Alternatively, they can be set as absolute world coordinates, in which case pan gets calculated in realtime based on listener location and orientation. Possible values: world, listener, source",
+      "PanParams": {
+        "RefLow": 10,
+        "RefHigh": 250,
+        "ValLow": 0.35,
+        "ValHigh": 0.85
+      },
+      "PanParamsComment": "Pan parameters control how panning changes with distance. At the RefNear distance, RefPanNear is the amount of panning that is applied (0.0-1.0). This linearly increases/decreases by distance until RefFar, where it will be clamped to RefPanFar"
+    },
+    "onboard": {
+      "type": "reverb",
+      "Density": 0.7,
+      "densityComment": "Reverb Modal Density controls the coloration of the late reverb. Lowering the value adds more coloration to the late reverb. 0.0-1.0",
+      "Diffusion": 1.0,
+      "diffusionComment": "The Reverb Diffusion property controls the echo density in the reverberation decay. It’s set by default to 1.0, which provides the highest density. Reducing diffusion gives the reverberation a more “grainy” character that is especially noticeable with percussive sound sources. If you set a diffusion value of 0.0, the later reverberation sounds like a succession of distinct echoes. (A linear multiplier value) 0.0-1.0",
+      "Gain": 0.9462,
+      "gainComment": "The Reverb Gain property is the master volume control for the reflected sound (both early reflections and reverberation) that the reverb effect adds to all sound sources. It sets the maximum amount of reflections and reverberation added to the final sound mix. The value of the Reverb Gain property ranges from 1.0 (0db) (the maximum amount) to 0.0 (-100db) (no reflected sound at all). (Linear gain) 0.0-1.0",
+      "GainHF": 0.99,
+      "gainHFComment": "The Reverb Gain HF property further tweaks reflected sound by attenuating it at high frequencies. It controls a low-pass filter that applies globally to the reflected sound of all sound sources feeding the particular instance of the reverb effect. The value of the Reverb Gain HF property ranges from 1.0 (0db) (no filter) to 0.0 (-100db) (virtually no reflected sound). HF Reference sets the frequency at which the value of this property is measured. (Linear gain) 0.0-1.0",
+      "GainLF": 1,
+      "gainLFComment": "The Reverb Gain LF property further tweaks reflected sound by attenuating it at low frequencies. It controls a high-pass filter that applies globally to the reflected sound of all sound sources feeding the particular instance of the reverb effect. The value of the Reverb Gain LF property ranges from 1.0 (0db) (no filter) to 0.0 (-100db) (virtually no reflected sound). LF Reference sets the frequency at which the value of this property is measured. (Linear gain) 0.0-1.0",
+      "DecayTime": 0.1,
+      "decayTimeComment": "The Decay Time property sets the reverberation decay time. It ranges from 0.1 (typically a small room with very dead surfaces) to 20.0 (typically a large room with very live surfaces). (Seconds) 0.1-20.0",
+      "DecayHFRatio": 1,
+      "decayHFRationComment": "The Decay HF Ratio property adjusts the spectral quality of the Decay Time parameter. It is the ratio of high-frequency decay time relative to the time set by Decay Time. The Decay HF Ratio value 1.0 is neutral: the decay time is equal for all frequencies. As Decay HF Ratio increases above 1.0, the high-frequency decay time increases so it’s longer than the decay time at mid frequencies. You hear a more brilliant reverberation with a longer decay at high frequencies. As the Decay HF Ratio value decreases below 1.0, the high-frequency decay time decreases so it’s shorter than the decay time of the mid frequencies. You hear a more natural reverberation. (A linear multiplier value) 0.1-20.0",
+      "DecayLFRatio": 1,
+      "decayLFRatioComment": "The Decay LF Ratio property adjusts the spectral quality of the Decay Time parameter. It is the ratio of low-frequency decay time relative to the time set by Decay Time. The Decay LF Ratio value 1.0 is neutral: the decay time is equal for all frequencies. As Decay LF Ratio increases above 1.0, the low-frequency decay time increases so it’s longer than the decay time at mid frequencies. You hear a more booming reverberation with a longer decay at low frequencies. As the Decay LF Ratio value decreases below 1.0, the low-frequency decay time decreases so it’s shorter than the decay time of the mid frequencies. You hear a more tinny reverberation. (A linear multiplier value) 0.1-20.0",
+      "ReflectionsGain": 1.3382,
+      "reflectionsGainComment": "The Reflections Gain property controls the overall amount of initial reflections relative to the Gain property. (The Gain property sets the overall amount of reflected sound: both initial reflections and later reverberation.) The value of Reflections Gain ranges from a maximum of 3.16 (+10 dB) to a minimum of 0.0 (-100 dB) (no initial reflections at all), and is corrected by the value of the Gain property. The Reflections Gain property does not affect the subsequent reverberation decay. You can increase the amount of initial reflections to simulate a more narrow space or closer walls, especially effective if you associate the initial reflections increase with a reduction in reflections delays by lowering the value of the Reflection Delay property. To simulate open or semi-open environments, you can maintain the amount of early reflections while reducing the value of the Late Reverb Gain property, which controls later reflections. (Linear gain) 0.0-3.16",
+      "ReflectionsDelay": 0.000,
+      "reflectionsDelayComment": "The Reflections Delay property is the amount of delay between the arrival time of the direct path from the source to the first reflection from the source. It ranges from 0 to 300 milliseconds. You can reduce or increase Reflections Delay to simulate closer or more distant reflective surfaces—and therefore control the perceived size of the room. (Seconds) 0.0-0.3",
+      "ReflectionsPan": [0, 0, 0],
+      "reflectionsPanComment": "The Reflections Pan property is a 3D vector that controls the spatial distribution of the cluster of early reflections. The direction of this vector controls the global direction of the reflections, while its magnitude controls how focused the reflections are towards this direction. It is important to note that the direction of the vector is interpreted in the coordinate system of the user, without taking into account the orientation of the virtual listener. For instance, assuming a four-point loudspeaker playback system, setting Reflections Pan to (0., 0., 0.7) means that the reflections are panned to the front speaker pair, whereas as setting of (0., 0., −0.7) pans the reflections towards the rear speakers. These vectors follow the a left-handed co-ordinate system, unlike OpenAL uses a right-handed co-ordinate system. If the magnitude of Reflections Pan is zero (the default setting), the early reflections come evenly from all directions. As the magnitude increases, the reflections become more focused in the direction pointed to by the vector. A magnitude of 1.0 would represent the extreme case, where all reflections come from a single direction.",
+      "LateReverbGain": 0.6178,
+      "lateReverbGainComment": "The Late Reverb Gain property controls the overall amount of later reverberation relative to the Gain property. (The Gain property sets the overall amount of both initial reflections and later reverberation.) The value of Late Reverb Gain ranges from a maximum of 10.0 (+20 dB) to a minimum of 0.0 (-100 dB) (no late reverberation at all). Note that Late Reverb Gain and Decay Time are independent properties: If you adjust Decay Time without changing Late Reverb Gain, the total intensity (the averaged square of the amplitude) of the late reverberation remains constant. (Linear gain) 0.0-10.0",
+      "LateReverbDelay": 0.011,
+      "lateReverbDelay": "The Late Reverb Delay property defines the begin time of the late reverberation relative to the time of the initial reflection (the first of the early reflections). It ranges from 0 to 100 milliseconds. Reducing or increasing Late Reverb Delay is useful for simulating a smaller or larger room. (Seconds) 0.0-0.1",
+      "LateReverbPan": [0, 0, 0],
+      "lateReverbPanComment": "The Late Reverb Pan property is a 3D vector that controls the spatial distribution of the late reverb. The direction of this vector controls the global direction of the reverb, while its magnitude controls how focused the reverb are towards this direction. The details under Reflections Pan, above, also apply to Late Reverb Pan. ",
+      "EchoTime": 0.25,
+      "echoTimeComment": "Echo Depth introduces a cyclic echo in the reverberation decay, which will be noticeable with transient or percussive sounds. A larger value of Echo Depth will make this effect more prominent. Echo Time controls the rate at which the cyclic echo repeats itself along the reverberation decay. For example, the default setting for Echo Time is 250 ms. causing the echo to occur 4 times per second. Therefore, if you were to clap your hands in this type of environment, you will hear four repetitions of clap per second. (Seconds) 0.075-0.25",
+      "EchoDepth": 0.00,
+      "echoDepthComment": "Together with Reverb Diffusion, Echo Depth will control how long the echo effect will persist along the reverberation decay. In a more diffuse environment, echoes will wash out more quickly after the direct sound. In an environment that is less diffuse, you will be able to hear a larger number of repetitions of the echo, which will wash out later in the reverberation decay. If Diffusion is set to 0.0 and Echo Depth is set to 1.0, the echo will persist distinctly until the end of the reverberation decay. (A linear multiplier value) 0.0-1.0",
+      "ModulationTime": 0.25,
+      "ModulationDepth": 0,
+      "modulationTimeDepthComment": "Using these two properties, you can create a pitch modulation in the reverberant sound. This will be most noticeable applied to sources that have tonal color or pitch. You can use this to make some trippy effects! Modulation Time controls the speed of the vibrato (rate of periodic changes in pitch). Modulation Depth controls the amount of pitch change. Low values of Diffusion will contribute to reinforcing the perceived effect by reducing the mixing of overlapping reflections in the reverberation decay. (Seconds/A linear multiplier value) 0.004-4.0/0.0-1.0",
+      "AirAbsorptionGainHF": 0.9143,
+      "airAbsorptionGainHFComment": "The Air Absorption Gain HF property controls the distance-dependent attenuation at high frequencies caused by the propagation medium. It applies to reflected sound only. You can use Air Absorption Gain HF to simulate sound transmission through foggy air, dry air, smoky atmosphere, and so on. The default value is 0.994 (-0.05 dB) per meter, which roughly corresponds to typical condition of atmospheric humidity, temperature, and so on. Lowering the value simulates a more absorbent medium (more humidity in the air, for example); raising the value simulates a less absorbent medium (dry desert air, for example). (Linear gain per meter) 0.892-1.0",
+      "HFReference": 4720.2002,
+      "LFReference": 250,
+      "HFLFReferenceComment": "The properties HF Reference and LF Reference determine respectively the frequencies at which the high-frequency effects and the low-frequency effects created by EAX Reverb properties are measured, for example Decay HF Ratio and Decay LF Ratio. Note that it is necessary to maintain a factor of at least 10 between these two reference frequencies so that low frequency and high frequency properties can be accurately controlled and will produce independent effects. In other words, the LF Reference value should be less than 1/10 of the HF Reference value. (Hz) 1000-20000/20-1000",
+      "RoomRolloffFactor": 0.005,
+      "roomRolloffFactorComment": "The Room Rolloff Factor property is one of two methods available to attenuate the reflected sound (containing both reflections and reverberation) according to source-listener distance. It’s defined the same way as OpenAL’s Rolloff Factor, but operates on reverb sound instead of direct-path sound. Setting the Room Rolloff Factor value to 1.0 specifies that the reflected sound will decay by 6 dB every time the distance doubles. Any value other than 1.0 is equivalent to a scaling factor applied to the quantity specified by ((Source listener distance) - (Reference Distance)). Reference Distance is an OpenAL source parameter that specifies the inner border for distance rolloff effects: if the source comes closer to the listener than the reference distance, the direct-path sound isn’t increased as the source comes closer to the listener, and neither is the reflected sound. (A linear multiplier value) 0.0-10.0",
+      "DecayHFLimit": 1,
+      "decayLimitComment": "When this flag is set, the high-frequency decay time automatically stays below a limit value that’s derived from the setting of the property Air Absorption Gain HF. This limit applies regardless of the setting of the property Decay HF Ratio, and the limit doesn’t affect the value of Decay HF Ratio. This limit, when on, maintains a natural sounding reverberation decay by allowing you to increase the value of Decay Time without the risk of getting an unnaturally long decay time at high frequencies. If this flag is set to 0, high-frequency decay time isn’t automatically limited. 0/1",
+      "PanMode": "source",
+      "PanModeComment": "Pan mode describes the mode in which pans are applied. They can be applied relative to a source, so that they pan along with the source. They can also be applied to the listener, and move along with it. Alternatively, they can be set as absolute world coordinates, in which case pan gets calculated in realtime based on listener location and orientation. Possible values: world, listener, source",
+      "PanParams": {
+        "RefLow": 10,
+        "RefHigh": 250,
+        "ValLow": 0.35,
+        "ValHigh": 0.85
+      },
+      "PanParamsComment": "Pan parameters control how panning changes with distance. At the RefNear distance, RefPanNear is the amount of panning that is applied (0.0-1.0). This linearly increases/decreases by distance until RefFar, where it will be clamped to RefPanFar"
+    }
+  },
+  "filters": {
+    "engine": {
+      "type": "lowpass",
+      "Gain": 0.4,
+      "GainHF": 1.0,
+      "Mode": "static"
+    },
+    "wheels": {
+      "type": "lowpass",
+      "Gain": 0.8,
+      "GainHF": 0.7,
+      "Mode": "static"
+    },
+    "ambient": {
+      "type": "lowpass",
+      "Gain": 0.357,
+      "GainHF": 0.6,
+      "Mode": "auto"
+    }
+  },
+  "events": [
+    {
+      "bank": {
+        "name": "inside",
+        "volume": 1.25,
+        "refDistance": 1,
+        "rolloff": 0.003,
+        "events": [
+          {
+            "multi": {
+              "name": "engine",
+              "volume": {
+                "key": "engineRPM",
+                "value": [[10,0,0],[1800,1.5,0.2],[4000,1.8,0],[6000,1.9,0],[7000,2.3,0.2]]
+              },
+              "position": [0,0.125,0.375],
+              "effect": "engineOpen",
+              "filter": "engine",
+              "value": "engineRPM",
+              "events": [
+                {
+                  "multi": {
+                    "name": "power (for reference)",
+                    "volume": {
+                      "key": "throttle",
+                      "value": [[0.1,0,0],[0.7,1.0,0.3]]
+                    },
+                    "events": [
+                      {
+                        "loop": {
+                          "sample": "sounds\\Formula_Hybrid_25_in_idle.wav",
+                          "volume": {
+                            "key": "engineRPM",
+                            "value": [[10.00,0,0],[250,1,0.2],[3380.00,1,0],[3900.00,0,0.2]]
+                          },
+                          "pitch": {
+                            "key": "engineRPM",
+                            "value": [[0,0,0],[3500.00,1,0],[7000,2,0]]
+                          }
+                        }
+                      },
+                      {
+                        "loop": {
+                          "sample": "sounds\\Formula_Hybrid_25_in_on_low.wav",
+                          "volume": {
+                            "key": "engineRPM",
+                            "value": [[3380.00,0,0],[3900.00,1,0.2],[4500.00,1,0],[5750.00,0,0.2]]
+                          },
+                          "pitch": {
+                            "key": "engineRPM",
+                            "value": [[0,0,0],[6750.00,1,0],[13500,2,0]]
+                          }
+                        }
+                      },
+                      {
+                        "loop": {
+                          "sample": "sounds\\Formula_Hybrid_25_in_on_mid.wav",
+                          "volume": {
+                            "key": "engineRPM",
+                            "value": [[4500.00,0,0],[5750.00,1,0.2],[7000.00,1,0],[9250.00,0,0.2]]
+                          },
+                          "pitch": {
+                            "key": "engineRPM",
+                            "value": [[0,0,0],[11000.00,1,0],[22000,2,0]]
+                          }
+                        }
+                      },
+                      {
+                        "loop": {
+                          "sample": "sounds\\Formula_Hybrid_25_in_on_high.wav",
+                          "volume": {
+                            "key": "engineRPM",
+                            "value": [[7000.00,0,0],[9250.00,1,0.2],[22500.00,1,0],[22500.00,0,0.2]]
+                          },
+                          "pitch": {
+                            "key": "engineRPM",
+                            "value": [[0,0,0],[11500.00,1,0],[23000,2,0]]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "multi": {
+                    "name": "coast (for reference)",
+                    "volume": {
+                      "key": "throttle",
+                      "value": [[0.1,0.8,0],[0.7,0,0.3]]
+                    },
+                    "events": [
+                      {
+                        "loop": {
+                          "sample": "sounds\\Formula_Hybrid_25_in_idle.wav",
+                          "volume": {
+                            "key": "engineRPM",
+                            "value": [[1.00,0,0],[250,1,0.2],[3380.00,1,0],[3900.00,0,0.2]]
+                          },
+                          "pitch": {
+                            "key": "engineRPM",
+                            "value": [[0,0,0],[3500.00,1,0],[7000,2,0]]
+                          }
+                        }
+                      },
+                      {
+                        "loop": {
+                          "sample": "sounds\\Formula_Hybrid_25_in_off_low.wav",
+                          "volume": {
+                            "key": "engineRPM",
+                            "value": [[3380.00,0,0],[3900.00,1,0.2],[4500.00,1,0],[5750.00,0,0.2]]
+                          },
+                          "pitch": {
+                            "key": "engineRPM",
+                            "value": [[0,0,0],[6750.00,1,0],[13500,2,0]]
+                          }
+                        }
+                      },
+                      {
+                        "loop": {
+                          "sample": "sounds\\Formula_Hybrid_25_in_off_mid.wav",
+                          "volume": {
+                            "key": "engineRPM",
+                            "value": [[4500.00,0,0],[5750.00,1,0.2],[7000.00,1,0],[9250.00,0,0.2]]
+                          },
+                          "pitch": {
+                            "key": "engineRPM",
+                            "value": [[0,0,0],[11000.00,1,0],[22000,2,0]]
+                          }
+                        }
+                      },
+                      {
+                        "loop": {
+                          "sample": "sounds\\Formula_Hybrid_25_in_off_mid.wav",
+                          "volume": {
+                            "key": "engineRPM",
+                            "value": [[7000.00,0,0],[9250.00,1,0.2],[22500.00,1,0],[22500.00,0,0.2]]
+                          },
+                          "pitch": {
+                            "key": "engineRPM",
+                            "value": [[0,0,0],[11500.00,1,0],[23000,2,0]]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "multi": {
+              "name": "transmission",
+              "name#": "This transmission is set up to blend between samples based on RPM speed.",
+              "position": [0,0.5,1.0],
+              "effect": "engineOpen",
+              "filter": "engine",
+              "volume": {
+                "key": "transmissionRPM",
+                "value": [[10,0,0],[2400,0.7,0.2],[3000,0.8,0.2],[4500,0.7,0.2],[6000,0.6,0.2],[12000,0.6,0],[ 18000.0,0.5,0.2]]
+              },
+              "events": [
+                {
+                  "multi": {
+                    "name": "power",
+                    "volume": {
+                      "key": "transmissionTorque",
+                      "value": [[0,0,0],[40,0.15,-0.3],[120,0.55,-0.9]]
+                    },
+                    "events": [
+                      {
+                        "loop": {
+                          "sample": "sounds\\Formula_Hybrid_25_trans_in_on_mid_wobble.wav",
+                          "volume": {
+                            "key": "transmissionRPM",
+                            "value": [[0,0,0],[3400,1,-1],[6800,1,0],[8500.0,0,0.3]]
+                          },
+                          "pitch": {
+                            "key": "transmissionRPM",
+                            "value": [[0,0,0],[1250,1,0],[2500,2,0]]
+                          }
+                        }
+                      },
+                      {
+                        "loop": {
+                          "sample": "sounds\\Formula_Hybrid_25_trans_in_on_high.wav",
+                          "volume": {
+                            "key": "transmissionRPM",
+                            "value": [[4000,0,0],[5000,1,0.3],[16000,1,0],[ 18000.0,0,0.3]]
+                          },
+                          "pitch": {
+                            "key": "transmissionRPM",
+                            "value": [[0,0,0],[9000,1,0],[ 18000.0,2,0]]
+                          }
+                        }
+                      }					  
+                    ]
+                  }
+                },
+                {
+                  "multi": {
+                    "name": "coast",
+                    "volume": {
+                      "key": "transmissionTorque",
+                      "value": [[-40,0.55,0],[0,0,-0.3]]
+                    },
+                    "events": [
+                      {
+                        "loop": {
+                          "sample": "sounds\\Formula_Hybrid_25_trans_in_off_low.wav",
+                          "volume": {
+                            "key": "transmissionRPM",
+                            "value": [[0,0,0],[3400,1,-1],[6800,1,0],[8500.0,0,0.3]]
+                          },
+                          "pitch": {
+                            "key": "transmissionRPM",
+                            "value": [[0,0,0],[1000,1,0],[2000,2,0]]
+                          }
+                        }
+                      },
+                      {
+                        "loop": {
+                          "sample": "sounds\\Formula_Hybrid_25_trans_in_off_mid.wav",
+                          "volume": {
+                            "key": "transmissionRPM",
+                            "value": [[3778,0,0],[4722,1,0.3],[15111,1,0],[ 17000.0,0,0.3]]
+                          },
+                          "pitch": {
+                            "key": "transmissionRPM",
+                            "value": [[0,0,0],[8500,1,0],[ 17000.0,2,0]]
+                          }
+                        }
+                      }					  
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "random": {
+              "name": "shiftUp",
+              "volume": 1,
+              "effect": "engineOpen",
+              "filter": "engine",
+              "position": [0,0.0175,1.665],
+              "events": [
+		            {
+                  "burst": {
+                    "sample": "sounds\\Formula_Hybrid_25_in_shift_1.wav",
+                    "volume": 1
+                  }
+                },
+		            {
+                  "burst": {
+                    "sample": "sounds\\Formula_Hybrid_25_in_shift_2.wav",
+                    "volume": 1
+                  }
+                },
+		            {
+                  "burst": {
+                    "sample": "sounds\\Formula_Hybrid_25_in_shift_3.wav",
+                    "volume": 1
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "random": {
+              "name": "shiftDown",
+              "volume": 1,
+              "position": [0,0.0175,1.665],
+              "effect": "engineOpen",
+              "filter": "engine",
+              "events": [
+	              {
+                  "burst": {
+                    "sample": "sounds\\Formula_Hybrid_25_in_shift_1.wav",
+                    "volume": 1
+                  }
+                },
+			          {
+                  "burst": {
+                    "sample": "sounds\\Formula_Hybrid_25_in_shift_2.wav",
+                    "volume": 1
+                  }
+                },
+		            {
+                  "burst": {
+                    "sample": "sounds\\Formula_Hybrid_25_in_shift_3.wav",
+                    "volume": 1
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "random": {
+              "name": "backfire",
+              "volume": 0.35,
+              "position": [0,0.2,2.15],
+              "effect": "engine",
+              "filter": "engine",
+              "events": [
+                {
+                  "burst": {
+                    "sample": "sounds\\Formula_Hybrid_25_backfire01_in.wav",
+                    "volume": {
+                      "key": "velocity",
+                      "value": [[17,0,0],[20,1,0]]
+                    }
+                  }
+                },
+                {
+                  "burst": {
+                    "sample": "sounds\\Formula_Hybrid_25_backfire02_in.wav",
+                    "volume": {
+                      "key": "velocity",
+                      "value": [[17,0,0],[20,1,0]]
+                    }
+                  }
+                },
+                {
+                  "burst": {
+                    "sample": "sounds\\Formula_Hybrid_25_backfire01_in.wav",
+                    "volume": {
+                      "key": "velocity",
+                      "value": [[17,0,0],[20,1,0]]
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "burst": {
+              "position": [0,0.5,1.0],
+              "effect": "engineOpen",
+              "filter": "engine",
+              "name": "starting",
+              "volume": 0.8,
+              "sample": "sounds\\Formula_Hybrid_25_in_startup.wav"
+            }
+          },
+          {
+            "multi": {
+              "name": "rain",
+              "events": [
+                {
+                  "template": {
+                    "find": "TYPE",
+                    "replace": ["Light","Heavy"],
+                    "event": {
+                      "multi": {
+                        "events": [
+                          {
+                            "loop": {
+                              "sample": "Ambient\\TYPE_rain_cockpit.wav",
+                              "position": [0.9,1.2,-1.5],
+                              "volume": {
+                                "key": "rainTYPE",
+                                "value": [[0,0,0],[1,5,-0.3]]
+                              }
+                            }
+                          },
+                          {
+                            "loop": {
+                              "sample": "Ambient\\TYPE_rain_cockpit.wav",
+                              "position": [-0.9,1.2,-1.5],
+                              "volume": {
+                                "key": "rainTYPE",
+                                "value": [[0,0,0],[1,5,-0.3]]
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "multi": {
+              "name": "windNoise",
+              "volume": {
+                "key": "velocity",
+                "value": [[5,0,0],[70,2.0,-0.5],[120,5.0,0]]
+              },
+              "events": [
+                {
+                  "loop": {
+                    "sample": "sounds\\Formula_Hybrid_25_wind_in.wav",
+                    "position": [0.15,0.425,-0.75],
+                    "volume": 0.10
+                  }
+                },
+                {
+                  "loop": {
+                    "sample": "sounds\\Formula_Hybrid_25_wind_in.wav",
+                    "position": [-0.15,0.425,-0.75],
+                    "volume": 0.10
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "multi": {
+              "name": "suspension",
+              "effect": "onboard",
+              "filter": "wheels",
+              "events": [
+                {
+                  "template": {
+                    "find": "XX",
+                    "replace": ["FL","FR","RL","RR"],
+                    "event": {
+                      "loop": {
+                        "sample": "Secondary\\Chassis_noise_1.wav",
+                        "position": "wheelXX",
+                        "volume": {
+                          "key": "suspVelXX",
+                          "value": [[0,0],[0.5,0.7,-0.6]]
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "burst": {
+              "name": "limiterToggle",
+              "volume": 0.5,
+              "sample": "Secondary\\limiter.wav"
+            }
+          },
+          {
+            "loop": {
+              "name": "seat",
+              "sample": "Secondary\\seat.wav"
+            }
+          },
+          {
+            "loop": {
+              "name": "mirror",
+              "sample": "Secondary\\mirror.wav"
+            }
+          },
+          {
+            "crossfade": {
+              "name": "collision",
+              "bankKey": "collisionType",
+              "effect": "onboard",
+              "position": "collisionPos",
+              "volume": 1,
+              "events": [
+                {
+                  "template": {
+                    "replace": ["wall","car","object","special"],
+                    "find": "TYPE",
+                    "event": {
+                      "random": {
+                        "name": "TYPE",
+                        "events": [
+                          {
+                            "burst": {
+                              "sample": "secondary\\hit1_wall.wav"
+                            }
+                          },
+                          {
+                            "burst": {
+                              "sample": "secondary\\hit2_wall.wav"
+                            }
+                          },
+                          {
+                            "burst": {
+                              "sample": "secondary\\hit3_wall.wav"
+                            }
+                          },
+                          {
+                            "burst": {
+                              "sample": "secondary\\hit4_wall.wav"
+                            }
+                          },
+                          {
+                            "burst": {
+                              "sample": "secondary\\hit5_wall.wav"
+                            }
+                          }
+                        ],
+                        "volume": {
+                          "key": "collisionImpulse",
+                          "value": [[0,0,0],[300,0.4,0],[8000,1,0.9]]
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          
+          {
+            "multi": {
+              "name": "road",
+              "volume": 0.35,
+              "effect": "onboard",
+              "filter": "wheels",
+              "events": [
+                {
+                  "multi":
+                  {
+                    "events": [
+                      {
+                        "template": {
+                          "find": "XX",
+                          "replace": [
+                            "FL",
+                            "FR",
+                            "RL",
+                            "RR"
+                          ],
+                          "event": {
+                            "multi": {
+                              "events": [
+                                {
+                                  "crossfade": {
+                                    "bankKey": "terrainXX",
+                                    "position": "wheelXX",
+                                    "time": 0.05,
+                                    "exponent": 0.75,
+                                    "events": [
+                                      {
+                                        "multi": {
+                                          "name": "road",
+                                          "volume": {
+                                            "key": "wheelRPM_XX",
+                                            "value": [[-9000,1,-0.4],[-50,0,0],[50,0,0],[9000,1,-0.4]]
+                                          },
+                                          "events": [
+                                            {
+                                              "loop": {
+                                                "name": "dry",
+                                                "sample": "TMTires\\roadroll_in.wav",
+                                                "volume": {
+                                                  "key": "sprayXX",
+                                                  "value": [[0,2,0],[1,0,0.3]]
+                                                },
+                                                "pitch": {
+                                                  "key": "wheelRPM_XX",
+                                                  "value": [[-3500,2,0],[0,0.8,0],[3500,2,0]]
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "loop": {
+                                                "name": "wet",
+                                                "sample": "TMTires\\roadroll_in.wav",
+                                                "volume": {
+                                                  "key": "sprayXX",
+                                                  "value": [[0,0,0],[1,1,0.3]]
+                                                }
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      },
+                                      {
+                                        "multi": {
+                                          "name": "rumble",
+                                          "volume": {
+                                            "key": "velocity",
+                                            "value": [[5,0.1,0],[100,1.2,-0.4]]
+                                          },
+                                          "events": [
+                                            {
+                                              "loop": {
+                                                "name": "dry",
+                                                "sample": "sounds\\Formula_Hybrid_25_rumble_in.wav",
+                                                "volume": 2.25,
+                                                "pitch": {
+                                                  "key": "velocity",
+                                                  "value": [[0,0.8,0],[160,4,0]]
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "loop": {
+                                                "name": "wet",
+                                                "sample": "sounds\\Formula_Hybrid_25_rumble_in.wav",
+                                                "volume": {
+                                                  "key": "sprayXX",
+                                                  "value": [[0,0,0],[1,0,0.3]]
+                                                }
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      },
+                                      {
+                                        "multi": {
+                                          "name": "grass",
+                                          "volume": {
+                                            "key": "wheelRPM_XX",
+                                            "value": [[-5000,2,-0.4],[-50,0,0],[50,0,0],[5000,2,-0.4]]
+                                          },
+                                          "events": [
+                                            {
+                                              "loop": {
+                                                "name": "dry",
+                                                "sample": "TMTires\\grassroll_in.wav",
+                                                "volume": 1,
+                                                "pitch": {
+                                                  "key": "wheelRPM_XX",
+                                                  "value": [[-9500,3,0],[0,1,0],[9500,3,0]]
+                                                },
+                                                "randomSample": 11000
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      },
+                                      {
+                                        "multi": {
+                                          "name": "gravel",
+                                          "volume": {
+                                            "key": "wheelRPM_XX",
+                                            "value": [[-5000,3,-0.4],[-50,0,0],[50,0,0],[5000,3,-0.4]]
+                                          },
+                                          "events": [
+                                            {
+                                              "loop": {
+                                                "name": "dry",
+                                                "sample": "TMTires\\gravelroll_in.wav",
+                                                "volume": {
+                                                  "key": "availForceXX",
+                                                  "value": [[0,0,0],[5000,1,-0.6]]
+                                                },
+                                                "pitch": {
+                                                  "key": "wheelRPM_XX",
+                                                  "value": [[-9500,5,0],[0,2,0],[9500,5,0]]
+                                                },
+                                                "randomSample": 31000
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "multi": {
+                                    "volume": {
+                                      "key": "wheelRPM_XX",
+                                      "value": [[-3000,2,-0.2],[-20,0,0],[20,0,0],[3000,2,-0.2]]
+                                    },
+                                    "events": [
+                                      {
+                                        "loop": {
+                                          "sample": "Secondary\\marbles_low_loop_int.wav",
+                                          "volume": {
+                                            "key": "dirtXX",
+                                            "value": [[0.65, 0, 0], [0.85, 1, 0.3]]
+                                          },
+                                          "position": "wheelXX",
+                                          "randomSample": 50000
+                                        }
+                                      },
+                                      {
+                                        "loop": {
+                                          "sample": "Secondary\\marbles_high_loop_int.wav",
+                                          "volume": {
+                                            "key": "dirtXX",
+                                            "value": [[0.05, 0, 0], [0.65, 1, 0.3], [0.85, 0, 0.3]]
+                                          },
+                                          "position": "wheelXX",
+                                          "randomSample": 50000
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "loop":{
+              "name": "scraping",
+              "volume": {
+                "key": "scrapingVol",
+                "value": [[0,0,0],[4.5,4.5,0]]
+              },
+              "pitch": {
+                "key": "scrapingFreq",
+                "value": [[0,0,0],[1.5,1.5,0]]
+              },
+              "sample": "secondary\\scrape_barrier_in.wav",
+              "position": "scrapingPos"
+            }
+          },
+          {
+            "multi": {
+              "name": "brakes",
+              "effect": "engine",
+              "filter": "engine",
+              "volume": {
+                "key": "brake",
+                "value": [[0,0,0],[0.1,0.01,-1.0],[0.7,0.1,-1.0],[1,0.25,0.0]]
+              },
+              "pitch":{
+                "key": "velocity",
+                "value": [[0,0.75,0],[80,1.0,0]]
+              },
+              "events": [
+                {
+                  "template": {
+                    "find": "XX",
+                    "replace": ["FL","FR","RL","RR"],
+                    "event": {
+                      "multi": {
+                        "position": "wheelXX",
+                        "volume": {
+                          "key": "wheelRPM_XX",
+                          "value": [[0,0,0],[60,0.9,-0.2],[2000,1.9,0.2]]
+                        },
+                        "events": [
+                          {
+                            "loop": {
+                              "volume": {
+                                "key": "brakeTempXX",
+                                "value": [[1,1, 0],[150,0.8, 0.5],[300,0.6, 0.5],[1500,0, 0.5]]
+                              },
+                              "sample": "sounds\\Formula_Hybrid_25_brakes_low_in.wav"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "multi": {
+              "name": "skid",
+              "effect": "engineOpen",
+              "filter": "wheels",
+              "events": [
+                {
+                  "template": {
+                    "find": "XX",
+                    "replace": ["FL","FR","RL","RR"],
+                    "event": {
+                      "crossfade": {
+                        "bankKey": "terrainXX",
+                        "allowEmpty": true,
+                        "position": "wheelXX",
+                        "time": 0.05,
+                        "exponent": 0.75,
+                        "events": [
+                          {
+                            "multi": {
+                              "name": "road",
+                              "volume": {
+                                "key": "slipSpeedXX",
+                                "value": [[2,0,0],[7,0.35,0.5],[30,0.65,0]]
+                              },
+                              "events": [
+                                {
+                                  "loop": {
+                                    "volume": {
+                                      "key": "availForceXX",
+                                      "value": [[200,0,0],[13000,2,-0.6]]
+                                    },
+                                    "pitch": {
+                                      "key": "availForceXX",
+                                      "value": [[2000,1.2,0],[13000,0.9,0]]
+                                    },
+                                    "sample": "TMTires\\roadroll_in.wav"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "multi": {
+                              "name": "grass",
+                              "volume": {
+                                "key": "slipSpeedXX",
+                                "value": [[9,0,0],[11,0.5,0.5],[50,1.0,0]]
+                              },
+                              "events": [
+                                {
+                                  "loop": {
+                                    "volume": {
+                                      "key": "availForceXX",
+                                      "value": [[200,0,0],[13000,3,-0.6]]
+                                    },
+                                    "pitch": {
+                                      "key": "availForceXX",
+                                      "value": [[2000,1.2,0],[13000,0.9,0]]
+                                    },
+                                    "sample": "TMTires\\grassroll_in.wav"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "multi": {
+                              "name": "gravel",
+                              "volume": {
+                                "key": "slipSpeedXX",
+                                "value": [[9,0,0],[11,0.5,0.5],[50,1.0,0]]
+                              },
+                              "events": [
+                                {
+                                  "loop": {
+                                    "volume": {
+                                      "key": "availForceXX",
+                                      "value": [[200,0,0],[13000,3,-0.6]]
+                                    },
+                                    "pitch": {
+                                      "key": "availForceXX",
+                                      "value": [[2000,1.2,0],[13000,0.9,0]]
+                                    },
+                                    "sample": "TMTires\\gravelroll_in.wav"
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "multi": {
+              "name": "scrub",
+              "effect": "onboard",
+              "filter": "wheels",
+              "events": [
+                {
+                  "template": {
+                    "find": "XX",
+                    "replace": ["FL","FR","RL","RR"],
+                    "event": {
+                      "crossfade": {
+                        "bankKey": "terrainXX",
+                        "allowEmpty": true,
+                        "position": "wheelXX",
+                        "time": 0.05,
+                        "exponent": 0.75,
+                        "events": [
+                          {
+                            "multi": {
+                              "name": "road",
+                              "volume": {
+                                "key": "slipSpeedXX",
+                                "value": [[4,0,0],[10,0.5,0.3],[15,0,-1.5]]
+                              },
+                              "events": [
+                                {
+                                  "loop": {
+                                    "volume": {
+                                      "key": "availForceXX",
+                                      "value": [[500,0,0],[13000,2,-0.6]]
+                                    },
+                                    "pitch": {
+                                      "key": "availForceXX",
+                                      "value": [[2000,1.2,0],[13000,0.8,0]]
+                                    },
+                                    "sample": "TMTires\\tyres_asphalt_scrub_slick_in_2.wav"
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "bank": {
+        "name": "outside",
+        "volume": 1.5,
+        "filter": "ambient",
+        "effect": "ambient",
+        "events": [
+          {
+            "multi": {
+              "name": "engine",
+              "volume": {
+                "key": "engineRPM",
+                "value": [[10,0,0],[1000,0.7,0.2],[2000,0.8,0],[4000,0.9,0],[6500,1,0.2]]
+              },
+              "events": [
+                {
+                  "multi": {
+                    "name": "coastfront",
+                    "volume": {
+                      "key": "throttle",
+                      "value": [[0.1,1.5,0],[0.7,0,0.3]]
+                    },
+                    "direction": [0,0,0],
+                    "cone": [180,270,0.0],
+                    "events": [
+                      {
+                        "loop": {
+                          "sample": "sounds\\Formula_Hybrid_25_ex_idle.wav",
+                          "volume": {
+                            "key": "engineRPM",
+                            "value": [[10.00,0,0],[250,1,0.2],[3380.00,1,0],[3900.00,0,0.2]]
+                          },
+                          "pitch": {
+                            "key": "engineRPM",
+                            "value": [[0,0,0],[3500.00,1,0],[7000,2,0]]
+                          }
+                        }
+                      },
+                      {
+                        "loop": {
+                          "sample": "sounds\\Formula_Hybrid_25_ex_off_low.wav",
+                          "volume": {
+                            "key": "engineRPM",
+                            "value": [[3380.00,0,0],[3900.00,0.75,0.2],[4500.00,0.75,0],[5750.00,0,0.2]]
+                          },
+                          "pitch": {
+                            "key": "engineRPM",
+                            "value": [[0,0,0],[6500.00,1,0],[13000,2,0]]
+                          }
+                        }
+                      },
+                      {
+                        "loop": {
+                          "sample": "sounds\\Formula_Hybrid_25_ex_off_mid_front.wav",
+                          "volume": {
+                            "key": "engineRPM",
+                            "value": [[4500.00,0,0],[5750.00,0.75,0.2],[7000.00,0.75,0],[9250.00,0,0.2]]
+                          },
+                          "pitch": {
+                            "key": "engineRPM",
+                            "value": [[0,0,0],[9750.00,1,0],[19500,2,0]]
+                          }
+                        }
+                      },
+                      {
+                        "loop": {
+                          "sample": "sounds\\Formula_Hybrid_25_ex_off_high_front.wav",
+                          "volume": {
+                            "key": "engineRPM",
+                            "value": [[7000.00,0,0],[9250.00,0.75,0.2],[25500.00,0.75,0],[25500.00,0,0.2]]
+                          },
+                          "pitch": {
+                            "key": "engineRPM",
+                            "value": [[0,0,0],[10250.00,1,0],[20500,2,0]]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "multi": {
+                    "name": "coastrear",
+                    "volume": {
+                      "key": "throttle",
+                      "value": [[0.1,1.5,0],[0.7,0,0.3]]
+                    },
+                    "direction": [180,0,0],
+                    "cone": [180,270,0.0],
+                    "events": [
+                      {
+                        "loop": {
+                          "sample": "sounds\\Formula_Hybrid_25_ex_idle.wav",
+                          "volume": {
+                            "key": "engineRPM",
+                            "value": [[10.00,0,0],[250,1,0.2],[3380.00,1,0],[3900.00,0,0.2]]
+                          },
+                          "pitch": {
+                            "key": "engineRPM",
+                            "value": [[0,0,0],[3500.00,1,0],[7000,2,0]]
+                          }
+                        }
+                      },
+                      {
+                        "loop": {
+                          "sample": "sounds\\Formula_Hybrid_25_ex_off_low.wav",
+                          "volume": {
+                            "key": "engineRPM",
+                            "value": [[3380.00,0,0],[3900.00,1,0.2],[4500.00,1,0],[5750.00,0,0.2]]
+                          },
+                          "pitch": {
+                            "key": "engineRPM",
+                            "value": [[0,0,0],[6500.00,1,0],[13000,2,0]]
+                          }
+                        }
+                      },
+                      {
+                        "loop": {
+                          "sample": "sounds\\Formula_Hybrid_25_ex_off_mid_rear.wav",
+                          "volume": {
+                            "key": "engineRPM",
+                            "value": [[4500.00,0,0],[5750.00,1,0.2],[7000.00,1,0],[8250.00,0,0.2]]
+                          },
+                          "pitch": {
+                            "key": "engineRPM",
+                            "value": [[0,0,0],[9750.00,1,0],[19500,2,0]]
+                          }
+                        }
+                      },
+                      {
+                        "loop": {
+                          "sample": "sounds\\Formula_Hybrid_25_ex_off_high_rear2.wav",
+                          "volume": {
+                            "key": "engineRPM",
+                            "value": [[7000.00,0,0],[9250.00,1,0.2],[10000.00,1,0],[11000.00,0,0.2]]
+                          },
+                          "pitch": {
+                            "key": "engineRPM",
+                            "value": [[0,0,0],[10250.00,1,0],[20500,2,0]]
+                          }
+                        }
+                      },
+                      {
+                        "loop": {
+                          "sample": "sounds\\Formula_Hybrid_25_ex_off_high_rear2.wav",
+                          "volume": {
+                            "key": "engineRPM",
+                            "value": [[10000.00,0,0],[11000.00,1,0.2],[25500.00,1,0],[25500.00,0,0.2]]
+                          },
+                          "pitch": {
+                            "key": "engineRPM",
+                            "value": [[0,0,0],[10750.00,1,0],[21500,2,0]]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "multi": {
+                    "name": "powerfront",
+                    "volume": {
+                      "key": "throttle",
+                      "value": [[0.1,0,0],[0.7,1.5,0.3]]
+                    },
+                    "direction": [0,0,0],
+                    "cone": [180,270,0.0],
+                    "events": [
+                      {
+                        "loop": {
+                          "sample": "sounds\\Formula_Hybrid_25_ex_idle.wav",
+                          "volume": {
+                            "key": "engineRPM",
+                            "value": [[10.00,0,0],[250,1,0.2],[3380.00,1,0],[3900.00,0,0.2]]
+                          },
+                          "pitch": {
+                            "key": "engineRPM",
+                            "value": [[0,0,0],[3500.00,1,0],[7000,2,0]]
+                          }
+                        }
+                      },
+                      {
+                        "loop": {
+                          "sample": "sounds\\Formula_Hybrid_25_ex_on_low.wav",
+                          "volume": {
+                            "key": "engineRPM",
+                            "value": [[3380.00,0,0],[3900.00,0.75,0.2],[4500.00,0.75,0],[5750.00,0,0.2]]
+                          },
+                          "pitch": {
+                            "key": "engineRPM",
+                            "value": [[0,0,0],[5000.00,1,0],[10000,2,0]]
+                          }
+                        }
+                      },
+                      {
+                        "loop": {
+                          "sample": "sounds\\Formula_Hybrid_25_ex_on_mid.wav",
+                          "volume": {
+                            "key": "engineRPM",
+                            "value": [[4500.00,0,0],[5750.00,0.75,0.2],[7000.00,0.75,0],[9250.00,0,0.2]]
+                          },
+                          "pitch": {
+                            "key": "engineRPM",
+                            "value": [[0,0,0],[9250.00,1,0],[18500,2,0]]
+                          }
+                        }
+                      },
+                      {
+                        "loop": {
+                          "sample": "sounds\\Formula_Hybrid_25_ex_on_high_front.wav",
+                          "volume": {
+                            "key": "engineRPM",
+                            "value": [[7000.00,0,0],[9250.00,0.75,0.2],[25500.00,0.75,0],[25500.00,0,0.2]]
+                          },
+                          "pitch": {
+                            "key": "engineRPM",
+                            "value": [[0,0,0],[9750.00,1,0],[19500,2,0]]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "multi": {
+                    "name": "powerrear",
+                    "volume": {
+                      "key": "throttle",
+                      "value": [[0.1,0,0],[0.7,1.5,0.3]]
+                    },
+                    "direction": [180,0,0],
+                    "cone": [180,270,0.0],
+                    "events": [
+                      {
+                        "loop": {
+                          "sample": "sounds\\Formula_Hybrid_25_ex_idle.wav",
+                          "volume": {
+                            "key": "engineRPM",
+                            "value": [[10.00,0,0],[250,1,0.2],[3380.00,1,0],[3900.00,0,0.2]]
+                          },
+                          "pitch": {
+                            "key": "engineRPM",
+                            "value": [[0,0,0],[3500.00,1,0],[7000,2,0]]
+                          }
+                        }
+                      },
+                      {
+                        "loop": {
+                          "sample": "sounds\\Formula_Hybrid_25_ex_off_low.wav",
+                          "volume": {
+                            "key": "engineRPM",
+                            "value": [[3380.00,0,0],[3900.00,1,0.2],[4500.0,1,0],[5750.00,0,0.2]]
+                          },
+                          "pitch": {
+                            "key": "engineRPM",
+                            "value": [[0,0,0],[4500.00,1,0],[9000,2,0]]
+                          }
+                        }
+                      },
+                      {
+                        "loop": {
+                          "sample": "sounds\\Formula_Hybrid_25_ex_on_mid.wav",
+                          "volume": {
+                            "key": "engineRPM",
+                            "value": [[4500.00,0,0],[5750.00,1,0.2],[7000.00,1,0],[9250.00,0,0.2]]
+                          },
+                          "pitch": {
+                            "key": "engineRPM",
+                            "value": [[0,0,0],[8750.00,1,0],[17500,2,0]]
+                          }
+                        }
+                      },
+                      {
+                        "loop": {
+                          "sample": "sounds\\Formula_Hybrid_25_ex_on_high_rear.wav",
+                          "volume": {
+                            "key": "engineRPM",
+                            "value": [[7000.00,0,0],[9250.00,1,0.2],[25500.00,1,0],[25500.00,0,0.2]]
+                          },
+                          "pitch": {
+                            "key": "engineRPM",
+                            "value": [[0,0,0],[9250.00,1,0],[18500,2,0]]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "random": {
+              "name": "shiftUp",
+              "volume": 0.15,
+              "value": "gear",
+              "position": [0,0.0175,1.665],
+              "direction": [120,0,0],
+              "events": [
+                {
+                  "burst": {
+                    "sample": "sounds\\Formula_Hybrid_25_ex_shift.wav",
+                    "cone": [120,250,0.3]
+                  }
+                },
+                {
+                  "burst": {
+                    "sample": "sounds\\Formula_Hybrid_25_ex_shift.wav",
+                    "cone": [120,250,0.3]
+                  }
+                },
+                {
+                  "burst": {
+                    "sample": "sounds\\Formula_Hybrid_25_ex_shift.wav",
+                    "cone": [120,250,0.3]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "random": {
+              "name": "shiftDown",
+              "volume": 0.15,
+              "value": "gear",
+              "position": [0,0.0175,1.665],
+              "direction": [120,0,0],
+              "events": [
+                {
+                  "burst": {
+                    "sample": "sounds\\Formula_Hybrid_25_ex_shift.wav",
+                    "cone": [120,250,0.3]
+                  }
+                },
+                {
+                  "burst": {
+                    "sample": "sounds\\Formula_Hybrid_25_ex_shift.wav",
+                    "cone": [120,250,0.3]
+                  }
+                },
+                {
+                  "burst": {
+                    "sample": "sounds\\Formula_Hybrid_25_ex_shift.wav",
+                    "cone": [120,250,0.3]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "random": {
+              "name": "backfire",
+              "volume": 0.1,
+              "position": [0,0.2,2.15],
+              "effect": "engine",
+              "filter": "engine",
+              "events": [
+                {
+                  "burst": {
+                    "sample": "sounds\\Formula_Hybrid_25_backfire01_ex.wav",
+                    "volume": {
+                      "key": "velocity",
+                      "value": [[17,0,0],[20,1,0]]
+                    }
+                  }
+                },
+                {
+                  "burst": {
+                    "sample": "sounds\\Formula_Hybrid_25_backfire02_ex.wav",
+                    "volume": {
+                      "key": "velocity",
+                      "value": [[17,0,0],[20,1,0]]
+                    }
+                  }
+                },
+                {
+                  "burst": {
+                    "sample": "sounds\\Formula_Hybrid_25_backfire03_ex.wav",
+                    "volume": {
+                      "key": "velocity",
+                      "value": [[17,0,0],[20,1,0]]
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "burst": {
+              "name": "starting",
+              "volume": 1.5,
+              "sample": "sounds\\Formula_Hybrid_25_ex_startup.wav"
+            }
+          },
+          {
+            "loop": {
+              "name": "tractionControl",
+              "sample": "Secondary\\tc_ex.wav",
+              "volume": {
+                "key": "tractionControlCut",
+                "value": [[0,0,0],[0.9,0.6,0]]
+              }
+            }
+          },
+          {
+            "multi": {
+              "name": "rain",
+              "events": [
+                {
+                  "template": {
+                    "find": "TYPE",
+                    "replace": ["Light","Heavy"],
+                    "event": {
+                      "multi": {
+                        "events": [
+                          {
+                            "loop": {
+                              "sample": "Ambient\\TYPE_rain.wav",
+                              "position": [0.9,1.2,-1.5],
+                              "volume": {
+                                "key": "rainTYPE",
+                                "value": [[0,0,0],[1,5,-0.3]]
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "loop":{
+              "name": "scraping",
+              "volume": {
+                "key": "scrapingVol",
+                "value": [[0,0,0],[3.5,3.5,0]]
+              },
+              "pitch": {
+                "key": "scrapingFreq",
+                "value": [[0,0,0],[1.6,1.6,0]]
+              },
+              "sample": "secondary\\scrape_barrier_ex.wav",
+              "position": "scrapingPos"
+            }
+          },
+          {
+            "multi": {
+              "name": "brakes",
+              "effect": "ambient",
+              "volume": {
+                "key": "brake",
+                "value": [[0,0,0],[0.1,0.01,-1.0],[0.9,0.1,-1.0],[1,0.4,0.0]]
+              },
+              "pitch":{
+                "key": "brake",
+                "value": [[0,0.95,0],[1,1.0,-0.3]]
+              },
+              "events": [
+                {
+                  "template": {
+                    "find": "XX",
+                    "replace": ["FL","FR","RL","RR"],
+                    "event": {
+                      "multi": {
+                        "position": "wheelXX",
+                        "volume": {
+                          "key": "wheelRPM_XX",
+                          "value": [[0,0,0],[60,0.4,-0.2],[150,0.7,0.2]]
+                        },
+                        "events": [
+                          {
+                            "loop": {
+                              "volume": {
+                                "key": "brakeTempXX",
+                                "value": [[1,0.9, 0],[150,0.5, 0.5],[300,0.3, 0.5],[1500,0, 0.5]]
+                              },
+                              "sample": "sounds\\Formula_Hybrid_25_brakes_low_ex.wav"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "burst": {
+              "name": "limiterToggle",
+              "volume": 0.05,
+              "cone": [120,250,0.3],
+              "sample": "Secondary\\limiter.wav"
+            }
+          },
+          {
+            "loop": {
+              "name": "seat",
+              "sample": "Secondary\\seat.wav"
+            }
+          },
+          {
+            "loop": {
+              "name": "mirror",
+              "sample": "Secondary\\mirror.wav"
+            }
+          },
+          {
+            "random": {
+              "name": "collision",
+              "events": [
+                {
+                  "burst": {
+                    "sample": "Secondary\\hit1_vehicle.wav"
+                  }
+                },
+                {
+                  "burst": {
+                    "sample": "Secondary\\hit2_vehicle.wav"
+                  }
+                },
+                {
+                  "burst": {
+                    "sample": "Secondary\\hit3_vehicle.wav"
+                  }
+                },
+                {
+                  "burst": {
+                    "sample": "Secondary\\hit4_vehicle.wav"
+                  }
+                },
+                {
+                  "burst": {
+                    "sample": "Secondary\\hit5_vehicle.wav"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "multi": {
+              "name": "skid",
+              "events": [
+                {
+                  "crossfade": {
+                    "bankKey": "terrainAvg",
+                    "allowEmpty": true,
+                    "position": "wheelAvg",
+                    "time": 0.05,
+                    "exponent": 0.75,
+                    "events": [
+                      {
+                        "multi": {
+                          "name": "road",
+                          "volume": {
+                            "key": "slipSpeedAvg",
+                            "value": [[9,0,0],[11,0.5,0.5],[50,1,0]]
+                          },
+                          "events": [
+                            {
+                              "loop": {
+                                "volume": {
+                                  "key": "availForceAvg",
+                                  "value": [[200,0,0],[13000,1.6,-0.6]]
+                                },
+                                "pitch": {
+                                  "key": "availForceAvg",
+                                  "value": [[2000,1.2,0],[13000,0.9,0]]
+                                },
+                                "sample": "TMTires\\tyres_asphalt_scrub_slick_in_2.wav"
+                              }
+                            },
+                            {
+                              "multi": {
+                                "name": "grass",
+                                "volume": {
+                                  "key": "wheelRPM_XX",
+                                  "value": [[-5000,2,-0.4],[-50,0,0],[50,0,0],[5000,2,-0.4]]
+                                },
+                                "events": [
+                                  {
+                                    "loop": {
+                                      "name": "dry",
+                                      "sample": "TMTires\\grassroll_ex.wav",
+                                      "volume": 1,
+                                      "pitch": {
+                                        "key": "wheelRPM_XX",
+                                        "value": [[-9500,3,0],[0,1,0],[9500,3,0]]
+                                      },
+                                      "randomSample": 11000
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                             "multi": {
+                               "name": "gravel",
+                               "volume": {
+                                 "key": "wheelRPM_XX",
+                                 "value": [[-5000,3,-0.4],[-50,0,0],[50,0,0],[5000,3,-0.4]]
+                               },
+                               "events": [
+                                 {
+                                   "loop": {
+                                     "name": "dry",
+                                     "sample": "TMTires\\gravelroll_ex.wav",
+                                     "volume": {
+                                       "key": "availForceXX",
+                                       "value": [[0,0,0],[5000,1,-0.6]]
+                                     },
+                                     "pitch": {
+                                       "key": "wheelRPM_XX",
+                                       "value": [[-9500,5,0],[0,2,0],[9500,5,0]]
+                                     },
+                                     "randomSample": 31000
+                                   }
+                                 }
+                               ]
+                             }
+                           }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "multi": {
+              "name": "scrub",
+              "events": [
+                {
+                  "crossfade": {
+                    "bankKey": "terrainAvg",
+                    "allowEmpty": true,
+                    "position": "wheelAvg",
+                    "time": 0.05,
+                    "exponent": 0.75,
+                    "events": [
+                      {
+                        "multi": {
+                          "name": "road",
+                          "volume": {
+                            "key": "slipSpeedAvg",
+                            "value": [[1,0,0],[10,0.5,-0.5]]
+                          },
+                          "events": [
+                            {
+                              "loop": {
+                                "volume": {
+                                  "key": "availForceAvg",
+                                  "value": [[500,0,0],[13000,1,-0.6]]
+                                },
+                                "pitch": {
+                                  "key": "availForceAvg",
+                                  "value": [[2000,1.2,0],[13000,0.8,0]]
+                                },
+                                "sample": "TMTires\\tyres_asphalt_scrub_slick_in_2.wav"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "loop": {
+              "name": "suspension",
+              "sample": "Secondary\\chassis_noise_2_ex.wav",
+              "position": "suspensionPos",
+              "volume": {
+                "key": "suspensionMax",
+                "value": [[0,0],[30,2.5,-0.3]]
+              }
+            }
+          },
+          {
+            "multi":{
+              "name": "road",
+              "events": [
+                {
+                  "crossfade": {
+                     "events": [
+                        {
+                          "loop": {
+                            "name": "dry",
+                            "sample": "TMTires\\roadroll_ex.wav",
+                            "volume": {
+                              "key": "sprayXX",
+                              "value": [[0,1,0],[1,0,0.3]]
+                            },
+                            "pitch": {
+                              "key": "wheelRPM_XX",
+                              "value": [[-3500,2,0],[0,0.8,0],[3500,2,0]]
+                            }
+                          }
+                        },
+                        {
+                          "loop": {
+                            "name": "wet",
+                            "sample": "TMTires\\roadroll_ex.wav",
+                            "volume": {
+                              "key": "sprayXX",
+                              "value": [[0,0,0],[1,1,0.3]]
+                            }
+                          }
+                        },
+       					        {
+                          "multi": {
+                            "name": "rumble",
+                            "volume": {
+                              "key": "velocity",
+                              "value": [[5,0,0],[120,4,0.0]]
+                            },
+                            "events": [
+                              {
+                                "loop": {
+                                  "name": "dry",
+                                  "sample": "sounds\\Formula_Hybrid_25_rumble_ex.wav",
+                                  "volume": 0.5,
+                                  "pitch": {
+                                    "key": "velocity",
+                                    "value": [[0,0.5,0],[130,1.5,0]]
+                                  }
+                                }
+                              }
+                          ]
+                        }
+                      },
+                      {
+                        "loop": {
+                          "name": "road",
+                          "sample": "TMTires\\gravelroll_ex.wav",
+                          "volume": {
+                            "key": "wheelRPM_Avg",
+                            "value": [[-9000,1.5,-0.2],[-50,0,0],[50,0,0],[9000,1.5,-0.2]]
+                          },
+                          "pitch": {
+                            "key": "wheelRPM_Avg",
+                            "value": [[-3500,1.5,0],[0,0.7,0],[3500,1.5,0]]
+                          }
+                        }
+                      }
+                    ],
+                    "bankKey":"terrainAvg"
+                  }
+                },
+				        {
+                  "multi": {
+                    "volume": {
+                      "key": "wheelRPM_Avg",
+                      "value": [[-3000,1,-0.2],[-20,0,0],[20,0,0],[3000,1,-0.2]]
+                    },
+                    "events": [
+                      {
+                        "loop": {
+                          "sample": "Secondary\\marbles_high_loop_int.wav",
+                          "volume": {
+                            "key": "dirtAvg",
+                            "value": [[0.65, 0, 0], [0.85, 1.8, 0.3]]
+                          },
+                          "position": "wheelAvg",
+                          "randomSample": 50000
+                        }
+                      },
+                      {
+                        "loop": {
+                          "sample": "Secondary\\marbles_low_loop_int.wav",
+                          "volume": {
+                            "key": "dirtAvg",
+                            "value": [[0.05, 0, 0], [0.65, 1.8, 0.3], [0.85, 0, 0.3]]
+                          },
+                          "position": "wheelAvg",
+                          "randomSample": 50000
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "multi": {
+              "name": "windNoise",
+              "events": [
+                {
+                  "loop": {
+                    "sample": "sounds\\Formula_Hybrid_25_wind_ex.wav",
+                    "volume": {
+                      "key": "velocity",
+                      "value": [[5,0,0.8],[120,1.4,-1]]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

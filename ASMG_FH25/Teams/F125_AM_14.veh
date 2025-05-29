@@ -1,0 +1,34 @@
+DefaultLivery="F125_AM_14.dds"
+MaterialOverride="ASMG_FH25_BaseMat.json"
+
+Extra1="Stickers"
+Extra2="Decals"
+Extra3="RimsF"
+Extra4="RimsR"
+Extra7="HelmetNew"
+Extra8="Gloves"
+Extra9="Gloves"
+
+HDVehicle=ASMG_FH25.hdv
+Graphics=ASMG_FH25.gen
+Spinner=ASMG_FH25_Spinner.gen
+GenString=BELL
+Sounds=ASMG_FH25_Sounds.json
+Cameras=ASMG_FH25.cam
+HeadPhysics=HeadPhysics.ini
+Cockpit=ASMG_FH25_CockpitInfo.ini
+Upgrades=ASMG_FH25_Upgrades_2025.ini
+
+Number=14
+Team="Aston Martin Aramco-Mercedes"
+PitGroup="Group5"
+Driver="Fernando Alonso"
+Description="#14 Fernando Alonso"
+Engine="1.6 L (98 cu in) V6 turbocharged engine limited to 15,000 RPM"
+Manufacturer="Advanced Simulation"
+
+Classes="ASMG_F1_2025,ASMG_F1_2025_AstonMartin"
+
+FullTeamName="Aston Martin Aramco F1 Team"
+
+Category="Formula 1,F1 2025 Season,Aston Martin Aramco F1 Team"

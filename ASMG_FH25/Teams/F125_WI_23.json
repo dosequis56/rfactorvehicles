@@ -1,0 +1,113 @@
+{
+  "dstBlend" : "CUBEAB_ZERO",
+  "flags" : [ "CUBEMAT_SPECULAR", "CUBEMAT_FRESNELREFLECT", "CUBEMAT_FRESNELSPECULAR", "CUBEMAT_AMBIENTMAT", "CUBEMAT_DIFFUSEMAT", "CUBEMAT_SPECLARDIR", "CUBEMAT_EMISSIVMAT", "CUBEMAT_EMISSIVDIR" ],
+  "name" : "WCCARBODY",
+  "parameters" : {
+    "StandardInfo" : {
+      "ambientColour" : [ 1, 1, 1, 1 ],
+      "blendPercent" : 1,
+      "bumpScale" : 1,
+      "cubeMapFresnel" : {
+        "Exp" : 4,
+        "Max" : 1,
+        "Min" : 0
+      },
+      "diffuseColour" : [ 1, 1, 1, 1 ],
+      "emissiveColour" : [ 0, 0, 0, 1 ],
+      "refEnhance" : 0,
+      "specFresnel" : {
+        "Exp" : 4,
+        "Max" : 1,
+        "Min" : 0
+      },
+      "specPower" : 1,
+      "specularColour" : [ 1, 1, 1, 1 ]
+    },
+    "cbMaterialExt" : {
+      "Alpha" : {
+        "baseCoatRefractiveIndex" : 1,
+        "baseCoatRoughness" : 0,
+        "baseCoatSpecStrength" : 0,
+        "clearCoatRefractiveIndex" : 1,
+        "clearCoatRoughness" : 0,
+        "clearCoatSpecStrength" : 0,
+        "lacquerColour" : [ 0.501961, 0.501961, 0.501961, 1 ],
+        "metallicFlakeColour" : [ 0.501961, 0.501961, 0.501961, 1 ],
+        "metallicFlakeStrength" : 0,
+        "metallicPaintStrength" : 0
+      },
+      "Black" : {
+        "baseCoatRefractiveIndex" : 1,
+        "baseCoatRoughness" : 0.18,
+        "baseCoatSpecStrength" : 1,
+        "clearCoatRefractiveIndex" : 1.32,
+        "clearCoatRoughness" : 0,
+        "clearCoatSpecStrength" : 1,
+        "lacquerColour" : [ 1, 1, 1, 1 ],
+        "metallicFlakeColour" : [ 1, 1, 1, 1 ],
+        "metallicFlakeStrength" : 0.06,
+        "metallicPaintStrength" : 0
+      },
+      "Blue" : {
+        "baseCoatRefractiveIndex" : 1,
+        "baseCoatRoughness" : 0.32,
+        "baseCoatSpecStrength" : 0.26,
+        "clearCoatRefractiveIndex" : 2.85,
+        "clearCoatRoughness" : 0,
+        "clearCoatSpecStrength" : 0,
+        "lacquerColour" : [ 1, 1, 1, 1 ],
+        "metallicFlakeColour" : [ 0.501961, 0.501961, 0.501961, 1 ],
+        "metallicFlakeStrength" : 0,
+        "metallicPaintStrength" : 0
+      },
+      "Green" : {
+        "baseCoatRefractiveIndex" : 1.65,
+        "baseCoatRoughness" : 0.18,
+        "baseCoatSpecStrength" : 0.25,
+        "clearCoatRefractiveIndex" : 1.03,
+        "clearCoatRoughness" : 0,
+        "clearCoatSpecStrength" : 0.12,
+        "lacquerColour" : [ 0.501961, 0.501961, 0.501961, 1 ],
+        "metallicFlakeColour" : [ 1, 1, 1, 0 ],
+        "metallicFlakeStrength" : 0,
+        "metallicPaintStrength" : 0
+      },
+      "GreenEmissive" : {
+        "emissiveColour" : [ 0, 0, 0, 0 ],
+        "emissiveStrength" : 15
+      },
+      "Red" : {
+        "baseCoatRefractiveIndex" : 3.25,
+        "baseCoatRoughness" : 0.38,
+        "baseCoatSpecStrength" : 0.14,
+        "clearCoatRefractiveIndex" : 1,
+        "clearCoatRoughness" : 0,
+        "clearCoatSpecStrength" : 0.56,
+        "lacquerColour" : [ 0.752941, 0.752941, 0.752941, 1 ],
+        "metallicFlakeColour" : [ 1, 1, 1, 0 ],
+        "metallicFlakeStrength" : 0,
+        "metallicPaintStrength" : 0
+      },
+      "White" : {
+        "baseCoatRefractiveIndex" : 3,
+        "baseCoatRoughness" : 0.25,
+        "baseCoatSpecStrength" : 0.22,
+        "clearCoatRefractiveIndex" : 1,
+        "clearCoatRoughness" : 0,
+        "clearCoatSpecStrength" : 0.14,
+        "lacquerColour" : [ 1, 1, 1, 1 ],
+        "metallicFlakeColour" : [ 1, 1, 1, 0 ],
+        "metallicFlakeStrength" : 0,
+        "metallicPaintStrength" : 0
+      },
+      "clearCoatStrength" : 1,
+      "lacquerThickness" : 0.3
+    }
+  },
+  "preprocessorFlags" : null,
+  "refName" : "REFMAP0",
+  "shader" : "L2IBLCARBODY",
+  "sortOffset" : 0,
+  "srcBlend" : "CUBEAB_ONE",
+  "textures" : {}
+}
