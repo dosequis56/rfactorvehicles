@@ -277,7 +277,7 @@ SCNG23
       FearOfWalls = 1.00                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
       DrivingLine = FASTEST, HIGHLINE
     }
-    Dover_2016
+    Dover_400
     {
       StepDistance = 5.20                    // distance of each step is 5.20 meters
       StepSpeed1 = 25.00                     // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
@@ -288,14 +288,13 @@ SCNG23
       StepSpeed6 = 82.00                     // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
       StepSpeed7 = 88.00                     // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
       StepSpeed8 = 93.00                     // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
-      UnderSteerEffectOnThrottleMulti = 250.00// Min 0.1,  Max 133  Raise if you want AI to more quickly get off throttle when he detects understeer
+      UnderSteerEffectOnThrottleMulti = 125.00// Min 0.1,  Max 133  Raise if you want AI to more quickly get off throttle when he detects understeer
       UnderSteerEffectOnLineMulti = 250.00   //  Min 0.1,  Max 300  Lower if you want AI to more quickly adjust line wide when he detects understeer
       OverSteerThrottleReaction = -35.00     // Min -100, Max 100  Raise to make AI keep on throttle more if loose// How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
       CorneringCaution = 35.00               // (0.1-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
       FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
-      DrivingLine = FASTEST, HIGHLINE
     }
-    Homestead_Speedway
+    Homestead_400
     {
       StepDistance = 6.00                    // distance of each step is 6.00 meters
       StepSpeed1 = 19.10                     // look ahead 6 meters (19.685999 feet) at 68.76 KPH 42.724792 MPH
@@ -348,6 +347,24 @@ SCNG23
       CorneringCaution = 35.00               // (0.1-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
       FearOfWalls = 99.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
       DrivingLine = FASTEST
+    }
+    Iowa_350
+    {
+      StepDistance = 5.20                    // distance of each step is 5.20 meters
+      StepSpeed1 = 25.00                     // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
+      StepSpeed2 = 32.00                     // look ahead 10.4 meters (34.1224 feet) at 115.2 KPH 71.5808 MPH
+      StepSpeed3 = 40.00                     // look ahead 15.599999 meters (51.183598 feet) at 144 KPH 89.476006 MPH
+      StepSpeed4 = 55.00                     // look ahead 20.8 meters (68.2448 feet) at 198 KPH 123.0295 MPH
+      StepSpeed5 = 70.00                     // look ahead 26 meters (85.306 feet) at 252 KPH 156.58301 MPH
+      StepSpeed6 = 82.00                     // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
+      StepSpeed7 = 88.00                     // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
+      StepSpeed8 = 93.00                     // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
+      UnderSteerEffectOnThrottleMulti = 250.00// Min 0.1,  Max 133  Raise if you want AI to more quickly get off throttle when he detects understeer
+      UnderSteerEffectOnLineMulti = 250.00   //  Min 0.1,  Max 300  Lower if you want AI to more quickly adjust line wide when he detects understeer
+      OverSteerThrottleReaction = -35.00     // Min -100, Max 100  Raise to make AI keep on throttle more if loose// How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
+      CorneringCaution = 35.00               // (0.1-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
+      FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
+      DrivingLine = FASTEST,HIGHLINE
     }
     Jacksonville500
     {
@@ -420,7 +437,7 @@ SCNG23
       FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
       DrivingLine = FASTEST,HIGHLINE
     }
-    LasVegas_2016
+    Las_Vegas_400
     {
       StepDistance = 6.00                    // distance of each step is 6.00 meters
       StepSpeed1 = 19.10                     // look ahead 6 meters (19.685999 feet) at 68.76 KPH 42.724792 MPH
@@ -437,24 +454,6 @@ SCNG23
       CorneringCaution = 30.00               // (0.1-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
       FearOfWalls = 100.00                   // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
       DrivingLine = FASTEST, HIGHLINE
-    }
-    Martinsville_2016
-    {
-      StepDistance = 5.20                    // distance of each step is 5.20 meters
-      StepSpeed1 = 25.00                     // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
-      StepSpeed2 = 32.00                     // look ahead 10.4 meters (34.1224 feet) at 115.2 KPH 71.5808 MPH
-      StepSpeed3 = 40.00                     // look ahead 15.599999 meters (51.183598 feet) at 144 KPH 89.476006 MPH
-      StepSpeed4 = 55.00                     // look ahead 20.8 meters (68.2448 feet) at 198 KPH 123.0295 MPH
-      StepSpeed5 = 70.00                     // look ahead 26 meters (85.306 feet) at 252 KPH 156.58301 MPH
-      StepSpeed6 = 82.00                     // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
-      StepSpeed7 = 88.00                     // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
-      StepSpeed8 = 93.00                     // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
-      UnderSteerEffectOnThrottleMulti = 133.00// Min 0.1,  Max 133  Raise if you want AI to more quickly get off throttle when he detects understeer
-      UnderSteerEffectOnLineMulti = 100.00   //  Min 0.1,  Max 300  Lower if you want AI to more quickly adjust line wide when he detects understeer
-      OverSteerThrottleReaction = -75.00     // Min -100, Max 100  Raise to make AI keep on throttle more if loose// How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
-      CorneringCaution = 60.00               // (0.1-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
-      FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
-      DrivingLine = FASTEST,HIGHLINE
     }
     Martinsville_500
     {
@@ -519,25 +518,7 @@ SCNG23
       FearOfWalls = 1.00                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
       DrivingLine = FASTEST, HIGHLINE
     }
-    Richmond_400
-    {
-      StepDistance = 5.20                    // distance of each step is 5.20 meters
-      StepSpeed1 = 25.00                     // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
-      StepSpeed2 = 32.00                     // look ahead 10.4 meters (34.1224 feet) at 115.2 KPH 71.5808 MPH
-      StepSpeed3 = 40.00                     // look ahead 15.599999 meters (51.183598 feet) at 144 KPH 89.476006 MPH
-      StepSpeed4 = 55.00                     // look ahead 20.8 meters (68.2448 feet) at 198 KPH 123.0295 MPH
-      StepSpeed5 = 70.00                     // look ahead 26 meters (85.306 feet) at 252 KPH 156.58301 MPH
-      StepSpeed6 = 82.00                     // look ahead 31.199999 meters (102.367195 feet) at 295.19998 KPH 183.42581 MPH
-      StepSpeed7 = 88.00                     // look ahead 36.399998 meters (119.42839 feet) at 316.8 KPH 196.84721 MPH
-      StepSpeed8 = 93.00                     // look ahead 41.6 meters (136.4896 feet) at 334.8 KPH 208.03171 MPH
-      UnderSteerEffectOnThrottleMulti = 250.00// Min 0.1,  Max 133  Raise if you want AI to more quickly get off throttle when he detects understeer
-      UnderSteerEffectOnLineMulti = 250.00   //  Min 0.1,  Max 300  Lower if you want AI to more quickly adjust line wide when he detects understeer
-      OverSteerThrottleReaction = -35.00     // Min -100, Max 100  Raise to make AI keep on throttle more if loose// How a loose car will effect the AI throttle response.  Negative value will prevent the AI running offline when loose, but will make them slower when loose.
-      CorneringCaution = 35.00               // (0.1-100) high value will cause AI driver(s) to be more likely to yield in the corner when side-by-side.
-      FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
-      DrivingLine = FASTEST,HIGHLINE
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
       StepDistance = 5.20                    // distance of each step is 5.20 meters
       StepSpeed1 = 25.00                     // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
@@ -591,7 +572,7 @@ SCNG23
       FearOfWalls = 50.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
       DrivingLine = FASTEST,HIGHLINE
     }
-    Pocono_2016
+    Pocono_400
     {
       StepDistance = 4.00                    // distance of each step is 4.00 meters
       StepSpeed1 = 19.10                     // look ahead 4 meters (13.124 feet) at 68.76 KPH 42.724792 MPH
@@ -609,7 +590,7 @@ SCNG23
       FearOfWalls = 99.00                    // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
       DrivingLine = FASTEST
     }
-    Richmond
+    Richmond_400
     {
       StepDistance = 5.20                    // distance of each step is 5.20 meters
       StepSpeed1 = 25.00                     // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
@@ -681,7 +662,7 @@ SCNG23
       FearOfWalls = 1.00                     // (0-100) high value will increase how careful the AI driver(s) will be to avoid walls.
       DrivingLine = FASTEST, HIGHLINE
     }
-    Texas_2016
+    Texas_500
     {
       StepDistance = 5.20                    // distance of each step is 5.20 meters
       StepSpeed1 = 25.00                     // look ahead 5.2 meters (17.0612 feet) at 90 KPH 55.9225 MPH
@@ -885,7 +866,7 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 1
         Speed = 99
@@ -900,6 +881,24 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTime = 22.44
         QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 1
+        Speed = 85
+        QualifySpeed = 99
+        WetSpeed = 90
+        Aggression = 35
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 85.00
+        PracticeTime = 29.8
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.5
+        QualifyTimeVariance = 0.25
         DrivingLine = FASTEST
     }
     Indianapolis2020_500
@@ -952,21 +951,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
         Tier = 1
-        Speed = 99
+        Speed = 85
         QualifySpeed = 99
-        WetSpeed = 99
-        Aggression = 65
-        Composure = 99
+        WetSpeed = 90
+        Aggression = 35
+        Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 19.718
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 85.00
+        PracticeTime = 29.8
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.5
+        QualifyTimeVariance = 0.25
         DrivingLine = FASTEST
     }
     Martinsville_500
@@ -1018,23 +1018,7 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Richmond_400
-    {
-        Tier = 1
-        Speed = 88
-        QualifySpeed = 99
-        WetSpeed = 99
-        Aggression = 95
-        Composure = 99
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 50.00
-        MinRacingSkill = 90.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 1
         Speed = 99
@@ -1066,7 +1050,7 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 1
         Speed = 99
@@ -1078,6 +1062,22 @@ SCNG23
         Recovery = 99
         StartSkill = 50.00
         MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 1
+        Speed = 88
+        QualifySpeed = 99
+        WetSpeed = 99
+        Aggression = 95
+        Composure = 99
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 90.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -1129,6 +1129,24 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 1
+        Speed = 85
+        QualifySpeed = 99
+        WetSpeed = 90
+        Aggression = 35
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 85.00
+        PracticeTime = 29.8
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.5
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST
+    }
     Watkins_Glen_220
     {
         Tier = 1
@@ -1163,6 +1181,23 @@ SCNG23
         PracticeTimeVariance = 0.25
         QualifyTime = 29.5
         QualifyTimeVariance = 0.75
+        DrivingLine = FASTEST
+    }
+    IOWA_350
+    {
+        Tier = 1
+        Speed = 99
+        QualifySpeed = 99
+        WetSpeed = 99
+        Aggression = 65
+        Composure = 99
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.718
+        QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
     Sonoma_Raceway_NASCAR
@@ -1315,7 +1350,7 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 1
         Speed = 99
@@ -1331,6 +1366,24 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTime = 22.44
         QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 1
+        Speed = 85
+        QualifySpeed = 95
+        WetSpeed = 90
+        Aggression = 35
+        Composure = 90
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 85.00
+        PracticeTime = 29.8
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.5
+        QualifyTimeVariance = 0.25
         DrivingLine = FASTEST
     }
     Indianapolis2020_500
@@ -1387,22 +1440,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
         Tier = 1
-        Speed = 99
+        Speed = 85
         QualifySpeed = 95
-        WetSpeed = 99
-        Aggression = 65
-        Composure = 99
+        WetSpeed = 90
+        Aggression = 35
+        Composure = 90
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
-        PracticeTime = 31.2
-        PracticeTimeVariance = 0.125
-        QualifyTime = 19.719
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 85.00
+        PracticeTime = 29.8
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.5
+        QualifyTimeVariance = 0.25
         DrivingLine = FASTEST
     }
     Martinsville_500
@@ -1459,23 +1512,7 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Richmond_400
-    {
-        Tier = 1
-        Speed = 88
-        QualifySpeed = 99
-        WetSpeed = 99
-        Aggression = 95
-        Composure = 99
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 50.00
-        MinRacingSkill = 90.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 1
         Speed = 99
@@ -1507,7 +1544,7 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 1
         Speed = 99
@@ -1522,6 +1559,22 @@ SCNG23
         PracticeTime = 31.2
         PracticeTimeVariance = 0.125
         QualifyTime = 31.2
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 1
+        Speed = 88
+        QualifySpeed = 99
+        WetSpeed = 99
+        Aggression = 95
+        Composure = 99
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 90.00
+        PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
@@ -1572,6 +1625,24 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 1
+        Speed = 85
+        QualifySpeed = 95
+        WetSpeed = 90
+        Aggression = 35
+        Composure = 90
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 85.00
+        PracticeTime = 29.8
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.5
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST
+    }
     Watkins_Glen_220
     {
         Tier = 2
@@ -1606,6 +1677,24 @@ SCNG23
         PracticeTimeVariance = 0.25
         QualifyTime = 29.5
         QualifyTimeVariance = 0.75
+        DrivingLine = FASTEST
+    }
+    IOWA_350
+    {
+        Tier = 1
+        Speed = 99
+        QualifySpeed = 95
+        WetSpeed = 99
+        Aggression = 65
+        Composure = 99
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTime = 31.2
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.719
+        QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
     Sonoma_Raceway_NASCAR
@@ -1758,7 +1847,7 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 1
         Speed = 92
@@ -1773,6 +1862,24 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTime = 22.44
         QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 1
+        Speed = 83
+        QualifySpeed = 93
+        WetSpeed = 87
+        Aggression = 35
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 85.00
+        PracticeTime = 29.8
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.5
+        QualifyTimeVariance = 0.25
         DrivingLine = FASTEST
     }
     Indianapolis2020_500
@@ -1825,21 +1932,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
         Tier = 1
-        Speed = 92
-        QualifySpeed = 92
-        WetSpeed = 90
-        Aggression = 65
+        Speed = 83
+        QualifySpeed = 93
+        WetSpeed = 87
+        Aggression = 35
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 19.725
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 85.00
+        PracticeTime = 29.8
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.5
+        QualifyTimeVariance = 0.25
         DrivingLine = FASTEST
     }
     Martinsville_500
@@ -1889,23 +1997,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 1
-        Speed = 87
-        QualifySpeed = 88
-        WetSpeed = 90
-        Aggression = 75
-        Composure = 85
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 50.00
-        MinRacingSkill = 90.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 1
         Speed = 92
@@ -1936,7 +2028,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 1
         Speed = 92
@@ -1948,6 +2040,22 @@ SCNG23
         Recovery = 99
         StartSkill = 50.00
         MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 1
+        Speed = 87
+        QualifySpeed = 88
+        WetSpeed = 90
+        Aggression = 75
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 90.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -1999,6 +2107,24 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 1
+        Speed = 83
+        QualifySpeed = 93
+        WetSpeed = 87
+        Aggression = 35
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 85.00
+        PracticeTime = 29.8
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.5
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST
+    }
     Watkins_Glen_220
     {
         Tier = 1
@@ -2033,6 +2159,23 @@ SCNG23
         PracticeTimeVariance = 0.25
         QualifyTime = 29.5
         QualifyTimeVariance = 0.75
+        DrivingLine = FASTEST
+    }
+    IOWA_350
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 92
+        WetSpeed = 90
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.725
+        QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
     Sonoma_Raceway_NASCAR
@@ -2185,7 +2328,7 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 1
         Speed = 93
@@ -2200,6 +2343,24 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTime = 22.44
         QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 1
+        Speed = 85
+        QualifySpeed = 96
+        WetSpeed = 88
+        Aggression = 35
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 85.00
+        PracticeTime = 29.8
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.5
+        QualifyTimeVariance = 0.25
         DrivingLine = FASTEST
     }
     Indianapolis2020_500
@@ -2252,21 +2413,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
         Tier = 1
-        Speed = 93
-        QualifySpeed = 92
-        WetSpeed = 85
-        Aggression = 65
+        Speed = 85
+        QualifySpeed = 96
+        WetSpeed = 88
+        Aggression = 35
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 19.73
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 85.00
+        PracticeTime = 29.8
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.5
+        QualifyTimeVariance = 0.25
         DrivingLine = FASTEST
     }
     Martinsville_500
@@ -2316,23 +2478,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 1
-        Speed = 87
-        QualifySpeed = 92
-        WetSpeed = 85
-        Aggression = 75
-        Composure = 85
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 50.00
-        MinRacingSkill = 90.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 1
         Speed = 93
@@ -2363,7 +2509,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 1
         Speed = 93
@@ -2375,6 +2521,22 @@ SCNG23
         Recovery = 99
         StartSkill = 50.00
         MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 1
+        Speed = 87
+        QualifySpeed = 92
+        WetSpeed = 85
+        Aggression = 75
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 90.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -2426,6 +2588,24 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 1
+        Speed = 85
+        QualifySpeed = 96
+        WetSpeed = 88
+        Aggression = 35
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 85.00
+        PracticeTime = 29.8
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.5
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST
+    }
     Watkins_Glen_220
     {
         Tier = 1
@@ -2460,6 +2640,23 @@ SCNG23
         PracticeTimeVariance = 0.25
         QualifyTime = 29.5
         QualifyTimeVariance = 0.75
+        DrivingLine = FASTEST
+    }
+    IOWA_350
+    {
+        Tier = 1
+        Speed = 93
+        QualifySpeed = 92
+        WetSpeed = 85
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.73
+        QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
     Sonoma_Raceway_NASCAR
@@ -2612,7 +2809,7 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 1
         Speed = 95
@@ -2627,6 +2824,24 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTime = 22.44
         QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 1
+        Speed = 85
+        QualifySpeed = 96
+        WetSpeed = 89
+        Aggression = 35
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 85.00
+        PracticeTime = 30
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.5
+        QualifyTimeVariance = 0.25
         DrivingLine = FASTEST
     }
     Indianapolis2020_500
@@ -2679,21 +2894,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
         Tier = 1
-        Speed = 99
-        QualifySpeed = 90
-        WetSpeed = 90
-        Aggression = 65
+        Speed = 85
+        QualifySpeed = 96
+        WetSpeed = 89
+        Aggression = 35
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 19.73
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 85.00
+        PracticeTime = 30
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.5
+        QualifyTimeVariance = 0.25
         DrivingLine = FASTEST
     }
     Martinsville_500
@@ -2743,23 +2959,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 1
-        Speed = 87
-        QualifySpeed = 90
-        WetSpeed = 90
-        Aggression = 75
-        Composure = 85
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 50.00
-        MinRacingSkill = 90.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 1
         Speed = 95
@@ -2790,7 +2990,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 1
         Speed = 95
@@ -2802,6 +3002,22 @@ SCNG23
         Recovery = 99
         StartSkill = 50.00
         MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 1
+        Speed = 87
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 75
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 90.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -2853,6 +3069,24 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 1
+        Speed = 85
+        QualifySpeed = 96
+        WetSpeed = 89
+        Aggression = 35
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 85.00
+        PracticeTime = 30
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.5
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST
+    }
     Watkins_Glen_220
     {
         Tier = 1
@@ -2887,6 +3121,23 @@ SCNG23
         PracticeTimeVariance = 0.25
         QualifyTime = 29.5
         QualifyTimeVariance = 0.75
+        DrivingLine = FASTEST
+    }
+    IOWA_350
+    {
+        Tier = 1
+        Speed = 99
+        QualifySpeed = 90
+        WetSpeed = 90
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.73
+        QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
     Sonoma_Raceway_NASCAR
@@ -3039,7 +3290,7 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 1
         Speed = 92
@@ -3054,6 +3305,24 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTime = 22.5
         QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 1
+        Speed = 84
+        QualifySpeed = 95
+        WetSpeed = 88
+        Aggression = 35
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 85.00
+        PracticeTime = 30
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.5
+        QualifyTimeVariance = 0.25
         DrivingLine = FASTEST
     }
     Indianapolis2020_500
@@ -3106,21 +3375,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
         Tier = 1
-        Speed = 92
-        QualifySpeed = 90
+        Speed = 84
+        QualifySpeed = 95
         WetSpeed = 88
-        Aggression = 65
+        Aggression = 35
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 19.73
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 85.00
+        PracticeTime = 30
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.5
+        QualifyTimeVariance = 0.25
         DrivingLine = FASTEST
     }
     Martinsville_500
@@ -3170,23 +3440,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 1
-        Speed = 86
-        QualifySpeed = 91
-        WetSpeed = 88
-        Aggression = 75
-        Composure = 85
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 50.00
-        MinRacingSkill = 85.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE,FASTEST
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 1
         Speed = 92
@@ -3217,7 +3471,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 1
         Speed = 92
@@ -3232,6 +3486,22 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 1
+        Speed = 86
+        QualifySpeed = 91
+        WetSpeed = 88
+        Aggression = 75
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 85.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
     }
     Road_America_GP
     {
@@ -3280,6 +3550,24 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 1
+        Speed = 84
+        QualifySpeed = 95
+        WetSpeed = 88
+        Aggression = 35
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 85.00
+        PracticeTime = 30
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.5
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST
+    }
     Watkins_Glen_220
     {
         Tier = 1
@@ -3314,6 +3602,23 @@ SCNG23
         PracticeTimeVariance = 0.25
         QualifyTime = 29.5
         QualifyTimeVariance = 0.75
+        DrivingLine = FASTEST
+    }
+    IOWA_350
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 90
+        WetSpeed = 88
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.73
+        QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
     Sonoma_Raceway_NASCAR
@@ -3466,7 +3771,7 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 1
         Speed = 92
@@ -3481,6 +3786,24 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTime = 22.5
         QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 1
+        Speed = 85
+        QualifySpeed = 90
+        WetSpeed = 89
+        Aggression = 35
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 82.00
+        PracticeTime = 30
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.65
+        QualifyTimeVariance = 0.25
         DrivingLine = FASTEST
     }
     Indianapolis2020_500
@@ -3533,21 +3856,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
         Tier = 1
-        Speed = 97
-        QualifySpeed = 97
-        WetSpeed = 90
-        Aggression = 65
+        Speed = 85
+        QualifySpeed = 90
+        WetSpeed = 89
+        Aggression = 35
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 19.73
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 82.00
+        PracticeTime = 30
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.65
+        QualifyTimeVariance = 0.25
         DrivingLine = FASTEST
     }
     Martinsville_500
@@ -3597,23 +3921,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 1
-        Speed = 87
-        QualifySpeed = 85
-        WetSpeed = 90
-        Aggression = 75
-        Composure = 85
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 50.00
-        MinRacingSkill = 90.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 1
         Speed = 92
@@ -3644,7 +3952,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 1
         Speed = 92
@@ -3656,6 +3964,22 @@ SCNG23
         Recovery = 99
         StartSkill = 50.00
         MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 1
+        Speed = 87
+        QualifySpeed = 85
+        WetSpeed = 90
+        Aggression = 75
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 90.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -3707,6 +4031,24 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 1
+        Speed = 85
+        QualifySpeed = 90
+        WetSpeed = 89
+        Aggression = 35
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 82.00
+        PracticeTime = 30
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.65
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST
+    }
     Watkins_Glen_220
     {
         Tier = 1
@@ -3741,6 +4083,23 @@ SCNG23
         PracticeTimeVariance = 0.25
         QualifyTime = 29.65
         QualifyTimeVariance = 0.75
+        DrivingLine = FASTEST
+    }
+    IOWA_350
+    {
+        Tier = 1
+        Speed = 97
+        QualifySpeed = 97
+        WetSpeed = 90
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.73
+        QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
     Sonoma_Raceway_NASCAR
@@ -3893,7 +4252,7 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 1
         Speed = 92
@@ -3908,6 +4267,24 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTime = 22.5
         QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 1
+        Speed = 84
+        QualifySpeed = 90
+        WetSpeed = 89
+        Aggression = 35
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 82.00
+        PracticeTime = 30
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.65
+        QualifyTimeVariance = 0.25
         DrivingLine = FASTEST
     }
     Indianapolis2020_500
@@ -3960,22 +4337,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
         Tier = 1
-        Speed = 92
-        QualifySpeed = 85
-        WetSpeed = 80
-        Aggression = 65
+        Speed = 84
+        QualifySpeed = 90
+        WetSpeed = 89
+        Aggression = 35
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 19.73
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
+        MinRacingSkill = 82.00
+        PracticeTime = 30
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.65
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST
     }
     Martinsville_500
     {
@@ -4024,23 +4402,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 1
-        Speed = 86
-        QualifySpeed = 85
-        WetSpeed = 80
-        Aggression = 75
-        Composure = 85
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 50.00
-        MinRacingSkill = 85.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 1
         Speed = 92
@@ -4071,7 +4433,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 1
         Speed = 92
@@ -4086,6 +4448,22 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 1
+        Speed = 86
+        QualifySpeed = 85
+        WetSpeed = 80
+        Aggression = 75
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 85.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -4134,6 +4512,24 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 1
+        Speed = 84
+        QualifySpeed = 90
+        WetSpeed = 89
+        Aggression = 35
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 82.00
+        PracticeTime = 30
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.65
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST
+    }
     Watkins_Glen_220
     {
         Tier = 2
@@ -4169,6 +4565,23 @@ SCNG23
         QualifyTime = 29.65
         QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
+    }
+    IOWA_350
+    {
+        Tier = 1
+        Speed = 92
+        QualifySpeed = 85
+        WetSpeed = 80
+        Aggression = 65
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.73
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
     }
     Sonoma_Raceway_NASCAR
     {
@@ -4320,7 +4733,7 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 1
         Speed = 95
@@ -4335,6 +4748,24 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTime = 22.5
         QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 1
+        Speed = 85
+        QualifySpeed = 95
+        WetSpeed = 89
+        Aggression = 35
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 82.00
+        PracticeTime = 30
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.65
+        QualifyTimeVariance = 0.25
         DrivingLine = FASTEST
     }
     Indianapolis2020_500
@@ -4387,22 +4818,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
         Tier = 1
-        Speed = 95
-        QualifySpeed = 90
-        WetSpeed = 88
-        Aggression = 60
+        Speed = 85
+        QualifySpeed = 95
+        WetSpeed = 89
+        Aggression = 35
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 19.73
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
+        MinRacingSkill = 82.00
+        PracticeTime = 30
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.65
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST
     }
     Martinsville_500
     {
@@ -4451,23 +4883,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 1
-        Speed = 86
-        QualifySpeed = 85
-        WetSpeed = 88
-        Aggression = 75
-        Composure = 85
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 50.00
-        MinRacingSkill = 85.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 1
         Speed = 95
@@ -4498,7 +4914,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 1
         Speed = 95
@@ -4513,6 +4929,22 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 1
+        Speed = 86
+        QualifySpeed = 85
+        WetSpeed = 88
+        Aggression = 75
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 85.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -4561,6 +4993,24 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 1
+        Speed = 85
+        QualifySpeed = 95
+        WetSpeed = 89
+        Aggression = 35
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 82.00
+        PracticeTime = 30
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.65
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST
+    }
     Watkins_Glen_220
     {
         Tier = 1
@@ -4596,6 +5046,23 @@ SCNG23
         QualifyTime = 29.65
         QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
+    }
+    IOWA_350
+    {
+        Tier = 1
+        Speed = 95
+        QualifySpeed = 90
+        WetSpeed = 88
+        Aggression = 60
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 50.00
+        MinRacingSkill = 99.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.73
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
     }
     Sonoma_Raceway_NASCAR
     {
@@ -4747,7 +5214,7 @@ SCNG23
         QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 2
         Speed = 88
@@ -4763,6 +5230,24 @@ SCNG23
         QualifyTime = 22.6
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 2
+        Speed = 82
+        QualifySpeed = 90
+        WetSpeed = 85
+        Aggression = 25
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTime = 30
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.65
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
     }
     Indianapolis2020_500
     {
@@ -4814,21 +5299,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
         Tier = 2
-        Speed = 88
-        QualifySpeed = 85
+        Speed = 82
+        QualifySpeed = 90
         WetSpeed = 85
-        Aggression = 60
+        Aggression = 25
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 19.73
-        QualifyTimeVariance = 0.125
+        PracticeTime = 30
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.65
+        QualifyTimeVariance = 0.25
         DrivingLine = FASTEST,HIGHLINE
     }
     Martinsville_500
@@ -4878,23 +5364,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 2
-        Speed = 85
-        QualifySpeed = 85
-        WetSpeed = 85
-        Aggression = 75
-        Composure = 85
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 45.00
-        MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 2
         Speed = 88
@@ -4925,7 +5395,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 2
         Speed = 88
@@ -4940,6 +5410,22 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 75
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -4988,6 +5474,24 @@ SCNG23
         QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 2
+        Speed = 82
+        QualifySpeed = 90
+        WetSpeed = 85
+        Aggression = 25
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTime = 30
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.65
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
+    }
     Watkins_Glen_220
     {
         Tier = 1
@@ -5022,6 +5526,23 @@ SCNG23
         PracticeTimeVariance = 0.25
         QualifyTime = 29.65
         QualifyTimeVariance = 0.75
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    IOWA_350
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 60
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.73
+        QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
     }
     Sonoma_Raceway_NASCAR
@@ -5174,7 +5695,7 @@ SCNG23
         QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 2
         Speed = 88
@@ -5190,6 +5711,24 @@ SCNG23
         QualifyTime = 22.6
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 2
+        Speed = 82
+        QualifySpeed = 85
+        WetSpeed = 84
+        Aggression = 25
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTime = 30
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.8
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
     }
     Indianapolis2020_500
     {
@@ -5241,21 +5780,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
         Tier = 2
-        Speed = 88
-        QualifySpeed = 95
-        WetSpeed = 88
-        Aggression = 50
+        Speed = 82
+        QualifySpeed = 85
+        WetSpeed = 84
+        Aggression = 25
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 19.73
-        QualifyTimeVariance = 0.125
+        PracticeTime = 30
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.8
+        QualifyTimeVariance = 0.25
         DrivingLine = FASTEST,HIGHLINE
     }
     Martinsville_500
@@ -5305,23 +5845,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 2
-        Speed = 83
-        QualifySpeed = 80
-        WetSpeed = 88
-        Aggression = 75
-        Composure = 85
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 45.00
-        MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 2
         Speed = 88
@@ -5352,7 +5876,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 2
         Speed = 88
@@ -5367,6 +5891,22 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 2
+        Speed = 83
+        QualifySpeed = 80
+        WetSpeed = 88
+        Aggression = 75
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -5415,6 +5955,24 @@ SCNG23
         QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 2
+        Speed = 82
+        QualifySpeed = 85
+        WetSpeed = 84
+        Aggression = 25
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTime = 30
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.8
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
+    }
     Watkins_Glen_220
     {
         Tier = 2
@@ -5449,6 +6007,23 @@ SCNG23
         PracticeTimeVariance = 0.25
         QualifyTime = 29.8
         QualifyTimeVariance = 0.75
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    IOWA_350
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 95
+        WetSpeed = 88
+        Aggression = 50
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.73
+        QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
     }
     Sonoma_Raceway_NASCAR
@@ -5601,7 +6176,7 @@ SCNG23
         QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 2
         Speed = 88
@@ -5617,6 +6192,24 @@ SCNG23
         QualifyTime = 22.6
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 2
+        Speed = 83
+        QualifySpeed = 93
+        WetSpeed = 84
+        Aggression = 25
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTime = 30
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.8
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
     }
     Indianapolis2020_500
     {
@@ -5668,21 +6261,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
         Tier = 2
-        Speed = 88
-        QualifySpeed = 90
-        WetSpeed = 85
-        Aggression = 50
+        Speed = 83
+        QualifySpeed = 93
+        WetSpeed = 84
+        Aggression = 25
         Composure = 80
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 19.73
-        QualifyTimeVariance = 0.125
+        PracticeTime = 30
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.8
+        QualifyTimeVariance = 0.25
         DrivingLine = FASTEST,HIGHLINE
     }
     Martinsville_500
@@ -5732,23 +6326,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 2
-        Speed = 83
-        QualifySpeed = 88
-        WetSpeed = 85
-        Aggression = 75
-        Composure = 80
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 45.00
-        MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 2
         Speed = 88
@@ -5779,7 +6357,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 2
         Speed = 88
@@ -5794,6 +6372,22 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 2
+        Speed = 83
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 75
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -5842,6 +6436,24 @@ SCNG23
         QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 2
+        Speed = 83
+        QualifySpeed = 93
+        WetSpeed = 84
+        Aggression = 25
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTime = 30
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.8
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
+    }
     Watkins_Glen_220
     {
         Tier = 2
@@ -5876,6 +6488,23 @@ SCNG23
         PracticeTimeVariance = 0.25
         QualifyTime = 29.8
         QualifyTimeVariance = 0.75
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    IOWA_350
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 90
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.73
+        QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
     }
     Sonoma_Raceway_NASCAR
@@ -6028,7 +6657,7 @@ SCNG23
         QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 2
         Speed = 88
@@ -6044,6 +6673,24 @@ SCNG23
         QualifyTime = 22.7
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 87
+        WetSpeed = 84
+        Aggression = 25
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTime = 30
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.8
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
     }
     Indianapolis2020_500
     {
@@ -6095,21 +6742,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
         Tier = 2
-        Speed = 88
+        Speed = 80
         QualifySpeed = 87
-        WetSpeed = 87
-        Aggression = 95
+        WetSpeed = 84
+        Aggression = 25
         Composure = 80
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 19.85
-        QualifyTimeVariance = 0.125
+        PracticeTime = 30
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.8
+        QualifyTimeVariance = 0.25
         DrivingLine = FASTEST,HIGHLINE
     }
     Martinsville_500
@@ -6159,23 +6807,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 2
-        Speed = 82
-        QualifySpeed = 87
-        WetSpeed = 87
-        Aggression = 75
-        Composure = 80
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 45.00
-        MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 2
         Speed = 88
@@ -6206,7 +6838,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 2
         Speed = 88
@@ -6221,6 +6853,22 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 2
+        Speed = 82
+        QualifySpeed = 87
+        WetSpeed = 87
+        Aggression = 75
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -6269,6 +6917,24 @@ SCNG23
         QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 87
+        WetSpeed = 84
+        Aggression = 25
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTime = 30
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.8
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
+    }
     Watkins_Glen_220
     {
         Tier = 2
@@ -6303,6 +6969,23 @@ SCNG23
         PracticeTimeVariance = 0.25
         QualifyTime = 29.8
         QualifyTimeVariance = 0.75
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    IOWA_350
+    {
+        Tier = 2
+        Speed = 88
+        QualifySpeed = 87
+        WetSpeed = 87
+        Aggression = 95
+        Composure = 80
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.85
+        QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
     }
     Sonoma_Raceway_NASCAR
@@ -6455,7 +7138,7 @@ SCNG23
         QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 2
         Speed = 85
@@ -6471,6 +7154,24 @@ SCNG23
         QualifyTime = 22.7
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 2
+        Speed = 78
+        QualifySpeed = 84
+        WetSpeed = 81
+        Aggression = 25
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTime = 30
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.8
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
     }
     Indianapolis2020_500
     {
@@ -6522,21 +7223,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
         Tier = 2
-        Speed = 90
-        QualifySpeed = 97
-        WetSpeed = 85
-        Aggression = 50
+        Speed = 78
+        QualifySpeed = 84
+        WetSpeed = 81
+        Aggression = 25
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
         MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 19.85
-        QualifyTimeVariance = 0.125
+        PracticeTime = 30
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.8
+        QualifyTimeVariance = 0.25
         DrivingLine = FASTEST,HIGHLINE
     }
     Martinsville_500
@@ -6586,23 +7288,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 2
-        Speed = 80
-        QualifySpeed = 89
-        WetSpeed = 85
-        Aggression = 50
-        Composure = 75
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 45.00
-        MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 2
         Speed = 85
@@ -6633,7 +7319,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 2
         Speed = 85
@@ -6648,6 +7334,22 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 89
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -6696,6 +7398,24 @@ SCNG23
         QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 2
+        Speed = 78
+        QualifySpeed = 84
+        WetSpeed = 81
+        Aggression = 25
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTime = 30
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.8
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
+    }
     Watkins_Glen_220
     {
         Tier = 2
@@ -6730,6 +7450,23 @@ SCNG23
         PracticeTimeVariance = 0.25
         QualifyTime = 29.8
         QualifyTimeVariance = 0.75
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    IOWA_350
+    {
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 97
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.85
+        QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
     }
     Sonoma_Raceway_NASCAR
@@ -6882,7 +7619,7 @@ SCNG23
         QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 2
         Speed = 85
@@ -6898,6 +7635,24 @@ SCNG23
         QualifyTime = 22.7
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 89
+        WetSpeed = 81
+        Aggression = 25
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30
+        PracticeTimeVariance = 0.25
+        QualifyTime = 30
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
     }
     Indianapolis2020_500
     {
@@ -6949,21 +7704,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
         Tier = 2
-        Speed = 85
-        QualifySpeed = 85
-        WetSpeed = 85
-        Aggression = 50
+        Speed = 80
+        QualifySpeed = 89
+        WetSpeed = 81
+        Aggression = 25
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
         MinRacingSkill = 70.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 19.85
-        QualifyTimeVariance = 0.125
+        PracticeTime = 30
+        PracticeTimeVariance = 0.25
+        QualifyTime = 30
+        QualifyTimeVariance = 0.25
         DrivingLine = FASTEST,HIGHLINE
     }
     Martinsville_500
@@ -7013,23 +7769,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 2
-        Speed = 80
-        QualifySpeed = 85
-        WetSpeed = 85
-        Aggression = 50
-        Composure = 75
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 45.00
-        MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 2
         Speed = 85
@@ -7060,7 +7800,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 2
         Speed = 85
@@ -7075,6 +7815,22 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -7123,6 +7879,24 @@ SCNG23
         QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 89
+        WetSpeed = 81
+        Aggression = 25
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30
+        PracticeTimeVariance = 0.25
+        QualifyTime = 30
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
+    }
     Watkins_Glen_220
     {
         Tier = 2
@@ -7157,6 +7931,23 @@ SCNG23
         PracticeTimeVariance = 0.25
         QualifyTime = 30
         QualifyTimeVariance = 0.75
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    IOWA_350
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 85
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.85
+        QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
     }
     Sonoma_Raceway_NASCAR
@@ -7309,7 +8100,7 @@ SCNG23
         QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 2
         Speed = 85
@@ -7325,6 +8116,24 @@ SCNG23
         QualifyTime = 22.7
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 86
+        WetSpeed = 81
+        Aggression = 25
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.25
+        PracticeTimeVariance = 0.25
+        QualifyTime = 30
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
     }
     Indianapolis2020_500
     {
@@ -7376,21 +8185,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
         Tier = 2
-        Speed = 85
-        QualifySpeed = 83
-        WetSpeed = 85
-        Aggression = 50
+        Speed = 80
+        QualifySpeed = 86
+        WetSpeed = 81
+        Aggression = 25
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
         MinRacingSkill = 70.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 19.85
-        QualifyTimeVariance = 0.125
+        PracticeTime = 30.25
+        PracticeTimeVariance = 0.25
+        QualifyTime = 30
+        QualifyTimeVariance = 0.25
         DrivingLine = FASTEST,HIGHLINE
     }
     Martinsville_500
@@ -7440,23 +8250,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 2
-        Speed = 80
-        QualifySpeed = 83
-        WetSpeed = 85
-        Aggression = 50
-        Composure = 75
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 45.00
-        MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 2
         Speed = 85
@@ -7487,7 +8281,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 2
         Speed = 85
@@ -7502,6 +8296,22 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 83
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -7550,6 +8360,24 @@ SCNG23
         QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 86
+        WetSpeed = 81
+        Aggression = 25
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.25
+        PracticeTimeVariance = 0.25
+        QualifyTime = 30
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
+    }
     Watkins_Glen_220
     {
         Tier = 2
@@ -7584,6 +8412,23 @@ SCNG23
         PracticeTimeVariance = 0.25
         QualifyTime = 30
         QualifyTimeVariance = 0.75
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    IOWA_350
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 83
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.85
+        QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
     }
     Sonoma_Raceway_NASCAR
@@ -7736,7 +8581,7 @@ SCNG23
         QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 2
         Speed = 85
@@ -7752,6 +8597,24 @@ SCNG23
         QualifyTime = 22.7
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 2
+        Speed = 78
+        QualifySpeed = 91
+        WetSpeed = 81
+        Aggression = 25
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.25
+        PracticeTimeVariance = 0.25
+        QualifyTime = 30
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
     }
     Indianapolis2020_500
     {
@@ -7803,21 +8666,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
         Tier = 2
-        Speed = 85
-        QualifySpeed = 88
-        WetSpeed = 85
-        Aggression = 50
+        Speed = 78
+        QualifySpeed = 91
+        WetSpeed = 81
+        Aggression = 25
         Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 65.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 19.85
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 70.00
+        PracticeTime = 30.25
+        PracticeTimeVariance = 0.25
+        QualifyTime = 30
+        QualifyTimeVariance = 0.25
         DrivingLine = FASTEST,HIGHLINE
     }
     Martinsville_500
@@ -7867,23 +8731,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 2
-        Speed = 80
-        QualifySpeed = 88
-        WetSpeed = 85
-        Aggression = 50
-        Composure = 75
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 45.00
-        MinRacingSkill = 80.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 2
         Speed = 85
@@ -7914,7 +8762,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 2
         Speed = 85
@@ -7929,6 +8777,22 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -7977,6 +8841,24 @@ SCNG23
         QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 2
+        Speed = 78
+        QualifySpeed = 91
+        WetSpeed = 81
+        Aggression = 25
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.25
+        PracticeTimeVariance = 0.25
+        QualifyTime = 30
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
+    }
     Watkins_Glen_220
     {
         Tier = 2
@@ -8011,6 +8893,23 @@ SCNG23
         PracticeTimeVariance = 0.25
         QualifyTime = 30
         QualifyTimeVariance = 0.75
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    IOWA_350
+    {
+        Tier = 2
+        Speed = 85
+        QualifySpeed = 88
+        WetSpeed = 85
+        Aggression = 50
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 65.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.85
+        QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
     }
     Sonoma_Raceway_NASCAR
@@ -8163,7 +9062,7 @@ SCNG23
         QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 2
         Speed = 80
@@ -8179,6 +9078,24 @@ SCNG23
         QualifyTime = 22.7
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 3
+        Speed = 77
+        QualifySpeed = 85
+        WetSpeed = 77
+        Aggression = 20
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.25
+        PracticeTimeVariance = 0.25
+        QualifyTime = 30
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
     }
     Indianapolis2020_500
     {
@@ -8230,21 +9147,22 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
-        Tier = 2
-        Speed = 80
-        QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 50
-        Composure = 55
+        Tier = 3
+        Speed = 77
+        QualifySpeed = 85
+        WetSpeed = 77
+        Aggression = 20
+        Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 65.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 19.85
-        QualifyTimeVariance = 0.125
+        MinRacingSkill = 70.00
+        PracticeTime = 30.25
+        PracticeTimeVariance = 0.25
+        QualifyTime = 30
+        QualifyTimeVariance = 0.25
         DrivingLine = FASTEST,HIGHLINE
     }
     Martinsville_500
@@ -8294,23 +9212,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 2
-        Speed = 80
-        QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 50
-        Composure = 55
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 45.00
-        MinRacingSkill = 75.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 2
         Speed = 80
@@ -8341,7 +9243,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 2
         Speed = 80
@@ -8356,6 +9258,22 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 75.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -8404,6 +9322,24 @@ SCNG23
         QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 3
+        Speed = 77
+        QualifySpeed = 85
+        WetSpeed = 77
+        Aggression = 20
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.25
+        PracticeTimeVariance = 0.25
+        QualifyTime = 30
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
+    }
     Watkins_Glen_220
     {
         Tier = 2
@@ -8438,6 +9374,23 @@ SCNG23
         PracticeTimeVariance = 0.25
         QualifyTime = 30
         QualifyTimeVariance = 0.75
+        DrivingLine = FASTEST,HIGHLINE
+    }
+    IOWA_350
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 65.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.85
+        QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
     }
     Sonoma_Raceway_NASCAR
@@ -8590,7 +9543,7 @@ SCNG23
         QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 2
         Speed = 80
@@ -8606,6 +9559,24 @@ SCNG23
         QualifyTime = 22.7
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 3
+        Speed = 77
+        QualifySpeed = 85
+        WetSpeed = 77
+        Aggression = 20
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.25
+        PracticeTimeVariance = 0.25
+        QualifyTime = 30
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
     }
     Indianapolis2020_500
     {
@@ -8657,22 +9628,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
-        Tier = 2
-        Speed = 80
-        QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 50
-        Composure = 55
+        Tier = 3
+        Speed = 77
+        QualifySpeed = 85
+        WetSpeed = 77
+        Aggression = 20
+        Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 65.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 19.85
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE,FASTEST
+        MinRacingSkill = 70.00
+        PracticeTime = 30.25
+        PracticeTimeVariance = 0.25
+        QualifyTime = 30
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
     }
     Martinsville_500
     {
@@ -8721,23 +9693,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 2
-        Speed = 80
-        QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 50
-        Composure = 55
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 45.00
-        MinRacingSkill = 75.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE,FASTEST
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 2
         Speed = 80
@@ -8768,7 +9724,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 2
         Speed = 80
@@ -8783,6 +9739,22 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 75.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
     }
     Road_America_GP
     {
@@ -8831,6 +9803,24 @@ SCNG23
         QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 3
+        Speed = 77
+        QualifySpeed = 85
+        WetSpeed = 77
+        Aggression = 20
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.25
+        PracticeTimeVariance = 0.25
+        QualifyTime = 30
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
+    }
     Watkins_Glen_220
     {
         Tier = 2
@@ -8866,6 +9856,23 @@ SCNG23
         QualifyTime = 30
         QualifyTimeVariance = 0.75
         DrivingLine = FASTEST,HIGHLINE
+    }
+    IOWA_350
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 65.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.85
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
     }
     Sonoma_Raceway_NASCAR
     {
@@ -9017,7 +10024,7 @@ SCNG23
         QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 2
         Speed = 80
@@ -9033,6 +10040,24 @@ SCNG23
         QualifyTime = 22.7
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 85
+        WetSpeed = 77
+        Aggression = 20
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.25
+        PracticeTimeVariance = 0.25
+        QualifyTime = 30
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
     }
     Indianapolis2020_500
     {
@@ -9084,22 +10109,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
-        Tier = 2
-        Speed = 80
-        QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 50
-        Composure = 55
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 85
+        WetSpeed = 77
+        Aggression = 20
+        Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 55.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 19.85
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE,FASTEST
+        MinRacingSkill = 70.00
+        PracticeTime = 30.25
+        PracticeTimeVariance = 0.25
+        QualifyTime = 30
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
     }
     Martinsville_500
     {
@@ -9148,23 +10174,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 2
-        Speed = 80
-        QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 50
-        Composure = 55
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 45.00
-        MinRacingSkill = 75.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE,FASTEST
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 2
         Speed = 80
@@ -9195,7 +10205,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 2
         Speed = 80
@@ -9210,6 +10220,22 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 75.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
     }
     Road_America_GP
     {
@@ -9258,6 +10284,24 @@ SCNG23
         QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 85
+        WetSpeed = 77
+        Aggression = 20
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.25
+        PracticeTimeVariance = 0.25
+        QualifyTime = 30
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
+    }
     Watkins_Glen_220
     {
         Tier = 1
@@ -9293,6 +10337,23 @@ SCNG23
         QualifyTime = 30
         QualifyTimeVariance = 0.75
         DrivingLine = FASTEST,HIGHLINE
+    }
+    IOWA_350
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 55.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.85
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
     }
     Sonoma_Raceway_NASCAR
     {
@@ -9444,7 +10505,7 @@ SCNG23
         QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 2
         Speed = 80
@@ -9460,6 +10521,24 @@ SCNG23
         QualifyTime = 22.8
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 85
+        WetSpeed = 77
+        Aggression = 20
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.25
+        PracticeTimeVariance = 0.25
+        QualifyTime = 30
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
     }
     Indianapolis2020_500
     {
@@ -9511,22 +10590,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
-        Tier = 2
-        Speed = 80
-        QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 50
-        Composure = 55
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 85
+        WetSpeed = 77
+        Aggression = 20
+        Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 19.85
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE,FASTEST
+        MinRacingSkill = 70.00
+        PracticeTime = 30.25
+        PracticeTimeVariance = 0.25
+        QualifyTime = 30
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
     }
     Martinsville_500
     {
@@ -9575,23 +10655,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 2
-        Speed = 78
-        QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 50
-        Composure = 55
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 45.00
-        MinRacingSkill = 70.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE,FASTEST
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 2
         Speed = 80
@@ -9622,7 +10686,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 2
         Speed = 80
@@ -9637,6 +10701,22 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 2
+        Speed = 78
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
     }
     Road_America_GP
     {
@@ -9685,6 +10765,24 @@ SCNG23
         QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 85
+        WetSpeed = 77
+        Aggression = 20
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.25
+        PracticeTimeVariance = 0.25
+        QualifyTime = 30
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
+    }
     Watkins_Glen_220
     {
         Tier = 2
@@ -9720,6 +10818,23 @@ SCNG23
         QualifyTime = 30
         QualifyTimeVariance = 0.75
         DrivingLine = FASTEST,HIGHLINE
+    }
+    IOWA_350
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.85
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
     }
     Sonoma_Raceway_NASCAR
     {
@@ -9871,7 +10986,7 @@ SCNG23
         QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 2
         Speed = 80
@@ -9887,6 +11002,24 @@ SCNG23
         QualifyTime = 22.8
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 85
+        WetSpeed = 77
+        Aggression = 20
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.4
+        PracticeTimeVariance = 0.25
+        QualifyTime = 30
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
     }
     Indianapolis2020_500
     {
@@ -9938,22 +11071,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
-        Tier = 2
-        Speed = 90
-        QualifySpeed = 95
-        WetSpeed = 80
-        Aggression = 50
-        Composure = 55
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 85
+        WetSpeed = 77
+        Aggression = 20
+        Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 19.85
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE,FASTEST
+        MinRacingSkill = 70.00
+        PracticeTime = 30.4
+        PracticeTimeVariance = 0.25
+        QualifyTime = 30
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
     }
     Martinsville_500
     {
@@ -10002,23 +11136,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 2
-        Speed = 78
-        QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 50
-        Composure = 55
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 45.00
-        MinRacingSkill = 70.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE,FASTEST
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 2
         Speed = 80
@@ -10049,7 +11167,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 2
         Speed = 80
@@ -10064,6 +11182,22 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 2
+        Speed = 78
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
     }
     Road_America_GP
     {
@@ -10112,6 +11246,24 @@ SCNG23
         QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 85
+        WetSpeed = 77
+        Aggression = 20
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.4
+        PracticeTimeVariance = 0.25
+        QualifyTime = 30
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
+    }
     Watkins_Glen_220
     {
         Tier = 2
@@ -10147,6 +11299,23 @@ SCNG23
         QualifyTime = 30
         QualifyTimeVariance = 0.75
         DrivingLine = FASTEST,HIGHLINE
+    }
+    IOWA_350
+    {
+        Tier = 2
+        Speed = 90
+        QualifySpeed = 95
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.85
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
     }
     Sonoma_Raceway_NASCAR
     {
@@ -10298,7 +11467,7 @@ SCNG23
         QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 2
         Speed = 80
@@ -10314,6 +11483,24 @@ SCNG23
         QualifyTime = 22.8
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 85
+        WetSpeed = 77
+        Aggression = 20
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.4
+        PracticeTimeVariance = 0.25
+        QualifyTime = 30
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
     }
     Indianapolis2020_500
     {
@@ -10365,22 +11552,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
-        Tier = 2
-        Speed = 80
-        QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 50
-        Composure = 55
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 85
+        WetSpeed = 77
+        Aggression = 20
+        Composure = 75
         Courtesy = 99
         Recovery = 99
-        StartSkill = 45.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 19.85
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE,FASTEST
+        StartSkill = 40.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.4
+        PracticeTimeVariance = 0.25
+        QualifyTime = 30
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
     }
     Martinsville_500
     {
@@ -10429,23 +11617,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 2
-        Speed = 77
-        QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 50
-        Composure = 55
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 45.00
-        MinRacingSkill = 70.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE,FASTEST
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 2
         Speed = 80
@@ -10476,7 +11648,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 2
         Speed = 80
@@ -10491,6 +11663,22 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 2
+        Speed = 77
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
     }
     Road_America_GP
     {
@@ -10539,6 +11727,24 @@ SCNG23
         QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 85
+        WetSpeed = 77
+        Aggression = 20
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.4
+        PracticeTimeVariance = 0.25
+        QualifyTime = 30
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
+    }
     Watkins_Glen_220
     {
         Tier = 2
@@ -10574,6 +11780,23 @@ SCNG23
         QualifyTime = 30
         QualifyTimeVariance = 0.75
         DrivingLine = FASTEST,HIGHLINE
+    }
+    IOWA_350
+    {
+        Tier = 2
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.85
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
     }
     Sonoma_Raceway_NASCAR
     {
@@ -10725,7 +11948,7 @@ SCNG23
         QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 3
         Speed = 80
@@ -10741,6 +11964,24 @@ SCNG23
         QualifyTime = 22.9
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 85
+        WetSpeed = 77
+        Aggression = 20
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.4
+        PracticeTimeVariance = 0.25
+        QualifyTime = 30
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
     }
     Indianapolis2020_500
     {
@@ -10792,22 +12033,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
         Tier = 3
-        Speed = 80
-        QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 50
-        Composure = 55
+        Speed = 75
+        QualifySpeed = 85
+        WetSpeed = 77
+        Aggression = 20
+        Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 50.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 19.93
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE,FASTEST
+        MinRacingSkill = 70.00
+        PracticeTime = 30.4
+        PracticeTimeVariance = 0.25
+        QualifyTime = 30
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
     }
     Martinsville_500
     {
@@ -10856,23 +12098,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 3
-        Speed = 77
-        QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 50
-        Composure = 55
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 40.00
-        MinRacingSkill = 70.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE,FASTEST
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 3
         Speed = 80
@@ -10903,7 +12129,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 3
         Speed = 80
@@ -10918,6 +12144,22 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 3
+        Speed = 77
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
     }
     Road_America_GP
     {
@@ -10966,6 +12208,24 @@ SCNG23
         QualifyTimeVariance = 0.2
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 85
+        WetSpeed = 77
+        Aggression = 20
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.4
+        PracticeTimeVariance = 0.25
+        QualifyTime = 30
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
+    }
     Watkins_Glen_220
     {
         Tier = 3
@@ -11001,6 +12261,23 @@ SCNG23
         QualifyTime = 30
         QualifyTimeVariance = 0.75
         DrivingLine = FASTEST,HIGHLINE
+    }
+    IOWA_350
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 55
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 50.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.93
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
     }
     Sonoma_Raceway_NASCAR
     {
@@ -11152,7 +12429,7 @@ SCNG23
         QualifyTimeVariance = 0.3
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 3
         Speed = 80
@@ -11168,6 +12445,24 @@ SCNG23
         QualifyTime = 22.9
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 85
+        WetSpeed = 77
+        Aggression = 20
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.4
+        PracticeTimeVariance = 0.25
+        QualifyTime = 30
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
     }
     Indianapolis2020_500
     {
@@ -11219,22 +12514,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
         Tier = 3
-        Speed = 80
-        QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 50
-        Composure = 45
+        Speed = 75
+        QualifySpeed = 85
+        WetSpeed = 77
+        Aggression = 20
+        Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 35.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 19.93
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE,FASTEST
+        MinRacingSkill = 70.00
+        PracticeTime = 30.4
+        PracticeTimeVariance = 0.25
+        QualifyTime = 30
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
     }
     Martinsville_500
     {
@@ -11283,23 +12579,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 3
-        Speed = 75
-        QualifySpeed = 80
-        WetSpeed = 80
-        Aggression = 50
-        Composure = 45
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 40.00
-        MinRacingSkill = 70.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE,FASTEST
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 3
         Speed = 80
@@ -11330,7 +12610,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 3
         Speed = 80
@@ -11345,6 +12625,22 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
     }
     Road_America_GP
     {
@@ -11393,6 +12689,24 @@ SCNG23
         QualifyTimeVariance = 0.3
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 85
+        WetSpeed = 77
+        Aggression = 20
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.4
+        PracticeTimeVariance = 0.25
+        QualifyTime = 30
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
+    }
     Watkins_Glen_220
     {
         Tier = 3
@@ -11428,6 +12742,23 @@ SCNG23
         QualifyTime = 30
         QualifyTimeVariance = 0.75
         DrivingLine = FASTEST,HIGHLINE
+    }
+    IOWA_350
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 80
+        WetSpeed = 80
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.93
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
     }
     Sonoma_Raceway_NASCAR
     {
@@ -11579,7 +12910,7 @@ SCNG23
         QualifyTimeVariance = 0.3
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 3
         Speed = 77
@@ -11595,6 +12926,24 @@ SCNG23
         QualifyTime = 23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 80
+        WetSpeed = 72
+        Aggression = 20
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.4
+        PracticeTimeVariance = 0.25
+        QualifyTime = 30
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
     }
     Indianapolis2020_500
     {
@@ -11646,22 +12995,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
         Tier = 3
-        Speed = 77
-        QualifySpeed = 75
-        WetSpeed = 75
-        Aggression = 50
-        Composure = 45
+        Speed = 75
+        QualifySpeed = 80
+        WetSpeed = 72
+        Aggression = 20
+        Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 35.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 19.93
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE,FASTEST
+        MinRacingSkill = 70.00
+        PracticeTime = 30.4
+        PracticeTimeVariance = 0.25
+        QualifyTime = 30
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
     }
     Martinsville_500
     {
@@ -11710,23 +13060,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 3
-        Speed = 75
-        QualifySpeed = 75
-        WetSpeed = 75
-        Aggression = 50
-        Composure = 45
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 40.00
-        MinRacingSkill = 70.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE,FASTEST
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 3
         Speed = 77
@@ -11757,7 +13091,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 3
         Speed = 77
@@ -11772,6 +13106,22 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
     }
     Road_America_GP
     {
@@ -11820,6 +13170,24 @@ SCNG23
         QualifyTimeVariance = 0.3
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 80
+        WetSpeed = 72
+        Aggression = 20
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.4
+        PracticeTimeVariance = 0.25
+        QualifyTime = 30
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST,HIGHLINE
+    }
     Watkins_Glen_220
     {
         Tier = 3
@@ -11855,6 +13223,23 @@ SCNG23
         QualifyTime = 30
         QualifyTimeVariance = 0.75
         DrivingLine = FASTEST,HIGHLINE
+    }
+    IOWA_350
+    {
+        Tier = 3
+        Speed = 77
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.93
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
     }
     Sonoma_Raceway_NASCAR
     {
@@ -12006,7 +13391,7 @@ SCNG23
         QualifyTimeVariance = 0.3
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 3
         Speed = 75
@@ -12022,6 +13407,24 @@ SCNG23
         QualifyTime = 23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 80
+        WetSpeed = 72
+        Aggression = 20
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.5
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.25
+        QualifyTimeVariance = 0.4
+        DrivingLine = FASTEST,HIGHLINE
     }
     Indianapolis2020_500
     {
@@ -12073,22 +13476,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
         Tier = 3
-        Speed = 90
-        QualifySpeed = 75
-        WetSpeed = 75
-        Aggression = 50
-        Composure = 45
+        Speed = 75
+        QualifySpeed = 80
+        WetSpeed = 72
+        Aggression = 20
+        Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 35.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 19.93
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE
+        MinRacingSkill = 70.00
+        PracticeTime = 30.5
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.25
+        QualifyTimeVariance = 0.4
+        DrivingLine = FASTEST,HIGHLINE
     }
     Martinsville_500
     {
@@ -12137,23 +13541,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 3
-        Speed = 73
-        QualifySpeed = 75
-        WetSpeed = 75
-        Aggression = 50
-        Composure = 45
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 40.00
-        MinRacingSkill = 70.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 3
         Speed = 75
@@ -12184,7 +13572,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 3
         Speed = 75
@@ -12199,6 +13587,22 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 3
+        Speed = 73
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
     }
     Road_America_GP
     {
@@ -12247,6 +13651,24 @@ SCNG23
         QualifyTimeVariance = 0.3
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 80
+        WetSpeed = 72
+        Aggression = 20
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.5
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.25
+        QualifyTimeVariance = 0.4
+        DrivingLine = FASTEST,HIGHLINE
+    }
     Watkins_Glen_220
     {
         Tier = 3
@@ -12282,6 +13704,23 @@ SCNG23
         QualifyTime = 30.25
         QualifyTimeVariance = 0.5
         DrivingLine = FASTEST,HIGHLINE
+    }
+    IOWA_350
+    {
+        Tier = 3
+        Speed = 90
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.93
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
     }
     Sonoma_Raceway_NASCAR
     {
@@ -12433,7 +13872,7 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 3
         Speed = 75
@@ -12449,6 +13888,24 @@ SCNG23
         QualifyTime = 23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 80
+        WetSpeed = 72
+        Aggression = 20
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.5
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.25
+        QualifyTimeVariance = 0.4
+        DrivingLine = HIGHLINE,FASTEST
     }
     Indianapolis2020_500
     {
@@ -12500,22 +13957,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
         Tier = 3
         Speed = 75
-        QualifySpeed = 75
-        WetSpeed = 75
-        Aggression = 50
-        Composure = 45
+        QualifySpeed = 80
+        WetSpeed = 72
+        Aggression = 20
+        Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 35.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 19.93
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE
+        MinRacingSkill = 70.00
+        PracticeTime = 30.5
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.25
+        QualifyTimeVariance = 0.4
+        DrivingLine = HIGHLINE,FASTEST
     }
     Martinsville_500
     {
@@ -12564,23 +14022,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 3
-        Speed = 73
-        QualifySpeed = 75
-        WetSpeed = 75
-        Aggression = 50
-        Composure = 45
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 40.00
-        MinRacingSkill = 70.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 3
         Speed = 75
@@ -12611,7 +14053,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 3
         Speed = 75
@@ -12626,6 +14068,22 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 3
+        Speed = 73
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
     }
     Road_America_GP
     {
@@ -12674,6 +14132,24 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 80
+        WetSpeed = 72
+        Aggression = 20
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.5
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.25
+        QualifyTimeVariance = 0.4
+        DrivingLine = HIGHLINE,FASTEST
+    }
     Watkins_Glen_220
     {
         Tier = 1
@@ -12709,6 +14185,23 @@ SCNG23
         QualifyTime = 30.25
         QualifyTimeVariance = 0.5
         DrivingLine = HIGHLINE,FASTEST
+    }
+    IOWA_350
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.93
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
     }
     Sonoma_Raceway_NASCAR
     {
@@ -12860,7 +14353,7 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 3
         Speed = 75
@@ -12876,6 +14369,24 @@ SCNG23
         QualifyTime = 23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 3
+        Speed = 74
+        QualifySpeed = 80
+        WetSpeed = 72
+        Aggression = 20
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.5
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.25
+        QualifyTimeVariance = 0.4
+        DrivingLine = HIGHLINE,FASTEST
     }
     Indianapolis2020_500
     {
@@ -12927,22 +14438,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
         Tier = 3
-        Speed = 75
-        QualifySpeed = 75
-        WetSpeed = 75
-        Aggression = 50
-        Composure = 45
+        Speed = 74
+        QualifySpeed = 80
+        WetSpeed = 72
+        Aggression = 20
+        Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 35.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 19.93
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE
+        MinRacingSkill = 70.00
+        PracticeTime = 30.5
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.25
+        QualifyTimeVariance = 0.4
+        DrivingLine = HIGHLINE,FASTEST
     }
     Martinsville_500
     {
@@ -12991,23 +14503,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 3
-        Speed = 72
-        QualifySpeed = 75
-        WetSpeed = 75
-        Aggression = 50
-        Composure = 45
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 40.00
-        MinRacingSkill = 70.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 3
         Speed = 75
@@ -13038,7 +14534,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 3
         Speed = 75
@@ -13053,6 +14549,22 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 3
+        Speed = 72
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 70.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
     }
     Road_America_GP
     {
@@ -13101,6 +14613,24 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 3
+        Speed = 74
+        QualifySpeed = 80
+        WetSpeed = 72
+        Aggression = 20
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.5
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.25
+        QualifyTimeVariance = 0.4
+        DrivingLine = HIGHLINE,FASTEST
+    }
     Watkins_Glen_220
     {
         Tier = 2
@@ -13136,6 +14666,23 @@ SCNG23
         QualifyTime = 30.25
         QualifyTimeVariance = 0.5
         DrivingLine = HIGHLINE,FASTEST
+    }
+    IOWA_350
+    {
+        Tier = 3
+        Speed = 75
+        QualifySpeed = 75
+        WetSpeed = 75
+        Aggression = 50
+        Composure = 45
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.93
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
     }
     Sonoma_Raceway_NASCAR
     {
@@ -13287,7 +14834,7 @@ SCNG23
         QualifyTimeVariance = 0.3
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 3
         Speed = 72
@@ -13302,6 +14849,24 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTime = 23
         QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 3
+        Speed = 73
+        QualifySpeed = 75
+        WetSpeed = 72
+        Aggression = 20
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.5
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.25
+        QualifyTimeVariance = 0.4
         DrivingLine = HIGHLINE,FASTEST
     }
     Indianapolis2020_500
@@ -13354,22 +14919,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
         Tier = 3
-        Speed = 72
-        QualifySpeed = 70
-        WetSpeed = 70
-        Aggression = 50
-        Composure = 35
+        Speed = 73
+        QualifySpeed = 75
+        WetSpeed = 72
+        Aggression = 20
+        Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 35.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 19.93
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE
+        MinRacingSkill = 70.00
+        PracticeTime = 30.5
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.25
+        QualifyTimeVariance = 0.4
+        DrivingLine = HIGHLINE,FASTEST
     }
     Martinsville_500
     {
@@ -13418,23 +14984,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 3
-        Speed = 71
-        QualifySpeed = 70
-        WetSpeed = 70
-        Aggression = 50
-        Composure = 35
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 40.00
-        MinRacingSkill = 65.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 3
         Speed = 72
@@ -13465,7 +15015,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 3
         Speed = 72
@@ -13480,6 +15030,22 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 3
+        Speed = 71
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 65.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
     }
     Road_America_GP
     {
@@ -13528,6 +15094,24 @@ SCNG23
         QualifyTimeVariance = 0.3
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 3
+        Speed = 73
+        QualifySpeed = 75
+        WetSpeed = 72
+        Aggression = 20
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.5
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.25
+        QualifyTimeVariance = 0.4
+        DrivingLine = HIGHLINE,FASTEST
+    }
     Watkins_Glen_220
     {
         Tier = 3
@@ -13563,6 +15147,23 @@ SCNG23
         QualifyTime = 30.25
         QualifyTimeVariance = 0.5
         DrivingLine = HIGHLINE,FASTEST
+    }
+    IOWA_350
+    {
+        Tier = 3
+        Speed = 72
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.93
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
     }
     Sonoma_Raceway_NASCAR
     {
@@ -13714,7 +15315,7 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 3
         Speed = 80
@@ -13729,6 +15330,24 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTime = 23
         QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 1
+        Speed = 84
+        QualifySpeed = 95
+        WetSpeed = 88
+        Aggression = 35
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTime = 30
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.65
+        QualifyTimeVariance = 0.25
         DrivingLine = FASTEST
     }
     Indianapolis2020_500
@@ -13781,22 +15400,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
-        Tier = 3
-        Speed = 80
-        QualifySpeed = 70
-        WetSpeed = 70
-        Aggression = 50
-        Composure = 35
+        Tier = 1
+        Speed = 84
+        QualifySpeed = 95
+        WetSpeed = 88
+        Aggression = 35
+        Composure = 85
         Courtesy = 99
         Recovery = 99
-        StartSkill = 40.00
-        MinRacingSkill = 35.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 19.93
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTime = 30
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.65
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST
     }
     Martinsville_500
     {
@@ -13845,23 +15465,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 2
-        Speed = 84
-        QualifySpeed = 90
-        WetSpeed = 70
-        Aggression = 75
-        Composure = 85
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 40.00
-        MinRacingSkill = 85.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST,HIGHLINE
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 3
         Speed = 80
@@ -13892,7 +15496,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 3
         Speed = 80
@@ -13907,6 +15511,22 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 2
+        Speed = 84
+        QualifySpeed = 90
+        WetSpeed = 70
+        Aggression = 75
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 85.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = FASTEST,HIGHLINE
     }
     Road_America_GP
     {
@@ -13955,6 +15575,24 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 1
+        Speed = 84
+        QualifySpeed = 95
+        WetSpeed = 88
+        Aggression = 35
+        Composure = 85
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 45.00
+        MinRacingSkill = 80.00
+        PracticeTime = 30
+        PracticeTimeVariance = 0.25
+        QualifyTime = 29.65
+        QualifyTimeVariance = 0.25
+        DrivingLine = FASTEST
+    }
     Watkins_Glen_220
     {
         Tier = 2
@@ -13990,6 +15628,23 @@ SCNG23
         QualifyTime = 29.65
         QualifyTimeVariance = 0.75
         DrivingLine = FASTEST
+    }
+    IOWA_350
+    {
+        Tier = 3
+        Speed = 80
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 50
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 40.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 19.93
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
     }
     Sonoma_Raceway_NASCAR
     {
@@ -14141,7 +15796,7 @@ SCNG23
         QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 4
         Speed = 70
@@ -14156,6 +15811,24 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTime = 23
         QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 75
+        WetSpeed = 67
+        Aggression = 20
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.5
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.25
+        QualifyTimeVariance = 0.4
         DrivingLine = HIGHLINE,FASTEST
     }
     Indianapolis2020_500
@@ -14208,22 +15881,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
         Tier = 4
         Speed = 70
-        QualifySpeed = 70
-        WetSpeed = 70
-        Aggression = 40
-        Composure = 35
+        QualifySpeed = 75
+        WetSpeed = 67
+        Aggression = 20
+        Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 35.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 20
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE
+        MinRacingSkill = 70.00
+        PracticeTime = 30.5
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.25
+        QualifyTimeVariance = 0.4
+        DrivingLine = HIGHLINE,FASTEST
     }
     Martinsville_500
     {
@@ -14272,23 +15946,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 4
-        Speed = 70
-        QualifySpeed = 70
-        WetSpeed = 70
-        Aggression = 40
-        Composure = 35
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 35.00
-        MinRacingSkill = 65.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 4
         Speed = 70
@@ -14319,7 +15977,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 4
         Speed = 70
@@ -14334,6 +15992,22 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 40
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 65.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
     }
     Road_America_GP
     {
@@ -14382,6 +16056,24 @@ SCNG23
         QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 75
+        WetSpeed = 67
+        Aggression = 20
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.5
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.25
+        QualifyTimeVariance = 0.4
+        DrivingLine = HIGHLINE,FASTEST
+    }
     Watkins_Glen_220
     {
         Tier = 4
@@ -14417,6 +16109,23 @@ SCNG23
         QualifyTime = 30.25
         QualifyTimeVariance = 0.5
         DrivingLine = HIGHLINE,FASTEST
+    }
+    IOWA_350
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 40
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 20
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
     }
     Sonoma_Raceway_NASCAR
     {
@@ -14568,7 +16277,7 @@ SCNG23
         QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 4
         Speed = 70
@@ -14584,6 +16293,24 @@ SCNG23
         QualifyTime = 23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 75
+        WetSpeed = 67
+        Aggression = 20
+        Composure = 70
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.5
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.25
+        QualifyTimeVariance = 0.4
+        DrivingLine = HIGHLINE,FASTEST
     }
     Indianapolis2020_500
     {
@@ -14635,22 +16362,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
         Tier = 4
         Speed = 70
-        QualifySpeed = 70
-        WetSpeed = 70
-        Aggression = 40
-        Composure = 35
+        QualifySpeed = 75
+        WetSpeed = 67
+        Aggression = 20
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 35.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 20
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE
+        MinRacingSkill = 70.00
+        PracticeTime = 30.5
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.25
+        QualifyTimeVariance = 0.4
+        DrivingLine = HIGHLINE,FASTEST
     }
     Martinsville_500
     {
@@ -14699,23 +16427,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 4
-        Speed = 70
-        QualifySpeed = 70
-        WetSpeed = 70
-        Aggression = 40
-        Composure = 35
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 35.00
-        MinRacingSkill = 65.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 4
         Speed = 70
@@ -14746,7 +16458,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 4
         Speed = 70
@@ -14761,6 +16473,22 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 40
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 65.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
     }
     Road_America_GP
     {
@@ -14809,6 +16537,24 @@ SCNG23
         QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 75
+        WetSpeed = 67
+        Aggression = 20
+        Composure = 70
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.5
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.25
+        QualifyTimeVariance = 0.4
+        DrivingLine = HIGHLINE,FASTEST
+    }
     Watkins_Glen_220
     {
         Tier = 4
@@ -14844,6 +16590,23 @@ SCNG23
         QualifyTime = 30.25
         QualifyTimeVariance = 0.5
         DrivingLine = HIGHLINE,FASTEST
+    }
+    IOWA_350
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 40
+        Composure = 35
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 35.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 20
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
     }
     Sonoma_Raceway_NASCAR
     {
@@ -14995,7 +16758,7 @@ SCNG23
         QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 4
         Speed = 70
@@ -15010,6 +16773,24 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTime = 23
         QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 75
+        WetSpeed = 67
+        Aggression = 20
+        Composure = 70
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.5
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.4
+        QualifyTimeVariance = 0.4
         DrivingLine = HIGHLINE,FASTEST
     }
     Indianapolis2020_500
@@ -15062,22 +16843,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
         Tier = 4
         Speed = 70
-        QualifySpeed = 70
-        WetSpeed = 70
-        Aggression = 40
-        Composure = 25
+        QualifySpeed = 75
+        WetSpeed = 67
+        Aggression = 20
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 20
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE
+        MinRacingSkill = 70.00
+        PracticeTime = 30.5
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.4
+        QualifyTimeVariance = 0.4
+        DrivingLine = HIGHLINE,FASTEST
     }
     Martinsville_500
     {
@@ -15126,23 +16908,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 4
-        Speed = 70
-        QualifySpeed = 70
-        WetSpeed = 70
-        Aggression = 40
-        Composure = 25
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 35.00
-        MinRacingSkill = 65.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 4
         Speed = 70
@@ -15173,7 +16939,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 4
         Speed = 70
@@ -15188,6 +16954,22 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 65.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
     }
     Road_America_GP
     {
@@ -15236,6 +17018,24 @@ SCNG23
         QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 75
+        WetSpeed = 67
+        Aggression = 20
+        Composure = 70
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.5
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.4
+        QualifyTimeVariance = 0.4
+        DrivingLine = HIGHLINE,FASTEST
+    }
     Watkins_Glen_220
     {
         Tier = 4
@@ -15271,6 +17071,23 @@ SCNG23
         QualifyTime = 30.4
         QualifyTimeVariance = 0.5
         DrivingLine = HIGHLINE,FASTEST
+    }
+    IOWA_350
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 20
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
     }
     Sonoma_Raceway_NASCAR
     {
@@ -15422,7 +17239,7 @@ SCNG23
         QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 4
         Speed = 70
@@ -15438,6 +17255,24 @@ SCNG23
         QualifyTime = 23.2
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 67
+        Aggression = 20
+        Composure = 70
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.7
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.4
+        QualifyTimeVariance = 0.4
+        DrivingLine = HIGHLINE,FASTEST
     }
     Indianapolis2020_500
     {
@@ -15489,22 +17324,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
         Tier = 4
         Speed = 70
-        QualifySpeed = 65
-        WetSpeed = 65
-        Aggression = 40
-        Composure = 25
+        QualifySpeed = 70
+        WetSpeed = 67
+        Aggression = 20
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 20
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE
+        MinRacingSkill = 70.00
+        PracticeTime = 30.7
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.4
+        QualifyTimeVariance = 0.4
+        DrivingLine = HIGHLINE,FASTEST
     }
     Martinsville_500
     {
@@ -15553,23 +17389,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 4
-        Speed = 70
-        QualifySpeed = 65
-        WetSpeed = 65
-        Aggression = 40
-        Composure = 25
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 35.00
-        MinRacingSkill = 65.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 4
         Speed = 70
@@ -15600,7 +17420,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 4
         Speed = 70
@@ -15615,6 +17435,22 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 65.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
     }
     Road_America_GP
     {
@@ -15663,6 +17499,24 @@ SCNG23
         QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 67
+        Aggression = 20
+        Composure = 70
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.7
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.4
+        QualifyTimeVariance = 0.4
+        DrivingLine = HIGHLINE,FASTEST
+    }
     Watkins_Glen_220
     {
         Tier = 4
@@ -15698,6 +17552,23 @@ SCNG23
         QualifyTime = 30.4
         QualifyTimeVariance = 0.5
         DrivingLine = HIGHLINE,FASTEST
+    }
+    IOWA_350
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 20
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
     }
     Sonoma_Raceway_NASCAR
     {
@@ -15849,7 +17720,7 @@ SCNG23
         QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 4
         Speed = 75
@@ -15864,6 +17735,24 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTime = 23.2
         QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 20
+        Composure = 70
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.7
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.4
+        QualifyTimeVariance = 0.4
         DrivingLine = HIGHLINE,FASTEST
     }
     Indianapolis2020_500
@@ -15916,22 +17805,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
         Tier = 4
-        Speed = 75
-        QualifySpeed = 65
-        WetSpeed = 65
-        Aggression = 40
-        Composure = 25
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 20
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 20
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE
+        MinRacingSkill = 70.00
+        PracticeTime = 30.7
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.4
+        QualifyTimeVariance = 0.4
+        DrivingLine = HIGHLINE,FASTEST
     }
     Martinsville_500
     {
@@ -15980,23 +17870,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 4
-        Speed = 70
-        QualifySpeed = 65
-        WetSpeed = 65
-        Aggression = 40
-        Composure = 25
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 35.00
-        MinRacingSkill = 65.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 4
         Speed = 75
@@ -16027,7 +17901,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 4
         Speed = 75
@@ -16042,6 +17916,22 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 65.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
     }
     Road_America_GP
     {
@@ -16090,6 +17980,24 @@ SCNG23
         QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 20
+        Composure = 70
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.7
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.4
+        QualifyTimeVariance = 0.4
+        DrivingLine = HIGHLINE,FASTEST
+    }
     Watkins_Glen_220
     {
         Tier = 4
@@ -16125,6 +18033,23 @@ SCNG23
         QualifyTime = 30.4
         QualifyTimeVariance = 0.5
         DrivingLine = HIGHLINE,FASTEST
+    }
+    IOWA_350
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 20
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
     }
     Sonoma_Raceway_NASCAR
     {
@@ -16276,7 +18201,7 @@ SCNG23
         QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 4
         Speed = 75
@@ -16292,6 +18217,24 @@ SCNG23
         QualifyTime = 23.2
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 20
+        Composure = 70
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.7
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.4
+        QualifyTimeVariance = 0.4
+        DrivingLine = HIGHLINE,FASTEST
     }
     Indianapolis2020_500
     {
@@ -16343,22 +18286,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
         Tier = 4
-        Speed = 75
-        QualifySpeed = 65
-        WetSpeed = 65
-        Aggression = 40
-        Composure = 25
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 20
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 20
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE
+        MinRacingSkill = 70.00
+        PracticeTime = 30.7
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.4
+        QualifyTimeVariance = 0.4
+        DrivingLine = HIGHLINE,FASTEST
     }
     Martinsville_500
     {
@@ -16407,23 +18351,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 4
-        Speed = 70
-        QualifySpeed = 65
-        WetSpeed = 65
-        Aggression = 40
-        Composure = 25
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 35.00
-        MinRacingSkill = 60.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 4
         Speed = 75
@@ -16454,7 +18382,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 4
         Speed = 75
@@ -16469,6 +18397,22 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 60.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
     }
     Road_America_GP
     {
@@ -16517,6 +18461,24 @@ SCNG23
         QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 70
+        Aggression = 20
+        Composure = 70
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.7
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.4
+        QualifyTimeVariance = 0.4
+        DrivingLine = HIGHLINE,FASTEST
+    }
     Watkins_Glen_220
     {
         Tier = 4
@@ -16552,6 +18514,23 @@ SCNG23
         QualifyTime = 30.4
         QualifyTimeVariance = 0.5
         DrivingLine = HIGHLINE,FASTEST
+    }
+    IOWA_350
+    {
+        Tier = 4
+        Speed = 75
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 40
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 20
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
     }
     Sonoma_Raceway_NASCAR
     {
@@ -16703,7 +18682,7 @@ SCNG23
         QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 4
         Speed = 72
@@ -16718,6 +18697,24 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTime = 23.3
         QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 67
+        Aggression = 20
+        Composure = 70
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.85
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.4
+        QualifyTimeVariance = 0.4
         DrivingLine = HIGHLINE,FASTEST
     }
     Indianapolis2020_500
@@ -16770,22 +18767,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
         Tier = 4
-        Speed = 72
-        QualifySpeed = 65
-        WetSpeed = 65
-        Aggression = 35
-        Composure = 25
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 67
+        Aggression = 20
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 20
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE
+        MinRacingSkill = 70.00
+        PracticeTime = 30.85
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.4
+        QualifyTimeVariance = 0.4
+        DrivingLine = HIGHLINE,FASTEST
     }
     Martinsville_500
     {
@@ -16834,23 +18832,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 4
-        Speed = 70
-        QualifySpeed = 65
-        WetSpeed = 65
-        Aggression = 35
-        Composure = 25
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 35.00
-        MinRacingSkill = 60.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 4
         Speed = 72
@@ -16881,7 +18863,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 4
         Speed = 72
@@ -16896,6 +18878,22 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 35
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 60.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
     }
     Road_America_GP
     {
@@ -16944,6 +18942,24 @@ SCNG23
         QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 70
+        WetSpeed = 67
+        Aggression = 20
+        Composure = 70
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.85
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.4
+        QualifyTimeVariance = 0.4
+        DrivingLine = HIGHLINE,FASTEST
+    }
     Watkins_Glen_220
     {
         Tier = 4
@@ -16979,6 +18995,23 @@ SCNG23
         QualifyTime = 30.4
         QualifyTimeVariance = 0.5
         DrivingLine = HIGHLINE,FASTEST
+    }
+    IOWA_350
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 65
+        WetSpeed = 65
+        Aggression = 35
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 20
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
     }
     Sonoma_Raceway_NASCAR
     {
@@ -17130,7 +19163,7 @@ SCNG23
         QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 4
         Speed = 72
@@ -17146,6 +19179,24 @@ SCNG23
         QualifyTime = 23.3
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 65
+        WetSpeed = 67
+        Aggression = 20
+        Composure = 70
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.85
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.5
+        QualifyTimeVariance = 0.4
+        DrivingLine = HIGHLINE,FASTEST
     }
     Indianapolis2020_500
     {
@@ -17197,22 +19248,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
         Tier = 4
-        Speed = 72
-        QualifySpeed = 60
-        WetSpeed = 60
-        Aggression = 35
-        Composure = 25
+        Speed = 70
+        QualifySpeed = 65
+        WetSpeed = 67
+        Aggression = 20
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 20.1
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE
+        MinRacingSkill = 70.00
+        PracticeTime = 30.85
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.5
+        QualifyTimeVariance = 0.4
+        DrivingLine = HIGHLINE,FASTEST
     }
     Martinsville_500
     {
@@ -17261,23 +19313,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 4
-        Speed = 68
-        QualifySpeed = 60
-        WetSpeed = 60
-        Aggression = 35
-        Composure = 25
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 35.00
-        MinRacingSkill = 55.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 4
         Speed = 72
@@ -17308,7 +19344,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 4
         Speed = 72
@@ -17323,6 +19359,22 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 4
+        Speed = 68
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 35
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 55.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
     }
     Road_America_GP
     {
@@ -17371,6 +19423,24 @@ SCNG23
         QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 65
+        WetSpeed = 67
+        Aggression = 20
+        Composure = 70
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.85
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.5
+        QualifyTimeVariance = 0.4
+        DrivingLine = HIGHLINE,FASTEST
+    }
     Watkins_Glen_220
     {
         Tier = 4
@@ -17406,6 +19476,23 @@ SCNG23
         QualifyTime = 30.5
         QualifyTimeVariance = 0.5
         DrivingLine = HIGHLINE,FASTEST
+    }
+    IOWA_350
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 35
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 20.1
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
     }
     Sonoma_Raceway_NASCAR
     {
@@ -17557,7 +19644,7 @@ SCNG23
         QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 4
         Speed = 72
@@ -17573,6 +19660,24 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTime = 23.3
         QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 65
+        WetSpeed = 67
+        Aggression = 20
+        Composure = 70
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.85
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.5
+        QualifyTimeVariance = 0.4
         DrivingLine = HIGHLINE,FASTEST
     }
     Indianapolis2020_500
@@ -17631,23 +19736,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
         Tier = 4
-        Speed = 72
-        QualifySpeed = 60
-        WetSpeed = 60
-        Aggression = 25
-        Composure = 25
+        Speed = 70
+        QualifySpeed = 65
+        WetSpeed = 67
+        Aggression = 20
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
-        PracticeTime = 31.2
-        PracticeTimeVariance = 0.125
-        QualifyTime = 20.1
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE
+        MinRacingSkill = 70.00
+        PracticeTime = 30.85
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.5
+        QualifyTimeVariance = 0.4
+        DrivingLine = HIGHLINE,FASTEST
     }
     Martinsville_500
     {
@@ -17701,23 +19806,7 @@ SCNG23
         QualifyTime = 31.3
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 4
-        Speed = 67
-        QualifySpeed = 60
-        WetSpeed = 60
-        Aggression = 25
-        Composure = 25
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 35.00
-        MinRacingSkill = 55.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 4
         Speed = 72
@@ -17750,7 +19839,7 @@ SCNG23
         QualifyTime = 31.3
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 4
         Speed = 72
@@ -17767,6 +19856,22 @@ SCNG23
         QualifyTime = 31.3
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 4
+        Speed = 67
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 25
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 55.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
     }
     Road_America_GP
     {
@@ -17815,6 +19920,24 @@ SCNG23
         QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 4
+        Speed = 70
+        QualifySpeed = 65
+        WetSpeed = 67
+        Aggression = 20
+        Composure = 70
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 70.00
+        PracticeTime = 30.85
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.5
+        QualifyTimeVariance = 0.4
+        DrivingLine = HIGHLINE,FASTEST
+    }
     Watkins_Glen_220
     {
         Tier = 4
@@ -17850,6 +19973,24 @@ SCNG23
         QualifyTime = 30.5
         QualifyTimeVariance = 0.5
         DrivingLine = HIGHLINE,FASTEST
+    }
+    IOWA_350
+    {
+        Tier = 4
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 25
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTime = 31.2
+        PracticeTimeVariance = 0.125
+        QualifyTime = 20.1
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
     }
     Sonoma_Raceway_NASCAR
     {
@@ -18001,7 +20142,7 @@ SCNG23
         QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 5
         Speed = 72
@@ -18017,6 +20158,24 @@ SCNG23
         QualifyTime = 23.3
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 5
+        Speed = 67
+        QualifySpeed = 65
+        WetSpeed = 67
+        Aggression = 20
+        Composure = 70
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 70.00
+        PracticeTime = 31
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.5
+        QualifyTimeVariance = 0.4
+        DrivingLine = HIGHLINE,FASTEST
     }
     Indianapolis2020_500
     {
@@ -18068,22 +20227,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
         Tier = 5
-        Speed = 72
-        QualifySpeed = 60
-        WetSpeed = 60
-        Aggression = 25
-        Composure = 25
+        Speed = 67
+        QualifySpeed = 65
+        WetSpeed = 67
+        Aggression = 20
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 20.2
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE
+        MinRacingSkill = 70.00
+        PracticeTime = 31
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.5
+        QualifyTimeVariance = 0.4
+        DrivingLine = HIGHLINE,FASTEST
     }
     Martinsville_500
     {
@@ -18132,23 +20292,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 5
-        Speed = 67
-        QualifySpeed = 60
-        WetSpeed = 60
-        Aggression = 25
-        Composure = 25
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 35.00
-        MinRacingSkill = 55.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 5
         Speed = 72
@@ -18179,7 +20323,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 5
         Speed = 72
@@ -18194,6 +20338,22 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 5
+        Speed = 67
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 25
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 55.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
     }
     Road_America_GP
     {
@@ -18242,6 +20402,24 @@ SCNG23
         QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 5
+        Speed = 67
+        QualifySpeed = 65
+        WetSpeed = 67
+        Aggression = 20
+        Composure = 70
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 70.00
+        PracticeTime = 31
+        PracticeTimeVariance = 0.4
+        QualifyTime = 30.5
+        QualifyTimeVariance = 0.4
+        DrivingLine = HIGHLINE,FASTEST
+    }
     Watkins_Glen_220
     {
         Tier = 2
@@ -18277,6 +20455,23 @@ SCNG23
         QualifyTime = 30.5
         QualifyTimeVariance = 0.5
         DrivingLine = HIGHLINE,FASTEST
+    }
+    IOWA_350
+    {
+        Tier = 5
+        Speed = 72
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 25
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 20.2
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
     }
     Sonoma_Raceway_NASCAR
     {
@@ -18428,7 +20623,7 @@ SCNG23
         QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 5
         Speed = 65
@@ -18443,6 +20638,24 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTime = 23.3
         QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 5
+        Speed = 65
+        QualifySpeed = 65
+        WetSpeed = 62
+        Aggression = 20
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 70.00
+        PracticeTime = 31
+        PracticeTimeVariance = 0.5
+        QualifyTime = 30.75
+        QualifyTimeVariance = 0.5
         DrivingLine = HIGHLINE,FASTEST
     }
     Indianapolis2020_500
@@ -18495,22 +20708,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
         Tier = 5
         Speed = 65
-        QualifySpeed = 60
-        WetSpeed = 60
-        Aggression = 35
-        Composure = 25
+        QualifySpeed = 65
+        WetSpeed = 62
+        Aggression = 20
+        Composure = 75
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 20.2
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE
+        MinRacingSkill = 70.00
+        PracticeTime = 31
+        PracticeTimeVariance = 0.5
+        QualifyTime = 30.75
+        QualifyTimeVariance = 0.5
+        DrivingLine = HIGHLINE,FASTEST
     }
     Martinsville_500
     {
@@ -18559,23 +20773,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 5
-        Speed = 65
-        QualifySpeed = 60
-        WetSpeed = 60
-        Aggression = 35
-        Composure = 25
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 35.00
-        MinRacingSkill = 45.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 5
         Speed = 65
@@ -18606,7 +20804,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 5
         Speed = 65
@@ -18621,6 +20819,22 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 5
+        Speed = 65
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 35
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 45.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
     }
     Road_America_GP
     {
@@ -18669,6 +20883,24 @@ SCNG23
         QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 5
+        Speed = 65
+        QualifySpeed = 65
+        WetSpeed = 62
+        Aggression = 20
+        Composure = 75
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 70.00
+        PracticeTime = 31
+        PracticeTimeVariance = 0.5
+        QualifyTime = 30.75
+        QualifyTimeVariance = 0.5
+        DrivingLine = HIGHLINE,FASTEST
+    }
     Watkins_Glen_220
     {
         Tier = 5
@@ -18704,6 +20936,23 @@ SCNG23
         QualifyTime = 30.75
         QualifyTimeVariance = 0.5
         DrivingLine = HIGHLINE,FASTEST
+    }
+    IOWA_350
+    {
+        Tier = 5
+        Speed = 65
+        QualifySpeed = 60
+        WetSpeed = 60
+        Aggression = 35
+        Composure = 25
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 20.2
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
     }
     Sonoma_Raceway_NASCAR
     {
@@ -18855,7 +21104,7 @@ SCNG23
         QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 5
         Speed = 60
@@ -18871,6 +21120,24 @@ SCNG23
         QualifyTime = 23.4
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 5
+        Speed = 65
+        QualifySpeed = 60
+        WetSpeed = 58
+        Aggression = 20
+        Composure = 70
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 70.00
+        PracticeTime = 31
+        PracticeTimeVariance = 0.5
+        QualifyTime = 30.75
+        QualifyTimeVariance = 0.5
+        DrivingLine = HIGHLINE,FASTEST
     }
     Indianapolis2020_500
     {
@@ -18922,22 +21189,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
         Tier = 5
-        Speed = 60
-        QualifySpeed = 55
-        WetSpeed = 55
-        Aggression = 25
-        Composure = 15
+        Speed = 65
+        QualifySpeed = 60
+        WetSpeed = 58
+        Aggression = 20
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 20.3
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE
+        MinRacingSkill = 70.00
+        PracticeTime = 31
+        PracticeTimeVariance = 0.5
+        QualifyTime = 30.75
+        QualifyTimeVariance = 0.5
+        DrivingLine = HIGHLINE,FASTEST
     }
     Martinsville_500
     {
@@ -18986,23 +21254,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 5
-        Speed = 65
-        QualifySpeed = 55
-        WetSpeed = 55
-        Aggression = 25
-        Composure = 15
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 35.00
-        MinRacingSkill = 45.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 5
         Speed = 60
@@ -19033,7 +21285,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 5
         Speed = 60
@@ -19048,6 +21300,22 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 5
+        Speed = 65
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 25
+        Composure = 15
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 45.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
     }
     Road_America_GP
     {
@@ -19096,6 +21364,24 @@ SCNG23
         QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 5
+        Speed = 65
+        QualifySpeed = 60
+        WetSpeed = 58
+        Aggression = 20
+        Composure = 70
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 70.00
+        PracticeTime = 31
+        PracticeTimeVariance = 0.5
+        QualifyTime = 30.75
+        QualifyTimeVariance = 0.5
+        DrivingLine = HIGHLINE,FASTEST
+    }
     Watkins_Glen_220
     {
         Tier = 5
@@ -19131,6 +21417,23 @@ SCNG23
         QualifyTime = 30.75
         QualifyTimeVariance = 0.5
         DrivingLine = HIGHLINE,FASTEST
+    }
+    IOWA_350
+    {
+        Tier = 5
+        Speed = 60
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 25
+        Composure = 15
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 20.3
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
     }
     Sonoma_Raceway_NASCAR
     {
@@ -19282,7 +21585,7 @@ SCNG23
         QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 5
         Speed = 55
@@ -19297,6 +21600,24 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTime = 23.4
         QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 5
+        Speed = 65
+        QualifySpeed = 60
+        WetSpeed = 52
+        Aggression = 20
+        Composure = 70
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 70.00
+        PracticeTime = 31
+        PracticeTimeVariance = 0.5
+        QualifyTime = 30.75
+        QualifyTimeVariance = 0.5
         DrivingLine = HIGHLINE,FASTEST
     }
     Indianapolis2020_500
@@ -19349,22 +21670,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
         Tier = 5
-        Speed = 55
-        QualifySpeed = 55
-        WetSpeed = 55
-        Aggression = 25
-        Composure = 15
+        Speed = 65
+        QualifySpeed = 60
+        WetSpeed = 52
+        Aggression = 20
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 20.3
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE
+        MinRacingSkill = 70.00
+        PracticeTime = 31
+        PracticeTimeVariance = 0.5
+        QualifyTime = 30.75
+        QualifyTimeVariance = 0.5
+        DrivingLine = HIGHLINE,FASTEST
     }
     Martinsville_500
     {
@@ -19413,23 +21735,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 5
-        Speed = 62
-        QualifySpeed = 55
-        WetSpeed = 55
-        Aggression = 25
-        Composure = 15
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 35.00
-        MinRacingSkill = 45.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 5
         Speed = 55
@@ -19460,7 +21766,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 5
         Speed = 55
@@ -19475,6 +21781,22 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 5
+        Speed = 62
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 25
+        Composure = 15
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 45.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
     }
     Road_America_GP
     {
@@ -19523,6 +21845,24 @@ SCNG23
         QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 5
+        Speed = 65
+        QualifySpeed = 60
+        WetSpeed = 52
+        Aggression = 20
+        Composure = 70
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 70.00
+        PracticeTime = 31
+        PracticeTimeVariance = 0.5
+        QualifyTime = 30.75
+        QualifyTimeVariance = 0.5
+        DrivingLine = HIGHLINE,FASTEST
+    }
     Watkins_Glen_220
     {
         Tier = 5
@@ -19558,6 +21898,23 @@ SCNG23
         QualifyTime = 30.75
         QualifyTimeVariance = 0.5
         DrivingLine = HIGHLINE,FASTEST
+    }
+    IOWA_350
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 25
+        Composure = 15
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 20.3
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
     }
     Sonoma_Raceway_NASCAR
     {
@@ -19709,7 +22066,7 @@ SCNG23
         QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
-    Dover_2016
+    Dover_400
     {
         Tier = 5
         Speed = 55
@@ -19724,6 +22081,24 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTime = 23.5
         QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE,FASTEST
+    }
+    Homestead_400
+    {
+        Tier = 5
+        Speed = 65
+        QualifySpeed = 60
+        WetSpeed = 52
+        Aggression = 20
+        Composure = 70
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 70.00
+        PracticeTime = 31
+        PracticeTimeVariance = 0.5
+        QualifyTime = 30.75
+        QualifyTimeVariance = 0.5
         DrivingLine = HIGHLINE,FASTEST
     }
     Indianapolis2020_500
@@ -19776,22 +22151,23 @@ SCNG23
         QualifyTimeVariance = 0.125
         DrivingLine = HIGHLINE,FASTEST
     }
-    Martinsville_2016
+    Las_Vegas_400
     {
         Tier = 5
-        Speed = 55
-        QualifySpeed = 55
-        WetSpeed = 55
-        Aggression = 35
-        Composure = 15
+        Speed = 65
+        QualifySpeed = 60
+        WetSpeed = 52
+        Aggression = 20
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
-        PracticeTimeVariance = 0.125
-        QualifyTime = 20.3
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE
+        MinRacingSkill = 70.00
+        PracticeTime = 31
+        PracticeTimeVariance = 0.5
+        QualifyTime = 30.75
+        QualifyTimeVariance = 0.5
+        DrivingLine = HIGHLINE,FASTEST
     }
     Martinsville_500
     {
@@ -19840,23 +22216,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Richmond_400
-    {
-        Tier = 5
-        Speed = 62
-        QualifySpeed = 55
-        WetSpeed = 55
-        Aggression = 35
-        Composure = 15
-        Courtesy = 99
-        Recovery = 99
-        StartSkill = 35.00
-        MinRacingSkill = 45.00
-        PracticeTimeVariance = 0.125
-        QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE
-    }
-    North_Wilkesboro
+    North_Wilkesboro_250
     {
         Tier = 5
         Speed = 55
@@ -19886,7 +22246,7 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
     }
-    Pocono_2016
+    Pocono_400
     {
         Tier = 5
         Speed = 55
@@ -19901,6 +22261,22 @@ SCNG23
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
+    }
+    Richmond_400
+    {
+        Tier = 5
+        Speed = 62
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 35
+        Composure = 15
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 45.00
+        PracticeTimeVariance = 0.125
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
     }
     Road_America_GP
     {
@@ -19949,6 +22325,24 @@ SCNG23
         QualifyTimeVariance = 0.5
         DrivingLine = FASTEST
     }
+    Texas_500
+    {
+        Tier = 5
+        Speed = 65
+        QualifySpeed = 60
+        WetSpeed = 52
+        Aggression = 20
+        Composure = 70
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 70.00
+        PracticeTime = 31
+        PracticeTimeVariance = 0.5
+        QualifyTime = 30.75
+        QualifyTimeVariance = 0.5
+        DrivingLine = HIGHLINE,FASTEST
+    }
     Watkins_Glen_220
     {
         Tier = 5
@@ -19984,6 +22378,23 @@ SCNG23
         QualifyTime = 30.75
         QualifyTimeVariance = 0.5
         DrivingLine = HIGHLINE,FASTEST
+    }
+    IOWA_350
+    {
+        Tier = 5
+        Speed = 55
+        QualifySpeed = 55
+        WetSpeed = 55
+        Aggression = 35
+        Composure = 15
+        Courtesy = 99
+        Recovery = 99
+        StartSkill = 35.00
+        MinRacingSkill = 25.00
+        PracticeTimeVariance = 0.125
+        QualifyTime = 20.3
+        QualifyTimeVariance = 0.125
+        DrivingLine = HIGHLINE
     }
     Sonoma_Raceway_NASCAR
     {
