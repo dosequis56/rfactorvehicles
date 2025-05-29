@@ -1,0 +1,93 @@
+{
+  "dstBlend" : "CUBEAB_INVSRCALPHA",
+  "flags" : [ "CUBEMAT_ALPHACHANNEL", "CUBEMAT_SPECULAR", "CUBEMAT_TWOSIDED", "CUBEMAT_AMBIENTMAT", "CUBEMAT_DIFFUSEMAT", "CUBEMAT_SPECLARDIR", "CUBEMAT_EMISSIVMAT", "CUBEMAT_EMISSIVDIR" ],
+  "name" : "ASMG_FH25_GLASS",
+  "parameters" : {
+    "StandardInfo" : {
+      "ambientColour" : [ 1, 1, 1, 1 ],
+      "blendPercent" : 20,
+      "bumpScale" : 1,
+      "cubeMapFresnel" : {
+        "Exp" : 4,
+        "Max" : 1,
+        "Min" : 0
+      },
+      "diffuseColour" : [ 1, 1, 1, 1 ],
+      "emissiveColour" : [ 0, 0, 0, 1 ],
+      "refEnhance" : 0,
+      "specFresnel" : {
+        "Exp" : 4,
+        "Max" : 1,
+        "Min" : 0
+      },
+      "specPower" : 1,
+      "specularColour" : [ 1, 1, 1, 1 ]
+    },
+    "cbParameters" : {
+      "Material_Adjust" : {
+        "AlbedoTint" : [ 1, 1, 1, 1 ],
+        "FarLight" : 1,
+        "Frosting" : 0.5,
+        "NormalIntensity" : 1,
+        "NormalShadowInfluence" : 0.5,
+        "Roughness" : 0.5
+      },
+      "UV_Scale" : {
+        "Albedo" : [ 1, 1 ],
+        "Normal" : [ 1, 1 ]
+      }
+    }
+  },
+  "preprocessorFlags" : {
+    "ALBEDOMAP" : "@Null",
+    "ALBEDOUV" : "UV_A",
+    "COCKPIT_MODE" : "1",
+    "NOALBEDOCORRECT" : "@Undef",
+    "NORMALMAP" : "@Null",
+    "NORMALUV" : "UV_A",
+    "OCCLAMB" : "@Undef",
+    "OCCLROUGH" : "@Null",
+    "OCCLROUGHUV" : "UV_A",
+    "OCCLSPEC" : "@Undef",
+    "OCCLUSIONROUGHNESSMAP" : "@Undef",
+    "VERTEXALPHA" : "@Undef",
+    "VERTEXCOLOR" : "@Undef"
+  },
+  "refName" : "REFMAP0",
+  "shader" : "L2IBLGLASS",
+  "sortOffset" : 0,
+  "srcBlend" : "CUBEAB_SRCALPHA",
+  "textures" : [ {
+    "AnisoLevel" : 0,
+    "ChromaColor" : 0,
+    "Flags" : [ "CUBETF_OWNEDBYMATERIAL" ],
+    "FrameCount" : 1,
+    "MipBias" : 0,
+    "MipLevels" : 1,
+    "Name" : "albedoMap",
+    "ShaderPass" : 0,
+    "ShadowMipBias" : 0,
+    "StageType" : "CUBETST_SRGB",
+    "TexChannel" : 0,
+    "Texture" : "windshield",
+    "hasDefault" : true,
+    "inactive" : false,
+    "runtime" : false
+  }, {
+    "AnisoLevel" : 0,
+    "ChromaColor" : 0,
+    "Flags" : [ "CUBETF_AUTOMIPMAP", "CUBETF_TRILINEAR", "CUBETF_OWNEDBYMATERIAL", "CUBETF_NOZBUFFERREQUIRED" ],
+    "FrameCount" : 1,
+    "MipBias" : 0,
+    "MipLevels" : -1,
+    "Name" : "normalMap",
+    "ShaderPass" : 0,
+    "ShadowMipBias" : 0,
+    "StageType" : "CUBETST_LINEAR",
+    "TexChannel" : 1,
+    "Texture" : "bump",
+    "hasDefault" : true,
+    "inactive" : false,
+    "runtime" : false
+  } ]
+}

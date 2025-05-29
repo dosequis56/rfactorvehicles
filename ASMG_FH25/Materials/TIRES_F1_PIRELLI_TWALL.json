@@ -1,0 +1,160 @@
+{
+  "dstBlend" : "CUBEAB_ZERO",
+  "flags" : [ "CUBEMAT_SPECULAR", "CUBEMAT_TWOSIDED", "CUBEMAT_AMBIENTMAT", "CUBEMAT_DIFFUSEMAT", "CUBEMAT_SPECLARDIR", "CUBEMAT_EMISSIVMAT", "CUBEMAT_EMISSIVDIR" ],
+  "name" : "TIRES_F1_PIRELLI_TWALL",
+  "parameters" : {
+    "StandardInfo" : {
+      "ambientColour" : [ 1, 1, 1, 1 ],
+      "blendPercent" : 0,
+      "bumpScale" : 1,
+      "cubeMapFresnel" : {
+        "Exp" : 4,
+        "Max" : 1,
+        "Min" : 0
+      },
+      "diffuseColour" : [ 1, 1, 1, 1 ],
+      "emissiveColour" : [ 0, 0, 0, 1 ],
+      "refEnhance" : 0,
+      "specFresnel" : {
+        "Exp" : 4,
+        "Max" : 1,
+        "Min" : 0
+      },
+      "specPower" : 1,
+      "specularColour" : [ 1, 1, 1, 1 ]
+    },
+    "cbParameters" : {
+      "Material_Adjust" : {
+        "AlbedoTint" : [ 0.823529, 0.823529, 0.823529, 1 ],
+        "NormalIntensity" : 1,
+        "NormalShadowInfluence" : 0,
+        "Roughness" : 0.16,
+        "Specular" : 0.54
+      },
+      "Wear_Darkening" : {
+        "AlbedoMultiply" : 1,
+        "RoughnessAdjust" : 0.25
+      }
+    }
+  },
+  "preprocessorFlags" : {
+    "DAMAGEBLEND" : "@Null",
+    "DEBUGMODE" : "@Undef",
+    "GROUNDDAMPING" : "@Null",
+    "TREADDAMPING" : "@Undef",
+    "WEARDARKENING" : "@Null"
+  },
+  "refName" : "REFMAP0",
+  "shader" : "L2IBLCARTYRE",
+  "sortOffset" : 0,
+  "srcBlend" : "CUBEAB_ONE",
+  "textures" : [ {
+    "AnisoLevel" : 0,
+    "ChromaColor" : 0,
+    "Flags" : [ "CUBETF_AUTOMIPMAP", "CUBETF_TRILINEAR", "CUBETF_OWNEDBYMATERIAL", "CUBETF_NOZBUFFERREQUIRED" ],
+    "FrameCount" : 20,
+    "Method" : "CUBETAM_RANDOM",
+    "MipBias" : 0,
+    "MipLevels" : -1,
+    "Name" : "albedoRoughMap",
+    "Rate" : 1,
+    "Sequence" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 ],
+    "ShaderPass" : 0,
+    "ShadowMipBias" : 0,
+    "SkipFrame0" : false,
+    "StageType" : "CUBETST_DIFFUSEMAP",
+    "TexChannel" : 0,
+    "Texture" : "tyres_f1_pirelli_twall",
+    "hasDefault" : true,
+    "inactive" : false,
+    "runtime" : false
+  }, {
+    "AnisoLevel" : 0,
+    "ChromaColor" : 0,
+    "Flags" : [ "CUBETF_AUTOMIPMAP", "CUBETF_TRILINEAR", "CUBETF_OWNEDBYMATERIAL", "CUBETF_NOZBUFFERREQUIRED" ],
+    "FrameCount" : 20,
+    "Method" : "CUBETAM_RANDOM",
+    "MipBias" : 0,
+    "MipLevels" : -1,
+    "Name" : "aoSpecularMap",
+    "Rate" : 1,
+    "Sequence" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 ],
+    "ShaderPass" : 0,
+    "ShadowMipBias" : 0,
+    "SkipFrame0" : false,
+    "StageType" : "CUBETST_BUMPMAP",
+    "TexChannel" : 3,
+    "Texture" : "tyres_f1_pirelli_twall_s",
+    "hasDefault" : true,
+    "inactive" : false,
+    "runtime" : false
+  }, {
+    "AnisoLevel" : 0,
+    "ChromaColor" : 0,
+    "Flags" : [ "CUBETF_AUTOMIPMAP", "CUBETF_TRILINEAR", "CUBETF_OWNEDBYMATERIAL", "CUBETF_NOZBUFFERREQUIRED" ],
+    "FrameCount" : 1,
+    "MipBias" : 0,
+    "MipLevels" : -1,
+    "Name" : "damageAlbedoRoughMap",
+    "ShaderPass" : 0,
+    "ShadowMipBias" : 0,
+    "StageType" : "CUBETST_DIFFUSEMAP",
+    "TexChannel" : 1,
+    "Texture" : "tyres_twall_d",
+    "hasDefault" : true,
+    "inactive" : false,
+    "runtime" : false
+  }, {
+    "AnisoLevel" : 0,
+    "ChromaColor" : 0,
+    "Flags" : [ "CUBETF_AUTOMIPMAP", "CUBETF_TRILINEAR", "CUBETF_OWNEDBYMATERIAL", "CUBETF_NOZBUFFERREQUIRED" ],
+    "FrameCount" : 1,
+    "MipBias" : 0,
+    "MipLevels" : -1,
+    "Name" : "damageAoSpecularMap",
+    "ShaderPass" : 0,
+    "ShadowMipBias" : 0,
+    "StageType" : "CUBETST_BUMPMAP",
+    "TexChannel" : 5,
+    "Texture" : "tyres_twall_d_s",
+    "hasDefault" : true,
+    "inactive" : false,
+    "runtime" : false
+  }, {
+    "AnisoLevel" : 0,
+    "ChromaColor" : 0,
+    "Flags" : [ "CUBETF_AUTOMIPMAP", "CUBETF_TRILINEAR", "CUBETF_OWNEDBYMATERIAL", "CUBETF_NOZBUFFERREQUIRED" ],
+    "FrameCount" : 1,
+    "MipBias" : 0,
+    "MipLevels" : -1,
+    "Name" : "damageNormalMap",
+    "ShaderPass" : 0,
+    "ShadowMipBias" : 0,
+    "StageType" : "CUBETST_BUMPMAP",
+    "TexChannel" : 6,
+    "Texture" : "tyres_twall_d_b",
+    "hasDefault" : true,
+    "inactive" : false,
+    "runtime" : false
+  }, {
+    "AnisoLevel" : 0,
+    "ChromaColor" : 0,
+    "Flags" : [ "CUBETF_AUTOMIPMAP", "CUBETF_TRILINEAR", "CUBETF_OWNEDBYMATERIAL", "CUBETF_NOZBUFFERREQUIRED" ],
+    "FrameCount" : 20,
+    "Method" : "CUBETAM_RANDOM",
+    "MipBias" : 0,
+    "MipLevels" : -1,
+    "Name" : "normalMap",
+    "Rate" : 1,
+    "Sequence" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 ],
+    "ShaderPass" : 0,
+    "ShadowMipBias" : 0,
+    "SkipFrame0" : false,
+    "StageType" : "CUBETST_BUMPMAP",
+    "TexChannel" : 4,
+    "Texture" : "tyres_f1_pirelli_twall_b",
+    "hasDefault" : true,
+    "inactive" : false,
+    "runtime" : false
+  } ]
+}
