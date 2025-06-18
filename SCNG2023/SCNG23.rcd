@@ -1021,15 +1021,15 @@ SCNG23
     North_Wilkesboro_250
     {
         Tier = 1
-        Speed = 99
+        Speed = 88
         QualifySpeed = 99
         WetSpeed = 99
-        Aggression = 95
+        Aggression = 55
         Composure = 99
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
+        MinRacingSkill = 85.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -1053,7 +1053,7 @@ SCNG23
     Pocono_400
     {
         Tier = 1
-        Speed = 99
+        Speed = 80
         QualifySpeed = 99
         WetSpeed = 99
         Aggression = 95
@@ -1061,7 +1061,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
+        MinRacingSkill = 90.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -1515,15 +1515,15 @@ SCNG23
     North_Wilkesboro_250
     {
         Tier = 1
-        Speed = 99
+        Speed = 88
         QualifySpeed = 99
         WetSpeed = 99
-        Aggression = 95
+        Aggression = 55
         Composure = 99
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
+        MinRacingSkill = 85.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -1547,7 +1547,7 @@ SCNG23
     Pocono_400
     {
         Tier = 1
-        Speed = 99
+        Speed = 80
         QualifySpeed = 99
         WetSpeed = 99
         Aggression = 95
@@ -1555,7 +1555,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
+        MinRacingSkill = 90.00
         PracticeTime = 31.2
         PracticeTimeVariance = 0.125
         QualifyTime = 31.2
@@ -2000,15 +2000,15 @@ SCNG23
     North_Wilkesboro_250
     {
         Tier = 1
-        Speed = 92
+        Speed = 85
         QualifySpeed = 88
         WetSpeed = 90
-        Aggression = 75
+        Aggression = 55
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
+        MinRacingSkill = 85.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -2031,15 +2031,15 @@ SCNG23
     Pocono_400
     {
         Tier = 1
-        Speed = 92
-        QualifySpeed = 88
+        Speed = 80
+        QualifySpeed = 92
         WetSpeed = 90
         Aggression = 75
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
+        MinRacingSkill = 90.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -2481,15 +2481,15 @@ SCNG23
     North_Wilkesboro_250
     {
         Tier = 1
-        Speed = 93
-        QualifySpeed = 92
+        Speed = 85
+        QualifySpeed = 97
         WetSpeed = 85
-        Aggression = 75
+        Aggression = 55
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
+        MinRacingSkill = 85.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -2512,15 +2512,15 @@ SCNG23
     Pocono_400
     {
         Tier = 1
-        Speed = 93
-        QualifySpeed = 92
-        WetSpeed = 85
+        Speed = 80
+        QualifySpeed = 96
+        WetSpeed = 90
         Aggression = 75
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
+        MinRacingSkill = 90.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -2962,15 +2962,15 @@ SCNG23
     North_Wilkesboro_250
     {
         Tier = 1
-        Speed = 95
-        QualifySpeed = 90
+        Speed = 85
+        QualifySpeed = 95
         WetSpeed = 90
-        Aggression = 80
+        Aggression = 55
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
+        MinRacingSkill = 85.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -2993,15 +2993,15 @@ SCNG23
     Pocono_400
     {
         Tier = 1
-        Speed = 95
-        QualifySpeed = 90
+        Speed = 80
+        QualifySpeed = 95
         WetSpeed = 90
         Aggression = 80
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
+        MinRacingSkill = 90.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -3443,15 +3443,15 @@ SCNG23
     North_Wilkesboro_250
     {
         Tier = 1
-        Speed = 92
-        QualifySpeed = 91
+        Speed = 85
+        QualifySpeed = 93
         WetSpeed = 88
-        Aggression = 80
+        Aggression = 55
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
+        MinRacingSkill = 85.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -3474,15 +3474,15 @@ SCNG23
     Pocono_400
     {
         Tier = 1
-        Speed = 92
-        QualifySpeed = 91
+        Speed = 78
+        QualifySpeed = 93
         WetSpeed = 88
         Aggression = 80
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
+        MinRacingSkill = 90.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -3924,15 +3924,15 @@ SCNG23
     North_Wilkesboro_250
     {
         Tier = 1
-        Speed = 92
-        QualifySpeed = 85
+        Speed = 85
+        QualifySpeed = 88
         WetSpeed = 90
-        Aggression = 65
+        Aggression = 55
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
+        MinRacingSkill = 85.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -3955,15 +3955,15 @@ SCNG23
     Pocono_400
     {
         Tier = 1
-        Speed = 92
-        QualifySpeed = 85
+        Speed = 78
+        QualifySpeed = 92
         WetSpeed = 90
         Aggression = 65
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
+        MinRacingSkill = 90.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -4405,15 +4405,15 @@ SCNG23
     North_Wilkesboro_250
     {
         Tier = 1
-        Speed = 92
-        QualifySpeed = 85
+        Speed = 85
+        QualifySpeed = 88
         WetSpeed = 80
-        Aggression = 65
+        Aggression = 55
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
+        MinRacingSkill = 85.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -4436,15 +4436,15 @@ SCNG23
     Pocono_400
     {
         Tier = 1
-        Speed = 92
-        QualifySpeed = 85
+        Speed = 78
+        QualifySpeed = 90
         WetSpeed = 80
         Aggression = 65
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
+        MinRacingSkill = 90.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -4886,15 +4886,15 @@ SCNG23
     North_Wilkesboro_250
     {
         Tier = 1
-        Speed = 95
-        QualifySpeed = 90
+        Speed = 88
+        QualifySpeed = 92
         WetSpeed = 88
-        Aggression = 75
+        Aggression = 55
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
+        MinRacingSkill = 85.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -4917,15 +4917,15 @@ SCNG23
     Pocono_400
     {
         Tier = 1
-        Speed = 95
-        QualifySpeed = 90
+        Speed = 80
+        QualifySpeed = 94
         WetSpeed = 88
         Aggression = 75
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
+        MinRacingSkill = 90.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -5367,10 +5367,10 @@ SCNG23
     North_Wilkesboro_250
     {
         Tier = 2
-        Speed = 88
+        Speed = 84
         QualifySpeed = 85
         WetSpeed = 85
-        Aggression = 95
+        Aggression = 55
         Composure = 85
         Courtesy = 99
         Recovery = 99
@@ -5398,8 +5398,8 @@ SCNG23
     Pocono_400
     {
         Tier = 2
-        Speed = 88
-        QualifySpeed = 85
+        Speed = 76
+        QualifySpeed = 90
         WetSpeed = 85
         Aggression = 95
         Composure = 85
@@ -5848,10 +5848,10 @@ SCNG23
     North_Wilkesboro_250
     {
         Tier = 2
-        Speed = 88
+        Speed = 84
         QualifySpeed = 80
         WetSpeed = 88
-        Aggression = 50
+        Aggression = 55
         Composure = 85
         Courtesy = 99
         Recovery = 99
@@ -5879,8 +5879,8 @@ SCNG23
     Pocono_400
     {
         Tier = 2
-        Speed = 88
-        QualifySpeed = 80
+        Speed = 76
+        QualifySpeed = 87
         WetSpeed = 88
         Aggression = 50
         Composure = 85
@@ -6329,10 +6329,10 @@ SCNG23
     North_Wilkesboro_250
     {
         Tier = 2
-        Speed = 88
+        Speed = 84
         QualifySpeed = 88
         WetSpeed = 85
-        Aggression = 50
+        Aggression = 55
         Composure = 80
         Courtesy = 99
         Recovery = 99
@@ -6360,7 +6360,7 @@ SCNG23
     Pocono_400
     {
         Tier = 2
-        Speed = 88
+        Speed = 78
         QualifySpeed = 88
         WetSpeed = 85
         Aggression = 50
@@ -6810,10 +6810,10 @@ SCNG23
     North_Wilkesboro_250
     {
         Tier = 2
-        Speed = 88
+        Speed = 83
         QualifySpeed = 87
         WetSpeed = 87
-        Aggression = 95
+        Aggression = 55
         Composure = 80
         Courtesy = 99
         Recovery = 99
@@ -6841,7 +6841,7 @@ SCNG23
     Pocono_400
     {
         Tier = 2
-        Speed = 88
+        Speed = 75
         QualifySpeed = 87
         WetSpeed = 87
         Aggression = 95
@@ -7291,7 +7291,7 @@ SCNG23
     North_Wilkesboro_250
     {
         Tier = 2
-        Speed = 85
+        Speed = 82
         QualifySpeed = 89
         WetSpeed = 85
         Aggression = 50
@@ -7322,8 +7322,8 @@ SCNG23
     Pocono_400
     {
         Tier = 2
-        Speed = 85
-        QualifySpeed = 89
+        Speed = 75
+        QualifySpeed = 85
         WetSpeed = 85
         Aggression = 50
         Composure = 75
@@ -7772,7 +7772,7 @@ SCNG23
     North_Wilkesboro_250
     {
         Tier = 2
-        Speed = 85
+        Speed = 82
         QualifySpeed = 85
         WetSpeed = 85
         Aggression = 50
@@ -7803,7 +7803,7 @@ SCNG23
     Pocono_400
     {
         Tier = 2
-        Speed = 85
+        Speed = 77
         QualifySpeed = 85
         WetSpeed = 85
         Aggression = 50
@@ -8253,7 +8253,7 @@ SCNG23
     North_Wilkesboro_250
     {
         Tier = 2
-        Speed = 85
+        Speed = 82
         QualifySpeed = 83
         WetSpeed = 85
         Aggression = 50
@@ -8284,7 +8284,7 @@ SCNG23
     Pocono_400
     {
         Tier = 2
-        Speed = 85
+        Speed = 75
         QualifySpeed = 83
         WetSpeed = 85
         Aggression = 50
@@ -8734,7 +8734,7 @@ SCNG23
     North_Wilkesboro_250
     {
         Tier = 2
-        Speed = 85
+        Speed = 80
         QualifySpeed = 88
         WetSpeed = 85
         Aggression = 50
@@ -8742,7 +8742,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 65.00
+        MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -8765,7 +8765,7 @@ SCNG23
     Pocono_400
     {
         Tier = 2
-        Speed = 85
+        Speed = 76
         QualifySpeed = 88
         WetSpeed = 85
         Aggression = 50
@@ -9215,15 +9215,15 @@ SCNG23
     North_Wilkesboro_250
     {
         Tier = 2
-        Speed = 80
+        Speed = 78
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 55
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 65.00
+        MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -9246,7 +9246,7 @@ SCNG23
     Pocono_400
     {
         Tier = 2
-        Speed = 80
+        Speed = 73
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
@@ -9696,15 +9696,15 @@ SCNG23
     North_Wilkesboro_250
     {
         Tier = 2
-        Speed = 80
+        Speed = 78
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 55
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 65.00
+        MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -9727,7 +9727,7 @@ SCNG23
     Pocono_400
     {
         Tier = 2
-        Speed = 80
+        Speed = 73
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
@@ -10177,15 +10177,15 @@ SCNG23
     North_Wilkesboro_250
     {
         Tier = 2
-        Speed = 80
+        Speed = 78
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 55
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 55.00
+        MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -10208,7 +10208,7 @@ SCNG23
     Pocono_400
     {
         Tier = 2
-        Speed = 80
+        Speed = 72
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
@@ -10658,15 +10658,15 @@ SCNG23
     North_Wilkesboro_250
     {
         Tier = 2
-        Speed = 80
+        Speed = 78
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 55
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -10689,7 +10689,7 @@ SCNG23
     Pocono_400
     {
         Tier = 2
-        Speed = 80
+        Speed = 70
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
@@ -11139,15 +11139,15 @@ SCNG23
     North_Wilkesboro_250
     {
         Tier = 2
-        Speed = 80
+        Speed = 78
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 55
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -11170,7 +11170,7 @@ SCNG23
     Pocono_400
     {
         Tier = 2
-        Speed = 80
+        Speed = 70
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
@@ -11620,15 +11620,15 @@ SCNG23
     North_Wilkesboro_250
     {
         Tier = 2
-        Speed = 80
+        Speed = 78
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
-        Composure = 55
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -11651,7 +11651,7 @@ SCNG23
     Pocono_400
     {
         Tier = 2
-        Speed = 80
+        Speed = 70
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
@@ -12101,15 +12101,15 @@ SCNG23
     North_Wilkesboro_250
     {
         Tier = 3
-        Speed = 80
+        Speed = 78
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
-        Composure = 55
+        Aggression = 35
+        Composure = 70
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -12132,7 +12132,7 @@ SCNG23
     Pocono_400
     {
         Tier = 3
-        Speed = 80
+        Speed = 70
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
@@ -12582,15 +12582,15 @@ SCNG23
     North_Wilkesboro_250
     {
         Tier = 3
-        Speed = 80
+        Speed = 78
         QualifySpeed = 80
         WetSpeed = 80
-        Aggression = 50
-        Composure = 45
+        Aggression = 35
+        Composure = 65
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 35.00
+        MinRacingSkill = 60.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -12613,7 +12613,7 @@ SCNG23
     Pocono_400
     {
         Tier = 3
-        Speed = 80
+        Speed = 70
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
@@ -13063,15 +13063,15 @@ SCNG23
     North_Wilkesboro_250
     {
         Tier = 3
-        Speed = 77
+        Speed = 75
         QualifySpeed = 75
         WetSpeed = 75
-        Aggression = 50
-        Composure = 45
+        Aggression = 35
+        Composure = 65
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 35.00
+        MinRacingSkill = 60.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -13094,7 +13094,7 @@ SCNG23
     Pocono_400
     {
         Tier = 3
-        Speed = 77
+        Speed = 70
         QualifySpeed = 75
         WetSpeed = 75
         Aggression = 50
@@ -13547,12 +13547,12 @@ SCNG23
         Speed = 75
         QualifySpeed = 75
         WetSpeed = 75
-        Aggression = 50
-        Composure = 45
+        Aggression = 35
+        Composure = 65
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 35.00
+        MinRacingSkill = 60.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -13575,7 +13575,7 @@ SCNG23
     Pocono_400
     {
         Tier = 3
-        Speed = 75
+        Speed = 70
         QualifySpeed = 75
         WetSpeed = 75
         Aggression = 50
@@ -14028,12 +14028,12 @@ SCNG23
         Speed = 75
         QualifySpeed = 75
         WetSpeed = 75
-        Aggression = 50
-        Composure = 45
+        Aggression = 35
+        Composure = 65
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 35.00
+        MinRacingSkill = 60.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -14056,7 +14056,7 @@ SCNG23
     Pocono_400
     {
         Tier = 3
-        Speed = 75
+        Speed = 70
         QualifySpeed = 75
         WetSpeed = 75
         Aggression = 50
@@ -14509,12 +14509,12 @@ SCNG23
         Speed = 75
         QualifySpeed = 75
         WetSpeed = 75
-        Aggression = 50
-        Composure = 45
+        Aggression = 35
+        Composure = 65
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 35.00
+        MinRacingSkill = 60.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -14537,7 +14537,7 @@ SCNG23
     Pocono_400
     {
         Tier = 3
-        Speed = 75
+        Speed = 70
         QualifySpeed = 75
         WetSpeed = 75
         Aggression = 50
@@ -14990,12 +14990,12 @@ SCNG23
         Speed = 72
         QualifySpeed = 70
         WetSpeed = 70
-        Aggression = 50
-        Composure = 35
+        Aggression = 35
+        Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 35.00
+        MinRacingSkill = 60.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -15018,7 +15018,7 @@ SCNG23
     Pocono_400
     {
         Tier = 3
-        Speed = 72
+        Speed = 70
         QualifySpeed = 70
         WetSpeed = 70
         Aggression = 50
@@ -15197,7 +15197,7 @@ SCNG23
     DrivingLine = FASTEST
     Atlanta_500
     {
-        Tier = 3
+        Tier = 2
         Speed = 90
         QualifySpeed = 90
         WetSpeed = 80
@@ -15206,7 +15206,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 75.00
         PracticeTime = 32
         PracticeTimeVariance = 0.2
         QualifyTime = 31.5
@@ -15467,16 +15467,16 @@ SCNG23
     }
     North_Wilkesboro_250
     {
-        Tier = 3
-        Speed = 80
-        QualifySpeed = 70
+        Tier = 2
+        Speed = 84
+        QualifySpeed = 85
         WetSpeed = 70
-        Aggression = 50
-        Composure = 35
+        Aggression = 55
+        Composure = 80
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 35.00
+        MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -15500,14 +15500,14 @@ SCNG23
     {
         Tier = 3
         Speed = 80
-        QualifySpeed = 70
+        QualifySpeed = 88
         WetSpeed = 70
         Aggression = 50
-        Composure = 35
+        Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 35.00
+        MinRacingSkill = 90.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST
@@ -15952,12 +15952,12 @@ SCNG23
         Speed = 70
         QualifySpeed = 70
         WetSpeed = 70
-        Aggression = 40
-        Composure = 35
+        Aggression = 35
+        Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 35.00
+        MinRacingSkill = 45.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -16433,12 +16433,12 @@ SCNG23
         Speed = 70
         QualifySpeed = 70
         WetSpeed = 70
-        Aggression = 40
-        Composure = 35
+        Aggression = 35
+        Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 35.00
+        MinRacingSkill = 45.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -16914,12 +16914,12 @@ SCNG23
         Speed = 70
         QualifySpeed = 70
         WetSpeed = 70
-        Aggression = 40
-        Composure = 25
+        Aggression = 25
+        Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
+        MinRacingSkill = 45.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -17395,12 +17395,12 @@ SCNG23
         Speed = 70
         QualifySpeed = 65
         WetSpeed = 65
-        Aggression = 40
-        Composure = 25
+        Aggression = 25
+        Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
+        MinRacingSkill = 45.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -17873,15 +17873,15 @@ SCNG23
     North_Wilkesboro_250
     {
         Tier = 4
-        Speed = 75
+        Speed = 70
         QualifySpeed = 65
         WetSpeed = 65
-        Aggression = 40
-        Composure = 25
+        Aggression = 25
+        Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
+        MinRacingSkill = 45.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -17904,7 +17904,7 @@ SCNG23
     Pocono_400
     {
         Tier = 4
-        Speed = 75
+        Speed = 66
         QualifySpeed = 65
         WetSpeed = 65
         Aggression = 40
@@ -18354,15 +18354,15 @@ SCNG23
     North_Wilkesboro_250
     {
         Tier = 4
-        Speed = 75
+        Speed = 70
         QualifySpeed = 65
         WetSpeed = 65
-        Aggression = 40
-        Composure = 25
+        Aggression = 25
+        Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
+        MinRacingSkill = 45.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -18385,7 +18385,7 @@ SCNG23
     Pocono_400
     {
         Tier = 4
-        Speed = 75
+        Speed = 66
         QualifySpeed = 65
         WetSpeed = 65
         Aggression = 40
@@ -18835,15 +18835,15 @@ SCNG23
     North_Wilkesboro_250
     {
         Tier = 4
-        Speed = 72
+        Speed = 68
         QualifySpeed = 65
         WetSpeed = 65
-        Aggression = 35
-        Composure = 25
+        Aggression = 25
+        Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
+        MinRacingSkill = 45.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -18866,7 +18866,7 @@ SCNG23
     Pocono_400
     {
         Tier = 4
-        Speed = 72
+        Speed = 65
         QualifySpeed = 65
         WetSpeed = 65
         Aggression = 35
@@ -19316,15 +19316,15 @@ SCNG23
     North_Wilkesboro_250
     {
         Tier = 4
-        Speed = 72
+        Speed = 68
         QualifySpeed = 60
         WetSpeed = 60
-        Aggression = 35
-        Composure = 25
+        Aggression = 25
+        Composure = 55
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
+        MinRacingSkill = 45.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -19347,7 +19347,7 @@ SCNG23
     Pocono_400
     {
         Tier = 4
-        Speed = 72
+        Speed = 65
         QualifySpeed = 60
         WetSpeed = 60
         Aggression = 35
@@ -19809,15 +19809,15 @@ SCNG23
     North_Wilkesboro_250
     {
         Tier = 4
-        Speed = 72
+        Speed = 68
         QualifySpeed = 60
         WetSpeed = 60
         Aggression = 25
-        Composure = 25
+        Composure = 50
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
+        MinRacingSkill = 45.00
         PracticeTimeVariance = 0.125
         QualifyTimeVariance = 0.125
         DrivingLine = FASTEST,HIGHLINE
@@ -19842,7 +19842,7 @@ SCNG23
     Pocono_400
     {
         Tier = 4
-        Speed = 72
+        Speed = 63
         QualifySpeed = 60
         WetSpeed = 60
         Aggression = 25
@@ -20295,11 +20295,11 @@ SCNG23
     North_Wilkesboro_250
     {
         Tier = 5
-        Speed = 72
+        Speed = 68
         QualifySpeed = 60
         WetSpeed = 60
-        Aggression = 25
-        Composure = 25
+        Aggression = 15
+        Composure = 50
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
@@ -20326,7 +20326,7 @@ SCNG23
     Pocono_400
     {
         Tier = 5
-        Speed = 72
+        Speed = 60
         QualifySpeed = 60
         WetSpeed = 60
         Aggression = 25
@@ -20779,8 +20779,8 @@ SCNG23
         Speed = 65
         QualifySpeed = 60
         WetSpeed = 60
-        Aggression = 35
-        Composure = 25
+        Aggression = 15
+        Composure = 50
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
@@ -20807,7 +20807,7 @@ SCNG23
     Pocono_400
     {
         Tier = 5
-        Speed = 65
+        Speed = 60
         QualifySpeed = 60
         WetSpeed = 60
         Aggression = 35
@@ -21257,11 +21257,11 @@ SCNG23
     North_Wilkesboro_250
     {
         Tier = 5
-        Speed = 60
+        Speed = 65
         QualifySpeed = 55
         WetSpeed = 55
-        Aggression = 25
-        Composure = 15
+        Aggression = 15
+        Composure = 50
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
@@ -21738,11 +21738,11 @@ SCNG23
     North_Wilkesboro_250
     {
         Tier = 5
-        Speed = 55
+        Speed = 65
         QualifySpeed = 55
         WetSpeed = 55
-        Aggression = 25
-        Composure = 15
+        Aggression = 15
+        Composure = 50
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
@@ -22219,11 +22219,11 @@ SCNG23
     North_Wilkesboro_250
     {
         Tier = 5
-        Speed = 55
+        Speed = 65
         QualifySpeed = 55
         WetSpeed = 55
-        Aggression = 35
-        Composure = 15
+        Aggression = 15
+        Composure = 50
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
