@@ -869,7 +869,7 @@ SCNG23
     Dover_400
     {
         Tier = 1
-        Speed = 99
+        Speed = 88
         QualifySpeed = 99
         WetSpeed = 99
         Aggression = 95
@@ -877,7 +877,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
+        MinRacingSkill = 85.00
         PracticeTimeVariance = 0.125
         QualifyTime = 22.44
         QualifyTimeVariance = 0.125
@@ -1353,7 +1353,7 @@ SCNG23
     Dover_400
     {
         Tier = 1
-        Speed = 99
+        Speed = 88
         QualifySpeed = 99
         WetSpeed = 99
         Aggression = 95
@@ -1361,7 +1361,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
+        MinRacingSkill = 85.00
         PracticeTime = 31.2
         PracticeTimeVariance = 0.125
         QualifyTime = 22.44
@@ -1850,7 +1850,7 @@ SCNG23
     Dover_400
     {
         Tier = 1
-        Speed = 92
+        Speed = 86
         QualifySpeed = 88
         WetSpeed = 90
         Aggression = 75
@@ -1858,7 +1858,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
+        MinRacingSkill = 85.00
         PracticeTimeVariance = 0.125
         QualifyTime = 22.44
         QualifyTimeVariance = 0.125
@@ -2331,7 +2331,7 @@ SCNG23
     Dover_400
     {
         Tier = 1
-        Speed = 93
+        Speed = 88
         QualifySpeed = 92
         WetSpeed = 85
         Aggression = 75
@@ -2339,7 +2339,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
+        MinRacingSkill = 85.00
         PracticeTimeVariance = 0.125
         QualifyTime = 22.44
         QualifyTimeVariance = 0.125
@@ -2812,7 +2812,7 @@ SCNG23
     Dover_400
     {
         Tier = 1
-        Speed = 95
+        Speed = 88
         QualifySpeed = 90
         WetSpeed = 90
         Aggression = 80
@@ -2820,7 +2820,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
+        MinRacingSkill = 85.00
         PracticeTimeVariance = 0.125
         QualifyTime = 22.44
         QualifyTimeVariance = 0.125
@@ -3293,7 +3293,7 @@ SCNG23
     Dover_400
     {
         Tier = 1
-        Speed = 92
+        Speed = 86
         QualifySpeed = 91
         WetSpeed = 88
         Aggression = 80
@@ -3301,7 +3301,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
+        MinRacingSkill = 85.00
         PracticeTimeVariance = 0.125
         QualifyTime = 22.5
         QualifyTimeVariance = 0.125
@@ -3774,7 +3774,7 @@ SCNG23
     Dover_400
     {
         Tier = 1
-        Speed = 92
+        Speed = 88
         QualifySpeed = 85
         WetSpeed = 90
         Aggression = 65
@@ -3782,7 +3782,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
+        MinRacingSkill = 82.00
         PracticeTimeVariance = 0.125
         QualifyTime = 22.5
         QualifyTimeVariance = 0.125
@@ -4255,7 +4255,7 @@ SCNG23
     Dover_400
     {
         Tier = 1
-        Speed = 92
+        Speed = 87
         QualifySpeed = 85
         WetSpeed = 80
         Aggression = 65
@@ -4263,7 +4263,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
+        MinRacingSkill = 82.00
         PracticeTimeVariance = 0.125
         QualifyTime = 22.5
         QualifyTimeVariance = 0.125
@@ -4736,7 +4736,7 @@ SCNG23
     Dover_400
     {
         Tier = 1
-        Speed = 95
+        Speed = 88
         QualifySpeed = 90
         WetSpeed = 88
         Aggression = 75
@@ -4744,7 +4744,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 50.00
-        MinRacingSkill = 99.00
+        MinRacingSkill = 82.00
         PracticeTimeVariance = 0.125
         QualifyTime = 22.5
         QualifyTimeVariance = 0.125
@@ -5217,7 +5217,7 @@ SCNG23
     Dover_400
     {
         Tier = 2
-        Speed = 88
+        Speed = 86
         QualifySpeed = 85
         WetSpeed = 85
         Aggression = 95
@@ -5698,15 +5698,15 @@ SCNG23
     Dover_400
     {
         Tier = 2
-        Speed = 88
-        QualifySpeed = 80
+        Speed = 86
+        QualifySpeed = 83
         WetSpeed = 88
         Aggression = 50
         Composure = 85
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 80.00
+        MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTime = 22.6
         QualifyTimeVariance = 0.125
@@ -6179,7 +6179,7 @@ SCNG23
     Dover_400
     {
         Tier = 2
-        Speed = 88
+        Speed = 86
         QualifySpeed = 88
         WetSpeed = 85
         Aggression = 50
@@ -6660,7 +6660,7 @@ SCNG23
     Dover_400
     {
         Tier = 2
-        Speed = 88
+        Speed = 86
         QualifySpeed = 87
         WetSpeed = 87
         Aggression = 95
@@ -7141,7 +7141,7 @@ SCNG23
     Dover_400
     {
         Tier = 2
-        Speed = 85
+        Speed = 83
         QualifySpeed = 89
         WetSpeed = 85
         Aggression = 50
@@ -7622,7 +7622,7 @@ SCNG23
     Dover_400
     {
         Tier = 2
-        Speed = 85
+        Speed = 83
         QualifySpeed = 85
         WetSpeed = 85
         Aggression = 50
@@ -7630,7 +7630,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 70.00
+        MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTime = 22.7
         QualifyTimeVariance = 0.125
@@ -8103,7 +8103,7 @@ SCNG23
     Dover_400
     {
         Tier = 2
-        Speed = 85
+        Speed = 83
         QualifySpeed = 83
         WetSpeed = 85
         Aggression = 50
@@ -8111,7 +8111,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 70.00
+        MinRacingSkill = 80.00
         PracticeTimeVariance = 0.125
         QualifyTime = 22.7
         QualifyTimeVariance = 0.125
@@ -8584,7 +8584,7 @@ SCNG23
     Dover_400
     {
         Tier = 2
-        Speed = 85
+        Speed = 83
         QualifySpeed = 88
         WetSpeed = 85
         Aggression = 50
@@ -8592,7 +8592,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 65.00
+        MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTime = 22.7
         QualifyTimeVariance = 0.125
@@ -9065,7 +9065,7 @@ SCNG23
     Dover_400
     {
         Tier = 2
-        Speed = 80
+        Speed = 78
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
@@ -9073,7 +9073,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 65.00
+        MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTime = 22.7
         QualifyTimeVariance = 0.125
@@ -9546,7 +9546,7 @@ SCNG23
     Dover_400
     {
         Tier = 2
-        Speed = 80
+        Speed = 78
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
@@ -9554,7 +9554,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 65.00
+        MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTime = 22.7
         QualifyTimeVariance = 0.125
@@ -10027,7 +10027,7 @@ SCNG23
     Dover_400
     {
         Tier = 2
-        Speed = 80
+        Speed = 78
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
@@ -10035,7 +10035,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 55.00
+        MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTime = 22.7
         QualifyTimeVariance = 0.125
@@ -10508,7 +10508,7 @@ SCNG23
     Dover_400
     {
         Tier = 2
-        Speed = 80
+        Speed = 78
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
@@ -10516,7 +10516,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTime = 22.8
         QualifyTimeVariance = 0.125
@@ -10989,7 +10989,7 @@ SCNG23
     Dover_400
     {
         Tier = 2
-        Speed = 80
+        Speed = 78
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
@@ -10997,7 +10997,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTime = 22.8
         QualifyTimeVariance = 0.125
@@ -11470,7 +11470,7 @@ SCNG23
     Dover_400
     {
         Tier = 2
-        Speed = 80
+        Speed = 78
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
@@ -11478,7 +11478,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 45.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTime = 22.8
         QualifyTimeVariance = 0.125
@@ -11951,7 +11951,7 @@ SCNG23
     Dover_400
     {
         Tier = 3
-        Speed = 80
+        Speed = 78
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
@@ -11959,7 +11959,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 50.00
+        MinRacingSkill = 70.00
         PracticeTimeVariance = 0.125
         QualifyTime = 22.9
         QualifyTimeVariance = 0.125
@@ -12432,7 +12432,7 @@ SCNG23
     Dover_400
     {
         Tier = 3
-        Speed = 80
+        Speed = 78
         QualifySpeed = 80
         WetSpeed = 80
         Aggression = 50
@@ -12440,7 +12440,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 35.00
+        MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
         QualifyTime = 22.9
         QualifyTimeVariance = 0.125
@@ -12913,7 +12913,7 @@ SCNG23
     Dover_400
     {
         Tier = 3
-        Speed = 77
+        Speed = 75
         QualifySpeed = 75
         WetSpeed = 75
         Aggression = 50
@@ -12921,7 +12921,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 35.00
+        MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
         QualifyTime = 23
         QualifyTimeVariance = 0.125
@@ -13394,7 +13394,7 @@ SCNG23
     Dover_400
     {
         Tier = 3
-        Speed = 75
+        Speed = 73
         QualifySpeed = 75
         WetSpeed = 75
         Aggression = 50
@@ -13402,7 +13402,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 35.00
+        MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
         QualifyTime = 23
         QualifyTimeVariance = 0.125
@@ -13875,7 +13875,7 @@ SCNG23
     Dover_400
     {
         Tier = 3
-        Speed = 75
+        Speed = 73
         QualifySpeed = 75
         WetSpeed = 75
         Aggression = 50
@@ -13883,7 +13883,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 35.00
+        MinRacingSkill = 65.00
         PracticeTimeVariance = 0.125
         QualifyTime = 23
         QualifyTimeVariance = 0.125
@@ -14356,7 +14356,7 @@ SCNG23
     Dover_400
     {
         Tier = 3
-        Speed = 75
+        Speed = 73
         QualifySpeed = 75
         WetSpeed = 75
         Aggression = 50
@@ -14364,7 +14364,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 35.00
+        MinRacingSkill = 60.00
         PracticeTimeVariance = 0.125
         QualifyTime = 23
         QualifyTimeVariance = 0.125
@@ -14837,7 +14837,7 @@ SCNG23
     Dover_400
     {
         Tier = 3
-        Speed = 72
+        Speed = 70
         QualifySpeed = 70
         WetSpeed = 70
         Aggression = 50
@@ -14845,7 +14845,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 35.00
+        MinRacingSkill = 60.00
         PracticeTimeVariance = 0.125
         QualifyTime = 23
         QualifyTimeVariance = 0.125
@@ -15317,16 +15317,16 @@ SCNG23
     }
     Dover_400
     {
-        Tier = 3
-        Speed = 80
-        QualifySpeed = 70
+        Tier = 2
+        Speed = 84
+        QualifySpeed = 80
         WetSpeed = 70
         Aggression = 50
-        Composure = 35
+        Composure = 95
         Courtesy = 99
         Recovery = 99
         StartSkill = 40.00
-        MinRacingSkill = 35.00
+        MinRacingSkill = 82.00
         PracticeTimeVariance = 0.125
         QualifyTime = 23
         QualifyTimeVariance = 0.125
@@ -15807,7 +15807,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 35.00
+        MinRacingSkill = 60.00
         PracticeTimeVariance = 0.125
         QualifyTime = 23
         QualifyTimeVariance = 0.125
@@ -16288,7 +16288,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 35.00
+        MinRacingSkill = 60.00
         PracticeTimeVariance = 0.125
         QualifyTime = 23
         QualifyTimeVariance = 0.125
@@ -16769,7 +16769,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
+        MinRacingSkill = 60.00
         PracticeTimeVariance = 0.125
         QualifyTime = 23
         QualifyTimeVariance = 0.125
@@ -17250,7 +17250,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
+        MinRacingSkill = 60.00
         PracticeTimeVariance = 0.125
         QualifyTime = 23.2
         QualifyTimeVariance = 0.125
@@ -17723,7 +17723,7 @@ SCNG23
     Dover_400
     {
         Tier = 4
-        Speed = 75
+        Speed = 70
         QualifySpeed = 65
         WetSpeed = 65
         Aggression = 40
@@ -17731,7 +17731,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
+        MinRacingSkill = 60.00
         PracticeTimeVariance = 0.125
         QualifyTime = 23.2
         QualifyTimeVariance = 0.125
@@ -18204,7 +18204,7 @@ SCNG23
     Dover_400
     {
         Tier = 4
-        Speed = 75
+        Speed = 70
         QualifySpeed = 65
         WetSpeed = 65
         Aggression = 40
@@ -18212,7 +18212,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
+        MinRacingSkill = 60.00
         PracticeTimeVariance = 0.125
         QualifyTime = 23.2
         QualifyTimeVariance = 0.125
@@ -18685,7 +18685,7 @@ SCNG23
     Dover_400
     {
         Tier = 4
-        Speed = 72
+        Speed = 70
         QualifySpeed = 65
         WetSpeed = 65
         Aggression = 35
@@ -18693,7 +18693,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
+        MinRacingSkill = 60.00
         PracticeTimeVariance = 0.125
         QualifyTime = 23.3
         QualifyTimeVariance = 0.125
@@ -19166,7 +19166,7 @@ SCNG23
     Dover_400
     {
         Tier = 4
-        Speed = 72
+        Speed = 70
         QualifySpeed = 60
         WetSpeed = 60
         Aggression = 35
@@ -19174,7 +19174,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
+        MinRacingSkill = 60.00
         PracticeTimeVariance = 0.125
         QualifyTime = 23.3
         QualifyTimeVariance = 0.125
@@ -19647,7 +19647,7 @@ SCNG23
     Dover_400
     {
         Tier = 4
-        Speed = 72
+        Speed = 70
         QualifySpeed = 60
         WetSpeed = 60
         Aggression = 25
@@ -19655,7 +19655,7 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
+        MinRacingSkill = 60.00
         PracticeTime = 31.2
         PracticeTimeVariance = 0.125
         QualifyTime = 23.3
@@ -20145,7 +20145,7 @@ SCNG23
     Dover_400
     {
         Tier = 5
-        Speed = 72
+        Speed = 70
         QualifySpeed = 60
         WetSpeed = 60
         Aggression = 25
@@ -20153,11 +20153,11 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
+        MinRacingSkill = 60.00
         PracticeTimeVariance = 0.125
         QualifyTime = 23.3
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = HIGHLINE,FASTEST
     }
     Homestead_400
     {
@@ -20634,11 +20634,11 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
+        MinRacingSkill = 60.00
         PracticeTimeVariance = 0.125
         QualifyTime = 23.3
         QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE,FASTEST
+        DrivingLine = HIGHLINE
     }
     Homestead_400
     {
@@ -21115,11 +21115,11 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
+        MinRacingSkill = 55.00
         PracticeTimeVariance = 0.125
         QualifyTime = 23.4
         QualifyTimeVariance = 0.125
-        DrivingLine = FASTEST
+        DrivingLine = HIGHLINE
     }
     Homestead_400
     {
@@ -21596,11 +21596,11 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
+        MinRacingSkill = 55.00
         PracticeTimeVariance = 0.125
         QualifyTime = 23.4
         QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE,FASTEST
+        DrivingLine = HIGHLINE
     }
     Homestead_400
     {
@@ -22077,11 +22077,11 @@ SCNG23
         Courtesy = 99
         Recovery = 99
         StartSkill = 35.00
-        MinRacingSkill = 25.00
+        MinRacingSkill = 55.00
         PracticeTimeVariance = 0.125
         QualifyTime = 23.5
         QualifyTimeVariance = 0.125
-        DrivingLine = HIGHLINE,FASTEST
+        DrivingLine = HIGHLINE
     }
     Homestead_400
     {
